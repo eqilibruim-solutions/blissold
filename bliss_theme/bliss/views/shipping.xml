@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="website_sale.checkout">
+
+        <t t-call="website.layout">
+            <t t-set="additional_title">Shop - Checkout</t>
+            <div id="wrap">
+                <div class="container oe_website_sale py-2">
+                    <t t-set="same_shipping"
+                       t-value="bool(order.partner_shipping_id==order.partner_id or only_services)"/>
+                    <div class="row">
+                        <div class="col-12 pt-4">
+                            <a href="/shop/cart" class=" mb32 d-none d-xl-inline-block color-black">
+                                <span class="fa fa-chevron-left"/>
+                                <span class="">Back to Cart</span>
+                            </a>
+                        </div>
+                        <div class="col-12 pt-4">
+                            <span class="my_bag_title">Secure Checkout</span>
+
+                        </div>
+                        <div class="col-12 pt-4">
+                            <div class="row">
+                                <span class="shipping-title-pink">Shipping Method</span>
+
+                            </div>
+                            <div class="d-flex justify-content-between p-4 col-6 color-black">
+                                <div>
+                                    <input class=" form-check-input" type="checkbox" value=""
+                                           name="Delivery"/>
+                                    <label class="form-check-label" for="Delivery">
+                                        Delivery
+                                    </label>
+
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="checkbox" value=""
+                                           name="pick_up"/>
+                                    <label class="form-check-label" for="pick_up">
+                                        Pick up in store
+                                    </label>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-12 col-xl-auto order-xl-2 d-none d-xl-block">
+                            <t t-call="bliss.short_cart_summary_mini">
+                                <t t-set="redirect" t-valuef="/shop/checkout"/>
+                            </t>
+                        </div>
+                        <div class="col-12 col-xl order-xl-1 oe_cart">
+                            <t t-if="not only_services" groups="sale.group_delivery_invoice_address">
+                                <div class="all_shipping">
+                                    <form action="/shop/address" method="post" class="checkout_autoformat"
+                                          id="shipping_form">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <span class="shipping-title-pink">Delivery Address</span>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row mt8">
+                                            <div class="col-lg-12">
+
+                                                <t t-foreach="shippings" t-as="ship">
+                                                    <div class="col-md-12 col-lg-6 one_kanban  d-none">
+                                                        <t t-call="website_sale.address_kanban">
+                                                            <t t-set="actual_partner" t-value="order.partner_id"/>
+                                                            <t t-set='contact' t-value="ship"/>
+                                                            <t t-set='selected'
+                                                               t-value="order.partner_shipping_id==ship"/>
+                                                            <t t-set='readonly' t-value="bool(len(shippings)==1)"/>
+                                                            <t t-set='edit_billing'
+                                                               t-value="bool(ship==order.partner_id)"/>
+                                                        </t>
+                                                    </div>
+                                                </t>
+                                                <div class="col-md-12 col-lg-12 one_kanban d-none">
+                                                    <a role="button" href="#"
+                                                       class='a-submit btn btn-secondary mb16 btn-block'>
+                                                        <i class="fa fa-plus-square"/>
+                                                        <span>Add an address</span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="col-md-12 col-lg-12 ">
+
+                                                    <div class="form-row">
+                                                        <div class="form-group col-lg-6 div_name">
+                                                            <input type="text" name="first_name"
+                                                                   placeholder="First Name"
+                                                                   class="form-control"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div class="form-group col-lg-6 div_name">
+                                                            <input type="text" name="last_name"
+                                                                   placeholder="Last Name"
+                                                                   class="form-control"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div class="w-100"/>
+
+                                                        <div class="form-group col-lg-4 div_country">
+                                                            <select id="country_code" name="country_code"
+                                                                    placeholder="Country Code"
+                                                                    class="form-control">
+                                                                <option value="">Country Code</option>
+                                                                <t t-foreach="countries" t-as="c">
+                                                                    <option t-att-value="c.id"
+                                                                            t-att-selected="c.id == (country and country.id or -1)">
+                                                                        <t t-esc="c.name"/>
+                                                                    </option>
+                                                                </t>
+                                                            </select>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-8"
+                                                             id="div_phone">
+                                                            <input type="tel" name="phone"
+                                                                   placeholder="Phone Number"
+                                                                   t-attf-class="form-control"
+                                                                   value=""/>
+                                                        </div>
+
+                                                        <div class="w-100"/>
+                                                        <div class="form-group col-lg-6 div_country">
+                                                            <select id="emirate" name="emirate"
+                                                                    placeholder="Select Emirate"
+                                                                    class="form-control">
+                                                                <option value="">Select Emirate</option>
+                                                                <t t-foreach="countries" t-as="c">
+                                                                    <option t-att-value="c.id"
+                                                                            t-att-selected="c.id == (country and country.id or -1)">
+                                                                        <t t-esc="c.name"/>
+                                                                    </option>
+                                                                </t>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group col-lg-6 div_country">
+                                                            <select id="country_code" name="area"
+                                                                    placeholder="Select Area"
+                                                                    class="form-control">
+                                                                <option value="">Select Area</option>
+                                                                <t t-foreach="countries" t-as="c">
+                                                                    <option t-att-value="c.id"
+                                                                            t-att-selected="c.id == (country and country.id or -1)">
+                                                                        <t t-esc="c.name"/>
+                                                                    </option>
+                                                                </t>
+                                                            </select>
+                                                        </div>
+                                                        <div class="w-100"/>
+
+                                                        <div t-attf-class="form-group  col-lg-12 div_street">
+
+                                                            <input type="text" name="street"
+                                                                   placeholder="Street Name/Street Number "
+                                                                   t-attf-class="form-control"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-12 div_street2">
+
+                                                            <input type="text" name="street2"
+                                                                   placeholder="Building Name/Building or Villa Number *"
+                                                                   class="form-control"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-12 div_street3">
+
+                                                            <input type="text" name="street3"
+                                                                   placeholder="Floor or Flat Number"
+                                                                   class="form-control"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div class="w-100"/>
+                                                        <div t-attf-class="form-group col-lg-12 div_delivrey_instruction">
+
+
+                                                            <textarea class="form-control" id="delivrey_instruction"
+                                                                      rows="3"
+                                                                      placeholder="Special Delivery Instructions"></textarea>
+
+                                                        </div>
+
+
+                                                        <input type="hidden" name="csrf_token"
+                                                               t-att-value="request.csrf_token()"/>
+                                                        <input type="hidden" name="submitted" value="1"/>
+                                                        <input type="hidden" name="partner_id"
+                                                               t-att-value="partner_id or '0'"/>
+                                                        <input type="hidden" name="callback"
+                                                               t-att-value="callback"/>
+                                                        <!-- Example -->
+                                                        <input type="hidden" name="field_required"
+                                                               t-att-value="'phone,name'"/>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <span class="shipping-title-pink">Pick up location</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt8">
+                                            <div class="form-group col-12 div_country">
+                                                <select id="emirate" name="emirate"
+                                                        placeholder="Select Emirate"
+                                                        class="form-control">
+                                                    <option value="">Select Emirate</option>
+                                                    <t t-foreach="countries" t-as="c">
+                                                        <option t-att-value="c.id"
+                                                                t-att-selected="c.id == (country and country.id or -1)">
+                                                            <t t-esc="c.name"/>
+                                                        </option>
+                                                    </t>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <span class="shipping-title-pink">Shipping Details</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="row mt8">
+                                            <div class="form-group col-lg-6 div_country">
+                                                <select id="emirate" name="emirate"
+                                                        placeholder="Select Emirate"
+                                                        class="form-control">
+                                                    <option value="">Select Emirate</option>
+                                                    <t t-foreach="countries" t-as="c">
+                                                        <option t-att-value="c.id"
+                                                                t-att-selected="c.id == (country and country.id or -1)">
+                                                            <t t-esc="c.name"/>
+                                                        </option>
+                                                    </t>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-lg-6 div_country">
+                                                <select id="country_code" name="area"
+                                                        placeholder="Select Area"
+                                                        class="form-control">
+                                                    <option value="">Select Area</option>
+                                                    <t t-foreach="countries" t-as="c">
+                                                        <option t-att-value="c.id"
+                                                                t-att-selected="c.id == (country and country.id or -1)">
+                                                            <t t-esc="c.name"/>
+                                                        </option>
+                                                    </t>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </t>
+                            <div class="d-flex justify-content-between mt-3">
+                                <a role="button" href="/shop/confirm_order" class="btn btb-bg-pink mb32 pr-5 pl-5">
+                                    <span>Proceed to Payment</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+
+
+    </template>
+    <template id="short_cart_summary_mini" name="short cart summary mini">
+        <div class="card js_cart_summary" t-if="website_sale_order and website_sale_order.website_order_line">
+            <div class="card-body card-body-pink">
+                <h4 class="d-none d-xl-block pink-cart-summary-title">Order Summary</h4>
+                <div>
+                    <t t-call="bliss.total_min">
+                        <t t-set='no_rowspan'>1</t>
+                    </t>
+
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="total_min">
+        <div id="cart_total_mini" t-att-class="extra_class or ''"
+             t-if="website_sale_order and website_sale_order.website_order_line">
+            <table class="table">
+                <tr id="empty">
+                    <t t-if='not no_rowspan'><td rowspan="10" class="border-0"/></t>
+                    <td class="col-md-2 col-3 border-0"></td>
+                    <td class="col-md-2 col-3 border-0"></td>
+                </tr>
+                <tr id="order_total_untaxed">
+                    <td class="border-0">Subtotal:</td>
+                    <td class="text-xl-right border-0">
+                        <span t-field="website_sale_order.amount_untaxed" class="monetary_field"
+                              style="white-space: nowrap;"
+                              t-options="{'widget': 'monetary', 'display_currency': website_sale_order.currency_id}"/>
+                    </td>
+                </tr>
+                <tr id="order_total_taxes">
+                    <td class="border-0">Shipping:</td>
+                    <td class="text-xl-right border-0">
+                        <span t-field="website_sale_order.amount_tax" class="monetary_field"
+                              style="white-space: nowrap;"
+                              t-options="{'widget': 'monetary', 'display_currency': website_sale_order.currency_id}"/>
+                    </td>
+                </tr>
+                <tr id="order_total_taxes">
+                    <td class="border-0">Taxes:</td>
+                    <td class="text-xl-right border-0">
+                        <span t-field="website_sale_order.amount_tax" class="monetary_field"
+                              style="white-space: nowrap;"
+                              t-options="{'widget': 'monetary', 'display_currency': website_sale_order.currency_id}"/>
+                    </td>
+                </tr>
+                <tr><hr></hr></tr>
+
+                <tr id="order_total">
+                    <td class=""><strong>Total:</strong></td>
+                    <td class="text-xl-right">
+                        <strong t-field="website_sale_order.amount_total" class="monetary_field"
+                                t-options='{"widget": "monetary", "display_currency": website_sale_order.pricelist_id.currency_id}'/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </template>
+
+
+    <template id="website_sale.address" name="Address Management">
+        <t t-call="website.layout">
+            <div id="wrap">
+                <div class="container oe_website_sale py-2">
+                    <div class="row">
+                        <div class="col-12 pt-4">
+                            <a href="/shop/cart" class=" mb32 d-none d-xl-inline-block color-black">
+                                <span class="fa fa-chevron-left"/>
+                                <span class="">Back to Cart</span>
+                            </a>
+                        </div>
+                        <div class="col-12 pt-4">
+                            <span class="my_bag_title">Secure Checkout</span>
+
+                        </div>
+                        <div class="col-12 pt-4">
+                            <div class="row">
+                                <span class="shipping-title-pink">Shipping Method</span>
+
+                            </div>
+                            <div class="d-flex justify-content-between p-4 col-6 color-black">
+                                <div>
+                                    <input class=" form-check-input" id="Delivery" type="radio" value="1"
+                                           checked='checked'
+                                           name="is_delivry"/>
+                                    <label class="form-check-label" for="Delivery">
+                                        Delivery
+                                    </label>
+
+                                </div>
+                                <div>
+                                    <input class="form-check-input" id="pick_up" type="radio" value="0"
+                                           name="is_delivry"/>
+                                    <label class="form-check-label" for="pick_up">
+                                        Pick up in store
+                                    </label>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-xl-auto order-xl-2 d-none d-xl-block">
+                            <t t-call="bliss.short_cart_summary_mini">
+                                <t t-set="redirect" t-valuef="/shop/checkout"/>
+                            </t>
+                        </div>
+
+                        <div class="col-12 col-xl order-xl-1 oe_cart">
+                            <div class="shipping_address">
+                                <t t-if="mode == ('new', 'billing')">
+                                    <h2 class="mt8 text-pink">Your Address
+                                        <small> or </small>
+                                        <a role="button" href='/web/login?redirect=/shop/checkout'
+                                           class='btn btn-login' style="margin-top: -11px">Log In</a>
+                                    </h2>
+                                </t>
+
+                                <t t-if="mode == ('edit', 'billing')">
+                                    <h2 class="o_page_header mt8 d-none">Your Address</h2>
+                                </t>
+                                <t t-if="mode[1] == 'shipping'">
+                                    <h2 class="o_page_header mt8 d-none">Shipping Address </h2>
+                                </t>
+                                <t t-if="partner_id == website_sale_order.partner_shipping_id.id == website_sale_order.partner_invoice_id.id">
+                                    <div class="alert alert-warning" role="alert">
+                                        <h4 class="alert-heading">Be aware!</h4>
+                                        <p t-if="not only_services" groups="sale.group_delivery_invoice_address">
+                                            You are editing your <b>billing and shipping</b> addresses at the same
+                                            time!<br/>
+                                            If you want to modify your shipping address, create a <a
+                                                href='/shop/address'>new address</a>.
+                                        </p>
+                                    </div>
+                                </t>
+                                <t t-if="error" t-foreach="error.get('error_message', [])" t-as="err">
+                                    <h4 class="text-pink" t-esc="err"/>
+                                </t>
+                                <form action="/shop/address" method="post" class="checkout_autoformat"
+                                      id="shipping_form">
+
+                                    <div id="shipping_address_delivry">
+
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <span class="shipping-title-pink">Delivery Address</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt8">
+                                            <div class="col-lg-12">
+
+                                                <t t-foreach="shippings" t-as="ship">
+                                                    <div class="col-md-12 col-lg-6 one_kanban  d-none">
+                                                        <t t-call="website_sale.address_kanban">
+                                                            <t t-set="actual_partner" t-value="order.partner_id"/>
+                                                            <t t-set='contact' t-value="ship"/>
+                                                            <t t-set='selected'
+                                                               t-value="order.partner_shipping_id==ship"/>
+                                                            <t t-set='readonly' t-value="bool(len(shippings)==1)"/>
+                                                            <t t-set='edit_billing'
+                                                               t-value="bool(ship==order.partner_id)"/>
+                                                        </t>
+                                                    </div>
+                                                </t>
+                                                <div class="col-md-12 col-lg-12 one_kanban d-none">
+                                                    <a role="button" href="#"
+                                                       class='a-submit btn btn-secondary mb16 btn-block'>
+                                                        <i class="fa fa-plus-square"/>
+                                                        <span>Add an address</span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="col-md-12 col-lg-12 ">
+
+                                                    <div class="form-row">
+                                                        <div t-attf-class="form-group col-lg-6 div_name #{error.get('first_name') and 'o_has_error' or ''}">
+                                                            <input type="text" name="first_name"
+                                                                   placeholder="First Name *"
+                                                                   t-attf-class="form-control #{error.get('first_name') and 'is-invalid' or ''}"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-6 div_name #{error.get('last_name') and 'o_has_error' or ''}">
+                                                            <input type="text" name="last_name"
+                                                                   placeholder="Last Name *"
+                                                                   t-attf-class="form-control #{error.get('last_name') and 'is-invalid' or ''}"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div class="w-100"/>
+
+                                                        <div t-attf-class="form-group col-lg-4 div_country #{error.get('country_code') and 'o_has_error' or ''}">
+                                                            <select id="country_code" name="country_code"
+                                                                    placeholder="Country Code *"
+                                                                    t-attf-class="form-control #{error.get('country_code') and 'is-invalid' or ''}">
+                                                                <option value="">Country Code</option>
+                                                                <t t-foreach="countries" t-as="c">
+                                                                    <option t-att-value="c.id"
+                                                                            t-att-selected="c.id == (country and country.id or -1)">
+                                                                        <t t-esc="c.name"/>
+                                                                    </option>
+                                                                </t>
+                                                            </select>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-8 #{error.get('phone') and 'o_has_error' or ''}"
+                                                             id="div_phone">
+                                                            <input type="tel" name="phone"
+                                                                   placeholder="Phone Number *"
+                                                                   t-attf-class="form-control #{error.get('phone') and 'is-invalid' or ''}"
+                                                                   value=""/>
+                                                        </div>
+
+                                                        <div class="w-100"/>
+                                                        <div t-attf-class="form-group col-lg-6 div_country #{error.get('emirate') and 'o_has_error' or ''}">
+                                                            <select id="emirate" name="emirate"
+                                                                    placeholder="Select Emirate *"
+                                                                    t-attf-class="form-control #{error.get('emirate') and 'is-invalid' or ''}">
+                                                                <option value="">Select Emirate</option>
+                                                                <t t-foreach="countries" t-as="c">
+                                                                    <option t-att-value="c.id"
+                                                                            t-att-selected="c.id == (country and country.id or -1)">
+                                                                        <t t-esc="c.name"/>
+                                                                    </option>
+                                                                </t>
+                                                            </select>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-6 div_country #{error.get('area') and 'o_has_error' or ''}">
+                                                            <select id="country_code" name="area"
+                                                                    placeholder="Select Area *"
+                                                                    t-attf-class="form-control #{error.get('area') and 'is-invalid' or ''}">
+                                                                <option value="">Select Area</option>
+                                                                <t t-foreach="countries" t-as="c">
+                                                                    <option t-att-value="c.id"
+                                                                            t-att-selected="c.id == (country and country.id or -1)">
+                                                                        <t t-esc="c.name"/>
+                                                                    </option>
+                                                                </t>
+                                                            </select>
+                                                        </div>
+                                                        <div class="w-100"/>
+
+                                                        <div t-attf-class="form-group  col-lg-12 div_street #{error.get('street') and 'o_has_error' or ''}">
+
+                                                            <input type="text" name="street"
+                                                                   placeholder="Street Name/Street Number *"
+                                                                   t-attf-class="form-control #{error.get('street') and 'is-invalid' or ''}"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-12 div_street2 #{error.get('street2') and 'o_has_error' or ''}">
+
+                                                            <input type="text" name="street2"
+                                                                   placeholder="Building Name/Building or Villa Number *"
+                                                                   t-attf-class="form-control #{error.get('street2') and 'is-invalid' or ''}"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div t-attf-class="form-group col-lg-12 div_street3 #{error.get('street3') and 'o_has_error' or ''}">
+
+                                                            <input type="text" name="street3"
+                                                                   placeholder="Floor or Flat Number *"
+                                                                   t-attf-class="form-control #{error.get('street3') and 'is-invalid' or ''}"
+                                                                   value=""/>
+                                                        </div>
+                                                        <div class="w-100"/>
+                                                        <div t-attf-class="form-group col-lg-12 div_delivrey_instruction">
+
+
+                                                            <textarea class="form-control" id="delivrey_instruction"
+                                                                      rows="3"
+                                                                      placeholder="Special Delivery Instructions"></textarea>
+
+                                                        </div>
+
+
+                                                        <input type="hidden" name="csrf_token"
+                                                               t-att-value="request.csrf_token()"/>
+                                                        <input type="hidden" name="submitted" value="1"/>
+                                                        <input type="hidden" name="partner_id"
+                                                               t-att-value="partner_id or '0'"/>
+                                                        <input type="hidden" name="callback"
+                                                               t-att-value="callback"/>
+                                                        <!-- Example -->
+                                                        <input type="hidden" name="field_required"
+                                                               t-att-value="'first_name,last_name,country_code,phone,emirate,name,area,street,street2,street3'"/>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div id="shipping_address_pick_up" style="display:none">
+
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <span class="shipping-title-pink">Pick up location</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt8">
+                                            <div class="col-lg-12">
+                                                <div class="col-md-12 col-lg-12 ">
+                                                    <div class="form-row">
+
+                                                        <select id="emirate" name="emirate"
+                                                                placeholder="Select Emirate"
+                                                                class="form-control">
+                                                            <option value="">Select Emirate</option>
+                                                            <t t-foreach="countries" t-as="c">
+                                                                <option t-att-value="c.id"
+                                                                        t-att-selected="c.id == (country and country.id or -1)">
+                                                                    <t t-esc="c.name"/>
+                                                                </option>
+                                                            </t>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <span class="shipping-title-pink">Shipping Details</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="row mt8">
+                                        <div class="col-lg-12">
+                                            <div class="col-md-12 col-lg-12 ">
+                                                <div class="form-row">
+                                                    <div class="form-group col-lg-6 div_name">
+                                                        <input class="form-control" type="text" id="date_delivry"
+                                                               name="Delivery Date" placeholder='Delivery Date'/>
+
+
+                                                    </div>
+                                                    <div class="form-group col-lg-6 div_name">
+                                                        <input class="form-control" type="text" id="time_slot"
+                                                               name="time_slot" placeholder='Time Slot'/>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <t t-if="mode == ('new', 'billing') and not only_services">
+                                        <div class="col-lg-12 d-none">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" id='shipping_use_same' class="mr8"
+                                                           name='use_same' value="1" checked='checked'/>Ship to the
+                                                    same address
+                                                    <span class='ship_to_other text-muted' style="display: none">
+                                                        &amp;nbsp;(<i>Your shipping address will be requested
+                                                        later) </i></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </t>
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                    <input type="hidden" name="submitted" value="1"/>
+                                    <input type="hidden" name="partner_id" t-att-value="partner_id or '0'"/>
+                                    <input type="hidden" name="callback" t-att-value="callback"/>
+                                    <!-- Example -->
+                                    <input type="hidden" name="field_required" t-att-value="'phone,name'"/>
+                                    <div class="d-flex justify-content-between mt-3">
+                                        <a role="button" href="#"
+                                           class="btn btb-bg-pink mb32 pr-5 pl-5 a-submit a-submit-disable a-submit-loading">
+                                            <span>Proceed to Payment</span>
+                                        </a>
+
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+</odoo>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record id="menu_shop" model="website.menu">
+            <field name="name">Shop</field>
+            <field name="url">/shops</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">10</field>
+        </record>
+
+        <!-- Blog-related subtypes for messaging / Chatter -->
+        <record id="menu_events" model="website.menu">
+            <field name="name">Events</field>
+            <field name="url">/events</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">20</field>
+        </record>
+        <record id="menu_this_is_bliss" model="website.menu">
+            <field name="name">This is Bliss</field>
+            <field name="url">/bliss</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_customer_care" model="website.menu">
+            <field name="name">Customer care</field>
+            <field name="url">/customercare</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">40</field>
+        </record>
+    </data>
+
+
+</odoo>

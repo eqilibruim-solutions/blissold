@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_customer_care" name="customer care">
+        <section class="s_customer_care pb24" style="min-height: 800px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <ul class="list-unstyled list_side_bar o_editable ml-5">
+                            <li class="selected_li_sidebare">Customer Care</li>
+                            <li>Terms</li>
+                            <li>Contact Us</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-10 p-0 o_editable">
+                        <div class="row p-0 justify-content-center">
+
+
+                            <div class="col-md-6 p-5 pt80 s_about_us_text_4 o_editable">
+                                <span>
+                                    Shipping
+                                    Bliss Flower Boutique is delighted to offer shipping of fresh flowers and gifts with
+                                    free same day delivery within the UAE - Dubai, Abu Dhabi, Ras Al Khaimah, Sharjah,
+                                    Ajman and Umm Al Quwain for orders over 300 AED.
+
+                                    We have three delivery slots per day; 8am-12pm, 12pm-5pm and 5-10pm.
+
+                                    The cut off time for each delivery slot is 2 hours prior to the slot - please note
+                                    due to high demand and capacity occasionally from time to time some slots maybe
+                                    unavailable.
+
+                                    We offer free delivery to all emirates for all orders over 300 AED.
+
+                                    For orders under 300 AED, a 50AED surcharge will be added on checkout to the
+                                    following areas.
+
+
+                                    Fujairah:
+                                    Including Kalba, Khorfakkan, Dibba and Masafi
+
+                                    Sharjah:
+                                    Falaj, Maleha and Al Madam
+
+                                    Dubai:
+                                    Hatta
+
+                                    Umm Al Quwain Remote:
+                                    Al Mualla
+
+                                    Abu Dhabi Remote:
+                                    Al Yarya, Bateen Liwa, Asab, Sabkah, Jereirah, Taraq, Arada, Zayed City, Habshan,
+                                    Ghiyathi, Al Ruwais and Al Mirfa
+                                </span>
+                            </div>
+
+                            <div class="col-md-6 p-5 pt80 s_about_us_text_4 o_editable">
+                                <span class="o_editable" >
+                                    Changes and Cancellations
+
+                                    If you change your mind, or wish to cancel your order, please contact us the soonest
+                                    via info@Blissuae.com
+
+                                    Provided your order has not been taken into production we will be able to change
+                                    your order or cancel the order and provide a refund where applicable.
+
+                                    If the order is out for delivery, but has not reached its destination we will aim to
+                                    contact the driver to cancel the delivery. However we will not be able to provide a
+                                    refund of the product due to the vulnerability and quality of the fresh products
+                                    used.
+
+                                    Refund Policy
+
+                                    In the unlikely event you are unhappy with your purchase at Bliss, Bliss FZCO may
+                                    depending on the circumstances, refund the price of the product or provide an other
+                                    solutions such as resending the product or resending a different gift of the same
+                                    value.
+
+                                    As we are working with fresh products it will be to our complete discretion what
+                                    solution will be suitable and applicable.
+
+                                    When a replacement or other solution is granted we aim to have this resolved within
+                                    1 working day. When a refund is provided please allow 7-10 days depending on your
+                                    bank for it to reach your account
+
+                                    Customer Care
+
+                                    Have any questions, comments or concerns?
+                                    Please feel free to contact us at info@blissuae.com
+
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+
+
+</odoo>

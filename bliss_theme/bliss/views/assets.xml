@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" name="bliss assets" inherit_id="web.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/bliss/static/src/scss/custom.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/bliss/static/src/scss/custom.scss"/>
+        </xpath>
+
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/bliss/static/src/js/layout.js"></script>
+            <script type="text/javascript" src="/bliss/static/src/js/website_sale_best_sellers.js"></script>
+        </xpath>
+
+    </template>
+    <record id="website_sale.product_comment" model="ir.ui.view">
+        <field name="active" eval="True"/>
+    </record>
+</odoo>

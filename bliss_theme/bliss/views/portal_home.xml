@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+
+    <template id="portal.portal_layout" name="Portal Layout">
+        <t t-call="portal.frontend_layout">
+            <t t-set="is_portal" t-value="True"/>
+
+            <div t-if="not no_breadcrumbs and not my_details and not breadcrumbs_searchbar"
+                 class="o_portal container mt-3">
+                <div class="row align-items-center bg-white no-gutters border rounded">
+                    <div class="col">
+                        <t t-call="portal.portal_breadcrumbs"></t>
+                    </div>
+                    <div t-if="prev_record or next_record" class="col flex-grow-0">
+                        <t t-call='portal.record_pager'/>
+                    </div>
+                </div>
+            </div>
+            <div id="wrap" class='o_portal_wrap'>
+                <div class="container mb64">
+                    <t t-if="my_details">
+                        <div class="row mt-4">
+                            <div t-attf-class="col-12 col-md col-lg-4 d-none">
+                                <t t-raw="0"/>
+                            </div>
+                            <div t-attf-class="col-12 col-md col-lg-4">
+                                <ul class="list-unstyled list_side_bar ml-5 pt-5">
+                                    <li class="selected_li_sidebare">My Account</li>
+                                    <li><a class="color-black" href="/my/orders">Orders</a></li>
+                                    <li>Bliss Points</li>
+
+                                </ul>
+                            </div>
+                            <div id="o_my_sidebar" class="col-12 col-md col-lg-8 col-xl-8 o_my_sidebar mx-auto">
+                                <div class="o_my_contact" t-if="sales_user">
+                                    <t t-call="portal.portal_contact"/>
+                                </div>
+                                <div class="o_portal_my_details">
+                                    <div class="row mt-4" id="welcome_user">
+                                        <span>Welcome  <em t-esc="user_id.partner_id.name"></em>,</span>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class=" card w-75 m-2 card_bag_item" style="height:375px;">
+                                            <div class="card-body p-5">
+                                                <div class="row justify-content-between">
+                                                    <span class="text_card_user_1">You are a gold member</span>
+                                                    <span class="text_card_user_2">4,500 points needed to reach next
+                                                        tier</span>
+                                                </div>
+                                                <div class="row text_card_user_3 pt-5">
+                                                    <span>18,567 Bliss Points</span>
+                                                </div>
+                                                <div class="row pt-2">
+                                                    <span class="text_card_user_2">10,500 expiring on 12/12/22</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mt-4 mb-0"/>
+                                    <div class="row mt-4">
+                                        <span class="w-100 text_card_user_4">YOUR DETAILS <a role="button"
+                                                                                             href="/my/account"
+                                                                                             class="btn btn-sm btn-link text_card_user_5"><i
+                                                class="fa fa-pencil"/> Edit</a></span>
+                                        <div class="form-row w-100">
+                                            <div class="form-group col-lg-6">
+
+                                                <div class="form-group d-flex text_card_user_6">
+                                                    <label>First name : </label>
+                                                    <span class="color-black" t-esc="user_id.partner_id.name"></span>
+
+                                                </div>
+                                                <div class="form-group d-flex text_card_user_6">
+                                                    <label>Phone Number : </label>
+                                                    <span class="color-black" t-esc="user_id.partner_id.phone"></span>
+
+                                                </div>
+
+
+                                            </div>
+                                            <div class="form-group col-lg-6">
+
+                                                <div class="form-group d-flex text_card_user_6">
+                                                    <label class="text_card_user_6">Email : </label>
+                                                    <span class="color-black" t-esc="user_id.partner_id.email"></span>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <hr class="mt-4 mb-0"/>
+                                    <div class="row mt-4">
+                                        <span class="w-100 text_card_user_4">YOUR ADDRESSESS <a role="button"
+                                                                                                href="/my/account"
+                                                                                                class="btn btn-sm btn-link text_card_user_5"><i
+                                                class="fa fa-pencil"/> Edit</a></span>
+                                        <div t-field="user_id.partner_id"
+                                             t-options='{"widget": "contact", "fields": ["email", "phone", "address", "name"]}'/>
+                                    </div>
+                                    <hr class="mt-4 mb-0"/>
+                                    <div class="row mt-4">
+                                        <span class="w-100 text_card_user_4">COMMUNICATION PREFERENCES <a role="button"
+                                                                                                          href="/my/account"
+                                                                                                          class="btn btn-sm btn-link text_card_user_5"><i
+                                                class="fa fa-pencil"/> Edit</a></span>
+                                        <p>Subscribe to our newsletters and be the first with our new arrivals,
+                                            exclusive
+                                            collections, offers and more.</p>
+                                    </div>
+
+                                </div>
+                                <div class="o_my_archives" t-if="archive_groups">
+                                    <t t-call="portal.portal_archive_groups"/>
+                                </div>
+                            </div>
+                            <div t-attf-class="col-12 col-md col-lg-3 d-none">
+                                <t t-raw="0"/>
+                            </div>
+                        </div>
+
+                    </t>
+                    <t t-else="">
+                        <t t-raw="0"/>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="portal.portal_my_home" name="My Portal">
+        <t t-call="portal.portal_layout">
+            <t t-set="my_details" t-value="True"/>
+            <div class="o_portal_my_home">
+                <div class="oe_structure" id="oe_structure_portal_my_home_1"/>
+                <h3>Documents</h3>
+                <div class="o_portal_docs list-group">
+                </div>
+            </div>
+            <div class="oe_structure" id="oe_structure_portal_my_home_2"/>
+        </t>
+    </template>
+
+</odoo>

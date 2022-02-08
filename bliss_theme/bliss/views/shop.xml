@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="website_sale.sort" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="website_sale.add_grid_or_list_option" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="website_sale.products_categories" model="ir.ui.view">
+        <field name="active" eval="True"/>
+    </record>
+    <template id="products_bliss" inherit_id="website_sale.products" name="Products bliss">
+
+        <xpath expr="//div[contains(@t-attf-class, 'o_wsale_product_grid_wrapper')]" position="attributes">
+            <attribute name="t-attf-class" remove="o_wsale_product_grid_wrapper" separator=" "/>
+        </xpath>
+    </template>
+
+
+    <template id="products_item" inherit_id="website_sale.products_item" name="bliss Products item">
+
+        <xpath expr="//form" position="replace">
+
+            <form action="/shop/cart/update" method="post" class=" oe_product_cart"
+                  t-att-data-publish="product.website_published and 'on' or 'off'"
+                  itemscope="itemscope" itemtype="http://schema.org/Product">
+                <div class="card-body p-1 oe_product_image">
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <div class="ribbon-wrapper">
+                        <a href="#" role="button" class="ribbon btn btn-danger">Sale</a>
+                    </div>
+                    <a t-att-href="product_href" class="d-block h-100" itemprop="url">
+                        <t t-set="image_holder" t-value="product._get_image_holder()"/>
+                        <span t-field="image_holder.image_1920"
+                              t-options="{'widget': 'image', 'preview_image': 'image_1024' if product_image_big else 'image_256', 'itemprop': 'image'}"
+                              class="d-flex h-100 justify-content-center"/>
+                    </a>
+                </div>
+                <div class="card-body p-0 text-center">
+                    <div class="p-2 o_wsale_product_information_text">
+                        <h6 class="o_wsale_products_item_title">
+                            <a itemprop="name" t-att-href="product_href" t-att-content="product.name"
+                               t-field="product.name"/>
+                            <a role="button" t-if="not product.website_published" t-att-href="product_href"
+                               class="btn btn-sm btn-danger" title="This product is unpublished.">Unpublished</a>
+                        </h6>
+                        <div class="product_price" itemprop="offers" itemscope="itemscope"
+                             itemtype="http://schema.org/Offer">
+                            <del t-attf-class="text-danger mr-2 {{'' if combination_info['has_discounted_price'] else 'd-none'}}"
+                                 style="white-space: nowrap;" t-esc="combination_info['list_price']"
+                                 t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
+                            <span t-if="combination_info['price']" t-esc="combination_info['price']"
+                                  t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
+                            <span itemprop="price" style="display:none;" t-esc="combination_info['price']"/>
+                            <span itemprop="priceCurrency" style="display:none;" t-esc="website.currency_id.name"/>
+                        </div>
+                    </div>
+                    <div class="o_wsale_product_btn"/>
+                </div>
+            </form>
+
+        </xpath>
+
+    </template>
+
+
+    <template id="products" inherit_id="website_sale.products" name="Products bliss">
+        <xpath expr='//div[hasclass("oe_website_sale")]' position="before">
+            <div class="row">
+                <t t-if="category and category.image_1920">
+                    <span t-field="category.image_1920" t-options="{'widget': 'image'}" role="img"/>
+                </t>
+                <t t-else="">
+                    <img class="w-100 img-fluid"
+                         src="/bliss/static/src/img/content/s_default_categ.png"/>
+
+                </t>
+
+            </div>
+        </xpath>
+
+        <xpath expr='//t[@t-call="website_sale.pricelist_list"]' position="replace">
+        </xpath>
+        <xpath expr='//t[@t-call="website.pager"]' position="replace">
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'o_wsale_product_grid_wrapper')]" position="attributes">
+            <attribute name="t-attf-class" remove="o_wsale_product_grid_wrapper" separator=" "/>
+        </xpath>
+        <xpath expr="//div[@id='products_grid']" position="attributes">
+            <attribute name="t-attf-class" remove="col" separator=" "/>
+        </xpath>
+        <xpath expr="//div[@id='products_grid']" position="attributes">
+            <attribute name="t-attf-class" add="mt-5" separator=" "/>
+        </xpath>
+        <xpath expr="//div[@id='products_grid_before']" position="before">
+            <div id="products_categories_with_parent" class="col-lg-12"/>
+        </xpath>
+        <xpath expr="//div[@id='products_grid_before']" position="after">
+            <div class="col-lg-6 text-right item_count pt-5 my-auto "><span t-esc="search_count"/><span>
+                Items</span></div>
+        </xpath>
+
+        <xpath expr="//div[@id='products_grid_before']" position="attributes">
+            <attribute name="class" remove="col-lg-3" separator=" "/>
+            <attribute name="class" add="col-lg-6 d-flex justify-content-lg-between pt-5" separator=" "/>
+        </xpath>
+    </template>
+
+    <template id="products_categories_with_parent" inherit_id="website_sale.products" active="True"
+              name="eCommerce Categories with parent">
+        <xpath expr="//div[@id='products_categories_with_parent']" position="inside">
+
+            <div class="collapse d-lg-block" id="wsale_products_categories_collapse_with_parent">
+                <ul class="nav nav-pills justify-content-between ">
+                    <t t-foreach="categories" t-as="c">
+                        <t t-call="bliss.categories_non_recursive"/>
+                    </t>
+                </ul>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="categories_non_recursive" name="Category list non recursive">
+        <li t-if="not c.child_id" class="nav-item">
+            <a t-att-href="keep('/shop/category/' + slug(c), category=0)"
+               t-attf-class="nav-link #{'active' if c.id == category.id else ''}">
+                <span t-field="c.name"/>
+            </a>
+        </li>
+    </template>
+
+
+    <template id="website_sale.products_categories" inherit_id="website_sale.products" active="True"
+              customize_show="True" name="eCommerce Categories">
+        <xpath expr="//div[@id='products_grid_before']" position="before">
+            <t t-set="enable_left_column" t-value="True"/>
+        </xpath>
+
+        <xpath expr="//div[@id='products_grid_before']" position="inside">
+
+
+            <button type="button" class="btn btn-link d-lg-none"
+                    data-target="#wsale_products_categories_collapse" data-toggle="collapse">
+                Show categories
+            </button>
+            <div class="collapse d-lg-block w-100" id="wsale_products_categories_collapse">
+                <ul class="nav nav-pills justify-content-between">
+                    <li>
+                        <t t-set="list_price_desc_label">Catalog price: High to Low</t>
+                        <t t-set="list_price_asc_label">Catalog price: Low to High</t>
+                        <t t-set="name_asc_label">Name: A to Z</t>
+                        <t t-set="name_desc_label">Name: Z to A</t>
+                        <t t-set="website_sale_sortable" t-value="[
+                (list_price_desc_label, 'list_price desc'),
+                (list_price_asc_label, 'list_price asc'),
+                (name_asc_label, 'name asc'),
+                (name_desc_label, 'name desc')
+            ]"/>
+                        <t t-set="website_sale_sortable_current"
+                           t-value="[sort for sort in website_sale_sortable if sort[1]==request.params.get('order', '')]"/>
+                        <div class="dropdown mt-2 ml-md-2 dropdown_sorty_by">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-chevron-down" style="font-size: initial;"></i>
+                                <span class="d-none d-lg-inline color-black">
+                                    <t t-if='len(website_sale_sortable_current)'>
+                                        Sorting by : <t t-raw='website_sale_sortable_current[0][0]'/>
+                                    </t>
+                                    <t t-else='1'>
+                                        Sort by
+                                    </t>
+                                </span>
+                            </a>
+
+                            <i class="fa fa-sort-amount-asc d-lg-none"/>
+
+                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                <t t-foreach="website_sale_sortable" t-as="sortby">
+                                    <a role="menuitem" rel="noindex,nofollow"
+                                       t-att-href="keep('/shop', order=sortby[1])"
+                                       class="dropdown-item">
+                                        <span t-raw="sortby[0]"/>
+                                    </a>
+                                </t>
+                            </div>
+                        </div>
+                    </li>
+                    <t t-foreach="categories" t-as="c">
+                        <t t-call="website_sale.categories_recursive"/>
+                    </t>
+                </ul>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="website_sale.option_collapse_categories_recursive" name="Collapse Category Recursive">
+        <li t-if="c.child_id" class="nav-item">
+            <t t-set="children"
+               t-value="not search and c.child_id or c.child_id.filtered(lambda c: c.id in search_categories_ids)"/>
+            <i t-if="children"
+               class="fa fa-chevron-down color-black"
+               t-attf-title="#{'Unfold' if c.id in category.parents_and_self.ids else 'Fold'}"
+               t-attf-aria-label="#{'Unfold' if c.id in category.parents_and_self.ids else 'Fold'}" role="img"/>
+            <a t-att-href="keep('/shop/category/' + slug(c), category=0)"
+               t-attf-class="nav-link #{'active' if c.id == category.id else ''}" t-field="c.name"></a>
+            <ul t-if="children" class="nav nav-pills nav-hierarchy"
+                t-att-style="'display:block;' if c.id in category.parents_and_self.ids else 'display:none;'">
+                <t t-foreach="children" t-as="c">
+                    <t t-if="c.child_id">
+                        <t t-call="website_sale.option_collapse_categories_recursive"/>
+                    </t>
+                    <t t-else="">
+                        <li class="nav-item">
+                            <a t-att-href="keep('/shop/category/' + slug(c), category=0)"
+                               t-attf-class="nav-link #{'active' if c.id == category.id else ''}" t-field="c.name"></a>
+                        </li>
+
+                    </t>
+                </t>
+            </ul>
+        </li>
+    </template>
+
+
+     <template id="header" inherit_id="website.layout" name="Header Shop Wishlist Link">
+        <xpath expr="//header//ul[@id='top_menu']/li[contains(@t-attf-class, 'o_wsale_my_cart')]" position="after">
+            <t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
+                <t t-set='wishcount' t-value="len(request.env['product.wishlist'].current())"/>
+                <li class="nav-item o_wsale_my_wish" t-att-style="not wishcount and 'display:none;'">
+                    <a href="/shop/wishlist" class="nav-link">
+                        <i class="fa fa-heart"/>
+                        Wishlist <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary"><t t-esc='wishcount'/></sup>
+                    </a>
+                </li>
+            </t>
+        </xpath>
+    </template>
+
+
+    <template id="portal.pager" name="Pager">
+        <ul t-if="pager['page_count'] > 1" t-attf-class="#{ classname or '' } pagination m-0 pt-5 #{_classes}"
+            t-att-style="style or None">
+            <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == 1 else ''}">
+                <a t-att-href=" pager['page_previous']['url'] if pager['page']['num'] != 1 else None" class="page-link border-0 font-weight-bold">
+                    PREV</a>
+            </li>
+            <t t-foreach="pager['pages']" t-as="page">
+                <li t-attf-class="page-item mr-2 #{'active' if page['num'] == pager['page']['num'] else ''}"><a
+                        t-att-href="page['url']" class="page-link page-link-round" t-raw="page['num']"></a></li>
+            </t>
+            <li t-attf-class="page-item #{'disabled' if pager['page']['num'] == pager['page_count'] else ''}">
+                <a t-att-href="pager['page_next']['url'] if pager['page']['num'] != pager['page_count'] else None"
+                   class="page-link border-0 font-weight-bold">NEXT</a>
+            </li>
+        </ul>
+    </template>
+</odoo>

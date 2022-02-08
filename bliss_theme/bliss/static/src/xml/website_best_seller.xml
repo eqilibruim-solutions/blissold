@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <!-- Recently Viewed Products Carousel -->
+    <t t-name="bliss.productsBestSeller">
+        <div t-att-id="uniqueId" class="carousel slide o_not_editable row" data-interval="false">
+           <div class="col-lg-4 pl-5 mt-5 " id="bestseller_title">
+               <span class="d-lg-table">
+                   <span>Explore our Bestsellers</span>
+                   <t t-if='productsGroups.length > 1'>
+
+                   <a class="d-block" t-att-href="'#' + uniqueId" role="button"
+                      data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                       <span class="sr-only">Next</span>
+                    </a>
+               </t>
+               </span>
+           </div>
+            <div class="carousel-inner col-lg-8">
+
+
+                <t t-foreach="productsGroups" t-as="products">
+                    <div t-attf-class="carousel-item #{!products_index and 'active' or ''}">
+                        <div class="row">
+                            <t t-foreach="products" t-as="product">
+                                <div t-attf-class="o_carousel_product_card_wrap col-md-#{12 / productFrame}">
+                                    <div class="o_carousel_product_card card h-100">
+                                        <input type="hidden" name="product-id" t-att-data-product-id="product.id"/>
+                                        <a class="o_carousel_product_img_link" t-att-href="product.website_url">
+                                            <img class="o_carousel_product_card_img_top card-img-top"
+                                                 t-attf-src="/web/image/product.product/#{product.id}#{productFrame == 1 ? '/image_256' : '/image_512'}"
+                                                 t-att-alt="product.display_name"/>
+                                        </a>
+                                        <div class="o_carousel_product_card_body  border-top">
+                                            <a t-att-href="product.website_url" class="text-decoration-none">
+                                                <h6 class="card-title mb-0 text-truncate" t-raw="product.display_name"/>
+                                            </a>
+                                        </div>
+                                        <div class="o_carousel_product_card_footer  align-items-center">
+                                            <div class="d-block font-weight-bold product_price" t-raw="product.price"/>
+                                            <t t-if="product.rating" t-raw="product.rating"/>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                </t>
+            </div>
+
+        </div>
+    </t>
+
+</templates>

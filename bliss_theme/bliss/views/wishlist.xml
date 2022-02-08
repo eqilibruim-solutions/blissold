@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+
+    <template id="product_wishlist" inherit_id="website_sale_wishlist.product_wishlist" name="Wishlist Page">
+
+        <xpath expr="//div[hasclass('oe_website_sale')]" position="replace">
+            <div class="container oe_website_sale">
+                <div class="row">
+                    <div class="col-12 pt-4">
+                        <a href="/shop" class=" mb32 d-none d-xl-inline-block color-black">
+                            <span class="fa fa-chevron-left"/>
+                            <span class="">Continue Shopping</span>
+                        </a>
+                    </div>
+                    <div class="col-12 pt-4">
+                        <span class="my_bag_title">My Wishlist ( </span><span class="my_bag_title"
+                                                                              t-esc="wishcount"/><span
+                            class="my_bag_title"> items)</span>
+
+                    </div>
+
+                </div>
+
+                <section class="container wishlist-section">
+                    <div class="checkbox">
+                        <label class='text-muted'><input type="checkbox" id='b2b_wish' value="1" class="mr8"/>Add
+                            product to my cart but keep it in my wishlist</label>
+                    </div>
+
+
+
+                    <table class="table mt16 table-comparator "
+                           style="table-layout:auto" id="o_comparelist_table">
+                        <body>
+                            <t t-foreach="wishes" t-as="wish">
+
+                                <tr t-att-data-wish-id='wish.id' t-att-data-product-id='wish.product_id.id'
+                                    class="d-flex justify-content-between card-body-pink mt-3">
+                                    <td class='td-img w-25'>
+                                        <a t-att-href="wish.product_id.website_url">
+                                            <img t-attf-src="/web/image/product.product/#{wish.product_id.id}/image_128"
+                                                 class="img img-fluid" style="margin:auto;" alt="Product image"/>
+                                        </a>
+                                    </td>
+                                    <td class='text-left td-whish-item w-25'>
+                                        <strong><a t-att-href="wish.product_id.website_url"><t
+                                                t-esc="wish.product_id.name"/></a></strong>
+
+                                        <t t-foreach="wish.product_id.product_template_attribute_value_ids"
+                                           t-as="attribute_value">
+                                            <div>
+                                                <span class="w-100"
+                                                      t-esc="attribute_value.name"/>
+
+                                            </div>
+                                        </t>
+
+                                    </td>
+                                    <td class="td-price-wishlist w-25 ">
+                                        <t t-set="combination_info"
+                                           t-value="wish.product_id._get_combination_info_variant()"/>
+                                        <t t-esc="combination_info['price']"
+                                           t-options="{'widget': 'monetary', 'display_currency': website.pricelist_id.currency_id}"/>
+                                    </td>
+                                    <td class='text-center td-wish-btn item_vertical_center w-25'>
+                                        <input name="product_id" t-att-value="wish.product_id.id" type="hidden"/>
+                                        <button type="button" role="button"
+                                                class="btn  o_wish_add mb4">Add to Cart </button>
+                                    </td>
+                                    <td class='text-center item_vertical_center'>
+                                        <button type="button"
+                                                class="btn btn-link o_wish_rm no-decoration color-pink"><small><i
+                                                class='fa fa-trash-o'></i> Remove</small></button>
+
+                                    </td>
+                                </tr>
+                            </t>
+                        </body>
+                    </table>
+                </section>
+            </div>
+
+
+        </xpath>
+
+    </template>
+
+
+</odoo>

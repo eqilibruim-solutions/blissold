@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_about_us_1" name="About us 1">
+        <section class="s_about_us_1 pb24" style="min-height: 800px;">
+            <div class="container">
+                 <div class="row">
+
+                    <div class="col-lg-12  p-0">
+                        <img src="/bliss/static/src/img/content/s_about_us_6.jpg"
+                             class=" w-100 img img-fluid shadow" alt="Our Team"/>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 p-5 s_about_us_text_3">
+                        <span>Have a touch of Bliss in your life every week...
+
+                            Stunning Bliss flowers can transform any space!
+                            We can provide a beautiful fresh setup at your office, restaurant, hotel, dinner party and
+                            any kind of event!
+                        </span>
+                    </div>
+                    <div class="col-md-6  p-5 s_about_us_text_4">
+                        <span>
+                            Bliss provides a bespoke house flower service - we provide our clients with a personalized
+                            free consultation where we discuss the expectations and the requirements for your home after
+                            which we will provide you with a free initial proposal matching your budget, frequency and
+                            personal favors.
+
+                            Whether it's a single arrangement or a complete setup we will make it stunning and give you
+                            our highest standard of attention you deserve.
+
+                            Our contract customers are assigned a dedicated Senior florist to provide you with the
+                            bespoke floral designs, installations and to support in the maintenance of the flowers.
+
+                            Call or email us below
+
+                            800 BLISS
+                            info@blissuae.com
+                        </span>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </template>
+
+</odoo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="bliss.s_products_best_selllers"
+               t-thumbnail="/bliss/static/src/img/ui/img.png"/>
+            <t t-snippet="bliss.s_side_bare"
+               t-thumbnail="/bliss/static/src/img/ui/img.png"/>
+            <t t-snippet="bliss.s_about_us_1"
+               t-thumbnail="/bliss/static/src/img/ui/img.png"/>
+             <t t-snippet="bliss.s_about_us_2"
+               t-thumbnail="/bliss/static/src/img/ui/img.png"/>
+
+              <t t-snippet="bliss.s_customer_care"
+               t-thumbnail="/bliss/static/src/img/ui/img.png"/>
+        </xpath>
+    </template>
+    <template id="snippet_options" inherit_id="website.snippet_options" name="e-commerce snippet options">
+        <xpath expr="." position="inside">
+            <div data-js="productsBestSeller"
+                 data-selector=".s_products_best_selllers">
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

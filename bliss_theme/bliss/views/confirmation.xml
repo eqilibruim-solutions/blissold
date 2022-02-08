@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="website_sale.confirmation">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Shop - Confirmed</t>
+            <div id="wrap">
+                <div class="container oe_website_sale py-2">
+                    <div class="row">
+                        <div class="col-12 pt160">
+                            <span class="my_bag_title">THANK YOU FOR YOUR ORDER</span>
+
+                        </div>
+                        <div class="col-6 pt-4 " id="confirmation_thanks_msg">
+                            <p class="p-black">Thank you for shopping with us. Your order is recieved and is in
+                                process.
+                                You have chosen to pay online. </p>
+                            <br/>
+                            <p class="p-black">Please find your order details below. </p>
+
+                        </div>
+                        <div class="col-12 pt-4">
+                            <span class="shipping-title-pink">Your Order</span>
+
+
+                        </div>
+                        <div class="col-12 pt-4">
+
+                            <span class="shipping-title-pink">SO Number: <em t-field="order.name"/></span>
+
+                        </div>
+                    </div>
+                    <div class="row ">
+
+                        <t t-foreach="order.website_order_line" t-as="line">
+                            <div class="col-6">
+                                <div class=" card m-2 card_bag_item">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <span t-field="line.product_id.image_1920"
+                                                      t-options="{'widget': 'image', 'qweb_img_responsive': False, 'class': 'rounded img-fluid o_image_bag'}"/>
+
+
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="product-name d-flex">
+                                                    <strong t-field="line.product_id.name"/>
+                                                    <t t-set="combination"
+                                                       t-value="line.product_id.product_template_attribute_value_ids + line.product_no_variant_attribute_value_ids"/>
+                                                    <t t-set="combination_info"
+                                                       t-value="line.product_id.product_tmpl_id._get_combination_info(combination, pricelist=order.pricelist_id)"/>
+
+
+                                                    <span t-field="line.price_reduce_taxexcl"
+                                                          style="white-space: nowrap;"
+                                                          t-options="{'widget': 'monetary', 'display_currency': order.currency_id}"
+                                                          groups="account.group_show_line_subtotals_tax_excluded"/>
+
+                                                    <span t-field="line.price_reduce_taxinc"
+                                                          style="white-space: nowrap;"
+                                                          t-options="{'widget': 'monetary', 'display_currency': order.currency_id}"
+                                                          groups="account.group_show_line_subtotals_tax_included"/>
+                                                </div>
+
+
+                                                <div class="variant-list pt-2 list-group">
+
+                                                    <t t-foreach="line.product_id.product_template_attribute_value_ids"
+                                                       t-as="attribute_value">
+
+                                                        <span
+                                                                t-esc="attribute_value.name"/>
+
+
+                                                    </t>
+
+
+                                                </div>
+
+
+                                                <div class="message_item_confirmation pt-5">
+
+                                                    <h5><strong>Message</strong></h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod tempor incididunt ut labore et dolore.</p>
+
+                                                </div>
+
+                                                <div class="delivery_detail_item_confirmation pt-2">
+                                                    <h5><strong>Delivery Details</strong></h5>
+                                                    <p>1507, B Tower, Abu Dhabi
+                                                        12.00 PM
+                                                        15 February 2022</p>
+
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+
+
+                </div>
+                <div class="oe_structure" id="oe_structure_website_sale_confirmation_3"/>
+            </div>
+        </t>
+    </template>
+
+
+</odoo>

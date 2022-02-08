@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="website.s_cover" name="Cover">
+        <section class="s_cover parallax s_parallax_is_fixed pt96 pb96" data-scroll-background-ratio="1">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                  style="background-image: url('/bliss/static/src/img/content/s_cover.jpg'); background-position: 50% 0;"/>
+            <div class="container">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title" data-name="Title">
+                        <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">Dream with Open Eyes</h1>
+                    </div>
+
+                    <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                        <a href="/shop" class="btn btn-delta rounded-circle">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

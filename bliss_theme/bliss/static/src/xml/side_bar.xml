@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_side_bare" name="Page side bar">
+        <section class="s_side_bare pb24" style="min-height: 800px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <ul class="list-unstyled list_side_bar o_editable ml-5">
+                            <li class="selected_li_sidebare">About Us</li>
+                            <li>Locations</li>
+                            <li>Contact</li>
+
+                            <li>Careers</li>
+                            <li>Franchise</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col-md-10 p-0 o_editable">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 p-0 o_editable">
+                                <img src="/bliss/static/src/img/content/s_about_us_1.jpg"
+                                     class=" w-100 img img-fluid shadow" alt="Our Team"/>
+
+                            </div>
+                            <div class="col-md-6 p-5 s_about_us_text_1">
+                                <span>This is Bliss </span>
+                                <span>
+                                    We are a boutique floral studio that specializes in experiential
+                                    florals for weddings, events, and daily arrangements.
+                                </span></div>
+                        </div>
+                        <div class="row p-0 justify-content-center">
+                            <img src="/bliss/static/src/img/content/s_about_us_2.jpg"
+                                 class="w-100 img img-fluid shadow" alt="Our Team"/>
+
+                        </div>
+                        <div class="row  p-0 justify-content-center">
+
+                            <div class="col-md-6 p-5 s_about_us_text_2">
+                                <span>Our stunning floral boutiques offer an elegant
+                                    environment to browse
+                                    our fresh selection of gorgeous blooms whilst our skilled team of florists, led by
+                                    Creative Director Abbey Dean, bring the true passion of artists to each floral
+                                    arrangement.
+                                </span>
+                            </div>
+                            <div class="col-md-6  p-5 s_about_us_text_2">
+                                <span>
+                                    Drawing inspiration from current trends in
+                                    design, fashion and
+                                    architecture, as well as the lines, forms and natural rhythms of the blooms
+                                    themselves,
+                                    a Bliss floral installation is clean, fresh, balanced, adding just the right note of
+                                    contemporary to any space.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row p-0 justify-content-center">
+
+                            <div class="col-md-6 p-5 s_about_us_text_3">
+                                <span>
+                                    With 11 locations across Dubai, Abu Dhabi,
+                                    Sharjah and Ras Al Khaimah
+                                    - Bliss Flower Boutique locations are uniquely positioned to cater to clients in all
+                                    regions across the United Arab Emirates.
+                                </span>
+                            </div>
+                            <div class="col-md-6 p-0">
+                                <img src="/bliss/static/src/img/content/s_about_us_3.jpg"
+                                     class=" w-100 img img-fluid shadow" alt="Our Team"/>
+
+                            </div>
+                        </div>
+                        <div class="row p-0 justify-content-center">
+
+                            <div class="col-md-6 p-0">
+                                <img src="/bliss/static/src/img/content/s_about_us_4.jpg"
+                                     class=" w-100 img img-fluid shadow" alt="Our Team"/>
+
+                            </div>
+                            <div class="col-md-6 p-5 pt80 s_about_us_text_4">
+                                <span>
+                                    Bliss Flowers has built an impressive range of
+                                    clients with their
+                                    talent for interpreting the customer’s needs, whether that be a single highly
+                                    personal
+                                    floral arrangement, or bold, luxurious floral installations for the corporate
+                                    environment, private parties, events, fashion shows, weekly contract flowers or chic
+                                    and
+                                    sophisticated concepts for weddings.
+
+                                    At all our Bliss Flower Boutique's we work with the top of the fashion, music,
+                                    events
+                                    and corporate world, lending their creative expertise to corporate offices, design
+                                    showrooms, luxury fashion outlets, restaurants, bars and hotels throughout the UAE.
+
+                                    Feel free to contact us for any inquiry no matter how big or small and our team will
+                                    find a bespoke solution for all your requirements
+
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+
+
+</odoo>

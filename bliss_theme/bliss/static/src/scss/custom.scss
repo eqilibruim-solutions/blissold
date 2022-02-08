@@ -1,0 +1,1198 @@
+body{
+    color:#FFFFFF;
+
+}
+a,a:hover,.o_footer,.form-control{
+    color:#FFFFFF;
+}
+.navbar-beige{
+    background-color: #B7A2CD !important;
+}
+
+.badge-primary{
+    color: #9A1538;
+    background-color: inherit;
+    font-size: 63%;
+}
+.p-black{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+.form-control.is-invalid {
+    background: rgba(235, 57, 136, 0.15);
+}
+
+
+.message_item_confirmation p,.delivery_detail_item_confirmation p{
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+#confirmation_thanks_msg{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 129% */
+
+    letter-spacing: -0.01em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+
+}
+#loyelty_point_payment_message{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height, or 129% */
+
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+
+}
+.o_mega_menu {
+    left:0 !important;
+    min-width:100% !important;
+    max-width: 100% !important;
+    width:100% !important;
+    transform: none !important;
+    overflow-y : unset !important;
+    max-height: 455px !important;
+    background:#B7A2CD;
+    border: 1px solid #F9E1EA;
+}
+.o_mega_menu div.col-lg-8 {
+    padding:0px;
+}
+
+.o_mega_menu nav {
+   text-transform: none;
+    text-align: left;
+}
+
+.o_mega_menu .nav-link {
+   padding-top: 0;
+   padding-bottom: 0;
+   font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: -0.015em;
+}
+.s_mega_menu_menu_image_menu .img-fluid{
+    width:100% !important;
+}
+
+
+.o_mega_menu h4 {
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+
+    /* Bliss Baby Pink New */
+
+    color: #F9E1EA;
+}
+
+
+
+sup {
+    left: -0.5em;
+}
+#before_header{
+    background: linear-gradient(270.64deg, #D37C8A 15.23%, #B7A2CD 88.58%);
+    color: #FFFFFF;
+    height: 66px;
+    text-align: center;
+    padding-top: 21px;
+}
+.md2-logo{
+    text-align:center;
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 100%;
+    }
+}
+header .navbar-brand.logo a {
+        margin-left: 45%;
+}
+header .navbar-brand.logo img {
+    height:100%
+}
+header .navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+.navbar-nav-left,.navbar-nav-right{
+    width: 100%;
+    display: contents;
+    table-layout: fixed;
+}
+.slash{
+    width: 33.62px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(120.38deg);
+    margin-top: 5px;
+}
+.navbar .nav-item {
+    display: table-cell;
+}
+
+.nav-item-inline{
+    display: inline-flex;
+}
+.dropdown-menu {
+    left: 64%;
+}
+.dropdown-toggle::after {
+   content: none;
+}
+#footer{
+    background: linear-gradient(
+    180deg
+    , rgb(255, 255, 255) 7%, rgba(183, 162, 205, 0.37) 23.24%, rgba(183, 162, 205, 0.84) 53.38%);
+   padding-top:90px;
+}
+
+#footer .footer-right{
+    padding-left:90px;
+}
+
+#coverdiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    z-index: 2000;
+}
+header#top {
+
+    z-index: 999;
+
+}
+
+#wrapwrap > main{
+    background-color: white!important;
+
+}
+
+#welcome_user{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+
+}
+.text_card_user_1{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+
+}
+.text_card_user_2{
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+.text_card_user_3{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* Brighter */
+
+    color: #EB3988;
+}
+
+.text_card_user_4{
+    font-family: Stabil Grotesk Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+.text_card_user_5{
+
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    /* Bliss Purple */
+
+    color: #B7A2CD;
+}
+.text_card_user_6{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 129% */
+
+    letter-spacing: -0.01em;
+
+    /* Bliss Purple */
+
+    color: #B7A2CD;
+
+}
+.span_vertical{
+    min-height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+#enterbliss_btn{
+    position: absolute;
+    left: 45%;
+    top: 26%;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 93px;
+    width: 186px;
+    height: 186px;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.oe_website_sale{
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+}
+
+a.rounded-circle{
+    position: absolute;
+    left: 45%;
+    top: 95%;
+    border: 3px solid #FFFFFF !important;
+    box-sizing: border-box;
+    border-radius: 93px;
+    width: 186px;
+    height: 186px;
+    cursor: pointer;
+     background:transparent;
+    border:none;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px !important;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+
+}
+#bestseller_title{
+font-family: Azeret TRIAL;
+font-style: normal;
+font-weight: 200;
+font-size: 52px;
+line-height: 61px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+
+/* Brighter */
+
+color: #EB3988;
+display: grid;
+
+}
+.carousel-control-next-icon{
+    background-image: url('/bliss/static/src/img/next_slide.png');
+    width: 33px;
+    height: 66px;
+}
+
+.s_products_best_selllers h3{
+    display:none;
+}
+.card-title{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+}
+
+.o_carousel_product_control{
+    top: 15.333333%;
+    bottom: 66.333333%;
+    left:0;
+}
+
+#enterbliss_btn:hover,a.rounded-circle:hover {
+    background-color:#B7A2CD;
+
+}
+#footer .logo{
+    margin-bottom:90px;
+}
+.news-latter-text {
+    font-family: Victor Serif Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.015em;
+
+}
+.js_subscribe_email {
+
+    background: inherit;
+        border: none;
+    border-bottom: 1px solid #FFFFFFFF !important;
+}
+
+.color_white{
+    color: #FFFFFFFF;
+}
+
+.js_subscribe_btn{
+    background: inherit;
+    border: 1px solid #FFFFFFFF;
+    box-sizing: border-box;
+    border-radius: 37px;
+    float:right;
+    width: 100%;
+
+}
+.js_subscribe_span{
+    width: 35%;
+    float:right;
+}
+
+input[name='plz_send'] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    color:black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #FFFFFFFF;
+    position: relative;
+    left: -5px;
+    top: -5px;
+}
+#top{
+    text-transform: uppercase;
+}
+
+input[name='plz_send'] :checked {
+    background: rgba(40,40,40,0.7);
+}
+.s_title_thin{
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: 200 !important;
+    font-size: 200px !important;
+    line-height: 101.7%;
+    /* or 203px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    /* Bliss Baby Pink New */
+
+    color: #F9E1EA;
+
+    text-shadow: 0px 24px 40px rgba(255, 255, 255, 0.3);
+
+
+}
+.fa.rounded-circle{
+    color:#C3B1D5;
+    font-size: 22px;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+#social{
+    text-align: right;
+    margin-top: 13%;
+}
+.o_website_rating_static{
+    color:#EB3988;
+}
+.s_products_best_selllers{
+    background: linear-gradient(181.1deg, rgba(252, 241, 245, 0.454545) 19.41%, #F9E1EA 31.56%, rgba(249, 225, 285, -0.77) 95.39%,rgba(255, 255, 255, 0) 9.88%);
+    color : #EB3988;
+}
+.o_carousel_product_card{
+    background: transparent;
+    border:none;
+
+}
+.o_carousel_product_card_img_top {
+    background: #FFFFFFFF;
+
+
+}
+
+ul.list_side_bar{
+/* Heading/H4 AZERET-Reg */
+
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.015em;
+
+    /* Brighter */
+
+    color: black;
+
+
+}
+#product_details{
+    color: black;
+
+}
+.product_price_left .product_price {
+    text-align:left !important;
+    font-family: Stabil Grotesk Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    /* Brighter */
+
+    color: #EB3988;
+}
+
+#add_to_cart{
+
+    border: 1px solid #EB3988;
+    box-sizing: border-box;
+    border-radius: 37px;
+    background-color: inherit;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #EB3988;
+
+}
+
+.o_add_wishlist_dyn{
+    border: 1px solid #EB3988;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-size: 24px;
+    color:#EB3988;
+
+}
+.breadcrumb{
+    background-color : inherit;
+
+}
+
+#produt_care_info {
+    color: black;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    position : absolute;
+    bottom:0px;
+
+}
+#produt_care_info a{
+    color: black;
+
+
+}
+.my_bag_title{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+
+.o_image_bag {
+    width: 245px;
+    height: 360px;
+}
+.o_image_extra {
+    width: 328.17px;
+    height: 378.21px;
+}
+.js_add_suggested_products{
+    cursor:pointer !important;
+}
+
+.shipping-title-pink{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #EB3988;
+
+}
+.color-black{
+    color: black !important;
+}
+.card_bag_item{
+
+    box-shadow: 0px 14px 8px rgba(0, 0, 0, 0.07);
+}
+.card_bag_item .card-body{
+
+    background-color: #FFF8FA !important;
+}
+
+.product-name{
+
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* Brighter */
+
+    color: #EB3988;
+}
+.product-name a{
+    color: #EB3988 !important;
+}
+
+.color-pink{
+    color: #EB3988 !important;
+}
+.text-muted-purpel {
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    cursor: pointer;
+    text-transform: capitalize;
+    /* Bliss Purple */
+
+    color: #B7A2CD;
+
+}
+.pink-cart-summary-title{
+
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* Brighter */
+
+    color: #EB3988;
+}
+
+.card-body-pink{
+    background: #F9E1EA !important;
+}
+#cart_total .text-xl-right,cart_total_mini .text-xl-right{
+    color:#EB3988;
+
+}
+.shipping_address input,  .shipping_address textarea,.shipping_address select,.all_payment input,  .all_payment textarea,.all_payment select,.oe_login_form input,.oe_signup_form input,.oe_reset_password_form input{
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+
+}
+.oe_login_form a,.oe_signup_form a,.oe_reset_password_form a{
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #EB3988;
+
+}
+.o_wsale_products_searchbar_form{
+    width :50% !important;
+}
+.hide-sender{
+    position: absolute;
+    bottom: 0;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+#cart_total{
+
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 129% */
+
+    letter-spacing: -0.01em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+.btb-bg-pink{
+
+    border: 1px solid #EB3988;
+    box-sizing: border-box;
+    border-radius: 37px;
+    color: #EB3988;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.btn-login{
+
+    border: 1px solid #EB3988;
+    box-sizing: border-box;
+    border-radius: 37px;
+    color: #EB3988;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+.oe_login_form{
+    max-width:420px;
+}
+.login-title-pink{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* Brighter */
+
+    color: #EB3988;
+}
+.product-price{
+
+   font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+
+.variant-list{
+
+   /* Body/B3 Tobias Reg Small */
+
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+.remove-from-card{
+    position: absolute;
+    top: 0px;
+    right: 19px;
+}
+.sales_desc{
+font-family: Azeret TRIAL;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+/* or 129% */
+
+letter-spacing: -0.01em;
+
+/* Bliss Dark Blue */
+
+color: #040A14;
+}
+.js_product select {
+    height:60px;
+    font-family: Tobias TRIAL;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+/* Bliss Dark Blue */
+
+color: #040A14;
+}
+
+.text-pink{
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #EB3988;
+}
+.breadcrumb-item a{
+    color : black !important;
+
+}
+
+#o-carousel-product .carousel-outer {
+    height: 815px;
+}
+.s_about_us_text_1{
+    background: #EB3988;
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: -0.015em;
+    color: #F9E1EA;
+}
+.s_about_us_text_2{
+    background: rgba(183, 162, 205, 0.5);
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #040A14;
+    padding-right: 12% !important;
+    padding-left: 12% !important;
+}
+.s_about_us_text_3{
+    background: #F9E1EA;
+    font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: -0.015em;
+    color: #EB3988;
+    padding-right: 9% !important;
+    padding-left: 10% !important;
+}
+.s_about_us_text_4{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #040A14;
+    padding-right: 14% !important;
+    padding-left: 10% !important;
+}
+
+.s_about_us_text_5{
+    background: #F9E1EA;
+   font-family: Tobias TRIAL;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: -0.015em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14;
+}
+
+.selected_li_sidebare{
+color: #EB3988;
+
+}
+#wsale_products_categories_collapse_with_parent {
+    border-bottom: 1px solid #040A14;
+}
+#wsale_products_categories_collapse_with_parent ul{
+    margin-bottom: -3px !important;
+}
+#wsale_products_categories_collapse_with_parent a.active{
+    background-color: inherit;
+    border-bottom: 5px solid #EB3988;
+}
+#wsale_products_categories_collapse a.active{
+    background-color: inherit;
+
+}
+#wsale_products_categories_collapse a,.dropdown_sorty_by a,.item_count span{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+
+    /* Bliss Dark Blue */
+
+    color: #040A14 !important;
+
+}
+
+.o_shop_collapse_category .fa{
+    color:black !important;
+}
+
+#o_shop_collapse_category li{
+    width: auto;
+}
+#wsale_products_categories_collapse_with_parent a{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+
+    /* Brighter */
+
+    color: #EB3988;
+
+}
+.page-link{
+    border-color: #C1B0D4 !important;
+    color:#C1B0D4 !important;
+}
+.oe_search_button{
+    background-color: #C1B0D4 !important;
+    border-color: #C1B0D4 !important;
+}
+.page-link-round{
+    border-radius: 50%;
+}
+.page-item.active .page-link {
+    background-color: #C1B0D4 !important;
+    border-color: #C1B0D4 !important;
+    color:white !important;
+}
+.o_footer_copyright{
+    display:none;
+}
+.o_carousel_product_card_body .card-title,.o_wsale_products_item_title a{
+    color : #EB3988;
+    text-align:center;
+    padding: 0.75rem 1.25rem;
+
+
+}
+
+.js_usermenu {
+    left: 78% !important;
+    top: 78% !important;
+}
+ /* sup.my_cart_quantity {
+    position: inherit;
+    margin-left: -38px;
+}
+sup.my_wish_quantity  {
+   position: inherit;
+   margin-left: -55px;
+   max-height: 100% !important;
+}*/
+
+.badge-primary{
+    color:#F9E1EA !important;
+}
+.o_wsale_products_item_title a{
+    color : #EB3988;
+    font-size: 24px;
+    text-align:center;
+    padding: 0.75rem 1.25rem;
+
+
+}
+.oe_product_cart .oe_product_image {
+    height:37rem;
+}
+
+
+.td-price-wishlist{
+
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+
+    /* Brighter */
+
+    color: #EB3988;
+}
+.item_vertical_center{
+    display: -webkit-box;
+    display: -webkit-flex;
+    align-items: center;
+
+}
+.td-wish-btn{
+    text-align: center !important;
+}
+.td-whish-item a{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* Brighter */
+
+    color: #EB3988;
+}
+.td-wish-btn button{
+
+    border: 1px solid #EB3988;
+    box-sizing: border-box;
+    border-radius: 37px;
+    color: #EB3988;
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+    letter-spacing: 0.03em;
+}
+.product_price{
+    font-family: Azeret TRIAL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    /* identical to box height */
+
+    display: block !important;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    /* Secondary/Bliss Dark Blue */
+
+    color: #162949;
+
+}
+.o_carousel_product_card_footer{
+    text-align:center;
+    padding: 0.75rem 1.25rem;
+
+
+}
+#footer{
+    border-top:none !important;
+}
+
+#copyright{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.s_wsale_products_recently_viewed {
+    background: linear-gradient(
+        181.1deg
+        , rgba(255, 255, 255, 0) 9.88%, rgba(252, 241, 245, 0.455) 19.41%, rgb(249, 225, 234) 31.56%, rgba(249, 225, 234, 0.23) 85.39%);
+
+}
+
+
+
+@media (min-width: 992px){
+    .o_carousel_product_card .o_carousel_product_card_img_top {
+        height: 37rem;
+    }
+}
+
