@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- Stock Notify Form View -->
+    <record model="ir.ui.view" id="view_stock_notify">
+        <field name="name">Stock Notify Form</field>
+        <field name="model">stock.notify</field>
+        <field name="arch" type="xml">
+            <form string="Website Stock Notify Settings">
+                <header>
+                    <button name="cancel_notification" type="object"  states="draft" string="Cancel" class="oe_highlight"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,cancel,done"
+                           statusbar_colors='{"proforma":"blue","proforma2":"blue"}' />
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="email" />
+                            <field name="product" />
+                        </group>
+                        <group>
+                            <field name="created_on" />
+                            <field name="product_url" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Stock Notify Tree View -->
+    <record model="ir.ui.view" id="view_stock_notify_tree">
+        <field name="name">Stock Notify Tree</field>
+        <field name="model">stock.notify</field>
+        <field name="arch" type="xml">
+            <tree string="Website Stock Notify Settings">
+                <field name="name"/>
+                <field name="email" />
+                <field name="product" />
+                <field name="created_on" />
+                <field name="state" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- Stock Notify Search View -->
+    <record id="user_wishlist_search_view" model="ir.ui.view">
+        <field name="name">Stock Notify Search View</field>
+        <field name="model">stock.notify</field>
+        <field name="arch" type="xml">
+            <search string="Search">
+                <field name="product" string="Product" filter_domain="[()]" />
+                <field name="state" string="State" filter_domain="[()]" />
+                <separator />
+                <group expand="0" string="Group By...">
+                    <filter string="Product" domain="[]" context="{'group_by':'product'}" />
+                    <filter string="State" domain="[]" context="{'group_by':'state'}" />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Stock Notify Action -->
+    <record id="action_stock_notify" model="ir.actions.act_window">
+        <field name="name">Website Stock Notify</field>
+        <field name="res_model">stock.notify</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Stock Notify Menu -->
+    <menuitem name="Website Stock Notify" parent="website_sale.menu_ecommerce_settings"
+              action="action_stock_notify" id="menu_stock_notify" />
+
+</odoo>

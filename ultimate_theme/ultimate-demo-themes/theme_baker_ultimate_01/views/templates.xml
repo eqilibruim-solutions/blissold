@@ -1,0 +1,587 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner start-->
+        <template id="baker_banner" name="Baker Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_baker_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white s_letter_spacing_3" style="font-size: 48px; text-align: center;">
+                                <b>FRESHLY BAKED EVERYDAY</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two paragraphs describing your product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mb8 mt8 btn btn-outline-beta btn-lg" data-original-title=""
+                               title="" aria-describedby="tooltip125877">ORDER NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us start-->
+        <template id="baker_about_us" name="Baker About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-6 col-md-12 col-sm-12 p-3">
+                            <h2 class="font-weight-bold s_letter_spacing_3">
+                                <font style="font-size: 36px;">OUR HISTORY</font>
+                            </h2>
+                            <div class="pt16 row">
+                                <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                                    <p class="o_default_snippet_text text-justify">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Pellentesque fermentum est in tortor congue
+                                        suscipit. Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                        egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                    <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="img10" class="img-fluid pb8 pt8" data-original-title="" title=""
+                                         aria-describedby="tooltip202496"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="row pt24">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <img src="/theme_baker_ultimate_01/static/src/img/placeholder-252x331.png"
+                                         alt="img3" class="img-fluid pt8 pb8 d-block mx-auto" data-original-title=""
+                                         title=""
+                                         aria-describedby="tooltip557772"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <img src="/theme_baker_ultimate_01/static/src/img/placeholder-252x331.png"
+                                         alt="img4" class="img-fluid pt8 pb8 d-block mx-auto" data-original-title=""
+                                         title=""
+                                         aria-describedby="tooltip331903"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Right Content start-->
+        <template id="baker_right_content" name="Baker Right Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_baker_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6"></div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2 class="mb48 s_letter_spacing_3">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b>STAY CONNECTED</b>
+                                </font>
+                            </h2>
+                            <p class="s_line_height_2">
+                                <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </font>
+                            </p>
+                            <p>
+                                <font style="color: rgb(255, 255, 255);" class="s_line_height_2">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                    <br/>
+                                </font>
+                            </p>
+                            <div class="form-group mt32 mb32">
+                                <input type="text" class="bg-light border-0 float-left form-control p-4 rounded-0 w-50"
+                                       placeholder="Email Address"/>
+                                <a href="#" class="rounded-0 btn btn-beta btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip211354">Action
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Grid start-->
+        <template id="baker_grid" name="Baker Grid">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2 class="s_letter_spacing_3">
+                                <font style="font-size: 36px;">
+                                    <b>WHAT WE</b>
+                                </font>
+                            </h2>
+                            <h2 class="s_letter_spacing_3">
+                                <font style="font-size: 36px;">
+                                    <b>OFFER FOR YOU</b>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3 class="s_letter_spacing_3">
+                                <b>
+                                    <font style="font-size: 18px;">CIABATTA BREAD</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3 class="s_letter_spacing_3">
+                                <b>
+                                    <font style="font-size: 18px;">BUTTERY TOAST</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3 class="s_letter_spacing_3">
+                                <b>
+                                    <font style="font-size: 18px;">ROSEBERRY CAKE</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Grid End-->
+
+        <!--Snippet Testimonial start-->
+        <template id="baker_testimonial" name="Baker Testimonial">
+            <section class="bg-epsilon pt64 pb64 oe_img_bg oe_custom_bg" id="testimonials_d3"
+                     style="background-image: url(&quot;/theme_baker_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center pb48">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="s_letter_spacing_3">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b>WHAT PEOPLE SAY</b>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1572429250476" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1572429250476" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1572429250476" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item  oe_custom_bg active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mt16">
+                                                <img class="img"
+                                                     src="/theme_baker_ultimate_01/static/src/img/placeholder-user.png"
+                                                     alt="" data-original-title="" title=""
+                                                     aria-describedby="tooltip54592"/>
+                                            </div>
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote
+                                                here from one of your customers. Quotes are a great way to build
+                                                confidence in your products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <div class="mb8 mt8">— Jane DOE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mt16">
+                                                <img class="img"
+                                                     src="/theme_baker_ultimate_01/static/src/img/placeholder-user.png"
+                                                     alt="" data-original-title="" title=""
+                                                     aria-describedby="tooltip54592"/>
+                                            </div>
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote
+                                                here from one of your customers. Quotes are a great way to build
+                                                confidence in your products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <div class="mb8 mt8">— Jane DOE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mt16">
+                                                <img class="img"
+                                                     src="/theme_baker_ultimate_01/static/src/img/placeholder-user.png"
+                                                     alt="" data-original-title="" title=""
+                                                     aria-describedby="tooltip54592"/>
+                                            </div>
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote
+                                                here from one of your customers. Quotes are a great way to build
+                                                confidence in your products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <div class="mb8 mt8">— Jane DOE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item  oe_custom_bg" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mt16">
+                                                <img class="img"
+                                                     src="/theme_baker_ultimate_01/static/src/img/placeholder-user.png"
+                                                     alt="" data-original-title="" title=""
+                                                     aria-describedby="tooltip54592"/>
+                                            </div>
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote
+                                                here from one of your customers. Quotes are a great way to build
+                                                confidence in your products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <div class="mb8 mt8">— Jane DOE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mt16">
+                                                <img class="img"
+                                                     src="/theme_baker_ultimate_01/static/src/img/placeholder-user.png"
+                                                     alt="" data-original-title="" title=""
+                                                     aria-describedby="tooltip54592"/>
+                                            </div>
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote
+                                                here from one of your customers. Quotes are a great way to build
+                                                confidence in your products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <div class="mb8 mt8">— Jane DOE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mt16">
+                                                <img class="img"
+                                                     src="/theme_baker_ultimate_01/static/src/img/placeholder-user.png"
+                                                     alt="" data-original-title="" title=""
+                                                     aria-describedby="tooltip54592"/>
+                                            </div>
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote
+                                                here from one of your customers. Quotes are a great way to build
+                                                confidence in your products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <div class="mb8 mt8">— Jane DOE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1572429250476" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1572429250476" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet News start-->
+        <template id="baker_news" name="Baker News">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2 class="s_letter_spacing_3">
+                                <font style="font-size: 36px;">
+                                    <b>LATEST NEWS</b>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>August 12, 2019</p>
+                                    <h5 class="s_letter_spacing_3">
+                                        <font style="font-size: 24px;">
+                                            <b>PUMPKIN BUNS WITH SALTED</b>
+                                        </font>
+                                    </h5>
+                                    <p>Bread</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <p>
+                                        <a href="#">READ MORE</a>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>September 22, 2019</p>
+                                    <h5 class="s_letter_spacing_3">
+                                        <font style="font-size: 24px;">
+                                            <b>TARTINE STYLE BREAD</b>
+                                        </font>
+                                    </h5>
+                                    <p>Sweet</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <p>
+                                        <a href="#">READ MORE</a>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>October 18,2019</p>
+                                    <h5 class="s_letter_spacing_3">
+                                        <b>
+                                            <font style="font-size: 24px;">BUTTERY STYLE TOAST</font>
+                                        </b>
+                                    </h5>
+                                    <p>Sweet</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <p>
+                                        <a href="#">READ MORE</a>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Footer start-->
+        <template id="baker_footer" name="Baker Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="color: rgb(156, 156, 148);">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="bg-beta fa fa-facebook mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip397010" style="color: rgb(99, 99, 99);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="bg-beta fa fa-twitter mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip610549" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="bg-beta fa fa-instagram mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip437334" style=""/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bg-beta fa fa-google-plus mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip1474" style=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h4 class="pb16 font-weight-bold o_default_snippet_text s_letter_spacing_2">
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px; font-weight: normal;">
+                                        RECENT NEWS
+                                    </font>
+                                </h4>
+                                <div>
+                                    <h6 class="o_default_snippet_text">
+                                        <font style="color: rgb(156, 156, 148);">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit, sed
+                                        </font>
+                                    </h6>
+                                    <h6 class="o_default_snippet_text">
+                                        <i class="fa fa-clock-o" style="color: rgb(156, 156, 148);"/>
+                                        <font style="color: rgb(156, 156, 148);">&amp;nbsp;January 22, 2016&amp;nbsp;
+                                        </font>
+                                    </h6>
+                                </div>
+                                <div class="pt16">
+                                    <h6>
+                                        <font style="color: rgb(156, 156, 148);">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit, sed
+                                        </font>
+                                    </h6>
+                                    <h6>
+                                        <i class="fa fa-clock-o" style="color: rgb(156, 156, 148);"/>
+                                        <font style="color: rgb(156, 156, 148);">&amp;nbsp;January 22, 2017&amp;nbsp;
+                                        </font>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h4 class="pb16 font-weight-bold s_letter_spacing_2">
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px; font-weight: normal;">
+                                        GALLERY
+                                    </font>
+                                </h4>
+                                <div class="row  pb16 px-3">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_baker_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                </div>
+                                <h6>
+                                    <a href="#" class="text-decoration-none text-warning o_default_snippet_text"
+                                       target="_blank"><i class="fa fa-arrow-circle-right"/>View More Photos
+                                    </a>
+                                </h6>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="font-weight-bold o_default_snippet_text pb8 s_letter_spacing_2">
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px; font-weight: normal;">
+                                        SUBSCRIBE TO NEWSLETTER
+                                    </font>
+                                </h5>
+                                <div class="input-group js_subscribe hidden d-none" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control rounded-0"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#" class="js_subscribe_btn rounded-0 btn btn-beta"
+                                           data-original-title="" title="" aria-describedby="tooltip352624">Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        Thanks for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Baker Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_baker_ultimate_01.baker_banner"
+                           t-thumbnail="/theme_baker_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_baker_ultimate_01.baker_about_us"
+                           t-thumbnail="/theme_baker_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_baker_ultimate_01.baker_right_content"
+                           t-thumbnail="/theme_baker_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_baker_ultimate_01.baker_grid"
+                           t-thumbnail="/theme_baker_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_baker_ultimate_01.baker_testimonial"
+                           t-thumbnail="/theme_baker_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_baker_ultimate_01.baker_news"
+                           t-thumbnail="/theme_baker_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_baker_ultimate_01.baker_footer"
+                           t-thumbnail="/theme_baker_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

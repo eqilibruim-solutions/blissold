@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+# Part of Odoo Module Developed by 73lines
+# See LICENSE file for full copyright and licensing details.
+
+
+{
+    'name': 'Snippet Multi Boxed By 73Lines',
+    'description': 'Snippet Multi Boxed By 73Lines',
+    'category': 'Website',
+    'version': '13.0.1.0.0',
+    'author': '73Lines',
+    'website': 'https://www.73lines.com/',
+    'depends': ['website',
+                'icon_fonts_73lines'],
+    'data': [
+        'views/assets.xml',
+        'views/s_carousel_and_images.xml',
+        'views/s_three_images.xml',
+        'views/s_three_same_size_images.xml',
+        'views/s_two_images.xml',
+        'views/s_one_carousel_one_image.xml',
+        'views/s_one_carousel_three_images.xml',
+        'views/s_four_images.xml',
+        'views/s_promo_image.xml',
+        'views/s_grid_images.xml',
+        'views/s_half_carousel_half_image_left.xml',
+        'views/s_half_carousel_half_image_right.xml',
+        'views/s_half_carousel_half_carousel.xml',
+        'views/s_three_boxes_with_icon.xml',
+        'views/s_3x6x3.xml',
+        'views/s_3x5x4.xml',
+        'views/s_4x4x4.xml',
+        'views/s_logo_image.xml',
+        'views/s_ecommerce_terms.xml',
+        'views/s_counter_text.xml',
+        'views/s_presentation_page.xml',
+        'views/s_progress_bar.xml',
+        'views/s_skill_chart.xml',
+        'views/s_client_intro.xml',
+        'views/s_store_ecommerce_service.xml',
+        'views/s_ecommerce_service.xml',
+        'views/s_bar_chart.xml',
+        'views/s_media_block.xml',
+    ],
+    'images': [
+        'static/description/snippet_boxed_73lines.jpg',
+    ],
+    'price': 50,
+    'license': 'OPL-1',
+    'currency': 'EUR',
+}

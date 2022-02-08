@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_1</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_1</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/neurology.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_2</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_2</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/company-9.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_3</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_3</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/team-2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_4</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_4</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/Qality_health.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_5</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_5</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/dentalcare.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_6</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_6</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/company-7.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_7</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_7</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/company-4.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_8</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_8</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/urology.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_9</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_9</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/company-3.png</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_10</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_10</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/team-1.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_11</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_11</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/news_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_12</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_12</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/company-8.png</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_13</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_13</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/team-3.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_14</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_14</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/news_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_15</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_15</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/company-1.png</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_16</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_16</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/cta_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_17</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_17</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_18</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_18</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/team-4.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_19</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_19</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/icon_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_20</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_20</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/icon_04.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_21</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_21</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/icon_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_22</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_22</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/cardiology.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_23</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_23</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/news_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_24</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_24</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/company-2.png</field>
+        </record>
+        
+        
+        <record id="image_content_25" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_03.image_content_25</field>
+            <field name="name">theme_clinic_ultimate_03.image_content_25</field>
+            <field name="url">/theme_clinic_ultimate_03/static/src/img/library/icon_01.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

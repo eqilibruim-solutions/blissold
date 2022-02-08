@@ -1,0 +1,26 @@
+.navbar ul.nav > li.divider,
+.center_logo {
+  display: none;
+}
+
+.right_logo {
+  display: none !important;
+}
+
+#top_menu li.nav-item:not(.divider) {
+  border-right: 1px solid #eaeaea;
+}
+
+#top_menu li.nav-item:last-child {
+  border-right: 0px;
+}
+
+header nav.navbar {
+  border:1px solid #eaeaea;
+}
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+}

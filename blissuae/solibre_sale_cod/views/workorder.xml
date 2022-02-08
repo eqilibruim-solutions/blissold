@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_workorder_kanban_inherit">
+        <field name="name">mrp.workorder.kanban.inherit</field>
+        <field name="model">mrp.workorder</field>
+        <field name="inherit_id" ref="mrp.workcenter_line_kanban" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='qty_production']" position="after">
+                <field name="pref_date" />
+                <field name="sale_id"/>
+                <field name="is_produced"/>
+                <field name="production_state" />
+
+            </xpath>
+            <xpath expr="//div[hasclass('o_kanban_card_header')]" position="after">
+                <div class="container o_kanban_card_content">
+                	<div class="row mb16">
+                		<div class="col o_kanban_primary_left">
+							<button name="button_finish" type="object" string="Finish Order" attrs="{'invisible': ['|', ('state', '!=', 'progress'), ('is_produced', '=', False)]}" class="btn btn-info">
+			                Finish Order
+			                </button>
+			                <button name="button_start" type="object" string="Start Working" attrs="{'invisible': ['|', ('working_state', '=', 'blocked'), ('state', '!=', 'pending')]}" class="btn btn-info">
+			                Start Working
+			                </button>
+			                <button name="button_start" type="object" string="Start Working" attrs="{'invisible': ['|', ('working_state', '=', 'blocked'), ('state', '!=', 'ready')]}" class="btn btn-success">
+			                Start Working
+			                </button>
+			                <button name="record_production" type="object" string="Done" class="btn btn-success" attrs="{'invisible': ['|', '|', '|', ('is_produced', '=', True), ('working_state', '=', 'blocked'), ('state', '!=', 'progress'), ('is_user_working', '=', False)]}">
+			                Done
+			                </button>
+			                <button name="button_pending" type="object" string="Pause" class="btn btn-warning" attrs="{'invisible': ['|', '|', ('working_state', '=', 'blocked'), ('state', 'in', ('done', 'pending', 'ready', 'cancel')), ('is_user_working', '=', False)]}">
+			                Pause
+			                </button>
+			                <button name="1526" type="action" context="{'default_workcenter_id': workcenter_id}" string="Block" class="btn btn-danger" attrs="{'invisible': ['|', '|', ('working_state', '=', 'blocked'), ('state', 'in', ('done', 'pending', 'ready', 'cancel')), ('is_user_working', '=', False)]}">
+			                Block
+			                </button>
+			                <button name="button_unblock" type="object" string="Unblock" class="btn btn-danger" attrs="{'invisible': [('working_state', '!=', 'blocked')]}">
+			                Unblock
+			                </button>
+			                <button name="button_start" type="object" string="Continue Production" attrs="{'invisible': ['|', '|', '|', ('production_state', '=', 'done'), ('working_state', '=', 'blocked'), ('is_user_working', '=', True), ('state', '!=', 'progress')]}">
+			                Continue Production
+			                </button>
+			                <button name="button_scrap" type="object" string="Scrap" class="btn btn-primary" attrs="{'invisible': [('state', 'in', ('done', 'cancel'))]}">
+			                Scrap
+			                </button>
+
+			                <div>
+                				<span t-esc="record.sale_id.value"/> - Delivery: <span t-esc="record.pref_date.value"/>
+                			</div>
+                		</div>
+                	</div>
+                </div>
+            </xpath>
+            <xpath expr="//div[hasclass('o_kanban_manage_button_section')]" position="inside">
+				
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

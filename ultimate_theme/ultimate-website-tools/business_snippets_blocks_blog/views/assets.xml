@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- ==================================== scss ================================= -->
+    <template id="ecommerce_snippet_blocks_blog_assets" name="Blog Assets"
+              inherit_id="website.assets_frontend" active="True">
+        <xpath expr="." position="inside">
+            <link href="/business_snippets_blocks_blog/static/src/scss/blog_carousel.scss"
+                  type="text/scss" rel="stylesheet"/>
+        </xpath>
+    </template>
+    <template id="s_object_carousel_style_option"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='carousel']" position="after">
+            <div data-js='js_get_objects_style'
+                 data-selector=".s_blog_carousel">
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-fw fa-columns"/>
+                        Blog Carousel Style
+                    </we-toggler>
+                    <we-collapse>
+                        <we-button data-toggle-class="s_blog_transparent">
+                            Blog Style 1
+                        </we-button>
+                        <we-button data-toggle-class="s_blog_bg_dark">
+                            Blog Style 2
+                        </we-button>
+                        <we-button data-toggle-class="s_blog_bg_light">
+                            Blog Style 3
+                        </we-button>
+                        <we-button data-toggle-class="s_blog_4">
+                            Blog Style 4
+                        </we-button>
+                        <we-button data-toggle-class="s_blog_5">
+                            Blog Style 5
+                        </we-button>
+                        <we-button data-toggle-class="s_blog_6">
+                            Blog Style 6
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+            </div>
+        </xpath>
+    </template>
+</odoo>

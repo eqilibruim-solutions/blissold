@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_frontend" name="Frontend Assets"
+              inherit_id="website.assets_frontend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript"
+                    src="/hide_top_footer/static/src/js/content_js_inherit.js"/>
+            <script type="text/javascript"
+                    src="/hide_top_footer/static/src/js/snippet_options_inherit.js"/>
+            <link href="/hide_top_footer/static/src/scss/hide_top_footer.scss"
+                  type="text/scss" rel="stylesheet"/>
+        </xpath>
+    </template>
+
+    <template id="s_object_carousel_style_option"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='carousel']" position="after">
+            <div data-js='js_get_objects_style'
+                 data-selector=".s_product_carousel_mini">
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-fw fa-columns"/>
+                        Alignment
+                    </we-toggler>
+                    <we-collapse>
+                        <we-button data-toggle-class="text-left">
+                            Left
+                        </we-button>
+                        <we-button data-toggle-class="text-center">
+                            Center
+                        </we-button>
+                        <we-button data-toggle-class="text-right">
+                            Right
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-fw fa-columns"/>
+                        Box Shadow
+                    </we-toggler>
+                    <we-collapse>
+                        <we-button data-toggle-class="">
+                            None
+                        </we-button>
+                        <we-button data-toggle-class="box_shadow_mini">
+                            Box Shadow
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+            </div>
+        </xpath>
+    </template>
+
+
+    <template id="s_navbar_hide"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='topMenuTransparency']" position="after">
+            <div data-js="topMenuHide"
+                 data-selector="[data-main-object^='website.page('] #wrapwrap > header"
+                 data-no-check="true">
+                 <we-button data-hide="true" data-no-preview="true">
+                    <i class="fa fa-fw fa-eye-slash"/> Navbar Hide
+                </we-button>
+            </div>
+        </xpath>
+        <xpath expr="//div[@data-js='colorpicker']" position="after">
+            <div data-js="footerHide"
+                 data-selector="[data-main-object^='website.page('] #wrapwrap > footer"
+                 data-no-check="true">
+                <we-button data-footerhide="true" data-no-preview="true">
+                    <i class="fa fa-fw fa-eye-slash"/> Footer Hide
+                </we-button>
+            </div>
+        </xpath>
+    </template>
+</odoo>

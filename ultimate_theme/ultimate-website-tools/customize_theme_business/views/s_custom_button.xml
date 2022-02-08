@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="s_icon_btn" name="Icon Button">
+        <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+            <a href="#" class="btn btn-primary">
+                <i class="fa fa-user"/>
+                <span>Read more</span>
+            </a>
+        </div>
+    </template>
+    <template id="s_btn_icon" name="Button Icon">
+        <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+            <a href="#" class="btn btn-primary">
+                <span>Read more</span>
+                <i class="fa fa-user"/>
+            </a>
+        </div>
+    </template>
+    <template id="s_icon_only_btn" name="Only Icon Button">
+        <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+            <a href="#" class="btn btn-primary">
+                <i class="fa fa-home"/>
+            </a>
+        </div>
+    </template>
+    <template id="s_icon_btn_2" name="2 Icon Button">
+        <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+            <a href="#" class="btn btn-primary">
+                <i class="fa fa-user"/>
+                <span>Read more</span>
+            </a>
+            <a href="#" class="btn btn-primary">
+                <i class="fa fa-user"/>
+                <span>Read more</span>
+            </a>
+        </div>
+    </template>
+
+    <template id="snippet_inherit" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="customize_theme_business.s_icon_btn" t-thumbnail="/website/static/src/img/snippets_thumbs/s_button.png"/>
+            <t t-snippet="customize_theme_business.s_btn_icon" t-thumbnail="/website/static/src/img/snippets_thumbs/s_button.png"/>
+            <t t-snippet="customize_theme_business.s_icon_only_btn" t-thumbnail="/website/static/src/img/snippets_thumbs/s_button.png"/>
+            <t t-snippet="customize_theme_business.s_icon_btn_2" t-thumbnail="/website/static/src/img/snippets_thumbs/s_button.png"/>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="business_layout_inherit" inherit_id="portal.frontend_layout" customize_show="True"
+              name="Show Side Menu" active="False">
+        <!--Hide Navbar When Side Menu Is On-->
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_nav_hide'}" separator=" "/>
+        </xpath>
+        <xpath expr="//main" position="attributes">
+            <attribute name="id">content</attribute>
+        </xpath>
+        <xpath expr="//div[@id='wrapwrap']/header" position="before">
+            <nav id="sidebar" class="navbar-light">
+                <div class="sidebar-header">
+                    <i id="close" class="fa fa-close"/>
+                    <h3>
+                        <a href="/" class="navbar-brand logo">
+                            <img t-att-src="'/logo.png?company=%s' % res_company.id"
+                                 t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                        </a>
+                    </h3>
+                    <strong>Co</strong>
+                </div>
+
+                <ul class="list-unstyled components nav navbar-nav ml-auto " id="top_menu">
+                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                        <t t-call="website.submenu">
+                            <t t-set="item_class" t-value="'nav-item'"/>
+                            <t t-set="link_class" t-value="'nav-link'"/>
+                        </t>
+                    </t>
+                    <t id="wishlist"/>
+                    <t id="cart"/>
+                    <li groups="base.group_public" class="nav-item dropdown">
+                        <a t-attf-href="/web/login" class="nav-link">
+                            <b>Sign in</b>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" t-ignore="true" t-if="not user_id._is_public()">
+                        <a href="#homeSubmenu" class="nav-link dropdown-toggle" data-toggle="collapse"
+                           aria-expanded="true">
+                            <b>
+                                <span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>
+                            </b>
+                        </a>
+                        <ul class="list-unstyled collapse js_usermenu" id="homeSubmenu">
+                            <li class="">
+                                <a class="nav-link" href="/my/home">My Account</a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link" id="#" t-attf-href="/web/session/logout?redirect=/">Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </xpath>
+        <xpath expr="//main" position="inside">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-primary navbar-btn">
+                            <i class="fa fa-bars"/>
+                        </button>
+                        <button type="button" id="sidebarCollapse5" class="btn-primary navbar-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </xpath>
+        <xpath expr="//main" position="after">
+            <div class="overlay"/>
+        </xpath>
+    </template>
+</odoo>

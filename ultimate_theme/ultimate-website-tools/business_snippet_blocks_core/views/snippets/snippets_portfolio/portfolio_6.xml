@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template name="Portfolio 6" id="portfolio_6">
+        <section class="pt64 pb64" id="portfolio_6">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Gallery</h2>
+                    <p class="pb48">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="justify-content-center pb32">
+                        <a class="btn text-primary filter-button mt8 mb8" data-filter="all">All</a>
+                        <a class="btn text-primary  filter-button mt8 mb8" data-filter="one">Commercial</a>
+                        <a class="btn text-primary filter-button mt8 mb8" data-filter="two">Design</a>
+                        <a class="btn text-primary  filter-button mt8 mb8" data-filter="three">Life &amp; Work</a>
+                        <a class="btn text-primary filter-button mt8 mb8" data-filter="four">Misc</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter one  single_portfolio">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid image"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Stack Of bottles</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter two  single_portfolio">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Brand in the bag</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter one single_portfolio">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Mock up of the web</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four single_portfolio">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Books and covers</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter three single_portfolio ">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Notebook design</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four single_portfolio ">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Three mock up stack</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter three single_portfolio">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Office composition</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four single_portfolio ">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Half a frame</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four single_portfolio ">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Bottle of video</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter one single_portfolio ">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Books and covers</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter three single_portfolio ">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Three mock up stack</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter two single_portfolio ">
+                            <img src="/business_snippet_blocks_core/static/src/img/common-images/common_images-12.jpg"
+                                 class="img-fluid"/>
+                            <div class="overlay">
+                                <div class="single_portfolio_text">
+                                    <h6>Notebook design</h6>
+                                    <p class="product_price">$12</p>
+                                    <a href="#" class="btn btn-primary">Click here</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function(){
+
+                $(".filter-button").click(function(){
+                var value = $(this).attr('data-filter');
+
+                if(value == "all")
+                {
+                //$('.filter').removeClass('hidden');
+                $('.filter').show('1000');
+                }
+                else
+                {
+                // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                // $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                $(".filter").not('.'+value).hide('3000');
+                $('.filter').filter('.'+value).show('3000');
+
+                }
+                });
+
+                if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+                }
+                $(this).addClass("active");
+
+                });
+            </script>
+        </section>
+    </template>
+</odoo>

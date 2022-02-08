@@ -1,0 +1,497 @@
+<odoo>
+    <data>
+        <!--Snippet Banner start-->
+        <template id="book_banner" name="Book Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <font style="font-size: 36px;" class="text-beta">Latest Collection</font>
+                            </h1>
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <font class="text-beta" style="">BEST BOOK SHOP</font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">
+                                <font class="text-beta" style="">
+                                    Write one or
+                                    two paragraphs describing your product, services or
+                                    a specific feature.
+                                    &amp;nbsp;
+                                </font>
+                                <br/>
+                                <font class="text-beta" style="">
+                                    To be successful your content needs to be useful to
+                                    your readers.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="#" class="mb8 mt8 btn btn-outline-beta btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip134282">Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Banner End-->
+
+        <!--Snippet Sale Image start-->
+        <template id="book_sale_image" name="Book Sale Image">
+            <section class="pt64 pb64" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-lg-5">
+                                    <div class="bg-white p-lg-3 p-md-2 p-3">
+                                        <h2>
+                                            <font style="font-size: 18px;">Latest Books</font>
+                                        </h2>
+                                        <h2>
+                                            <font style="font-size: 18px;">50% Discounts&amp;nbsp;</font>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-lg-5">
+                                    <div class="bg-white p-lg-3 p-md-2 p-3">
+                                        <h2>
+                                            <font style="font-size: 18px;">Popular Books</font>
+                                        </h2>
+                                        <p>
+                                            <font>
+                                                <a href="#">View Collection&amp;nbsp;</a>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-lg-5">
+                                    <div class="bg-white p-lg-3 p-md-2 p-3">
+                                        <h2>
+                                            <font style="font-size: 18px;">Huge Sale</font>
+                                        </h2>
+                                        <h2>
+                                            <font style="font-size: 18px;">20% Off&amp;nbsp;</font>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Image End-->
+
+        <!--Snippet Testimonial start-->
+        <template id="book_testimonial" name="Book Testimonial">
+            <section class="pt64 pb64 bg-alpha oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div id="myCarousel1576661429008" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1576661429008" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1576661429008" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-lg-8 col-md-12 col-sm-12 text-center">
+                                        <img class="img"
+                                             src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-user.png"
+                                             alt="" data-original-title="" title="" aria-describedby="tooltip464802"/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one of your customers. Quotes are a great way to build confidence in
+                                            your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-lg-8 col-md-12 col-sm-12 text-center">
+                                        <img class="img"
+                                             src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-user.png"
+                                             alt="" data-original-title="" title="" aria-describedby="tooltip464802"/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one of your customers. Quotes are a great way to build confidence in
+                                            your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1576661429008" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1576661429008" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Promo Image start-->
+        <template id="book_promo_image" name="Book Promo Image">
+            <section class="pt64 pb64" id="ecommerce_block_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-720x948.png"
+                                     data-original-title="" title="" aria-describedby="tooltip8987"/>
+                                <div class="img-content-1 text-center col-12">
+                                    <div class="bg-white p-2">
+                                        <h3>
+                                            <font style="font-size: 18px;">
+                                                <b>Mega Sale</b>
+                                            </font>
+                                        </h3>
+                                        <p class="mb-0">
+                                            <a href="#">Shop Now</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-720x948.png"
+                                     data-original-title="" title="" aria-describedby="tooltip8987"/>
+                                <div class="img-content-1 text-center col-12">
+                                    <div class="bg-white p-2">
+                                        <h3>
+                                            <b>
+                                                <font style="font-size: 18px;">New Arrival</font>
+                                            </b>
+                                        </h3>
+                                        <p class="mb-0">
+                                            <a href="#">Shop Now</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_book_ecommerce_ultimate_01/static/src/img/placeholder-720x948.png"
+                                     data-original-title="" title="" aria-describedby="tooltip8987"/>
+                                <div class="img-content-1 text-center col-12">
+                                    <div class="bg-white p-2">
+                                        <h3>
+                                            <font style="font-size: 18px;">
+                                                <b>Holiday Season Sale</b>
+                                            </font>
+                                        </h3>
+                                        <p class="mb-0">
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip127566">View Collection
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Promo Image End-->
+
+        <!--Snippet Feature start-->
+        <template id="book_feature" name="Book Feature">
+            <section class="pb64 pt64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-3x pe-7s-car fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip589889" style=""/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 14px;">
+                                            <b>FREE SHIPPING ITEM</b>
+                                        </font>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                        &amp;nbsp;
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-3x fa-life-ring pe-7s-cash fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip251003" style=""/>
+                                    <h3 class="pb8 pt8">
+                                        <b>
+                                            <font style="font-size: 14px;">MONEY BACK GUARANTEE</font>
+                                        </b>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                        &amp;nbsp;
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-3x pe-7s-call fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip616728" style=""/>
+                                    <h3 class="pb8 pt8">
+                                        <b>
+                                            <font style="font-size: 14px;">HELP &amp;amp; SUPPORT</font>
+                                        </b>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                        &amp;nbsp;
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Blog start-->
+        <template id="book_blog" name="Book Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center pt24" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"
+                     style=""/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Newsletter start-->
+        <template id="book_newsletter" name="Book Newsletter">
+            <section class="pt64 pb32" id="footer_7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2>Get Newsletter</h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-6 offset-lg-3 offset-md-2 mb48">
+                            <div class="input-group js_subscribe hidden" data-list-id="2" data-subscribe="off">
+                                <input type="email" name="email" class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..." style="&#10;    height: 47px;&#10;"/>
+                                <span class="input-group-btn">
+                                    <a href="#" class="px-3 py-3 js_subscribe_btn btn btn-primary flat">Subscribe</a>
+                                    <a href="#"
+                                       class="btn  px-3 py-3 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for your
+                                    subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Footer start-->
+        <template id="book_footer" name="Book Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                <div class="pt64" id="footer_16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 separator mb32 col-lg-5">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    dummy.Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-map-marker mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Address:
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-phone mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Phone:
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-envelope mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Email:
+                                        <span t-field="res_company.email"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class="o_default_snippet_text">
+                                    <b>Usefull Links</b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip822251">
+                                            <font class="text-epsilon" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip808081">Home
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-epsilon" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip32813">About US
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip542874">
+                                            <font class="text-epsilon" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip75979">Shop
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip723560">
+                                            <font class="text-epsilon" style="">Blog</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-epsilon" style="">Contact</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5>
+                                    <b>Information</b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Personal Info</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Orders</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Credit Slip</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">View Cart</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Help</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <b>Business Hours</b>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>Monday - Saturday
+                                        <br/>
+                                        8 AM - 5 PM
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Book Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_banner"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_sale_image"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_testimonial"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_promo_image"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_feature"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_blog"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_newsletter"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_book_ecommerce_ultimate_01.book_footer"
+                           t-thumbnail="/theme_book_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

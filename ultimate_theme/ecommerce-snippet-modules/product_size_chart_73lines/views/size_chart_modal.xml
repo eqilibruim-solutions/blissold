@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="size_chart" name='size chart' inherit_id="website_sale.product">
+        <xpath expr="//div[@id='product_details']/form" position="after">
+            <t t-if="size_chart">
+                <button class="btn btn-link btn-lg" data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-th mr8"/>Size Chart
+                </button>
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    <div t-field="size_chart.name"/>
+                                </h4>
+                                <button type="button" class="close" style="margin-top: -21px" data-dismiss="modal">X
+                                </button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <div>
+                                    <div class="table table-responsive">
+                                        <t t-raw="size_chart.chart"/>
+                                    </div>
+                                    <div>
+                                        <div class="item img-fluid" t-field="size_chart.image" align="middle"
+                                             t-options='{"widget": "image", "alt-field": "name"}'/>
+                                    </div>
+                                    <div style="word-wrap: break-word;padding-top: 50px">
+                                        <t t-raw="size_chart.size_details"/>
+                                    </div>
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

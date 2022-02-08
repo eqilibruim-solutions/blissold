@@ -1,0 +1,883 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="app_banner" name="App Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_app_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 75%;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed full-height">
+                        <div class="col-lg-5 align-self-center" data-name="Image">
+                            <img class="img img-fluid"
+                                 src="/theme_app_ultimate_01/static/src/img/placeholder-mobile.png"
+                                 data-original-title="" title="" aria-describedby="tooltip891772"/>
+                        </div>
+                        <div class="align-content-center align-self-center col-lg-7 content-align-center"
+                             data-name="Title">
+                            <h1 class="s_title_thin text-white" style="font-size: 62px;">
+                                <font style="font-size: 48px;">Showcase Your
+                                    <b>Device</b>
+                                </font>
+                            </h1>
+                            <div class="s_text pt16 pb16 text-white" data-name="Text">
+                                <p class="lead">Write one or two paragraphs describing your product,
+                                    services or a specific feature.
+                                    <br/>
+                                    To be successful your content needs to be useful to your readers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Feature Start-->
+        <template id="app_feature" name="App Feature">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <b>
+                                    <font style="font-size: 36px;" class="o_default_snippet_text">Amazing Features
+                                    </font>
+                                </b>
+                            </h2>
+                            <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                at semper metus. Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.
+                            </p>
+                            <div class="row pt64 align-items-center">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-right">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-500px fa-5x pe-7s-user text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip372875" style=""/>
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;">USER FRIENDLY</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-500px fa-5x fa-life-ring pe-7s-gleam text-alpha"
+                                           data-original-title="" title="" aria-describedby="tooltip196531" style=""/>
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;">SUPER FAST SPEED</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-500px fa-5x pe-7s-refresh-2 text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip864154" style=""/>
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;">FREE UPDATE FOREVER</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="/theme_app_ultimate_01/static/src/img/placeholder-mobile.png" alt="molile"
+                                         class="img-fluid pt8 pb8" data-original-title="" title=""
+                                         aria-describedby="tooltip667538"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-left">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-500px fa-5x pe-7s-paint-bucket text-alpha"
+                                           data-original-title="" title="" aria-describedby="tooltip555000" style=""/>
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;">COLOURS SCHEMES</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-500px fa-5x fa-bar-chart pe-7s-safe text-alpha"
+                                           data-original-title="" title="" aria-describedby="tooltip550548" style=""/>
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;">HIGH RESOLUTION</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-500px fa-5x fa-address-card-o pe-7s-smile text-alpha"
+                                           data-original-title="" title="" aria-describedby="tooltip592429" style=""/>
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;">FRIENDLY USER SUPPORT</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Facility Start-->
+        <template id="app_facility" name="App Facility">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <b>
+                                    <font style="font-size: 36px;">Why It's Best?</font>
+                                </b>
+                            </h2>
+                            <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                at semper metus. Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.
+                            </p>
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-500px fa-5x pe-7s-map text-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip867009"
+                                       style=""/>
+                                    <h3 class="pb8 pt8">
+                                        <b>
+                                            <font style="font-size: 18px;">RESPONSIVE DESIGN</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-500px fa-5x fa-life-ring pe-7s-like2 text-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip36578"
+                                       style=""/>
+                                    <h3 class="pb8 pt8">
+                                        <b>
+                                            <font style="font-size: 18px;">EASY TO USE</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-500px fa-5x pe-7s-clock text-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip995642"
+                                       style=""/>
+                                    <h3 class="pb8 pt8">
+                                        <b>
+                                            <font style="font-size: 18px;">24/7 SUPPORT</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facility End-->
+
+        <!--Snippet Counter Start-->
+        <template id="app_counter" name="App Counter">
+            <section class="bg-epsilon oe_custom_bg pt96 pb96" id="counter_9">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-bottom-arrow text-alpha" data-original-title=""
+                                   title="" aria-describedby="tooltip381745" style=""/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>156K</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <b>
+                                        <font style="color: rgb(99, 99, 99); font-size: 18px;">DOWNLOADS</font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-menu text-alpha" data-original-title="" title=""
+                                   aria-describedby="tooltip840396" style=""/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>900</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <b>
+                                        <font style="color: rgb(99, 99, 99); font-size: 18px;">LINE OF CODE</font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x fa-users pe-7s-users text-alpha" data-original-title=""
+                                   title="" aria-describedby="tooltip655491" style=""/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>120k</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <b>
+                                        <font style="color: rgb(99, 99, 99); font-size: 18px;">HAPPY USERS</font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-star text-alpha" data-original-title="" title=""
+                                   aria-describedby="tooltip714462" style=""/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>4.9/5</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <b>
+                                        <font style="color: rgb(99, 99, 99); font-size: 18px;">APP RATES</font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Screenshot Start-->
+        <template id="app_screenshot" name="App Screenshot">
+            <section class="pt64 pb64">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-2 col-lg-8">
+                            <h2 class="pb24 pt24">
+                                <font style="font-size: 36px;">
+                                    <b>Screenshots</b>
+                                </font>
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                gravida velit urna, ut mattis leo ullamcorper sed.
+                            </p>
+                            <div>
+                                <img src="/theme_app_ultimate_01/static/src/img/placeholder-1170.jpg"
+                                     alt="img2" class="img-fluid pt16 pb8" data-original-title=""
+                                     title="" aria-describedby="tooltip674630"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Screenshot End-->
+
+        <!--Snippet Team Start-->
+        <template id="app_team" name="App Team">
+            <section class="pt64 pb64" id="team_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center o_default_snippet_text">
+                                <b>
+                                    <font style="font-size: 36px;">Our Team</font>
+                                </b>
+                            </h2>
+                            <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                at semper metus. Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_app_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip330480"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);">Alexa Smith
+                                                </font>
+                                            </h3>
+                                            <p>Co-Head</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_app_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip330480"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);">Robert Miller
+                                                </font>
+                                            </h3>
+                                            <p>UI/UX Designer</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_app_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip330480"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);">Shana Munira
+                                                </font>
+                                            </h3>
+                                            <p>Designer</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_app_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip330480"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);">Philips
+                                                    Hennesy
+                                                </font>
+                                            </h3>
+                                            <p>Developer</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="app_testimonial" name="App Testimonial">
+            <section class="bg-gamma oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb0 pt32">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_app_ultimate_01/static/src/img/placeholder-mobile.png"
+                                                     alt="Image" title="Image"
+                                                     class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100 bg-gamma">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb64 bg-gamma oe_custom_bg pt64" id="testimonials_d2">
+                                    <div class="container">
+                                        <div class="row content justify-content-md-center">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <h2>
+                                                    <b>
+                                                        <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                                              class="o_default_snippet_text">
+                                                            What Our Client Says!
+                                                        </font>
+                                                    </b>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="myCarousel1567425600818"
+                                         class="s_quotes_carousel carousel slide s_carousel_default"
+                                         data-interval="10000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel1567425600818" data-slide-to="0"
+                                                class="active"/>
+                                            <li data-target="#myCarousel1567425600818" data-slide-to="1"/>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item pt0 pb0 active" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                                <font style="font-size: 18px;">Write a quote here from
+                                                                    one of your
+                                                                    customers. Quotes are a great way to
+                                                                    build confidence in your products or
+                                                                    services.
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center">
+                                                                <img class="img"
+                                                                     src="/theme_app_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt=""
+                                                                     data-original-title="" title=""
+                                                                     aria-describedby="tooltip723663"/>
+                                                                <span class="o_default_snippet_text">Jane DOE, CEO of
+
+
+                                                                    <b class="o_default_snippet_text">Company</b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt0 pb0" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12">
+                                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                                <font style="color: rgb(255, 255, 255);"
+                                                                      class="o_default_snippet_text"/>
+                                                                <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                                                      class="o_default_snippet_text">Write a quote here
+                                                                    from one of your
+                                                                    customers. Quotes are a great way to
+                                                                    build confidence in your products or
+                                                                    services.&amp;nbsp;
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center">
+                                                                <img class="img"
+                                                                     src="/theme_app_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt=""
+                                                                     data-original-title="" title=""
+                                                                     aria-describedby="tooltip398332"/>
+                                                                <span>
+                                                                    <font style="color: rgb(255, 255, 255);"
+                                                                          class="o_default_snippet_text">
+                                                                        &amp;nbsp;Xanier Leo, Manager of&amp;nbsp;
+                                                                    </font>
+                                                                    <b>
+                                                                        <font style="color: rgb(255, 255, 255);"
+                                                                              class="o_default_snippet_text">
+                                                                            Company&amp;nbsp;
+                                                                        </font>
+                                                                    </b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-control-prev" data-target="#myCarousel1567425600818"
+                                             data-slide="prev" role="img" aria-label="Previous" title="Previous"/>
+                                        <div class="carousel-control-next" data-target="#myCarousel1567425600818"
+                                             data-slide="next" role="img" aria-label="Next" title="Next"/>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonail End-->
+
+        <!--Snippet Pricing Start-->
+        <template id="app_pricing" name="App Pricing Table">
+            <section class="pricing_1 pt64 pb64 bg-epsilon oe_custom_bg" id="bs_price_table">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-12 col-sm-12 col-lg-12 col-md-12 pb48 text-center">
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b>Choose Your Plan</b>
+                                </font>
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                gravida velit urna, ut mattis leo ullamcorper sed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                            <div class="bs_content clearfix">
+                                <div class="bs_head_price clearfix">
+                                    <div class="bs_head_content clearfix">
+                                        <div class="head_bg"/>
+                                        <div class="head">
+                                            <span class="o_default_snippet_text">Basic</span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_price_tag clearfix">
+                                        <span class="price">
+                                            <span class="sign">$</span>
+                                            <span class="currency">&amp;nbsp;19</span>
+                                            <span class="cent o_default_snippet_text">.99</span>
+                                            <span class="month o_default_snippet_text">/MON</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="bs_feature_list">
+                                    <ul>
+                                        <li class="o_default_snippet_text">
+                                            <span class="o_default_snippet_text">2GB</span>
+                                            Bandwidth
+                                        </li>
+                                        <li>
+                                            <span>50GB</span>
+                                            Storage
+                                        </li>
+                                        <li>
+                                            <span>2</span>
+                                            Accounts
+                                        </li>
+                                        <li class="o_default_snippet_text">
+                                            <span class="o_default_snippet_text">24/7</span>
+                                            Support
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bs_price_btn clearfix">
+                                    <a class="o_default_snippet_text" href="">Sign up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                            <div class="bs_content active clearfix">
+                                <div class="bs_head_price clearfix">
+                                    <div class="bs_head_content clearfix">
+                                        <div class="head_bg"/>
+                                        <div class="head">
+                                            <span class="o_default_snippet_text">Standard</span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_price_tag clearfix">
+                                        <span class="price">
+                                            <span class="sign o_default_snippet_text">$</span>
+                                            <span class="currency">&amp;nbsp;49</span>
+                                            <span class="cent o_default_snippet_text">.99</span>
+                                            <span class="month o_default_snippet_text">/MON</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="bs_feature_list">
+                                    <ul>
+                                        <li>
+                                            <span>4GB</span>
+                                            Bandwidth
+                                        </li>
+                                        <li>
+                                            <span>100GB</span>
+                                            Storage
+                                        </li>
+                                        <li><span>4</span>&amp;nbsp;Accounts
+                                        </li>
+                                        <li>
+                                            <span>24/7</span>
+                                            Support
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bs_price_btn clearfix">
+                                    <a class="o_default_snippet_text" href="">Sign up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                            <div class="bs_content clearfix">
+                                <div class="bs_head_price clearfix">
+                                    <div class="bs_head_content clearfix">
+                                        <div class="head_bg"/>
+                                        <div class="head">
+                                            <span>ADVANCE</span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_price_tag clearfix">
+                                        <span class="price">
+                                            <span class="sign">$</span>
+                                            <span class="currency">&amp;nbsp;89</span>
+                                            <span class="cent o_default_snippet_text">.99</span>
+                                            <span class="month o_default_snippet_text">/MON</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="bs_feature_list">
+                                    <ul>
+                                        <li>
+                                            <span>8GB</span>
+                                            Bandwidth
+                                        </li>
+                                        <li>
+                                            <span>150GB</span>
+                                            Storage
+                                        </li>
+                                        <li><span>6</span>&amp;nbsp;Accounts
+                                        </li>
+                                        <li class="o_default_snippet_text">
+                                            <span>24/7</span>
+                                            Support
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bs_price_btn clearfix">
+                                    <a class="o_default_snippet_text" href="">Sign up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Pricing End-->
+
+        <!--Snippet App Store Start-->
+        <template id="app_appstore" name="App App Store">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_app_ultimate_01/static/src/img/placeholder-mobile.png" alt="img2"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title=""
+                                 title="" aria-describedby="tooltip332595"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt24 pt0 pb80">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">Get The App Now</font>
+                                </b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xl-6">
+                                    <img src="/theme_app_ultimate_01/static/src/img/placeholder-googleplay.png"
+                                         alt="logo"
+                                         class="img-fluid pt8 pb8 mx-auto d-block"
+                                         data-original-title="" title="" aria-describedby="tooltip58295"
+                                         style=""/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xl-6">
+                                    <img src="/theme_app_ultimate_01/static/src/img/placeholder-appstore.png" alt="logo"
+                                         class="img-fluid pt8 pb8 mx-auto d-block"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip593822" style=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet App Store End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="app_contact" name="App Contact Us">
+            <section class="py-5 bg-epsilon oe_custom_bg">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-center">
+                                <b>
+                                    <b>Contact</b>
+                                    <b>Us</b>
+                                </b>
+                            </h1>
+                            <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                at semper metus. Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you"
+                                  class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="contact_name" placeholder="Your Name" required=""
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="phone" placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="email_from" required="" placeholder="Email"
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <textarea class="form-control o_website_form_input"
+                                                  name="description" required=""
+                                                  placeholder="Your Messages" rows="5"/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-center" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
+                                                Send
+                                            </a>
+                                            <span id="o_website_form_result"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Footer Start-->
+        <template id="app_footer" name="App Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb64" id="footer_12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mt64">
+                                <a t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-2x fa-twitter social_icon_size social_twitter mx-2 mb8"
+                                       data-original-title="" title="" aria-describedby="tooltip348166"/>
+                                </a>
+                                <a t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-2x fa-facebook social_icon_size social_facebook mx-2 mb8"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-2x fa-google-plus social_icon_size social_g_plus mx-2 mb8"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-2x fa-dribbble social_icon_size social_dribbble mx-2 mb8"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-2x fa-behance social_icon_size social_behance mx-2 mb8"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        App Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_app_ultimate_01.app_banner"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_feature"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_facility"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_counter"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_screenshot"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_team"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_testimonial"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_pricing"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_appstore"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_contact"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_app_ultimate_01.app_footer"
+                           t-thumbnail="/theme_app_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

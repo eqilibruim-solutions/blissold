@@ -1,0 +1,1274 @@
+<odoo>
+    <data>
+
+        <!--Snippet Mid Header Start-->
+        <template id="repair2_mid_header" name="Repair2 Mid Header">
+            <section class="mid_header_top bg-beta oe_custom_bg">
+                <div class="container" id="mid_header_top_4">
+                    <div class="row py-1">
+                        <div class="col-12 oe_structure col-lg-8 col-md-12 col-sm-12 text-center text-lg-left py-1"
+                             id="mid_header_top_right">
+                            <span class="py-1">
+                                <i class="fa fa-comment-o mr-2"/>
+                                <p class="m-0 d-inline o_default_snippet_text">24X7 Live Support</p>
+                            </span>
+                            <span class="ml8 mr8 d-block d-lg-inline d-md-inline py-1" id="company-email">
+                                <i class="fa fa-envelope mr-2"/>
+                                <span t-field="res_company.email"/>
+                            </span>
+                            <span class="my-2">
+                                <i class="fa fa-comment mr-2"/>
+                                <p class="m-0 d-inline o_default_snippet_text">Live Chat</p>
+                            </span>
+                        </div>
+                        <div class="col-12 oe_structure col-lg-4 col-md-12 col-sm-12 text-center text-lg-right py-1"
+                             id="mid_header_top_right">
+                            <span id="company-profile" class="d-block d-lg-inline d-md-inline">
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-x mx-2 text-white fa-facebook share_facebook fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-x mx-2 text-white fa-twitter share_twitter fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_linkedin">
+                                    <i class="fa fa-x mx-2 text-white fa-linkedin share_linkedin fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_youtube">
+                                    <i class="fa fa-x mx-2 text-white fa-youtube-play share_youtube fa_company_contact_info"/>
+                                </a>
+                                <a rel="publisher" class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_instagram">
+                                    <i class="fa fa-x mx-2 text-white fa-instagram share_instagram fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_github">
+                                    <i class="fa fa-x mx-2 text-white fa-github share_github fa_company_contact_info"/>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+        <!--Snippet Banner Start-->
+        <template id="repair2_banner" name="Repair2 Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_repair_ultimate_02/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="text-align: center;">
+                                <font style="font-size: 36px;">
+                                    <b>CARING FOR YOUR CAR</b>
+                                </font>
+                                <br/>
+                                <font style="font-size: 48px;">
+                                    <b>THE WAY YOU WOULD</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text"
+                               style="text-align: center;">Write one or two paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus"
+                               class="mb8 mt8 rounded-circle rounded-circle btn btn-alpha rounded-circle"
+                               data-original-title="" title="" aria-describedby="tooltip844461">Learn
+                                More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="repair2_features" name="Repair2 Features">
+            <section class="pt64 pb64 s_overlay_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">
+                                            <b>Modern Workshop</b>
+                                        </font>
+                                    </h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <a href="#" target="_blank" class="btn btn-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip454030">
+                                        <font style="font-size: 12px;">Read more</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">
+                                            <b>Talented Workers</b>
+                                        </font>
+                                    </h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <a href="#" target="_blank" class="btn btn-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip699022">
+                                        <font style="font-size: 12px;">Read more</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">
+                                            <b>Leading Auto Specialist</b>
+                                        </font>
+                                    </h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <a href="#" target="_blank" class="btn btn-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip737638">
+                                        <font style="font-size: 12px;">Read more</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Why Us Start-->
+        <template id="repair2_why_us" name="Repair2 Why Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6  pb48">
+                            <h2 class="mb16">
+                                <b>WHY CHOOSE&amp;nbsp;<font class="text-beta" style="">US</font>&amp;nbsp;?
+                                </b>
+                            </h2>
+                            <h4>
+                                <font style="font-size: 18px;" class="text-delta">
+                                    <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor.
+                                    </i>
+                                </font>
+                            </h4>
+                            <p class="s_line_height_2">sit amet consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <p class="pb16 s_line_height_2">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                                <br/>
+                            </p>
+                            <a href="#" class="btn btn-lg btn-primary rounded-0" data-original-title=""
+                               title="" aria-describedby="tooltip999320">
+                                <font style="font-size: 14px;">READ MORE</font>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty"
+                                 data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-555x198.png"
+                                                     alt="Image" title="Image" class="img-fluid mb8"/>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                                     alt="Image" title="Image"
+                                                     class="img-fluid mb8 mt8"/>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                                     alt="Image" title="Image"
+                                                     class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Why Us End-->
+
+        <!--Snippet Services Start-->
+        <template id="repair2_services" name="Repair2 Services">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <p style="text-align: left; " class="mb0">BEST CARFIX &amp;amp; REPAIR
+                                SERVICES
+                            </p>
+                            <h2 style="text-align: left; ">OUR
+                                <font class="text-beta" style="">SERVICES</font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="bg-white pt32 pb32 px-3">
+                                <i class="fa fa-star fa-3x"/>
+                                <h3 class="mt16">Break Repair</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry Lorem Ipsum.
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text"
+                                   data-original-title="" title="">
+                                    <font class="text-alpha" style="">read more
+                                        &amp;nbsp;
+                                    </font>
+                                    <i class="fa fa-chevron-right ml-2 text-alpha" style=""/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="bg-white pt32 pb32 px-3">
+                                <i class="fa fa-star fa-3x"/>
+                                <h3 class="mt16">Ignition Test</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry Lorem Ipsum.
+                                    <br/>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                    <i class="fa fa-chevron-right ml-2"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="bg-white pt32 pb32 px-3">
+                                <i class="fa fa-star fa-3x"/>
+                                <h3 class="mt16">Oil &amp;amp; Filters</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry Lorem Ipsum.
+                                    <br/>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                    <i class="fa fa-chevron-right ml-2"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="bg-white pt32 pb32 px-3">
+                                <i class="fa fa-star fa-3x"/>
+                                <h3 class="mt16">Engine Diagnostics</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry Lorem Ipsum.
+                                    <br/>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                    <i class="fa fa-chevron-right ml-2"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="bg-white pt32 pb32 px-3">
+                                <i class="fa fa-star fa-3x"/>
+                                <h3 class="mt16">Exhaust Repair</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry Lorem Ipsum.
+                                    <br/>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                    <i class="fa fa-chevron-right ml-2"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="bg-white pt32 pb32 px-3">
+                                <i class="fa fa-star fa-3x"/>
+                                <h3 class="mt16">A/C Recharge</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry Lorem Ipsum.
+                                    <br/>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                    <i class="fa fa-chevron-right ml-2"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Counter Start-->
+        <template id="repair2_counter" name="Repair2 Counter">
+            <section class="pt64 pb64" id="counter_15"
+                     style="background-image: url(&quot;/theme_repair_ultimate_02/static/src/img/placeholder-image-1170.jpg &quot;);background-repeat: no-repeat; background-size: cover; background-attachment: fixed;position: relative;">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-76x76.png"
+                                     alt="open_book" class="img-fluid image"/>
+                                <h2 class="pt16">
+                                    <font style="font-size: 36px;" class="text-epsilon">560</font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 14px;" class="text-epsilon">VEHICLE
+                                        SERVICED
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-76x76.png"
+                                     alt="android" class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="font-size: 36px;" class="text-epsilon">1407</font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 14px;" class="text-epsilon">HAPPY
+                                        CUSTOMERS
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-76x76.png"
+                                     alt="icon-1" class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="font-size: 36px;" class="text-epsilon">3167</font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 14px;" class="text-epsilon">REVIEWS DONE
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-76x76.png"
+                                     alt="unicorn" class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="font-size: 36px;" class="text-epsilon">20</font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 14px;" class="text-epsilon">AWARDS WON
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Team Start-->
+        <template id="repair2_team" name="Repair2 Team">
+            <section id="team_5" class="pt64 pb64 bg-100 oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <p style="text-align: left; " class="mb0">BEST CARFIX &amp;amp; REPAIR
+                                TEAM
+                            </p>
+                            <h2 style="text-align: left; ">OUR
+                                <font class="text-beta" style="">TEAM</font>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb8 text-alpha">
+                                        <font style="font-size: 24px;">William Robinson</font>
+                                    </h5>
+                                    <div class="card-text text-black-50 o_default_snippet_text">Wheel
+                                        Alignment Specialist
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb8 text-alpha">
+                                        <font style="font-size: 24px;">Brett Connor</font>
+                                    </h5>
+                                    <div class="card-text text-black-50">Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb8 text-alpha">
+                                        <font style="font-size: 24px;">Alexander Jason</font>
+                                    </h5>
+                                    <div class="card-text text-black-50">Engine Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0">
+                                <img src="/theme_repair_ultimate_02/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb8 text-alpha">
+                                        <font style="font-size: 24px;">Victor Morgan</font>
+                                    </h5>
+                                    <div class="card-text text-black-50 o_default_snippet_text">Customer
+                                        Support
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="repair2_gallery" name="Repair2 Gallery">
+            <section class="pt64 pb64" id="portfolio_8">
+                <div class="container">
+                    <div class="text-center">
+                        <p class="mb0" style="text-align: left; ">CARFIX &amp;amp; REPAIR WORK GALLERY
+                        </p>
+                        <h2 class="pb40" style="text-align: left; ">Our
+                            <font class="text-beta" style="">Work Gallery</font>
+                        </h2>
+                        <div class="justify-content-center pb32" style="text-align: left; ">
+                            <a class="filter-button mb8 mt8 text-primary btn" data-filter="all"
+                               data-original-title="" title="" aria-describedby="tooltip621679">
+                                <font class="text-alpha" style="" data-original-title="" title=""
+                                      aria-describedby="tooltip6747">&amp;nbsp;All
+                                </font>
+                                <font class="text-epsilon" style="" data-original-title="" title=""
+                                      aria-describedby="tooltip6747">&amp;nbsp;
+                                </font>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="one"
+                               data-original-title="" title="">
+                                <font style="font-size: 16px;" data-original-title="" title=""
+                                      aria-describedby="tooltip525366">Wheel &amp;amp; Tire
+                                </font>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="two"
+                               data-original-title="" title="" aria-describedby="tooltip225270">
+                                <font style="font-size: 16px;">Oil</font>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="three"
+                               data-original-title="" title="" aria-describedby="tooltip950492">
+                                <font style="font-size: 16px;">Engine</font>
+                            </a>
+                            <a class="btn filter-button mb8 mt8 text-primary" data-filter="four"
+                               data-original-title="" title="" aria-describedby="tooltip69025">
+                                <font style="font-size: 16px;">Brake</font>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter one pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter two pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter one pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter four pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter three pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter four pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter three pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter four pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter four pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter one pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter three pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12 filter two pb24"
+                                 style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script class="o_default_snippet_text">
+                    $(document).ready(function(){
+
+                    $(".filter-button").click(function(){
+                    var value = $(this).attr('data-filter');
+
+                    if(value == "all")
+                    {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                    }
+                    else
+                    {
+                    // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    // $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+
+                    }
+                    });
+
+                    if ($(".filter-button").removeClass("active")) {
+                    $(this).removeClass("active");
+                    }
+                    $(this).addClass("active");
+
+                    });
+                </script>
+            </section>
+
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="repair2_testimonial" name="Repair2 Testimonial">
+            <section class="oe_img_bg oe_custom_bg pb56 pt48" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_repair_ultimate_02/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font class="text-epsilon" style="">Our Happy Client About Us</font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1571660956490"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1571660956490" data-slide-to="0"/>
+                        <li data-target="#myCarousel1571660956490" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1571660956490" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pb0 pt0" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Write a quote here from
+                                                one
+                                                of your customers. Quotes are a great
+                                                way to build confidence in your
+                                                products or services.
+                                                &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_repair_ultimate_02/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                <font class="text-epsilon" style="">
+                                                </font>
+                                                <font class="text-beta" style="">Jane DOE,</font>
+                                                <font class="text-epsilon" style="">CEO of
+                                                </font>
+                                                <font class="text-beta" style="">&amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font class="text-epsilon" style="">
+                                                        MyCompany
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pb0 pt0 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Write a quote here from
+                                                one
+                                                of your customers. Quotes are a great
+                                                way to build confidence in your
+                                                products or services.
+                                                &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_repair_ultimate_02/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                <font class="text-epsilon" style="">
+                                                </font>
+                                                <font class="text-beta" style="">Jane DOE,</font>
+                                                <font class="text-epsilon" style="">CEO of
+                                                </font>
+                                                <font class="text-beta" style="">&amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font class="text-epsilon" style="">
+                                                        MyCompany
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pb0 pt0" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Write a quote here from
+                                                one
+                                                of your customers. Quotes are a great
+                                                way to build confidence in your
+                                                products or services.
+                                                &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_repair_ultimate_02/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                <font class="text-epsilon" style="">
+                                                </font>
+                                                <font class="text-beta" style="">Jane DOE,</font>
+                                                <font class="text-epsilon" style="">CEO of
+                                                </font>
+                                                <font class="text-beta" style="">&amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font class="text-epsilon" style="">
+                                                        MyCompany
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1571660956490"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous
+                        </span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1571660956490"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="repair2_contact_us" name="Repair2 Contact Us">
+            <section class="py-5 contact_us_3 bg-100 oe_custom_bg">
+                <div class="container">
+                    <div class="row s_nb_column_fixed align-items-center">
+                        <div class="col-lg-7 col-md-7 s_text" data-name="Text">
+                            <h1 class="mb48" style="text-align: left;">
+                                <font style="font-size: 24px;" class="o_default_snippet_text">Contact Us For Service
+                                </font>
+                                <font style="font-size: 24px;" class="text-beta">
+                                    <b class="o_default_snippet_text">Now !</b>
+                                </font>
+                            </h1>
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-md-6">
+                                        <input type="text" class="form-control o_website_form_input" name="phone"
+                                               placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="partner_name"
+                                               required="" placeholder="Vehicle Model" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="name"
+                                               required="" placeholder="Subject" value=""/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-left" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-primary flat btn-lg o_default_snippet_text o_website_form_send w-auto"
+                                               data-original-title="" title="" aria-describedby="tooltip358479">Submit
+                                                request
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg" alt="Image"
+                                 title="Image" class="img-fluid mb8"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            s
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet News Start-->
+        <template id="repair2_news" name="Repair2 News">
+            <section class="pt64 pb64" id="news_one">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2 style="text-align: left; ">RECENT&amp;nbsp;
+                                <font class="text-beta" style="">NEWS</font>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text">Williamson</a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text">2 Comments</a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip438502">
+                                            <font style="font-size: 18px;">The Number of Electric
+                                                Vehicles in the UK Has Doubled
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                        assumenda culpa cumque
+                                        dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                        soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text">Williamson</a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text">2 Comments</a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip456979">
+                                            <font style="font-size: 18px;">Do You Service and Repair All
+                                                Makes and Models of Vehicles
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                        assumenda culpa cumque
+                                        dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                        soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_repair_ultimate_02/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text">Williamson</a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text">2 Comments</a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip389843">
+                                            <font style="font-size: 18px;">Why Does My Car Need
+                                                Maintance If It's Running Fine
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                        assumenda culpa cumque
+                                        dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                        soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Footer Start-->
+        <template id="repair2_footer" name="Repair2 Footer">
+            <section id="footer" class="oe_structure oe_structure_solo oe_custom_bg" t-ignore="true"
+                     t-if="not no_footer"
+                     style="border-top:none; background-image: url(&quot;/theme_repair_ultimate_02/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="pt64 pb0 oe_img_bg" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="media">
+                                    <i class="fa fa-map-marker mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Address :</p>
+                                        <p class="o_default_snippet_text">
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <i class="fa fa-phone mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Call us &amp;amp;
+                                            Hire us :
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <span t-field="res_company.phone"/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5>
+                                    <font class="text-epsilon" style="">Useful Links</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip861753">
+                                            <font class="text-delta" style="">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip691216">
+                                            <font class="text-delta" style="">Services</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip288344">
+                                            <font class="text-delta" style="">Team</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip991149">
+                                            <font class="text-delta" style="">Gallery</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip332527">
+                                            <font class="text-delta" style="">Testimonial</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip427349">
+                                            <font class="text-delta" style="">Contact Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip268945">
+                                            <font class="text-delta" style="">News</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font class="text-epsilon" style="">Services</font>
+                                </h5>
+                                <p class="mb8">Oil Change</p>
+                                <p class="mb8">Engine Service</p>
+                                <p class="mb8">Wheel Alignment</p>
+                                <p class="mb8">Looking Glass</p>
+                                <p class="mb8">Coloring</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font class="text-epsilon" style="">Opening Hours</font>
+                                </h5>
+                                <p style="text-align: left;">Mon - Tue : 8:00 am - 10:00 pm</p>
+                                <p>Wed - Fri : 8:00 am - 6:00 pm</p>
+                                <p>Sat : 3:00 am - 8:00 pm</p>
+                                <p>Sun&amp;nbsp; : closed</p>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32 pt32">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <h6 class="o_default_snippet_text">
+                                            <b>
+                                                <font style="" class="text-epsilon">Follow US On Social Networks
+                                                </font>
+                                                <font style="" class="text-gamma"></font>
+                                            </b>
+                                        </h6>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <a t-att-href="res_company.social_facebook" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-facebook p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip191544" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-google-plus p-2"
+                                               data-original-title="" title="" aria-describedby="tooltip735956"
+                                               style=""/>
+                                        </a>
+                                        <a t-att-href="res_company.social_twitter" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-twitter p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip859554" style=""/>
+                                        </a>
+                                        <a t-att-href="res_company.social_linkedin" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-linkedin p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip658706" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-vimeo p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip227566" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-pinterest p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip607153" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-flickr p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip555842" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-wifi p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip212594" style=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32 pt32">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <h6 class="o_default_snippet_text">
+                                            <b>
+                                                <font style="" class="text-epsilon">Subscribe On our Newsletter
+                                                </font>
+                                                <font style="" class="text-gamma"></font>
+                                            </b>
+                                        </h6>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <div class="input-group js_subscribe hidden" data-list-id="2"
+                                             data-subscribe="off">
+                                            <input type="email" name="email"
+                                                   class="js_subscribe_email form-control rounded-0"
+                                                   placeholder="your email..."/>
+                                            <span class="input-group-btn">
+                                                <a href="#" class="btn btn-primary js_subscribe_btn rounded-0"
+                                                   data-original-title="" title="" aria-describedby="tooltip505849">
+                                                    Subscribe
+                                                </a>
+                                                <a href="#"
+                                                   class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                                   disabled="disabled">Thanks
+                                                </a>
+                                            </span>
+                                            <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                                Thanks for your subscription!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Repair Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_repair_ultimate_02.repair2_mid_header"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_banner"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_features"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_why_us"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_services"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_counter"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_team"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_gallery"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_testimonial"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_contact_us"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_news"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_repair_ultimate_02.repair2_footer"
+                           t-thumbnail="/theme_repair_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

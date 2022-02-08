@@ -1,0 +1,32 @@
+//---------------------Hide Options Start ------------//
+.o_add_to_cart_nav_hide,{
+    #top_menu{
+        #my_cart,.o_wsale_my_cart{
+            display:none;
+        }
+    }
+}
+.o_wishlist_nav_hide{
+    #top_menu{
+        #my_wish,.o_wsale_my_wish{
+            display:none;
+        }
+    }
+}
+//---------------------Hide Options End ------------//
+
+
+.s_product_carousel{
+    .product-single{
+
+            section > h5{
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow:hidden;
+                margin: 10px 0;
+            }
+
+
+    }
+
+}

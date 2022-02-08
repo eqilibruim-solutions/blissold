@@ -1,0 +1,299 @@
+<odoo>
+    <template id="portal.portal_show_sign_in"
+              inherit_id="portal.frontend_layout" name="Show Sign In">
+        <xpath expr="//ul[@id='top_menu']" position="inside">
+            <li class="nav-item divider navbar-sign-in"
+                groups="base.group_public"/>
+            <li groups="base.group_public" class="nav-item  navbar-sign-in">
+                <a t-attf-href="/web/login" class="nav-link">
+                    <b>Sign in</b>
+                </a>
+            </li>
+        </xpath>
+    </template>
+
+    <!--Default Logo Changes-->
+    <template id="website.layout_logo_show" inherit_id="website.layout"
+               name="Show Logo">
+        <xpath expr="//header//a[hasclass('navbar-brand')]" position="replace">
+            <a href="/" class="navbar-brand logo left_logo">
+                <span t-field="res_company.logo"
+                      t-options="{'widget': 'image'}" role="img"
+                      t-att-aria-label="'Logo of %s' % res_company.name"
+                      t-att-title="res_company.name"/>
+            </a>
+        </xpath>
+    </template>
+    <!--Hide Logo From Navbar Option-->
+    <template id="logo_hide_nav" inherit_id="portal.frontend_layout"
+              customize_show="True"
+              name="Hide Logo Navbar" active="False">
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_logo_hide'}"
+                       separator=" "/>
+        </xpath>
+    </template>
+
+    <template inherit_id="portal.frontend_layout"
+              id="frontend_layout_inherit_logo">
+        <xpath expr="//ul[@id='top_menu']/li" position="inside">
+            <li class="nav-item center_logo">
+                <a href="/"
+                   class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25 ">
+                    <span t-field="res_company.logo"
+                          t-options="{'widget': 'image'}"
+                          t-att-alt="'Logo of %s' % res_company.name"
+                          t-att-title="res_company.name"/>
+                </a>
+            </li>
+        </xpath>
+        <xpath expr="//li[hasclass('nav-item', 'dropdown')]"
+               position="attributes">
+            <attribute name="class">nav-item dropdown navbar-sign-in
+            </attribute>
+        </xpath>
+    </template>
+
+    <template id="frontend_layout_inherit" inherit_id="portal.frontend_layout"
+              name="Mid Header On" active="True" customize_show="True">
+        <xpath expr="//header" position="before">
+            <section class="oe_structure">
+                <section id="mid_header_top" class="bg-black">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 oe_structure mt-2 mb-2 col-lg-4 col-sm-3"
+                                 id="mid-header-top-left">
+                                <div id="company-contact" t-ignore="true">
+                                    <i class="fa fa-phone"/>
+                                    <span t-field="res_company.phone"/>
+                                </div>
+                                <div class="text-left" id="company-profiles"
+                                     t-ignore="true">
+                                    <a t-att-href="website.social_facebook"
+                                       t-if="website.social_facebook"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-facebook-square share_facebook fa_company_contact_info"/>
+                                    </a>
+                                    <a t-att-href="website.social_twitter"
+                                       t-if="website.social_twitter"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-twitter share_twitter fa_company_contact_info"/>
+                                    </a>
+                                    <a t-att-href="website.social_linkedin"
+                                       t-if="website.social_linkedin"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-linkedin share_linkedin fa_company_contact_info"/>
+                                    </a>
+                                    <a t-att-href="website.social_youtube"
+                                       t-if="website.social_youtube"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-youtube-play share_youtube fa_company_contact_info"/>
+                                    </a>
+                                    <!--                                    <a t-att-href="website.social_googleplus"-->
+                                    <!--                                       t-if="website.social_googleplus"-->
+                                    <!--                                       rel="publisher"-->
+                                    <!--                                       class="fa_company_contact_links"-->
+                                    <!--                                       target="_blank">-->
+                                    <!--                                        <i class="fa fa-google-plus-square share_googleplus fa_company_contact_info"/>-->
+                                    <!--                                    </a>-->
+                                    <a t-att-href="website.social_github"
+                                       t-if="website.social_github"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-github share_github fa_company_contact_info"/>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-12 oe_structure mt-2 mb-2 col-lg-4 col-sm-5"
+                                 id="mid-header-top-center">
+                                <div class="text-center" id="company-email"
+                                     t-ignore="true">
+                                    <i class="fa fa-envelope"/>
+                                    <span t-field="res_company.email"/>
+                                </div>
+
+                            </div>
+                            <div class="col-12 oe_structure mt-2 mb-2 col-lg-4 col-sm-4"
+                                 id="mid-header-top-right">
+                                <div class="text-right" id="company-profiles"
+                                     t-ignore="true">
+                                    <a t-att-href="website.social_facebook"
+                                       t-if="website.social_facebook"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-facebook-square share_facebook fa_company_contact_info"/>
+                                    </a>
+                                    <a t-att-href="website.social_twitter"
+                                       t-if="website.social_twitter"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-twitter share_twitter fa_company_contact_info"/>
+                                    </a>
+                                    <a t-att-href="website.social_linkedin"
+                                       t-if="website.social_linkedin"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-linkedin share_linkedin fa_company_contact_info"/>
+                                    </a>
+                                    <a t-att-href="website.social_youtube"
+                                       t-if="website.social_youtube"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-youtube-play share_youtube fa_company_contact_info"/>
+                                    </a>
+                                    <!--                                    <a t-att-href="website.social_googleplus"-->
+                                    <!--                                       t-if="website.social_googleplus"-->
+                                    <!--                                       rel="publisher"-->
+                                    <!--                                       class="fa_company_contact_links"-->
+                                    <!--                                       target="_blank">-->
+                                    <!--                                        <i class="fa fa-google-plus-square share_googleplus fa_company_contact_info"/>-->
+                                    <!--                                    </a>-->
+                                    <a t-att-href="website.social_github"
+                                       t-if="website.social_github"
+                                       class="fa_company_contact_links"
+                                       target="_blank">
+                                        <i class="fa fa-github share_github fa_company_contact_info"/>
+                                    </a>
+                                </div>
+                                <div class="user-details">
+                                    <ul class="list-inline text-right mb-0">
+                                        <li class="list-inline-item"
+                                            id="my_cart"/>
+                                        <li class="list-inline-item"
+                                            id="cust_wish"/>
+                                        <t t-if="website.user_id == user_id">
+                                            <li class="list-inline-item">
+                                                <a class="text-xs-center nav-item pb-0"
+                                                   href="/web/login">
+                                                    <i class="fa fa-sign-in fa-2x"></i>
+                                                </a>
+                                            </li>
+                                        </t>
+                                        <li class="list-inline-item dropdown"
+                                            t-ignore="true"
+                                            t-if="not user_id._is_public()">
+                                            <a href="#"
+                                               class="nav-link dropdown-toggle pb-0"
+                                               data-toggle="dropdown">
+                                                <b>
+                                                    <span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>
+                                                </b>
+                                            </a>
+                                            <div class="dropdown-menu js_usermenu"
+                                                 role="menu">
+                                                <a href="/my/home"
+                                                   role="menuitem"
+                                                   class="dropdown-item">My
+                                                    Account
+                                                </a>
+                                                <a id="o_logout"
+                                                   class="dropdown-item"
+                                                   t-attf-href="/web/session/logout?redirect=/"
+                                                   role="menuitem">Logout
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="user-details_1">
+                                    <ul class="list-inline text-right mb-0">
+                                        <li class="list-inline-item"
+                                            id="pricelist_custom"/>
+                                        <li class="list-inline-item lang_custom">
+                                            <ul class="js_language_selector mb0 list-inline"
+                                                t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+                                                <li class="list-inline-item">
+                                                    <div class="">
+                                                        <a class="btn btn-sm btn-link dropdown-toggle"
+                                                           type="button"
+                                                           data-toggle="dropdown"
+                                                           aria-haspopup="true"
+                                                           aria-expanded="true">
+                                                            <span t-esc="list(filter(lambda lg : lg[0] == lang, languages))[0][1].split('/').pop()"/>
+                                                            <span class="caret ml4"/>
+                                                        </a>
+                                                        <div class="dropdown-menu"
+                                                             role="menu">
+<!--                                                            <t t-foreach="languages"-->
+<!--                                                               t-as="lg">-->
+<!--                                                                <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang=lg[0])"-->
+<!--                                                                   class="dropdown-item js_change_lang"-->
+<!--                                                                   t-att-data-default-lang="(editable or translatable) and 'true' if website and lg[0] == website.default_lang_code else None"-->
+<!--                                                                   t-att-data-lang="lg[0]">-->
+<!--                                                                    <t t-esc="lg[1].split('/').pop()"/>-->
+<!--                                                                </a>-->
+<!--                                                            </t>-->
+
+                                                            <t t-foreach="languages"
+                                                               t-as="lg">
+                                                                <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                                                   class="dropdown-item js_change_lang"
+                                                                   t-att-data-url_code="lg[1]">
+                                                                    <t t-esc="lg[2].split('/').pop()"/>
+                                                                </a>
+                                                            </t>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                        <li class="list-inline-item account_custom">
+                                            <div class="dropdown">
+                                                <a class="btn btn-link dropdown-toggle"
+                                                   type="button"
+                                                   id="dropdownMenu1"
+                                                   data-toggle="dropdown"
+                                                   aria-haspopup="true"
+                                                   aria-expanded="false">
+                                                    My Account
+                                                </a>
+                                                <div class="dropdown-menu"
+                                                     aria-labelledby="dropdownMenu1">
+                                                    <t t-if="website.user_id == user_id">
+                                                        <a class="text-xs-center dropdown-item"
+                                                           href="/web/login">
+                                                            Sign in
+                                                        </a>
+                                                    </t>
+                                                    <t t-if="not user_id._is_public()">
+                                                        <a href="/my/home"
+                                                           role="menuitem"
+                                                           class="dropdown-item">
+                                                            My
+                                                            Account
+                                                        </a>
+                                                        <a id="o_logout"
+                                                           class="dropdown-item"
+                                                           t-attf-href="/web/session/logout?redirect=/"
+                                                           role="menuitem">
+                                                            Logout
+                                                        </a>
+                                                    </t>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col-12 oe_structure mt-2 mb-2 col-lg-4 col-sm-4 offset-lg-4 offset-sm-4"
+                                 id="mid-header-top-right-welcome-msg">
+                                <p class="mb-0 mt-2 text-right">Wants to
+                                    explore
+                                    Upcoming Deals on Weekends?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </xpath>
+    </template>
+</odoo>

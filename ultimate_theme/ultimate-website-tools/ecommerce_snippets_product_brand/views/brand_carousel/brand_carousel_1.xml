@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <!-- ======== Brand Carousel With Header ======== -->
+
+    <!-- Snippet's Body -->
+    <template id="s_brand_carousel_header_d1"
+              name="Product's Brand Carousel Slider 1">
+        <section class="s_brand_carousel mb8 js_get_objects" data-loading="true"
+                 data-template="ecommerce_snippets_product_brand.brand_list_template_header_d1"
+                 data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d1">
+        </section>
+    </template>
+
+    <!-- Latest brands's Template -->
+    <template id="brand_list_template_header_d1">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="headline">
+                <h2 t-esc="title"/>
+                <hr class="mt0 mb0"/>
+            </div>
+            <div class="brand-list owl-carousel owl-theme mt8 mb8">
+                <t t-foreach="objects" t-as="obj">
+                    <div class="item brand-single">
+                        <t t-foreach="obj" t-as="brand">
+                            <t t-call="ecommerce_snippets_product_brand.new_brand_item_d1"/>
+                        </t>
+                    </div>
+                </t>
+            </div>
+            </div>
+        </div>
+        </div>
+    </template>
+
+    <template id="new_brand_item_d1" name="Brand item">
+        <div class="oe_brand_image brand_style mt16 mb16">
+            <a itemprop="url"
+               t-att-href="'/shop/?brands=%s-%s' % (brand.name, brand.id)"
+               data-toggle="tooltip" t-att-title="brand.name">
+                <span itemprop="image" t-field="brand.brand_image"
+                      t-options='{"widget": "image", "resize": None if brand_image else "300x300"}'
+                      t-att-alt="brand.name"/>
+            </a>
+        </div>
+    </template>
+</odoo>

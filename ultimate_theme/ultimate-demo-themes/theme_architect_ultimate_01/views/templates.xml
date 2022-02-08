@@ -1,0 +1,763 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="architect_banner" name="Architect Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_architect_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white" style="text-align: center;">
+                                <span style="color: rgb(0, 0, 0); font-size: 18px;"><b class="o_default_snippet_text">
+                                    FUTURE</b>&amp;nbsp; CONSTRUCTION
+                                </span>
+                                <span style="color: rgb(34, 34, 34); font-size: 18px;" class="o_default_snippet_text"/>
+                            </h1>
+                            <h1 class="s_title_thin text-white" style="font-size: 48px; text-align: center;">
+                                <font color="#000000">
+                                    <b class="o_default_snippet_text">
+                                    </b>
+                                </font>
+                                <font color="#000000" style="color: rgb(0, 0, 0);">
+                                    <b>MAKE YOUR DREAM HOUSE</b>
+                                </font>
+                                <font color="#000000">
+                                    <b class="o_default_snippet_text">
+                                    </b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_btn pt16 pb16 text-center" data-name="Buttons">
+                            <a href="#" class="rounded-circle rounded-circle btn btn-alpha rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip679932" style="">
+                                <font style="color: rgb(255, 255, 255);">&amp;nbsp;</font>
+                                <font style="color: rgb(255, 255, 255);">VIEW MORE PROJECTS&amp;nbsp;</font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us Start-->
+        <template id="architect_aboutus" name="Architect About Us">
+            <section class="pt64 pb64">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-2 col-lg-8">
+                            <i class="fa fa-500px pe-7s-tools px-4 text-alpha fa-5x" data-original-title="" title=""
+                               aria-describedby="tooltip309931" style=""/>
+                            <i class="fa fa-500px pe-7s-print px-4 text-alpha fa-5x" data-original-title="" title=""
+                               aria-describedby="tooltip717331" style=""/>
+                            <i class="fa fa-500px pe-7s-note px-4 text-alpha fa-5x" style="" data-original-title=""
+                               title="" aria-describedby="tooltip609106"/>
+                            <p class="pt32 o_default_snippet_text">
+                                <font style="font-size: 18px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit. Pellentesque fermentum est in tortor congue
+                                    suscipit. Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                    egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas. &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Project Start-->
+        <template id="architect_project" name="Architect Project">
+            <section class="sni-block pt64 pb64 bg-beta oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2 class="s_letter_spacing_3" style="">
+                                <font color="#e7a920" class="o_default_snippet_text" style="font-size: 24px;">RECENT
+                                </font>
+                            </h2>
+                            <h2 class="s_letter_spacing_3" style="color: rgb(33, 37, 41);">
+                                <font class="text-alpha"/>
+                            </h2>
+                            <h2 style="color: rgb(33, 37, 41);">
+                                <font style="font-size: 48px;" class="o_default_snippet_text">PROJECTS</font>
+                            </h2>
+                            <h2 style="color: rgb(33, 37, 41);">
+                                <font style="font-size: 62px;"/>
+                            </h2>
+                            <h2 style="color: rgb(33, 37, 41);">
+                                <font style="font-size: 18px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore&amp;nbsp;
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">HILLSIDE RESIDENCE
+                                    </font>
+                                </b>
+                            </h5>
+                            <h6>
+                                <b class="o_default_snippet_text">Design,Housing</b>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">NORVEGIAN OPERA</font>
+                                </b>
+                            </h5>
+                            <h6>
+                                <b>Night Club, Gym</b>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <font style="font-size: 18px;">
+                                    <b class="o_default_snippet_text">MORDEN FLAT</b>
+                                </font>
+                            </h5>
+                            <h6>
+                                <b class="o_default_snippet_text">House, Studio</b>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">MAGGIES CARING
+                                        CENTER
+                                    </font>
+                                </b>
+                            </h5>
+                            <h6>
+                                <b class="o_default_snippet_text">Design,Housing</b>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">HILLSIDE RESIDENCE
+                                    </font>
+                                </span>
+                            </h5>
+                            <h6>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">Design,Housing</span>
+                                <br/>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">NORVEGIAN OPERA</font>
+                                </span>
+                            </h5>
+                            <h6>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">Night Club, Gym</span>
+                                <br/>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <font style="font-size: 18px;">
+                                    <span style="font-weight: bolder;" class="o_default_snippet_text">MORDEN FLAT</span>
+                                </font>
+                            </h5>
+                            <h6>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">House, Studio</span>
+                                <br/>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip787358"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">View More</div>
+                                </div>
+                            </div>
+                            <h5>
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">MAGGIES CARING
+                                        CENTER
+                                    </font>
+                                </span>
+                            </h5>
+                            <h6>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">Design,Housing</span>
+                                <br/>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="s_btn pt64 pb16 text-center" data-name="Buttons">
+                    <a href="#" class="rounded-circle btn btn-outline-primary btn-lg o_default_snippet_text"
+                       data-original-title="" title="" aria-describedby="tooltip687839">
+                        <font style="font-size: 18px;">VIEW ALL PROJECTS&amp;nbsp;</font>
+                    </a>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Project End-->
+
+        <!--Snippet Work Start-->
+        <template id="architect_work" name="Architect Work">
+            <section class="pt64 pb64" id="process_six">
+                <div class="container">
+                    <div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                                <p class="text-300 number_trasperant display-1" style="text-align: left; ">
+                                    <font style="color: rgb(247, 198, 206);" class="o_default_snippet_text">01</font>
+                                </p>
+                                <h3 class="content" style="text-align: left; ">
+                                    <b>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">ARCHITECTURE
+                                            DESIGN
+                                        </font>
+                                    </b>
+                                </h3>
+                                <p style="text-align: left; color: rgb(33, 37, 41);">
+                                    <font style="font-size: 14px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore .
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center   mb16">
+                                <p class="text-300 number_trasperant display-1" style="text-align: left; ">
+                                    <font style="color: rgb(247, 198, 206);" class="o_default_snippet_text">02</font>
+                                </p>
+                                <h3 class="content" style="text-align: left; ">
+                                    <b>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">BULIDING
+                                            CONSTRUCTION
+                                        </font>
+                                        <font style="font-size: 18px;">&amp;nbsp;</font>
+                                    </b>
+                                </h3>
+                                <p style="color: rgb(33, 37, 41); text-align: left;">
+                                    <font style="font-size: 14px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore .
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center   mb16">
+                                <p class="text-300 number_trasperant display-1" style="text-align: left; ">
+                                    <font style="color: rgb(247, 198, 206);" class="o_default_snippet_text">03</font>
+                                </p>
+                                <h3 class="content" style="text-align: left;">
+                                    <span style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">BULIDING MAINTENANCE</b>
+                                    </span>
+                                </h3>
+                                <p style="color: rgb(33, 37, 41); text-align: left;">
+                                    <font style="font-size: 14px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore .
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Work End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="architect_testimonial" name="Architect Testimonial">
+            <section class="pt64 pb72 bg-alpha oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_architect_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font color="#dad4c6"
+                                      style="color: rgb(239, 239, 239); font-size: 48px;">
+                                    <b>CUSTOMER REVIEW</b>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1563773380953"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1563773380953" data-slide-to="0"/>
+                        <li data-target="#myCarousel1563773380953" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1563773380953" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item  pb0 oe_custom_bg" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(239, 239, 239);">Lorem ipsum dolor
+                                                sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam, quis nostrud exercitation ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequat. &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <font style="color: rgb(239, 239, 239);">-Jane DOE,</font>
+                                            <font style="" class="text-alpha">&amp;nbsp;CLIENT</font>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item  pb80 pt0 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center">
+                                            <font style="color: rgb(239, 239, 239);">Lorem ipsum dolor
+                                                sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam, quis nostrud exercitation ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequat. &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <span>
+                                                <font style="color: rgb(239, 239, 239);">-Jane DOE,
+                                                </font>
+                                                <font class="text-alpha" style="">CLIENT</font>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item  pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center">
+                                            <font style="color: rgb(239, 239, 239);">Lorem ipsum dolor
+                                                sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam, quis nostrud exercitation ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequat. &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <span>
+                                                <font style="color: rgb(239, 239, 239);">-Jane DOE,
+                                                </font>
+                                                <font class="text-alpha" style="">CLIENT</font>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1563773380953"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1563773380953"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Service Start-->
+        <template id="architect_service" name="Architect Service">
+            <section class="pt64 pb64" id="tab_7" style="">
+                <div class="container" id="tablist-section">
+                    <div>
+                        <h1 style="text-align: center; ">
+                            <b>
+                                <font style="font-size: 48px;" class="o_default_snippet_text">SERVICES</font>
+                            </b>
+                        </h1>
+                        <h6 style="text-align: center; "><font style="font-size: 18px;">&amp;nbsp;</font>&amp;nbsp;
+                        </h6>
+                    </div>
+                    <nav class="row underline mb-3 px-5">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 nav justify-content-center" id="nav-tab"
+                             role="tablist">
+                            <a class="nav-item nav-link flat active show" id="nav-interior-tab" data-toggle="tab"
+                               href="#nav-interior" role="tab" aria-controls="nav-interior" aria-selected="true"
+                               data-original-title="" title="" aria-describedby="tooltip446198">
+                                <h5 data-original-title="" title="" aria-describedby="tooltip753054">
+                                    <font style="font-size: 18px;" data-original-title="" title=""
+                                          aria-describedby="tooltip334904">CONSULTATION
+                                    </font>
+                                </h5>
+                            </a>
+                            <a class="nav-item nav-link flat" id="nav-concept-tab" data-toggle="tab" href="#nav-concept"
+                               role="tab" aria-controls="nav-concept" aria-selected="false" data-original-title=""
+                               title="" aria-describedby="tooltip425043">
+                                <h5 data-original-title="" title="" aria-describedby="tooltip693591"
+                                    class="o_default_snippet_text">
+                                    <font style="font-size: 18px;" data-original-title="" title=""
+                                          aria-describedby="tooltip260027">BUILDING DESIGN
+                                    </font>
+                                </h5>
+                            </a>
+                            <a class="nav-item nav-link" id="nav-collaborate-tab" data-toggle="tab"
+                               href="#nav-collaborate" role="tab" aria-controls="nav-collaborate" aria-selected="false"
+                               data-original-title="" title="" aria-describedby="tooltip982188">
+                                <h5 data-original-title="" title="" aria-describedby="tooltip472658"
+                                    class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">RESTORATION</font>
+                                </h5>
+                            </a>
+                            <a class="nav-item nav-link" id="nav-construct-tab" data-toggle="tab" href="#nav-construct"
+                               role="tab" aria-controls="nav-construct" aria-selected="false" data-original-title=""
+                               title="" aria-describedby="tooltip146485">
+                                <h5 data-original-title="" title="" aria-describedby="tooltip246310"
+                                    class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">EXTERIOR DESIGN</font>
+                                </h5>
+                            </a>
+                            <a class="nav-item nav-link" id="nav-complete-tab" data-toggle="tab" href="#nav-complete"
+                               role="tab" aria-controls="nav-complete" aria-selected="false" data-original-title=""
+                               title="" aria-describedby="tooltip714844">
+                                <h5 data-original-title="" title="" aria-describedby="tooltip81696"
+                                    class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">INTERIOR DESIGN</font>
+                                </h5>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="row tab-content pb-5 pt-3" id="nav-tabContent">
+                        <div class="tab-pane fade col-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1 active show"
+                             id="nav-interior" role="tabpanel" aria-labelledby="nav-interior-tab">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <img src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="img1" class="img-fluid pb16"
+                                         data-original-title="" title="" aria-describedby="tooltip396225"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+                                    <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; font-size: 20px; line-height: 36px; color: rgb(34, 34, 34);"
+                                       class="pb-5">
+                                        <span class="big-text"
+                                              style="font-size: 18px; margin: 0px; padding: 0px; text-transform: uppercase;"></span>
+                                        <span class="big-text o_default_snippet_text"
+                                              style="font-size: 36px; margin: 0px; padding: 0px; text-transform: uppercase;">
+                                            L
+                                        </span>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">orem ipsum dolor
+                                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &amp;nbsp;
+                                        </font>
+                                    </p>
+                                    <p>
+                                        <a href="#" title="read more"
+                                           class="btn btn-alpha rounded-circle btn-lg o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Read more&amp;nbsp;</font>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                             id="nav-concept" role="tabpanel" aria-labelledby="nav-concept-tab">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <img src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="img2" class="img-fluid pb16"
+                                         data-original-title="" title="" aria-describedby="tooltip269145"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                                    <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; font-size: 20px; line-height: 36px; color: rgb(34, 34, 34);"
+                                       class="pb-5">
+                                        <span class="big-text o_default_snippet_text"
+                                              style="font-size: 36px; margin: 0px; padding: 0px; text-transform: uppercase;">
+                                            L
+                                        </span>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">orem ipsum dolor
+                                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&amp;nbsp;&amp;nbsp;
+                                        </font>
+                                        <br/>
+                                    </p>
+                                    <p>
+                                        <a href="#" title="read more"
+                                           class="btn btn-alpha rounded-circle btn-lg o_default_snippet_text">Read more
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                             id="nav-collaborate" role="tabpanel" aria-labelledby="nav-collaborate-tab">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <img src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="img3" class="img-fluid pb16"
+                                         data-original-title="" title="" aria-describedby="tooltip303430"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                                    <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; font-size: 20px; line-height: 36px; color: rgb(34, 34, 34);"
+                                       class="pb-5">
+                                        <span class="big-text o_default_snippet_text"
+                                              style="font-size: 36px; margin: 0px; padding: 0px; text-transform: uppercase;">
+                                            L
+                                        </span>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">orem ipsum dolor
+                                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&amp;nbsp;&amp;nbsp;
+                                        </font>
+                                        <br/>
+                                    </p>
+                                    <p>
+                                        <a href="#" title="read more"
+                                           class="btn btn-alpha rounded-circle btn-lg o_default_snippet_text">Read more
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                             id="nav-construct" role="tabpanel" aria-labelledby="nav-construct-tab">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <img src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="img2" class="img-fluid pb16"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                                    <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; font-size: 20px; line-height: 36px; color: rgb(34, 34, 34);"
+                                       class="pb-5">
+                                        <span class="big-text o_default_snippet_text"
+                                              style="font-size: 36px; margin: 0px; padding: 0px; text-transform: uppercase;">
+                                            L
+                                        </span>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">orem ipsum dolor
+                                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&amp;nbsp;&amp;nbsp;
+                                        </font>
+                                        <br/>
+                                    </p>
+                                    <p>
+                                        <a href="#" title="read more"
+                                           class="btn btn-alpha rounded-circle btn-lg o_default_snippet_text">Read more
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                             id="nav-complete" role="tabpanel" aria-labelledby="nav-complete-tab">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <img src="/theme_architect_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="img2" class="img-fluid pb16"
+                                         data-original-title="" title="" aria-describedby="tooltip423950"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                                    <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; font-size: 20px; line-height: 36px; color: rgb(34, 34, 34);"
+                                       class="pb-5">
+                                        <span class="big-text o_default_snippet_text"
+                                              style="font-size: 36px; margin: 0px; padding: 0px; text-transform: uppercase;">
+                                            L
+                                        </span>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">orem ipsum dolor
+                                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&amp;nbsp;&amp;nbsp;
+                                        </font>
+                                        <br/>
+                                    </p>
+                                    <p>
+                                        <a href="#" title="read more" class="btn btn-alpha rounded-circle btn-lg">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip57773">READ
+                                                MORE
+                                            </font>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Footer Start-->
+        <template id="architect_footer" name="Architect Footer">
+            <section id="footer" class="oe_structure oe_structure_solo oe_custom_bg" t-ignore="true"
+                     t-if="not no_footer"
+                     style="border-top:none; background-image: url(&quot;/theme_architect_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="oe_structure oe_img_bg" id="footer">
+                    <div class="pt64 pb64" id="footer_12" style="">
+                        <div class="container">
+                            <div class="row text-center">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                    <i class="fa fa-3x fa-phone-square pb24"/>
+                                    <h6 class="o_default_snippet_text">
+                                        <b>
+                                            <font style="font-size: 24px;" class="o_default_snippet_text">Toll
+                                                Number
+                                            </font>
+                                        </b>
+                                    </h6>
+                                    <p t-field="res_company.phone"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                    <i class="fa fa-3x fa-envelope-o pb24"/>
+                                    <h6 class="o_default_snippet_text">
+                                        <b>
+                                            <font style="font-size: 24px;" class="o_default_snippet_text">Info
+                                                Services
+                                            </font>
+                                        </b>
+                                    </h6>
+                                    <p t-field="res_company.email"/>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                    <i class="fa fa-3x fa-map-marker pb24"/>
+                                    <h6 class="o_default_snippet_text">
+                                        <b>
+                                            <font style="font-size: 24px;" class="o_default_snippet_text">Address
+                                            </font>
+                                        </b>
+                                    </h6>
+                                    <p t-field="res_company.street"/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mt64">
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-2x fa-twitter social_icon_size social_twitter mx-2 mb8"
+                                           data-original-title="" title="" aria-describedby="tooltip537401"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-2x fa-facebook social_icon_size social_facebook mx-2 mb8"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-2x fa-google-plus social_icon_size social_g_plus mx-2 mb8"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-2x fa-dribbble social_icon_size social_dribbble mx-2 mb8"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-2x fa-behance social_icon_size social_behance mx-2 mb8"/>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Architect Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_architect_ultimate_01.architect_banner"
+                           t-thumbnail="/theme_architect_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_architect_ultimate_01.architect_aboutus"
+                           t-thumbnail="/theme_architect_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_architect_ultimate_01.architect_project"
+                           t-thumbnail="/theme_architect_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_architect_ultimate_01.architect_work"
+                           t-thumbnail="/theme_architect_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_architect_ultimate_01.architect_testimonial"
+                           t-thumbnail="/theme_architect_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_architect_ultimate_01.architect_service"
+                           t-thumbnail="/theme_architect_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_architect_ultimate_01.architect_footer"
+                           t-thumbnail="/theme_architect_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

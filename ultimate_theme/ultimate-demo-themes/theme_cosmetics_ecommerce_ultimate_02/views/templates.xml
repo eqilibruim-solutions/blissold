@@ -1,0 +1,611 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="cosmetics2_banner" name="Cosmetics 2 Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;height: 70vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-10">
+                            <div class="s_title" data-name="Title">
+                                <h1 class="text-left" style="font-size: 62px;">
+                                    <font style="color: rgb(255, 255, 255); font-size: 48px;">Natural Skincare</font>
+                                </h1>
+                                <h1 class="text-left" style="font-size: 62px;">
+                                    <font style="color: rgb(255, 255, 255); font-size: 48px;">
+                                        <b>COSMETICS</b>
+                                    </font>
+                                </h1>
+                            </div>
+                            <div class="s_text pt16 pb16" data-name="Text">
+                                <p class="lead text-left" style="text-align: center;">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">50% OFF On New Arrivals
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="text-left pt16 pb16" data-name="Buttons">
+                                <a href="/aboutus" class="mb8 mt8 btn btn-outline-epsilon rounded-circle"
+                                   data-original-title="" title="" aria-describedby="tooltip394199">BUY NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Grid Start-->
+        <template id="cosmetics2_image_grid" name="Cosmetics 2 Image Grid">
+            <section class="pt64 pb64" id="ecommerce_block_13">
+                <div class="container page-builder-ltr">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 col-md-12 col-sm-12 pb24">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-570x464.png"
+                                                 class="d-block img-fluid mx-auto" data-original-title="" title=""
+                                                 aria-describedby="tooltip566266"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-md-6 col-sm-12 pb24">
+                                    <div class="ttbannerblock layout2 style1">
+                                        <div class="ttbanner1 ttbanner">
+                                            <div class="ttbanner-img editor_enable">
+                                                <a href="#">
+                                                    <img src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-570x220.png"
+                                                         class="d-block img-fluid mx-auto" data-original-title=""
+                                                         title="" aria-describedby="tooltip112317"/>
+                                                </a>
+                                                <span class="hover1 hover"/>
+                                                <span class="hover2 hover"/>
+                                                <span class="hover3 hover"/>
+                                                <span class="hover4 hover"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-md-6 col-sm-12 pb24">
+                                    <div class="ttbannerblock layout2 style1">
+                                        <div class="ttbanner1 ttbanner">
+                                            <div class="ttbanner-img editor_enable">
+                                                <a href="#">
+                                                    <img src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-570x220.png"
+                                                         class="d-block img-fluid mx-auto" data-original-title=""
+                                                         title="" aria-describedby="tooltip112317"/>
+                                                </a>
+                                                <span class="hover1 hover"/>
+                                                <span class="hover2 hover"/>
+                                                <span class="hover3 hover"/>
+                                                <span class="hover4 hover"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Grid End-->
+
+        <!--Snippet Features Start-->
+        <template id="cosmetics2_features" name="Cosmetics 2 Features">
+            <section class="oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-7 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64 pb64">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <div class="row pt48">
+                                                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 pb16 text-center">
+                                                        <div class="bg-white p-5">
+                                                            <i class="fa fa-3x pe-7s-car fa-500px"
+                                                               data-original-title="" title=""
+                                                               aria-describedby="tooltip126539" style=""/>
+                                                            <h4 class=" pt8">Free Delivery</h4>
+                                                            <p>
+                                                                <font class="text-gamma" style="">On Orders Over 40$
+                                                                </font>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 pb16 text-center">
+                                                        <div class="bg-white p-5">
+                                                            <i class="fa fa-3x pe-7s-medal fa-500px" style=""/>
+                                                            <h4 class="pt8">Best Quality</h4>
+                                                            <p>
+                                                                <font class="text-gamma" style="">For All Products
+                                                                </font>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 pb16 text-center">
+                                                        <div class="bg-white p-5">
+                                                            <i class="fa fa-3x pe-7s-headphones fa-500px"
+                                                               data-original-title="" title=""
+                                                               aria-describedby="tooltip530558" style=""/>
+                                                            <h4 class="pt8">Online Support</h4>
+                                                            <p>
+                                                                <font class="text-gamma" style="">24/7 Online Support
+                                                                </font>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 pb16 text-center">
+                                                        <div class="bg-white p-5">
+                                                            <i class="fa fa-3x pe-7s-cash fa-500px"
+                                                               data-original-title="" title=""
+                                                               aria-describedby="tooltip570925" style=""/>
+                                                            <h4 class="pt8">Safe Payment</h4>
+                                                            <p>Use Online Payment</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb64 pt176">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <h2 class="font-weight-bold ">New Arrivals</h2>
+                                                <h2 class="font-weight-bold pb24">
+                                                    <font style="font-size: 48px;" class="text-alpha">ORGANIC PRODUCTS
+                                                    </font>
+                                                </h2>
+                                                <h3>
+                                                    <font style="font-size: 24px;border-top: 2px solid black;border-bottom: 2px solid black;"
+                                                          class="p-1">SALE 25% OFF
+                                                    </font>
+                                                </h3>
+                                                <a href="#"
+                                                   class="mt24 mb24 px-4 rounded-0 mx-3 rounded-circle rounded-circle btn btn-outline-primary rounded-circle btn-lg"
+                                                   data-original-title="" title="" aria-describedby="tooltip765267">
+                                                    ORDER NOW
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Mini Product Carousel Start-->
+        <template id="cosmetics2_mini_product_carousel" name="Cosmetics 2 Mini Product Carousel">
+            <section class="pt64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_2 s_headline_center"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d3"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_2 s_headline_center"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d3"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_2 s_headline_center"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d3"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Mini Product Carousel End-->
+
+        <!--Snippet Blog Start-->
+        <template id="cosmetics2_blog" name="Cosmetics 2 Blog">
+            <section class="pb64 pt64" id="news_one">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2>
+                                <font style="font-size: 48px;">From Our Blog</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text text-center">
+                                <div>
+                                    <img src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip201599">
+                                                <font class="text-gamma" style="">Williamson</font>
+                                            </a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip1039">
+                                                <font class="text-gamma" style="">2 Comments</font>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip416156">
+                                            <font style="font-size: 24px; font-weight: normal;" class="text-beta"
+                                                  data-original-title="" title="" aria-describedby="tooltip427076">
+                                                Natural Face Creams For Daily Uses
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="s_line_height_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Ad assumenda culpa
+                                    </p>
+                                    <p class="pt-3">
+                                        <a href="#" class="btn btn-outline-alpha rounded-circle">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text text-center">
+                                <div>
+                                    <img src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip266353"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip201599">
+                                                <font class="text-gamma" style="">Williamson</font>
+                                            </a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip1039">
+                                                <font class="text-gamma" style="">2 Comments</font>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip416156">
+                                            <font style="font-size: 24px; font-weight: normal;" class="text-beta"
+                                                  data-original-title="" title="" aria-describedby="tooltip764446">
+                                                Latest Hair Masks and Conditinors
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="s_line_height_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Ad assumenda culpa
+                                    </p>
+                                    <p class="pt-3">
+                                        <a href="#" class="btn btn-outline-alpha rounded-circle">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text text-center">
+                                <div>
+                                    <img src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip201599">
+                                                <font class="text-gamma" style="">Williamson</font>
+                                            </a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip1039">
+                                                <font class="text-gamma" style="">2 Comments</font>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip416156">
+                                            <font style="font-size: 24px; font-weight: normal;" class="text-beta"
+                                                  data-original-title="" title="" aria-describedby="tooltip146423">
+                                                Natural Foundation Cream Makeup
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="s_line_height_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Ad assumenda culpa
+                                    </p>
+                                    <p class="pt-3">
+                                        <a href="#" class="btn btn-outline-alpha rounded-circle">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Blog  End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="cosmetics2_newsletter" name="Cosmetics 2 Newsletter">
+            <section class="pt64 pb48 oe_img_bg oe_custom_bg" id="footer_7"
+                     style="background-image: url(&quot;/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-3 offset-1">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b>Our Newsletter</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 pt40">
+                            <div class="input-group js_subscribe hidden" data-list-id="1" data-subscribe="off">
+                                <input type="email" name="email" class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..."/>
+                                <span class="input-group-btn">
+                                    <a href="#"
+                                       class="br-right btn btn-primary js_subscribe_btn o_default_snippet_text px-3 py-2 text-white">
+                                        SUBSCRIBE
+                                    </a>
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for your
+                                    subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Newsletter  End-->
+
+        <!--Snippet Footer Start-->
+        <template id="cosmetics2_footer" name="Cosmetics 2 Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <h5 class=" font-weight-bold o_default_snippet_text">
+                                    <font style="font-size: 18px;">Contact Info</font>
+                                </h5>
+                                <div class="mt24 o_default_snippet_text media pb16">
+                                    <i class="fa fa-map-marker mr-2 mt-1 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip874286" style=""/>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">
+                                            <span>Address:</span>
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media pb16">
+                                    <i class="fa fa-phone mr-2 mt-1 text-gamma" style="" data-original-title="" title=""
+                                       aria-describedby="tooltip130300"/>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">
+                                            <span>Phone:</span>
+                                            <span t-field="res_company.phone"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media pb16">
+                                    <i class="fa fa-envelope mr-2 mt-1 text-gamma" style="" data-original-title=""
+                                       title="" aria-describedby="tooltip958205"/>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">
+                                            <span>Email:</span>
+                                            <span t-field="res_company.email"/>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class=" font-weight-bold o_default_snippet_text">
+                                    <font style="font-size: 18px;">Quick Links</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip882371">About Us
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">Privacy Policy</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">Terms &amp;amp; Conditions</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">Shipping Details</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">FAQ's</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class="font-weight-bold">
+                                    <font style="font-size: 18px;">My Account</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip802285">Account Info
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">Order History</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">My Cart</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">Wishlist</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="">Checkout</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <h5 class="font-weight-bold mb24">
+                                    <font style="font-size: 18px;">Our Gallary</font>
+                                </h5>
+                                <div class="row px-3">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    </div>
+                                    <a href="#" target="_blank" class="my-1 o_default_snippet_text"><i
+                                            class="fa fa-arrow-circle-o-right mr-2"/>view more photos
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Footer  End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Cosmetics Ecommerce Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_cosmetics_ecommerce_ultimate_02.cosmetics2_banner"
+                           t-thumbnail="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_cosmetics_ecommerce_ultimate_02.cosmetics2_image_grid"
+                           t-thumbnail="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_cosmetics_ecommerce_ultimate_02.cosmetics2_features"
+                           t-thumbnail="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_cosmetics_ecommerce_ultimate_02.cosmetics2_mini_product_carousel"
+                           t-thumbnail="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_cosmetics_ecommerce_ultimate_02.cosmetics2_blog"
+                           t-thumbnail="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_cosmetics_ecommerce_ultimate_02.cosmetics2_newsletter"
+                           t-thumbnail="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_cosmetics_ecommerce_ultimate_02.cosmetics2_footer"
+                           t-thumbnail="/theme_cosmetics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

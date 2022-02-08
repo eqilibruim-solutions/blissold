@@ -1,0 +1,421 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner start-->
+        <template id="library_banner" name="Library Banner">
+            <section class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                     data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="oe_custom_bg oe_img_bg s_parallax_bg"
+                      style="background-image: url(&quot;/theme_library_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="s_title col-lg-12" data-name="Title">
+                            <h1 class="s_title_thin" style="">Are You Searching For a Book...?</h1>
+                            <h1 class="s_title_thin" style="">BIGGEST LIBRARY</h1>
+                        </div>
+                        <div class="s_text pt16 pb16 col-lg-12" data-name="Text">
+                            <p class="lead" style="text-align: center;"/>
+                            <div style="text-align: left;">
+                                <span style="color: rgb(0, 0, 0); font-size: 1.09375rem;"
+                                      class="o_default_snippet_text">Write one or two
+                                    paragraphs describing your product, services or a specific feature.
+                                </span>
+                            </div>
+                            <div style="text-align: left;">
+                                <span style="color: rgb(0, 0, 0); font-size: 1.09375rem;"
+                                      class="o_default_snippet_text">To be successful your
+                                    content needs to be useful to your readers.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="s_btn text-center pt16 pb16 col-lg-1" data-name="Buttons">
+                            <a href="#" class="btn btn-outline-epsilon btn-lg" data-original-title=""
+                               title="" aria-describedby="tooltip664048">VIEW MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us start-->
+        <template id="library_about_us" name="Library About Us">
+            <section class="pb pt64">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pb0 pt0" style="text-align: center;">
+                            <h1 class="s_title_default">
+                                <b>ABOUT US</b>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt64 sni-block">
+                <div class="container">
+                    <div class="row text-left">
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <p class="lead" style="text-align: right; margin-left: 1.5em;">
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 pt-5 pt-md-0">
+                            <p class="lead o_default_snippet_text">
+                                <font style="font-size: 18px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About US End-->
+
+        <!--Snippet Image Block start-->
+        <template id="library_image_block" name="Library Image Block">
+            <section class="sni-block">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 pad0">
+                            <img src="/theme_library_ultimate_01/static/src/img/placeholder-643x536.png"
+                                 class="img img-fluid mx-auto"
+                                 alt="Odoo • Text and Image" data-original-title="" title=""
+                                 aria-describedby="tooltip605835"/>
+                        </div>
+                        <div class="col-lg-6 col-md-6 border-top pad0">
+                            <img src="/theme_library_ultimate_01/static/src/img/placeholder-643x536.png"
+                                 class="img img-fluid mx-auto"
+                                 alt="Odoo • Text and Image" data-original-title="" title=""
+                                 aria-describedby="tooltip979178"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block End-->
+
+        <!--Snippet Left Content start-->
+        <template id="library_left_content" name="Library Left Content">
+            <section class="sni-block pt64 pb64 oe_custom_bg">
+                <div class="container  pr-5 pl-5">
+                    <div class="align-items-center row text-left">
+                        <div class="col-12 col-lg-6 pt-4 pt-lg-0">
+                            <p class="lead">
+                                <span style="font-size: 36px; font-weight: bolder;" class="text-alpha">
+                                    <span style="font-weight: bolder;">POPULAR BOOKS</span>
+                                </span>
+                                <br/>
+                            </p>
+                            <p class="lead">
+                                <font style="color: rgb(0, 0, 0); font-size: 18px;" class="o_default_snippet_text">There
+                                    are many variations of
+                                    passages of Lorem Ipsum available, but the majority have suffered believable.
+                                </font>
+                                <span style="color: rgb(0, 0, 0); font-size: 18px;" class="o_default_snippet_text">There
+                                    are many variations of
+                                    passages of Lorem Ipsum available, but the majority have suffered believable.
+                                </span>
+                                <br/>
+                            </p>
+                            <div class="mt-5 row">
+                                <div class="col-12 col-sm-6">
+                                    <p class="lead">
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;">
+                                            <b style="">
+                                                <b>THE DARK MOON</b>
+                                            </b>
+                                        </font>
+                                    </p>
+                                    <p class="lead o_default_snippet_text">There are many variations of passages of
+                                        Lorem Ipsum available, but
+                                        the majority have suffered believable.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <p class="lead">
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;">
+                                            <b style="">
+                                                <b>THE SECRET</b>
+                                            </b>
+                                        </font>
+                                    </p>
+                                    <p class="lead o_default_snippet_text">There are many variations of passages of
+                                        Lorem Ipsum available, but
+                                        the majority have suffered believable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-3 col-sm-6 m-auto m-lg-0">
+                            <img alt="image" class="img-fluid pb16"
+                                 src="/theme_library_ultimate_01/static/src/img/placeholder-239x352.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip516421"/>
+                        </div>
+                        <div class="col-10 col-lg-3 col-sm-6 m-auto m-lg-0">
+                            <img alt="image" class="img-fluid pb16"
+                                 src="/theme_library_ultimate_01/static/src/img/placeholder-239x352.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip307368"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Center Content start-->
+        <template id="library_center_content" name="Library Center Content">
+            <section class="s_banner parallax s_parallax_is_fixed pt96 pb96" data-scroll-background-ratio="1"
+                     style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_library_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="jumbotron pt32 pb32 col-lg-12 rounded" data-name="Box">
+                            <div class="row">
+                                <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                                    <h2 style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 700; font-stretch: inherit; font-size: 32px; line-height: 32px; font-family: Montserrat, Arial, Tahoma, sans-serif; vertical-align: baseline; color: rgb(149, 114, 48); letter-spacing: 8px; text-align: center;">
+                                        <font style="font-size: 36px;">LETS TAKE YOUR BOOKS..</font>
+                                    </h2>
+                                    <h2 style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 700; font-stretch: inherit; font-size: 32px; line-height: 32px; font-family: Montserrat, Arial, Tahoma, sans-serif; vertical-align: baseline; color: rgb(149, 114, 48); letter-spacing: 8px; text-align: center;">
+                                        <font style="font-size: 36px;">FEEL FREE TO CONTACT US</font>
+                                    </h2>
+                                    <h2 style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 700; font-stretch: inherit; font-size: 32px; line-height: 32px; font-family: Montserrat, Arial, Tahoma, sans-serif; vertical-align: baseline; color: rgb(149, 114, 48); letter-spacing: 8px; text-align: center;">
+                                        <br/>
+                                    </h2>
+                                    <div class="pb16 pt16 s_btn text-center" data-name="Buttons">
+                                        <a href="#" class="btn btn-outline-epsilon btn-lg" data-original-title=""
+                                           title=""
+                                           aria-describedby="tooltip484290">CONTACT NOW
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Center Content End-->
+
+        <!--Snippet Event start-->
+        <template id="library_event" name="Library Event">
+            <section class="sni-block pt64 pb64" style="">
+                <div class="container pl-5 pr-5">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h1>
+                                <font class="text-alpha" style="font-size: 36px;">
+                                    <b>UPCOMING EVENTS</b>
+                                </font>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row text-left mt-5">
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_library_ultimate_01/static/src/img/placeholder-50x50.png"/>
+                                </div>
+                                <div class="col-9 pb56">
+                                    <h3>
+                                        <span>MEET AND GREET NEW LIBRARYS</span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum&amp;nbsp;
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_library_ultimate_01/static/src/img/placeholder-50x50.png"
+                                         data-original-title="" title="" aria-describedby="tooltip487621"/>
+                                </div>
+                                <div class="col-9 pb56">
+                                    <h3>
+                                        <span>LAUNCHING NEW LIBRARYS AT OUR STORE</span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_library_ultimate_01/static/src/img/placeholder-50x50.png"
+                                         data-original-title="" title="" aria-describedby="tooltip853775"/>
+                                </div>
+                                <div class="col-9 pb56">
+                                    <h3>
+                                        <span>TOP 10 E-LIBRARYS MUST READ</span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_library_ultimate_01/static/src/img/placeholder-50x50.png"
+                                         data-original-title="" title="" aria-describedby="tooltip853775"/>
+                                </div>
+                                <div class="col-9 pb56">
+                                    <h3>
+                                        <span>BEST USEFUL LIBRARYS FOR EVERYONE</span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_library_ultimate_01/static/src/img/placeholder-50x50.png"/>
+                                </div>
+                                <div class="col-9 pb56">
+                                    <h3>
+                                        <span>50% OFF FOR STUDENTS</span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_library_ultimate_01/static/src/img/placeholder-50x50.png"
+                                         data-original-title="" title="" aria-describedby="tooltip853775"/>
+                                </div>
+                                <div class="col-9 pb56">
+                                    <h3>
+                                        <span>EXCHANGE YOUR OLD LIBRARY WITH YOUR NEW ONE</span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Event End-->
+
+        <!--Snippet Footer start-->
+        <template id="library_footer" name="Library Footer">
+            <section id="footer" class=" oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="container-full">
+                    <div class="oe_structure oe_empty">
+                        <div class="pt32 pb32 oe_custom_bg" id="footer_custom_d8" style="">
+                            <div class="container">
+                                <div class="row s_nb_column_fixed">
+                                    <div class="col-lg-12 s_title pt16" style="text-align: center;">
+                                        <div class="s_share">
+                                            <h4 class="s_share_title">&amp;nbsp;</h4>
+                                            <a t-att-href="res_company.social_facebook"
+                                               class="s_share_facebook" target="_blank">
+                                                <i class="fa fa-1x fa-facebook mb16 rounded shadow-sm img-rounded"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip704436"/>
+                                            </a>
+                                            <a t-att-href="res_company.social_twitter"
+                                               class="s_share_twitter" target="_blank">
+                                                <i class="fa fa-1x fa-twitter mb16 rounded shadow-sm"/>
+                                            </a>
+                                            <a t-att-href="res_company.social_linkedin"
+                                               class="s_share_linkedin" target="_blank">
+                                                <i class="fa fa-1x fa-linkedin mb16 rounded shadow-sm"/>
+                                            </a>
+                                            <a href="#"
+                                               class="s_share_google" target="_blank">
+                                                <i class="fa fa-1x fa-google-plus mb16 rounded shadow-sm"/>
+                                            </a>
+                                            <a href="#"
+                                               class="s_share_email">
+                                                <i class="fa fa-1x fa-envelope mb16 rounded shadow-sm"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip186582"/>
+                                            </a>
+                                        </div>
+                                        <h1 class="s_title_default">
+                                            <font style="font-size: 62px;">&amp;nbsp;</font>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Library Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_library_ultimate_01.library_banner"
+                           t-thumbnail="/theme_library_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_library_ultimate_01.library_about_us"
+                           t-thumbnail="/theme_library_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_library_ultimate_01.library_image_block"
+                           t-thumbnail="/theme_library_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_library_ultimate_01.library_left_content"
+                           t-thumbnail="/theme_library_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_library_ultimate_01.library_center_content"
+                           t-thumbnail="/theme_library_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_library_ultimate_01.library_event"
+                           t-thumbnail="/theme_library_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_library_ultimate_01.library_footer"
+                           t-thumbnail="/theme_library_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

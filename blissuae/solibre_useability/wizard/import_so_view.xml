@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_sale_order_import_form">
+        <field name="name">sale.order.import.form</field>
+        <field name="model">sale.order.import</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="data_file"/>
+                        <field name="data_file_design2020"/>
+                        <field name="partner_id" />
+                    </group>
+                </sheet>
+                <footer>
+                    <button type="object" name="load_so" string="Load" class="btn btn-primary"/>
+                    <button class="oe_link" special="cancel" string="Cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sale_order_import">
+        <field name="name">Import Sale Orders</field>
+        <field name="res_model">sale.order.import</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="view_id" ref="view_sale_order_import_form" />
+    </record>
+
+    <menuitem
+        id="menu_sale_order_import"
+        name="Import sale orders"
+        parent="sale.sale_order_menu"
+        action="action_sale_order_import" />
+
+</odoo>

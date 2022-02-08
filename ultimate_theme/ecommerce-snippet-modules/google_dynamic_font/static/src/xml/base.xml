@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+<t t-name="FontCustomizer">
+    <div class="o_customizer">
+        <div class="form-group">
+            <input type="text" class="form-control txt_url mb-1" placeholder="https://fonts.googleapis.com/css?family=xxxxxxx"/>
+            <button class="btn btn-success btn-block add-font">Add</button>
+
+        </div>
+    </div>
+</t>
+
+<t t-extend="website.theme_customize_modal_option">
+    <t t-jquery="[t-esc='string']" t-operation="after">
+        <span t-if="xmlid and font" t-att-data-xmlid="xmlid" class="remove-font"><i class="fa fa-trash"/></span>
+    </t>
+</t>
+</templates>

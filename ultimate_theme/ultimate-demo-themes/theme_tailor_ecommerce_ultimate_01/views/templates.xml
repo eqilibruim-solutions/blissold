@@ -1,0 +1,264 @@
+<odoo>
+    <data>
+        <!--Tailor Image Block Snippets start-->
+        <template id="tailor_image_block" name="Tailor Image Block">
+            <section class="pt64 pb64" id="ecommerce_block_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-720x948.png"
+                                     data-original-title="" title="" aria-describedby="tooltip132588"/>
+                                <div class="img-content-1 text-center col-12">
+                                    <h3>
+                                        <font class="o_default_snippet_text"
+                                              style="background-color: rgba(0, 0, 0, 0.76); color: rgb(255, 255, 255); font-size: 36px;">
+                                            KIDS
+                                        </font>
+                                    </h3>
+                                    <div class="text-center pt16 pb16" data-name="Buttons">
+                                        <a href="#"
+                                           class="mt8 mb8 flat flat flat rounded-circle flat btn btn-alpha flat">&amp;nbsp;View
+                                            More&amp;nbsp;&amp;nbsp;
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-720x948.png"
+                                     data-original-title="" title="" aria-describedby="tooltip132588"/>
+                                <div class="img-content-1 text-center col-12">
+                                    <h3>
+                                        <font class="o_default_snippet_text text-beta"
+                                              style="background-color: rgba(0, 0, 0, 0.76); font-size: 36px;">MEN
+                                        </font>
+                                    </h3>
+                                    <div class="text-center pt16 pb16" data-name="Buttons">
+                                        <a href="#" class="mt8 mb8 flat flat btn btn-alpha rounded-circle">&amp;nbsp;View
+                                            More&amp;nbsp;&amp;nbsp;
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-720x948.png"
+                                     data-original-title="" title="" aria-describedby="tooltip132588"/>
+                                <div class="img-content-1 text-center col-12">
+                                    <h3>
+                                        <font class="o_default_snippet_text text-beta"
+                                              style="background-color: rgba(0, 0, 0, 0.76); font-size: 36px;">LADIES
+                                        </font>
+                                    </h3>
+                                    <div class="text-center pt16 pb16" data-name="Buttons">
+                                        <a href="#" class="mt8 mb8 flat flat btn btn-alpha rounded-circle"
+                                           target="_blank">&amp;nbsp;View More&amp;nbsp;&amp;nbsp;
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Tailor Image Block Snippets End-->
+
+        <!--Tailor Promo Image Snippets start-->
+        <template id="tailor_promo_image" name="Tailor Promo Image">
+            <section class="pt64 pb64 oe_custom_bg" id="ecommerce_block_1" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h4 style="text-align: right; ">
+                                        <font class="text-beta" style="font-size: 18px;">Men's Suits Wear</font>
+                                    </h4>
+                                    <h2 class="mb16" style="text-align: right; ">
+                                        <b>
+                                            <span style="font-size: 24px;" class="text-beta">SPECIAL DEALS</span>
+                                        </b>
+                                    </h2>
+                                    <p style="text-align: right; ">
+                                        <a href="#" class="rounded-circle flat flat flat flat btn btn-alpha flat"
+                                           data-original-title="" title="" aria-describedby="tooltip121465">Go,shop
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h4 style="text-align: right;">
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Big Discount Sale
+                                        </font>
+                                    </h4>
+                                    <h2 class="mb16" style="text-align: right;">
+                                        <span style="font-size: 24px;" class="text-beta">
+                                            <b>GET SAVE 35%</b>
+                                        </span>
+                                    </h2>
+                                    <p style="text-align: right; ">
+                                        <a href="#" class="rounded-circle flat flat flat btn btn-alpha flat"
+                                           data-original-title="" title="" aria-describedby="tooltip121465">Go,shop
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <div class="col-12 img-content px-5">
+                                    <h2 class="o_default_snippet_text">SALE 20% OFF</h2>
+                                    <p class="o_default_snippet_text">Sed do eiusmod tempor incididunt ut labore.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Tailor Promo Image Snippets End-->
+
+        <!--Tailor Testimonial Snippets start-->
+        <template id="tailor_testimonial" name="Tailor Testimonial">
+            <section class="pt0 pb0 oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div id="myCarousel1576043441803" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1576043441803" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1576043441803" data-slide-to="1"/>
+                        <li data-target="#myCarousel1576043441803" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font class="text-beta" style="">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                <font class="text-beta" style="">&amp;nbsp;Jane DOE, CEO of&amp;nbsp;
+                                                </font>
+                                                <b class="o_default_snippet_text">
+                                                    <font class="text-beta" style="">&amp;nbsp;MyCompany&amp;nbsp;
+                                                    </font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);">&amp;nbsp;Jane DOE, CEO of&amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font style="color: rgb(255, 255, 255);">&amp;nbsp;MyCompany&amp;nbsp;</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center">
+                                            <font style="color: rgb(255, 255, 255);">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_tailor_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);">&amp;nbsp;Jane DOE, CEO of&amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font style="color: rgb(255, 255, 255);">&amp;nbsp;MyCompany&amp;nbsp;</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1576043441803" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1576043441803" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Tailor Testimonial Snippets End-->
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Tailor Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_tailor_ecommerce_ultimate_01.tailor_image_block"
+                           t-thumbnail="/theme_tailor_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ecommerce_ultimate_01.tailor_promo_image"
+                           t-thumbnail="/theme_tailor_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ecommerce_ultimate_01.tailor_testimonial"
+                           t-thumbnail="/theme_tailor_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+
+    </data>
+</odoo>

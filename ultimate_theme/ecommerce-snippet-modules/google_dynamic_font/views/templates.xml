@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_frontend" inherit_id="web.assets_frontend" name="Frontend Assets (used in customizer)">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/google_dynamic_font/static/src/js/theme.js" />
+        </xpath>
+    </template>
+
+    <template id="_assets_primary_variables" inherit_id="website._assets_primary_variables" name="Assets Primary Variables">
+        <xpath expr="//link[@href='/website/static/src/scss/primary_variables.scss']" position="after">
+            <link rel="stylesheet" type="text/scss" href="/google_dynamic_font/static/src/scss/theme.scss" />
+            <link rel="stylesheet" type="text/scss" href="/google_dynamic_font/static/src/scss/primary_font_variables.scss" />
+        </xpath>
+    </template>
+
+    <template id="theme_customize" inherit_id="website.theme_customize" name="Theme Customize (Google Font)" />
+
+</odoo>

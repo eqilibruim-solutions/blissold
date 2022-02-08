@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="action_res_partner">
+        <field name="name">Duplicate Partners</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="domain">[('is_duplicate','=',True)]</field>
+        <field name="target">current</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_res_partner_form_inherit">
+        <field name="name">res.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='category_id']" position="after">
+                <field name="is_duplicate" attrs="{'invisible': [('parent_id', '!=', False)]}"/>
+            </xpath>
+        </field>
+    </record>       
+
+    <menuitem
+        id="menu_res_partner"
+        name="Duplicate partners"
+        parent="menu_schedule_except"
+        action="action_res_partner" />
+
+</odoo>

@@ -1,0 +1,1505 @@
+<odoo>
+    <data>
+
+        <!--Snippet Mid Header Start-->
+        <template id="event_mid_header" name="Event Mid Header">
+            <section class="mid_header_top border-bottom bg-100 oe_custom_bg" style="">
+                <div class="container" id="mid_header_top_5">
+                    <div class="row py-1">
+                        <div class="col-12 oe_structure col-lg-4 col-md-12 col-sm-12 py-1 text-center align-self-center text-lg-left"
+                             id="mid_header_top_left">
+                            <i class="fa fa-clock-o mr-2"/>
+                            <p class="m-0 d-inline o_default_snippet_text">Open Hours : Mon-Sat 9.00-18.00
+                            </p>
+                        </div>
+                        <div class="col-12 oe_structure col-lg-8 col-md-12 col-sm-12 py-1 text-center text-lg-right"
+                             id="mid_header_top_right">
+                            <span id="company-contact" class="ml8 mr8 py-1">
+                                <i class="fa fa-phone mx-2"/>
+                                <span t-field="res_company.phone"/>
+                            </span>
+                            <span class="ml8 mr8 d-block d-lg-inline d-md-inline py-1" id="company-email">
+                                <i class="fa fa-envelope mx-2"/>
+                                <span t-field="res_company.email"/>
+                            </span>
+                            <span id="company-profile" class="d-block d-lg-inline d-md-inline py-1">
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-x mx-2 text-dark fa-facebook share_facebook fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-x mx-2 text-dark fa-twitter share_twitter fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_linkedin">
+                                    <i class="fa fa-x mx-2 text-dark fa-linkedin share_linkedin fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_youtube">
+                                    <i class="fa fa-x mx-2 text-dark fa-youtube-play share_youtube fa_company_contact_info"/>
+                                </a>
+                                <a rel="publisher" class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_instagram">
+                                    <i class="fa fa-x mx-2 text-dark fa-instagram share_instagram fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_github">
+                                    <i class="fa fa-x mx-2 text-dark fa-github share_github fa_company_contact_info"/>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+        <!--Snippet Banner Start-->
+        <template id="event_banner" name="Event Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_event_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">One Stop
+                                <br/>
+                                <b>Event Planner</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus"
+                               class="btn btn-delta mb8 mt8 rounded-circle rounded-circle rounded-circle"
+                               data-original-title="" title="" aria-describedby="tooltip873062">
+                                <b>
+                                    <font style="color: rgb(0, 0, 0);">ABOUT US</font>
+                                </b>
+                            </a>
+                            <span data-original-title="" title="" aria-describedby="tooltip550318">
+                                <a href="/contactus"
+                                   class="btn btn-primary mb8 mt8 rounded-circle rounded-circle rounded-circle"
+                                   data-original-title="" title="">
+                                    <b>CONTACT US</b>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="event_features" name="Event Features">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <font style="font-size: 48px;">Welcome to</font>
+                                <font style="font-size: 48px;" class="text-alpha">Ultimate</font>
+                                <font style="font-size: 48px;">Event</font>
+                            </h2>
+                            <p class="text-center">
+                                <font style="font-size: 18px;" class="text-beta">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit,<br/>sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </font>
+                            </p>
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-calculator mr-3 mt-2"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">
+                                                <b>Friendly Team</b>
+                                            </font>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua.&amp;nbsp;
+                                        </p>
+                                        <p>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip773677">
+                                                <font style="font-size: 12px;" class="text-beta">
+                                                    <b>READ MORE</b>
+                                                </font>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-life-ring mr-3 mt-2"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <font style="font-size: 18px;">
+                                                <b>24/7 Hours Support</b>
+                                            </font>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua.&amp;nbsp;
+                                            <br/>
+                                        </p>
+                                        <p>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip784241">
+                                                <font style="font-size: 12px;" class="text-beta">
+                                                    <b>READ MORE</b>
+                                                </font>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-user-o mr-3 mt-2"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">
+                                                <b>Brilliant Idea</b>
+                                            </font>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua.&amp;nbsp;
+                                            <br/>
+                                        </p>
+                                        <p>
+                                            <a href="#">
+                                                <font style="font-size: 12px;" class="text-beta">
+                                                    <b>READ MORE</b>
+                                                </font>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Services Start-->
+        <template id="event_services" name="Event Services">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <font style="font-size: 36px;" class="text-alpha">Ultimate</font>
+                                <font style="font-size: 36px;">
+                                    <b>Services</b>
+                                </font>
+                            </h2>
+                            <p class="text-center">
+                                <span style="color: rgb(34, 34, 34); font-size: 18px;">Lorem ipsum dolor
+                                    sit amet, consectetur adipiscing elit,
+                                </span>
+                                <br style="color: rgb(34, 34, 34); font-size: 18px;"/>
+                                <span style="color: rgb(34, 34, 34); font-size: 18px;">sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.
+                                </span>
+                                <br/>
+                            </p>
+                            <div class="row pt48 align-items-center">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-right">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb32">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip253705"/>
+                                        <h3 class="pt8 pb8" style="text-align: left; ">
+                                            <font style="font-size: 18px;">
+                                                <b>Birthday
+                                                    Parties
+                                                    &amp;nbsp;
+                                                </b>
+                                            </font>
+                                        </h3>
+                                        <p style="text-align: left; ">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                                        <h3 class="pt8 pb8" style="text-align: left; ">
+                                            <font style="font-size: 18px;">
+                                                <b>Social Events
+                                                    &amp;nbsp;
+                                                </b>
+                                            </font>
+                                        </h3>
+                                        <p style="text-align: left; ">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb8 mt8">
+                                    <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-332x585.png"
+                                         alt="molile" class="img-fluid pt8 pb8"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-left">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb32">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">
+                                                <b>Wedding Events</b>
+                                            </font>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">
+                                                <b>Corporate Seminars</b>
+                                            </font>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Counter Start-->
+        <template id="event_counter" name="Event Counter">
+            <section class="state_section pt64 pb64 oe_img_bg oe_custom_bg" id="state_section_id"
+                     style="background-image: url(&quot;/theme_event_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row text-center justify-content-sm-center no-gutters state_text">
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6 text-white">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="1200"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">2</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;" class="text-delta">
+                                    <b>Event Organised</b>
+                                </font>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6 text-white">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="1000"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;" class="text-delta">
+                                    <b>Happy Customers</b>
+                                </font>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6 text-white">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="560"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">5</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">6</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;" class="text-delta">
+                                    <b>Good Feedback</b>
+                                </font>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6 text-white">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="50"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">5</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;" class="text-delta">
+                                    <b>Trophies Won</b>
+                                </font>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="event_gallery" name="Event Gallery">
+            <section class="pt64 pb32" id="portfolio_9">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 style="text-align: left; ">
+                            <font style="font-size: 36px;" class="text-alpha">Ultimate</font>
+                            <font style="font-size: 48px;"/>
+                            <font style="font-size: 36px;">
+                                <b>Gallery</b>
+                            </font>
+                        </h2>
+                        <p class="pb48" style="text-align: left; ">
+                            <font style="font-size: 18px;" class="text-beta">Lorem Ipsum is simply dummy
+                                text of the
+                                printing and typesetting industry.
+                                &amp;nbsp;
+                            </font>
+                        </p>
+                        <div class="justify-content-center pb32" style="text-align: left;">
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="all"
+                               data-original-title="" title="" aria-describedby="tooltip409871">
+                                <b data-original-title="" title="" aria-describedby="tooltip919371">
+                                    <font class="text-beta" style="" data-original-title="" title=""
+                                          aria-describedby="tooltip140262">All Events
+                                    </font>
+                                </b>
+                            </a>
+                            <a class="btn filter-button mb8 mt8 text-primary" data-filter="one"
+                               data-original-title="" title="" aria-describedby="tooltip498325">
+                                <b>
+                                    <font class="text-beta" style="">Birthday Parties</font>
+                                </b>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="two"
+                               data-original-title="" title="" aria-describedby="tooltip611813">
+                                <b>
+                                    <font class="text-beta" style="">Corporate Events</font>
+                                </b>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="three"
+                               data-original-title="" title="" aria-describedby="tooltip55495">
+                                <b>
+                                    <font class="text-beta" style="">Proposal Events</font>
+                                </b>
+                            </a>
+                            <a class="btn filter-button mb8 mt8 text-primary" data-filter="four"
+                               data-original-title="" title="" aria-describedby="tooltip110538">
+                                <b>
+                                    <font class="text-beta" style="">Wedding Events</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mb64">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter one pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image" data-original-title="" title=""
+                                     aria-describedby="tooltip493801"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">Birthday
+                                            Party
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter two pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image" data-original-title="" title=""
+                                     aria-describedby="tooltip280244"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">
+                                            Corporate Event
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter two pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image" data-original-title="" title=""
+                                     aria-describedby="tooltip280244"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">Corporate
+                                            Event
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter one pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">Birthday
+                                            Party
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter four pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image" data-original-title="" title=""
+                                     aria-describedby="tooltip973069"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">
+                                            Wedding Event
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter four pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image" data-original-title="" title=""
+                                     aria-describedby="tooltip973069"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">
+                                            Wedding Event
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter three pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">Proposal
+                                            Event
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 filter four pad0"
+                             style="display: block;">
+                            <div class="hovereffect">
+                                <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h5 class="font-weight-bold o_default_snippet_text text-white">
+                                            Wedding Event
+                                        </h5>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                            amet
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 text-center">
+                            <h2 class="font-weight-bold">
+                                <font style="font-size: 24px; font-weight: normal;">See our all
+                                    beautiful &amp;amp; unforgettable times
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                            <a href="#" class="rounded-0 btn btn-primary rounded-circle"
+                               data-original-title="" title="" aria-describedby="tooltip453520">
+                                <b data-original-title="" title="" aria-describedby="tooltip961275">VIEW
+                                    FULL GALLERY
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <script class="o_default_snippet_text">
+                    $(document).ready(function(){
+
+                    $(".filter-button").click(function(){
+                    var value = $(this).attr('data-filter');
+
+                    if(value == "all")
+                    {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                    }
+                    else
+                    {
+                    // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    // $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+
+                    }
+                    });
+
+                    if ($(".filter-button").removeClass("active")) {
+                    $(this).removeClass("active");
+                    }
+                    $(this).addClass("active");
+
+                    });
+                </script>
+            </section>
+
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet CTA Start-->
+        <template id="event_cta" name="Event CTA">
+            <section class="pb64 pt32 oe_img_bg oe_custom_bg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center mb16 pt80 pb80"
+                             style="background-color: rgb(107, 165, 74);">
+                            <h3>
+                                <font class="text-delta" style="">
+                                    <b>Get In Touch With Us</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">
+                                <font class="text-delta o_default_snippet_text" style="font-size: 18px;">Lorem Ipsum is
+                                    simply dummy text of the printing and typesetting industry.
+                                </font>
+                            </p>
+                            <a href="#" class="btn btn-primary mt16 px-4 py-2" data-original-title="" title=""
+                               aria-describedby="tooltip830523">
+                                <font style="font-size: 12px;" data-original-title="" title=""
+                                      aria-describedby="tooltip444273">
+                                    <b class="o_default_snippet_text">CONTACT US NOW</b>
+                                </font>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center mb16 pt80 pb80"
+                             style="background-color: rgb(107, 173, 222);">
+                            <h3>
+                                <font class="text-delta" style="">
+                                    <b class="o_default_snippet_text">Do You Want To Work With Us</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">
+                                <font class="text-delta o_default_snippet_text" style="font-size: 18px;">Lorem Ipsum is
+                                    simply dummy text of the printing and typesetting industry.
+                                </font>
+                            </p>
+                            <a href="#" class="btn btn-primary px-4 py-2 mt16" data-original-title="" title=""
+                               aria-describedby="tooltip457266">
+                                <b>
+                                    <font style="font-size: 12px;" class="o_default_snippet_text">JOIN OUR TEAM</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Upcoming Events Start-->
+        <template id="event_upcoming_events" name="Event Upcoming Events">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 mb48">
+                            <h2 style="text-align: left; ">
+                                <font class="text-alpha" style="font-size: 36px;">Ultimate</font>
+                                <font style="font-size: 36px;">
+                                    <b>Upcoming Events</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <span style="color: rgb(34, 34, 34); font-size: 18px; text-align: left;">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Annual Business Conference</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8"/>
+                            <a href="http://localhost:8080/#" data-original-title="" title=""
+                               aria-describedby="tooltip773677"
+                               style="background-color: rgb(255, 255, 255);">
+                                <font class="text-beta" style="font-size: 12px;">
+                                    <span style="font-weight: bolder;">READ MORE</span>
+                                </font>
+                            </a>&amp;nbsp;
+                            <i class="fa fa-chevron-right ml-2 text-beta" data-original-title=""
+                               title="" aria-describedby="tooltip989477" style=""/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Music Festival 2019</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8" data-original-title="" title=""
+                               aria-describedby="tooltip682551"/>
+                            <a href="http://localhost:8080/#" data-original-title="" title=""
+                               aria-describedby="tooltip773677"
+                               style="background-color: rgb(255, 255, 255);">
+                                <font class="text-beta" style="font-size: 12px;">
+                                    <span style="font-weight: bolder;">READ MORE</span>
+                                </font>
+                            </a>&amp;nbsp;
+                            <i class="fa fa-chevron-right ml-2 text-beta" data-original-title=""
+                               title="" aria-describedby="tooltip542333" style=""/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Christmas Party</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8" data-original-title="" title=""
+                               aria-describedby="tooltip17237"/>
+                            <a href="http://localhost:8080/#" data-original-title="" title=""
+                               aria-describedby="tooltip773677"
+                               style="background-color: rgb(255, 255, 255);">
+                                <font class="text-beta" style="font-size: 12px;">
+                                    <span style="font-weight: bolder;">READ MORE</span>
+                                </font>
+                            </a>&amp;nbsp;
+                            <i class="fa fa-chevron-right ml-2 text-beta" data-original-title=""
+                               title="" aria-describedby="tooltip157155" style=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Upcoming Events End-->
+
+        <!--Snippet Testimonials Start-->
+        <template id="event_testimonials" name="Event Testimonials">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_event_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div id="myCarousel1571044506638"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1571044506638" data-slide-to="0"/>
+                        <li data-target="#myCarousel1571044506638" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1571044506638" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_event_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_event_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt32 pb0" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_event_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1571044506638"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1571044506638"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonials End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="event_brand_logo" name="Event Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_event_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_event_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_event_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_event_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_event_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_event_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="event_contact_us" name="Event Contact Us">
+            <section class="oe_custom_bg bg-alpha"
+                     style="background-image: url(&quot;/theme_event_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100 pad0">
+                            <div class="oe_structure oe_empty"/>
+                            <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-643x650.png" alt="Image"
+                                 class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                 aria-describedby="tooltip89643"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100  pb0">
+                            <div class="oe_structure oe_empty">
+                                <section class="s_cover parallax s_parallax_is_fixed contact_us_4 pb0 pt24"
+                                         data-scroll-background-ratio="1" style="background-image: none;">
+                                    <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                                          style="/* background-image: url('/web/image/website.s_cover_default_image'); */background-position: 50% 0;"/>
+                                    <div class="container">
+                                        <div class="row s_nb_column_fixed px-lg-5">
+                                            <div class="col-lg-12 s_title" data-name="Title">
+                                                <h1 style="text-align: left;">
+                                                    <font class="text-delta" style="">Contact Form
+                                                        <b class="o_default_snippet_text">Ultimate</b>
+                                                    </font>
+                                                </h1>
+                                                <p class="o_default_snippet_text">
+                                                    <font style="font-size: 18px;" class="o_default_snippet_text">Lorem
+                                                        Ipsum is simply dummy text of the printing.
+                                                    </font>
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-12 s_text pt0 pb0" data-name="Text">
+                                                <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                                      data-success_page="/contactus-thank-you"
+                                                      class="s_website_form container-fluid mt32"
+                                                      enctype="multipart/form-data" data-editable-form="false">
+                                                    <div class="row">
+                                                        <div class="form-group row form-field o_website_form_required_custom col-lg-6 col-md-6 col-sm-12 o_has_error">
+                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                                <input type="text"
+                                                                       class="form-control o_website_form_input"
+                                                                       name="contact_name" placeholder="Your Name"
+                                                                       required="" value=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row form-field col-md-6">
+                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                                <input type="text"
+                                                                       class="form-control o_website_form_input"
+                                                                       name="phone" placeholder="Phone Number"
+                                                                       value=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row form-field o_website_form_required_custom col-lg-6 col-md-6 col-sm-12 o_has_error">
+                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                                <input type="text"
+                                                                       class="form-control o_website_form_input"
+                                                                       name="email_from" required="" placeholder="Email"
+                                                                       value=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row form-field o_website_form_required_custom col-lg-6 col-md-6 col-sm-12 o_has_error">
+                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                                <input type="text"
+                                                                       class="form-control o_website_form_input"
+                                                                       name="partner_name" required=""
+                                                                       placeholder="Your Company" value=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row form-field o_website_form_required col-lg-12 col-md-12 col-sm-12 o_has_error">
+                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                                <input type="text"
+                                                                       class="form-control o_website_form_input"
+                                                                       name="name" required="" placeholder="Subject"
+                                                                       value=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row form-field o_website_form_required_custom col-lg-12 col-md-12 col-sm-12 o_has_error">
+                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                                <textarea class="form-control o_website_form_input"
+                                                                          name="description" required=""
+                                                                          placeholder="Your Question"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-12 pt16">
+                                                            <div class="s_btn" data-name="Buttons"
+                                                                 style="text-align: left; ">
+                                                                <a href="#" role="button"
+                                                                   class="px-2 btn btn-delta btn-lg o_website_form_send"
+                                                                   data-original-title="" title=""
+                                                                   aria-describedby="tooltip126816">
+                                                                    <font style="color: rgb(0, 0, 0); font-size: 12px;">
+                                                                        <b data-original-title="" title=""
+                                                                           aria-describedby="tooltip14691">SEND MESSAGE
+                                                                        </b>
+                                                                    </font>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Center Content Start-->
+        <template id="event_center_content" name="Event Center Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_event_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold">
+                                <div style="text-align: center;">
+                                    <span style="font-size: 24px;" class="text-delta">We provide the
+                                        best services for the Events that are being held.
+                                    </span>
+                                </div>
+                            </h2>
+                            <p class="o_default_snippet_text" style="text-align: center;">
+                                <font class="text-delta" style="">Lorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum
+                                    est
+                                    in tortor congue suscipit. Suspendisse potenti. Aliquam finibus
+                                    pharetra
+                                    tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra
+                                    tellus
+                                    at egestas.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Center Content End-->
+
+        <!--Snippet News Start-->
+        <template id="event_news" name="Event News">
+            <section class="pt64 pb64" id="news_two">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb64">
+                            <h2 style="text-align: left; ">
+                                <font style="font-size: 36px;">
+                                    <b>Latest News</b>
+                                </font>
+                                <font style="font-size: 36px;" class="text-alpha">Ultimate</font>
+                                <font style="font-size: 36px;">&amp;nbsp;</font>
+                            </h2>
+                            <p>
+                                <span style="color: rgb(34, 34, 34); font-size: 18px; text-align: left;">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.
+                                </span>
+                                <br style="color: rgb(34, 34, 34); font-size: 18px;"/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div>
+                                <div class="hover_effect">
+                                    <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" data-original-title="" title=""
+                                           aria-describedby="tooltip880596">
+                                            <font class="text-beta" style="font-size: 18px;">Barcelona
+                                                Food Truck Festival
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2018
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div>
+                                <div class="hover_effect">
+                                    <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip213608">
+                                            <font class="text-beta" style="font-size: 18px;">Southeast
+                                                Asia Weekend Festival
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2018
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div>
+                                <div class="hover_effect">
+                                    <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" data-original-title="" title=""
+                                           aria-describedby="tooltip533654">
+                                            <font class="text-beta" style="font-size: 18px;">
+                                                International Conference
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2018
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Footer Start-->
+        <template id="event_footer" name="Event Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_19">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font class="text-gamma" style="">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Nam eu sem tempor, varius quam at,luctus dui. Mauris
+                                        magna metus.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <h6 class="o_default_snippet_text media">
+                                    <i class="fa fa-phone-square mr-2 text-gamma" style=""/>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">Call Us:
+                                            <span t-field="res_company.phone"/>
+                                        </font>
+                                    </div>
+                                </h6>
+                                <h6 class="o_default_snippet_text media">
+                                    <i class="fa fa-envelope-open mr-2 text-gamma" style=""/>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">E-mail on
+                                            <span t-field="res_company.email"/>
+                                        </font>
+                                    </div>
+                                </h6>
+                                <h6 class="o_default_snippet_text media">
+                                    <i class="fa fa-map-marker mr-2 text-gamma" style=""/>
+                                    <div class="medai-body">
+                                        <font class="text-gamma" style="">Visit US:
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                        </font>
+                                    </div>
+                                </h6>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h4 class="o_default_snippet_text">
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b>Recent News</b>
+                                    </font>
+                                </h4>
+                                <div class="pt16">
+                                    <h6>
+                                        <font class="text-gamma" style="">Barcelona Friday Food Truck Festival
+                                            2019
+                                        </font>
+                                    </h6>
+                                    <h6><i class="fa fa-clock-o text-gamma" data-original-title="" title=""
+                                           aria-describedby="tooltip916057" style=""/>&amp;nbsp;&amp;nbsp;
+                                        <font class="text-gamma" style="">july 22, 2019</font>
+                                    </h6>
+                                </div>
+                                <div class="pt16">
+                                    <h6>
+                                        <font class="text-gamma" style="">Barcelona Friday Food Truck Festival
+                                            2019
+                                        </font>
+                                    </h6>
+                                    <h6>
+                                        <i class="fa fa-clock-o text-gamma" style="" data-original-title=""
+                                           title="" aria-describedby="tooltip837912"/>
+                                        <font class="text-delta" style="">&amp;nbsp;&amp;nbsp;</font>
+                                        <font class="text-gamma" style="">july 22, 2019</font>
+                                        <font class="text-delta" style="">&amp;nbsp;</font>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h4 class="font-weight-bold o_default_snippet_text">
+                                    <font class="text-delta" style="font-size: 18px;">Navigation</font>
+                                </h4>
+                                <div class="row pt16">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-6">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="" data-original-title=""
+                                                          title="" aria-describedby="tooltip930662">About US
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Contact</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Typography</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Carres</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Shop</font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-6">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">News</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Testimonials</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Services</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Our Team</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Our Approach</font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                <h4 class="font-weight-bold">
+                                    <font class="text-delta" style="font-size: 18px;">Gallery</font>
+                                </h4>
+                                <div class="row pt16 pb16 px-3">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_event_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                </div>
+                                <h6>
+                                    <a href="#" class="text-decoration-none text-warning o_default_snippet_text"
+                                       target="_blank" data-original-title="" title=""
+                                       aria-describedby="tooltip765389">
+                                        <i class="fa fa-arrow-circle-right text-gamma" style=""/>
+                                        <font class="text-gamma" style="">View More Photos&amp;nbsp;</font>
+                                    </a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Event Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_event_ultimate_01.event_mid_header"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_banner"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_features"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_services"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_counter"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_gallery"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_cta"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_upcoming_events"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_testimonials"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_brand_logo"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_contact_us"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_center_content"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_news"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_event_ultimate_01.event_footer"
+                           t-thumbnail="/theme_event_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

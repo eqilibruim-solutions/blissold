@@ -1,0 +1,984 @@
+<odoo>
+    <data>
+        <!--Banner Snippets start-->
+        <template id="clinic_banner" name="Clinic Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_clinic_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 62px; text-align: center;">WE PROVIDE
+                            </h1>
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 62px; text-align: center;">
+                                <b>FULL DENTAL CARE</b>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Banner Snippets End-->
+        <!--Services Snippets start-->
+        <template id="clinic_services" name="Clinic Services">
+            <section class="pt64 pb32 bg-white-75 oe_custom_bg" id="process_step_2" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb32">
+                            <div class="box pt64 pb64">
+                                <img class="img-fluid o_we_custom_image pb32"
+                                     src="/theme_clinic_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip425444"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 18px;" class="text-delta o_default_snippet_text">Genral
+                                            Dentistry
+                                        </font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <span style="color: rgb(153, 166, 190); text-align: left;"
+                                          class="o_default_snippet_text">Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                                        fermentum est in tortor congue suscipit.
+                                    </span>
+                                    <span style="color: rgb(153, 166, 190); font-size: 0.875rem; text-align: left;">
+                                        &amp;nbsp;
+                                    </span>
+                                    <br style="color: rgb(153, 166, 190); text-align: left;"/>
+                                </p>
+                                <p>
+                                    <b>
+                                        <font class="text-alpha" style="">
+                                            <a href="/" data-original-title="" title="">More Details</a>
+                                        </font>
+                                    </b>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb32">
+                            <div class="box pt64 pb64">
+                                <img class="img-fluid o_we_custom_image pb32"
+                                     src="/theme_clinic_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 18px;" class="text-delta o_default_snippet_text">Doctor
+                                            Appointment
+                                        </font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <span style="color: rgb(153, 166, 190); text-align: left;"
+                                          class="o_default_snippet_text">Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                                        fermentum est in tortor congue suscipit.
+                                    </span>
+                                    <span style="color: rgb(153, 166, 190); font-size: 0.875rem; text-align: left;">
+                                        &amp;nbsp;
+                                    </span>
+                                    <br style="color: rgb(153, 166, 190); text-align: left;"/>
+                                </p>
+                                <p>
+                                    <b>
+                                        <font class="text-alpha" style="">
+                                            <a href="/">More Details</a>
+                                        </font>
+                                    </b>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb32">
+                            <div class="box pt64 pb64">
+                                <img class="img-fluid o_we_custom_image pb32"
+                                     src="/theme_clinic_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 18px;" class="text-delta o_default_snippet_text">
+                                            Children
+                                            Dentistry
+                                        </font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <span style="color: rgb(153, 166, 190); text-align: left;"
+                                          class="o_default_snippet_text">Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                                        fermentum est in tortor congue suscipit.
+                                    </span>
+                                    <br/>
+                                </p>
+                                <p>
+                                    <b>
+                                        <font class="text-alpha o_default_snippet_text" style="">More Details</font>
+                                    </b>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Services Snippets End-->
+        <!--Right Content Snippets start-->
+        <template id="clinic_right_content" name="Clinic Right Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title=""
+                                 title="" aria-describedby="tooltip930622"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <h2>
+                                <font style="font-size: 36px;" class="text-delta">
+                                    <b>Welcome to Dental Clinic</b>
+                                </font>
+                            </h2>
+                            <h2>
+                                <b>
+                                    <font style="font-size: 18px;">15 years of Dental Exellance</font>
+                                </b>
+                                <br/>
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                                fermentum est in tortor congue suscipit. Suspendisse potenti.Aliquam
+                                finibus pharetra tellus at egestas.
+                                <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                    congue suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus
+                                    at egestas.
+                                </span>
+                                <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.
+                                <br/>
+                            </p>
+                            <div class="row pb32">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb16">
+                                    <h3 class="mb8 mt8">
+                                        <font style="font-size: 18px;">
+                                            <b>Lern More</b>
+                                        </font>
+                                    </h3>
+                                    <p>Pellentesque fermentum. consectetur adipiscing elit. adipiscing
+                                        elit.
+                                        <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                            consectetur .
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Right Content Snippets End-->
+        <!--Product Snippets start-->
+        <template id="clinic_product" name="Clinic Product">
+            <section class="pb64 pt0 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pt88">
+                            <p>
+                                <font color="#e23e54">
+                                    <span style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">HAPPY CLIENTS</b>
+                                    </span>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;" class="text-delta">
+                                    <b class="o_default_snippet_text">Online Appointment and Prescriptions</b>
+                                </font>
+                            </h2>
+                            <p class="pb24 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti. Aliquam finibus pharetra tellus at egestas.Suspendisse potenti.
+                                Aliquam finibus pharetra tellus at egestas.
+                                <span style="font-size: 0.875rem;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum est.
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/medicine.png"
+                                         data-original-title="" title="" aria-describedby="tooltip375921"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">
+                                                    Medicine
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <span style="color: rgb(153, 166, 190);"
+                                                  class="o_default_snippet_text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Pellentesque
+                                            </span>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/syringe.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <font style="font-size: 18px;" class="text-delta">
+                                                <b class="o_default_snippet_text">Troumatology</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <span style="color: rgb(153, 166, 190);"
+                                                  class="o_default_snippet_text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Pellentesque
+                                            </span>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/heart.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">Pediatrics
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <span style="color: rgb(153, 166, 190);"
+                                                  class="o_default_snippet_text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Pellentesque
+                                            </span>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/cardiogram.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">Cardiology
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <span style="color: rgb(153, 166, 190);">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Pellentesque
+                                            </span>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Product Snippets End-->
+
+        <!--Feature Snippets start-->
+        <template id="clinic_feature" name="Clinic Feature">
+            <section class="pt64 pb0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pb0">
+                            <p>
+                                <span style="font-weight: bolder; color: rgb(226, 62, 84); font-size: 18px; background-color: rgb(248, 249, 250);">
+                                    CLINIC FIGURES
+                                </span>
+                                <br/>
+                            </p>
+                            <h2>
+                                <font color="#3e3e3e">
+                                    <span style="font-size: 36px;">
+                                        <b>Medical Section</b>
+                                    </span>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/pulse.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <font style="font-size: 18px;" class="text-delta">
+                                                <b class="o_default_snippet_text">Cardiology</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/brain.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">Neurology
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/bone.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">
+                                                    Orthopeadics
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/tooth.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">Dental
+                                                    Clinic
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/test-tube.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">Blood
+                                                    Test
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_clinic_ultimate_01/static/src/img/library/surgery.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;"
+                                                      class="text-delta o_default_snippet_text">
+                                                    Surgery
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                <a href="#" class="btn btn-lg btn-outline-primary rounded-circle o_default_snippet_text"
+                                   data-original-title="" title="" aria-describedby="tooltip583550">View More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Feature Snippets End-->
+
+        <!--Left Content Snippets start-->
+        <template id="clinic_left_content" name="Clinic Left Content">
+            <section class="pt0 bg-delta oe_custom_bg pb0" style="">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 ptb-0 pb168" style="">
+                            <h2>
+                                <font color="#e23e54">
+                                    <span style="font-size: 36px;">
+                                        <b>The Heart and Sicence of Medicine</b>
+                                    </span>
+                                </font>
+                            </h2>
+                            <p class="pt8 pb8">
+                                <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum.
+                                </font>
+                                <span style="color: rgb(255, 255, 255); font-size: 0.875rem;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                                    fermentum.&amp;nbsp;&amp;nbsp;
+                                </span>
+                                <span style="color: rgb(255, 255, 255); font-size: 0.875rem;">&amp;nbsp;&amp;nbsp;
+                                </span>
+                            </p>
+                            <div class="row">
+                                <ul class="list-unstyled px-1">
+                                    <li class="mt8 mb8 o_default_snippet_text">
+                                        <i class="fa fa-check px-2 text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip23176" style=""/>
+                                        <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit
+                                            amet &amp;nbsp;
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8 o_default_snippet_text">
+                                        <i class="fa fa-check px-2 text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip487382" style=""/>
+                                        <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit
+                                            amet &amp;nbsp;
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8 o_default_snippet_text">
+                                        <i class="fa fa-check px-2 text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip674890" style=""/>
+                                        <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit
+                                            amet &amp;nbsp;
+                                        </font>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center plr-0">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="Image"
+                                 class="img-fluid mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip345713"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Left Content Snippets End-->
+
+        <!--Counter Snippets start-->
+        <template id="clinic_counter" name="Clinic Counter">
+            <section class="pt64 pb64 oe_custom_bg s_overlay_section" id="counter_10" style="">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 bg-white">
+                            <div class="counter-box">
+                                <h2>
+                                    <font style="font-size: 62px;" class="text-alpha o_default_snippet_text">999</font>
+                                    <font class="text-alpha o_default_snippet_text" style="font-size: 36px;">+
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">Years Of Experience</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 bg-white">
+                            <div class="counter-box">
+                                <h2>
+                                    <font class="text-alpha o_default_snippet_text" style="font-size: 62px;">400</font>
+                                    <font class="text-alpha o_default_snippet_text" style="">+</font>
+                                </h2>
+                                <h4>
+                                    <font color="#49d7c4" style="font-size: 18px;" class="text-delta">
+                                        <b>Improved Smiles</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 bg-white">
+                            <div class="counter-box">
+                                <h2>
+                                    <font class="text-alpha o_default_snippet_text" style="font-size: 62px;">99</font>
+                                    <font class="text-alpha o_default_snippet_text" style="">%</font>
+                                </h2>
+                                <h4>
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">Dentisrty Specialists</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 bg-white">
+                            <div class="counter-box">
+                                <h2>
+                                    <font class="text-alpha o_default_snippet_text" style="font-size: 62px;">&amp;nbsp;20
+                                    </font>
+                                    <font class="text-alpha o_default_snippet_text" style="">+</font>
+                                </h2>
+                                <h4>
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b>Our Clinic Locations</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Counter Snippets End-->
+
+        <!--Team Snippets start-->
+        <template id="clinic_team" name="Clinic Team">
+            <section class="sni-block pt64 pb64 bg-white-50 oe_custom_bg" id="team_7" style="">
+                <div class="container">
+                    <div class="row text-center mb48">
+                        <div class="col-12">
+                            <h2 class="text-white">
+                                <font style="color: rgb(66, 66, 66);">
+                                    <b>&amp;nbsp;OUR EXPERT DOCTOR</b>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                    <ul class="row">
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_clinic_ultimate_01/static/src/img/placeholder-user.png"/>
+                                <h3>
+                                    <font color="#3e3e3e">
+                                        <b>DEVID WORNER</b>
+                                    </font>
+                                </h3>
+                                <p><span style="font-size: 18px;">GAYNECOLOGY</span>&amp;nbsp;
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip283891" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip952204" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip531891" style=""/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_clinic_ultimate_01/static/src/img/placeholder-user.png"/>
+                                <h3>
+                                    <font color="#3e3e3e">
+                                        <b>ALINE CLINTAN</b>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <font style="font-size: 18px;">CARDIOLOGY</font>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip220054" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip392781" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip994640" style=""/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_clinic_ultimate_01/static/src/img/placeholder-user.png"/>
+                                <h3>
+                                    <font color="#3e3e3e">
+                                        <b>THOMER POWER</b>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <font style="font-size: 18px;">CARDIAC SURGERY&amp;nbsp;</font>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip737765" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip39611" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-original-title="" title=""
+                                           aria-describedby="tooltip16284">
+                                            <i class="fa fa-linkedin text-alpha" style=""/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_clinic_ultimate_01/static/src/img/placeholder-user.png"/>
+                                <h3>
+                                    <font color="#3e3e3e">
+                                        <b>JOHN METHUE</b>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <font style="font-size: 18px;">DENTIST</font>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip984553" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip840878" style=""/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip998168" style=""/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </template>
+        <!--Team Snippets End-->
+
+        <!--Blog Snippets start-->
+        <template id="clinic_blog" name="Clinic Blog">
+            <section
+                    class="s_blog_carousel js_get_objects blog_carousel bg-200 oe_custom_bg s_headline_center headline_hidden"
+                    data-loading="true" data-template="snippet_blog_carousel_73lines.blog_list_template"
+                    data-object_name="blog.post" style=""/>
+        </template>
+        <!--BLog Snippets End-->
+
+        <!--Client Logo Snippets start-->
+        <template id="clinic_client_logo" name="Clinic Client Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Client Logo Snippets End-->
+        <!--Footer Snippets start-->
+        <template id="clinic_footer" name="Clinic Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb0" id="footer_18">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5 pb32">
+                                <h5 class="font-weight-bold">
+                                    <font color="#ffffff">About Us</font>
+                                </h5>
+                                <p class="pt16">
+                                    <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Nam eu sem tempor.
+                                    </font>
+                                    <span style="color: rgb(255, 255, 255); font-size: 0.875rem;">Lorem
+                                    </span>
+                                    <span style="color: rgb(255, 255, 255); font-size: 0.875rem;">ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor.
+                                    </span>
+                                </p>
+                                <div class="input-group js_subscribe hidden" data-list-id="2"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control rounded-0"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                            <font style="color: rgb(255, 255, 255);">Subscribe</font>
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">
+                                            <font style="color: rgb(255, 255, 255);">&amp;nbsp;Thanks&amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        <font style="color: rgb(255, 255, 255);">&amp;nbsp;Thanks for your
+                                            subscription!&amp;nbsp;
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5 pb24">
+                                <h5 class="font-weight-bold">
+                                    <font style="color: rgb(255, 255, 255);">Letest News</font>
+                                </h5>
+                                <div class="media pt16">
+                                    <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         class="align-self-start mr-3" data-original-title="" title=""
+                                         aria-describedby="tooltip217319"/>
+                                    <div class="media-body">
+                                        <h6 class="font-weight-bold mb0">
+                                            <a href="#" target="_blank" class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);">Best Montion
+                                                    Clinic
+                                                </font>
+                                            </a>
+                                        </h6>
+                                        <h6 class="font-weight-bold">
+                                            <a href="#" target="_blank" class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);">is Here Download
+                                                </font>
+                                            </a>
+                                        </h6>
+                                        <h6 class="o_default_snippet_text">
+                                            <i class="fa fa-clock-o" style="color: rgb(255, 255, 255);"/>
+                                            <font style="color: rgb(255, 255, 255);">NOV 12, 2019
+                                                &amp;nbsp;
+                                            </font>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="media pt16">
+                                    <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         class="align-self-start mr-3"/>
+                                    <div class="media-body">
+                                        <h6 class="font-weight-bold mb0">
+                                            <a href="#" target="_blank" class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);">Best Montion
+                                                    Clinic
+                                                </font>
+                                            </a>
+                                        </h6>
+                                        <h6 class="font-weight-bold">
+                                            <a href="#" target="_blank" class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);">is Here Download
+                                                </font>
+                                            </a>
+                                        </h6>
+                                        <h6 class="o_default_snippet_text">
+                                            <i class="fa fa-clock-o" style="color: rgb(255, 255, 255);"/>
+                                            <font style="color: rgb(255, 255, 255);">NOV 12, 2019
+                                                &amp;nbsp;
+                                            </font>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="media pt16">
+                                    <img src="/theme_clinic_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         class="align-self-start mr-3" data-original-title="" title=""
+                                         aria-describedby="tooltip232459"/>
+                                    <div class="media-body">
+                                        <h6 class="font-weight-bold mb0">
+                                            <a href="#" target="_blank" class="o_default_snippet_text"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip260040">
+                                                <font style="color: rgb(255, 255, 255);">Best Montion
+                                                    Clinic
+                                                </font>
+                                            </a>
+                                        </h6>
+                                        <h6 class="font-weight-bold">
+                                            <a href="#" target="_blank" class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);"
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip387390">is Here Download
+                                                </font>
+                                            </a>
+                                        </h6>
+                                        <h6 class="o_default_snippet_text">
+                                            <i class="fa fa-clock-o" style="color: rgb(255, 255, 255);"/>
+                                            <font style="color: rgb(255, 255, 255);">NOV 12, 2019</font>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-2 pb16 col-lg-2">
+                                <h5 class="pb16">
+                                    <font color="#ffffff">
+                                        <b>Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Home</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">About us</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Services</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Features</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Pricing</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Blog</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Contact</font>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Clinic Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_banner"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_services"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_right_content"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_product"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_feature"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_left_content"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_counter"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_team"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_blog"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_client_logo"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_01.clinic_footer"
+                           t-thumbnail="/theme_clinic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+    </data>
+</odoo>

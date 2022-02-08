@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="calendar.day" id="calendar_day_monday">
+        <field name="name">monday</field>
+    </record>
+    <record model="calendar.day" id="calendar_day_tuesday">
+        <field name="name">tuesday</field>
+    </record>
+    <record model="calendar.day" id="calendar_day_wednesday">
+        <field name="name">wednesday</field>
+    </record>
+    <record model="calendar.day" id="calendar_day_thursday">
+        <field name="name">thursday</field>
+    </record>
+    <record model="calendar.day" id="calendar_day_friday">
+        <field name="name">friday</field>
+    </record>
+    <record model="calendar.day" id="calendar_day_saturday">
+        <field name="name">saturday</field>
+    </record>
+    <record model="calendar.day" id="calendar_day_sunday">
+        <field name="name">sunday</field>
+    </record>
+</odoo>

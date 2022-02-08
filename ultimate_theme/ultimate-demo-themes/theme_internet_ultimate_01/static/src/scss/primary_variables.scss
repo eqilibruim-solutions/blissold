@@ -1,0 +1,78 @@
+//------------------------------------------------------------------------------
+// Colors
+//------------------------------------------------------------------------------
+
+// Theme colors
+$o-theme-color-palettes: (
+    (
+        'alpha': #60c2a4,
+        'beta': #dddede,
+        'gamma': #6fb76b,
+        'delta': #6b95b7,
+        'epsilon': #b76b82,
+    ),
+);
+
+// Colors
+$o-color-palettes: ();
+@each $-palette in $o-theme-color-palettes {
+    $o-color-palettes: append($o-color-palettes, (
+        'body': #ffffff,
+        'menu': #f9f9f9,
+        'footer': #202e38,
+        'text': #777777,
+        'h1': #202e38,
+        'h2': #202e38,
+        'h3': #202e38,
+        'h4': #202e38,
+        'h5': #202e38,
+        'h6': #202e38,
+    ));
+}
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+// FIXME solve per font options
+
+$o-theme-fonts: (
+    (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Noto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"), // This is BS default
+    ('Open Sans', sans-serif),
+    ('Source Sans Pro', sans-serif),
+    ('Raleway', sans-serif),
+    ('Noto Serif', serif),
+    ('Arvo', Times, serif),
+    ('Rubik', serif),
+    );
+$o-theme-font-urls: (
+    null,
+    'Open+Sans:400,400i,700,700i',
+    'Source+Sans+Pro:400,400i,700,700i',
+    'Raleway:400,400i,700,700i',
+    'Noto+Serif:400,400i,700,700i',
+    'Arvo:400,400i,700,700i',
+    'Rubik:400,400i,700,700i',
+    );
+$o-theme-font-names: (
+    'Bootstrap',
+    'Open Sans',
+    'Source Sans Pro',
+    'Raleway',
+    'Noto Serif',
+    'Arvo',
+    'Rubik',
+    );
+
+//------------------------------------------------------------------------------
+// Website customizations
+//------------------------------------------------------------------------------
+
+$o-website-values-palettes: (
+    (
+        'font-number': 3,
+        'headings-font-number': 7,
+        'navbar-font-number': 3,
+        'buttons-font-number': 3,
+    ),
+);

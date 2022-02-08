@@ -1,0 +1,1055 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="beauty_banner" name="Beauty Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_beauty_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-left" style="font-size: 62px;">
+                                <font style="color: rgb(66, 66, 66);">Fashions Fade,</font>
+                            </h1>
+                            <h1 class="s_title_thin text-left" style="font-size: 62px;">
+                                <font style="color: rgb(66, 66, 66);">Style Is Eternal.</font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left o_default_snippet_text"
+                               style="text-align: center;">
+                                <font style="color: rgb(66, 66, 66);">Write one or two paragraphs
+                                    describing your product, services or a specific feature.&amp;nbsp;
+                                </font>
+                                <br/>
+                                <font style="color: rgb(66, 66, 66);">To be successful your
+                                    content needs to be useful to your readers.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-primary flat" data-original-title=""
+                               title="" aria-describedby="tooltip882473">
+                                <font style="font-size: 14px;">
+                                    <b>&amp;nbsp;READ MORE&amp;nbsp;</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us Start-->
+        <template id="beauty_about_us" name="Beauty About Us">
+            <section class="pt64 pb64 bg-gamma oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_beauty_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <font style="font-size: 36px;">About Us</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row shadow">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 bg-beta pt88 px-4">
+                            <h2>
+                                <b>Welcome to our salon</b>
+                            </h2>
+                            <p class="pt16 pb16 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Pellentesque fermentum est in tortor congue
+                                suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg rounded-0 mb16" data-original-title=""
+                               title="" aria-describedby="tooltip559868">
+                                <b>
+                                    <font style="font-size: 14px;">READ MORE</font>
+                                </b>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 px-0">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg" alt="mobile"
+                                 class="img-fluid mx-auto d-block" data-original-title=""
+                                 title="" aria-describedby="tooltip782812"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Service Start-->
+        <template id="beauty_service" name="Beauty Service">
+            <section class="pt64 pb0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <font style="font-size: 36px;">Our Services</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb32 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-100x100.png"
+                                         data-original-title=""
+                                         title="" aria-describedby="tooltip296299"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <b>Makeup &amp;amp; Lighting</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-100x100.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <b>Coloring</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-100x100.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <b>Studio Shooting</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-100x100.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <span style="font-size: 18px;">
+                                            <b>Theatre Hairstyles</b>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-100x100.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <b>Wedding Day</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-100x100.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <b>Party Mood</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Product Start-->
+        <template id="beauty_product" name="Beauty Product">
+            <section class="pt64 pb0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <span style="font-size: 36px;">Our Products</span>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-510x550.png"
+                                 alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Natural Cosmetics Pack</b>
+                                </font>
+                            </h3>
+                            <p>$40.00</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-510x550.png"
+                                 alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Makeup Brushes</b>
+                                </font>
+                            </h3>
+                            <p>$45.00</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-510x550.png"
+                                 alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Natural Lipstic Colors</b>
+                                </font>
+                            </h3>
+                            <p>$20.00</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat" data-original-title=""
+                                       title="" aria-describedby="tooltip527852">
+                                        <font style="font-size: 14px;">
+                                            <b>VIEW MORE</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product End-->
+
+        <!--Snippet Left Content Start-->
+        <template id="beauty_left_content" name="Beauty Left Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2>
+                                <b>Special offer of the month</b>
+                            </h2>
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">40 % Off</font>
+                                </b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <div class="row align-items-center">
+                                <div class="ml-3">
+                                    <a href="#" class="btn btn-primary btn-lg rounded-0 px-4 mt8 mb8"
+                                       data-original-title="" title="" aria-describedby="tooltip385011">
+                                        <b>
+                                            <font style="font-size: 14px;">SHOP NOW</font>
+                                        </b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg" alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="beauty_testimonial" name="Beauty Testimonial">
+            <section class="pt0 pb0 bg-gamma oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_beauty_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pb24 pt24">
+                                <font style="font-size: 36px;">Our Happy Costumers</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1565179464049"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1565179464049" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1565179464049" data-slide-to="1"/>
+                        <li data-target="#myCarousel1565179464049" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 oe_custom_bg active" data-name="Slide"
+                             style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center"><img class="img"
+                                                                      src="/theme_beauty_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                      alt=""/>&amp;nbsp;Avie Beaton
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center"><img class="img"
+                                                                      src="/theme_beauty_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                      alt=""/>&amp;nbsp;Cristin Jackson
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center"><img class="img"
+                                                                      src="/theme_beauty_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                      alt=""/>&amp;nbsp;Janny Stratton
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1565179464049"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1565179464049"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="beauty_newsletter" name="Beauty Newsletter">
+            <section class="pt64 pb32 bg-beta oe_custom_bg" id="footer_7">
+                <div class="container">
+                    <h2 style="text-align: center; " class="mb64">
+                        <font style="font-size: 36px;">
+                            <b>Subscribe Now</b>
+                        </font>
+                    </h2>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-3 offset-md-3 mb48">
+                            <div class="input-group js_subscribe hidden" data-list-id="1"
+                                 data-subscribe="off">
+                                <input type="email" name="email"
+                                       class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..." style="text-align: center;"/>
+                                <span class="input-group-btn">
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-primary js_subscribe_btn o_default_snippet_text">
+                                        Subscribe
+                                    </a>
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                    Thanks for your subscription!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                            <i class="fa fa-twitter px-1 fa-2x mr-2"/>
+                            <i class="fa fa-facebook-official px-1 fa-2x mr-2"/>
+                            <i class="fa fa-pinterest-square px-1 fa-2x mr-2"/>
+                            <i class="fa fa-youtube-play px-1 fa-2x mr-2"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Team Start-->
+        <template id="beauty_team" name="Beauty Team">
+            <section class="pt64 pb0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <font style="font-size: 36px;">Our Creative Team</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_three_columns pt64 pb32" id="team_6">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-510x550.png"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title=""
+                                     title="" aria-describedby="tooltip980270"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Ashley Fletcher</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center; ">&amp;nbsp;Beautician</p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa-2x fa fa-pinterest" data-original-title=""
+                                               title="" aria-describedby="tooltip453145" style=""/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-510x550.png"
+                                     alt="Odoo - Sample 2 for three columns" data-original-title=""
+                                     title="" aria-describedby="tooltip888441"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style=" text-align: center;">
+                                        <font style="font-size: 18px;">
+                                            <b>Ammey Beaton</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center; ">Hair Stylist</p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa-2x fa fa-pinterest" data-original-title=""
+                                               title="" aria-describedby="tooltip486690" style=""/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-510x550.png"
+                                     alt="Odoo - Sample 3 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <font style="font-size: 18px;">
+                                            <b>Ben Janson</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center; ">Beautician</p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa-2x fa fa-pinterest" data-original-title=""
+                                               title="" aria-describedby="tooltip995956" style=""/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="beauty_gallery" name="Beauty Gallery">
+            <section class="pt64 pb0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <font style="font-size: 36px;">Our Gallery</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sni-block pt64 pb64" style="">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip914518"/>
+                        </div>
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip914518"/>
+                        </div>
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip914518"/>
+                        </div>
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip914518"/>
+                        </div>
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip914518"/>
+                        </div>
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                        </div>
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                        </div>
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_beauty_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Accordion Start-->
+        <template id="beauty_accordion" name="Beauty Accordion">
+            <section class="pt64 pb0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <font style="font-size: 36px;">Frequently Asked Questions</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64" id="accordion_10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" href="#collapseOne"
+                                               aria-expanded="true" data-original-title="" title=""
+                                               aria-describedby="tooltip533018">How do I choose right
+                                                treatment and product ?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse in collapse show"
+                                         data-parent="#accordion" style="">
+                                        <div class="panel-body o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Quisque posuere augue
+                                            porta turpis ornare, nec commodo dui pellentesque. Sed at
+                                            metus hendrerit, varius nisl et, iaculis ex. Nulla vitae
+                                            ipsum diam. Pellentesque vitae metus vitae massa egestas
+                                            posuere. Mauris ultricies vehicula tempor. Pellentesque
+                                            justo turpis, blandit nec ex eu, tempus placerat diam. Morbi
+                                            a felis commodo eros consectetur rhoncus sed eget lectus.
+                                            Praesent non erat vehicula, posuere massa id, ultricies est.
+                                            Pellentesque sit amet venenatis est, quis posuere ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" href="#collapseTwo"
+                                               class="collapsed" data-original-title="" title=""
+                                               aria-describedby="tooltip747353">Are reservations
+                                                necessary ?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse"
+                                         data-parent="#accordion" style="">
+                                        <div class="panel-body o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Quisque posuere augue
+                                            porta turpis ornare, nec commodo dui pellentesque. Sed at
+                                            metus hendrerit, varius nisl et, iaculis ex. Nulla vitae
+                                            ipsum diam. Pellentesque vitae metus vitae massa egestas
+                                            posuere. Mauris ultricies vehicula tempor. Pellentesque
+                                            justo turpis, blandit nec ex eu, tempus placerat diam. Morbi
+                                            a felis commodo eros consectetur rhoncus sed eget lectus.
+                                            Praesent non erat vehicula, posuere massa id, ultricies est.
+                                            Pellentesque sit amet venenatis est, quis posuere ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse"
+                                               href="#collapseThree" class="collapsed"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip732119">Can I book extra service
+                                                while I am at the spa ?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse"
+                                         data-parent="#accordion" style="">
+                                        <div class="panel-body o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Quisque posuere augue
+                                            porta turpis ornare, nec commodo dui pellentesque. Sed at
+                                            metus hendrerit, varius nisl et, iaculis ex. Nulla vitae
+                                            ipsum diam. Pellentesque vitae metus vitae massa egestas
+                                            posuere. Mauris ultricies vehicula tempor. Pellentesque
+                                            justo turpis, blandit nec ex eu, tempus placerat diam. Morbi
+                                            a felis commodo eros consectetur rhoncus sed eget lectus.
+                                            Praesent non erat vehicula, posuere massa id, ultricies est.
+                                            Pellentesque sit amet venenatis est, quis posuere ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Accordion End-->
+
+        <!--Snippet Blog Start-->
+        <template id="beauty_blog" name="Beauty Blog">
+            <section class="pt64 pb64">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <font style="font-size: 36px;">Blog &amp;amp; Tips</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_blog_carousel js_get_objects blog_carousel" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="beauty_contact_us" name="Beauty Contact Us">
+            <section class="py-5 contact_us_3 bg-gamma oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_beauty_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title mb32" data-name="Title">
+                            <h1 class="font-weight-bold s_title_thin o_default_snippet_text text-center">
+                                <b>Contact Us</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-7 s_text pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you"
+                                  class="s_website_form container-fluid" enctype="multipart/form-data"
+                                  data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4 o_has_error">
+                                        <input type="text"
+                                               class="form-control o_website_form_input"
+                                               name="contact_name" placeholder="Your Name" required=""
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field  col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="phone" placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4 o_has_error">
+                                        <input type="text"
+                                               class="form-control o_website_form_input"
+                                               name="email_from" required="" placeholder="Email"
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-6 col-lg-6 o_has_error">
+                                        <input type="text"
+                                               class="form-control o_website_form_input"
+                                               name="partner_name" required=""
+                                               placeholder="Your Company" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-12 col-sm-12 col-md-6 col-lg-6 o_has_error">
+                                        <input type="text"
+                                               class="form-control o_website_form_input"
+                                               name="name" required="" placeholder="Subject" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom  col-12 col-sm-12 col-md-12 col-lg-12 o_has_error">
+                                        <textarea class="form-control o_website_form_input"
+                                                  name="description" required=""
+                                                  placeholder="Your Question" rows="5"/>
+                                    </div>
+                                    <div class="form-group col-12 mt32">
+                                        <div class="s_btn text-center" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="o_website_form_send btn btn-primary flat btn-lg"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip774249">
+                                                <b>
+                                                    <font style="font-size: 14px;"
+                                                          data-original-title="" title=""
+                                                          aria-describedby="tooltip918732">SEND
+                                                    </font>
+                                                </b>
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="contact-page-side-content">
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-fax"/>
+                                        Address
+                                    </h4>
+                                    <span t-field="res_company.street"/>
+                                    <span t-field="res_company.city"/>
+                                    <span t-field="res_company.state_id.name"/>
+                                    <span t-field="res_company.zip"/>
+                                    <span t-field="res_company.country_id.name"/>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-phone"/>
+                                        Phone
+                                    </h4>
+                                    <p t-field="res_company.phone"/>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-envelope-o"/>
+                                        Email Address
+                                    </h4>
+                                    <p t-field="res_company.email"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="beauty_brand_logo" name="Beauty Brand Logo">
+            <section class="pt64 pb64 bg-beta oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_beauty_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Footer Start-->
+        <template id="beauty_footer" name="Beauty Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-map-marker mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Address :</p>
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                        <span t-field="res_company.state_id.name"/>
+                                        <span t-field="res_company.zip"/>
+                                        <span t-field="res_company.country_id.name"/>
+                                    </div>
+                                </div>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-phone mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Call us &amp;amp;
+                                            Hire us :
+                                        </p>
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class="o_default_snippet_text">
+                                    <b>
+                                        <font style="font-size: 18px;">Usefull Links</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip428181">About us
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip428181">Services
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip927705">Shop
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip428181">Blog
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip919017">Team
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip428181">FAQs
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <b>
+                                        <font style="font-size: 18px;">Letest Post</font>
+                                    </b>
+                                </h5>
+                                <p class="mb8">Advertising hairdressing jobs</p>
+                                <p class="o_default_snippet_text">26 January,2018</p>
+                                <hr class="m-0"/>
+                                <p class="mb8">In the big city</p>
+                                <p class="o_default_snippet_text">26 January,2018</p>
+                                <hr class="m-0"/>
+                                <p class="mb8">When nobody is watching</p>
+                                <p class="o_default_snippet_text">26 January,2018</p>
+                                <hr class="m-0"/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="font-size: 18px;">
+                                        <b>Opening Hours</b>
+                                    </font>
+                                </h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p>Mon - Tue : 9.00 AM - 17.00 PM</p>
+                                <p>Wed - Fri : 8.00 AM - 17.00 PM</p>
+                                <p>Sat - Sun : 8.00 AM - 15.00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Beauty Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_banner"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_about_us"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_service"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_product"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_left_content"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_testimonial"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_newsletter"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_team"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_gallery"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_accordion"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_blog"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_contact_us"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_brand_logo"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_beauty_ultimate_01.beauty_footer"
+                           t-thumbnail="/theme_beauty_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

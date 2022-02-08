@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!--Assets-->
+    <template id="demo_frontend_style" name="Theme Shop style"
+              inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/snippet_events_carousel_73lines/static/src/scss/event.scss"
+                  rel="stylesheet" type="text/scss"/>
+        </xpath>
+    </template>
+
+    <!-- Snippet & Thumbnail -->
+    <template id="s_events_carousel" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_feature']/div[hasclass('o_panel_body')]"
+               position="inside">
+            <t t-snippet="snippet_events_carousel_73lines.s_events_carousel_header"
+               t-thumbnail=""/>
+        </xpath>
+    </template>
+
+    <!-- Snippet's Options -->
+    <template id="s_event_carousel_option"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='carousel']" position="after">
+            <div data-js='' data-selector=".s_events_carousel">
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-fw fa-columns"/>
+                        Event Carousel Style
+                    </we-toggler>
+                    <we-collapse>
+                        <we-button data-toggle-class="event_style_list">
+                            Events List View
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+            </div>
+        </xpath>
+    </template>
+
+
+</odoo>

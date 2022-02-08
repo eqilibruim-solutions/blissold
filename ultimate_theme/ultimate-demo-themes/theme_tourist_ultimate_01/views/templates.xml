@@ -1,0 +1,1259 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="tourist_banner" name="Tourist Banner">
+            <section class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                     data-scroll-background-ratio="0" style="background-image: none; height: 100vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_tourist_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <b>Discover New Places</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white" style="text-align: center;">
+                                <font style="font-size: 15px;">Write one or two paragraphs describing
+                                    your product, services or a specific feature.
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;">To be successful your content needs to be
+                                    useful to your readers.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mb8 mt8 btn btn-outline-delta btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip547619">
+                                <b>
+                                    <font style="font-size: 14px;">Booking Now</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="tourist_features" name="Tourist Features">
+            <section class="pt64 pb64 bg-delta oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="pt48 pb48 px-3 shadow">
+                                <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     data-original-title="" title="" aria-describedby="tooltip520732"/>
+                                <h3 style="text-align: center; ">
+                                    <font style="font-size: 18px;">
+                                        <b>Travel Arrangement</b>
+                                    </font>
+                                </h3>
+                                <p style="text-align: center; ">
+                                    <font style="font-size: 16px;">
+                                        Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+                                        nonumy eirmod tempor invidunt
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="pt48 pb48 px-3 shadow">
+                                <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     data-original-title="" title="" aria-describedby="tooltip949433"/>
+                                <h3 style="text-align: center; ">
+                                    <font style="font-size: 18px;">
+                                        <b>Handpicked Hotels</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text" style="text-align: center; ">
+                                    <font style="font-size: 16px;">
+                                        Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+                                        nonumy eirmod tempor invidunt
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="pt48 pb48 px-3 shadow">
+                                <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     data-original-title="" title="" aria-describedby="tooltip900789"/>
+                                <h3 style="text-align: center; ">
+                                    <font style="font-size: 18px;">
+                                        <b>Trust &amp;amp; Safety</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text" style="text-align: center; ">
+                                    <font style="font-size: 16px;">
+                                        Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+                                        nonumy eirmod tempor invidunt
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="pt48 pb48 px-3 shadow">
+                                <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     data-original-title="" title="" aria-describedby="tooltip816554"/>
+                                <h3 style="text-align: center; ">
+                                    <font style="font-size: 18px;">
+                                        <b>Amazing Tours</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text" style="text-align: center; ">
+                                    <font style="font-size: 16px;">
+                                        Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+                                        nonumy eirmod tempor invidunt
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Services Start-->
+        <template id="tourist_services" name="Tourist Services">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 pb48">
+                            <h2 style="text-align: center; ">
+                                <font class="text-alpha" style="font-size: 16px;">
+                                    <b>Why Choose Us ?</b>
+                                </font>
+                            </h2>
+                            <p style="text-align: center; ">
+                                <font class="text-beta" style="font-size: 40px;">
+                                    <b>We Provide Best Services</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb16">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 class="img-fluid d-block mx-auto" alt="Image"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb16">
+                                    <img alt="image" class="sni-block-icon mb8"
+                                         src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <h3>
+                                        <font style="font-size: 18px;">
+                                            <b>Best Travel Agent</b>
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 16px;">Lorem Ipsum is simply dummy text
+                                            of the printing
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb16">
+                                    <img alt="image" class="sni-block-icon mb8"
+                                         src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <h3>
+                                        <font style="font-size: 18px;">
+                                            <b>Private Guide</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 16px;">Lorem Ipsum is simply dummy text
+                                            of the printing
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb16">
+                                    <img alt="image" class="sni-block-icon mb8"
+                                         src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;">Special Activities</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 16px;">Lorem Ipsum is simply dummy text
+                                            of the printing
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb16">
+                                    <img alt="image" class="sni-block-icon mb8"
+                                         src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;">Best Price Guarantee</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 16px;">Lorem Ipsum is simply dummy text
+                                            of the printing
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Counter Start-->
+        <template id="tourist_counter" name="Tourist Counter">
+            <section class="pt64 pb64" id="counter_15"
+                     style="/* background-image: url(&quot;/business_snippet_blocks_core/static/src/img/common-images/counter-img1.jpg &quot;); */background-repeat: no-repeat;background-size: cover;background-attachment: fixed;position:relative;">
+                <div class="ec-common-overlay"
+                     style="/* background-color: rgba(0,0,0,0.44); */z-index:0;"/>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item text-white pt24 pb24">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="open_book" class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="font-size: 45px;">
+                                        <b>30650</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 16px;" class="text-gamma">
+                                        <b>Happy Tourist</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item text-white pt24 pb24">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="android" class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="font-size: 45px;">
+                                        <b>1521</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 16px;" class="text-gamma">
+                                        <b>Great Tours</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item text-white pt24 pb24">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="icon-1" class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="font-size: 45px;">
+                                        <b>1250</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <b>
+                                        <font style="font-size: 16px;" class="text-gamma">Tourist
+                                            Guide
+                                        </font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item  text-white pt24 pb24">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="unicorn" class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="font-size: 45px;">
+                                        <b>10856</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <b>
+                                        <font style="font-size: 16px;" class="text-gamma">Hours
+                                            Supported
+                                        </font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Tour Places Start-->
+        <template id="tourist_tour_places" name="Tourist Tour Places">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <b>
+                                    <font class="text-alpha" style="font-size: 16px;">Popular
+                                        Destination
+                                    </font>
+                                </b>
+                            </h2>
+                            <p>
+                                <font color="#333333">
+                                    <span style="font-size: 40px;">
+                                        <b>Top Places To Visit</b>
+                                    </span>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        <b>
+                                            <font style="font-size: 18px;" class="text-beta">Greece -
+                                            </font>
+                                            <font style="font-size: 18px;" class="text-beta">6 Night
+                                                Tour
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip592914"/>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip592914"
+                                           style="background-color: rgb(255, 255, 255); font-size: 0.875rem;">
+                                            Explore
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        <b>
+                                            <font style="font-size: 18px;" class="text-beta">Goa - 3
+                                            </font>
+                                            <font style="font-size: 18px;" class="text-beta">Night
+                                                Tour
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip592914"/>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip592914"
+                                           style="background-color: rgb(255, 255, 255); font-size: 0.875rem;">
+                                            Explore
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        <b>
+                                            <font style="font-size: 18px;" class="text-beta">Paris - 8
+                                                Night Tour
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip592914"/>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip592914"
+                                           style="background-color: rgb(255, 255, 255); font-size: 0.875rem;">
+                                            Explore
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        <b>
+                                            <font style="font-size: 18px;" class="text-beta">Bali - 7
+                                                Night Tour
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip592914"/>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip592914"
+                                           style="background-color: rgb(255, 255, 255); font-size: 0.875rem;">
+                                            Explore
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        <b>
+                                            <font style="font-size: 18px;" class="text-beta">Dubai - 5
+                                                Night Tour
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip592914"/>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip592914"
+                                           style="background-color: rgb(255, 255, 255); font-size: 0.875rem;">
+                                            Explore
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        <b>
+                                            <font style="font-size: 18px;" class="text-beta">Switzerland
+                                                - 12 Night Tour
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip592914"/>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip592914"
+                                           style="background-color: rgb(255, 255, 255); font-size: 0.875rem;">
+                                            Explore
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Tour Places End-->
+
+        <!--Snippet Pricing Start-->
+        <template id="tourist_pricing" name="Tourist Pricing">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 16px;" class="text-alpha">Tour Package
+                                    </font>
+                                </b>
+                            </h2>
+                            <p>
+                                <b>
+                                    <font class="text-beta" style="font-size: 40px;">Our Awesome Tour
+                                        <br/>Packages
+                                    </font>
+                                </b>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Australia</b>
+                                </font>
+                                <font style="font-size: 14px;">
+                                    <b>-</b>
+                                </font>
+                                <font style="font-size: 14px;">
+                                    <b>5 days / 4 night</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font class="text-alpha" style="font-size: 18px;">
+                                    <b>$250</b>
+                                </font>
+                            </p>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 16px;">Lorem ipsum dolor sit amet adipiscing
+                                    elit. In efficitur diam tellus Phasellus
+                                </font>
+                            </p>
+                            <a href="#" class="pt8 pb8 btn btn-alpha" data-original-title="" title=""
+                               aria-describedby="tooltip285719">
+                                <font style="font-size: 16px;">Book Now</font>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Canada&amp;nbsp;</b>
+                                </font>
+                                <font style="font-size: 14px;">
+                                    <b>-</b>
+                                </font>
+                                <font style="font-size: 14px;">
+                                    <b>5 days / 4 night</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font class="text-alpha" style="font-size: 18px;">
+                                    <b>$250</b>
+                                </font>
+                            </p>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 16px;">Lorem ipsum dolor sit amet adipiscing
+                                    elit. In efficitur diam tellus Phasellus
+                                </font>
+                            </p>
+                            <a href="#" class="pt8 pb8 btn btn-alpha" data-original-title="" title=""
+                               aria-describedby="tooltip285719">
+                                <font style="font-size: 16px;">Book Now</font>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Japan&amp;nbsp;</b>
+                                </font>
+                                <font style="font-size: 14px;">
+                                    <b>-</b>
+                                </font>
+                                <font style="font-size: 14px;">
+                                    <b>5 days / 4 night</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font class="text-alpha" style="font-size: 18px;">
+                                    <b>$250</b>
+                                </font>
+                            </p>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 16px;">Lorem ipsum dolor sit amet adipiscing
+                                    elit. In efficitur diam tellus Phasellus
+                                </font>
+                            </p>
+                            <a href="#" class="pt8 pb8 btn btn-alpha" data-original-title="" title=""
+                               aria-describedby="tooltip285719">
+                                <font style="font-size: 16px;">Book Now</font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Pricing End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="tourist_brand_logo" name="Tourist Brand Logo">
+            <section class="pt24 pb24">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tourist_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="tourist_gallery" name="Tourist Gallery">
+            <section class="sni-block pt64 pb64">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <font style="font-size: 16px;" class="text-alpha">
+                                    <b>From Gallery</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <b>
+                                    <font style="font-size: 40px;" class="text-beta">Let's See Our<br/>Tour Gallery
+                                    </font>
+                                </b>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 img-box pad0">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip368052"/>
+                                <div class="bg-black-25 overlay">
+                                    <div class="img-text text-dark">
+                                        <font class="text-delta" style="">Malaysia</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 img-box pad0">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip601133"
+                                     style=""/>
+                                <div class="overlay bg-black-25">
+                                    <div class="img-text">
+                                        <font class="text-delta" style="">Spain</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 img-box pad0">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip375093"/>
+                                <div class="overlay bg-black-25">
+                                    <div class="img-text">
+                                        <font class="text-delta" style="">Canada</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 img-box pad0">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip375093"/>
+                                <div class="overlay bg-black-25">
+                                    <div class="img-text">
+                                        <font class="text-delta" style="">India</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Blog Start-->
+        <template id="tourist_blog" name="Tourist Blog">
+            <section class="pt64 pb64" id="news_one">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 16px;" class="text-alpha">Latest Post</font>
+                                </b>
+                            </h2>
+                            <p>
+                                <b>
+                                    <font style="font-size: 40px;" class="text-beta">Our Latest Posts
+                                        <br/>For Tourists
+                                    </font>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip314667"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title=""
+                                           aria-describedby="tooltip759700">
+                                            <font class="text-beta" style="font-size: 18px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip758846">Top 5 Key Figures Of
+                                                International Tourism
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-list-alt text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip344684" style=""/>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip518472">
+                                                <font class="text-gamma" style="">21 June 2019</font>
+                                            </a>
+                                        </span>
+                                        <i class="fa fa-comments text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip235730" style=""/>
+                                        <a href="#" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip132044">
+                                            <font class="text-gamma" style="">2 Comments</font>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip314667"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title=""
+                                           aria-describedby="tooltip778594">
+                                            <font class="text-beta" style="font-size: 18px;">The Most
+                                                Valued Services By Hotels' Guests
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-list-alt text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip344684" style=""/>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip685794">
+                                                <font class="text-gamma" style="">21 June 2019</font>
+                                            </a>
+                                        </span>
+                                        <i class="fa fa-comments text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip687047" style=""/>
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">2 Comments</font>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_tourist_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip314667"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title=""
+                                           aria-describedby="tooltip444842">
+                                            <font class="text-beta" style="font-size: 18px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip631202">Top 10 Most
+                                                Sustainable Cities In The World
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-list-alt text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip344684" style=""/>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip831137">
+                                                <font class="text-gamma" style="">21 June 2019</font>
+                                            </a>
+                                        </span>
+                                        <i class="fa fa-comments text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip978773" style=""/>
+                                        <a href="#" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip600870">
+                                            <font class="text-gamma" style="">2 Comments</font>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="tourist_testimonial" name="Tourist Testimonial">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_tourist_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2 class="o_default_snippet_text">
+                                <b>
+                                    <font style="font-size: 16px;" class="text-alpha">Testimonials
+                                    </font>
+                                </b>
+                            </h2>
+                            <p>
+                                <font class="text-delta" style="font-size: 40px;">
+                                    <b>What Our Clients Say<br/>About Us
+                                    </b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <p class="o_default_snippet_text">
+                                <font class="text-delta" style="font-size: 16px;">Lorem ipsum dolor sit
+                                    amet consectetur adipiscing elit. Praesent bibendum dolor eros
+                                    imperdiet amet hendrerit
+                                </font>
+                            </p>
+                            <img class="img-fluid o_we_custom_image rounded-circle mb8 mt8"
+                                 src="/theme_tourist_ultimate_01/static/src/img/placeholder-user1.png"/>
+                            <h3>
+                                <font class="text-delta" style="font-size: 18px;">
+                                    <b>Jennifer Martinez</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font class="text-delta" style="">
+                                    <b>Tourist</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <p class="o_default_snippet_text">
+                                <font class="text-delta" style="font-size: 16px;">Lorem ipsum dolor sit
+                                    amet consectetur adipiscing elit. Praesent bibendum dolor eros
+                                    imperdiet amet hendrerit
+                                </font>
+                            </p>
+                            <img class="img-fluid o_we_custom_image rounded-circle mb8 mt8"
+                                 src="/theme_tourist_ultimate_01/static/src/img/placeholder-user1.png"/>
+                            <h3>
+                                <font class="text-delta" style="font-size: 18px;">
+                                    <b>James Parron</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font class="text-delta" style="">
+                                    <b>Tourist</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <p class="o_default_snippet_text">
+                                <font class="text-delta" style="font-size: 16px;">Lorem ipsum dolor sit
+                                    amet consectetur adipiscing elit. Praesent bibendum dolor eros
+                                    imperdiet amet hendrerit
+                                </font>
+                            </p>
+                            <img class="img-fluid o_we_custom_image rounded-circle mb8 mt8"
+                                 src="/theme_tourist_ultimate_01/static/src/img/placeholder-user1.png"/>
+                            <h3>
+                                <font class="text-delta" style="font-size: 18px;">
+                                    <b>Federick Gordon</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font class="text-delta" style="">
+                                    <b>Tourist</b>
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="tourist_contact_us" name="Tourist Contact Us">
+            <section class="py-5 contact_us_3 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title mb-5" data-name="Title">
+                            <h1 class="s_title_thin o_default_snippet_text text-center"
+                                style="text-align: left; ">
+                                <b>
+                                    <font class="text-alpha" style="font-size: 16px;">
+                                        <b>Contact Us</b>
+                                    </font>
+                                </b>
+                            </h1>
+                            <p style="text-align: center; ">
+                                <b>
+                                    <font class="text-beta" style="font-size: 40px;">Get In Touch With
+                                        Us
+                                    </font>
+                                </b>
+                            </p>
+                        </div>
+                        <div class="col-lg-7 s_text pb16" data-name="Text" style="">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you"
+                                  class="s_website_form container-fluid" enctype="multipart/form-data"
+                                  data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="col-md-6 form-field form-group o_website_form_required_custom o_has_error"
+                                         style="">
+                                        <input type="text"
+                                               class="bg-100 form-control o_website_form_input"
+                                               name="contact_name" placeholder="Your Name" required=""
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <input type="text"
+                                               class="bg-100 form-control o_website_form_input"
+                                               name="email_from" required="" placeholder="Email"
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-md-12 o_has_error">
+                                        <input type="text"
+                                               class="bg-100 form-control o_website_form_input"
+                                               name="name" required="" placeholder="Subject" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12 o_has_error">
+                                        <textarea class="bg-100 form-control o_website_form_input"
+                                                  name="description" required=""
+                                                  placeholder="Your Question" rows="5"/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-left" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-lg btn-primary flat o_website_form_send w-auto"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip352863">
+                                                <b>
+                                                    <font style="font-size: 12px;">Send Message</font>
+                                                </b>
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="contact-page-side-content bg-100">
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <b>
+                                            <i class="fa fa-fax text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip295547"
+                                               style="font-size: 18px;"/>
+                                            <font style="font-size: 18px;">
+                                                Address
+                                                &amp;nbsp;
+                                            </font>
+                                        </b>
+                                    </h4>
+                                    <span t-field="res_company.street"/>
+                                    <span t-field="res_company.city"/>
+                                    <span t-field="res_company.state_id.name"/>
+                                    <span t-field="res_company.zip"/>
+                                    <span t-field="res_company.country_id.name"/>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <b>
+                                            <i class="fa fa-phone text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip485261"
+                                               style="font-size: 18px;"/>
+                                            <font style="font-size: 18px;">
+                                                Phone
+                                                &amp;nbsp;
+                                            </font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <span t-field="res_company.phone"/>
+                                    </p>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <b>
+                                            <i class="fa fa-envelope-o text-alpha"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip285256"
+                                               style="font-size: 18px;"/>
+                                            <font style="font-size: 18px;">
+                                                Email Address
+                                                &amp;nbsp;
+                                            </font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <span t-field="res_company.email"/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Footer Start-->
+        <template id="tourist_footer" name="Tourist Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64" id="footer_9">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pb16">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid mb8"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.&amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pb16">
+                                <h5 class="mb16">
+                                    <font class="text-beta" style="font-size: 22px;">
+                                        <b>Quick Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip41692">
+                                            <font class="text-gamma" style="font-size: 16px;">Home</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip839769">
+                                            <font class="text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip844204">Services
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip239485">
+                                            <font class="text-gamma" style="font-size: 16px;">Privacy &amp;amp;
+                                                Policy
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip375279">
+                                            <font class="text-gamma" style="font-size: 16px;">Blog</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip522122">
+                                            <font class="text-gamma" style="font-size: 16px;">Contact Us</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pb16">
+                                <h5 class="mb16">
+                                    <b>
+                                        <font style="font-size: 22px;">About Us</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip407175">Our Story
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="font-size: 16px;">Blog Post</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip332154">Our Services
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip249794">Tour Guide
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip407175">Our Partners
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pb16">
+                                <h5 class="mb16">
+                                    <font style="font-size: 22px;">
+                                        <b>Support</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip397591">Privacy Policy
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="font-size: 16px;">Customer Support
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="font-size: 16px;">Terms &amp;amp;
+                                                Condition
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="font-size: 16px;">Forum</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip975318">Tour Guide
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Tourist Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_banner"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_features"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_services"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_counter"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_tour_places"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_pricing"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_brand_logo"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_gallery"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_blog"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_testimonial"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_contact_us"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tourist_ultimate_01.tourist_footer"
+                           t-thumbnail="/theme_tourist_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

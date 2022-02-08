@@ -1,0 +1,770 @@
+<odoo>
+    <data>
+        <!--Banner Snippets start-->
+        <template id="yoga_banner" name="Yoga Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_yoga_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 48px; text-align: center;">
+                                <b>Maditation For a Happy Life</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white" style="text-align: center;">Write one or two
+                                paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="btn btn-delta btn-lg mb8 flat" data-original-title=""
+                               title="" aria-describedby="tooltip222891">LEARN MORE
+                            </a>
+                            <a href="/contactus" class="btn btn-primary flat mb8 btn-lg"
+                               data-original-title="" title="">Contact us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Banner Snippets End-->
+
+        <!--Services Snippets start-->
+        <template id="yoga_services" name="Yoga Services">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row text-center pt64">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x pe-7s-note2 fa-500px" style=""
+                                       data-original-title="" title="" aria-describedby="tooltip48759"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 18px;">
+                                            <b>Strong Body Life</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x fa-life-ring pe-7s-piggy fa-500px"
+                                       data-original-title="" title="" aria-describedby="tooltip704233"
+                                       style=""/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <b>&amp;nbsp;Increased Flexibility</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x pe-7s-cash fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip55651" style=""/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <b>&amp;nbsp;Healty Lifestyle</b>
+                                        </font>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x pe-7s-film fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip370826" style=""/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 18px;">
+                                            <b>Drops Blood Pressure</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Services Snippets End-->
+
+        <!--Classes Snippets start-->
+        <template id="yoga_classes" name="Yoga Classes">
+            <section class="pt64 pb0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold">SOME OF OUR CLASSES</h2>
+                            <div class="mt24 col-12 col-sm-12 col-md-12 col-lg-12"/>
+                            <p>
+                                <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.l
+                                </span>
+                                <span style="font-size: 0.875rem;">orem ipsum</span>
+                                <br/>
+                                <span style="font-size: 0.875rem;">dolor sit amet,</span>
+                                <span style="font-size: 0.875rem;">consectetur adipiscing elit. Ut at
+                                    semper metus.
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt0">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-8 col-md-4 col-lg-4 mb16">
+                            <img alt="image" class="img-fluid mb16"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>&amp;nbsp;Improves Body Posture</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industryLorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-4 col-lg-4 mb16">
+                            <img alt="image" class="img-fluid mb16"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                            <h3>
+                                <span style="font-size: 18px;">
+                                    <b>Better Energy Flow</b>
+                                </span>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industryLorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-4 col-lg-4 mb16">
+                            <img alt="image" class="img-fluid mb16"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                            <h3>
+                                <span style="font-size: 18px;">
+                                    <b>Increased Body Awerness</b>
+                                </span>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industryLorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Classes Snippets End-->
+        <!--Left Content Snippets start-->
+        <template id="yoga_left_content" name="Yoga Left Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_yoga_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row justify-content-left">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 right bg-light text-center pt64 pb64">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 24px;">BETTER LIFE WITH PERFECT BODY</font>
+                                </b>
+                            </h2>
+                            <p class="pt32 pb32 px-5 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Pellentesque fermentum est in tortor congue
+                                suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                egestas.
+                            </p>
+                            <a href="#" class="text-decoration-none mt64 mb64 o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip467136">Lern
+                                More
+                                <i class="fa fa-chevron-right"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Left Contnet Snippets End-->
+
+        <!--Counter Snippets start-->
+        <template id="yoga_counter" name="Yoga Counter">
+            <section class="pt64 pb64" id="counter_10" style="background-color: rgb(241, 245, 248);">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <h2>70+</h2>
+                                <h4>
+                                    <span style="font-size: 18px;">Out Trainers</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <h2>900+</h2>
+                                <h4>
+                                    <font style="font-size: 18px;">&amp;nbsp;Happy Member</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <h2>400+</h2>
+                                <h4>
+                                    <font style="font-size: 18px;">&amp;nbsp;Monthly Classes</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <h2>700+</h2>
+                                <h4>
+                                    <font style="font-size: 18px;">Win Awords</font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Counter Snippets End-->
+        <!--Testimonial Snippets start-->
+        <template id="yoga_testimonial" name="Yoga Testimonial">
+            <section class="pt64 pb64 bg-200 oe_img_bg oe_custom_bg z_index_minus" id="testimonials_d1"
+                     style="background-image: url(&quot;/theme_yoga_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="text-white">
+                                <b>OUR CLIENT SAY</b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1564144054526"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1564144054526" data-slide-to="0"/>
+                        <li data-target="#myCarousel1564144054526" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1564144054526" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1564144054526"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1564144054526"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Testimonial Snippets End-->
+
+        <!--Gallery Snippets start-->
+        <template id="yoga_gallery" name="Yoga Gallery">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <b>PHOTO GALLERY</b>
+                            </h2>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip777298"/>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip777298"/>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip777298"/>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip777298"/>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_yoga_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Gallery Snippets End-->
+
+        <!--Price Snippets start-->
+        <template id="yoga_price" name="Yoga Price">
+            <section class="pricing_1 pt64 pb64" id="bs_price_table" style="">
+                <div class="container">
+                    <div>
+                        <div class="row">
+                            <div class=" col-12 col-sm-12 col-lg-12 col-md-12 pb48 text-center">
+                                <h2>
+                                    <b>YOGA PRICING PLAN</b>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                                <div class="bs_content clearfix">
+                                    <div class="bs_head_price clearfix">
+                                        <div class="bs_head_content clearfix">
+                                            <div class="head_bg"/>
+                                            <div class="head">
+                                                <font style="font-size: 18px;">Basic MEMBER</font>
+                                            </div>
+                                        </div>
+                                        <div class="bs_price_tag clearfix">
+                                            <span class="price"><span class="sign">$</span>&amp;nbsp;
+                                                <font color="#414141">
+                                                    <span style="font-size: 60px; letter-spacing: -2px;">
+                                                        99
+                                                    </span>
+                                                </font>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_feature_list">
+                                        <ul>
+                                            <li>Onetime Access To All Club</li>
+                                            <li>Group Trainer</li>
+                                            <li>Customers Support</li>
+                                            <li>Book A Group Class</li>
+                                            <li>Fitness Orientation</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bs_price_btn clearfix">
+                                        <a class="btn btn-alpha flat" href="/" data-original-title=""
+                                           title="">
+                                            <font style="color: rgb(255, 255, 255);">BUY NOW</font>
+                                            <br/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                                <div class="bs_content active clearfix">
+                                    <div class="bs_head_price clearfix">
+                                        <div class="bs_head_content clearfix">
+                                            <div class="head_bg"/>
+                                            <div class="head">
+                                                <font style="font-size: 18px;">V.I.P MEMBER</font>
+                                            </div>
+                                        </div>
+                                        <div class="bs_price_tag clearfix">
+                                            <span class="price">
+                                                <font color="#414141">
+                                                    <span style="font-size: 28px;">$</span>
+                                                </font>
+                                                <span style="font-size: 60px; letter-spacing: -2px;">
+                                                    199
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_feature_list">
+                                        <ul>
+                                            <li>Onetime Access To All Club</li>
+                                            <li>Group Trainer</li>
+                                            <li>Customers Support</li>
+                                            <li>Book A Group Class</li>
+                                            <li style="background-color: rgb(228, 228, 228); border-left: 5px solid rgb(235, 66, 94);">
+                                                Fitness Orientation
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="bs_price_btn clearfix">
+                                        <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                              title="" aria-describedby="tooltip542971"><a
+                                                class="btn btn-alpha flat text-center" href="/"
+                                                data-original-title="" title="" style="">BUY NOW</a>OW
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                                <div class="bs_content clearfix">
+                                    <div class="bs_head_price clearfix">
+                                        <div class="bs_head_content clearfix">
+                                            <div class="head_bg"/>
+                                            <div class="head">
+                                                <font style="font-size: 18px;">PREMIUM MEMBER</font>
+                                            </div>
+                                        </div>
+                                        <div class="bs_price_tag clearfix">
+                                            <span class="price"><span class="sign">$</span>&amp;nbsp;
+                                                <font color="#414141">
+                                                    <span style="font-size: 60px; letter-spacing: -2px;">
+                                                        299
+                                                    </span>
+                                                </font>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_feature_list">
+                                        <ul>
+                                            <li>Onetime Access To All Club</li>
+                                            <li>Group Trainer</li>
+                                            <li>Customers Support</li>
+                                            <li>Book A Group Class</li>
+                                            <li>Fitness Orientation</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bs_price_btn clearfix">
+                                        <a class="btn btn-alpha flat" href="/" data-original-title=""
+                                           title="">
+                                            <font style="color: rgb(255, 255, 255);">BUY NOW</font>
+                                            <br/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Price Snippets End-->
+
+        <!--Footer Snippets start-->
+        <template id="yoga_footer" name="Yoga Footer">
+            <section class="oe_structure" id="footer">
+                <div class="oe_custom_bg pt0" id="footer_9" style="">
+                    <div class="container">
+                        <div class="row pt64">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 pb16">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2" style="color: rgb(255, 255, 255);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter px-2" style="color: rgb(255, 255, 255);"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google plus px-2"
+                                           style="color: rgb(255, 255, 255);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin px-2" style="color: rgb(255, 255, 255);"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 separator pb32">
+                                <h5 class="font-weight-bold">
+                                    <font style="color: rgb(255, 255, 255); font-weight: normal;">LETEST&amp;nbsp;
+                                        POST
+                                    </font>
+                                </h5>
+                                <div class="media pt16">
+                                    <img src="/theme_yoga_ultimate_01/static/src/img/placeholder-90.png"
+                                         class="align-self-start mr-3"
+                                         data-original-title="" title="" aria-describedby="tooltip574976"/>
+                                    <div class="media-body">
+                                        <h6 class="font-weight-bold mb0">
+                                            <span style="font-weight: normal;">
+                                                <a href="#" target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);"
+                                                          data-original-title="" title=""
+                                                          aria-describedby="tooltip297800">Why Yoga
+                                                        Appropriate
+                                                        <br/>
+                                                        Everyone?
+                                                    </font>
+                                                </a>
+                                            </span>
+                                        </h6>
+
+                                        <h6 class="o_default_snippet_text">
+                                            <i class="fa fa-clock-o" style="color: rgb(255, 255, 255);"/>
+                                            <font style="color: rgb(255, 255, 255);">NOV 12,
+                                                2019&amp;nbsp;
+                                            </font>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="media pt16">
+                                    <img src="/theme_yoga_ultimate_01/static/src/img/placeholder-90.png"
+                                         class="align-self-start mr-3"/>
+                                    <div class="media-body">
+                                        <h6 class="font-weight-bold mb0">
+                                            <span style="font-weight: normal;">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font style="color: rgb(255, 255, 255);">Best Exercise
+                                                        for Yoga
+                                                    </font>
+                                                </a>
+                                            </span>
+                                        </h6>
+
+                                        <h6 class="o_default_snippet_text">
+                                            <i class="fa fa-clock-o" style="color: rgb(255, 255, 255);"/>
+                                            <font style="color: rgb(255, 255, 255);">NOV 12,
+                                                2019&amp;nbsp;
+                                            </font>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 pb16">
+                                <h5 class="mb16">
+                                    <font style="color: rgb(255, 255, 255);">OUR FEATURES</font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Group Lessons</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Yoga Expert Trainer
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Biginners Yoga</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Yoga for Coupples
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Free Tips</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Yoga Berrs</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-2 pb16">
+                                <h5 class="mb16">
+                                    <font style="color: rgb(255, 255, 255);">NEED HELP</font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Contact Us</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Our Blog</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Fitness Help Desk
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Yoga Fitness Status
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">FAQs</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Yoga Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_banner"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_services"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_classes"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_left_content"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_counter"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_testimonial"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_gallery"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_price"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ultimate_01.yoga_footer"
+                           t-thumbnail="/theme_yoga_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+
+    </data>
+</odoo>

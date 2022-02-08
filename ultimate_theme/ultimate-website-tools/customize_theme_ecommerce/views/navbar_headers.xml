@@ -1,0 +1,211 @@
+<odoo>
+    <template id="frontend_layout_inherit_ecommerce"
+              inherit_id="customize_theme_business.frontend_layout_inherit">
+
+        <!--Add To Cart And Wishlist Menu-->
+        <xpath expr="//div[hasclass('user-details')]/ul/li[@id='my_cart']"
+               position="inside">
+            <li class="list-inline-item" id="my_cart">
+                <t t-set="website_sale_order"
+                   t-value="website.sale_get_order()"/>
+                <a href="/shop/cart" class="nav-link pb-0">
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                    <sup t-attf-class="my_cart_quantity badge badge-primary"
+                         t-esc="website_sale_order and website_sale_order.cart_quantity or ''"/>
+                </a>
+            </li>
+
+        </xpath>
+
+        <xpath expr="//div[hasclass('user-details')]/ul/li[@id='cust_wish']"
+               position="inside">
+            <li class="list-inline-item">
+                <t t-if="request.env.ref('website_sale_wishlist.add_to_wishlist').active">
+                    <t t-set='wishcount'
+                       t-value="len(request.env['product.wishlist'].current())"/>
+                    <span id="my_wish" class="nav-item d-block">
+                        <a href="/shop/wishlist" class="nav-link pb-0">
+                            <i class="fa fa-heart fa-2x"/>
+                            <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary">
+                                <t t-esc='wishcount'/>
+                            </sup>
+                        </a>
+                    </span>
+                </t>
+            </li>
+        </xpath>
+
+        <!--Price List Option-->
+        <xpath expr="//li[@id='pricelist_custom']" position="inside">
+            <t t-set="website_sale_pricelists"
+               t-value="website.get_pricelist_available(show_visible=True)"/>
+            <div t-attf-class="dropdown#{'' if website_sale_pricelists and len(website_sale_pricelists)&gt;1 else ' d-none'} #{_classes}">
+                <t t-set="curr_pl" t-value="website.get_current_pricelist()"/>
+                <a role="button" href="#"
+                   class="dropdown-toggle btn btn-link text-white"
+                   data-toggle="dropdown">
+                    <t t-esc="curr_pl and curr_pl.name or ' - '"/>
+                </a>
+                <div class="dropdown-menu" role="menu">
+                    <t t-foreach="website_sale_pricelists" t-as="pl">
+                        <a role="menuitem"
+                           t-att-href="'/shop/change_pricelist/%s' % pl.id"
+                           class="dropdown-item">
+                            <span class="switcher_pricelist"
+                                  t-att-data-pl_id="pl.id"
+                                  t-esc="pl.name"/>
+                        </a>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+        <!--Mid Header Bottom -->
+        <xpath expr="//section[@id='mid_header_top']" position="after">
+            <section id="mid_header_bottom">
+                <div class="container">
+                    <div class="row mt-4 mb-4">
+                        <div class="col-12 oe_structure col-lg-4 col-sm-4"
+                             id="mid-header-bottom-left">
+                            <div class="search_left mt-2">
+                                <t t-if="category">
+                                    <form
+                                            t-att-action="keep('/shop'+ ('/category/'+slug(category)) if category else '', search=0)"
+                                            method="get"
+                                            t-att-class="search_class">
+
+                                        <t t-if="attrib_values">
+                                            <t t-foreach="attrib_values"
+                                               t-as="a">
+                                                <input type="hidden"
+                                                       name="attrib"
+                                                       t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                            </t>
+                                        </t>
+                                        <t t-call="website.website_search_box"/>
+                                    </form>
+                                </t>
+                                <t t-if="not category">
+                                    <form action="/shop" method="get"
+                                          t-att-class="search_class">
+
+                                        <t t-if="attrib_values">
+                                            <t t-foreach="attrib_values"
+                                               t-as="a">
+                                                <input type="hidden"
+                                                       name="attrib"
+                                                       t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                            </t>
+                                        </t>
+                                        <t t-call="website.website_search_box"/>
+                                    </form>
+                                </t>
+                            </div>
+                            <div class="col-lg-12 mt-8 mb-8 text-center logo_mid_left">
+                                <a href="/" class="img-fluid">
+                                    <img src="/logo.png"
+                                         t-att-alt="'Logo of %s' % res_company.name"
+                                         t-att-title="res_company.name"/>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-12 oe_structure col-lg-4 col-sm-4"
+                             id="mid-header-bottom-center">
+                            <div class="col-lg-12 mt-8 mb-8 text-center logo_mid_center">
+                                <a href="/" class="img-fluid">
+                                    <img src="/logo.png"
+                                         t-att-alt="'Logo of %s' % res_company.name"
+                                         t-att-title="res_company.name"/>
+                                </a>
+                            </div>
+                            <div class="search_center mt-2">
+                                <t t-if="category">
+                                    <form t-att-action="keep('/shop'+ ('/category/'+slug(category)) if category else '', search=0)"
+                                          method="get"
+                                          t-att-class="search_class">
+
+                                        <t t-if="attrib_values">
+                                            <t t-foreach="attrib_values"
+                                               t-as="a">
+                                                <input type="hidden"
+                                                       name="attrib"
+                                                       t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                            </t>
+                                        </t>
+                                        <t t-call="website.website_search_box"/>
+                                    </form>
+                                </t>
+                                <t t-if="not category">
+                                    <form action="/shop" method="get"
+                                          t-att-class="search_class">
+
+                                        <t t-if="attrib_values">
+                                            <t t-foreach="attrib_values"
+                                               t-as="a">
+                                                <input type="hidden"
+                                                       name="attrib"
+                                                       t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                            </t>
+                                        </t>
+                                        <t t-call="website.website_search_box"/>
+                                    </form>
+                                </t>
+                            </div>
+
+                        </div>
+                        <div class="col-12 oe_structure col-lg-4 col-sm-4"
+                             id="mid-header-bottom-right">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+    <template id="mid_header_bottom_right"
+              inherit_id="customize_theme_ecommerce.frontend_layout_inherit_ecommerce"
+            name="Mid Header Bottom">
+        <xpath expr="//div[@id='mid-header-bottom-right']" position="inside">
+                <div class="text-right">
+                    <span class="mid-bottom-wish"/>
+                    <span class="mid-bottom-add-to-cart"/>
+                </div>
+        </xpath>
+    </template>
+    <template
+            id="mid_header_bottom_right_cart_inherit"
+            inherit_id="customize_theme_ecommerce.mid_header_bottom_right"
+            active="True"
+            name="Mid Header Bottom Add to Cart" customize_show="True">
+        <xpath expr="//span[hasclass('mid-bottom-add-to-cart')]"
+               position="replace">
+            <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+            <span id="my_cart" class="nav-item d-inline-block">
+                <a href="/shop/cart" class="nav-link">
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                    <sup t-attf-class="my_cart_quantity badge badge-primary"
+                         t-esc="website_sale_order and website_sale_order.cart_quantity or ''"/>
+                </a>
+            </span>
+        </xpath>
+    </template>
+    <template
+            id="mid_header_bottom_right_wish_inherit"
+            inherit_id="customize_theme_ecommerce.mid_header_bottom_right"
+            active="True"
+            name="Mid Header Bottom Wish List" customize_show="True">
+        <xpath expr="//span[hasclass('mid-bottom-wish')]" position="replace">
+            <t t-if="request.env.ref('website_sale_wishlist.add_to_wishlist').active">
+                <t t-set='wishcount'
+                   t-value="len(request.env['product.wishlist'].current())"/>
+                <span id="my_wish" class="nav-item d-inline-block">
+                    <a href="/shop/wishlist" class="nav-link">
+                        <i class="fa fa-heart fa-2x"/>
+                        <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary">
+                            <t t-esc='wishcount'/>
+                        </sup>
+                    </a>
+                </span>
+            </t>
+        </xpath>
+    </template>
+</odoo>

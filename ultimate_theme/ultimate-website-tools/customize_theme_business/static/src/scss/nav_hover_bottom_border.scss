@@ -1,0 +1,42 @@
+#top_menu{
+    li{
+        a{
+            //color: theme-color('alpha');
+            border-bottom: 4px solid transparent;
+
+            &:hover,&.active{
+                border-bottom: 4px solid theme-color('alpha');
+            }
+        }
+
+        &.active{
+             a{
+                border-bottom: 4px solid theme-color('alpha');
+             }
+
+        }
+
+
+        .dropdown-menu{
+            background-color: #fff;
+            border-top: 3px solid theme-color('alpha');
+        }
+
+        &.divider{
+           height: auto;
+        }
+    }
+
+    li.show{
+        .dropdown-menu{
+            a{
+                 border-bottom:none;
+                 padding: 10px 16px;
+            }
+        }
+    }
+
+
+}
+
+

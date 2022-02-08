@@ -1,0 +1,775 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner start-->
+        <template id="painter_banner" name="Painter Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_painter_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <b>
+                                    <font style="font-size: 48px;">We Bring Your Home to Your</font>
+                                </b>
+                            </h1>
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <b>
+                                    <font style="font-size: 48px;">Dream Color</font>
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="s_text pt16 pb16 offset-lg-1 col-lg-10" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">
+                                <b>
+                                    <i>
+                                        <font style="font-size: 18px;">Write one or two paragraphs describing your
+                                            product, services or a specific feature.&amp;nbsp;
+                                        </font>
+                                        <font style="font-size: 18px;">&amp;nbsp;To be successful your content needs to
+                                            be useful to your readers.
+                                        </font>
+                                    </i>
+                                </b>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="mb8 mt8 btn btn-alpha bg-white flat btn-lg" data-original-title=""
+                               title="">
+                                <font style="color: rgb(0, 0, 0);">About us</font>
+                            </a>
+                            <a href="/contactus" class="mb8 mt8 btn btn-beta flat btn-lg" data-original-title=""
+                               title="" aria-describedby="tooltip261698">Contact us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Overlay start-->
+        <template id="painter_overlay" name="Painter Overlay">
+            <section class="pt64 pb64 s_overlay_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <div class="row pt48">
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-12 text-center pb0">
+                                    <div class="p-5 shadow bg-white">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                        <h3 class="pt16 pb8">
+                                            <b>Residential Painting</b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                                mattis leo ullamcorper sed.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-12 text-center pb0">
+                                    <div class="p-5 shadow bg-white">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                        <h3 class="pb16 pt8">
+                                            <b>WaterProof Painting</b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequat.
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-12 text-center pb0">
+                                    <div class="p-5 shadow bg-white">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                        <h3 class="pt16 pb8">
+                                            <b>Faux Finishes</b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                                mattis leo ullamcorper sed.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Overlay End-->
+
+        <!--Snippet About Us start-->
+        <template id="painter_about_us" name="Painter About Us">
+            <section class="pb64 bg-beta oe_img_bg oe_custom_bg pt136 pb168"
+                     style="background-image: url(&quot;/theme_painter_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6  plr-0">
+                            <img src="/theme_painter_ultimate_01/static/src/img/placeholder-570x455.png" alt="Image" class="img-fluid  mx-auto d-block"
+                                 data-original-title="" title="" aria-describedby="tooltip26605"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 pt88 pb88 bg-white p-5 shadow ">
+                            <p>
+                                <font class="text-alpha" style="font-size: 18px;">
+                                    <b class="o_default_snippet_text">ABOUT US</b>
+                                </font>
+                            </p>
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;" class="o_default_snippet_text">Why Choose Us?</font>
+                                </b>
+                            </h2>
+                            <p>
+                                <font style="font-size: 18px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit.
+                                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis…&amp;nbsp;
+                                </font>
+                            </p>
+                            <p class="mt48">
+                                <a href="#" class="btn btn-alpha flat btn-lg">
+                                    <b>
+                                        <font style="font-size: 14px;" class="o_default_snippet_text">READ MORE</font>
+                                    </b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Project start-->
+        <template id="painter_project" name="Painter Project">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <p style="text-align: left; ">
+                                <b>
+                                    <font style="font-size: 18px;" class="text-alpha">RECENT WORK</font>
+                                </b>
+                            </p>
+                            <h2 style="text-align: left;">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 36px;">Our Painting Projects</font>
+                                </span>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>Family Room Painting</b>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>Kitchen Painting</b>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>Bedroom Painting</b>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>Master Bedroom Painting</b>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>Residential Exterior</b>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>Wooden Solutions</b>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-12 text-right mt32">
+                            <p>
+                                <a href="#" class="btn btn-alpha btn-lg flat" data-original-title="" title=""
+                                   aria-describedby="tooltip625177">VIEW&amp;nbsp; MORE
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Project End-->
+
+        <!--Snippet Testimonial start-->
+        <template id="painter_testimonial" name="Painter Testimonial">
+            <section class="pt120 pb136 bg-alpha oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_painter_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">What</font>
+                                    <font style="font-size: 36px;" class="text-alpha">People</font>
+                                    <font style="font-size: 36px;">Say About Us</font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1572503420784" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1572503420784" data-slide-to="0"/>
+                        <li data-target="#myCarousel1572503420784" data-slide-to="1" class="active"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <img class="img d-block mx-auto"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-user.png"
+                                             alt="" data-original-title="" title="" aria-describedby="tooltip676014"/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(0, 0, 0); font-size: 24px;">
+                                                <i>
+                                                    <b>Write a quote here from one of your customers. Quotes are a great
+                                                        way to build confidence in your products or services. &amp;nbsp;
+                                                    </b>
+                                                </i>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <span>
+                                                <font style="color: rgb(0, 0, 0); font-size: 18px;">&amp;nbsp;Alexa
+                                                    Smith, Marketing Expert
+                                                </font>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <img class="img d-block mx-auto"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-user.png"
+                                             alt="" data-original-title="" title="" aria-describedby="tooltip676014"/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(0, 0, 0); font-size: 24px;">
+                                                <b>
+                                                    <i>Write a quote here from one of your customers. Quotes are a great
+                                                        way to build confidence in your products or services. &amp;nbsp;
+                                                    </i>
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <span>
+                                                <font style="color: rgb(0, 0, 0); font-size: 18px;">&amp;nbsp;Jane DOE,
+                                                    Manager
+                                                </font>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1572503420784" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1572503420784" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Service start-->
+        <template id="painter_service" name="Painter Service">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <b>
+                                    <font style="font-size: 36px;">What We</font>
+                                    <font style="font-size: 36px;" class="text-alpha">Do</font>
+                                </b>
+                            </h2>
+                            <p class="text-center o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing.
+                            </p>
+                            <div class="row pt48 align-items-center">
+                                <div class="col-12 col-sm-4 col-md-6 col-lg-6 text-right">
+                                    <div class="col-12 col-lg-12 col-md-12 col-sm-12 p-5 shadow mb32">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                        <h3 class="pb8 pt8">
+                                            <b>Residential Painting</b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                                mattis leo ullamcorper sed.
+                                            </font>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 shadow p-5">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                        <h3 class="pt8 pb8">
+                                            <b>Eco Xpress Painting</b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                                mattis leo ullamcorper sed.
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-6 col-lg-6 text-left">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 shadow p-5 mb32 ">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                        <h3 class="pt8 pb8">
+                                            <b>Flooring Issue</b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                                mattis leo ullamcorper sed.
+                                            </font>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-12 col-md-12 col-sm-12 p-5 shadow">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_painter_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                        <h3 class="pt8 pb8">
+                                            <b>Mildew Removal</b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                                mattis leo ullamcorper sed.
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Contact start-->
+        <template id="painter_contact" name="Painter Contact">
+            <section class="s_banner parallax s_parallax_is_fixed pt64 pb64 bg-black-25"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_painter_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="jumbotron pt32 pb32 col-lg-6 col-md-6 rounded" data-name="Box"></div>
+                        <div class="col-lg-6 col-md-6 s_text pb16 pt64 pb64 bg-beta" data-name="Text">
+                            <div class="col-12">
+                                <h2>
+                                    <font style="font-size: 36px;">
+                                        <b>Get In</b>
+                                    </font>
+                                    <font style="font-size: 36px;" class="text-alpha">
+                                        <b>Touch</b>
+                                    </font>
+                                </h2>
+                            </div>
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="contact_name" placeholder="Your Name" required="" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field col-md-6">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input" name="phone"
+                                                   placeholder="Phone Number" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="email_from" required="" placeholder="Email" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-md-6 o_has_error">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input" name="name"
+                                                   required="" placeholder="Subject" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <div class="col-12">
+                                            <textarea class="form-control o_website_form_input" name="description"
+                                                      required="" placeholder="Your Question"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="col-12">
+                                            <div class="s_btn" data-name="Buttons">
+                                                <a href="#" role="button"
+                                                   class=" btn btn-primary flat btn-lg o_website_form_send w-auto"
+                                                   data-original-title="" title="" aria-describedby="tooltip977050">Send
+                                                </a>
+                                                <span id="o_website_form_result" class="text-danger ml8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet News start-->
+        <template id="painter_news" name="Painter News">
+            <section class="pt64 pb64" id="news_two">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb64">
+                            <p style="text-align: left; ">
+                                <b>
+                                    <font style="font-size: 18px;" class="text-alpha">FROM BLOG</font>
+                                </b>
+                            </p>
+                            <h2 style="text-align: left;">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 36px;">Recent News</font>
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <p>MARCH 21, 2018</p>
+                                    <h5 class="font-weight-bold pb-2">
+                                        <font style="font-size: 24px;">The Benefits of High-Quality Paint</font>
+                                    </h5>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                            iusto modi reprehenderit sint soluta voluptas.
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <p>DECEMBER 25, 2018</p>
+                                    <h5 class="font-weight-bold pb-2">
+                                        <font>
+                                            <span style="font-size: 24px;">Ideas For Home Painting and Renovation</span>
+                                        </font>
+                                    </h5>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                            iusto modi reprehenderit sint soluta voluptas.
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_painter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <p>APRIL 18, 2019</p>
+                                    <h5 class="font-weight-bold pb-2">
+                                        <font style="font-size: 24px;">Different Quality Of Paint Color</font>
+                                    </h5>
+                                    <p>
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                            iusto modi reprehenderit sint soluta voluptas.
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Footer start-->
+        <template id="painter_footer" name="Painter Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industry. Lorem Ipsum has been the industry's standard
+                                        dummy.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="media">
+                                    <div class="media-body">
+                                        <p>
+                                            <a href="#" class="flat btn btn-alpha flat btn-lg"
+                                               data-original-title="" title="" aria-describedby="tooltip761148">
+                                                <b>
+                                                    <font style="font-size: 14px;">GET ESTIMATE</font>
+                                                </b>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="font-size: 24px;">
+                                        <b>Recent News</b>
+                                    </font>
+                                </h5>
+                                <p class="mb8">
+                                    <font style="font-size: 18px;">Lorem ipsum dolor sit amet</font>
+                                </p>
+                                <p>
+                                    <font style="font-size: 18px;">26 January,2018</font>
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8">
+                                    <font style="font-size: 18px;">Lorem ipsum dolor sit amet</font>
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">26 January,2018</font>
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8">
+                                    <font style="font-size: 18px;">Lorem ipsum dolor sit amet</font>
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">26 January,2018</font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h5 class="mb24">
+                                    <b>
+                                        <font style="font-size: 24px;">Our Newsletter</font>
+                                    </b>
+                                </h5>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industry. Lorem Ipsum has been the industry's standard
+                                        dummy.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="input-group js_subscribe hidden" data-list-id="1" data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control rounded-0"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        Thanks for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h5 class="mb24">
+                                    <b>
+                                        <font style="font-size: 24px;">Projects</font>
+                                    </b>
+                                </h5>
+                                <div>
+                                    <h5>
+                                        <span class="badge badge-primary o_default_snippet_text p-2 button_style mb8">
+                                            AUDIO
+                                        </span>
+                                        <span class="badge badge-primary o_default_snippet_text p-2 button_style mb8">
+                                            BLOG
+                                        </span>
+                                        <span class="badge badge-primary o_default_snippet_text p-2 button_style mb8">
+                                            EXAMPLE
+                                        </span>
+                                        <span class="badge badge-primary o_default_snippet_text p-2 button_style mb8">
+                                            GALLARY
+                                        </span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Painter Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_painter_ultimate_01.painter_banner"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_overlay"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_about_us"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_project"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_testimonial"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_service"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_contact"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_news"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_painter_ultimate_01.painter_footer"
+                           t-thumbnail="/theme_painter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

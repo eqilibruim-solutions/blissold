@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_1</field>
+            <field name="name">theme_architect_ultimate_01.image_content_1</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_2</field>
+            <field name="name">theme_architect_ultimate_01.image_content_2</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_1.jpg</field>
+        </record>
+
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_3</field>
+            <field name="name">theme_architect_ultimate_01.image_content_3</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_3.jpg</field>
+        </record>
+
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_4</field>
+            <field name="name">theme_architect_ultimate_01.image_content_4</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_4.jpg</field>
+        </record>
+
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_5</field>
+            <field name="name">theme_architect_ultimate_01.image_content_5</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_5.jpg</field>
+        </record>
+
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_6</field>
+            <field name="name">theme_architect_ultimate_01.image_content_6</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_6.jpg</field>
+        </record>
+
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_7</field>
+            <field name="name">theme_architect_ultimate_01.image_content_7</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_7.jpg</field>
+        </record>
+
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_8</field>
+            <field name="name">theme_architect_ultimate_01.image_content_8</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_2.jpg</field>
+        </record>
+
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_9</field>
+            <field name="name">theme_architect_ultimate_01.image_content_9</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/gallery_8.jpg</field>
+        </record>
+
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_10</field>
+            <field name="name">theme_architect_ultimate_01.image_content_10</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/client_bg.jpg</field>
+        </record>
+
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_11</field>
+            <field name="name">theme_architect_ultimate_01.image_content_11</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/tab_01.jpg</field>
+        </record>
+
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_12</field>
+            <field name="name">theme_architect_ultimate_01.image_content_12</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/tab_02.jpg</field>
+        </record>
+
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_13</field>
+            <field name="name">theme_architect_ultimate_01.image_content_13</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/tab_03.jpg</field>
+        </record>
+
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_14</field>
+            <field name="name">theme_architect_ultimate_01.image_content_14</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/tab_04.jpg</field>
+        </record>
+
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_15</field>
+            <field name="name">theme_architect_ultimate_01.image_content_15</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/tab_05.jpg</field>
+        </record>
+
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_architect_ultimate_01.image_content_16</field>
+            <field name="name">theme_architect_ultimate_01.image_content_16</field>
+            <field name="url">/theme_architect_ultimate_01/static/src/img/library/footer_bg.jpg</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template name="Tab 4" id="tab_4">
+
+        <section class="pt64 pb64" id="tab_4">
+            <div class="container">
+                <div class="row mx-2">
+                    <div class="col-12 pb48 text-center">
+                        <h2>Headline</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-1 p-0">
+                                <nav>
+                                    <div class="nav nav-tabs flex-lg-column justify-content-between">
+                                        <a class="nav-item nav-link link_style p-2 px-2 py-4 flex-fill justify-content-lg-start active show"
+                                           data-toggle="tab" href="#a">
+                                            <div class="tab-icon">
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+                                        </a>
+                                        <a class="nav-item nav-link link_style p-2 px-2 py-4 flex-fill justify-content-lg-start"
+                                           data-toggle="tab" href="#b">
+                                            <div class="tab-icon">
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </a>
+
+                                        <a class="nav-item nav-link link_style p-2 px-2 py-4 flex-fill justify-content-lg-start"
+                                           data-toggle="tab" href="#c">
+                                            <div class="tab-icon">
+                                                <i class="fa fa-headphones"></i>
+                                            </div>
+                                        </a>
+
+                                        <a class="nav-item nav-link link_style p-2 px-2 py-4 flex-fill justify-content-lg-start"
+                                           data-toggle="tab" href="#d">
+                                            <div class="tab-icon">
+                                                <i class="fa fa-clock-o"></i>
+                                            </div>
+                                        </a>
+
+                                        <a class="nav-item nav-link link_style p-2 px-2 py-4 flex-fill justify-content-lg-start"
+                                           data-toggle="tab" href="#e">
+                                            <div class="tab-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-11 bg-white px-4 py-3">
+                                <div class="tab-content">
+                                    <div class="tab-pane  fade show active" id="a">
+                                        <p>
+                                            1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                            ab reprehenderit officia neque doloremque obcaecati quam, cum a
+                                            vitae numquam nam recusandae est necessitatibus, autem
+                                            praesentium, eum quia veritatis quae?
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane  fade" id="b">
+                                        <p>
+                                            2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                            reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                            numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                            veritatis quae?
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane  fade" id="c">
+                                        <p>
+                                            3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                            reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                            numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                            veritatis quae?
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane  fade" id="d">
+                                        <p>
+                                            4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                            reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                            numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                            veritatis quae?
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane  fade" id="e">
+                                        <p>
+                                            5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                            reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                            numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                            veritatis quae?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

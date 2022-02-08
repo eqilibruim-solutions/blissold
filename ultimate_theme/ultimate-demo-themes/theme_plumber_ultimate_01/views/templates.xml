@@ -1,0 +1,861 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner start-->
+        <template id="plumber_banner" name="Plumber Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_plumber_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="text-align: center;">
+                                <b>
+                                    <font style="font-size: 48px;">WE ARE AVAILALE FOR</font>
+                                </b>
+                            </h1>
+                            <h1 class="text-white" style="font-size: 48px; text-align: center;">
+                                <b>PLUMBING SOLUTION</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="mb8 mt8 flat btn btn-alpha btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip409884">About us
+                            </a>
+                            <a href="/contactus" class="mb8 mt8 flat btn btn-primary flat btn-lg" data-original-title=""
+                               title="" aria-describedby="tooltip503102">Contact us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Contact start-->
+        <template id="plumber_contact" name="Plumber Contact">
+            <section class="py-5 pt32">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-center">
+                                <font class="text-alpha" style="font-size: 30px;">
+                                    <b>Contact for Services</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-3 col-lg-3">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-12 col-sm-12 col-md-3 col-lg-3">
+                                        <input type="text" class="form-control o_website_form_input" name="phone"
+                                               placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-3 col-lg-3">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group col-12 col-lg-3 col-md-3 col-sm-12">
+                                        <div data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-lg btn-primary o_default_snippet_text o_website_form_send w-100">
+                                                Send
+                                            </a>
+                                            <span id="o_website_form_result"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet About Us start-->
+        <template id="plumber_about_us" name="Plumber About Us">
+            <section class="pt64 pb112 bg-beta oe_custom_bg" id="counter_10" style="">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 mb48 offset-lg-2 col-lg-8">
+                            <h2 class="s_letter_spacing_3">
+                                <font style="font-size: 30px;" class="o_default_snippet_text">WELCOME</font>
+                            </h2>
+                            <p class="pt16">
+                                <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip937832"/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;" class="o_default_snippet_text">SHOWER REPAIR</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;" class="o_default_snippet_text">LEAK REPAIR</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;" class="o_default_snippet_text">DRAIN CLEANING</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;" class="o_default_snippet_text">REMODELING SERVICES
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip38471" style=""/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;">BROKEN PIPE</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip390801"/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;">WATER HEATING</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;">PLUMBER WRENCH</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip786146"/>
+                                <h4 class="pt8">
+                                    <font style="font-size: 16px;">FACTORY MACHINE</font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet CTA start-->
+        <template id="plumber_cta" name="Plumber CTA">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_plumber_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold ">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">PLUMBING PROBLEM?</font>
+                            </h2>
+                            <h2 class="font-weight-bold pb24">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">WE CAN HELP YOU</font>
+                            </h2>
+                            <a href="#" class="mb24 mt24 mx-3 px-4 rounded-0 btn btn-outline-primary btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip793787">
+                                <b data-original-title="" title="" aria-describedby="tooltip689382">
+                                    <font style="font-size: 14px;">REQUEST&amp;nbsp;A QUOTE</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Counter start-->
+        <template id="plumber_counter" name="Plumber Counter">
+            <section class="pt64 pb72" id="counter_9">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <h2 class="mt32">
+                                    <font style="font-size: 48px;" class="text-alpha o_default_snippet_text">
+                                        <b>56</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">YEARS OF EXPERIENCE
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <h2 class="mt32">
+                                    <font style="font-size: 48px;" class="text-alpha o_default_snippet_text">
+                                        <b>250</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">PLUMBERS</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <h2 class="mt32">
+                                    <font style="font-size: 48px;" class="text-alpha o_default_snippet_text">
+                                        <b>160</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">COMPLETED PROJECTS
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <h2 class="mt32">
+                                    <font style="font-size: 48px;" class="text-alpha o_default_snippet_text">
+                                        <b>510</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">HAPPY CLIENTS</font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Testimonial start-->
+        <template id="plumber_testimonial" name="Plumber Testimonial">
+            <section class="pt64 pb64 bg-alpha oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_plumber_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 text-center col-lg-10">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b>WHAT PEOPLE SAY</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.&amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1572947828030" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1572947828030" data-slide-to="0"/>
+                        <li data-target="#myCarousel1572947828030" data-slide-to="1" class="active"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one of your customers. Quotes are a great way to build confidence in
+                                            your products or services.
+                                        </p>
+                                        <div class="text-center">Alexa Smith&amp;nbsp;
+                                            <br/>
+                                            <span>Manager of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one of your customers. Quotes are a great way to build confidence in
+                                            your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <span>Jane DOE</span>
+                                            <br/>
+                                            <span>CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1572947828030" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1572947828030" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Project start-->
+        <template id="plumber_project" name="Plumber Project">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">OUR LATEST&amp;nbsp;</font>
+                                    <font class="text-alpha" style="font-size: 36px;">PROJECTS</font>
+                                </b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip896598"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <p>WATER FILTERING</p>
+                                        <p>
+                                            <a href="#" class="flat btn btn-beta btn-lg" data-original-title=""
+                                               title="">READ MORE
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip896598"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <p>RESIDENTIAL PLUMBING</p>
+                                        <p>
+                                            <a href="#" class="flat btn btn-beta btn-lg" data-original-title=""
+                                               title="">READ MORE
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip896598"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <p>LEAK DETECTION</p>
+                                        <p>
+                                            <a href="#" class="flat btn btn-beta btn-lg" data-original-title=""
+                                               title="">READ MORE
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip896598"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <p>KITCHEN PLUMBING</p>
+                                        <p>
+                                            <a href="#" class="flat btn btn-beta btn-lg" data-original-title=""
+                                               title="">READ MORE
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip896598"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <p>SEWER REPAIR</p>
+                                        <p>
+                                            <a href="#" class="flat btn btn-beta btn-lg" data-original-title=""
+                                               title="">READ MORE
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip896598"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <p>BROKEN FIXING</p>
+                                        <p>
+                                            <a href="#" class="flat btn btn-beta btn-lg" data-original-title=""
+                                               title="">READ MORE
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pt48 text-center">
+                            <h2>
+                                <a href="#" class="btn btn-alpha flat btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip904368">
+                                    <b>
+                                        <font style="font-size: 14px;">MORE Projects</font>
+                                    </b>
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Project End-->
+
+        <!--Snippet Service start-->
+        <template id="plumber_service" name="Plumber Service">
+            <section class="pt64 pb64 bg-beta oe_custom_bg z_index_100" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <b>
+                                    <font style="font-size: 36px;">WHY CHOOSE US?</font>
+                                </b>
+                            </h2>
+                            <p class="text-center pt16 s_line_height_1">
+                                <font style="color: rgb(0, 0, 0);" class="s_line_height_2">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua.<br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.&amp;nbsp;
+                                </font>
+                            </p>
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image mr-3 mt-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">Quality Work</h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image mr-3 mt-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">Guaranteed Services</h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image mr-3 mt-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">Best Pricing&amp;nbsp;</h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image mr-3 mt-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">Qualified Staff</h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image mr-3 mt-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">Free Estimate</h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image mr-3 mt-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">24/7 Availability</h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Ut at semper metus.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Feature start-->
+        <template id="plumber_feature" name="Plumber Feature">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;" class="o_default_snippet_text">SERVICES THAT WE
+                                    </font>
+                                    <font style="font-size: 36px;" class="text-alpha o_default_snippet_text">OFFERS
+                                    </font>
+                                </b>
+                            </h2>
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip269719"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="color: rgb(0, 0, 0); font-size: 20px;">
+                                            <b class="o_default_snippet_text">REQUEST A FREE QUOTE</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip982933"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="color: rgb(0, 0, 0); font-size: 20px;">
+                                            <b class="o_default_snippet_text">COMPETITIVE RATES</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip318064"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;">
+                                            <b class="o_default_snippet_text">CUSTOMER SATISFICATION</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Footer start-->
+        <template id="plumber_footer" name="Plumber Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                        <b>Contact</b>
+                                    </font>
+                                </h5>
+                                <div class="media mb16 o_default_snippet_text mt24">
+                                    <i class="fa fa-home mr-3 mt-1 text-epsilon" style=""/>
+                                    <div class="media-body">
+                                        <font class="text-epsilon" style="">
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-envelope-o mr-3 mt-1 text-epsilon" style=""/>
+                                    <div class="media-body">
+                                        <font class="text-epsilon" style="">
+                                            <span t-field="res_company.email"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-phone mr-3 mt-1 text-epsilon" style=""/>
+                                    <div class="media-body">
+                                        <font class="text-epsilon" style="">
+                                            <span t-field="res_company.phone"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                        <b>Usefull Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip725044">Home
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Services</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Projects</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Testimonials</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Contact</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                        <span style="font-weight: bolder;">Latest Posts</span>
+                                    </font>
+                                </h5>
+                                <div class="media pt24">
+                                    <img alt="image" class="img-fluid mr-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body mt8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit
+                                            </font>
+                                        </a>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mr-2"
+                                         src="/theme_plumber_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body mt8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit
+                                            </font>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <h5>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                        <span style="font-weight: bolder;">Gallery</span>
+                                    </font>
+                                </h5>
+                                <div class="row pt24">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             data-original-title="" title="" aria-describedby="tooltip247747"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             data-original-title="" title="" aria-describedby="tooltip247747"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img alt="image" class="img-fluid"
+                                             src="/theme_plumber_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             data-original-title="" title="" aria-describedby="tooltip247747"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Plumber Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_banner"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_contact"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_about_us"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_cta"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_counter"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_testimonial"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_project"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_service"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_feature"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_plumber_ultimate_01.plumber_footer"
+                           t-thumbnail="/theme_plumber_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template name="Searchbox Three" id="searchbox_3">
+        <section id="searchbox_3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                        <t t-if="category">
+                            <form class="pt-2"
+                                  t-att-action="keep('/shop'+ ('/category/'+slug(category)) if category else '', search=0)"
+                                  method="get"
+                                  t-att-class="search_class">
+
+                                <t t-if="attrib_values">
+                                    <t t-foreach="attrib_values"
+                                       t-as="a">
+                                        <input type="hidden"
+                                               name="attrib"
+                                               t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                    </t>
+                                </t>
+                                <div class="input-group search_input">
+                                    <input type="text" name="search"
+                                           class="search-query form-control oe_search_box rounded-0"
+                                           placeholder="Enter Keyword to Search..."
+                                           t-att-value="search"/>
+                                    <div class="input-group-append">
+                                        <button type="submit"
+                                                class="btn btn-secondary oe_search_button rounded-0"
+                                                aria-label="Search" title="Search">
+                                            SEARCH
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </t>
+                        <t t-if="not category">
+                            <form action="/shop" method="get"
+                                  t-att-class="search_class">
+
+                                <t t-if="attrib_values">
+                                    <t t-foreach="attrib_values"
+                                       t-as="a">
+                                        <input type="hidden"
+                                               name="attrib"
+                                               t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                    </t>
+                                </t>
+                                <div class="input-group search_input">
+                                    <input type="text" name="search"
+                                           class="search-query form-control oe_search_box rounded-0"
+                                           placeholder="Enter Keyword to Search..."
+                                           t-att-value="search"/>
+                                    <div class="input-group-append">
+                                        <button type="submit"
+                                                class="btn btn-beta oe_search_button rounded-0"
+                                                aria-label="Search" title="Search">
+                                            <i class="fa fa-search text-white"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

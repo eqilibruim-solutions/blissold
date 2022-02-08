@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="ecom_layout_inherit" inherit_id="nav_side_menu_business.business_layout_inherit">
+        <xpath expr="//t[@id='wishlist']" position="replace">
+            <t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
+                <t t-set='wishcount' t-value="len(request.env['product.wishlist'].current())"/>
+                <li id="my_wish" class="nav-item" t-att-style="not wishcount and 'display:none;'">
+                    <a href="/shop/wishlist" class="nav-link">
+                        <i class="fa fa-heart"/>
+                        Wishlist
+                        <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary">
+                            <t t-esc='wishcount'/>
+                        </sup>
+                    </a>
+                </li>
+            </t>
+        </xpath>
+        <xpath expr="//t[@id='cart']" position="replace">
+            <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+            <li class="nav-item divider d-none"/> <!-- Make sure the cart and related menus are not folded (see autohideMenu) -->
+            <li id="my_cart"
+                t-attf-class="nav-item#{'' if website_sale_order and website_sale_order.cart_quantity else ' d-none'}">
+                <a href="/shop/cart" class="nav-link">
+                    <i class="fa fa-shopping-cart"></i>
+                    My Cart
+                    <sup t-attf-class="my_cart_quantity badge badge-primary"
+                         t-esc="website_sale_order and website_sale_order.cart_quantity or ''"/>
+                </a>
+            </li>
+        </xpath>
+    </template>
+</odoo>

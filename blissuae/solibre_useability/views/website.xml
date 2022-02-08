@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="assets_frontend" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/solibre_useability/static/src/js/lib/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet"/>
+            <link rel="stylesheet" type="text/scss" href="/solibre_useability/static/src/css/website.scss" />
+        </xpath>
+        <xpath expr="script[last()]" position="after">
+            <script src="/solibre_useability/static/src/js/lib/bootstrap-select/js/bootstrap-select.min.js" type="text/javascript"></script>
+            <script src="/solibre_useability/static/src/js/website_bootstrap_select.js" type="text/javascript"></script>
+        </xpath>
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/solibre_useability/static/src/js/website.js"></script>
+        </xpath>
+    </template>
+
+    <template id="payment_delivery_methods" inherit_id="website_sale_delivery.payment_delivery_methods">
+        <xpath expr="//label[hasclass('label-optional')]" position="after">
+            <label class="label-optional" t-field="delivery.pickup_location_id.street" t-if="delivery.pickup_location_id"/>
+          	<select class="form-control custom-select" name="pickup_location" t-if="delivery.show_pickup_location">
+	            <option value="">Pickup location...</option>
+	            <t t-foreach="request.env['res.company'].sudo().search([('partner_id.pickup_location','=',True)]) or []" t-as="company">
+	                <option t-att-value="company.id"><t t-esc="company.street"/></option>
+	            </t>
+         	</select>
+        </xpath>
+    </template>
+
+    <template id="payment" inherit_id="website_sale.confirmation">
+        <xpath expr="//div[hasclass('oe_cart')]" position="after">
+            <div class="o_wsddd_pickup_location card card-body mb-3">
+                <div t-if="order.pickup_location_id">
+                    <strong>Pickup Location:</strong>
+                    <span t-field="order.pickup_location_id.street"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <record model="ir.ui.view" id="view_delivery_carrier_form_inherit">
+        <field name="name">delivery.carrier.form.inherit</field>
+        <field name="model">delivery.carrier</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="delivery.view_delivery_carrier_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='active']" position="after">
+                <!-- <field name="show_pickup_location" /> -->
+                <field name="pickup_location_id" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_carrier_tree_inherit">
+        <field name="name">delivery.carrier.tree.inherit</field>
+        <field name="model">delivery.carrier</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="delivery.view_delivery_carrier_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='delivery_type']" position="after">
+                <field name="pickup_location_id" />
+            </xpath>
+        </field>
+    </record>
+
+    <template id="whatsapp_frontend_layout" 
+                inherit_id="web.frontend_layout"
+                name="Show Whatsapp" 
+                active="False" 
+                customize_show="True">
+        <xpath expr="//div[@id='wrapwrap']" position="inside">
+            <t t-if="res_company.partner_id.mobile">
+                <a t-att-href="'https://api.whatsapp.com/send?phone='+res_company.partner_id.mobile+'&amp;text=Hello%21%20I%20would%20like%20to%20have%20more%20information%20on%20your%20products.'"
+                class="float-left-whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+                </a>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="fbfeed_items">
+        <item t-foreach="products" t-as="product">
+            <id><t t-esc="product.id"/></id>
+            <title><t t-raw="product.name"/></title>
+            <description><t t-esc="product.description_sale"/></description>
+            <url><t t-esc="url_root"/><t t-esc="product.website_url"/></url>
+            <image_link><t t-esc="product.image_url"/></image_link>
+            <condition>new</condition>
+            <availability>in stock</availability>
+            <price><t t-esc="int(product.lst_price)"/><t t-esc="company_id.currency_id.name"/></price>
+            <shipping>
+                <country><t t-esc="company_id.country_id.code"/></country>
+                <service>Standard</service>
+                <price>0 <t t-esc="company_id.currency_id.name"/></price>
+            </shipping>
+            <google_product_category>Flowers</google_product_category>
+        </item>
+    </template>
+
+    <template id="fbfeed_xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    <rss t-attf-xmlns="http://base.google.com/ns/1.0" version="2.0">
+        <channel>
+        <title><t t-esc="company_id.name"/></title>
+        <url><t t-esc="url_root"/></url>
+        <t t-raw="content"/>
+        </channel>
+    </rss>
+    </template>
+
+    <template id="googlefeed_items">
+        <item t-foreach="products" t-as="product">
+            <id><t t-esc="product.id"/></id>
+            <title><t t-esc="product.name"/></title>
+            <description><t t-raw="product.description_sale"/></description>
+            <url><t t-esc="url_root"/><t t-esc="product.website_url"/></url>
+            <image_link><t t-esc="product.image_url"/></image_link>
+            <condition>new</condition>
+            <availability><t t-esc="'in stock'"/></availability>
+            <price><t t-esc="int(product.lst_price)"/> <t t-esc="company_id.currency_id.name"/></price>
+            <shipping>
+                <country><t t-esc="company_id.country_id.code"/></country>
+                <service>Standard</service>
+                <price>0 <t t-esc="company_id.currency_id.name"/></price>
+            </shipping>
+            <google_product_category>Flowers</google_product_category>
+        </item>
+    </template>
+
+    <template id="googlefeed_xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+        <channel>
+            <title><t t-esc="company_id.name"/></title>
+            <url>
+                <t t-esc="url_root"/>
+            </url>
+            <t t-raw="content"/>
+        </channel>
+        </rss>
+    </template>
+
+
+</odoo>

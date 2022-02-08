@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_1</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_1</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/company-6.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_2</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_2</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/block_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_3</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_3</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/block_04.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_4</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_4</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/company-2.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_5</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_5</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/company-3.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_6</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_6</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/banner.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_7</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_7</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/company-5.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_8</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_8</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/block_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_9</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_9</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/cap_store_01_logo.png</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_10</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_10</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/company-4.png</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_11</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_11</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/block_03.png</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_12</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_12</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/banner1.png</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_cap_store_ecommerce_ultimate_01.image_content_13</field>
+            <field name="name">theme_cap_store_ecommerce_ultimate_01.image_content_13</field>
+            <field name="url">/theme_cap_store_ecommerce_ultimate_01/static/src/img/library/company-1.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

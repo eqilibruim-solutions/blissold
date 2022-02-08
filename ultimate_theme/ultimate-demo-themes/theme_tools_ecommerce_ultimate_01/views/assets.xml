@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="_assets_primary_variables_theme_tools_ecommerce_ultimate_01"
+              inherit_id="website._assets_primary_variables" priority="1">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/theme_tools_ecommerce_ultimate_01/static/src/scss/primary_variables.scss"/>
+        </xpath>
+    </template>
+
+    <template id="brand_promotion_inherit" inherit_id="website.brand_promotion"
+              name="Brand Promotion">
+        <xpath expr="//div[hasclass('o_brand_promotion')]" position="replace">
+            <div class="pull-right" t-ignore="true" t-if="not editable">
+                Responsive Odoo theme,
+                <span>
+                    Made with
+                    <i class="fa fa-heart"/>
+                    by
+                    <strong>&lt;73Lines/&gt;
+                    </strong>
+                </span>
+            </div>
+        </xpath>
+    </template>
+
+
+</odoo>

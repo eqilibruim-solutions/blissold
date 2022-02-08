@@ -1,0 +1,543 @@
+<odoo>
+    <data>
+
+        <!--Snippet  Banner start-->
+        <template id="clinic_banner" name="Clinic Banner">
+            <section class="s_cover parallax align-content-center align-items-center s_parallax_is_fixed"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_clinic_ultimate_02/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 75%;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed full-height">
+                        <div class="align-content-center align-self-center col-lg-7 content-align-center"
+                             data-name="Title">
+                            <h1 class="s_title_thin text-left text-white" style="font-size: 62px;">
+                                <font style="color: rgb(0, 0, 0);">
+                                    <b>We Care For</b>
+                                </font>
+                            </h1>
+                            <h1 class="s_title_thin text-left text-white" style="font-size: 62px;">
+                                <font style="color: rgb(0, 0, 0);">
+                                    <b>Your Health</b>
+                                </font>
+                            </h1>
+                            <div class="s_text pt16 pb16 text-white" data-name="Text">
+                                <p class="lead text-left o_default_snippet_text" style="text-align: left;">
+                                    <font class="text-delta" style="">Write one or two paragraphs describing your
+                                        product, services or a specific feature. &amp;nbsp;
+                                    </font>
+                                    <font class="text-delta" style="">To be successful your content needs to be useful
+                                        to your readers. &amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                                <a href="/aboutus" class="flat flat btn btn-beta flat btn-lg mt8 mb8"
+                                   data-original-title=""
+                                   title="" aria-describedby="tooltip615993">Send Message
+                                </a>
+                                <a href="/contactus" class="btn btn-beta flat btn-lg mt8 mb8" data-original-title=""
+                                   title=""
+                                   aria-describedby="tooltip583478">Read More
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 align-self-center" data-name="Image">
+                            <img class="img img-fluid"
+                                 src="/theme_clinic_ultimate_02/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip349897"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet banner End-->
+
+        <!--Snippet  Feature start-->
+        <template id="clinic_feature" name="Clinic Feature">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img class="d-block img-fluid mb-3 mx-auto o_we_custom_image"
+                                 src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip424703"/>
+                            <h3 style="text-align: center; ">
+                                <b>Advance Technology</b>
+                            </h3>
+                            <p style="text-align: center; ">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip274043"/>
+                                <a href="#" class="btn btn-epsilon pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip274043" style="font-size: 0.875rem;">Read More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img class="d-block img-fluid mb-3 mx-auto o_we_custom_image"
+                                 src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip424703"/>
+                            <h3 style="text-align: center; ">
+                                <b>24/7 Support</b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip274043"/>
+                                <a href="#" class="pb8 pt8 btn btn-epsilon" data-original-title="" title=""
+                                   aria-describedby="tooltip274043" style="font-size: 0.875rem;">Contact Us
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img class="d-block img-fluid mb-3 mx-auto o_we_custom_image"
+                                 src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip424703"/>
+                            <h3 style="text-align: center; ">
+                                <b>Health Care Solutions</b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip274043"/>
+                                <a href="#" class="pb8 pt8 btn btn-epsilon" data-original-title="" title=""
+                                   aria-describedby="tooltip274043" style="font-size: 0.875rem;">Read More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet  About US start-->
+        <template id="clinic_about_us" name="Clinic About Us">
+            <section class="s_text_image pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="pt16 pb16 col-lg-6 col-md-6">
+                            <img src="/theme_clinic_ultimate_02/static/src/img/placeholder-600.jpg"
+                                 class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title=""
+                                 title="" aria-describedby="tooltip323472"/>
+                        </div>
+                        <div class="pt16 pb16 col-lg-6 col-md-6">
+                            <h2>
+                                <font style="font-size: 48px;">Why Choose Us?</font>
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate
+
+
+                            </p>
+                            <div class="s_btn text-left pt16 pb16">
+                                <a href="#" class="btn btn-beta btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip373467">
+                                    <font style="color: rgb(255, 255, 255);">Read More</font>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet  Team start-->
+        <template id="clinic_team" name="Clinic Team">
+            <section class="s_three_columns pb64 pt64" id="team_6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="m-auto  mt16 mb16" style="text-align: center;">
+                                <font style="font-size: 48px;">Meet Our Medical Specialist</font>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-lg-4 col-md-4 s_col_no_bgcolor pt16 pb16">
+                            <div>
+                                <img class="card-img-top"
+                                     src="/theme_clinic_ultimate_02/static/src/img/placeholder-350x350.png"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip564975"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font style="">Dr. Andrew Bert</font>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center; ">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit, sed do eius
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="">
+                                            <i class="bg-beta fa fa-facebook img-circle rounded-circle"
+                                               data-original-title="" title="" aria-describedby="tooltip198143"
+                                               style=""/>
+                                        </a>
+                                        <a href="">
+                                            <i class="bg-beta fa fa-twitter img-circle rounded-circle"
+                                               data-original-title="" title="" aria-describedby="tooltip585613"
+                                               style=""/>
+                                        </a>
+                                        <a href="">
+                                            <i class="bg-beta fa fa-linkedin rounded-circle" data-original-title=""
+                                               title="" aria-describedby="tooltip589300" style=""/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_clinic_ultimate_02/static/src/img/placeholder-350x350.png"
+                                     alt="Odoo - Sample 2 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip888441"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="color: rgb(33, 37, 41); text-align: center;">
+                                        <font>Dr. Sharon Laura</font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eius
+                                        <br/>
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="">
+                                            <i class="bg-beta fa fa-facebook rounded-circle" data-original-title=""
+                                               title="" aria-describedby="tooltip703366" style=""/>
+                                        </a>
+                                        <a href="">
+                                            <i class="bg-beta fa fa-twitter rounded-circle" data-original-title=""
+                                               title="" aria-describedby="tooltip625863" style=""/>
+                                        </a>
+                                        <a href="">
+                                            <i class="bg-beta fa fa-linkedin rounded-circle" data-original-title=""
+                                               title="" aria-describedby="tooltip370731" style=""/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_clinic_ultimate_02/static/src/img/placeholder-350x350.png"
+                                     alt="Odoo - Sample 3 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <font>Dr. Maria Yigo</font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eius
+                                        <br/>
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="">
+                                            <i class="bg-beta fa fa-facebook rounded-circle" data-original-title=""
+                                               title="" aria-describedby="tooltip517295" style=""/>
+                                        </a>
+                                        <a href="">
+                                            <i class="bg-beta fa fa-twitter rounded-circle" data-original-title=""
+                                               title="" aria-describedby="tooltip583614" style=""/>
+                                        </a>
+                                        <a href="">
+                                            <i class="bg-beta fa fa-linkedin rounded-circle" data-original-title=""
+                                               title="" aria-describedby="tooltip81859" style=""/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Service start-->
+        <template id="clinic_service" name="Clinic Service">
+            <section class="sni-block bg-white oe_custom_bg pt64 pb64" style="">
+                <div class="container">
+                    <div class="row text-left align-items-center">
+                        <div class="col-12 pt-4 pt-lg-0 col-lg-4 col-md-4">
+                            <h1>
+                                <font style="font-size: 48px;" class="o_default_snippet_text">Best Health Services
+                                </font>
+                            </h1>
+                            <p class="lead">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation.
+                                </font>
+                            </p>
+                            <div class="s_btn pt16 pb16 text-left" data-name="Buttons">
+                                <a href="#" class="btn btn-beta btn-lg o_default_snippet_text" data-original-title=""
+                                   title="" aria-describedby="tooltip433067">More Services
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 pt-4 pt-lg-0 pl-0 col-lg-8 col-md-8">
+                            <div class="row text-center">
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-6 mb16">
+                                    <h3>
+                                        <img class="mb16 o_we_custom_image"
+                                             src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                             data-original-title="" title="" aria-describedby="tooltip914456"/>
+                                        <br/>
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Cardiology</b>
+                                        </font>
+                                        <br/>
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-6 mb16">
+                                    <h3>
+                                        <img class="img-fluid o_we_custom_image mb16"
+                                             src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                             data-original-title="" title="" aria-describedby="tooltip914456"/>
+                                        <br/>
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Dental Surgery</b>
+                                        </font>
+                                        <br/>
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-6 mb16">
+                                    <h3>
+                                        <img class="img-fluid o_we_custom_image mb16"
+                                             src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                             data-original-title="" title="" aria-describedby="tooltip914456"/>
+                                        <br/>
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Gynecology</b>
+                                        </font>
+                                        <br/>
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-6">
+                                    <h3>
+                                        <img class="img-fluid o_we_custom_image mb16"
+                                             src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                             data-original-title="" title="" aria-describedby="tooltip914456"/>
+                                        <br/>
+                                        <div>
+                                            <b style="font-size: 18px; color: inherit;" class="o_default_snippet_text">
+                                                Neurology
+                                            </b>
+                                        </div>
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-6 mb16">
+                                    <h3>
+                                        <img class="img-fluid o_we_custom_image mb16"
+                                             src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                             data-original-title="" title="" aria-describedby="tooltip914456"/>
+                                        <br/>
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Gastrology</b>
+                                        </font>
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-lg-4 col-md-4 col-sm-6 mb16">
+                                    <h3>
+                                        <img class="img-fluid o_we_custom_image mb16"
+                                             src="/theme_clinic_ultimate_02/static/src/img/placeholder-70x70.png"
+                                             data-original-title="" title="" aria-describedby="tooltip914456"/>
+                                        <br/>
+                                        <div>
+                                            <b style="font-size: 18px; color: inherit;" class="o_default_snippet_text">
+                                                Urology
+                                            </b>
+                                        </div>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Contact start-->
+        <template id="clinic_contact" name="Clinic Contact">
+            <section class="s_text_image bg-gamma oe_custom_bg pb0 pt0">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="pt0 col-lg-7 pb0 pl-0">
+                            <img src="/theme_clinic_ultimate_02/static/src/img/placeholder-768x396.png"
+                                 class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title=""
+                                 title="" aria-describedby="tooltip644031"/>
+                        </div>
+                        <div class="pt0 col-lg-5 pb0">
+                            <h1 class="mb16" style="color: rgb(120, 133, 203); font-size: 30px;">
+                                <font style="color: rgb(0, 0, 0); font-size: 48px;">Book An Appoinment</font>
+                            </h1>
+                            <h1 class="mt16 mb16" style="color: rgb(120, 133, 203); font-size: 30px;">+12 3456789</h1>
+                            <p class="mb16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore
+                            </p>
+                            <h2/>
+                            <p style="font-size: 14px; text-align: center;"/>
+                            <p style="font-size: 14px; text-align: center;"/>
+                            <div class="s_btn text-left pt16 pb16">
+                                <a href="#" class="btn btn-beta btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip111839">Call Us Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Footer start-->
+        <template id="clinic_footer" name="Clinic Footer">
+            <section id="footer" class="oe_structure oe_structure_solo oe_custom_bg" style="border-top: none;">
+                <div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                    <section id="footer_custom_d1">
+                                        <div class="container f_content">
+                                            <div class="row mt32">
+                                                <div class="col-md-4 mt8 mb8">
+                                                    <div>
+                                                        <a href="/" class=" logo mt8 mb8 col-xs-12">
+                                                            <img style="margin:0 auto;" class="img img-responsive"
+                                                                 src="/logo.png" alt="Logo of YourCompany"
+                                                                 title="YourCompany"/>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 mt8 mb8 footer-div column-3">
+                                                    <ul class="footer-links list-unstyled">
+                                                        <li class="mt8 mb8">
+                                                            <a href="/" data-original-title="" title=""
+                                                               aria-describedby="tooltip301286">Home
+                                                            </a>
+                                                        </li>
+                                                        <li class="mt8 mb8">
+                                                            <a href="/">About Us</a>
+                                                        </li>
+                                                        <li class="mt8 mb8">
+                                                            <a href="/" data-original-title="" title=""
+                                                               aria-describedby="tooltip834988">Services
+                                                            </a>
+                                                        </li>
+                                                        <li class="mt8 mb8">
+                                                            <a href="/" data-original-title="" title=""
+                                                               aria-describedby="tooltip834988">Team
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3 mt8 mb8 footer-div column-4">
+                                                    <ul class="footer-links list-unstyled">
+                                                        <li class="mt8 mb8">
+                                                            <a href="/" data-original-title="" title=""
+                                                               aria-describedby="tooltip50854">Surgery &amp;amp;
+                                                                Radiology
+                                                            </a>
+                                                        </li>
+                                                        <li class="mt8 mb8">
+                                                            <a href="/">Cardiology</a>
+                                                        </li>
+                                                        <li class="mt8 mb8">
+                                                            <a href="/">Gynecology</a>
+                                                        </li>
+                                                        <li class="mt8 mb8">
+                                                            <a href="/" data-original-title="" title=""
+                                                               aria-describedby="tooltip568013">Dental Surgery
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3 mt8 mb8 footer-div column-5">
+                                                    <h4>
+                                                        <font style="font-size: 18px;">Call Us</font>
+                                                    </h4>
+                                                    <div>
+                                                        <div class="mt8 mb8 media">
+                                                            <i class="fa fa-map-marker ml8 mr8 mt-1"/>
+                                                            <div class="o_default_snippet_text media-body">
+                                                                <span t-field="res_company.street"/>
+                                                                <span t-field="res_company.country_id.name"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb8 mt8">
+                                                            <h4 style="color: rgb(51, 51, 51);">
+                                                                <font style="font-size: 18px;">E - Mail</font>
+                                                            </h4>
+                                                        </div>
+                                                        <div class="mt8 mb8 media">
+                                                            <i class="fa fa-envelope ml8 mr8 mt-1"/>
+                                                            <div class="o_default_snippet_text media-body">
+                                                                <span t-field="res_company.email"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Clinic Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_clinic_ultimate_02.clinic_banner"
+                           t-thumbnail="/theme_clinic_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_02.clinic_feature"
+                           t-thumbnail="/theme_clinic_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_02.clinic_about_us"
+                           t-thumbnail="/theme_clinic_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_02.clinic_team"
+                           t-thumbnail="/theme_clinic_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_02.clinic_service"
+                           t-thumbnail="/theme_clinic_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_02.clinic_contact"
+                           t-thumbnail="/theme_clinic_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_clinic_ultimate_02.clinic_footer"
+                           t-thumbnail="/theme_clinic_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

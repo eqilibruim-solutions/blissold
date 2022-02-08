@@ -1,0 +1,1126 @@
+<odoo>
+    <data>
+
+        <!-- Banner Snippets start-->
+        <template id="internet_banner" name="Internet Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_internet_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-left">
+                                <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                      class="o_default_snippet_text">To be
+                                    successful your content needs to be useful to your readers.
+                                </font>
+                                <font color="#ffffff">
+                                    <br/>
+                                </font>
+                            </h1>
+                            <h1 class="s_title_thin text-left" style="font-size: 62px;">
+                                <font color="#ffffff" class="o_default_snippet_text">Get Ready For&amp;nbsp;</font>
+                            </h1>
+                            <h1 class="s_title_thin text-left" style="font-size: 62px;">
+                                <font color="#ffffff" class="o_default_snippet_text">Ultra Speed Internet</font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-primary flat btn-lg o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip529506">
+                                <font style="font-size: 14px;">BOOK NOW
+                                    &amp;nbsp;
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Banner Snippets End-->
+
+        <!-- Right Content Snippets start-->
+        <template id="internet_right_content" name="Internet Right Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2>
+                                <b class="o_default_snippet_text">Connect All Your Devices &amp;amp; Acess High Speed
+                                    Inernet With
+                                    Ease
+                                </b>
+                            </h2>
+                            <p class="pt16 pb16 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Pellentesque fermentum est in tortor congue
+                                suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg rounded-0 o_default_snippet_text">
+                                Action
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Right Content Snippets End-->
+
+        <!-- Feature Snippets start-->
+        <template id="internet_feature" name="Internet Feature">
+            <section class="pb64 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-3x fa-500px pe-7s-tools" data-original-title="" title=""
+                                       aria-describedby="tooltip663475" style="color: rgb(99, 74, 165);"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">Download upto
+                                            10MBPS
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-3x fa-500px fa-life-ring pe-7s-upload" data-original-title=""
+                                       title="" aria-describedby="tooltip830970" style="color: rgb(99, 74, 165);"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">99% Internet
+                                            Uptime
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-3x fa-500px pe-7s-clock" data-original-title="" title=""
+                                       aria-describedby="tooltip916423" style="color: rgb(99, 74, 165);"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">24/7 Customer
+                                            Support
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Feature Snippets End-->
+
+        <!-- Services Snippets start-->
+        <template id="internet_services" name="Internet Services">
+            <section class="pt64 pb64 text-light oe_img_bg oe_custom_bg" id="process_step_4"
+                     style="background-image: url(&quot;/theme_internet_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb16">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b class="o_default_snippet_text">Our Services&amp;nbsp;</b>
+                                </font>
+                            </h2>
+                            <hr/>
+                            <p class="o_default_snippet_text">Proin iaculis purus consequat sem cure
+                                digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio
+                                in.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 text-center mb16">
+                            <div class="box">
+                                <i class="fa mb16 pe-7s-global fa-500px fa-3x" data-original-title="" title=""
+                                   aria-describedby="tooltip197500" style=""/>
+                                <h2 class="process_no o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">01</font>
+                                </h2>
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">
+                                        <b>Broadband</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 text-center mb16">
+                            <div class="box">
+                                <i class="fa fa-address-card-o mb16 pe-7s-signal fa-500px fa-3x" data-original-title=""
+                                   title="" aria-describedby="tooltip392998" style=""/>
+                                <h2 class="process_no o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">02</font>
+                                </h2>
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">
+                                        <b>Wifi Zone</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 text-center mb16">
+                            <div class="box">
+                                <i class="fa mb16 pe-7s-radio fa-500px fa-3x" data-original-title="" title=""
+                                   aria-describedby="tooltip310299" style=""/>
+                                <h2 class="process_no o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">03</font>
+                                </h2>
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">
+                                        <b>New Connection</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 text-center mb16">
+                            <div class="box">
+                                <i class="fa fa-empire mb16 pe-7s-menu fa-500px fa-3x" data-original-title="" title=""
+                                   aria-describedby="tooltip103239" style=""/>
+                                <h2 class="process_no o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">04</font>
+                                </h2>
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">
+                                        <b>Secure Internet</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Services Snippets End-->
+
+        <!-- Price Snippets start-->
+        <template id="internet_price" name="Internet Price">
+            <section class="pricing_5 pt64 pb64" id="bs_price_table_5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 col-md-12 pb48">
+                            <div class="price-heading clearfix">
+                                <h2 style="text-align: center; ">
+                                    <b>
+                                        <font style="font-size: 36px;" class="o_default_snippet_text">Get Our Best
+                                            Plan
+                                        </font>
+                                    </b>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing card-deck flex-column flex-md-row mb-3">
+                        <div class="card card-pricing text-center px-3 mb-4">
+                            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm o_default_snippet_text">
+                                Starter
+                            </span>
+                            <div class="bg-transparent card-header pt-4 border-0">
+                                <h1 class="font-weight-normal h1 mb-0 text-center text-primary o_default_snippet_text"
+                                    data-pricing-value="15">$ 12
+                                    <span class="h6 ml-2 text-muted o_default_snippet_text">/ per month</span>
+                                </h1>
+                            </div>
+                            <div class="card-body pt-0">
+                                <ul class="list-unstyled mb-4">
+                                    <li class="o_default_snippet_text">Free Installation</li>
+                                    <li class="o_default_snippet_text">10Mbps Download Speed</li>
+                                    <li class="o_default_snippet_text">Unlimited Data</li>
+                                    <li class="o_default_snippet_text">Unlimited Bandwidth</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-secondary mb-3 o_default_snippet_text"
+                                        data-original-title="" title="" aria-describedby="tooltip839408">Order now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card-pricing popular shadow text-center px-3 mb-4">
+                            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm o_default_snippet_text">
+                                Professional
+                            </span>
+                            <div class="bg-transparent card-header pt-4 border-0">
+                                <h1 class="h1 font-weight-normal text-primary text-center mb-0 o_default_snippet_text"
+                                    data-pricing-value="30">$ 2
+                                    <span class="price o_default_snippet_text">4</span>
+                                    <span class="h6 text-muted ml-2 o_default_snippet_text">/ per
+                                        month
+                                    </span>
+                                </h1>
+                            </div>
+                            <div class="card-body pt-0">
+                                <ul class="list-unstyled mb-4">
+                                    <li class="o_default_snippet_text">Free Installation</li>
+                                    <li class="o_default_snippet_text">20Mbps Download Speed</li>
+                                    <li class="o_default_snippet_text">Unlimited Data</li>
+                                    <li class="o_default_snippet_text">Unlimited Bandwidth</li>
+                                </ul>
+                                <a class="btn btn-primary mb-3 o_default_snippet_text">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card card-pricing text-center px-3 mb-4">
+                            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm o_default_snippet_text">
+                                Business
+                            </span>
+                            <div class="bg-transparent card-header pt-4 border-0">
+                                <h1 class="h1 font-weight-normal text-primary text-center mb-0 o_default_snippet_text"
+                                    data-pricing-value="45">$
+                                    <span class="price o_default_snippet_text">36</span>
+                                    <span class="h6 text-muted ml-2 o_default_snippet_text">/ per
+                                        month
+                                    </span>
+                                </h1>
+                            </div>
+                            <div class="card-body pt-0">
+                                <ul class="list-unstyled mb-4">
+                                    <li class="o_default_snippet_text">Free Installation</li>
+                                    <li class="o_default_snippet_text">30Mbps Download Speed</li>
+                                    <li class="o_default_snippet_text">Unlimited Data</li>
+                                    <li class="o_default_snippet_text">Unlimited Bandwidth</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-secondary mb-3 o_default_snippet_text">
+                                    Order now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card-pricing text-center px-3 mb-4">
+                            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm o_default_snippet_text">
+                                Enterprise
+                            </span>
+                            <div class="bg-transparent card-header pt-4 border-0">
+                                <h1 class="h1 font-weight-normal text-primary text-center mb-0 o_default_snippet_text"
+                                    data-pricing-value="60">$
+                                    <span class="price o_default_snippet_text">48</span>
+                                    <span class="h6 text-muted ml-2 o_default_snippet_text">/ per
+                                        month
+                                    </span>
+                                </h1>
+                            </div>
+                            <div class="card-body pt-0">
+                                <ul class="list-unstyled mb-4">
+                                    <li class="o_default_snippet_text">Free Installation</li>
+                                    <li class="o_default_snippet_text">40Mbps Download Speed</li>
+                                    <li class="o_default_snippet_text">Unlimited Data</li>
+                                    <li class="o_default_snippet_text">Unlimited Bandwidth</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-secondary mb-3 o_default_snippet_text">
+                                    Order now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Price Snippets End-->
+
+        <!-- Internet Facility Snippets start-->
+        <template id="internet_facility" name="Internet Facility">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h1 class="text-center">
+                                <b class="o_default_snippet_text">Internet Features</b>
+                            </h1>
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-500px mr-3 mt-2 pe-7s-server" data-original-title="" title=""
+                                       aria-describedby="tooltip161286" style="color: rgb(99, 74, 165);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;" class="o_default_snippet_text">Best
+                                                    Speed
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-500px fa-life-ring mr-3 mt-2 pe-7s-graph3"
+                                       data-original-title="" title="" aria-describedby="tooltip728194"
+                                       style="color: rgb(99, 74, 165);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;" class="o_default_snippet_text">
+                                                    Installation &amp;amp;
+                                                    Setup
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-500px mr-3 mt-2 pe-7s-menu" data-original-title="" title=""
+                                       aria-describedby="tooltip126122" style="color: rgb(99, 74, 165);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;" class="o_default_snippet_text">24/7
+                                                    Service
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-500px fa-bar-chart mr-3 mt-2 pe-7s-lock"
+                                       data-original-title="" title="" aria-describedby="tooltip257774"
+                                       style="color: rgb(99, 74, 165);"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;" class="o_default_snippet_text">Internet
+                                                    Security
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-500px mr-3 mt-2 pe-7s-video" data-original-title="" title=""
+                                       aria-describedby="tooltip431358" style="color: rgb(99, 74, 165);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;" class="o_default_snippet_text">Live
+                                                    Streamming
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <i class="fa fa-3x fa-500px fa-address-card-o mr-3 mt-2 pe-7s-check"
+                                       data-original-title="" title="" aria-describedby="tooltip949788"
+                                       style="color: rgb(99, 74, 165);"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;" class="o_default_snippet_text">&amp;nbsp;All
+                                                    Browser
+                                                    Support
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Internet Facility Snippets End-->
+
+        <!--Testimonial Snippets start-->
+        <template id="internet_testimonial" name="Internet Testimonial">
+            <section class="pt64 pb64 bg-200 oe_img_bg oe_custom_bg" id="testimonials_d1"
+                     style="background-image: url(&quot;/theme_internet_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">
+                                        What Our Customer Says
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567429842736" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567429842736" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1567429842736" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_internet_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_internet_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_internet_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip885298"/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_internet_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1567429842736" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1567429842736" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Testimonial Snippets End-->
+
+        <!--FAQ Snippets start-->
+        <template id="internet_faq" name="Internet FAQ">
+            <section style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt104">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center" style="text-align: left;">
+                                    <b>
+                                        <font style="font-size: 36px;" class="o_default_snippet_text">&amp;nbsp;FAQ FOR
+                                            INTERNET
+                                            SERVICES
+                                        </font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" href="#collapseOne"
+                                               aria-expanded="false" data-original-title="" title=""
+                                               aria-describedby="tooltip439311"
+                                               class="o_default_snippet_text collapsed">Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse in collapse" data-parent="#accordion"
+                                         style="">
+                                        <div class="panel-body o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipiscing elit. Quisque posuere augue porta turpis ornare,
+                                            nec commodo dui pellentesque. Sed at metus hendrerit, varius
+                                            nisl et, iaculis ex. Nulla vitae ipsum diam. Pellentesque
+                                            vitae metus vitae massa egestas posuere. Mauris ultricies
+                                            vehicula tempor. Pellentesque justo turpis, blandit nec ex
+                                            eu, tempus placerat diam. Morbi a felis commodo eros
+                                            consectetur rhoncus sed eget lectus. Praesent non erat
+                                            vehicula, posuere massa id, ultricies est. Pellentesque sit
+                                            amet venenatis est, quis posuere ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="o_default_snippet_text" role="button" data-toggle="collapse"
+                                               href="#collapseTwo" aria-expanded="true" data-original-title="" title="">
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse show" data-parent="#accordion"
+                                         style="">
+                                        <div class="panel-body o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Quisque posuere augue
+                                            porta turpis ornare, nec commodo dui pellentesque. Sed at
+                                            metus hendrerit, varius nisl et, iaculis ex. Nulla vitae
+                                            ipsum diam. Pellentesque vitae metus vitae massa egestas
+                                            posuere. Mauris ultricies vehicula tempor. Pellentesque
+                                            justo turpis, blandit nec ex eu, tempus placerat diam. Morbi
+                                            a felis commodo eros consectetur rhoncus sed eget lectus.
+                                            Praesent non erat vehicula, posuere massa id, ultricies est.
+                                            Pellentesque sit amet venenatis est, quis posuere ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="o_default_snippet_text collapsed" role="button"
+                                               data-toggle="collapse" href="#collapseThree" aria-expanded="false"
+                                               data-original-title="" title="" aria-describedby="tooltip128852">Section
+                                                3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion"
+                                         style="">
+                                        <div class="panel-body o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Quisque posuere augue
+                                            porta turpis ornare, nec commodo dui pellentesque. Sed at
+                                            metus hendrerit, varius nisl et, iaculis ex. Nulla vitae
+                                            ipsum diam. Pellentesque vitae metus vitae massa egestas
+                                            posuere. Mauris ultricies vehicula tempor. Pellentesque
+                                            justo turpis, blandit nec ex eu, tempus placerat diam. Morbi
+                                            a felis commodo eros consectetur rhoncus sed eget lectus.
+                                            Praesent non erat vehicula, posuere massa id, ultricies est.
+                                            Pellentesque sit amet venenatis est, quis posuere ipsum.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img alt="image" class="img-fluid"
+                                 src="/theme_internet_ultimate_01/static/src/img/placeholder-video.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip909108"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </template>
+        <!--FAQ Snippets End-->
+
+        <!--News Snippets start-->
+        <template id="internet_news" name="Internet News">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <br/>
+                                </h3>
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;" class="o_default_snippet_text">Latest News</font>
+                                    </b>
+                                </h3>
+                                <h3 class="text-center">
+                                    <font style="font-size: 14px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur adipiscing elit. Quisque posuere
+                                    </font>
+                                </h3>
+                                <h3 class="text-center">
+                                    <font style="font-size: 14px;" class="o_default_snippet_text">augue porta turpis
+                                        ornare, nec
+                                        commodo dui pellentesque.
+                                    </font>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">Expert Advisors</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">Written Document
+                                    </font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">Proven Result</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </template>
+        <!--News Snippets End-->
+
+        <!--Grid Content Snippets start-->
+        <template id="internet_grid_content" name="Internet Grid Content">
+            <section class="pb64 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">CCTV Cemera</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Medium length subtitle</p>
+                            <p class="o_default_snippet_text">$75</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">Modem</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Medium length subtitle</p>
+                            <p class="o_default_snippet_text">$50</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">DVD Writter</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Medium length subtitle</p>
+                            <p class="o_default_snippet_text">$40</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">Broadband</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Medium length subtitle</p>
+                            <p>$90</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Grid Content Snippets End-->
+
+        <!--CTA Content Snippets start-->
+        <template id="internet_cta" name="Internet CTA Content">
+            <section class="s_call_to_action sni-block pt48 pb48 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_internet_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 col-lg-8 s_title">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 24px;">
+                                    <b class="o_default_snippet_text">20000+ People Trusted Ultranet ! Be One Of Theme
+                                        Today
+                                    </b>
+                                </font>
+                            </h2>
+                            <p class="s_title_boxed o_default_snippet_text">
+                                <font style="color: rgb(255, 255, 255);">Lorem Ipsum is simply dummy
+                                    text of the printing and typesetting industry.galley of type and
+                                    scrambled it to make a type specimen book. It has survived electronic
+                                    typesetting, remaining essentially Lorem Ipsum.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-md-right">
+                            <div class="input-group js_subscribe hidden d-none" data-list-id="1" data-subscribe="off"
+                                 style="">
+                                <input type="email" name="email" class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..."/>
+                                <span class="input-group-btn">
+                                    <a href="#" class="br-right px-3 py-2 js_subscribe_btn btn btn-primary flat btn-lg">
+                                        Subscribe
+                                    </a>
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                    Thanks for your subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--CTA Content Snippets End-->
+
+        <!--Client Logo Snippets start-->
+        <template id="internet_client_logo" name="Internet Client Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_internet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Client Logo Snippets End-->
+
+        <!--Footer Snippets start-->
+        <template id="internet_footer" name="Internet Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb32" id="footer_6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4  mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy.Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-map-marker mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        <span>Address:</span>
+                                        <span t-field="res_company.street"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-phone mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        <span>Phone:</span>
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-envelope mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        <span>Email:</span>
+                                        <span t-field="res_company.email"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2  mb32">
+                                <h5 class="text-uppercase font-weight-bold o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">l</font>
+                                    <font style="color: rgb(255, 255, 255);">inks</font>
+                                </h5>
+                                <hr style="width: 35px; margin: 0; padding: 0;" class="mb16"/>
+                                <ul class="list-unstyled text-uppercase">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">theme
+                                            features
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">page
+                                            builder
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">private
+                                            policy
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">Internet Product
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            services
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">gallary
+                                            layout
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">Internet Facility
+
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            Teams &amp; Condition
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3  mb32">
+                                <h5 class="text-uppercase font-weight-bold o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">letest posts</font>
+                                </h5>
+                                <hr style="width: 35px; margin: 0; padding: 0;" class="mb16"/>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_internet_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit amet, consectetur adipisicing elit
+                                        </a>
+                                        <p class="o_default_snippet_text">June 5,2019</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_internet_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit amet, consectetur adipisicing elit
+                                        </a>
+                                        <p class="o_default_snippet_text">June 5,2019</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_internet_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip190449"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit amet, consectetur adipisicing elit
+                                        </a>
+                                        <p class="o_default_snippet_text">June 5,2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="text-uppercase font-weight-bold o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">short links</font>
+                                </h5>
+                                <hr style="width: 35px; margin: 0; padding: 0;" class="mb16"/>
+                                <a href="#" target="_blank" class="o_default_snippet_text">Lorem ipsum dolor
+                                    sit amet
+                                </a>
+                                <hr class="mt8 mb8"/>
+                                <a href="#" target="_blank" class="o_default_snippet_text">Lorem ipsum dolor
+                                    sit amet
+                                </a>
+                                <hr class="mt8 mb8"/>
+                                <a href="#" target="_blank" class="o_default_snippet_text">Lorem ipsum dolor
+                                    sit amet
+                                </a>
+                                <hr class="mt8 mb8"/>
+                                <a href="#" target="_blank" class="o_default_snippet_text">Lorem ipsum dolor
+                                    sit amet
+                                </a>
+                                <hr class="mt8 mb8"/>
+                                <a href="#" target="_blank" class="o_default_snippet_text">Lorem ipsum dolor
+                                    sit amet
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Internet Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_internet_ultimate_01.internet_banner"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_right_content"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_feature"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_services"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_price"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_facility"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_testimonial"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_faq"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_news"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_grid_content"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_cta"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_client_logo"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_internet_ultimate_01.internet_footer"
+                           t-thumbnail="/theme_internet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+
+    </data>
+</odoo>

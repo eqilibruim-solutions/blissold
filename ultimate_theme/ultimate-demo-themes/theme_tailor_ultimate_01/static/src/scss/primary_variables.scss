@@ -1,0 +1,78 @@
+//------------------------------------------------------------------------------
+// Colors
+//------------------------------------------------------------------------------
+
+// Theme colors
+$o-theme-color-palettes: (
+    (
+        'alpha': #57c778,
+        'beta': #ffffff,
+        'gamma': #484848,
+        'delta': #62b8bc,
+        'epsilon': #777777,
+    ),
+);
+
+// Colors
+$o-color-palettes: ();
+@each $-palette in $o-theme-color-palettes {
+    $o-color-palettes: append($o-color-palettes, (
+        'body': #ffffff,
+        'menu': #ffffff,
+        'footer': #ffffff,
+        'text': #777777,
+        'h1': #504f56,
+        'h2': #504f56,
+        'h3': #504f56,
+        'h4': #504f56,
+        'h5': #504f56,
+        'h6': #504f56,
+    ));
+}
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+// FIXME solve per font options
+
+$o-theme-fonts: (
+    (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Noto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"), // This is BS default
+    ('Open Sans', sans-serif),
+    ('Source Sans Pro', sans-serif),
+    ('Raleway', sans-serif),
+    ('Noto Serif', serif),
+    ('Arvo', Times, serif),
+    ('Work Sans', serif),
+    );
+$o-theme-font-urls: (
+    null,
+    'Open+Sans:400,400i,700,700i',
+    'Source+Sans+Pro:400,400i,700,700i',
+    'Raleway:400,400i,700,700i',
+    'Noto+Serif:400,400i,700,700i',
+    'Arvo:400,400i,700,700i',
+    'Work+Sans:400,400i,700,700i',
+    );
+$o-theme-font-names: (
+    'Bootstrap',
+    'Open Sans',
+    'Source Sans Pro',
+    'Raleway',
+    'Noto Serif',
+    'Arvo',
+    'Work Sans',
+    );
+
+//------------------------------------------------------------------------------
+// Website customizations
+//------------------------------------------------------------------------------
+
+$o-website-values-palettes: (
+    (
+        'font-number': 2,
+        'headings-font-number': 7,
+        'navbar-font-number': 7,
+        'buttons-font-number': 7,
+    ),
+);

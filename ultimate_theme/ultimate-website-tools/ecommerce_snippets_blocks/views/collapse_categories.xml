@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Collapse Categories -->
+
+
+
+    <template id="products_categories_inherit"
+              inherit_id="website_sale.products_categories">s
+        <xpath expr="//ul" position="before">
+            <h4 class="category-heading">Product Category</h4>
+        </xpath>
+        <xpath expr="//ul" position="attributes">
+            <attribute name="id">o_shop_collapse_category</attribute>
+        </xpath>
+    </template>
+
+    <!--Price Filter -->
+    <template id="attribute_price_inherit" inherit_id="website_product_misc_options_73lines.website_product_prices">
+        <xpath expr="//div[@id='price_div']" position="replace">
+            <div id="price_div">
+                <div id="filter-attribute">
+                    <h4 id="heading">Price Filter</h4>
+
+                    <div id="price_range">
+                        <input type="hidden" id="price_min" t-att-value="price_min"
+                               name="price_min"/>
+                        <input type="hidden" id="price_max" t-att-value="price_max"
+                               name="price_max"/>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- tag -->
+    <template id="tag_inherit" inherit_id="website_product_misc_options_73lines.website_product_tags">
+        <xpath expr="//div[@id='tags_div']" position="replace">
+            <div id="tags_div">
+                <div id="filter-attribute">
+                    <h4 id="heading-1">Tags</h4>
+
+                    <t t-foreach="tags" t-as="tag">
+                        <label class="product-tag btn btn-primary btn-xs mb8">
+                            <input type="checkbox" name="tags" class="hidden product_tags"
+                                   t-att-title="tag.name" t-att-value="'%s-%s' % (tag.name,tag.id)"
+                                   t-att-checked="'checked' if tag.id in tag_set else None"/>
+                            <span style="font-weight: normal" t-field="tag.name"/>
+                        </label>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

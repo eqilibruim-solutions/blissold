@@ -1,0 +1,976 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="tiles_banner" name="Tiles Banner">
+            <section class="s_cover parallax align-content-center align-items-center d-flex full-height bg-black-50"
+                     data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_tiles_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white" style="font-size: 62px; text-align: center;">
+                                <font style="">
+                                    <b>You</b>
+                                    Can Choose Best Flooring Here
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two paragraphs describing your product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="#" class="btn btn-outline-alpha" data-original-title="" title=""
+                               aria-describedby="tooltip676206">
+                                <b data-original-title="" title="" aria-describedby="tooltip252106">ABOUT US</b>
+                            </a>
+                            <a href="#" class="btn btn-outline-alpha" data-original-title="" title=""
+                               aria-describedby="tooltip22366">
+                                <b data-original-title="" title="" aria-describedby="tooltip860594">VIEW PROJECTS</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Facility Start-->
+        <template id="tiles_facility" name="Tiles Facility">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip617156" style=""/>
+                                <h3>
+                                    <b class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Professional Team</font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip151104"/>
+                                <h3>
+                                    <b class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Trustworthy</font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip583537"/>
+                                <h3>
+                                    <b class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Awesome Results</font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facility End-->
+
+        <!--Snippet Service Start-->
+        <template id="tiles_service" name="Tiles Service">
+            <section class="bg-white oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt24">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="font-size: 36px;" class="o_default_snippet_text">Our Services</font>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">TILES FLOORING</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Medium length subtitle</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">LAMINATE FLOORING</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Medium length subtitle</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">SOLID WOOD FLOORING</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Medium length subtitle</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">FLOOR REPAIR</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Medium length subtitle</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">DUSTLESS FLOOR SANDLING</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Medium length subtitle</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">WOODEN STAIRCASE</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Medium length subtitle</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt16">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb80" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat btn-lg" data-original-title="" title=""
+                                       aria-describedby="tooltip718519">
+                                        <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                            More Services
+                                            <b>&amp;nbsp;</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet CTA 1 Start-->
+        <template id="tiles_cta1" name="Tiles CTA 1">
+            <section class="s_call_to_action sni-block pt64 pb64 bg-alpha oe_custom_bg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-8">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">Have Any Projects For Us?
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-3">
+                            <p>
+                                <a href="#" class="flat flat btn btn-epsilon flat btn-lg o_default_snippet_text"
+                                   data-original-title="" title="" style="">
+                                    <font style="font-size: 14px;">
+                                        <b>Contact Us&amp;nbsp;</b>
+                                    </font>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA 1 End-->
+
+        <!--Snippet Project Start-->
+        <template id="tiles_project" name="Tiles Project">
+            <section class="pb64 pt48 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_tiles_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt24">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">Latest Projects
+                                    </font>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">STYLISH CERAMIC TILES
+                                    </font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Medium length
+                                    subtitle
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">WALL TO WALL CARPETING
+                                    </font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Medium length
+                                    subtitle
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">VINAYL FLOORING</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Medium length
+                                    subtitle
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">CARPET FLOORING</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Medium length
+                                    subtitle
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Project End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="tiles_testimonial" name="Tiles Testimonial">
+            <section class="pt64 pb64 bg-epsilon oe_custom_bg" id="testimonials_d2" style="">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="font-size: 36px;" class="o_default_snippet_text">
+                                    <b>What Customer Say</b>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567490491820" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567490491820" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1567490491820" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pb0 pt48 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="font-size: 18px;">&amp;nbsp;Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_tiles_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip471449"
+                                                 style=""/>
+                                            <span class="o_default_snippet_text">John Alison</span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pb0 pt48" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="font-size: 18px;">&amp;nbsp;Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_tiles_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip671672"/>
+                                            <span class="o_default_snippet_text">Jane DOE</span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="tiles_contact" name="Tiles Contact Us">
+            <section class="pt64 pb64 bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 pt0">
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <span class="o_default_snippet_text">What We Offer</span>
+                                </font>
+                            </h2>
+                            <p class="pt8 pb8 o_default_snippet_text">
+                                <font style="color: rgb(0, 0, 0); font-size: 18px;" class="o_default_snippet_text">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum. &amp;nbsp;
+                                </font>
+                            </p>
+                            <div class="row">
+                                <ul class="list-unstyled px-1">
+                                    <li class="mb8 mt8">
+                                        <i class="fa fa-check-circle-o px-2" data-original-title="" title=""
+                                           aria-describedby="tooltip975827" style="color: rgb(0, 0, 0);"/>
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;"
+                                              class="o_default_snippet_text">&amp;nbsp;Flooring and Tiling Advise
+                                        </font>
+                                    </li>
+                                    <li class="mb8 mt8">
+                                        <i class="fa fa-check-circle-o px-2" style="color: rgb(0, 0, 0);"/>
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;"
+                                              class="o_default_snippet_text">&amp;nbsp;How to lay carpet floor tiles;
+                                        </font>
+                                    </li>
+                                    <li class="mb8 mt8">
+                                        <i class="fa fa-check-circle-o px-2" data-original-title="" title=""
+                                           aria-describedby="tooltip752720" style="color: rgb(0, 0, 0);"/>
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;"
+                                              class="o_default_snippet_text">Laminate flooring
+                                        </font>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_text pt16 pb16 bg-alpha" data-name="Text">
+                            <h2 style="text-align: center; ">
+                                <font style="font-size: 36px;">Contact Us</font>
+                            </h2>
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12 o_has_error">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="contact_name" placeholder="Your Name" required="" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field col-md-12">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input" name="phone"
+                                                   placeholder="Phone Number" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12 o_has_error">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="email_from" required="" placeholder="Email" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12 o_has_error">
+                                        <div class="col-12">
+                                            <textarea class="form-control o_website_form_input" name="description"
+                                                      required="" placeholder="Your Question"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="col-12">
+                                            <div class="s_btn text-center" data-name="Buttons">
+                                                <a href="#" role="button"
+                                                   class="btn btn-primary btn-lg btn-epsilon o_website_form_send"
+                                                   data-original-title="" title="" aria-describedby="tooltip826156">
+                                                    <b>
+                                                        <font style="font-size: 14px;" data-original-title="" title=""
+                                                              aria-describedby="tooltip136624">SEND
+                                                        </font>
+                                                    </b>
+                                                </a>&amp;nbsp;
+
+
+                                                <span id="o_website_form_result" class="text-danger ml8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Product Start-->
+        <template id="tiles_product" name="Tiles Product">
+            <section class="bg-white oe_custom_bg pt56">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt24">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="font-size: 36px;" class="o_default_snippet_text">Just Arrived
+                                        Products
+                                    </font>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 class="o_default_snippet_text">Wood #1</h3>
+                            <p>
+                                <font style="font-size: 18px;" class="text-alpha o_default_snippet_text">$50/</font>
+                                <font style="color: rgb(0, 0, 0); font-size: 18px;" class="o_default_snippet_text">sq
+                                    In
+                                </font>
+                            </p>
+                            <a href="#" class="pb8 pt8 btn btn-alpha flat o_default_snippet_text" data-original-title=""
+                               title="" aria-describedby="tooltip674703">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                    ADD TO CART
+                                </font>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 class="o_default_snippet_text">Wood #2</h3>
+                            <p>
+                                <font class="text-alpha o_default_snippet_text" style="font-size: 18px;">$60/</font>
+                                <font style="color: rgb(0, 0, 0); font-size: 18px;" class="o_default_snippet_text">sq
+                                    In
+                                </font>
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8 btn btn-alpha flat o_default_snippet_text" data-original-title=""
+                               title="" aria-describedby="tooltip807622">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                    ADD TO CART
+                                </font>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 class="o_default_snippet_text">Wood #3</h3>
+                            <p>
+                                <font class="text-alpha o_default_snippet_text" style="font-size: 18px;">$70/</font>
+                                <font style="color: rgb(0, 0, 0); font-size: 18px;" class="o_default_snippet_text">sq
+                                    In
+                                </font>
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8 btn btn-alpha flat o_default_snippet_text" data-original-title=""
+                               title="" aria-describedby="tooltip807622" style="">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                    ADD TO CART
+                                </font>
+                            </a>
+                            <br/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_tiles_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 class="o_default_snippet_text">Wood #4</h3>
+                            <p>
+                                <font class="text-alpha o_default_snippet_text" style="font-size: 18px;">$80/</font>
+                                <font style="color: rgb(0, 0, 0); font-size: 18px;" class="o_default_snippet_text">sq
+                                    In
+                                </font>
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8 btn btn-alpha flat o_default_snippet_text" data-original-title=""
+                               title="" aria-describedby="tooltip807622" style="">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                    ADD TO CART
+                                </font>
+                            </a>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb64" data-name="Buttons">
+                                    <a href="#" class="btn btn-alpha flat btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip498112">
+                                        <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                            View More
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product End-->
+
+        <!--Snippet Pricing Start-->
+        <template id="tiles_pricing" name="Tiles Pricing Table">
+            <section class="pricing_4 pt64 pb64 oe_img_bg oe_custom_bg" id="bs_price_table_4"
+                     style="background-image: url(&quot;/theme_tiles_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 col-md-12 pb48">
+                            <div class="price-heading clearfix">
+                                <h2 style="text-align: center; ">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                        <span class="o_default_snippet_text">Choose Your Best One</span>
+                                    </font>&amp;nbsp;
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-left align-items-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="pricings">
+                                <div class="pricings__top pricings__top--free">
+                                    <div class="pricing-tag pricing-tag--free o_default_snippet_text">Free</div>
+                                    <span class="top-header o_default_snippet_text">Basic Plan</span>
+                                    <div class="hr"/>
+                                    <span class="price o_default_snippet_text">
+                                        <sup>
+                                            <small class="o_default_snippet_text">$</small>
+                                        </sup>&amp;nbsp;50&amp;nbsp;
+                                    </span>
+                                    <span class="per-month o_default_snippet_text">Per Instalation</span>
+                                </div>
+                                <div class="pricings__bottom">
+                                    <div class="logo-shaped logo-shaped--basic">
+                                        <i class="fa fa-arrow-down"/>
+                                    </div>
+                                    <ul class="props">
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font class="text-epsilon" style="">Free Instalation</font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Unique Design Offer &amp;nbsp;
+                                            </font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Complete Site Washing &amp;nbsp;
+                                            </font>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-alpha flat btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip81823">Choose Plan
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="pricings">
+                                <div class="pricings__top pricings__top--premium">
+                                    <div class="pricing-tag pricing-tag--premium o_default_snippet_text">Premium</div>
+                                    <span class="top-header o_default_snippet_text">Premium</span>
+                                    <div class="hr"/>
+                                    <span class="price o_default_snippet_text">
+                                        <sup>
+                                            <small class="o_default_snippet_text">$</small>
+                                        </sup>&amp;nbsp;95&amp;nbsp;
+                                    </span>
+                                    <span style="font-size: 17px;" class="o_default_snippet_text">Per Instalation</span>
+                                </div>
+                                <div class="pricings__bottom">
+                                    <div class="hex">
+                                        <div class="hex_logo">
+                                            <i class="fa fa-arrow-down"/>
+                                        </div>
+                                    </div>
+                                    <ul class="props">
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Free Instalation</font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Unique Design Offer &amp;nbsp;
+                                            </font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Complete Site Washing &amp;nbsp;
+                                            </font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Flooring</font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Paving</font>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-alpha flat btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip560543">CHOOSE PLAN
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="pricings">
+                                <div class="pricings__top pricings__top--standard">
+                                    <div class="pricing-tag pricing-tag--standard o_default_snippet_text">Standard</div>
+                                    <span class="top-header o_default_snippet_text">Standard</span>
+                                    <div class="hr"/>
+                                    <span class="price o_default_snippet_text">
+                                        <sup>
+                                            <small class="o_default_snippet_text">$</small>
+                                        </sup>&amp;nbsp;75&amp;nbsp;
+                                    </span>
+                                    <span style="font-size: 17px;" class="o_default_snippet_text">Per Instalation</span>
+                                </div>
+                                <div class="pricings__bottom">
+                                    <div class="logo-shaped logo-shaped--standard">
+                                        <i class="fa fa-arrow-down"/>
+                                    </div>
+                                    <ul class="props">
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Free Instalation</font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Unique Design Offer &amp;nbsp;
+                                            </font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Complete Site Washing &amp;nbsp;
+                                            </font>
+                                        </li>
+                                        <li class="props__item props__item--basic o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Flooring</font>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-alpha flat btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip557098">CHOOSE PLAN
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Pricing End-->
+
+        <!--Snippet Blog Start-->
+        <template id="tiles_blog" name="Tiles Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center"
+                     data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet CTA 2 Start-->
+        <template id="tiles_cta2" name="Tiles CTA 2">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_tiles_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pb24">
+                                <font style="font-size: 36px;" class="o_default_snippet_text">Get Best Flooring
+                                    Solution
+                                </font>
+                            </h2>
+                            <h2 class="font-weight-bold pb24 o_default_snippet_text">Ask For A Free
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Estimate</font>
+                            </h2>
+                            <a href="#"
+                               class="mb24 mt24 mx-3 px-4 rounded-0 btn btn-epsilon flat btn-lg o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip864804">CONTACT US
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA 2 End-->
+
+        <!--Snippet Footer Start-->
+        <template id="tiles_footer" name="Tiles Footer">
+            <section class="oe_structure oe_custom_bg" id="footer"
+                     style="background-image: url(&quot;/theme_tiles_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="pt64 pb32 oe_img_bg" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany"
+                                     title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1 text-dark"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1 text-dark"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1 text-dark"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1 text-dark"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5>
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">OUR PRODUCTS</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled text-uppercase mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip7929">
+                                            <font style="color: rgb(255, 255, 255);">Carpet</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip231517">
+                                            <font style="color: rgb(255, 255, 255);">Hardwood</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip929213">
+                                            <font style="color: rgb(255, 255, 255);">marbel tiles</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">Laminate</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip787215">vinayle tiles
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5>
+                                    <font color="#ffffff">
+                                        <b>CONTACT</b>
+                                    </font>
+                                </h5>
+                                <p class="mt24 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor incididunt ut.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="media">
+                                    <i class="fa fa-home mr-3 mt-1 text-white"></i>
+                                    <div class="media-body">
+                                        <span t-field="res_company.street" class="text-white"/>
+                                        <span t-field="res_company.city" class="text-white"/>
+                                        <span t-field="res_company.state_id.name" class="text-white"/>
+                                        <span t-field="res_company.zip" class="text-white"/>
+                                        <span t-field="res_company.country_id.name" class="text-white"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-envelope mr-3 mt-1 text-white"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.email" class="text-white"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-phone mr-3 mt-1 text-white"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.phone" class="text-white"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>OUR NEWSLETTER</b>
+                                    </font>
+                                </h5>
+                                <p class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="2"
+                                     data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Tiles Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_banner"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_facility"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_service"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_cta1"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_project"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_testimonial"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_contact"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_product"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_pricing"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_blog"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_cta2"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tiles_ultimate_01.tiles_footer"
+                           t-thumbnail="/theme_tiles_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

@@ -1,0 +1,52 @@
+#o-carousel-product .carousel-indicators li {
+    margin: 4px !important;
+    width: 72px !important;
+    height: 72px !important;
+}
+
+@media (min-width: 1200px) {
+    #product_detail #o-carousel-product > ol.carousel-indicators {
+        height: auto !important;
+        max-height: 407px;
+        overflow-x: hidden;
+        width: 20% !important;
+        display: block;
+        float: left;
+        overflow-y: scroll;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;
+
+        /* IE 10+ */
+    }
+
+    #product_detail #o-carousel-product > ol.carousel-indicators::-webkit-scrollbar { /* WebKit */
+        width: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #product_detail #o-carousel-product > .carousel-outer {
+        width: 80%;
+        display: block;
+        position: relative;
+        float: right;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #product_detail #o-carousel-product > ol.carousel-indicators > li {
+        width: 65px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #product_detail #o-carousel-product > ol.carousel-indicators > li {
+        display: block;
+        border: 1px solid #ddd !important;
+        width: 75px !important;
+        height: auto !important;
+        margin: 6px auto !important;
+    }
+}

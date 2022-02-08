@@ -1,0 +1,820 @@
+<odoo>
+    <data>
+        <!--Snippet Mid Header Start-->
+        <template id="musical_instruments_mid_header" name="Musical Instruments Mid Header">
+            <section class="oe_structure">
+                <section class="bg-beta oe_custom_bg" id="mid-header-top-7" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 oe_structure col-lg-4 col-md-6 col-sm-12 pt8 pb8 align-self-center text-center text-lg-left text-md-left"
+                                 id="mid-header-top-left">
+                                <li class="list-inline-item">
+                                    <div class="oe_structure oe_empty">
+                                        <span class="text-white-100 o_default_snippet_text">Free delivery and free
+                                            returns within the US
+                                        </span>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col-12 oe_structure col-lg-8 col-md-6 col-sm-12 pt8 pb8 align-self-center text-center text-lg-right text-md-right"
+                                 id="mid-header-top-right">
+                                <li class="list-inline-item">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="d-flex o_default_snippet_text">
+                                            Call Us :
+                                            <span t-field="res_company.phone"/>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item account_custom">
+                                    <div class="dropdown">
+                                        <a class="btn btn-link dropdown-toggle o_default_snippet_text" type="button"
+                                           id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                                           aria-expanded="false">
+                                            My Account
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                            <a class="text-xs-center dropdown-item o_default_snippet_text"
+                                               href="/web/login" id="ultimate_sign_in">
+                                                Sign in
+                                            </a>
+                                            <a href="/web/signup" class="text-xs-center dropdown-item"
+                                               id="ultimate_register">
+                                                <span class="o_default_snippet_text">Register</span>
+                                            </a>
+                                            <a href="/my/home" role="menuitem"
+                                               class="dropdown-item o_default_snippet_text" id="ultimate_my_account">My
+                                                Account
+                                            </a>
+                                            <a class="dropdown-item o_default_snippet_text" role="menuitem"
+                                               id="ultimate_logout" href="/web/session/logout?redirect=/">
+                                                Logout
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="bg-white oe_custom_bg" id="mid-header-bottom-7">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-2 pt8 pb8 oe_structure pt8 pb8"
+                                 id="mid-header-bottom-left">
+                                <div class="oe_structure oe_empty">
+                                    <span>
+                                        <form action="/shop" method="get">
+                                            <div class="input-group">
+                                                <input type="text" name="search"
+                                                       class="search-query form-control oe_search_box search_input"
+                                                       placeholder="Enter Keyword to Search..."/>
+                                                <div class="input-group-append">
+                                                    <button type="submit"
+                                                            class="btn btn-dark oe_search_button search_button"
+                                                            aria-label="Search" title="Search">
+                                                        <i class="fa fa-search text-white"/>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-4 col-md-4 pt8 pb8 text-center text-md-center text-lg-center oe_structure"
+                                 id="mid-header-bottom-center">
+                                <div class="oe_structure oe_empty">
+                                    <a href="/">
+                                        <img class="img-fluid" src="/logo.png" alt="Logo of YourCompany"
+                                             title="YourCompany"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-4 col-md-4 pt8 pb8 align-self-center text-center text-md-right text-lg-right oe_structure"
+                                 id="mid-header-bottom-right">
+                                <li id="my_wish" class="list-inline-item">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="d-flex">
+                                            <a href="/shop/wishlist" class="pr-2">
+                                                <i class="fa fa-heart text-danger text-dark" title="wishlist"
+                                                   style="font-size:18px;"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="my_cart" class="list-inline-item">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="d-flex">
+                                            <a href="/shop/cart" class="pr-3">
+                                                <i class="fa fa-shopping-cart text-danger  text-dark"
+                                                   title="add to cart" style="font-size:18px;"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+        <!--Snippet Banner Start-->
+        <template id="musical_instruments_banner" name="Musical Instruments Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="pt16 col-lg-12 s_title" data-name="Title">
+                            <p style="text-align: center; ">
+                                <font class="text-alpha" style="font-size: 18px;">START PLAYING GUITAR TODAY</font>
+                            </p>
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <font class="text-beta" style="">
+                                    <b>Limited Edition</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">
+                                <font class="text-beta" style="">Write one or two paragraphs describing your product,
+                                    services or a specific feature.&amp;nbsp;
+                                </font>
+                                <br/>
+                                <font class="text-beta" style="">&amp;nbsp;To be successful your content needs to be
+                                    useful to your readers.&amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mb8 mt8 btn btn-primary btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip862432">
+                                <font style="font-size: 14px;" class="text-epsilon">
+                                    <b>SHOP NOW</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Block One Start-->
+        <template id="musical_instruments_image_block_one" name="Musical Instruments Image Block One">
+            <section class="pt64 pb64" id="ecommerce_block_13">
+                <div class="container page-builder-ltr">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-240x253.png"
+                                                 class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                                 aria-describedby="tooltip20505"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-240x253.png"
+                                                 class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                                 aria-describedby="tooltip20505"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-240x253.png"
+                                                 class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                                 aria-describedby="tooltip20505"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img editor_enable">
+                                        <a href="#">
+                                            <img src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-240x253.png"
+                                                 class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                                 aria-describedby="tooltip31749"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block One End-->
+
+        <!--Snippet Tab Carousel One Start-->
+        <template id="musical_instruments_tab_carousel_one" name="Musical Instruments Tab Carousel One">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="">
+                            <ul class="nav nav-tabs text-center" role="tablist" id="proTab"
+                                style="&#10;    /* margin: 0 auto; */&#10;">
+                                <li class="nav-item">
+                                    <a class="nav-link border-0 active show o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415461_42" role="tab"
+                                       id="nav_tabs_link_1582194415461_42"
+                                       aria-controls="nav_tabs_content_1582194415461_42" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip980269">All
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link border-0 o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415462_43" role="tab"
+                                       id="nav_tabs_link_1582194415462_43"
+                                       aria-controls="nav_tabs_content_1582194415462_43" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip980269">Accessories
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link border-0 o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415462_44" role="tab"
+                                       id="nav_tabs_link_1582194415462_44"
+                                       aria-controls="nav_tabs_content_1582194415462_44" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip316927">Drums &amp;amp;
+                                        Percussion
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link border-0 o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415462_45" role="tab"
+                                       id="nav_tabs_link_1582194415462_45"
+                                       aria-controls="nav_tabs_content_1582194415462_45" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip322454">Keyboard
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="nav_tabs_content_1582194415461_42"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1582194415461_42">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav_tabs_content_1582194415462_43" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582194415462_43">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20" style=""/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1582194415462_44" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582194415462_44">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20" style=""/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1582194415462_45" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582194415462_45">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20" style=""/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel One End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="musical_instruments_brand_carousel" name="Musical Instruments Brand Carousel">
+            <section class="s_brand_carousel mb8 js_get_objects s_brand_bg_dark owl_nav_style_7" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d7"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d7"/>
+        </template>
+        <!--Snippet Brand Carousel End-->
+
+        <!--Snippet Image Block Two Start-->
+        <template id="musical_instruments_image_block_two" name="Musical Instruments Image Block Two">
+            <section class="pb64 pt0" id="ecommerce_block_13">
+                <div class="container page-builder-ltr">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                                 class="img-fluid" data-original-title="" title=""
+                                                 aria-describedby="tooltip41013"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img editor_enable">
+                                        <a href="#">
+                                            <img src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                                 class="img-fluid" data-original-title="" title=""
+                                                 aria-describedby="tooltip966638"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img editor_enable">
+                                        <a href="#">
+                                            <img src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                                 class="img-fluid" data-original-title="" title=""
+                                                 aria-describedby="tooltip966638"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Two End-->
+
+        <!--Snippet Tab Carousel Two Start-->
+        <template id="musical_instruments_tab_carousel_two" name="Musical Instruments Tab Carousel Two">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="">
+                            <ul class="nav nav-tabs text-center" role="tablist" id="proTab">
+                                <li class="nav-item">
+                                    <a class="nav-link border-0 active show o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415461_42" role="tab"
+                                       id="nav_tabs_link_1582194415461_42"
+                                       aria-controls="nav_tabs_content_1582194415461_42" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip980269">All
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link border-0 o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415462_43" role="tab"
+                                       id="nav_tabs_link_1582194415462_43"
+                                       aria-controls="nav_tabs_content_1582194415462_43" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip980269">Accessories
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link border-0 o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415462_44" role="tab"
+                                       id="nav_tabs_link_1582194415462_44"
+                                       aria-controls="nav_tabs_content_1582194415462_44" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip316927">Drums &amp;amp;
+                                        Percussion
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link border-0 o_default_snippet_text" data-toggle="tab"
+                                       href="#nav_tabs_content_1582194415462_45" role="tab"
+                                       id="nav_tabs_link_1582194415462_45"
+                                       aria-controls="nav_tabs_content_1582194415462_45" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip322454">Keyboard
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="nav_tabs_content_1582194415461_42"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1582194415461_42">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav_tabs_content_1582194415462_43" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582194415462_43">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20" style=""/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1582194415462_44" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582194415462_44">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20" style=""/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1582194415462_45" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582194415462_45">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_7"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d20" style=""/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel Two End-->
+
+        <!--Snippet Blog Carousel Start-->
+        <template id="musical_instruments_blog_carousel" name="Musical Instruments Blog Carousel">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_left" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog Carousel End-->
+
+        <!--Snippet Newsletter And Testimonial Start-->
+        <template id="musical_instruments_newsletter_and_testimonial"
+                  name="Musical Instruments Newsletter And Testimonial">
+            <section class="pt32">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100 bg-alpha">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64 pb64" id="footer_7">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb16">
+                                                <h3>
+                                                    <font class="text-epsilon" style="font-size: 32px;">
+                                                        <b>Subscribe to our Newsletter</b>
+                                                    </font>
+                                                </h3>
+                                                <p>
+                                                    <font class="text-epsilon" style="">Lorem ipsum dolor sit amet,
+                                                        consectetur adipiscing elit
+                                                    </font>
+                                                    <br/>
+                                                    <font class="text-epsilon" style="">sed do eiusmod tempor
+                                                        incididunt
+                                                    </font>
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-10 col-lg-10 offset-lg-1 offset-md-1">
+                                                <div class="input-group js_subscribe hidden" data-list-id="1"
+                                                     data-subscribe="off">
+                                                    <input type="email" name="email"
+                                                           class="bg-white border-right-0 js_subscribe_email form-control br-left"
+                                                           placeholder="your email..."
+                                                           style="border-radius: 5px 0 0 5px !important; height: 39px !important; border: 1px solid #ffffff !important;"/>
+                                                    <span class="input-group-btn">
+                                                        <a href="#"
+                                                           class="br-right border-left-0 px-3 py-2 js_subscribe_btn btn btn-epsilon"
+                                                           data-original-title="" title=""
+                                                           aria-describedby="tooltip892962"
+                                                           style="border-radius: 0 5px 5px 0 !important;">
+                                                            <font class="text-alpha" style="">Subscribe</font>
+                                                        </a>
+                                                        <a href="#"
+                                                           class="btn br-right border-left-0 px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                                           disabled="disabled"
+                                                           style="border-radius: 0 5px 5px 0 !important;">Thanks
+                                                        </a>
+                                                    </span>
+                                                    <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                                        Thanks for your subscription!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 p-0 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt16 pb16 oe_img_bg oe_custom_bg" id="testimonials_d2"
+                                         style="background-image: url(&quot;theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                                    <div id="myCarousel1582524844764"
+                                         class="s_quotes_carousel carousel slide s_carousel_default"
+                                         data-interval="10000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel1582524844764" data-slide-to="0"
+                                                class="active"/>
+                                            <li data-target="#myCarousel1582524844764" data-slide-to="1"/>
+                                            <li data-target="#myCarousel1582524844764" data-slide-to="2"/>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item pt0 pb0 active" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8"
+                                                                style="padding:30px !important;">
+                                                            <i class="d-block fa fa-quote-left mx-auto text-alpha fa-2x mb16"
+                                                               data-original-title="" title=""
+                                                               aria-describedby="tooltip751809" style=""/>
+                                                            <p class="lead text-center o_default_snippet_text">
+                                                                <font class="text-epsilon" style="">Write a quote here
+                                                                    from one of your customers. Quotes are a great way
+                                                                    to build confidence in your products or services.&amp;nbsp;
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center mb32">
+                                                                <img class="img"
+                                                                     src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                     alt=""/>
+                                                                <span class="o_default_snippet_text">
+                                                                    <font class="text-epsilon" style="">&amp;nbsp;Jane
+                                                                        DOE, CEO of&amp;nbsp;
+                                                                    </font>
+                                                                    <b class="o_default_snippet_text">
+                                                                        <font class="text-epsilon" style="">&amp;nbsp;MyCompany&amp;nbsp;</font>
+                                                                    </b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt0 pb0" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8"
+                                                                style="padding:30px !important;">
+                                                            <i class="d-block fa fa-quote-left mx-auto text-alpha fa-2x mb16"
+                                                               data-original-title="" title=""
+                                                               aria-describedby="tooltip751809" style=""/>
+                                                            <p class="lead text-center o_default_snippet_text">
+                                                                <font class="text-epsilon" style="">Write a quote here
+                                                                    from one of your customers. Quotes are a great way
+                                                                    to build confidence in your products or services.&amp;nbsp;
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center mb32">
+                                                                <img class="img"
+                                                                     src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                     alt=""/>
+                                                                <span class="o_default_snippet_text">
+                                                                    <font class="text-epsilon" style="">&amp;nbsp;Jane
+                                                                        DOE, CEO of&amp;nbsp;
+                                                                    </font>
+                                                                    <b class="o_default_snippet_text">
+                                                                        <font class="text-epsilon" style="">&amp;nbsp;MyCompany&amp;nbsp;</font>
+                                                                    </b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt0 pb0" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8"
+                                                                style="padding:30px !important;">
+                                                            <i class="d-block fa fa-quote-left mx-auto text-alpha fa-2x mb16"
+                                                               data-original-title="" title=""
+                                                               aria-describedby="tooltip751809" style=""/>
+                                                            <p class="lead text-center o_default_snippet_text">
+                                                                <font class="text-epsilon" style="">Write a quote here
+                                                                    from one of your customers. Quotes are a great way
+                                                                    to build confidence in your products or services.&amp;nbsp;
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center mb32">
+                                                                <img class="img"
+                                                                     src="theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                     alt=""/>
+                                                                <span class="o_default_snippet_text">
+                                                                    <font class="text-epsilon" style="">&amp;nbsp;Jane
+                                                                        DOE, CEO of&amp;nbsp;
+                                                                    </font>
+                                                                    <b class="o_default_snippet_text">
+                                                                        <font class="text-epsilon" style="">&amp;nbsp;MyCompany&amp;nbsp;</font>
+                                                                    </b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter And Testimonial End-->
+
+        <!--Snippet Mini Product Carousel Start-->
+        <template id="musical_instruments_mini_product_carousel" name="Musical Instruments Mini Product Carousel">
+            <section class="pt64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel wishlist_hidden add_to_cart_hidden owl_nav_style_7"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d1" style="" data-objects_limit="8"
+                                        data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel wishlist_hidden add_to_cart_hidden owl_nav_style_7"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d1" style="" data-objects_limit="8"
+                                        data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-12 col-sm-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_7 wishlist_hidden add_to_cart_hidden"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d1" style="" data-objects_limit="8"
+                                        data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-12 col-sm-12 d-md-none d-lg-block mh100">
+                            <div class="oe_structure oe_empty">
+                                <a href="#">
+                                    <img src="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/placeholder-227x285.png"
+                                         class="img-fluid d-block mx-auto mt8 mb8" data-original-title="" title=""
+                                         aria-describedby="tooltip20505"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mini Product Carousel End-->
+
+        <!--Snippet Footer Start-->
+        <template id="musical_instruments_footer" name="Musical Instruments Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_7">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb16">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-10 col-lg-10 offset-lg-1 offset-md-1 mb16">
+                                <p style="text-align: center; ">
+                                    <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et<br/>dolore
+                                        magna aliqua.
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                                <a t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-twitter px-2 fa-2x text-delta"/>
+                                </a>
+                                <a t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-facebook-official px-2 fa-2x text-delta"/>
+                                </a>
+                                <a t-att-href="res_company.social_youtube">
+                                    <i class="fa fa-youtube-play px-2 fa-2x text-delta"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-google-plus px-2 fa-2x text-delta"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Musical Instruments Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_mid_header"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_banner"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_image_block_one"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_tab_carousel_one"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_brand_carousel"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_image_block_two"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_tab_carousel_two"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_blog_carousel"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_newsletter_and_testimonial"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_mini_product_carousel"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_musical_instruments_ecommerce_ultimate_01.musical_instruments_footer"
+                           t-thumbnail="/theme_musical_instruments_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

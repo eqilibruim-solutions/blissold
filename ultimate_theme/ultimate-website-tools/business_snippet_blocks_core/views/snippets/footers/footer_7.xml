@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="footer_7" name="Footer 7">
+        <section class="pt64 pb32" id="footer_7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb16">
+                        <img style="margin:0 auto;"
+                             class="img img-responsive img-fluid"
+                             src="/logo.png"
+                             t-att-alt="'Logo of %s' % res_company.name"
+                             t-att-title="res_company.name"/>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-3 offset-md-3 mb48">
+                        <div class="input-group js_subscribe hidden"
+                             data-list-id="1"
+                             data-subscribe="off">
+                            <input type="email"
+                                   name="email"
+                                   class="js_subscribe_email form-control br-left"
+                                   placeholder="your email..."/>
+                            <span class="input-group-btn">
+                                <a href="#"
+                                   class="btn br-right px-3 py-2 btn-primary js_subscribe_btn o_default_snippet_text">
+                                    Subscribe
+                                </a>
+                                <a href="#"
+                                   class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text"
+                                   disabled="disabled">
+                                    Thanks
+                                </a>
+                            </span>
+                            <div class="alert alert-success hidden o_default_snippet_text">
+                                Thanks for your
+                                subscription!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                        <a t-att-href="res_company.social_twitter">
+                            <i class="fa fa-twitter px-1 fa-2x"></i>
+                        </a>
+                        <a t-att-href="res_company.social_linkedin">
+                            <i class="fa fa-linkedin-square px-1 fa-2x"></i>
+                        </a>
+                        <a t-att-href="res_company.social_facebook">
+                            <i class="fa fa-facebook-official px-1 fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-skype px-1 fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-pinterest-square px-1 fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-apple px-1 fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-google-plus px-1 fa-2x "></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-dribbble px-1 fa-2x"></i>
+                        </a>
+                        <a t-att-href="res_company.social_youtube">
+                            <i class="fa fa-youtube-play px-1 fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-tumblr-square px-1 fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light">
+            <div class="container">
+                <div class="row p-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            Copyright &amp;copy;
+                            <span t-field="res_company.name">Company name
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-md-right text-lg-right">
+                        <div>
+                            Responsive Odoo theme,
+                            <span>
+                                Made with
+                                <i class="fa fa-heart"/>
+                                by
+                                <strong>&lt;73Lines/&gt;</strong>
+                            </span>
+                        </div>
+                        <div>
+                            <t t-call="website.language_selector"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

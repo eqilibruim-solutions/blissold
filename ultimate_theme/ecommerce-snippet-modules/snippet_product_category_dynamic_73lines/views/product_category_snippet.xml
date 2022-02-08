@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- ======== Product Category Snippet ======== -->
+
+    <!-- Category Main Snippet's Body -->
+    <template id="s_product_category_snippet"
+              name="Product's Category Dynamic Snippet">
+        <section class="col-lg-12">
+            <div class="container">
+                <div class="row">
+                    <div
+                            class="col-lg-3 s_product_category_carousel s_product_category_snippet_dynamic js_get_objects mt16 mb16 oe_structure oe_empty"
+                            data-loading="true"
+                            data-template="snippet_product_category_dynamic_73lines.product_category_list_template_header"
+                            data-object_name="product.public.category"
+                            data-objects_in_slide="5">
+                    </div>
+
+                    <div class="col-lg-9 oe_structure oe_empty">
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </template>
+
+    <!-- Category's Template Outer Layout -->
+    <template id="product_category_list_template_header">
+        <div id="all_categ_menu_dynamic" class="oe_structure oe_empty">
+            <ul class="">
+                <div class="headline">
+                    <h5 t-esc="title"></h5>
+                    <hr class="mt0 mb0"/>
+                </div>
+                <div class="product-category-list mb8 mt8">
+                    <t t-foreach="objects" t-as="obj">
+                        <li class="item product-category-single">
+                            <t t-foreach="obj" t-as="category">
+                                <t t-if="not category.parent_id">
+                                    <t t-call="snippet_product_category_dynamic_73lines.menu_categories_recursive"/>
+                                </t>
+                            </t>
+                        </li>
+                    </t>
+                </div>
+            </ul>
+        </div>
+    </template>
+
+
+    <template id="menu_categories_recursive" name="Menu Category list">
+        <li class="dropdown dropdown-submenu-dy nav-item">
+            <a t-att-href="'/shop/category/%s' % (category.id)"
+               class="categ-img">
+                <span itemprop="image" t-field="category.image_1920"
+                      t-options="{'widget': 'image', 'resize': None if image else '50x50'}"
+                      t-att-alt="category.name"/>
+            </a>
+            <a class="nav-link"
+               t-att-href="'/shop/category/%s' % (category.id)"
+               t-field="category.name"/>
+            <i t-if="category.child_id"
+               class="fa fa-caret-right text-primary caret-icon-pos"/>
+            <ul t-if="category.child_id"
+                class="dropdown-menu">
+                <t t-foreach="category.child_id" t-as="category">
+                    <t t-call="snippet_product_category_dynamic_73lines.menu_categories_recursive"/>
+                </t>
+            </ul>
+        </li>
+    </template>
+
+
+    <!--Snippet Option For Hide Category Icon-->
+    <template id="s_object_carousel_option"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='carousel']" position="after">
+            <!-- Filter Options -->
+            <div data-js='js_get_objects_hideicon'
+                 data-selector=".s_product_category_snippet_dynamic">
+                <div class="dropdown-divider"/>
+                <a href="#" class="dropdown-item"
+                   data-toggle-class="category-icons-hidden-sni">Hide Category
+                    Icons
+                </a>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

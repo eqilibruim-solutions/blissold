@@ -1,0 +1,673 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="sunglasses_store_banner" name="Sunglasses Store Banner">
+            <section class="sni-block pt56 pb56 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-image-336x470.png"/>
+                        </div>
+                        <div class="col-12 co-md-8 col-lg-8 col-sm-8">
+                            <img class="img-fluid d-block mx-auto mt8 mb8"
+                                 src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-image-773x498.png"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Block One Start-->
+        <template id="sunglasses_store_image_block_one" name="Sunglasses Store Image Block One">
+            <section class="pb56 pt24" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                                <div class="col-12 img-content px-3">
+                                    <h2>
+                                        <font style="font-size: 18px;" class="text-alpha">30% Discounts&amp;nbsp;</font>
+                                    </h2>
+                                    <p>
+                                        <font class="text-alpha" style="font-size: 24px;">
+                                            <b>Girls Collection</b>
+                                        </font>
+                                    </p>
+                                    <a href="#">
+                                        <u>Shop Now</u>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                                <div class="col-12 img-content px-3">
+                                    <h2 style="text-align: right; ">
+                                        <font color="#888888">
+                                            <span style="font-size: 18px;" class="text-delta">New Arrival</span>
+                                        </font>
+                                    </h2>
+                                    <p style="text-align: right; ">
+                                        <font style="font-size: 24px;" class="text-delta">
+                                            <b>Men Collection</b>
+                                        </font>
+                                    </p>
+                                    <div style="text-align: right;">
+                                        <a href="#"/>
+                                        <a href="#" style="font-size: 0.875rem;">
+                                            <u data-original-title="" title="" aria-describedby="tooltip125535">
+                                                <font class="text-delta" style="">Shop Now</font>
+                                            </u>
+                                        </a>
+                                        <br/>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block One End-->
+
+        <!--Snippet Tab Carousel One Start-->
+        <template id="sunglasses_store_tab_carousel_one" name="Sunglasses Store Tab Carousel One">
+            <section class="mt16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="">
+                            <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                <li class="nav-item">
+                                    <a class="nav-link active show" data-toggle="tab"
+                                       href="#nav_tabs_content_1579846243595_7" role="tab"
+                                       id="nav_tabs_link_1579846243595_7"
+                                       aria-controls="nav_tabs_content_1579846243595_7" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip944608">Sunglasses
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1579846243595_8"
+                                       role="tab" id="nav_tabs_link_1579846243595_8"
+                                       aria-controls="nav_tabs_content_1579846243595_8" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip167499">Goggles
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1579846243596_9"
+                                       role="tab" id="nav_tabs_link_1579846243596_9"
+                                       aria-controls="nav_tabs_content_1579846243596_9" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip302500">Aviator
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1579846243596_10"
+                                       role="tab" id="nav_tabs_link_1579846243596_10"
+                                       aria-controls="nav_tabs_content_1579846243596_10" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip302500">Cat Eye
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="nav_tabs_content_1579846243595_7"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1579846243595_7">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" style="" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1579846243595_8" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1579846243595_8">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" style="" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1579846243596_9" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1579846243596_9">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" style="" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1579846243596_10" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1579846243596_10">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel One End-->
+
+        <!--Snippet Image Block Two Start-->
+        <template id="sunglasses_store_image_block_two" name="Sunglasses Store Image Block Two">
+            <section class="pt16 pb64" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <img class="img-fluid d-block mx-auto mb8 mt8"
+                                 src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-370x500.png"
+                                 data-original-title="" title="" aria-describedby="tooltip867057"/>
+                            <div class="col-12 img-content px-5">
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                                    <img class="d-block img-fluid  mx-auto mb8 mt8"
+                                         src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-370x240.png"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                    <div class="col-12 img-content px-5">
+                                        <h2>
+                                            <div style="text-align: right;">
+                                                <span style="font-size: 20px;">Flat 50% Off</span>
+                                            </div>
+                                            <font style="font-size: 24px;">
+                                                <div style="text-align: right;">
+                                                    <b>On Sunglasses</b>
+                                                </div>
+                                            </font>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                                    <img class="img-fluid d-block mx-auto mb8 mt8"
+                                         src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-370x240.png"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                    <div class="col-12 img-content px-5">
+                                        <h2>
+                                            <font style="font-size: 24px;">
+                                                <b>Summer Favourites</b>
+                                            </font>
+                                        </h2>
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip185216">
+                                            <u>View More</u>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 mb16">
+                            <img class="img-fluid d-block mx-auto mb8 mt8"
+                                 src="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/placeholder-370x500.png"
+                                 data-original-title="" title="" aria-describedby="tooltip867057"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Two End-->
+
+        <!--Snippet Tab Carousel Two Start-->
+        <template id="sunglasses_store_tab_carousel_two" name="Sunglasses Store Tab Carousel Two">
+            <section class="mt16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="">
+                            <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                <li class="nav-item">
+                                    <a class="nav-link active show" data-toggle="tab"
+                                       href="#nav_tabs_content_1579846243595_7" role="tab"
+                                       id="nav_tabs_link_1579846243595_7"
+                                       aria-controls="nav_tabs_content_1579846243595_7" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip944608">Best Seller
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1579846243595_8"
+                                       role="tab" id="nav_tabs_link_1579846243595_8"
+                                       aria-controls="nav_tabs_content_1579846243595_8" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip167499">Featured
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1579846243596_9"
+                                       role="tab" id="nav_tabs_link_1579846243596_9"
+                                       aria-controls="nav_tabs_content_1579846243596_9" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip302500">New Offer
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1579846243596_10"
+                                       role="tab" id="nav_tabs_link_1579846243596_10"
+                                       aria-controls="nav_tabs_content_1579846243596_10" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip302500">Sale Off
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="nav_tabs_content_1579846243595_7"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1579846243595_7">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" style="" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1579846243595_8" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1579846243595_8">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" style="" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1579846243596_9" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1579846243596_9">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" style="" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1579846243596_10" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1579846243596_10">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d10" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel Two End-->
+
+        <!--Snippet Features Start-->
+        <template id="sunglasses_store_features" name="Sunglasses Store Features">
+            <section class="pt16 pb64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-epsilon pb32 pt32" style="">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 media border-right px-4"
+                                     style="     border-right: 1px solid #393939 !important;">
+                                    <i class="fa fa-3x mr-3 mt-2 text-gamma pe-7s-plane fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip69811" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <font style="font-size: 14px;" class="text-delta">
+                                                <b>Free Delivery</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 13px;" class="text-gamma">Free shipping on all
+                                                order
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media border-right px-4"
+                                     style="     border-right: 1px solid #393939 !important;">
+                                    <i class="fa fa-3x mr-3 mt-2 text-gamma pe-7s-piggy fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip69811" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <font style="font-size: 14px;" class="text-delta">
+                                                <b>Return Of Goods</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 13px;" class="text-gamma">Back guarantee in 7 days&amp;nbsp;</font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media border-right px-4"
+                                     style="     border-right: 1px solid #393939 !important;">
+                                    <i class="fa fa-3x mr-3 mt-2 text-gamma pe-7s-headphones fa-500px"
+                                       data-original-title="" title="" aria-describedby="tooltip69811" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <font style="font-size: 14px;" class="text-delta">
+                                                <b>24/7 Customer Support</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 13px;" class="text-gamma">Support 24 hours a day
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media px-4">
+                                    <i class="fa fa-3x mr-3 mt-2 text-gamma pe-7s-like2 fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip69811" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <font style="font-size: 14px;" class="text-delta">
+                                                <b>Secure Payment</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 13px;" class="text-gamma">100% payment protection
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Blog Start-->
+        <template id="sunglasses_store_blog" name="Sunglasses Store Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"
+                     data-objects_in_slide="4" data-filter_by_filter_id="13"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="sunglasses_store_brand_carousel" name="Sunglasses Store Brand Carousel">
+            <section class="s_brand_carousel mb8 js_get_objects" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d4"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d4"/>
+        </template>
+        <!--Snippet Brand Carousel End-->
+
+        <!--Snippet Footer Start-->
+        <template id="sunglasses_store_footer" name="Sunglasses Store Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32  oe_custom_bg" id="footer_6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 separator mb32" style="
+    border-right: 1px solid #393939 !important;">
+                                <h5 class="font-weight-bold">
+                                    <font style="color: rgb(255, 255, 255);">Information</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip846670">New Products
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Best Seller</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Price Drop</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Services</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Contact Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Terms Of Use</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 separator mb32" style="
+    border-right: 1px solid #393939 !important;">
+                                <h5 class="font-weight-bold">
+                                    <font style="color: rgb(255, 255, 255);">My Account</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">My Orders</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">My Credit Slip</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">My Personal Info</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">My Cart</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Login</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 separator mb32" style="
+    border-right: 1px solid #393939 !important;">
+                                <h5 class="mb24">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">Get In Touch</font>
+                                    </b>
+                                </h5>
+                                <div class="o_default_snippet_text media mb16">
+                                    <b>
+                                        <i class="fa fa-map-marker mr-2 mt-1" style="color: rgb(255, 255, 255);"
+                                           data-original-title="" title="" aria-describedby="tooltip697515"/>
+                                    </b>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">Address :
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-phone mr-2 mt-1" style="color: rgb(255, 255, 255);"
+                                       data-original-title="" title="" aria-describedby="tooltip312908"/>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">Phone :
+                                            <span t-field="res_company.phone"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-envelope mr-2 mt-1" style="color: rgb(255, 255, 255);"
+                                       data-original-title="" title="" aria-describedby="tooltip818573"/>
+                                    <div class="media-body">
+                                        <font class="text-gamma" style="">Email :
+                                            <span t-field="res_company.email"/>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24 o_default_snippet_text">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">Our Newsletter</font>
+                                    </b>
+                                </h5>
+                                <p>
+                                    <font class="text-gamma" style="">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="align-items-center col-12 col-lg-6 col-md-6 col-sm-12 pb16">
+                                <h6 class="mb24">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>Follow Us</b>
+                                    </font>
+                                </h6>
+                                <a t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-facebook text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip975568" style=""/>
+                                </a>
+                                <a t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-twitter px-2 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip785916" style=""/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-dribbble px-2 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip438182" style=""/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-behance px-2 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip502640" style=""/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-pinterest-p px-2 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip846798" style=""/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-google-plus px-2 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip881090" style=""/>
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-12 pb0 offset-lg-3">
+                                <h6 class="mb24">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>We Accept:</b>
+                                    </font>
+                                </h6>
+                                <i class="fa fa-cc-visa text-gamma fa-2x px-1" data-original-title="" title=""
+                                   aria-describedby="tooltip341197" style=""/>
+                                <i class="fa fa-cc-mastercard px-1 text-gamma fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip633482" style=""/>
+                                <i class="fa fa-cc-paypal px-1 text-gamma fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip582009" style=""/>
+                                <i class="fa fa-cc-amex px-1 text-gamma fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip499881" style=""/>
+                                <i class="fa fa-cc-discover px-1 text-gamma fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip852092" style=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Sunglasses Store Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_banner"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_image_block_one"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_tab_carousel_one"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_image_block_two"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_tab_carousel_two"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_features"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_blog"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_brand_carousel"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sunglasses_store_ecommerce_ultimate_01.sunglasses_store_footer"
+                           t-thumbnail="/theme_sunglasses_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

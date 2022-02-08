@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="s_presentation_page" name="Presentation Page">
+        <section class="oe_structure presentation-page">
+            <div id="fullpage" class="fullpage-wrapper">
+                <section class="vertical-scrolling bg-primary">
+                    <div class="container">
+                        <div class="row mt64 mb64">
+                            <div class="col-md-6 mt16 mb16">
+                                <h1 class="text-white">Discover new features, customization options and new effects</h1>
+                                <span class="divider">
+                                    <span class="circle">
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                    </span>
+                                </span>
+                                <p class="light-white">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                    porro quisquam est.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 mt16 mb16">
+                                <img class="img img-fluid"
+                                     src="/snippet_boxed_73lines/static/src/img/serv2-2.png"
+                                     alt=""/>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="vertical-scrolling bg-success">
+                    <div class="container">
+                        <div class="row mt64 mb64">
+                            <div class="col-md-6 mt16 mb16">
+                                <img class="img img-fluid"
+                                     src="/snippet_boxed_73lines/static/src/img/serv2-2.png"
+                                     alt=""/>
+
+                            </div>
+                            <div class="col-md-6 mt16 mb16">
+                                <h1 class="text-white">Discover new features, customization options and new effects</h1>
+                                <span class="divider">
+                                    <span class="circle">
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                    </span>
+                                </span>
+                                <p class="light-white">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                    porro quisquam est.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="vertical-scrolling bg-info">
+                    <div class="container">
+                        <div class="row mt64 mb64">
+
+                            <div class="col-md-6 mt16 mb16">
+                                <h1 class="text-white">Discover new features, customization options and new effects</h1>
+                                <span class="divider">
+                                    <span class="circle">
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                    </span>
+                                </span>
+                                <p class="light-white">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                    porro quisquam est.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 mt16 mb16">
+                                <img class="img img-fluid"
+                                     src="/snippet_boxed_73lines/static/src/img/serv2-2.png"
+                                     alt=""/>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="vertical-scrolling bg-warning">
+                    <div class="container">
+                        <div class="row mt64 mb64">
+                            <div class="col-md-6 mt16 mb16">
+                                <img class="img img-fluid"
+                                     src="/snippet_boxed_73lines/static/src/img/serv2-2.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-md-6 mt16 mb16">
+                                <h1 class="text-white">Discover new features, customization options and new effects</h1>
+                                <span class="divider">
+                                    <span class="circle">
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                    </span>
+                                </span>
+                                <p class="light-white">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                    porro quisquam est.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="vertical-scrolling bg-beta">
+                    <div class="container">
+                        <div class="row mt64 mb64">
+                            <div class="col-md-6 mt16 mb16">
+                                <h1 class="text-white">Discover new features, customization options and new effects</h1>
+                                <span class="divider">
+                                    <span class="circle">
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                    </span>
+                                </span>
+                                <p class="light-white">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                    porro quisquam est.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 mt16 mb16">
+                                <img class="img img-fluid"
+                                     src="/snippet_boxed_73lines/static/src/img/serv2-2.png"
+                                     alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,508 @@
+<odoo>
+    <data>
+
+        <!--Banner Snippets start-->
+        <template id="museum_banner" name="Museum Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_museum_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 48px; text-align: center;">Exibition of
+                                Modern Era
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white" style="text-align: center;">&amp;nbsp; To be
+                                successful your content needs to be useful to your read
+                            </p>
+                            <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                <a href="#" class="btn btn-primary" data-original-title="" title="">View&amp;nbsp;
+                                    more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Banner Snippets End-->
+
+        <!--History of Museum Snippets start-->
+        <template id="museum_history" name="Museum Museum History">
+            <section class="pt64 pb64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center pad0 col-lg-8 offset-lg-2">
+                            <h2 class="pb24 pt24">
+                                <b>History Of Our Museum</b>
+                            </h2>
+                            <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti. Aliquam finibus pharetra tellus at egestas.Suspendisse potenti.
+                                &amp;nbsp;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb0 bg-200 oe_custom_bg pt0" style="">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-6 py-md-2 py-lg-5 col-lg-6">
+                            <div class="pl32 pr32">
+                                <h3 class="pt16">
+                                    <b>The spark of life</b>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy
+                                    <br/>
+                                    text ever since the 1500s,
+                                </p>
+                                <button class="btn btn-primary px-3 mb24  o_default_snippet_text">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt0 plr-0 pb0">
+                            <img src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                 class="img-fluid"
+                                 data-original-title="" title="" aria-describedby="tooltip276532"
+                                 style=""/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 plr-0 pt0 pb0">
+                            <img src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                 class="img-fluid"
+                                 data-original-title="" title="" aria-describedby="tooltip821153"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 py-md-2 py-lg-5 pb0 col-lg-6">
+                            <div class="pl32 pr32">
+                                <h3 class="pt16">
+                                    <b>20 Most strength painting in the world</b>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy
+                                    <br/>
+                                    text ever since the 1500s,
+                                </p>
+                                <a href="#" class="btn btn-primary px-3 mb-24 o_default_snippet_text">
+                                    Button
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 py-md-2 py-lg-5 col-lg-6">
+                            <div class="pl32 pr32">
+                                <h3 class="pt16">
+                                    <b>Arts of globally coverd</b>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy
+                                    <br/>
+                                    text ever since the 1500s,
+                                </p>
+                                <button class="btn btn-primary px-3 mb24 o_default_snippet_text">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt0 plr-0 pb0">
+                            <img src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                 class="img-fluid"
+                                 data-original-title="" title="" aria-describedby="tooltip276532"
+                                 style=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--History of Museum Snippets End-->
+
+        <!--Feature Snippets start-->
+        <template id="museum_feature" name="Museum Feature">
+            <section class="pt56 pb0" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center pad0 pt0 offset-lg-1 col-lg-10">
+                            <h2 class="pb24 pt24">
+                                <b>Our Venues</b>
+                            </h2>
+                            <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti. Aliquam finibus pharetra tellus at egestas.Suspendisse potenti.
+                                &amp;nbsp;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt48" id="img_block_with_text_button">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip215397"
+                                 style=""/>
+                            <div class="img-content col-12 text-center">
+                                <h3 class="text-white">Accure homestead</h3>
+
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary btn-lg" data-original-title=""
+                                       title="" aria-describedby="tooltip924773">
+                                        <font style="color: rgb(255, 255, 255);">View More</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip495322"/>
+                            <div class="img-content col-12 text-center">
+                                <h3 class="text-white">Exhibit Showroom</h3>
+
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary btn-lg" data-original-title=""
+                                       title="" aria-describedby="tooltip924773">
+                                        <font style="color: rgb(255, 255, 255);">View More</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip576679"/>
+                            <div class="img-content col-12 text-center">
+                                <h3 class="text-white">Mihar Mension</h3>
+
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary btn-lg" data-original-title=""
+                                       title="" aria-describedby="tooltip145441">
+                                        <font style="color: rgb(255, 255, 255);">View More</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Feature Snippets End-->
+
+        <!--CTA Snippets start-->
+        <template id="museum_cta" name="Museum CTA">
+            <section class="s_call_to_action sni-block pt64 pb64 bg-200 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-6 offset-lg-2">
+                            <h2>&amp;nbsp;Adventure of the realistics : Africa</h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-1">
+                            <p>
+                                <a href="/contactus" class="btn btn-primary btn-lg"
+                                   data-original-title="" title="" aria-describedby="tooltip455517">
+                                    <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                          title="" aria-describedby="tooltip674128">Contact Us
+                                    </font>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--CTA Snippets End-->
+
+        <!--Right Content Snippets start-->
+        <template id="museum_right_content" name="Museum Right Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_museum_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 right bg-light text-center pt64 pb64">
+                            <h2>
+                                <b>Museum History</b>
+                            </h2>
+                            <p class="pt32 pb32 px-5" style="text-align: justify; ">Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Pellentesque fermentum est in
+                                tortor congue suscipit. Suspendisse potenti.Aliquam finibus pharetra
+                                tellus at egestas.
+                                <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque
+                                </span>
+                            </p>
+                            <a href="#" class="text-decoration-none mt64 mb64 o_default_snippet_text">
+                                Lern More
+                                <i class="fa fa-chevron-right"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Right Content Snippets End-->
+
+        <!--Center Content Snippets start-->
+        <template id="museum_center_content" name="Museum Center Content">
+            <section class="pt64 pb64 bg-200 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row  text-center">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <p>
+                                        <font style="font-size: 24px;" class="s_line_height_1">"Lorem
+                                            ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Pellentesque
+                                        </font>
+                                    </p>
+                                    <p class="s_line_height_1">
+                                        <font style="font-size: 24px;">fermentum est in tortor congue
+                                            suscipit. Suspendisse potenti."
+                                        </font>
+                                    </p>
+                                    pharetra
+                                    <p class="o_default_snippet_text">pharetra tellus at egestas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Center Content Snippets End-->
+
+        <!--News Snippets start-->
+        <template id="museum_news" name="Museum News">
+            <section class="pt64 pb64">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                            <h2>
+                                <b>In The News</b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                 title=""
+                                 class="img-fluid rounded"/>
+                            <h3 class="pt16" style="text-align: left; ">
+                                <font style="font-size: 18px;">
+                                    <b>Poter Working in the piece of care</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: left; ">Position</p>
+                            <p class="o_default_snippet_text" style="text-align: left; ">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                 title=""
+                                 class="img-fluid rounded"/>
+                            <h3 class="pt16" style="text-align: left; ">
+                                <font style="font-size: 18px;">
+                                    <b>Painting the imaginations</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: left; ">Position</p>
+                            <p style="text-align: left; ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_museum_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                 title=""
+                                 class="img-fluid rounded"/>
+                            <h3 class="pt16" style="text-align: left; ">
+                                <font style="font-size: 18px;">
+                                    <b>Decorative Arts</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: left; ">Position</p>
+                            <p class="o_default_snippet_text" style="text-align: left; ">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--News Snippets End-->
+        <!--CTA-2 Snippets start-->
+        <template id="museum_cta2" name="Museum CTA-2">
+            <section class="s_call_to_action sni-block pt64 pb64 bg-black oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-7 offset-lg-1">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255);">A new classical art of
+                                    christian museum
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-1">
+                            <p>
+                                <a href="/contactus" class="rounded btn  bg-white  btn-lg"
+                                   data-original-title="" title="" aria-describedby="tooltip455517">
+                                    Contact Now
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--CTA-2 Snippets End-->
+
+        <!--Footer Snippets start-->
+        <template id="museum_footer" name="Museum Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb32" id="footer_20">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <h4 class="pb16 font-weight-bold border-bottom">
+                                    <font style="color: rgb(206, 198, 206);">Resources News</font>
+                                </h4>
+                                <p class="pt16">
+                                    <font style="color: rgb(206, 198, 206);">Lorem ipsum dolor sit amet,
+                                        consectetur adipi scing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim minim veniam,&amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb32">
+                                <h4 class="pb16 font-weight-bold border-bottom">
+                                    <font style="color: rgb(206, 198, 206);">Contact News</font>
+                                </h4>
+                                <div class="media mb8 mt24">
+                                    <i class="fa fa-phone-square mr-2 mt-1" data-original-title="" title=""
+                                       aria-describedby="tooltip430067" style="color: rgb(206, 198, 206);"/>
+                                    <div class="media-body">
+                                        <span style="color: rgb(206, 198, 206);">Call Us:</span>
+                                        <span t-field="res_company.phone" style="color: rgb(206, 198, 206);"/>
+                                    </div>
+                                </div>
+                                <div class="media mb8">
+                                    <i class="fa fa-envelope-open mr-2 mt-1"
+                                       data-original-title="" title=""
+                                       aria-describedby="tooltip147463" style="color: rgb(206, 198, 206);"/>
+                                    <div class="media-body">
+                                        <span style="color: rgb(206, 198, 206);">E-mail On:</span>
+                                        <span t-field="res_company.email" style="color: rgb(206, 198, 206);"/>
+                                    </div>
+                                </div>
+                                <div class="media mb8">
+                                    <i class="fa fa-map-marker mr-2 mt-1" data-original-title="" title=""
+                                       aria-describedby="tooltip454806" style="color: rgb(206, 198, 206);"/>
+                                    <div class="media-body">
+                                        <span style="color: rgb(206, 198, 206);">Visit Us:</span>
+                                        <span t-field="res_company.street" style="color: rgb(206, 198, 206);"/>
+                                    </div>
+                                </div>
+                                <div class="pt16">
+                                    <a href="#" class="text-decoration-none"
+                                       target="_blank">
+                                        <i class="box_hover fa fa-2x fa-google-plus p-2"
+                                           data-original-title="" title="" aria-describedby="tooltip540139"
+                                           style="color: rgb(206, 198, 206);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter" class="text-decoration-none" target="_blank">
+                                        <i class="box_hover fa fa-2x fa-twitter p-2" data-original-title=""
+                                           title="" aria-describedby="tooltip218696"
+                                           style="color: rgb(206, 198, 206);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin" class="text-decoration-none"
+                                       target="_blank">
+                                        <i class="box_hover fa fa-2x fa-linkedin p-2" data-original-title=""
+                                           title="" aria-describedby="tooltip57793"
+                                           style="color: rgb(206, 198, 206);"/>
+                                    </a>
+                                    <a href="#" class="text-decoration-none" target="_blank">
+                                        <i class="box_hover fa fa-2x fa-pinterest p-2"
+                                           data-original-title="" title="" aria-describedby="tooltip324241"
+                                           style="color: rgb(206, 198, 206);"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb32">
+                                <h4 class="pb16 font-weight-bold border-bottom">
+                                    <font color="#cec6ce">Letest News</font>
+                                </h4>
+                                <div class="pt16">
+                                    <h6 class="o_default_snippet_text">
+                                        <font style="color: rgb(206, 198, 206);">Within the construction
+                                            industry as their overdraft&amp;nbsp;
+                                        </font>
+                                    </h6>
+                                    <h6 class="o_default_snippet_text">
+                                        <i class="fa fa-clock-o" style="color: rgb(206, 198, 206);"/>
+                                        <font style="color: rgb(206, 198, 206);">&amp;nbsp;January 22, 2016&amp;nbsp;
+                                        </font>
+                                    </h6>
+                                </div>
+                                <div class="pt16">
+                                    <h6 class="o_default_snippet_text">
+                                        <font style="color: rgb(206, 198, 206);">Within the construction
+                                            industry as their overdraft&amp;nbsp;
+                                        </font>
+                                    </h6>
+                                    <h6 class="o_default_snippet_text">
+                                        <i class="fa fa-clock-o" style="color: rgb(206, 198, 206);"/>
+                                        <font style="color: rgb(206, 198, 206);">&amp;nbsp;January 22,
+                                            2016
+                                        </font>
+                                    </h6>
+                                </div>
+                            </div>
+                            <hr/>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Museum Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_museum_ultimate_01.museum_banner"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_museum_ultimate_01.museum_history"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_museum_ultimate_01.museum_feature"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_museum_ultimate_01.museum_cta"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_museum_ultimate_01.museum_right_content"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_museum_ultimate_01.museum_center_content"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_museum_ultimate_01.museum_news"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                        <t t-snippet="theme_museum_ultimate_01.museum_cta2"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_museum_ultimate_01.museum_footer"
+                           t-thumbnail="/theme_museum_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+    </data>
+</odoo>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_1</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_1</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/icon_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_2</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_2</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/block_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_3</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_3</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/icon_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_4</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_4</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/block_04.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_5</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_5</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/icon_03.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_6</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_6</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_7</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_7</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/book_ecommerce_ultimate__logo_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_8</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_8</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/blog_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_9</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_9</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/block_06.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_10</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_10</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/blog_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_11</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_11</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/cta_bg-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_12</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_12</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/testi_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_13</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_13</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/block_05.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_14</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_14</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/block_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_15</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_15</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/blog_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_16</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_16</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/block_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_book_ecommerce_ultimate_01.image_content_17</field>
+            <field name="name">theme_book_ecommerce_ultimate_01.image_content_17</field>
+            <field name="url">/theme_book_ecommerce_ultimate_01/static/src/img/library/team01.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_iap_account_form_inherit">
+        <field name="name">iap.account.form.inherit</field>
+        <field name="model">iap.account</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="iap.iap_account_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='account_token']" position="after">
+                <field name="sender"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

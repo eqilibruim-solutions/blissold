@@ -1,0 +1,47 @@
+#wrapwrap > header.o_affix_enabled > nav,#wrapwrap > header.o_header_affix.affix.affixed > nav{
+    padding-top:0;
+    padding-bottom:0;
+}
+#top_menu{
+    > li{
+       > a{
+            //color: theme-color('alpha');
+            border-top: 4px solid transparent;
+            padding:25px 16px;
+
+            &:hover,&.active{
+                border-top: 4px solid theme-color('alpha');
+            }
+        }
+
+        &.active{
+             a{
+                border-top: 4px solid theme-color('alpha');
+             }
+
+        }
+
+
+        .dropdown-menu{
+            background-color: #fff;
+            border-top: 3px solid theme-color('alpha');
+        }
+
+        &.divider{
+           height: auto;
+        }
+    }
+
+    >li.show{
+        .dropdown-menu{
+            a{
+                 border-top:none;
+                 padding: 10px 16px;
+            }
+        }
+    }
+
+
+}
+
+

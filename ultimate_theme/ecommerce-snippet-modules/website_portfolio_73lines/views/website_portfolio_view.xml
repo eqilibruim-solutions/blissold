@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- Portfolio Form View -->
+    <record id="website_portfolio_form_view" model="ir.ui.view">
+        <field name="name">website.portfolio.form</field>
+        <field name="model">website.portfolio</field>
+        <field name="arch" type="xml">
+            <form string="Website Portfolio">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="date" />
+                        <field name="port_categ_id" />
+                        <field name="subtitle" />
+                        <field name="portfolio_image" widget='image' class="oe_avatar" />
+                    </group>
+                    <group>
+                        <field name="technology" />
+                        <field name="external_link" widget="url"/>
+                        <field name="portfolio_desc" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Portfolio Tree View -->
+    <record id="website_portfolio_tree_view" model="ir.ui.view">
+        <field name="name">webite.portfolio.tree</field>
+        <field name="model">website.portfolio</field>
+        <field name="field_parent" eval="False" />
+        <field name="arch" type="xml">
+            <tree string="Website Portfolio">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- Portfolio Categories Tree View -->
+    <record id="portfolio_category_tree_view" model="ir.ui.view">
+        <field name="name">portfolio.category.tree</field>
+        <field name="model">portfolio.category</field>
+        <field name="field_parent" eval="False" />
+        <field name="arch" type="xml">
+            <tree string="Portfolio Category" editable="bottom">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- Portfolio Action -->
+    <record id="website_portfolio_action" model="ir.actions.act_window">
+        <field name="name">Website Portfolio</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">website.portfolio</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to define a new Portfolio.
+            </p>
+        </field>
+    </record>
+
+    <!-- Portfolio Categories Action -->
+    <record id="portfolio_category_action" model="ir.actions.act_window">
+        <field name="name">Portfolio Category </field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">portfolio.category</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to define a new Portfolio Category.
+            </p>
+        </field>
+    </record>
+
+    <!-- Portfolio Menus -->
+    <menuitem id="menu_portfolio_root" sequence="30" name="Portfolio" parent="website.menu_website_configuration"/>
+    <menuitem action="website_portfolio_action" id="menu_portfolio"
+              parent="menu_portfolio_root" sequence="2" name="Portfolio" />
+    <menuitem action="portfolio_category_action" id="menu_portfolio_category"
+              parent="menu_portfolio_root" sequence="2" name="Portfolio Category" />
+
+</odoo>

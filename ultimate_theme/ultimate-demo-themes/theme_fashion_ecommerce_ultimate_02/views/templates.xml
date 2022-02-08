@@ -1,0 +1,634 @@
+<odoo>
+    <data>
+        <!--Snippet Banner start-->
+        <template id="fashion_banner" name="Fashion Banner">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt32 pb16">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-350x180.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-350x180.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center d-lg-block d-md-none">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-350x180.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt32 pb16">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-1170.jpg"
+                                                     alt="Image" title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Banner End-->
+
+        <!--Snippet Feature start-->
+        <template id="fashion_feature" name="Fashion Feature">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                            <div class="oe_structure oe_empty">
+                                <section class="sni-block pt16 pb8">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                                     src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-750x750.png"
+                                                     data-original-title="" title=""
+                                                     aria-describedby="tooltip457897"/>
+                                            </div>
+                                            <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                                     src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-750x750.png"
+                                                     data-original-title="" title=""
+                                                     aria-describedby="tooltip779768"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt16 pb16">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-3 col-md-6 col-lg-12">
+                                                <div class="media pb16 pt16">
+                                                    <img class="img-fluid o_we_custom_image mr-3 rounded-circle"
+                                                         src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"
+                                                         data-original-title=""
+                                                         title="" aria-describedby="tooltip160114"/>
+                                                    <div class="media-body">
+                                                        <h3>
+                                                            <font style="font-size: 18px;">
+                                                                <b>Free Delivery</b>
+                                                            </font>
+                                                        </h3>
+                                                        <p>
+                                                            <font class="text-alpha" style="">Deliver to Door</font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-3 col-md-6 col-lg-12">
+                                                <div class="media pb16 pt16">
+                                                    <img class="img-fluid o_we_custom_image mr-3 rounded-circle"
+                                                         src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"
+                                                         data-original-title="" title=""
+                                                         aria-describedby="tooltip920911"/>
+                                                    <div class="media-body">
+                                                        <h3>
+                                                            <font style="font-size: 18px;">
+                                                                <b>24x7 Support</b>
+                                                            </font>
+                                                        </h3>
+                                                        <p>
+                                                            <font class="text-alpha" style="">In safe hands</font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-3 col-md-6 col-lg-12">
+                                                <div class="media pb16 pt16">
+                                                    <img class="img-fluid o_we_custom_image mr-3 rounded-circle"
+                                                         src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"
+                                                         data-original-title=""
+                                                         title="" aria-describedby="tooltip179587"/>
+                                                    <div class="media-body">
+                                                        <h3>
+                                                            <font style="font-size: 18px;">
+                                                                <b>Shopping</b>
+                                                            </font>
+                                                        </h3>
+                                                        <p>
+                                                            <font class="text-alpha" style="">Big Discount</font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-3 col-md-6 col-lg-12">
+                                                <div class="media pb16 pt16">
+                                                    <img class="img-fluid o_we_custom_image mr-3 rounded-circle"
+                                                         src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                                    <div class="media-body">
+                                                        <h3>
+                                                            <font style="font-size: 18px;">
+                                                                <b>Money Back</b>
+                                                            </font>
+                                                        </h3>
+                                                        <p>
+                                                            <font class="text-alpha" style="">Easy to Return</font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Testimonial start-->
+        <template id="fashion_testimonial" name="Fashion Testimonial">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb16 pt16" id="testimonials_d3">
+                                    <div id="myCarousel1577445493471"
+                                         class="s_quotes_carousel carousel slide s_carousel_default"
+                                         data-interval="10000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel1577445493471" data-slide-to="0"
+                                                class="active"/>
+                                            <li data-target="#myCarousel1577445493471" data-slide-to="1"/>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  oe_custom_bg active" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                            <h2 class="o_default_snippet_text">
+                                                                <font style="font-size: 24px;">Testimonials</font>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 mt-4">
+                                                            <div class="col-lg-12">
+                                                                <div class="text-center">
+                                                                    <img class="img w-25"
+                                                                         src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-user.png"
+                                                                         alt=""/>
+                                                                    <div class="mt8 mb8 o_default_snippet_text">— Jane
+                                                                        DOE, CEO of
+
+
+                                                                        <b class="o_default_snippet_text">MyCompany</b>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                                    Write a quote here from one of your customers.
+                                                                    Quotes are a great way to build confidence in your
+                                                                    products or services.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  oe_custom_bg" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                            <h2 class="o_default_snippet_text">
+                                                                <font style="font-size: 24px;">Testimonials</font>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 mt-4">
+                                                            <div class="col-lg-12">
+                                                                <div class="text-center">
+                                                                    <img class="img w-25"
+                                                                         src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-user.png"
+                                                                         alt=""/>
+                                                                    <div class="mt8 mb8 o_default_snippet_text">— Jane
+                                                                        DOE, CEO of
+
+
+                                                                        <b class="o_default_snippet_text">MyCompany</b>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                                    Write a quote here from one of your customers.
+                                                                    Quotes are a great way to build confidence in your
+                                                                    products or services.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-control-prev" data-target="#myCarousel1577445493471"
+                                             data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                                            <span class="carousel-control-prev-icon"/>
+                                            <span class="sr-only o_default_snippet_text">Previous</span>
+                                        </div>
+                                        <div class="carousel-control-next" data-target="#myCarousel1577445493471"
+                                             data-slide="next" role="img" aria-label="Next" title="Next">
+                                            <span class="carousel-control-next-icon"/>
+                                            <span class="sr-only o_default_snippet_text">Next</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="mt16 mb16" style="">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12" style="">
+                                                <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active show" data-toggle="tab"
+                                                           href="#nav_tabs_content_1577343936913_248" role="tab"
+                                                           id="nav_tabs_link_1577343936913_248"
+                                                           aria-controls="nav_tabs_content_1577343936913_248"
+                                                           aria-selected="true" data-original-title="" title=""
+                                                           aria-describedby="tooltip262373">New Arrival
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link" data-toggle="tab"
+                                                           href="#nav_tabs_content_1577343936914_249" role="tab"
+                                                           id="nav_tabs_link_1577343936914_249"
+                                                           aria-controls="nav_tabs_content_1577343936914_249"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip619575">Featured
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link" data-toggle="tab"
+                                                           href="#nav_tabs_content_1577343936914_250" role="tab"
+                                                           id="nav_tabs_link_1577343936914_250"
+                                                           aria-controls="nav_tabs_content_1577343936914_250"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip905834">Top Rated
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade active show"
+                                                         id="nav_tabs_content_1577343936913_248" role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1577343936913_248">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_headline_left s_carousel_1 headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="snippet_product_carousel_73lines.product_list_template"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="4" style=""
+                                                                    data-objects_limit="8"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in"
+                                                         id="nav_tabs_content_1577343936914_249" role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1577343936914_249">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_carousel_1 headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="snippet_product_carousel_73lines.product_list_template"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="4" style=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in"
+                                                         id="nav_tabs_content_1577343936914_250" role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1577343936914_250">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden s_carousel_1"
+                                                                    data-loading="true"
+                                                                    data-template="snippet_product_carousel_73lines.product_list_template"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="4" style=""/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Sale Image start-->
+        <template id="fashion_sale_image" name="Fashion Sale Image">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb16">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 col-md-4 col-lg-4 ">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-244x350.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid  mb8 mt8 d-block mx-auto"/>
+                                            </div>
+                                            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-244x350.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid  mb8 mt8 d-block mx-auto"/>
+                                            </div>
+                                            <div class="col-12 col-lg-4 col-md-4 col-sm-4 ">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-244x350.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8 d-block mx-auto"/>
+                                            </div>
+                                            <div class="col-12 col-lg-12 col-md-4 col-sm-4 d-md-none d-lg-block">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-855x210.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8 d-block mx-auto"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_1 text-left owl_nav_style_2"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template_mini"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="3" data-objects_limit="12"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Image End-->
+
+        <!--Snippet Product Carousel start-->
+        <template id="fashion_product_carousel" name="Fashion Product Carousel">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt16 pb16">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pt16 pb16">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-350x350.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_carousel_1"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template"
+                                        data-object_name="product.template" data-objects_in_slide="4" style=""
+                                        data-objects_limit="4"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel End-->
+
+        <!--Snippet Promo Image start-->
+        <template id="fashion_promo_image" name="Fashion Promo Image">
+            <section style="" class="pt16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_2 s_carousel_mini_1"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template_mini"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="2" data-objects_limit="12"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt16 pb16">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_fashion_ecommerce_ultimate_02/static/src/img/placeholder-855x380.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Promo Image End-->
+
+        <!--Snippet Blog start-->
+        <template id="fashion_blog" name="Fashion Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Brand Logo start-->
+        <template id="fashion_brand_logo" name="Fashion Brand Logo">
+            <section class="s_brand_carousel mb8 js_get_objects" data-loading="true"
+                     data-template="snippet_product_brand_carousel_73lines.brand_list_template_header"
+                     data-object_name="product.brand" data-objects_in_slide="5"/>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Footer start-->
+        <template id="fashion_footer" name="Fashion Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                <div class="pt64 pb32" id="footer_5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 mb32 col-lg-2">
+                                <h5 class="text-uppercase font-weight-bold mb16">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <span style="font-weight: normal;">About Us</span>
+                                    </font>
+                                </h5>
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor incididunt ut.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 mb32 col-lg-2">
+                                <h5 class="text-uppercase font-weight-bold mb16">
+                                    <font color="#ffffff" style="font-weight: normal;">quick links</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">profile</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip38226">Cart
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip303529">Your Orders
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">Wishlist</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">Shop</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 mb32 col-lg-3">
+                                <h5 class="text-uppercase font-weight-bold mb16">
+                                    <font style="color: rgb(255, 255, 255); font-weight: normal;">Contact Info
+                                    </font>
+                                </h5>
+                                <div class="media mb16">
+                                    <i class="fa fa-home mr-3 mt-1"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                        <span t-field="res_company.state_id.name"/>
+                                    </div>
+                                </div>
+                                <div class="media mb16">
+                                    <i class="fa fa-envelope-o mr-3 mt-1"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.email"/>
+                                    </div>
+                                </div>
+                                <div class="media mb16">
+                                    <i class="fa fa-phone mr-3 mt-1"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="text-uppercase font-weight-bold mb16">
+                                    <font style="color: rgb(255, 255, 255); font-weight: normal;">OUR NEWSLETTER
+                                    </font>
+                                </h5>
+                                <div class="input-group js_subscribe hidden d-block d-none" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#" class="js_subscribe_btn w-100 btn btn-beta"
+                                           data-original-title="" title="">Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class="text-uppercase font-weight-bold mb16">
+                                    <font style="color: rgb(255, 255, 255); font-weight: normal;">RECENT POST</font>
+                                </h5>
+                                <p class="mb8 o_default_snippet_text">Mohn is a Multi-Purpose Theme</p>
+                                <p class="o_default_snippet_text">26 January,2018</p>
+                                <p class="mb8 o_default_snippet_text">Mohn is a Multi-Purpose Theme</p>
+                                <p class="o_default_snippet_text">26 January,2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Fashion Ecommerce Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_banner"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_feature"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_testimonial"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_sale_image"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_product_carousel"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_promo_image"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_blog"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_brand_logo"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fashion_ecommerce_ultimate_02.fashion_footer"
+                           t-thumbnail="/theme_fashion_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

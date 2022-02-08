@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_1</field>
+            <field name="name">theme_interior_ultimate_01.image_content_1</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-6-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_2</field>
+            <field name="name">theme_interior_ultimate_01.image_content_2</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-design-full-banner-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_3</field>
+            <field name="name">theme_interior_ultimate_01.image_content_3</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/services-img-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_4</field>
+            <field name="name">theme_interior_ultimate_01.image_content_4</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_5</field>
+            <field name="name">theme_interior_ultimate_01.image_content_5</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-7-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_6</field>
+            <field name="name">theme_interior_ultimate_01.image_content_6</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-5-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_7</field>
+            <field name="name">theme_interior_ultimate_01.image_content_7</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/company-4.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_8</field>
+            <field name="name">theme_interior_ultimate_01.image_content_8</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/company-6.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_9</field>
+            <field name="name">theme_interior_ultimate_01.image_content_9</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/company-5.png</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_10</field>
+            <field name="name">theme_interior_ultimate_01.image_content_10</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/company-3.png</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_11</field>
+            <field name="name">theme_interior_ultimate_01.image_content_11</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-8-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_12</field>
+            <field name="name">theme_interior_ultimate_01.image_content_12</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_13</field>
+            <field name="name">theme_interior_ultimate_01.image_content_13</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/client_img4.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_14</field>
+            <field name="name">theme_interior_ultimate_01.image_content_14</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/services-img-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_15</field>
+            <field name="name">theme_interior_ultimate_01.image_content_15</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/services-img-4-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_16</field>
+            <field name="name">theme_interior_ultimate_01.image_content_16</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/services-img-5-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_17</field>
+            <field name="name">theme_interior_ultimate_01.image_content_17</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_18</field>
+            <field name="name">theme_interior_ultimate_01.image_content_18</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/company-1.png</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_19</field>
+            <field name="name">theme_interior_ultimate_01.image_content_19</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/services-img-6-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_20</field>
+            <field name="name">theme_interior_ultimate_01.image_content_20</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-9-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_21</field>
+            <field name="name">theme_interior_ultimate_01.image_content_21</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/client_img2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_22</field>
+            <field name="name">theme_interior_ultimate_01.image_content_22</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-12-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_23</field>
+            <field name="name">theme_interior_ultimate_01.image_content_23</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-11-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_24</field>
+            <field name="name">theme_interior_ultimate_01.image_content_24</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/client_img1.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_25" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_25</field>
+            <field name="name">theme_interior_ultimate_01.image_content_25</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_26" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_26</field>
+            <field name="name">theme_interior_ultimate_01.image_content_26</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/services-img-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_27" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_27</field>
+            <field name="name">theme_interior_ultimate_01.image_content_27</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_28" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_28</field>
+            <field name="name">theme_interior_ultimate_01.image_content_28</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/client_img3.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_29" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_29</field>
+            <field name="name">theme_interior_ultimate_01.image_content_29</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-10-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_30" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_30</field>
+            <field name="name">theme_interior_ultimate_01.image_content_30</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/stats-bg-image-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_31" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_31</field>
+            <field name="name">theme_interior_ultimate_01.image_content_31</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/bog-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_32" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_32</field>
+            <field name="name">theme_interior_ultimate_01.image_content_32</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/company-2.png</field>
+        </record>
+        
+        
+        <record id="image_content_33" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_33</field>
+            <field name="name">theme_interior_ultimate_01.image_content_33</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/04.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_34" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_34</field>
+            <field name="name">theme_interior_ultimate_01.image_content_34</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/bog-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_35" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_35</field>
+            <field name="name">theme_interior_ultimate_01.image_content_35</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/interior-img-4-min.jpg</field>
+        </record>
+        
+        <record id="image_content_36" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_36</field>
+            <field name="name">theme_interior_ultimate_01.image_content_36</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/bog-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_37" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_37</field>
+            <field name="name">theme_interior_ultimate_01.image_content_37</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/who-interior-ultimate-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_38" model="theme.ir.attachment">
+            <field name="key">theme_interior_ultimate_01.image_content_38</field>
+            <field name="name">theme_interior_ultimate_01.image_content_38</field>
+            <field name="url">/theme_interior_ultimate_01/static/src/img/library/03.jpg</field>
+        </record>
+
+    </data>
+</odoo>

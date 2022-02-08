@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_1</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_1</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/home_healthy_pic1_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_2</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_2</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/medical-history.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_3</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_3</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/home_healthy_pic33.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_4</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_4</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/syringe.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_5</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_5</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/doctor.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_6</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_6</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/stethoscope.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_7</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_7</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/home_healthy_pic32.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_8</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_8</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/x-rays.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_9</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_9</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/home_healthy_pic17.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_10</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_10</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/stretcher.png</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_11</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_11</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/home_healthy_pic34.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_12</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_12</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/home_healthy_pic2.png</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_13</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_13</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/heart-rate.png</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_14</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_14</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/ambulance.png</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_15</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_15</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/blood-transfusion.png</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_clinic_ultimate_02.image_content_16</field>
+            <field name="name">theme_clinic_ultimate_02.image_content_16</field>
+            <field name="url">/theme_clinic_ultimate_02/static/src/img/library/nurse-png-doctor-png-1009_1277.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

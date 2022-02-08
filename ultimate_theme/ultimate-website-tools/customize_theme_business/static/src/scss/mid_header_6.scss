@@ -1,0 +1,93 @@
+#mid_header_top{
+  display:block;
+}
+
+#company-profiles{
+    display:none;
+}
+#mid_header_bottom{
+    display:none;
+}
+.fa_company_contact_links:hover, .fa_company_contact_links:focus {
+    text-decoration: none;
+}
+.fa_company_contact_info {
+    font-size: 20px;
+    padding: 5px 5px;
+}
+.navbar-sign-in{
+    display:none !important;
+}
+
+#top_menu{
+    #my_wish,#my_cart{
+        display:none;
+    }
+}
+#company-email, #company-contact{
+    margin-top: 8px;
+}
+.divider{
+    display:none !important;
+}
+.user-details_1{
+    display:none;
+}
+
+#mid-header-top-right-welcome-msg{
+ display:none;
+}
+#mid-header-top-left{
+    #company-profiles{
+        display: none;
+    }
+}
+
+/*------- mid_header_6 scss start here-----*/
+.mt-2 {
+    margin-top: 0.3rem !important;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0rem;
+}
+.pb-0, .py-0 {
+    padding-bottom: 0 !important;
+    padding-top: 7px;
+}
+.fa-2x {
+    font-size: 20px;
+}
+.list-inline-item {
+    display: flex !important;
+}
+.text-right {
+    text-align: right !important;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+#company-email, #company-contact {
+    margin-top: 5px;
+}
+@media only screen and (max-width: 440px) {
+    #company-contact {
+        margin-top: 8px;
+        text-align: center;
+    }
+    #mid-header-top-right .text-right {
+        text-align: center !important;
+        justify-content: center;
+    }
+ }
+ @media only screen and  (min-width: 768px) {
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 5px;
+    }
+    .badge {
+        display: none;
+    }
+
+ }
+
+/*------- mid_header_6 scss end here-----*/

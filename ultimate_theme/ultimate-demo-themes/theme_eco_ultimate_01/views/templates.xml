@@ -1,0 +1,1324 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="eco_banner" name="Eco Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_eco_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white font-weight-bold"
+                                style="font-size: 62px; text-align: center;">
+                                Go Green Save The Planet
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white" style="text-align: center;">Write one or two
+                                paragraphs describing your product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="#" class="rounded-circle btn btn-alpha rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip205065">DONATE
+                                NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Service Start-->
+        <template id="eco_service" name="Eco Service">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" data-original-title=""
+                                 title=""
+                                 aria-describedby="tooltip408588"/>
+                            <h3 style="text-align: center; " class="mt8">
+                                Biology
+                            </h3>
+                            <p style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.&amp;nbsp;
+
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8" data-original-title="" title=""
+                                   aria-describedby="tooltip957084"/>
+                                <a href="#" class="btn btn-alpha pb8 pt8" data-original-title=""
+                                   title="" aria-describedby="tooltip957084"
+                                   style="font-size: 0.875rem;">READ MORE
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" data-original-title=""
+                                 title=""
+                                 aria-describedby="tooltip337871"/>
+                            <h3 style="text-align: center; " class="mt8">
+                                Recycling Services
+                            </h3>
+                            <p style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.&amp;nbsp;
+
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text"
+                                   data-original-title="" title="" aria-describedby="tooltip977404"/>
+                                <a href="#" class="btn btn-alpha pb8 pt8" data-original-title=""
+                                   title="" aria-describedby="tooltip977404"
+                                   style="font-size: 0.875rem;">READ MORE
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" data-original-title=""
+                                 title=""
+                                 aria-describedby="tooltip352931"/>
+                            <h3 style="text-align: center; " class="mt8">
+                                Solar System
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.&amp;nbsp;
+
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8" data-original-title="" title=""
+                                   aria-describedby="tooltip401859"/>
+                                <a href="#" class="btn btn-alpha pb8 pt8" data-original-title=""
+                                   title="" aria-describedby="tooltip401859"
+                                   style="font-size: 0.875rem;">READ MORE
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                            <h3 style="text-align: center; ">
+                                Water Refine
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.&amp;nbsp;
+
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text"/>
+                                <a href="#" class="btn btn-alpha pb8 pt8"
+                                   style="font-size: 0.875rem;" data-original-title="" title=""
+                                   aria-describedby="tooltip821835">READ MORE
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Counter Start-->
+        <template id="eco_counter" name="Eco Counter">
+            <section class="pt64 pb48 oe_img_bg oe_custom_bg" id="counter_9"
+                     style="background-image: url(&quot;/theme_eco_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b class="o_default_snippet_text">OUR WORK</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <i class="fa pe-7s-sun fa-500px fa-3x" style="color: rgb(255, 255, 255);"
+                                   data-original-title="" title="" aria-describedby="tooltip67300"/>
+                                <h2 class="mt32">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">
+                                        <b>700</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">Solar Panels
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <i class="fa fa-500px pe-7s-drop fa-3x" style="color: rgb(255, 255, 255);"
+                                   data-original-title="" title="" aria-describedby="tooltip31988"/>
+                                <h2 class="mt32">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">
+                                        <b>900</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">Water Treatment
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <i class="fa fa-500px fa-users pe-7s-users fa-3x" data-original-title="" title=""
+                                   aria-describedby="tooltip898215" style="color: rgb(255, 255, 255);"/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">
+                                        <b>400</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">Volunters
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <i class="fa fa-500px pe-7s-refresh-2 fa-3x" style="color: rgb(255, 255, 255);"
+                                   data-original-title="" title="" aria-describedby="tooltip62689"/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">
+                                        <b>700</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">Recycled Materials
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet About Us Start-->
+        <template id="eco_aboutus" name="Eco About Us">
+            <section class="pt64 pb0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 class="img-fluid pt8 mx-auto d-block"
+                                 data-original-title="" title="" aria-describedby="tooltip368830"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2 class="pb8 pt8">
+                                <font style="font-size: 36px;">
+                                    <b>OUR MISSION</b>
+                                </font>
+                            </h2>
+                            <p class="pb8 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit.Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                            </p>
+                            <div class="row">
+                                <div class="col- col-sm-6 col-md-6 col-lg-6 mb16">
+                                    <i class="bg-alpha fa fa-500px pe-7s-leaf rounded-circle text-gamma fa-2x"
+                                       data-original-title="" title="" aria-describedby="tooltip889350" style=""/>
+                                    <h3 class="mt8 mb8">
+                                        <span class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Eco Foresty</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.&amp;nbsp;</p>
+                                </div>
+                                <div class="col- col-sm-6 col-md-6 col-lg-6 mb16">
+                                    <i class="bg-alpha fa fa-500px pe-7s-target rounded-circle text-gamma fa-2x"
+                                       data-original-title="" title="" aria-describedby="tooltip480506" style=""/>
+                                    <h3 class="mt8 mb8">
+                                        <span class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Wind Power</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.&amp;nbsp;
+                                        <br/>
+                                    </p>
+                                </div>
+                                <div class="col- col-sm-6 col-md-6 col-lg-6 mb16">
+                                    <i class="bg-alpha fa fa-500px pe-7s-plugin rounded-circle text-gamma fa-2x"
+                                       data-original-title="" title="" aria-describedby="tooltip517126" style=""/>
+                                    <h3 class="mt8 mb8">
+                                        <span class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Young Seedling</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.&amp;nbsp;
+                                        <br/>
+                                    </p>
+                                </div>
+                                <div class="col- col-sm-6 col-md-6 col-lg-6 mb16">
+                                    <i class="bg-alpha fa fa-500px pe-7s-cloud rounded-circle text-gamma fa-2x"
+                                       data-original-title="" title="" aria-describedby="tooltip778164" style=""/>
+                                    <h3 class="mt8 mb8">
+                                        <span class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Dynamic Ecology</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.&amp;nbsp;
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About us End-->
+
+        <!--Snippet Project Start-->
+        <template id="eco_project" name="Eco Project">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg" id="team_3"
+                     style="background-image: url(&quot;/theme_eco_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center mb48">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b>RECENT PROJECTS</b>
+                                </font>
+                            </h2>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                             class="img-fluid"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);">Wind
+                                                    Generators
+                                                </font>
+                                            </h3>
+                                            <p>Eco Powers</p>
+                                            <a href="#">
+                                                <i class="fa pr-2 pe-7s-refresh fa-500px"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip356128" style=""/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa pr-2 pe-7s-link fa-500px"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip361583" style=""/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                                    <div class="img-container">
+                                        <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);">Planet More
+                                                    Trees
+                                                </font>
+                                            </h3>
+                                            <p>Environment</p>
+                                            <a href="#">
+                                                <i class="fa pr-2 pe-7s-refresh fa-500px"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip888313" style=""/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa pr-2 pe-7s-link fa-500px"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip562916" style=""/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                                    <div class="img-container">
+                                        <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);">Reduce Global
+                                                    Warming
+                                                </font>
+                                            </h3>
+                                            <p>Clean Nature</p>
+                                            <a href="#">
+                                                <i class="fa pr-2 pe-7s-refresh fa-500px"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip566138" style=""/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa pr-2 pe-7s-link fa-500px"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip998186" style=""/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Project End-->
+
+        <!--Snippet Feature Start-->
+        <template id="eco_feature" name="Eco Feature">
+            <section class="bg-white oe_custom_bg pt64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;">HELPING US BY DONATING</font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        Save Tree
+                                    </h3>
+                                    <p style="text-align: left; ">
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor congue suscipit.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <br/>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank"/>
+                                        <a href="#" target="_blank" class="btn btn-outline-alpha"
+                                           style="font-size: 0.875rem;" data-original-title="" title=""
+                                           aria-describedby="tooltip563301">DONATE
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        Save Animals
+                                    </h3>
+                                    <p style="text-align: left; ">
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor congue suscipit.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <br/>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip338358"/>
+                                        <a href="#" target="_blank" class="btn btn-outline-alpha"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip338358"
+                                           style="font-size: 0.875rem;">DONATE
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: left; ">
+                                        Go Green Movement
+                                    </h3>
+                                    <p style="text-align: left; ">
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor congue suscipit.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <br/>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip212027"/>
+                                        <a href="#" target="_blank" class="btn btn-outline-alpha"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip212027"
+                                           style="font-size: 0.875rem;">DONATE
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Event Start-->
+        <template id="eco_event" name="Eco Event">
+            <section class="bg-gamma oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt64">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;" class="o_default_snippet_text">LATEST EVENTS
+                                        </font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64 bg-gamma oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <span class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Green Houses</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        September 12
+                                    </p>
+                                    <p style="text-align: left; " class="o_default_snippet_text">
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor congue suscipit.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <span class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Reduced Littaring</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        August 12
+                                    </p>
+                                    <p style="text-align: left; " class="o_default_snippet_text">
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor congue suscipit.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <span class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Way Of Paper Recycling</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        September 12
+                                    </p>
+                                    <p style="text-align: left; " class="o_default_snippet_text">
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor congue suscipit.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Event End-->
+
+        <!--Snippet Team Start-->
+        <template id="eco_team" name="Eco Team">
+            <section class="s_three_columns pt64 pb64" id="team_6">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="m-auto pb48 text-alpha">
+                            <font style="color: rgb(0, 0, 0); font-size: 36px;">
+                                <b class="o_default_snippet_text">MEET OUR TEAM</b>
+                            </font>
+                        </h2>
+                    </div>
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip362507"/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text" style="text-align: center; ">
+                                        <font style="font-size: 18px;">Alisa Smith</font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Social
+                                        Leader
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip362507"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font color="#6ab43e" style="color: rgb(0, 0, 0); font-size: 18px;"
+                                              class="o_default_snippet_text">Sarah
+                                            George
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Project
+                                        Manager
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip362507"/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text" style="text-align: center; ">
+                                        <font style="font-size: 18px;">Andrw Wills</font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Senior
+                                        Manager
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip362507"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font color="#6ab43e" style="color: rgb(0, 0, 0); font-size: 18px;"
+                                              class="o_default_snippet_text">Marrison
+                                            Wipper
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">
+                                        Photographer
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="eco_testimonial" name="Eco Testimonial">
+            <section class="pt64 pb64 bg-black oe_custom_bg" id="testimonials_d4" style="">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">WHAT PEOPLE ARE SAYING
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1564552028687"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1564552028687" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1564552028687" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 bg-black oe_custom_bg active"
+                             data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row d-flex align-items-stretch">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">
+                                                    Write
+                                                    a
+                                                    quote here from one of your
+                                                    customers.
+                                                    Quotes are a great way to build
+                                                    confidence in your products or
+                                                    services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                —
+                                                Jane DOE, CEO of
+                                                <b>Environmental</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">
+                                                    Write
+                                                    a
+                                                    quote here from one of your
+                                                    customers.
+                                                    Quotes are a great way to build
+                                                    confidence in your products or
+                                                    services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""
+                                                 data-original-title="" title=""
+                                                 aria-describedby="tooltip841644"/>
+                                            <span>— Mark Pine, Leader of
+                                                <b>Environmental</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p>
+                                                    Write
+                                                    a
+                                                    quote here from one of your
+                                                    customers.
+                                                    Quotes are a great way to build
+                                                    confidence in your products or
+                                                    services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""
+                                                 data-original-title="" title=""
+                                                 aria-describedby="tooltip990739"/>
+                                            <span>— Anna Smith, Director of
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 bg-black oe_custom_bg" data-name="Slide"
+                             style="">
+                            <div class="container">
+                                <div class="row d-flex align-items-stretch">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">
+                                                    Write
+                                                    a
+                                                    quote here from one of your
+                                                    customers.
+                                                    Quotes are a great way to build
+                                                    confidence in your products or
+                                                    services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>— Jane DOE, CEO of
+                                                <b>Environmental</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">
+                                                    Write
+                                                    a
+                                                    quote here from one of your
+                                                    customers.
+                                                    Quotes are a great way to build
+                                                    confidence in your products or
+                                                    services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>— Mark Pine, Leaderof
+                                                <b>Environmental</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p>
+                                                    Write
+                                                    a
+                                                    quote here from one of your
+                                                    customers.
+                                                    Quotes are a great way to build
+                                                    confidence in your products or
+                                                    services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_eco_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""
+                                                 data-original-title="" title=""
+                                                 aria-describedby="tooltip990739"/>
+                                            <span>— Anna Smith, Director of
+                                                <b>Environmental</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1564552028687"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous
+                        </span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1564552028687"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet News Start-->
+        <template id="eco_news" name="Eco News">
+            <section class="bg-white oe_custom_bg pt64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;" class="o_default_snippet_text">LATEST NEWS</font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">Analysis Of Ecology</font>
+                                </b>
+                            </h3>
+                            <h3>
+                                <span style="color: rgb(119, 119, 119); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;"
+                                      class="o_default_snippet_text">
+                                    July 12 2017
+                                </span>
+                                <br/>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pb8 pt8 o_default_snippet_text" data-original-title="" title=""
+                               aria-describedby="tooltip555988">Continue
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">Ecology Conference</font>
+                                </b>
+                            </h3>
+                            <h3>
+                                <span style="color: rgb(119, 119, 119); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;"
+                                      class="o_default_snippet_text">
+                                    September 15 2017
+                                </span>
+                                <br/>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.
+                            </p>
+                            <a href="#" class="pb8 pt8 o_default_snippet_text" data-original-title="" title=""
+                               aria-describedby="tooltip509448">Continue
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">Ecology Study</font>
+                                </b>
+                            </h3>
+                            <h3>
+                                <span style="color: rgb(119, 119, 119); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;"
+                                      class="o_default_snippet_text">
+                                    December 19 2017
+                                </span>
+                                <br/>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8 o_default_snippet_text">Continue
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet CTA Start-->
+        <template id="eco_cta" name="Eco CTA">
+            <section class="pt64 pb64 bg-alpha oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_eco_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-2 col-lg-8">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">SAVE WORLD BY
+                                    PLANTING TREES YOUR SURROUNDING
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse potenti. Aliquam
+                                finibus pharetra tellus at egestas&amp;nbsp;
+                            </p>
+                            <a href="#" class="mb16 mt16 rounded-0 btn btn-gamma btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip393170">JOIN US
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="eco_brandlogo" name="Eco Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_eco_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Footer Start-->
+        <template id="eco_footer" name="Eco Footer">
+            <section class="oe_structure" id="footer">
+                <div class="oe_custom_bg pb32 pt64" id="footer_3" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p>
+                                    <font class="text-beta" style="">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                        &amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-2x fa-map-marker mr-2 text-alpha" data-original-title=""
+                                       title="" aria-describedby="tooltip437783" style=""/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font class="text-beta" style="">Address :</font>
+                                        </p>
+                                        <span t-field="res_company.street" class="text-beta"/>
+                                        <span t-field="res_company.city" class="text-beta"/>
+                                        <span t-field="res_company.state_id.name" class="text-beta"/>
+                                        <span t-field="res_company.zip" class="text-beta"/>
+                                        <span t-field="res_company.country_id.name" class="text-beta"/>
+                                    </div>
+                                </div>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-2x fa-phone mr-2 text-alpha" data-original-title="" title=""
+                                       aria-describedby="tooltip697545" style=""/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font class="text-beta" style="">Call us &amp;amp; Hire us :</font>
+                                        </p>
+                                        <span t-field="res_company.phone" class="text-beta"/>
+                                    </div>
+                                </div>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="bg-alpha fa fa-facebook mx-1" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="bg-alpha fa fa-twitter mx-1" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="bg-alpha fa fa-instagram mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip245479" style=""/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bg-alpha fa fa-google-plus mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip543306" style=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5>
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">QUICK LINKS</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled text-uppercase mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-beta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip290382">ABOUT US
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-beta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip177326">CAMPAIGNS
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-beta" style="">FAQ</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip20276">
+                                            <font class="text-beta" style="">OUR TEAM</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title=""
+                                           title="" aria-describedby="tooltip20276">
+                                            <font class="text-beta" style="">OUR EVENTS&amp;nbsp;</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title=""
+                                           title="" aria-describedby="tooltip20276">
+                                            <font class="text-beta" style="">SEVICES</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-beta" style="">TESTIMONIALS</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">LETEST POST</font>
+                                    </b>
+                                </h5>
+                                <p class="mb8">
+                                    <font class="text-beta" style="">Environmental Perspective</font>
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8">
+                                    <font class="text-beta" style="">Protect Animals</font>
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8">
+                                    <font class="text-beta" style="">Save Nature Beauty</font>
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8">
+                                    <font class="text-beta" style="">How to Recycle</font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24 o_default_snippet_text">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">OUR NEWSLETTER</font>
+                                    </b>
+                                </h5>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="2"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled" style="">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Eco Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_eco_ultimate_01.eco_banner"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_service"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_counter"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_aboutus"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_project"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_feature"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_event"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_team"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_testimonial"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_news"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_cta"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_brandlogo"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_eco_ultimate_01.eco_footer"
+                           t-thumbnail="/theme_eco_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

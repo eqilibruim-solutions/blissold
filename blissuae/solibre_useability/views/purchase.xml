@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="action_view_sale_advance_payment_inv" model="ir.actions.act_window">
+        <field name="name">Create invoices</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sale.advance.payment.inv</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <!-- TODO: check if we need this -->
+        <field name="binding_model_id" ref="purchase.model_purchase_order" />
+        <field name="binding_view_types">list</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_order_form_inherit">
+        <field name="name">purchase.order.form.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='origin']" position="after">
+                <field name="weight" />
+                <field name="requisition_manager_user_id" readonly="1"/>
+                <field name="payment_id" readonly="1"/>
+            </xpath>
+            <xpath expr="//field[@name='state']" position="before">
+                <button type="action" name="%(action_payment_request)d"
+                    string="Adv. payment request" 
+                    attrs="{'invisible': ['|',('state', 'not in', ['purchase','done']),('payment_id','!=',False)]}"/>
+            </xpath>
+            <xpath expr="//button[@name='action_view_invoice']" position="attributes">
+                <attribute name="name">%(action_view_sale_advance_payment_inv)d</attribute>
+                <attribute name="context">{'create_bill':True,'supplier_invoice':True}</attribute>
+                <attribute name="type">action</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_order_quotation_tree_inherit">
+        <field name="name">purchase.order.quotation.tree.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="purchase.purchase_order_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='origin']" position="after">
+                <field name="price_override" optional="hide"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_order_tree_inherit">
+        <field name="name">purchase.order.tree.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="purchase.purchase_order_view_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='state']" position="before">
+                <field name="shipping_state" />
+                <field name="tracking_url" widget="url"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_order_search">
+        <field name="name">purchase.order.search.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="type">search</field>
+        <field name="inherit_id" ref="purchase.purchase_order_view_search" />
+        <field name="arch" type="xml">
+            <!-- Add extra filter -->
+            <xpath expr="//filter[@name='my_Orders']" position="after">
+                <filter name="to_approve" string="To Approve" domain="[('state', '=', 'to approve')]"/>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="analytic_account_id" />
+            </xpath>
+            <xpath expr="//group" position="inside">
+                <filter string="Analytic Account" name="analytic_account_group" domain="[]" context="{'group_by': 'analytic_account_id'}"/>
+
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_order_form_inherit">
+        <field name="name">purchase.order.form.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_id']" position="before">
+                <field name="price_override"/>
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Shipping">
+                    <group>
+                        <field name="shipping_state" options="{'no_create': True}" readonly="False"/>
+                    </group>
+                    <group string="Tracking">
+                        <field name="tracking_partner_id" />
+                        <field name="tracking_number" />
+                        <field name="tracking_url" widget="url"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_shipping_state">
+        <field name="name">Shipping States</field>
+        <field name="res_model">shipping.state</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_shipping_state"
+        name="Shipping State"
+        parent="purchase.menu_purchase_config"
+        action="action_shipping_state" />
+
+    <record model="ir.ui.view" id="view_purchase_tracking_tree">
+        <field name="name">purchase.tracking.tree</field>
+        <field name="model">purchase.tracking</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="date" />
+                <field name="name" />
+                <field name="state" />
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_tracking_form">
+        <field name="name">purchase.tracking.form</field>
+        <field name="model">purchase.tracking</field>
+        <field name="type">form</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="date" />
+                        <field name="name" />
+                        <field name="state" />
+                    </group>
+                    <group>
+                        <field name="purchase_ids" />
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_purchase_tracking">
+        <field name="name">Shipment Tracking</field>
+        <field name="res_model">purchase.tracking</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_purchase_tracking"
+        name="Shipment Tracking"
+        parent="purchase.menu_procurement_management"
+        action="action_purchase_tracking" />
+
+</odoo>

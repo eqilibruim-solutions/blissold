@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Part of Odoo Module Developed by 73lines See LICENSE file for full copyright 
+	and licensing details. -->
+<odoo>
+
+    <!-- ======== Client Carousel ======== -->
+
+    <!-- Snippet's Body -->
+    <template id="s_client_carousel_header" name="client Carousel Slider">
+        <section class="s_client_carousel mb8 js_get_objects"
+                 data-loading="true"
+                 data-template="snippet_client_carousel_73lines.client_list_template_header"
+                 data-object_name="res.partner" data-objects_in_slide="5">
+        </section>
+    </template>
+
+    <!-- Latest Client's Template -->
+    <template id="client_list_template_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="headline">
+                        <h2 t-esc="title"></h2>
+                        <hr class="mt0 mb0"/>
+                    </div>
+                    <div class="client-list owl-carousel owl-theme mt8 mb8">
+                        <t t-foreach="objects" t-as="obj">
+                            <div class="item client-single">
+                                <t t-foreach="obj" t-as="client">
+                                    <t t-call="snippet_client_carousel_73lines.new_client_item"/>
+                                </t>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="new_client_item" name="client item">
+        <div class="oe_client_image">
+            <span t-att-title="client.name">
+                <img itemprop="image" class="img img-fluid"
+                     t-att-src="website.image_url(client, 'client_carousel_image', None if client_carousel_image else '300x300')"
+                     t-att-alt="client.name"/>
+            </span>
+        </div>
+    </template>
+</odoo>

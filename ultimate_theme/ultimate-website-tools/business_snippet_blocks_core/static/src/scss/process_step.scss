@@ -1,0 +1,342 @@
+                                    /*css for process_step_1*/
+
+
+#process_step_1 .process {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+
+#process_step_1 .step:after{
+content: url("/business_snippet_blocks_core/static/src/img/common-images/right.png");
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+}
+
+#process_step_1 .process i{
+	border: 1px solid #999;
+	border-radius: 50%;
+	padding: 20px;
+	height: 85px;
+	width: 85px;
+	background-color: #fff;
+	line-height: 1.5;
+	position: relative;
+ }
+
+ #process_step_1 .process i:hover{
+ border: 1px solid #00A09D;
+ color:#00A09D;
+ }
+
+ @media (max-width: 768px){
+#process_step_1 .step:nth-child(2):after{
+content:" ";
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    width: 0px;
+    height: 0;
+}
+
+}
+
+@media (max-width: 425px){
+#process_step_1 .step:after{
+content:" ";
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    width: 0px;
+    height: 0;
+}
+
+}
+
+#process_step_1 hr{
+    width:11%;
+}
+
+
+                                    /*css for process_step_2*/
+
+
+#process_step_2{
+    background-color: #e5edf9;
+}
+
+
+#process_step_2 .box{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#process_step_2 .box:hover{
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+#process_step_2 .box i{
+    border: 1px solid #999;
+	border-radius: 50%;
+	padding: 20px;
+	height: 85px;
+	width: 85px;
+	background-color: #fff;
+	line-height: 1.5;
+	position: relative;
+}
+
+#process_step_2 .process_no{
+    border: 1px solid #999;
+	border-radius: 50%;
+	height: 44px;
+	width: 44px;
+	line-height: 1.7;
+	position: absolute;
+	top: -22px;
+    left: 30px;
+    background-color: #0606fb;
+}
+
+
+                                    /*css for process_step_3*/
+
+
+#process_step_3 .process{
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+#process_step_3 .step:after{
+    content: url("/business_snippet_blocks_core/static/src/img/common-images/right.png");
+    position: absolute;
+    top: 81px;
+    bottom: 0;
+    right: -20px;
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 425px){
+#process_step_3 .step:after{
+content:" ";
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    width: 0px;
+    height: 0;
+}
+
+}
+
+#process_step_3 .process_no{
+	color: #d0dfe8;
+    font-size: 3.5rem;
+    margin: 0px 0px -12px 65px;
+}
+
+
+                                    /*css for process_step_4*/
+
+
+#process_step_4 .box{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+#process_step_4 .process_no{
+    font-size: 3.75rem;
+}
+
+#process_step_4{
+  background-image: linear-gradient(to right, #3802f9 , #a85ef2);
+}
+
+#process_step_4 i{
+    position: absolute;
+	top: 15px;
+    left: 30px;
+}
+
+
+#process_step_4 .box:hover{
+    border-color:#fff;
+}
+
+#process_step_4 hr{
+    width:11%;
+    border-color:#fff;
+}
+
+
+
+/*------------------process-5 step css start here -------------------------*/
+
+.process_step{
+    counter-increment:section;
+}
+.process_step:after{
+    content:"0" counter(section);
+    position: absolute;
+    top: -50px;
+    bottom: 0;
+    right:0;
+    font-size:60px;
+    color: #cccccc ;
+
+}
+#process_five hr{
+    width:50px;
+    border-top:2px solid;
+}
+
+
+/*------------------process-5 step css end here -------------------------*/
+
+/*------------------process-6 step css end here -------------------------*/
+#process_six .content {
+    margin-top: -65px;
+}
+
+/*------------------process-6 step css end here -------------------------*/
+/*------------------process-7 step css start here -------------------------*/
+#process_seven .step:after{
+    content: url("/business_snippet_blocks_core/static/src/img/common-images/right.png");
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    right:0;
+    width: 32px;
+    height: 32px;
+
+    @media (max-width: 480px) {content: " "; }
+}
+@media (max-width: 768px){
+#process_seven .step:nth-child(2):after{
+content:" ";
+position: absolute;
+top: 60px;
+bottom: 0;
+right: 0;
+width: 0px;
+height: 0;
+}
+
+}
+/*------------------process-7 step css end here -------------------------*/
+
+
+
+/*------------------process-8  vertical process step css start here -------------------------*/
+
+#process_step_8{
+
+hr{
+    width:11%;
+}
+
+.main-timeline .inner-content,
+    .main-timeline .timeline:nth-child(even) .inner-content{
+        padding: 0 10px 10px 90px;
+    }
+.main-timeline::before {
+
+    content: '';
+    background: theme-color('primary');
+    height: 100%;
+    width: 7px;
+    border-radius: 30px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 3px;
+
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    text-align: center;
+    width: 50.1%;
+    margin: 0 0 50px;
+    float: left;
+    position: relative;
+}
+.main-timeline .timeline:last-child{ margin: 0; }
+.main-timeline .timeline-content{
+    color: var(--text);
+    display: block;
+}
+
+.main-timeline .timeline-icon{
+    color: var(--main-text1);
+    background:theme-color('primary');
+    font-size: 50px;
+    text-align: center;
+    line-height: 114px;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--text);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -54px;
+}
+.main-timeline .timeline-icon:before{
+        content: '';
+    background: #fff;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+}
+.main-timeline .inner-content{ padding: 10px 80px 10px 10px; }
+
+.main-timeline .timeline:nth-child(even){ float: right; }
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    right: auto;
+    left: -53px;
+}
+@media only screen and (max-width:767px){
+    .main-timeline:before{
+        transform: translateX(0);
+        left: 29px;
+    }
+    .main-timeline .timeline{
+        width: 100%;
+        margin: 0 0 40px;
+        float: right;
+    }
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        transform: translateY(-50%) scale(0.7);
+        right: auto;
+        left: -35px;
+    }
+    .main-timeline .inner-content,
+    .main-timeline .timeline:nth-child(even) .inner-content{
+        padding: 0 10px 10px 90px;
+    }
+}
+}
+/*------------------process-8  vertical process step css end here -------------------------*/

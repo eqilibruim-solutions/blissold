@@ -1,0 +1,16 @@
+
+#top_menu{
+    margin-right: auto !important;
+}
+.left_logo{
+    display:none !important;
+}
+.right_logo{
+    display:none;
+}
+#my_cart,#my_wish{
+    display: inline-block !important;
+    .fa-shopping-cart,.fa-heart{
+            margin-right: 8px;
+    }
+}

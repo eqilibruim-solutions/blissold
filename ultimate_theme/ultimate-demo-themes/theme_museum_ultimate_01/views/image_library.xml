@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_1</field>
+            <field name="name">theme_museum_ultimate_01.image_content_1</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/news02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_2</field>
+            <field name="name">theme_museum_ultimate_01.image_content_2</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/img-block-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_3</field>
+            <field name="name">theme_museum_ultimate_01.image_content_3</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/img-block-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_4</field>
+            <field name="name">theme_museum_ultimate_01.image_content_4</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/news01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_5</field>
+            <field name="name">theme_museum_ultimate_01.image_content_5</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/bg03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_6</field>
+            <field name="name">theme_museum_ultimate_01.image_content_6</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/our_venue_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_7</field>
+            <field name="name">theme_museum_ultimate_01.image_content_7</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/img-block-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_8</field>
+            <field name="name">theme_museum_ultimate_01.image_content_8</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/our_venue_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_9</field>
+            <field name="name">theme_museum_ultimate_01.image_content_9</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/our_venue_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_10</field>
+            <field name="name">theme_museum_ultimate_01.image_content_10</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/news03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_11</field>
+            <field name="name">theme_museum_ultimate_01.image_content_11</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_museum_ultimate_01.image_content_12</field>
+            <field name="name">theme_museum_ultimate_01.image_content_12</field>
+            <field name="url">/theme_museum_ultimate_01/static/src/img/library/museum_ultimate_01_logo.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

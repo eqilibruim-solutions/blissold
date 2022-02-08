@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_1</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_1</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/blog_1.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_2</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_2</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/5.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_3</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_3</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/4.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_4</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_4</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/chrome.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_5</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_5</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/company-5.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_6</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_6</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/reseller.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_7</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_7</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/cta_app_download.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_8</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_8</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/company-4.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_9</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_9</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/company-2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_10</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_10</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/get_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_11</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_11</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/3.png</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_12</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_12</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/offer_video.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_13</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_13</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/company-1.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_14</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_14</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/window_hosting.png</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_15</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_15</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/dedicated_hosting.png</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_16</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_16</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/firefox.png</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_17</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_17</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/unlocked.png</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_18</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_18</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/offer_bg.png</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_19</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_19</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/vps.png</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_20</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_20</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/1.png</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_21</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_21</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/blog_2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_22</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_22</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/cta_app.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_23</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_23</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/testi_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_24</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_24</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/cloud_hosting.png</field>
+        </record>
+        
+        
+        <record id="image_content_25" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_25</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_25</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/testi_img_3.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_26" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_26</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_26</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/24-hours.png</field>
+        </record>
+        
+        
+        <record id="image_content_27" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_27</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_27</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/2.png</field>
+        </record>
+        
+        
+        <record id="image_content_28" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_28</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_28</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/company-6.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_29" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_29</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_29</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/internet-explorer.png</field>
+        </record>
+        
+        
+        <record id="image_content_30" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_30</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_30</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/shared_hosting.png</field>
+        </record>
+        
+        
+        <record id="image_content_31" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_31</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_31</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/blog_3.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_32" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_32</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_32</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/contact_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_33" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_33</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_33</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_34" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_34</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_34</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/safari.png</field>
+        </record>
+        
+        
+        <record id="image_content_35" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_35</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_35</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/opera.png</field>
+        </record>
+        
+        
+        <record id="image_content_36" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_36</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_36</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/high-performance.png</field>
+        </record>
+        
+        
+        <record id="image_content_37" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_37</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_37</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/mobile_mockup.png</field>
+        </record>
+        
+        
+        <record id="image_content_38" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_38</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_38</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/netscape.png</field>
+        </record>
+        
+        
+        <record id="image_content_39" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_39</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_39</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/contact_cta.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_40" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_40</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_40</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/testi_img_2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_41" model="theme.ir.attachment">
+            <field name="key">theme_hosting_ultimate_01.image_content_41</field>
+            <field name="name">theme_hosting_ultimate_01.image_content_41</field>
+            <field name="url">/theme_hosting_ultimate_01/static/src/img/library/company-3.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

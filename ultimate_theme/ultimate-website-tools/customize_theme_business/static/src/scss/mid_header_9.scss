@@ -1,0 +1,109 @@
+#mid_header_top{
+  display:block;
+}
+
+#mid_header_bottom {
+    display: none;
+}
+
+.fa_company_contact_links:hover, .fa_company_contact_links:focus {
+    text-decoration: none;
+}
+
+.fa_company_contact_info {
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.navbar-sign-in {
+    display: none !important;
+}
+
+#top_menu {
+    #my_wish, #my_cart {
+        display: none;
+    }
+}
+
+#company-email, #company-contact {
+    margin-top: 8px;
+}
+
+.divider {
+    display: none !important;
+}
+
+.user-details {
+    display: none;
+}
+
+#mid-header-top-right-welcome-msg, #mid-header-top-center {
+    display: none;
+}
+
+#mid-header-top-left {
+    #company-contact {
+        display: none;
+    }
+}
+
+#mid-header-top-right {
+    #company-profiles {
+        display: none;
+    }
+}
+/*------- mid_header_9 scss start here-----*/
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    padding: 0.3rem 0rem;
+    font-size: 0.875rem;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    text-decoration: none;
+}
+#mid-header-bottom-left .text-center {
+    text-align: left !important;
+}
+.list-inline{
+    display:none;
+}
+#mid-header-top-right .text-right {
+    text-align: right !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 440px) {
+    .dropdown-menu {
+        min-width: 6.5rem;
+    }
+     #mid-header-top-left  .text-left {
+        text-align: center !important;
+    }
+   #mid-header-top-right .text-right {
+        text-align: center !important;
+        display: block;
+    }
+    .list-inline {
+        display: block;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    .dropdown-menu {
+        min-width: 8rem;
+    }
+    .user-details_1 ul {
+        text-align: left !important;
+        display: flex !important;
+    }
+    #mid-header-top-left .text-left {
+        text-align: left !important;
+        display: flex;
+    }
+
+}
+ /*------- mid_header_9 scss end here-----*/
+

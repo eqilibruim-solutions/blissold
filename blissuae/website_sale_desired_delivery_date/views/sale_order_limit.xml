@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_sale_order_limit_tree">
+        <field name="name">sale.order.limit.tree</field>
+        <field name="model">sale.order.limit</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="team_id" />
+                <field name="date" />
+                <field name="max_orders" />
+                <field name="time_slot_ids" widget="many2many_tags"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sale_order_limit">
+        <field name="name">Maximum Orders</field>
+        <field name="res_model">sale.order.limit</field>
+        <field name="view_mode">tree</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_sale_order_limit"
+        name="Maximum Orders"
+        parent="sale.menu_sales_config"
+        action="action_sale_order_limit" />
+
+</odoo>

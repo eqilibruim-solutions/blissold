@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- OneSignal Script Init into <head> tag -->
+    <template id="web_push_notifications" inherit_id="website.layout"
+              name="Web Push Notifications">
+        <xpath expr="//t[@t-set='head_website']" position="inside">
+            <link rel="manifest" href="/manifest.json"/>
+            <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+                    async='async'></script>
+            <script>
+                var OneSignal = window.OneSignal || [];
+                OneSignal.push(["init", {
+                appId: "<t t-raw="website.onesignal_app_id"/>",
+                autoRegister: true,
+
+                // Add safari web id to support push notifications in Safari
+                browser
+                safari_web_id: "<t t-raw="website.onesignal_safari_web_id"/>",
+
+                // persistNotification : Dismissing Notifications After ~20 Sec.
+                (Chrome Desktop v47+)
+                // persistNotification: false,
+
+                notifyButton: {
+                enable: false
+                },
+
+                /* ***** Parameter used with `showHttpPermissionRequest()`
+                method ***** */
+                httpPermissionRequest: {
+                enabled: true,
+                modalTitle: 'Thanks for subscribing',
+                modalMessage: "You're now subscribed to notifications. You can
+                unsubscribe at any time.",
+                modalButtonText: 'Close'
+                },
+
+                /* ***** Parameter used with `showHttpPrompt()` method ***** */
+                /*
+                promptOptions: {
+                actionMessage: "We'd like to show you notifications for the
+                latest news and updates.",
+                acceptButtonText: "ALLOW",
+                cancelButtonText: "NO THANKS"
+                },
+                */
+                }]);
+
+                /* ***** `showHttpPermissionRequest()` method ***** */
+                OneSignal.push(function() {
+                OneSignal.showHttpPermissionRequest();
+                });
+
+                /* ***** `showHttpPrompt()` method ***** */
+                /*
+                OneSignal.push(function() {
+                OneSignal.showHttpPrompt();
+                });
+                */
+            </script>
+        </xpath>
+    </template>
+
+    <!-- Website Settings Inherit -->
+    <record id="view_website_config_settings_onesignal" model="ir.ui.view">
+        <field name="name">OneSignal Website Settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="model">res.config.settings</field>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='cdn_setting']" position="after">
+                <div class="col-xs-12 col-md-12 o_setting_box"
+                     id="onesignal_web_push_notifications"
+                     title="OneSignal Web Push Notifications"
+                     groups="base.group_no_one">
+                    <group name="onesignal_web_push_notifications"
+                           string="OneSignal Web Push Notifications">
+                        <label for="onesignal_site_name"/>
+                        <div name="onesignal_site_name">
+                            <div class="oe_inline">
+                                <field name="onesignal_site_name"
+                                       placeholder="My Site Name" required="1"/>
+                            </div>
+                        </div>
+                        <label for="onesignal_site_short_name"/>
+                        <div name="onesignal_site_short_name">
+                            <div class="oe_inline">
+                                <field name="onesignal_site_short_name"
+                                       placeholder="My Site Name" required="1"/>
+                            </div>
+                        </div>
+                        <label for="onesignal_app_id"/>
+                        <div name="onesignal_app_id">
+                            <div class="oe_inline">
+                                <field name="onesignal_app_id"
+                                       placeholder="eb*a6a***-1*75-4*15-a8c7-e679a****2e2"
+                                       required="1"/>
+                            </div>
+                        </div>
+                        <label for="onesignal_safari_web_id"/>
+                        <div name="onesignal_safari_web_id">
+                            <div class="oe_inline">
+                                <field name="onesignal_safari_web_id"
+                                       placeholder="web.onesignal.auto.39**47*3-72*0-4**c-af89-3542a****365"/>
+                            </div>
+                        </div>
+                    </group>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

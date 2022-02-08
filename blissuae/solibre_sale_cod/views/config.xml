@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_res_config_settings_form_inherit">
+        <field name="name">res.config.settings.form.inherit</field>
+        <field name="model">res.config.settings</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+        	<xpath expr="//div[id='auth_signup_uninvited_setting']" position="after">
+                <div class="col-12 col-lg-6 o_setting_box" id="auth_auto_signup"
+                    title=" Customers are auto matically signed up on the website">
+                    <div class="o_setting_left_pane">
+                    	<field name="auto_signup" />
+                    </div>
+                    <div class="o_setting_right_pane">
+                        <label for="auto_signup"/>
+                        <div class="text-muted">
+                            Automatically sign up customers
+                        </div>
+                    </div>
+                </div>
+        	</xpath>
+
+        </field>
+    </record>
+
+</odoo>

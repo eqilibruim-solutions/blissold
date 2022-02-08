@@ -1,0 +1,649 @@
+<odoo>
+    <data>
+        <!--Banner Snippets start-->
+        <template id="pizza_banner" name="Pizza Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_pizza_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-left" style="font-size: 80px;">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 62px;">Hot Pizza
+                                        Delivered !
+                                    </font>
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;">
+                                    <b>&amp;nbsp;30 min not more</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus"
+                               class="rounded-circle rounded-circle btn btn-outline-warning rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip321716">BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Banner Snippets End-->
+
+        <!--Feature Snippets start-->
+        <template id="pizza_feature" name="Pizza Feature">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg" alt="img2"
+                                 class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt24 pb48 pt40">
+                            <h2>
+                                <font style="font-size: 36px;">BEYOUND THE BOUNDRIES</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                                    <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="logo"
+                                         class="img-fluid pt8 pb8 mx-auto d-block"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                                    <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="logo"
+                                         class="img-fluid pt8 pb8 mx-auto d-block"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                                    <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="logo"
+                                         class="img-fluid pt8 pb8 mx-auto d-block"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip489601"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Feature Snippets End-->
+
+        <!--Left Content Snippets start-->
+        <template id="pizza_left_content" name="Pizza Left Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_pizza_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row justify-content-left">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 right bg-light text-center pt64 pb64">
+                            <h2>
+                                <font style="font-size: 48px;">50% OFF PIZZA'S ONLINE OFFERS</font>
+                            </h2>
+                            <p class="pt32 pb32 px-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <a href="#"
+                               class="text-decoration-none mt64 mb64 rounded-circle rounded-circle btn btn-outline-warning rounded-circle btn-lg"
+                               data-original-title="" title="">
+                                <font style="color: rgb(0, 0, 0);" data-original-title="" title=""
+                                      aria-describedby="tooltip918471">BUY NOW
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Left Content Snippets End-->
+
+        <!--Grid Content Snippets start-->
+        <template id="pizza_grid_content" name="Pizza Grid Content">
+            <section class="pt64 pb64">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2>ALL TIME CLASSICS</h2>
+                            <h2>
+                                <font style="color: rgb(66, 66, 66); font-size: 36px;">&amp;nbsp;BESTSELLING
+                                    PIZZA
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                     class="img-fluid"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Meat Safari Pizza</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>
+                                        <span style="font-weight: bolder;">
+                                            <font style="font-size: 18px;">$329.00</font>
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                     class="img-fluid"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Margharita Pizza</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>
+                                        <span style="font-weight: bolder;">
+                                            <font style="font-size: 18px;">$329.00</font>
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                     class="img-fluid"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Tuscan Pizza</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>
+                                        <span style="font-weight: bolder;">
+                                            <font style="font-size: 18px;">$329.00</font>
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip940853"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Bacon Paradise pizza</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>
+                                        <b>
+                                            <font style="font-size: 18px;">$329.00</font>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip281106"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Santa Fe Pizza</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>
+                                        <span style="font-weight: bolder;">
+                                            <font style="font-size: 18px;">$329.00</font>
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip477252"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Peperroni Pizza</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>
+                                        <span style="font-weight: bolder;">
+                                            <font style="font-size: 18px;">$329.00</font>
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Grid Content Snippets End-->
+
+        <!--Gallery Snippets start-->
+        <template id="pizza_gallery" name="Pizza Gallery">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <font style="font-size: 24px;">WE MAKE SPECIAL&amp;nbsp;</font>
+                            </h2>
+                            <h2>
+                                <font style="font-size: 48px;" class="text-beta"></font>
+                                <font style="font-size: 36px;" class="text-beta">OUR GALLERY</font>
+                            </h2>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip912834"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip120847"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip388696"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip760824"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <img class="img-fluid d-block mx-auto mt16 mb16"
+                                 src="/theme_pizza_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title=""
+                                 aria-describedby="tooltip9276"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Gallery Snippets End-->
+
+        <!--Team Snippets start-->
+        <template id="pizza_team" name="Pizza Team">
+            <section class="sni-block pt64 pb64 bg-100 oe_custom_bg" id="team_7" style="">
+                <div class="container">
+                    <div class="row text-center mb48">
+                        <div class="col-12">
+                            <h2 class="text-white">
+                                <font style="color: rgb(66, 66, 66); font-size: 36px;">OUR STAFF</font>
+                            </h2>
+                        </div>
+                    </div>
+                    <ul class="row">
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid rounded-circle shadow"
+                                     src="/theme_pizza_ultimate_01/static/src/img/placeholder-user.png"
+                                     data-original-title=""
+                                     title="" aria-describedby="tooltip648392"/>
+                                <h3>
+                                    <a href="#" data-original-title="" title=""
+                                       aria-describedby="tooltip188759">MARIA DEO
+                                    </a>
+                                </h3>
+                                <p>
+                                    <span style="color: rgb(140, 140, 140); font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 16px; background-color: rgb(249, 249, 249);">
+                                        Chef de Cuisine
+                                    </span>
+                                    <br/>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook" data-original-title="" title=""
+                                               aria-describedby="tooltip183899"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid rounded-circle shadow"
+                                     src="/theme_pizza_ultimate_01/static/src/img/placeholder-user.png"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip619050"/>
+                                <h3><a href="#" data-original-title="" title=""
+                                       aria-describedby="tooltip610967">L</a>AURA SMITH
+                                </h3>
+                                <p>
+                                    <span style="color: rgb(140, 140, 140); font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 16px; background-color: rgb(249, 249, 249);">
+                                        Executive Chef
+                                    </span>
+                                    <br/>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid rounded-circle shadow"
+                                     src="/theme_pizza_ultimate_01/static/src/img/placeholder-user.png"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip120078"/>
+                                <h3>
+                                    <a href="#" data-original-title="" title="">SONIA LUKE</a>
+                                </h3>
+                                <p>
+                                    <span style="color: rgb(140, 140, 140); font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 16px; background-color: rgb(249, 249, 249);">
+                                        Chef De Partie
+                                    </span>
+                                    <br/>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid rounded-circle shadow"
+                                     src="/theme_pizza_ultimate_01/static/src/img/placeholder-user.png"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip201033"/>
+                                <h3>JESSICA HINGIS</h3>
+                                <p>
+                                    <span style="color: rgb(140, 140, 140); font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 16px; background-color: rgb(249, 249, 249);">
+                                        Chef de Cuisine
+                                    </span>
+                                    <br/>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </template>
+        <!--Team Snippets End-->
+
+        <!--Testimonial Snippets start-->
+        <template id="pizza_testimonial" name="Pizza Testimonial">
+            <section class="pt64 pb64 bg-alpha oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_pizza_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">OUR CLIENTS
+                                    SAY
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1564750154232"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1564750154232" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1564750154232" data-slide-to="1"/>
+                        <li data-target="#myCarousel1564750154232" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_pizza_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_pizza_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_pizza_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""
+                                                 data-original-title="" title=""
+                                                 aria-describedby="tooltip688645"/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1564750154232"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1564750154232"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Testimonial Snippets End-->
+
+        <!--Blog Snippets start-->
+        <template id="pizza_blog" name="Pizza Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center"
+                     data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post"/>
+        </template>
+        <!--Blog Snippets End-->
+
+        <!--Footer Snippets start-->
+        <template id="pizza_footer" name="Pizza Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb0" id="footer_15">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">About Us</font>
+                                </h5>
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                    adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco
+                                    labo ris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in volup tate velit esse cillum dolore eu fugiat nulla
+                                    pari atur. Excepteur sint occaecat cupidatat non proidentsunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                                <h5 class="pb16">
+                                    <font color="#ffffff">Our Company</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>New In</li>
+                                    <li>Pizza Morgun</li>
+                                    <li>Burger King</li>
+                                    <li>Fried Chicken</li>
+                                    <li>Moktail</li>
+                                    <li>Top Brand</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                                <h5 class="pb16">
+                                    <font color="#ffffff">Links</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>Contact Us</li>
+                                    <li>About Us</li>
+                                    <li>Careers</li>
+                                    <li>Refunds &amp;amp; Reurns</li>
+                                    <li>Deliveries</li>
+                                    <li>Category</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">Information</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>Submit Order</li>
+                                    <li class="o_default_snippet_text">FAQs</li>
+                                    <li class="o_default_snippet_text">Help</li>
+                                    <li class="o_default_snippet_text">Contact Us</li>
+                                    <li class="o_default_snippet_text">Knowledge</li>
+                                    <li class="o_default_snippet_text">Report Abuse</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Pizza Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_banner"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_feature"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_grid_content"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_left_content"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_gallery"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_team"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_testimonial"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_blog"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pizza_ultimate_01.pizza_footer"
+                           t-thumbnail="/theme_pizza_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+    </data>
+</odoo>

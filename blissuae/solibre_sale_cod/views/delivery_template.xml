@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="delivery">
+        <t t-call="web.layout">
+            <div id="wrap">
+                <div class="container">
+                    <h1 class="mt-5">Scan Product</h1>
+                    <input type="text" id="barcode" tabindex="1" autofocus="1"/>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="report_delivery_schedule" name="schedule">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h1>
+                            <span t-field="o.name"/>
+                            <span t-field="o.date"/>
+
+                        </h1>
+                        <div class="row">
+                            <div class="col-3">
+                                Driver
+                            </div>
+                            <div class="col-4">
+                                <span t-field="o.driver_id"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                Vehicle
+                            </div>
+                            <div class="col-4">
+                                <span t-field="o.vehicle_id"/>
+                            </div>
+                        </div>
+
+                        <table class="table table-sm o_main_table">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">Recipient</th>
+                                    <th class="text-left">Delivery instructions</th>
+                                    <th class="text-left">COD</th>
+                                </tr>
+                            </thead>
+                            <tbody class="sale_tbody">
+                                <t t-foreach="o.order_ids" t-as="order">
+                                    <tr>
+                                        <td>
+                                            <span t-field="order.partner_shipping_id" 
+                                                t-options='{"widget": "contact", "fields": ["address", "name", "mobile"], "no_marker": True, "phone_icons": True}'/>
+                                        </td>
+                                        <td>
+                                            <strong t-field="order.name"/><br/>
+                                            <span t-field="order.pref_date"/><br/>
+                                            <span t-field="order.time_slot"/><br/>
+                                            <!-- <span t-field="order.delivery_note"/> -->
+                                        </td>
+                                        <td>
+                                            <span t-field="order.cod_amount"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Orderered by</strong><br/>
+                                            <span t-field="order.partner_id" 
+                                                t-options='{"widget": "contact", "fields": ["name", "mobile"], "no_marker": True, "phone_icons": True}'/>
+
+                                        </td>
+                                        <td colspan="3">
+                                            <div t-foreach="order.order_line.filtered(lambda l:l.product_id.type!='service')" t-as="line">
+                                                <span t-field="line.product_uom_qty"/> <span t-field="line.product_uom"/> <span t-field="line.product_id"/>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <report
+        id="action_report_delivery_schedule"
+        model="delivery.schedule"
+        report_type="qweb-pdf"
+        string="Schedule"
+        name="solibre_sale_cod.report_delivery_schedule"
+        file="solibre_sale_cod.report_delivery_schedule" />
+
+</odoo>

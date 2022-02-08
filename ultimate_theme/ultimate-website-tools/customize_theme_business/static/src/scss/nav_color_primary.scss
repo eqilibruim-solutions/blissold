@@ -1,0 +1,39 @@
+#top_menu{
+    li{
+        a{
+            &:hover,&.active{
+                color:theme-color('alpha') !important;
+                background-color:transparent!important;
+            }
+        }
+
+        a[aria-expanded="true"] {
+            color:theme-color('alpha')!important;
+            background:transparent !important;
+        }
+
+        &.active{
+             >a{
+
+                background-color:transparent !important;
+                color:theme-color('alpha') !important;
+             }
+
+        }
+
+
+        .dropdown-menu{
+            //background-color: #fff;
+            //border-top: 3px solid theme-color('beta');
+        }
+
+        ul{
+            li{
+                a:hover{
+                    color:inherit !important;;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+
+		<record id="payment_acquirer_noon" model="payment.acquirer">
+			<field name="name">noon</field>
+			<field name="provider">noon</field>
+			<field name="company_id" ref="base.main_company" />
+			<field name="view_template_id" ref="noon_acquirer_button" />
+			<field name="pre_msg"><![CDATA[
+<p>You will be redirected to the noon website after clicking on the payment button.</p>]]></field>
+			<field name="business_id">bliss_flowers</field>
+			<field name="app_name">Odoo</field>
+			<field name="auth_key">e0b1b28b1c3a4088b03326dcd757b324</field>
+
+		</record>
+
+	</data>
+</odoo>

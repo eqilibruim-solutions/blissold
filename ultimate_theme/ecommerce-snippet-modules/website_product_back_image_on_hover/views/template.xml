@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template id="back_hover_image_product_item_inherit"
+              inherit_id="website_sale.products_item"
+              name="Product Back Hover Image">
+        <xpath expr="//span[@t-field='product.image_1920']" position="replace">
+            <t t-set="hover" t-value="product.product_back_hover_image"/>
+            <div class="oe_lines_image" t-att-prod-hover="hover"
+                 t-att-prod-id="product.id" onmouseover="load_image(this)"
+                 onmouseout="unload_image(this)">
+                <div class="magnifier">
+					<a itemprop="name" class="d-block h-100"
+						t-att-href="keep('/shop/product/%s' % slug(product), page=(pager['page']['num'] if pager['page']['num']>1 else None))">
+						<img class="img img-fluid image-center thumb-hover"
+							itemprop="image" t-att-alt="product.name" t-att-prod-id="product.id" t-att-title="product.name"
+							t-attf-src="#{base_url}#{ website.image_url(product, 'image_1920')}"></img>
+					</a>
+<!--					<a t-att-href="product_href" class="d-block h-100" itemprop="url">-->
+<!--                    <span t-field="product.image_1920"-->
+<!--                        t-options="{'widget': 'image', 'preview_image': 'image_1024' if product_image_big else 'image_256'}"-->
+<!--                        t-attf-class="d-flex h-100 justify-content-center align-items-center"/>-->
+<!--                </a>-->
+
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

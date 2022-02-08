@@ -1,0 +1,1230 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="renovation_banner" name="Renovation Banner">
+            <section class="s_cover parallax align-content-center align-items-center d-flex full-height bg-black-50"
+                     data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_renovation_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white" style="font-size: 62px; text-align: center;">
+                                <font style="font-size: 48px;">
+                                    <b>
+                                        <b class="o_default_snippet_text">Remodel</b>
+                                        <b class="o_default_snippet_text">Your</b>
+                                        <b class="o_default_snippet_text">House</b>
+                                    </b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">
+                                Write one or
+                                two paragraphs describing your product, services or
+                                a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to
+                                your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="#" class="flat flat btn btn-alpha flat btn-lg o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip619560">Get
+                                Started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us Start-->
+        <template id="renovation_aboutus" name="Renovation About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip852955" style="&#10;    height: 600px;&#10;"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">ABOUT US</font>
+                                </b>
+                            </h2>
+                            <p class="pt8 pb8">
+                                <span style="color: rgb(119, 119, 119);" class="o_default_snippet_text">Lorem ipsum
+                                    dolor sit amet,
+                                    consectetur adipiscing elit. Nulla vehicula malesuada nisi eu
+                                    rutrum.
+                                    Maecenas purus diam, lobortis at velit eget, ultricies posuere
+                                    augue.
+                                    Nullam nec lectus a augue dictum euismod ut sed ex. Integer pretium
+                                    arcu
+                                    neque, vitae mollis massa consequat eu. In eget dolor luctus, varius
+                                    dui
+                                    fringilla, lobortis odio. Cras molestie nunc pretium, dictum lorem
+                                    vel,
+                                    vulputate mi. Etiam ac ligula bibendum, luctus diam sit amet, rutrum
+                                    ipsum.&amp;nbsp;
+                                </span>
+                                <br/>
+                            </p>
+                            <ul class="bulletlist"
+                                style="margin: 15px 0px 0px; list-style: none; padding: 0px; color: rgb(51, 51, 51);"/>
+                            <ul class="px-3">
+                                <li class="pt8 pb8">
+                                    <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Lorem ipsum dolor
+                                        sit amet
+                                    </font>
+                                </li>
+                                <li class="pt8 pb8">
+                                    <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Lorem ipsum dolor
+                                        sit amet
+                                    </font>
+                                </li>
+                                <li class="pt8 pb8">
+                                    <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Lorem ipsum dolor
+                                        sit amet
+                                    </font>
+                                </li>
+                                <li class="pt8 pb8">
+                                    <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Lorem ipsum dolor
+                                        sit amet
+                                    </font>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Service Start-->
+        <template id="renovation_service" name="Renovation Service">
+            <section class="bg-gamma oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt48">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;">WHAT WE DO</font>
+                                    </b>
+                                </h3>
+                                <p class="text-center o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Nulla vehicula malesuada nisi eu rutrum
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64 bg-gamma oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h2>
+                                        <font style="font-size: 24px;">
+                                            <b class="o_default_snippet_text">Renovation</b>
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <span style="color: rgb(119, 119, 119);" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit
+                                            amet, consectetur adipiscing elit. Nulla vehicula malesuada
+                                            nisi eu rutrum
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h2>
+                                        <font style="font-size: 24px;">
+                                            <b class="o_default_snippet_text">Architecture</b>
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <span style="color: rgb(119, 119, 119);" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit
+                                            amet, consectetur adipiscing elit. Nulla vehicula malesuada
+                                            nisi eu rutrum
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h2>
+                                        <span style="font-size: 24px;">
+                                            <b class="o_default_snippet_text">Painting</b>
+                                        </span>
+                                    </h2>
+                                    <p>
+                                        <span style="color: rgb(119, 119, 119);" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit
+                                            amet, consectetur adipiscing elit. Nulla vehicula malesuada
+                                            nisi eu rutrum
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h2>
+                                        <span style="font-size: 24px;">
+                                            <b class="o_default_snippet_text">Building</b>
+                                        </span>
+                                    </h2>
+                                    <p>
+                                        <span style="color: rgb(119, 119, 119);" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit
+                                            amet, consectetur adipiscing elit. Nulla vehicula malesuada
+                                            nisi eu rutrum
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Features Start-->
+        <template id="renovation_features" name="Renovation Features">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h2>
+                                <b><font style="font-size: 36px;">OUR</font>&amp;nbsp;
+                                    <font style="font-size: 36px;" class="text-alpha">FEATURES</font>
+                                </b>
+                            </h2>
+                            <p class="pt8 pb8">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Pellentesque
+                                fermentum est in tortor congue suscipit. &amp;nbsp;
+                            </p>
+                            <div class="row pb24 pt24">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip796323"/>
+                                    <h3 class="mb8 mt8">
+                                        <b class="o_default_snippet_text">Electrical</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip417452"/>
+                                    <h3 class="mt8 mb8">
+                                        <b class="o_default_snippet_text">Plumbing</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip930014"/>
+                                    <h3 class="mt8 mb8">
+                                        <b class="o_default_snippet_text">Heating</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                    <h3 class="mt8 mb8">
+                                        <b class="o_default_snippet_text">Roofing</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip988699"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Counter Start-->
+        <template id="renovation_counter" name="Renovation Counter">
+            <section class="pt64 pb48 oe_img_bg oe_custom_bg" id="counter_9"
+                     style="background-image: url(&quot;/theme_renovation_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-users" data-original-title="" title=""
+                                   aria-describedby="tooltip278591" style="color: rgb(255, 255, 255);"/>
+                                <h2 class="mt32">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b class="o_default_snippet_text">2100</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b class="o_default_snippet_text">Employees Worldwide</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-check" data-original-title="" title=""
+                                   aria-describedby="tooltip494919" style="color: rgb(255, 255, 255);"/>
+                                <h2 class="mt32">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b class="o_default_snippet_text">1500</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                            Satisfied Clients
+                                        </font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x fa-users pe-7s-monitor" data-original-title="" title=""
+                                   aria-describedby="tooltip589697" style="color: rgb(255, 255, 255);"/>
+                                <h2 class="mt32">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">800
+                                        </font>
+                                    </b>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Finished
+                                            Projects
+                                        </font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-notebook" data-original-title="" title=""
+                                   aria-describedby="tooltip300525" style="color: rgb(255, 255, 255);"/>
+                                <h2 class="mt32">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">20
+                                        </font>
+                                    </b>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Years Of
+                                            Experience
+                                        </font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Facilities Start-->
+        <template id="renovation_facility" name="Renovation Facility">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">REASON FOR CHOOSE US</font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip983584"/>
+                                <h3>
+                                    <font style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">Best Materials</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing
+                                    and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip874527"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">Standard Quality
+                                        </font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing
+                                    and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">Professional
+                                            Team
+                                        </font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing
+                                    and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">Satisfied Work
+                                        </font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing
+                                    and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip963879"/>
+                                <h3>
+                                    <font style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">Highly Recommended</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing
+                                    and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip235982"/>
+                                <h3>
+                                    <font style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">Safety Provide</b>
+                                    </font>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing
+                                    and
+                                    typesetting
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facilities End-->
+
+        <!--Snippet Team Start-->
+        <template id="renovation_team" name="Renovation Team">
+            <section class="s_three_columns pt64 pb64 oe_img_bg oe_custom_bg" id="team_6"
+                     style="background-image: url(&quot;/theme_renovation_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="m-auto text-alpha pb48">
+                            <b>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">OUR ENGINEERS</font>
+                            </b>
+                        </h2>
+                    </div>
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip679783"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font class="text-beta" style="">
+                                            <b class="o_default_snippet_text">Michel Gray</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Adapt these
+                                        three columns to fit you
+                                        design need.
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2" data-original-title="" title=""
+                                           aria-describedby="tooltip430102">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip121282"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font class="text-beta" style="">
+                                            <b class="o_default_snippet_text">Patrika Davis</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Adapt these
+                                        three columns to fit you
+                                        design need.
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip34042"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font class="text-beta" style="">
+                                            <b class="o_default_snippet_text">Reginald Clark</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Adapt these
+                                        three columns to fit you
+                                        design need.
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font class="text-beta" style="">
+                                            <b class="o_default_snippet_text">Larry Smith</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Adapt these
+                                        three columns to fit you
+                                        design need.
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Project Start-->
+        <template id="renovation_project" name="Renovation Project">
+            <section class="bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 pt48">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;">OUR PROJECTS</font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Design &amp;amp; Build</b>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Long headline on two lines to turn
+                                        your visitors into users
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <span style="font-weight: bolder;" class="o_default_snippet_text">Solar
+                                                Renovation
+                                            </span>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Long headline on two lines to turn
+                                        your visitors into users
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <span style="font-weight: bolder;" class="o_default_snippet_text">Interior
+                                                Renovation
+                                            </span>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Long headline on two lines to turn
+                                        your visitors into users
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <span style="font-weight: bolder;" class="o_default_snippet_text">Garden
+                                                Renovation
+                                            </span>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Long headline on two lines to turn
+                                        your visitors into users
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Project End-->
+
+        <!--Snippet CTA Start-->
+        <template id="renovation_cta" name="Renovation CTA">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_renovation_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-2 col-lg-8">
+                            <h2 class="font-weight-bold pb24">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">We Build
+                                    Professional and Smart
+                                    Building
+                                </font>
+                            </h2>
+                            <h2 class="font-weight-bold pb24">
+                                <font style="color: rgb(255, 255, 255);">Get 20% Discounts Now</font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Lorem ipsum
+                                    dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                    congue suscipit. Suspendisse potenti. Aliquam finibus pharetra
+                                    tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra
+                                    tellus at egestas.&amp;nbsp;
+                                </font>
+                            </p>
+                            <a href="#"
+                               class="mb24 mt24 px-4 rounded-0 btn btn-gamma flat btn-lg o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip182355" style="">
+                                Cotanct Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Pricing Start-->
+        <template id="renovation_pricing" name="Renovation Pricing">
+            <section class="s_comparisons pt48 pb24 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-12 col-sm-12 col-md-12 text-center mb32 offset-lg-2 col-lg-8">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">CHOOSE YOUR PLAN</font>
+                                </b>
+                            </h2>
+                            <h2>
+                                <span style="color: rgb(156, 156, 148); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;"
+                                      class="o_default_snippet_text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                    potenti. Aliquam finibus pharetra tellus at .&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row no-gutters text-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor  pb16" data-name="Box">
+                            <div class="card">
+                                <div class="card-header  border-0">
+                                    <i class="fa fa-3x pt24 pb24 pe-7s-refresh-2 fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip998532" style=""/>
+                                    <h4>
+                                        <b class="o_default_snippet_text">Basic</b>
+                                    </h4>
+                                    <h2 class="card-title" style="color: rgb(33, 37, 41);">
+                                        <span class="s_comparisons_price">
+                                            <span style="font-weight: bolder;" class="o_default_snippet_text">$99.9
+                                            </span>
+                                        </span>
+                                    </h2>
+                                </div>
+                                <ul class="list-group list-group-flush border-top">
+                                    <li class="list-group-item o_default_snippet_text">Electrical</li>
+                                    <li class="list-group-item o_default_snippet_text">Plumbing</li>
+                                    <li class="list-group-item o_default_snippet_text">Roofting&amp;nbsp;</li>
+                                </ul>
+                                <div class="card-footer border-top-0">
+                                    <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                        <a href="#" class="btn btn-primary o_default_snippet_text">Read
+                                            more
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor  pb16" data-name="Box">
+                            <div class="card">
+                                <div class="card-header  border-0">
+                                    <i class="fa fa-3x pt24 pb24 pe-7s-helm fa-500px" style=""/>
+                                    <h4>
+                                        <b class="o_default_snippet_text">Corporate</b>
+                                    </h4>
+                                    <h2 class="card-title" style="color: rgb(33, 37, 41);">
+                                        <span class="s_comparisons_price">
+                                            <span style="font-weight: bolder;" class="o_default_snippet_text">$99.9
+                                            </span>
+                                        </span>
+                                    </h2>
+                                </div>
+                                <ul class="list-group list-group-flush border-top">
+                                    <li class="list-group-item o_default_snippet_text">Furniture Renovate</li>
+                                    <li class="list-group-item o_default_snippet_text">Roofing</li>
+                                    <li class="list-group-item o_default_snippet_text">Electrical</li>
+                                </ul>
+                                <div class="card-footer border-top-0">
+                                    <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                        <a href="#" class="btn btn-primary o_default_snippet_text">Read
+                                            more
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor  pb16" data-name="Box">
+                            <div class="card">
+                                <div class="card-header  border-0">
+                                    <i class="fa fa-3x pt24 pb24 pe-7s-edit fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip408135" style=""/>
+                                    <h4>
+                                        <b class="o_default_snippet_text">Premium</b>
+                                    </h4>
+                                    <h2 class="card-title" style="color: rgb(33, 37, 41);">
+                                        <span class="s_comparisons_price">
+                                            <span style="font-weight: bolder;" class="o_default_snippet_text">$99.9
+                                            </span>
+                                        </span>
+                                    </h2>
+                                </div>
+                                <ul class="list-group list-group-flush border-top">
+                                    <li class="list-group-item o_default_snippet_text">Design and Build</li>
+                                    <li class="list-group-item o_default_snippet_text">Furniture Renovate</li>
+                                    <li class="list-group-item o_default_snippet_text">Electrical and Plumbing</li>
+                                </ul>
+                                <div class="card-footer border-top-0">
+                                    <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                        <a href="#" class="btn btn-primary o_default_snippet_text">Read
+                                            more
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Pricing End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="renovation_testimonial" name="Renovation Testimonial">
+            <section class="pt64 pb64 bg-200 oe_img_bg oe_custom_bg" id="testimonials_d1"
+                     style="background-image: url(&quot;/theme_renovation_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">CLIENT FEEDBACK</font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567494375518" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567494375518" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1567494375518" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a
+                                            quote here from one of your customers.
+                                            Quotes are a great way to build
+                                            confidence in your products or
+                                            services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_renovation_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">—
+                                                Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a
+                                            quote here from one of your customers.
+                                            Quotes are a great way to build
+                                            confidence in your products or
+                                            services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_renovation_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">—
+                                                Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a
+                                            quote here from one of your customers.
+                                            Quotes are a great way to build
+                                            confidence in your products or
+                                            services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_renovation_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">—
+                                                Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a
+                                            quote here from one of your customers.
+                                            Quotes are a great way to build
+                                            confidence in your products or
+                                            services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_renovation_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">—
+                                                Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1567494375518" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous
+                        </span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1567494375518" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Blog Start-->
+        <template id="renovation_blog" name="Renovation Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center pt48"
+                     data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post" style=""/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Contact Start-->
+        <template id="renovation_contact" name="Renovation Contact">
+            <section class="bg-400 py-5 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_renovation_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-center">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255);">CONTACT US</font>
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input" name="phone"
+                                               placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-6 col-lg-6">
+                                        <input type="text" class="form-control o_website_form_input" name="partner_name"
+                                               required="" placeholder="Your Company" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-12 col-sm-12 col-md-6 col-lg-6">
+                                        <input type="text" class="form-control o_website_form_input" name="name"
+                                               required="" placeholder="Subject" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <textarea class="form-control o_website_form_input" name="description"
+                                                  required="" placeholder="Your Question" rows="5"/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-center" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
+                                                Send
+                                            </a>
+                                            <span id="o_website_form_result"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Clients Start-->
+        <template id="renovation_clients" name="Renovation Clients">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_renovation_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Clients End-->
+
+        <!--Snippet Footer Start-->
+        <template id="renovation_footer" name="Renovation Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb64 bg-black-75 oe_custom_bg" id="footer_custom_d8">
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title pb48" style="text-align: center;">
+                                <div class="s_share">
+                                    <h4 class="s_share_title">&amp;nbsp;</h4>
+                                    <a t-att-href="res_company.social_facebook"
+                                       class="s_share_facebook" target="_blank">
+                                        <i class="fa fa-1x fa-facebook rounded shadow-sm img-rounded"
+                                           data-original-title="" title="" aria-describedby="tooltip704436"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter"
+                                       class="s_share_twitter" target="_blank">
+                                        <i class="fa fa-1x fa-twitter rounded shadow-sm"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin"
+                                       class="s_share_linkedin" target="_blank">
+                                        <i class="fa fa-1x fa-linkedin rounded shadow-sm"/>
+                                    </a>
+                                    <a href="#"
+                                       class="s_share_google" target="_blank">
+                                        <i class="fa fa-1x fa-google-plus rounded shadow-sm"/>
+                                    </a>
+                                    <a href="#"
+                                       class="s_share_email">
+                                        <i class="fa fa-1x fa-envelope rounded shadow-sm" data-original-title=""
+                                           title="" aria-describedby="tooltip186582"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Renovate Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_banner"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_aboutus"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_service"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_features"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_counter"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_facility"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_team"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_project"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_cta"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_pricing"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_testimonial"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_blog"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_contact"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_clients"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_renovation_ultimate_01.renovation_footer"
+                           t-thumbnail="/theme_renovation_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

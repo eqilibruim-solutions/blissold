@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template name="Contact us 1" id="contact_us_1">
+        <section class="s_cover pt64 pb64"
+                 data-scroll-background-ratio="1" style="background-image: none;">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg"/>
+            <div class="container">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title" data-name="Title">
+                        <h1 class="s_title_thin o_default_snippet_text">Contact Us
+                        </h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                    </div>
+                    <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                        <form action="/website_form/" method="post" data-model_name="crm.lead"
+                              data-success_page="/contactus-thank-you"
+                              class="s_website_form container-fluid mt32"
+                              enctype="multipart/form-data"
+                              data-editable-form="false">
+                            <div class="row">
+                                <div class="form-group form-field o_website_form_required_custom col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+                                    <label class="col-12 col-sm-12 col-md-12 col-lg-12  col-form-label"
+                                           for="contact_name">
+                                        Your
+                                        Name
+                                    </label>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="contact_name"
+                                               t-att-value="request.params.get('contact_name', '')"
+                                               required=""/>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-field col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+                                    <label class="col-12 col-sm-12 col-md-12 col-lg-12 col-form-label" for="phone">
+                                        Phone
+                                        Number
+                                    </label>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="phone"
+                                               t-att-value="request.params.get('phone', '')"/>
+                                    </div>
+                                </div>
+                                <div class="form-group form-field o_website_form_required_custom  col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+                                    <label class="col-12 col-sm-12 col-md-12 col-lg-12 col-form-label"
+                                           for="email_from">
+                                        Email
+                                    </label>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="email_from" required=""
+                                               t-att-value="request.params.get('email_from', '')"/>
+                                    </div>
+                                </div>
+                                <div class="form-group form-field o_website_form_required_custom  col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+                                    <label class="col-12 col-sm-12 col-md-12 col-lg-12 col-form-label"
+                                           for="partner_name">
+                                        Your
+                                        Company
+                                    </label>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="partner_name" required=""
+                                               t-att-value="request.params.get('partner_name', '')"/>
+                                    </div>
+                                </div>
+                                <div class="form-group form-field o_website_form_required  col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+                                    <label class="col-12 col-sm-12 col-md-12 col-lg-12 col-form-label" for="name">
+                                        Subject
+                                    </label>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="name" required=""
+                                               t-att-value="request.params.get('name', '')"/>
+                                    </div>
+                                </div>
+                                <div class="form-group form-field o_website_form_required_custom  col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+                                    <label class="col-12 col-sm-12 col-md-12 col-lg-12 col-form-label"
+                                           for="description">
+                                        Your
+                                        Question
+                                    </label>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <textarea class="form-control o_website_form_input"
+                                                  name="description" required="">
+                                            <t t-esc="request.params.get('description', '')"/>
+                                        </textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group col-12 pt16">
+                                    <div class="s_btn" data-name="Buttons">
+                                        <a href="#" role="button"
+                                           class="btn btn-primary btn-lg o_website_form_send">Send
+                                        </a>
+                                        <span id="o_website_form_result"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

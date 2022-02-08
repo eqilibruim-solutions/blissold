@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_stock_picking_tree_inherit">
+        <field name="name">stock.picking.tree.inherit</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.vpicktree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="delivery_zone_id" />
+                <field name="mobile" />
+            </xpath>
+            <xpath expr="//field[@name='scheduled_date']" position="after">
+                <field name="pref_date" />
+                <field name="time_slot" />
+                <field name="pickup_location_id" />
+            </xpath>
+            <xpath expr="//field[@name='scheduled_date']" position="attributes">
+                <attribute name="invisible">True</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_stock_picking_tree">
+        <field name="name">stock.picking.tree</field>
+        <field name="model">stock.picking</field>
+        <field name="type">tree</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="origin" />
+                <field name="partner_id" />
+                <field name="mobile" />
+                <field name="delivery_zone_id" />
+                <field name="pref_date" />
+                <field name="time_slot" />
+                <field name="pickup_location_id" />
+                <field name="accepted_by" />
+                <field name="workorder_status" optional="show"/>
+                <field name="state" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_stock_picking_kanban_inherit">
+        <field name="name">stock.picking.kanban.inherit</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.stock_picking_kanban" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="city_id" />
+                <field name="delivery_zone_id"/>
+                <field name="mobile" />
+                <field name="accepted_by" />
+                <field name="prepared_by" />
+                <field name="products_json" />
+                <field name="origin" />
+                <field name="pref_date" />
+                <field name="time_slot" />
+            </xpath>
+            <xpath expr="//strong[hasclass('o_kanban_record_title')]" position="inside">
+                <span><t t-esc="record.origin.value"/></span>
+            </xpath>
+            <xpath expr="//div[hasclass('oe_kanban_bottom_right')]" position="replace">
+                <div class="oe_kanban_bottom_right">
+                    <t t-esc="record.pref_date.value and record.pref_date.value.split(' ')[0] or False"/>
+                    <t t-esc="record.time_slot.value and record.time_slot.value or False"/>
+                </div>                
+            </xpath>
+
+            <xpath expr="//div[hasclass('o_kanban_record_bottom')]" position="before">
+                <div class="container o_kanban_card_content">
+                    <div class="row mb16">
+                        <div class="col-6 o_kanban_primary_left">
+                            <div class="btn-group" name="o_wo">
+                                <t t-if="record.accepted_by.raw_value == false">
+                                    <button type="object" class="btn btn-success" name="set_accepted">
+                                        <span>Accept Job</span>                                    
+                                    </button>
+                                </t>
+                                <t t-if="record.prepared_by.raw_value == false and record.accepted_by.raw_value != false">
+                                    <button type="object" class="btn btn-success" name="set_prepared">
+                                        <span>Ready</span>                                    
+                                    </button>
+
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                    <t t-value="JSON.parse(record.products_json.raw_value)" t-set="products"/>
+                    <div t-foreach="products" t-as="product">
+                      <span t-esc="products[product]"/> <span t-esc="product"/>
+                    </div> 
+                </div>
+                <div class="o_kanban_record_subtitle">
+                    <div>
+                        <span t-esc="record.city_id.value" />
+                        <span t-esc="record.delivery_zone_id.value" />
+                        <span t-esc="record.mobile.value" />
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="stock_move_action" model="ir.actions.act_window">
+            <field name="name">Product Moves</field>
+            <field name="res_model">stock.move</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,kanban,pivot,form</field>
+            <field name="view_id" ref="stock.view_move_tree"/>
+            <field name="context">{'search_default_future': 1,'search_default_ready': 1, 'search_default_groupby_categ_id': 1}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_empty_folder">
+                    There's no product move yet
+                </p><p>
+                    This menu gives you the full traceability of inventory operations on a specific product.
+                    You can filter on the product to see all the past movements for the product.
+                </p>
+            </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_stock_move_tree_inherit">
+        <field name="name">stock.move.tree.inherit</field>
+        <field name="model">stock.move</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="stock.view_move_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='reference']" position="before">
+                <field name="order_id" />
+                <field name="categ_id"/>
+            </xpath>
+        </field>
+    </record>
+
+    <menuitem
+        id="menu_stock_move"
+        sequence="0"
+        name="Delivery Preparation"
+        parent="stock.menu_stock_warehouse_mgmt"
+        action="stock_move_action" />
+
+    <template id="report_delivery_document" inherit_id="stock.report_delivery_document">
+        <xpath expr="//div[@name='div_sched_date']" position="replace">
+            <div t-if="o.state" class="col-auto" name="div_sched_date">
+                <strong>Shipping Date:</strong>
+                    <p t-field="o.sale_id.sudo().pref_date" t-options="{&quot;widget&quot;: &quot;date&quot;}"/>
+                    <p t-field="o.sale_id.sudo().time_slot"/>
+            </div>
+            <div t-if="o.state" class="col-auto" name="div_sched_date">
+                <strong>COD:</strong>
+                <p t-field="o.sale_id.sudo().cod_amount"/>
+            </div>
+            <div t-if="o.state" class="col-auto" name="customer_order">
+                <strong>Ordered by:</strong>
+                <p t-field="o.sale_id.sudo().partner_id"/>
+                <p t-field="o.sale_id.sudo().partner_id.mobile"/>
+            </div>
+        </xpath>
+    </template>
+
+    <record model="ir.ui.view" id="view_stock_picking_form_inherit">
+        <field name="name">stock.picking.form.inherit</field>
+        <field name="model">stock.picking</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="stock.view_picking_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="attributes">
+                <attribute name="context">{'show_address':1}</attribute>
+                <attribute name="options">{&quot;always_reload&quot;: True}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <label for="delivery_zone_id" />
+                <div>
+                    <field name="delivery_zone_id" class="oe_inline"/>
+                    <button icon="fa-refresh" type="object" name="update_delivery_zone" class="oe_link"/>
+                </div>
+                <field name="mobile" />
+            </xpath>
+            <xpath expr="//field[@name='note']" position="replace">
+                
+            </xpath>
+            <xpath expr="//field[@name='scheduled_date']" position="replace">
+                <field name="pref_date" />
+                <field name="time_slot" />
+            </xpath>
+
+            <xpath expr="//field[@name='origin']" position="after">
+                <field name="prepared_by" /> 
+                <field name="accepted_by" />
+                <field name="note" />     
+                <!-- <field name="gift_message"/>           -->
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_stock_picking_form_operations_inherit">
+        <field name="name">stock.picking.form.inherit</field>
+        <field name="model">stock.picking</field>
+        <field name="mode">primary</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="stock.view_picking_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="replace">
+                <header>
+                    <field name="id" invisible="1"/>
+                    <field name="is_locked" invisible="1"/>
+                    <field name="show_mark_as_todo" invisible="1"/>
+                    <field name="show_check_availability" invisible="1"/>
+                    <field name="show_validate" invisible="1"/>
+                    <field name="show_lots_text" invisible="1"/>
+                    <field name="immediate_transfer" invisible="1"/>
+                    <field name="show_operations" invisible="1" readonly="1"/>
+                    <field name="show_reserved" invisible="1" readonly="1"/>
+                    <field name="move_line_exist" invisible="1"/>
+                    <field name="has_packages" invisible="1"/>
+                    <field name="picking_type_entire_packs" invisible="1"/>
+
+                    <button type="object" class="oe_highlight" name="set_accepted" string="Accept Job" attrs="{'invisible':[('accepted_by','!=',False)]}"/>
+                    <button type="object" name="set_prepared" string="Ready for dispatch" attrs="{'invisible':[('prepared_by','!=',False)]}"/>
+                    <button type="object" name="action_cancel" string="Cancel" attrs="{'invisible':[('state','=','cancel')]}"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,confirmed,partially_available,assigned,done"/>
+
+                </header>
+            </xpath>
+            <xpath expr="//page[1]" position="replace">
+                
+            </xpath>
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_stock_picking_search">
+        <field name="name">stock.picking.search.inherit</field>
+        <field name="model">stock.picking</field>
+        <field name="type">search</field>
+        <field name="inherit_id" ref="stock.view_picking_internal_search" />
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='draft']" position="before">
+                <filter name="my" string="My" domain="['|','|',('delivery_zone_id','=',False),
+                                                        ('delivery_zone_id.company_id', '=', allowed_company_ids[0]),
+                                                        ('delivery_zone_id.company_id', '=', False)]"/>
+                <filter name="my_team" string="My Team" domain="['|','|',('team_id.member_ids','in',[uid]),('team_id.user_id','=',uid),('team_id.member_ids','=',False)]"/>
+
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_picking_to_prepare">
+        <field name="name">Pickings to prepare</field>
+        <field name="res_model">stock.picking</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="limit">80</field>
+        <field name="context">{'force_detailed_view':False,'search_default_my_team':1}</field>
+        <field name="domain">[('state','in',['waiting','confirmed','assigned']),
+                              ('picking_type_id.code','=','outgoing'),('accepted_by','=',False)]</field>
+        <field name="target">current</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_picking_in_progress">
+        <field name="name">Pickings in progress</field>
+        <field name="res_model">stock.picking</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="limit">80</field>
+        <field name="context">{'force_detailed_view':False,'search_default_my_team':1}</field>
+        <field name="domain">[('state','in',['waiting','confirmed','assigned']),
+                              ('picking_type_id.code','=','outgoing'),('accepted_by','!=',False),
+                              ('prepared_by','=',False)]</field>
+        <field name="target">current</field>
+    </record>
+
+
+    <record model="ir.actions.act_window.view" id="action_view_stock_picking_kanban">
+        <field name="act_window_id" ref="action_picking_to_prepare" />
+        <field name="view_mode">kanban</field>
+        <field name="sequence">0</field>
+        <field name="view_id" ref="stock.stock_picking_kanban" />
+    </record>
+
+    <record model="ir.actions.act_window.view" id="action_view_stock_picking_tree">
+        <field name="act_window_id" ref="action_picking_to_prepare" />
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="view_stock_picking_tree" />
+    </record>
+
+    <record model="ir.actions.act_window.view" id="action_view_stock_picking_kanban_progress">
+        <field name="act_window_id" ref="action_picking_in_progress" />
+        <field name="view_mode">kanban</field>
+        <field name="sequence">0</field>
+        <field name="view_id" ref="stock.stock_picking_kanban" />
+    </record>
+
+    
+    <record model="ir.actions.act_window.view" id="action_view_stock_picking_form">
+        <field name="act_window_id" ref="action_picking_to_prepare" />
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_stock_picking_form_operations_inherit" />
+    </record>
+    
+    <record model="ir.actions.act_window.view" id="action_view_stock_picking_tree_progress">
+        <field name="act_window_id" ref="action_picking_in_progress" />
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="view_stock_picking_tree" />
+    </record>
+
+    
+    <record model="ir.actions.act_window.view" id="action_view_stock_picking_form_progress">
+        <field name="act_window_id" ref="action_picking_in_progress" />
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_stock_picking_form_operations_inherit" />
+    </record>
+
+
+    <menuitem
+        id="menu_picking_to_prepare"
+        name="Pickings to prepare"
+        parent="menu_shipments"
+        sequence = "10"
+        action="action_picking_to_prepare" />
+
+    <menuitem
+        id="menu_picking_in_progress"
+        name="Pickings in progress"
+        parent="menu_shipments"
+        sequence = "11"
+        action="action_picking_in_progress" />
+
+</odoo>

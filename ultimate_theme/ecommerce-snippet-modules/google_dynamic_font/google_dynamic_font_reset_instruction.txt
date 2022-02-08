@@ -1,0 +1,8 @@
+1) Attachments: 
+		Search '/google_dynamic_font/static/src/scss/primary_font_variables' in attachment and delete it.
+2) Views:
+		Add filter active and inactive both.
+			Search '07 or 08 or 09 or 10 or ....' and delete it.
+			Search 'Theme Customize (Google Font)' inherit view wise and delete it.
+			Search '/google_dynamic_font/static/src/scss/primary_font_variables.custom.web.assets_common.scss' and delete it.
+

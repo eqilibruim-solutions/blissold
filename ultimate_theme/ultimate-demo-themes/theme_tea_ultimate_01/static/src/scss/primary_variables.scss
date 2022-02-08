@@ -1,0 +1,81 @@
+//------------------------------------------------------------------------------
+// Colors
+//------------------------------------------------------------------------------
+
+// Theme colors
+$o-theme-color-palettes: (
+    (
+        'alpha': #6ebb28,
+        'beta': #f1f1f2,
+        'gamma': #b09433,
+        'delta': #33b055,
+        'epsilon': #7433b0,
+    ),
+);
+
+// Colors
+$o-color-palettes: ();
+@each $-palette in $o-theme-color-palettes {
+    $o-color-palettes: append($o-color-palettes, (
+        'body': #ffffff,
+        'menu': #ffffff,
+        'footer': #f9f9f9,
+        'text': #363636,
+        'h1': #262626,
+        'h2': #262626,
+        'h3': #262626,
+        'h4': #262626,
+        'h5': #262626,
+        'h6': #262626,
+    ));
+}
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+// FIXME solve per font options
+
+$o-theme-fonts: (
+    (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Noto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"), // This is BS default
+    ('Open Sans', sans-serif),
+    ('Source Sans Pro', sans-serif),
+    ('Raleway', sans-serif),
+    ('Noto Serif', serif),
+    ('Arvo', Times, serif),
+    ('PT Serif', serif),
+    ('PT Sans', serif),
+    );
+$o-theme-font-urls: (
+    null,
+    'Open+Sans:400,400i,700,700i',
+    'Source+Sans+Pro:400,400i,700,700i',
+    'Raleway:400,400i,700,700i',
+    'Noto+Serif:400,400i,700,700i',
+    'Arvo:400,400i,700,700i',
+    'PT+Serif:400,400i,700,700i',
+    'PT+Sans:400,400i,700,700i',
+    );
+$o-theme-font-names: (
+    'Bootstrap',
+    'Open Sans',
+    'Source Sans Pro',
+    'Raleway',
+    'Noto Serif',
+    'Arvo',
+    'PT Serif',
+    'PT Sans',
+    );
+
+//------------------------------------------------------------------------------
+// Website customizations
+//------------------------------------------------------------------------------
+
+$o-website-values-palettes: (
+    (
+        'font-number': 8,
+        'headings-font-number': 7,
+        'navbar-font-number': 7,
+        'buttons-font-number': 8,
+    ),
+);

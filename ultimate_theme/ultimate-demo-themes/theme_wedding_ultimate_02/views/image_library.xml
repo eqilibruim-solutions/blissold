@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_1</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_1</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/LOVE_STORY-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_2</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_2</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/birthday-cake-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_3</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_3</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/banner-min-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_4</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_4</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/wedding-ring-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_5</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_5</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/contact_agent_bg1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_6</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_6</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/user-img-6-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_7</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_7</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/user-img-2-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_8</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_8</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/user-img-4-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_9</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_9</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/man-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_10</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_10</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/event-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_11</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_11</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/rock-and-roll-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_12</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_12</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/testimonial_bg-min-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_wedding_ultimate_02.image_content_13</field>
+            <field name="name">theme_wedding_ultimate_02.image_content_13</field>
+            <field name="url">/theme_wedding_ultimate_02/static/src/img/library/our_advantages_02-min-min.JPG</field>
+        </record>
+        
+        
+    </data>
+</odoo>

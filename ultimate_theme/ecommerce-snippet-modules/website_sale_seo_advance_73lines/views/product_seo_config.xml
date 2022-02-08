@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<record id="product_seo_config_form_view" model="ir.ui.view">
+			<field name="name">Product SEO settings</field>
+			<field name="model">product.seo.config</field>
+			<field name="arch" type="xml">
+				<form string="SEO">
+					<h1>
+						<field name="name" />
+					</h1>
+					<field name="obj_name" colspan="4"/>
+					<group string="Expression Builder">
+						<field name="model_id"/>
+						<field name="model_object_field"
+							domain="[('model_id','=',model_id),('ttype','!=','one2many'),('ttype','!=','many2many')]" />
+						<field name="sub_object" readonly="1" />
+						<field name="sub_model_object_field"
+							domain="[('model_id','=',sub_object),('ttype','!=','one2many'),('ttype','!=','many2many')]"
+							attrs="{'readonly':[('sub_object','=',False)],'required':[('sub_object','!=',False)]}" />
+						<field name="null_value" />
+						<field name="copyvalue" />
+					</group>
+					<notebook>
+						<page string="Categories" attrs="{'invisible':[['obj_name','!=','product.public.category']]}">
+							<group string="Categories" id="category">
+								<field name="category_title_expr" />
+								<field name="category_title_limit" />
+								<field name="category_keyword_expr" />
+								<field name="category_keyword_limit" />
+								<field name="category_desc_expr" />
+								<field name="category_desc_limit" />
+							</group>
+							<group string="Preview">
+								<field name="preview_categ_id" />
+								<field name="preview_category_title" />
+								<field name="preview_category_keyword" />
+								<field name="preview_category_desc" />
+							</group>
+							<group string="Apply">
+								<field name="categ_ids" col="4" colspan="4"/>
+                        	</group>
+							<group>
+								<button string="Apply To" name="categ_seo_template_apply" type="object" icon="fa-check" col="4" colspan="4"/>
+							</group>
+						</page>
+						<page string="Products" attrs="{'invisible':[['obj_name','!=','product.template']]}">
+							<group string="Products" id="product">
+								<field name="product_title_expr" />
+								<field name="product_title_limit" />
+								<field name="product_keyword_expr" />
+								<field name="product_keyword_limit" />
+								<field name="product_desc_expr" />
+								<field name="product_desc_limit" />
+							</group>
+							<group>
+								<field name="preview_product_id" />
+							</group>
+							<group>
+								<field name="preview_product_title" />
+								<field name="preview_product_keyword" />
+								<field name="preview_product_desc" />
+							</group>
+							<group>
+								<field name="product_ids"/>
+							</group>
+							<group>
+								<button string="Apply To" name="product_seo_template_apply" type="object" icon="fa-check" colspan="4"/>
+							</group>
+						</page>
+					</notebook>
+				</form>
+			</field>
+		</record>
+		
+		<record id="product_seo_config_tree_view" model="ir.ui.view">
+			<field name="name">product.seo.config.tree</field>
+			<field name="model">product.seo.config</field>
+			<field name="field_parent" eval="False" />
+			<field name="arch" type="xml">
+				<tree string="SEO">
+					<field name="name" />
+				</tree>
+			</field>
+		</record>
+		
+		<record id="action_product_seo_config" model="ir.actions.act_window">
+			<field name="name">Product SEO Config</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">product.seo.config</field>
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" eval="product_seo_config_tree_view" />
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+					Click to define a new SEO Configuration.
+				</p>
+			</field>
+		</record>
+
+		<menuitem
+            id="menu_seo_general_settings"
+            name="SEO Settings"
+            parent="base.menu_administration"
+            sequence="1"
+            action="action_product_seo_config"
+            groups="base.group_system"/>
+		
+</odoo>

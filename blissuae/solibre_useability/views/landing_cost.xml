@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_landing_cost_form">
+        <field name="name">landing.cost.form</field>
+        <field name="model">account.landing.cost</field>
+        <field name="type">form</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,done"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                    	<group string="Main Invoices">
+                    		<field name="main_invoice_ids" nolabel="1" widget='many2many'>
+                    			<tree>
+                    				<field name="invoice_date"/>
+                    				<field name="name"/>
+                    				<field name="partner_id"/>
+                    				<field name="company_id"/>
+                    				<field name="amount_total_signed" sum="Total"/>
+                    				<field name="state" />
+                    			</tree>
+                    		</field>
+                    	</group>
+                    	<group string="Additional Invoices">
+                    		<field name="add_invoice_ids" nolabel="1" widget='many2many'>
+                    			<tree>
+                    				<field name="invoice_date"/>
+                    				<field name="name"/>
+                    				<field name="partner_id"/>
+                    				<field name="company_id"/>
+                    				<field name="amount_total_signed"  sum="Total"/>
+                    				<field name="state"/>
+                    			</tree>
+                    		</field>
+                    	</group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_landing_cost_new">
+        <field name="name">Landing Cost</field>
+        <field name="res_model">account.landing.cost</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+<!--     <menuitem
+        id="menu_landing_cost"
+        name="Landing Cost"
+        parent="account.menu_finance_payables"
+        action="action_landing_cost_new" /> -->
+
+</odoo>

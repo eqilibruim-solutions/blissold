@@ -1,0 +1,837 @@
+<odoo>
+    <data>
+
+        <!--Snippet Mid Header Start-->
+        <template id="footwear2_mid_header" name="Footwear 2 Mid Header">
+            <section class="oe_custom_bg" id="mid-header-top-11" style="background: #1a1a1a !important;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6  pt8 pb8 align-self-center text-center text-md-left text-lg-left"
+                             id="mid-header-top-left">
+                            <li class="px-2 list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a href="#" class="text-white o_default_snippet_text" title="welcome">
+                                        <font class="text-delta" style="">Welcome</font>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="px-2 list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a href="#" class="text-white o_default_snippet_text" title="FAQ">
+                                        <font class="text-delta" style="">FAQ</font>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="list-inline-item px-2">
+                                <div class="oe_structure oe_empty">
+                                    <span class="o_default_snippet_text text-delta" style="">
+                                        Toll-free :
+                                        <span t-field="res_company.phone"/>
+                                    </span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt8 pb8 align-self-center text-center text-md-right text-lg-right"
+                             id="mid-header-top-right">
+                            <li class="list-inline-item account_custom">
+                                <div class="dropdown">
+                                    <a class="btn btn-link text-white dropdown-toggle" type="button" id="dropdownMenu1"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                       data-original-title="" title="" aria-describedby="tooltip240810">
+                                        <i class="d-inline fa fa-user-o icon_style text-delta" data-original-title=""
+                                           title="" aria-describedby="tooltip974085" style=""/>
+                                        <span class="hide_content o_default_snippet_text">
+                                            <font class="text-delta" style="">My Account</font>
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1"
+                                         x-placement="bottom-start"
+                                         style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 35px, 0px);">
+                                        <a class="text-xs-center dropdown-item o_default_snippet_text" href="/web/login"
+                                           id="ultimate_sign_in">
+                                            Sign in
+                                        </a>
+                                        <a href="/web/signup" class="text-xs-center dropdown-item"
+                                           id="ultimate_register">
+                                            <span class="o_default_snippet_text">Register</span>
+                                        </a>
+                                        <a href="/my/home" role="menuitem" class="dropdown-item o_default_snippet_text"
+                                           id="ultimate_my_account">My
+                                            Account
+                                        </a>
+                                        <a class="dropdown-item o_default_snippet_text" role="menuitem"
+                                           id="ultimate_logout" href="/web/session/logout?redirect=/">
+                                            Logout
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="my_wish" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <span class="border-right d-block hide_border nav-item px-0 px-lg-3 px-md-0">
+                                            <a href="/shop/wishlist" class="text-white o_default_snippet_text"
+                                               title="wishlist">
+                                                <font class="text-delta" style="">Wishlist
+                                                    &amp;nbsp;
+                                                </font>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook fa-x fa_company_contact_info mx-2 share_facebook text-delta"
+                                           style=""/>
+                                    </a>
+                                    <a class="fa_company_contact_links" target="_blank" t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter fa-x fa_company_contact_info mx-2 share_twitter text-delta"
+                                           style=""/>
+                                    </a>
+                                    <a class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin fa-x fa_company_contact_info mx-2 share_linkedin text-delta"
+                                           style=""/>
+                                    </a>
+                                    <a class="fa_company_contact_links" target="_blank" t-att-href="res_company.social_github">
+                                        <i class="fa fa-github fa-x fa_company_contact_info mx-2 share_github text-delta"
+                                           style=""/>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="oe_custom_bg" id="mid-header-bottom-11" style="background: #282828 !important;">
+                <div class="container">
+                    <div class="row  align-self-center">
+                        <div class="col-12 col-sm-12 col-lg-4 col-md-4 align-self-center pt8 pb8 text-center text-md-left text-lg-left oe_structure"
+                             id="mid-header-bottom-left">
+                            <div class="oe_structure oe_empty">
+                                <a href="/" class="img-fluid">
+                                    <img src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 align-self-center pt8 pb8 oe_structure"
+                             id="mid-header-bottom-center">
+                            <div class="oe_structure oe_empty">
+                                <span>
+                                    <form action="/shop" method="get">
+                                        <div class="input-group">
+                                            <input type="text" name="search"
+                                                   class="search-query form-control oe_search_box search_input"
+                                                   placeholder="Enter Keyword to Search..."/>
+                                            <div class="input-group-append">
+                                                <button type="submit"
+                                                        class="btn btn-alpha oe_search_button search_button"
+                                                        aria-label="Search" title="Search">
+                                                    <i class="fa fa-search text-white"/>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 align-self-center pt8 pb8 text-center text-lg-right text-md-right oe_structure"
+                             id="mid-header-bottom-right">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <a href="#" class="text-dark o_default_snippet_text">
+                                            <font class="text-delta" style="">Add Pricelist</font>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="my_cart" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <a href="/shop/cart" class="pr-2">
+                                            <i class="fa fa-opencart text-alpha" title="add to cart"
+                                               style="font-size: 18px;"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+        <!--Snippet Banner start-->
+        <template id="footwear2_banner" name="Footwear 2 Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font class="text-epsilon" style="">
+                                    <b>Sport's Day Sale</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font style="font-size: 24px;" class="text-epsilon">
+                                    <b>All Branded women sports shoes - Flat 30% discount&amp;nbsp;</b>
+                                </font>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="btn btn-beta mb8 mt8 rounded-circle" data-original-title=""
+                               title="" aria-describedby="tooltip548760">
+                                <b>
+                                    <font style="font-size: 18px;">Shop Now</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="footwear2_features" name="Footwear 2 Features">
+            <section class="sni-block pt64 s_overlay_section">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="sni-box sni-touch shadow bg-white border-0">
+                                <img alt="image" class="sni-block-icon mb32"
+                                     src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip74634" style="height: 90px;width: 90px;"/>
+                                <h3>
+                                    <font style="font-size: 20px;" class="text-beta">Free Shipping</font>
+                                </h3>
+                                <p class="o_default_snippet_text">
+                                    <font class="text-gamma" style="font-size: 16px;">Sed ut perspiciatis unde omnis
+                                        iste natus
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="sni-box sni-touch shadow bg-white border-0">
+                                <img alt="image" class="sni-block-icon mb32"
+                                     src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png" style="height: 90px;width: 90px;"/>
+                                <h3>
+                                    <font style="font-size: 20px;" class="text-beta">Money Guarantee</font>
+                                </h3>
+                                <p class="o_default_snippet_text">
+                                    <font class="text-gamma" style="font-size: 16px;">Sed ut perspiciatis unde omnis
+                                        iste natus
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="sni-box sni-touch shadow bg-white border-0">
+                                <img alt="image" class="sni-block-icon mb32"
+                                     src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png" style="height: 90px;width: 90px;"/>
+                                <h3>
+                                    <font style="font-size: 20px;" class="text-beta">24/7 Help Center</font>
+                                </h3>
+                                <p class="o_default_snippet_text">
+                                    <font class="text-gamma" style="font-size: 16px;">Sed ut perspiciatis unde omnis
+                                        iste natus
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="sni-box sni-touch shadow bg-white border-0">
+                                <img alt="image" class="sni-block-icon mb32"
+                                     src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-70x70.png" style="height: 90px;width: 90px;"/>
+                                <h3>
+                                    <font style="font-size: 20px;" class="text-beta">Safe Payment</font>
+                                </h3>
+                                <p class="o_default_snippet_text">
+                                    <font class="text-gamma" style="font-size: 16px;">Sed ut perspiciatis unde omnis
+                                        iste natus
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Image Block One Start-->
+        <template id="footwear2_image_block_one" name="Footwear 2 Image Block One">
+            <section class="pt64 pb64" id="ecommerce_block_13">
+                <div class="container page-builder-ltr">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-570X269.png" class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip793448"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img editor_enable">
+                                        <a href="#">
+                                            <img src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-570X269.png" class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip403234"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block One End-->
+
+        <!--Snippet Tab Carousel Start-->
+        <template id="footwear2_tab_carousel" name="Footwear 2 Tab Carousel">
+            <section id="tab_8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 pb16 text-center">
+                            <h2>
+                                <font style="font-size: 24px;">
+                                    <b>IN OUR STORE</b>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium<br/>totam rem aperiam, eaque ipsa quae
+                                    ab illo inventore veritatis
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 ">
+                        <nav>
+                            <div class="nav nav-tabs justify-content-center mb32" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link o_default_snippet_text active show" id="nav-home-tab"
+                                   data-toggle="tab" href="#service-tab-1" role="tab" aria-controls="nav-home"
+                                   aria-selected="true" data-original-title="" title=""
+                                   aria-describedby="tooltip474355">
+                                    <font style="font-size: 16px;">
+                                        <b data-original-title="" title="" aria-describedby="tooltip717532">FEATURED
+                                            PRODUCTS
+                                        </b>
+                                    </font>
+                                </a>
+                                <a class="nav-item nav-link o_default_snippet_text" id="nav-profile-tab"
+                                   data-toggle="tab" href="#service-tab-2" role="tab" aria-controls="nav-profile"
+                                   aria-selected="false" data-original-title="" title=""
+                                   aria-describedby="tooltip45914">
+                                    <b>
+                                        <font style="font-size: 16px;">BEST SELLER</font>
+                                    </b>
+                                </a>
+                                <a class="nav-item nav-link o_default_snippet_text" id="nav-contact-tab"
+                                   data-toggle="tab" href="#service-tab-3" role="tab" aria-controls="nav-contact"
+                                   aria-selected="false" data-original-title="" title=""
+                                   aria-describedby="tooltip471686">
+                                    <font style="font-size: 16px;">
+                                        <b>NEW ARRIVALS</b>
+                                    </font>
+                                </a>
+                            </div>
+                        </nav>
+                        <div class="tab-content px-3 px-sm-0" id="nav-tabContent">
+                            <div class="tab-pane fade show oe_structure oe_empty active" id="service-tab-1"
+                                 role="tabpanel" aria-labelledby="nav-home-tab">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects product_carousel headline_hidden owl_nav_style_4"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d17"
+                                        data-object_name="product.template" data-objects_in_slide="4"
+                                        id="new_products_item_d17" data-objects_limit="12" data-objects_in_row="2"/>
+                            </div>
+                            <div class="tab-pane fade oe_structure oe_empty" id="service-tab-2" role="tabpanel"
+                                 aria-labelledby="nav-home-tab">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects product_carousel headline_hidden owl_nav_style_4"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d17"
+                                        data-object_name="product.template" data-objects_in_slide="4"
+                                        id="new_products_item_d17" data-objects_limit="12" data-objects_in_row="2"/>
+                            </div>
+                            <div class="tab-pane fade oe_structure oe_empty" id="service-tab-3" role="tabpanel"
+                                 aria-labelledby="nav-home-tab">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects product_carousel headline_hidden owl_nav_style_4"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d17"
+                                        data-object_name="product.template" data-objects_in_slide="4"
+                                        id="new_products_item_d17" data-objects_limit="12" data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel End-->
+
+        <!--Snippet Image Block Two Start-->
+        <template id="footwear2_image_block_two" name="Footwear 2 Image Block Two">
+            <section class="pb64" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto" src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-370X261.png"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto" src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-370X261.png"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto" src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-370X261.png"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Two End-->
+
+        <!--Snippet Product Carousel Start-->
+        <template id="footwear2_product_carousel" name="Footwear 2 Product Carousel">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="font-size: 24px;">
+                                    <b>NEW IN STORE</b>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium<br/>totam rem aperiam, eaque ipsa quae
+                                    ab illo inventore veritatis
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                    class="s_product_carousel oe_website_sale js_get_objects product_carousel headline_hidden owl_nav_style_4"
+                    data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d17"
+                    data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d17"/>
+        </template>
+        <!--Snippet Product Carousel End-->
+
+        <!--Snippet Image Block Three Start-->
+        <template id="footwear2_image_block_three" name="Footwear 2 Image Block Three">
+            <section class="pb64 pt0" id="ecommerce_block_13">
+                <div class="container page-builder-ltr">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-1256X449.png" class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip978885"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Three End-->
+
+        <!--Snippet Mini Product Carousel Start-->
+        <template id="footwear2_mini_product_carousel" name="Footwear 2 Mini Product Carousel">
+            <section style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_2 owl_nav_style_3 s_headline_left"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d3"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        data-objects_limit="15" style="" data-objects_in_row="3"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_2 s_headline_left owl_nav_style_3"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d3"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        data-objects_limit="15" style="" data-objects_in_row="3"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_2 s_headline_left owl_nav_style_3"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d3"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        data-objects_limit="15" style="" data-objects_in_row="3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mini Product Carousel End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="footwear2_testimonial" name="Footwear 2 Testimonial">
+            <section class="oe_img_bg oe_custom_bg pb0 pt0" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);">
+                <div id="myCarousel1585141884707" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt0 pb0" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8"
+                                                style="&#10;    /* padding: unset; */&#10;">
+                                        <p class=" mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="font-size: 24px;" class="text-beta">
+                                                <b>Write a quote here from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.&amp;nbsp;
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img mb24"
+                                                 src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-user.png"
+                                                 alt="" style="max-width: 90px !important;"/>
+                                            <p>
+                                                <b>
+                                                    <font class="text-alpha" style="font-size: 18px;">JOHN DOE</font>
+                                                </b>
+                                            </p>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt0 pb0 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8"
+                                                style="&#10;    /* padding: unset; */&#10;">
+                                        <p class=" mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="font-size: 24px;" class="text-beta">
+                                                <b>Write a quote here from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.&amp;nbsp;
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img mb24"
+                                                 src="/theme_footwear_ecommerce_ultimate_02/static/src/img/placeholder-user.png"
+                                                 alt="" style="max-width: 90px !important;"/>
+                                            <p>
+                                                <b>
+                                                    <font class="text-alpha" style="font-size: 18px;">JOHN DOE</font>
+                                                </b>
+                                            </p>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1585141884707" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1585141884707" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Blog Start-->
+        <template id="footwear2_blog" name="Footwear 2 Blog">
+            <section class="pt64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 pb16 text-center">
+                            <h2>
+                                <font style="font-size: 24px;">
+                                    <b>OUR BLOG</b>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium<br/>totam rem aperiam, eaque ipsa quae
+                                    ab illo inventore veritatis
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_blog_carousel js_get_objects blog_carousel s_blog_bg_light headline_hidden"
+                     data-loading="true" data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post" style=""/>
+        </template>
+        <!--Snippet  Blog End-->
+
+        <!--Snippet Footer start-->
+        <template id="footwear2_footer" name="Footwear 2 Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                <div class="pt64 pb32" id="footer_20">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb32">
+                                <h5 class="pb16">
+                                    <font style="font-size: 16px;" class="text-epsilon">
+                                        <b>USEFUL LINKS</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <font style="font-size: 16px;" class="text-delta">About Us</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 16px;" class="text-delta">Contact</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 16px;" class="text-delta">Legal Notice</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 16px;" class="text-delta">Testimonial</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 16px;" class="text-delta">Blog</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 16px;" class="text-delta">Shop</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb32">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="font-size: 16px;" class="text-epsilon">
+                                        <b>MY ACCOUNT</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Personal Info</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Order History</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Credit Slip</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">My Wish-list</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Address</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Returns &amp;amp; Exchange
+                                        </font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb32">
+                                <h5 class="pb16">
+                                    <font style="font-size: 16px;" class="text-epsilon">
+                                        <b>SERVICES</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Shipping &amp;amp; Return
+                                        </font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">International Shipping</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Secure Shopping</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Affiliates</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Careers</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">FAQ</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb32">
+                                <h5 class="pb16">
+                                    <font style="font-size: 16px;" class="text-epsilon">
+                                        <b>INFORMATION</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">About Us</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Delivery Information</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Privacy &amp;amp; Policy
+                                        </font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Terms &amp;amp; Condition
+                                        </font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Manufactures</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 16px;" class="text-delta">Suppleirs</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-lg-flex align-items-center pb16">
+                                <h6 class="mr-4">
+                                    <b>
+                                        <font style="font-size: 16px;" class="text-epsilon">NEWSLETTER :</font>
+                                    </b>
+                                </h6>
+                                <div class="input-group js_subscribe hidden col-sm-12 col-md-12 col-lg-8 p-0"
+                                     data-list-id="1" data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control rounded-0"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        Thanks for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-lg-flex align-items-center pb16">
+                                <h6 class="mr-4">
+                                    <font style="font-size: 16px;" class="text-epsilon">
+                                        <b>WE ACCEPT :</b>
+                                    </font>
+                                </h6>
+                                <i class="fa fa-3x fa-cc-visa px-2"/>
+                                <i class="fa fa-3x fa-cc-mastercard px-2"/>
+                                <i class="fa fa-3x fa-cc-paypal px-2"/>
+                                <i class="fa fa-3x fa-cc-amex px-2"/>
+                                <i class="fa fa-3x fa-cc-discover px-2"/>
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Footwear Ecommerce Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_mid_header"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_banner"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_features"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_image_block_one"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_tab_carousel"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_image_block_two"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_product_carousel"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_image_block_three"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_mini_product_carousel"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_testimonial"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_blog"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_footwear_ecommerce_ultimate_02.footwear2_footer"
+                           t-thumbnail="/theme_footwear_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

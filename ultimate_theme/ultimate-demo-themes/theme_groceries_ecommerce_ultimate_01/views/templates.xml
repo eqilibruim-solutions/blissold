@@ -1,0 +1,459 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="groceries_banner" name="Groceries Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h4 class="text-left">
+                                <font style="font-size: 24px;" class="text-beta">
+                                    <b>All Grocery</b>
+                                </font>
+                            </h4>
+                            <h1 class="text-left">
+                                <font style="font-size: 48px;">
+                                    <b>SAME DAY DELIVERY</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt8" data-name="Text">
+                            <p class=" text-left" style="text-align: center;">
+                                <font style="" class="text-beta">
+                                    <b>GET 10% EXTRA SAVE</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn mt8 mb8 btn-primary" data-original-title="" title=""
+                               aria-describedby="tooltip380966">SHOP NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Block One Start-->
+        <template id="groceries_image_block_one" name="Groceries Image Block One">
+            <section class="pt64 pb64 oe_custom_bg" id="ecommerce_block_1" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2 style="text-align: right; ">
+                                        <font style="font-size: 16px;">FROZEN</font>
+                                    </h2>
+                                    <h2 style="text-align: right; ">
+                                        <font style="font-size: 26px;">
+                                            <b>VEGETABLES</b>
+                                        </font>
+                                    </h2>
+                                    <p style="text-align: right; ">
+                                        <font style="font-size: 36px;">
+                                            <b>-15% SAVE</b>
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2 style="text-align: right; ">
+                                        <font style="font-size: 16px;">100% NATURAL PURE</font>
+                                    </h2>
+                                    <h2 style="text-align: right; ">
+                                        <font style="font-size: 26px;">
+                                            <b>HEALTHY JUICES</b>
+                                        </font>
+                                    </h2>
+                                    <p style="text-align: right; ">
+                                        <font style="font-size: 36px;">
+                                            <b>20% OFF</b>
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block One End-->
+
+        <!--Snippet Product Carousel Start-->
+        <template id="groceries_product_carousel" name="Groceries Product Carousel">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_2"
+                     data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d2"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d2" style=""/>
+        </template>
+        <!--Snippet Product Carousel End-->
+
+        <!--Snippet Image Block Two Start-->
+        <template id="groceries_image_block_two" name="Groceries Image Block Two">
+            <section class="pt32 pb32" id="ecommerce_block_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-12 col-lg-12 col-sm-12 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-1170x400.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Two End-->
+
+        <!--Snippet Promo Image Start-->
+        <template id="groceries_promo_image" name="Groceries Promo Image">
+            <section class="s_one_carousel_three_images" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-12 col-sm-12">
+                            <div class="oe_structure">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_2 user_rating_hidden"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d2"
+                                        data-object_name="product.template" data-objects_in_slide="4"
+                                        id="new_products_item_d2" style=""/>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-sm-12 pt72 pb24">
+                            <div class="oe_structure">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-12 col-sm-12 col-md-4 mb16">
+                                            <a href="#">
+                                                <img class="img img-fluid"
+                                                     src="/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-282x129.png"/>
+                                            </a>
+                                        </div>
+                                        <div class="col-12 col-lg-12 col-sm-12 col-md-4 mb16">
+                                            <a href="#">
+                                                <img class="img img-fluid"
+                                                     src="/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-282x129.png"/>
+                                            </a>
+                                        </div>
+                                        <div class="col-12 col-lg-12 col-sm-12 col-md-4 mb16">
+                                            <a href="#">
+                                                <img class="img img-fluid"
+                                                     src="/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-282x129.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Promo Image End-->
+
+        <!--Snippet Left Content Start-->
+        <template id="groceries_left_content" name="Groceries Left Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row justify-content-left">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pt64 pb64">
+                            <h2 style="text-align: left; ">
+                                <b>
+                                    <font style="font-size: 62px;">ORGANIC</font>
+                                </b>
+                            </h2>
+                            <h3 style="text-align: left; ">
+                                <b>
+                                    <font style="font-size: 48px;" class="text-beta">VEGETABLES &amp;amp; FRUITS</font>
+                                </b>
+                            </h3>
+                            <p class="pt8 s_letter_spacing_2" style="text-align: left; ">
+                                <font style="color: rgb(99, 99, 99); font-size: 24px;">
+                                    <b>SUMMER SALE</b>
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Mini Product Carousel Start-->
+        <template id="groceries_mini_product_carousel" name="Groceries Mini Product Carousel">
+            <section class="s_half_carousel_half_carousel" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 pt40">
+                            <div class="oe_structure">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_headline_center owl_nav_style_2"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="2"
+                                        id="new_products_item_mini_d1" style="" data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="oe_structure">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel pt40 owl_nav_style_2"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="2"
+                                        id="new_products_item_mini_d1" style="" data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mini Product Carousel End-->
+
+        <!--Snippet Blog Start-->
+        <template id="groceries_blog" name="Groceries Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel owl_nav_style_2" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"
+                     data-objects_in_slide="4"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="groceries_brand_logo" name="Groceries Brand Logo">
+            <section class="s_brand_carousel mb8 js_get_objects" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d4"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d4"/>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="groceries_newsletter" name="Groceries Newsletter">
+            <section class="s_call_to_action sni-block pt40 pb40 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_groceries_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6 col-sm-12 col-lg-4 offset-lg-1 mt8 mb8 media s_title">
+                            <i class="fa fa-3x fa-life-ring mr-3 mt-2" data-original-title="" title=""
+                               aria-describedby="tooltip691011"/>
+                            <div class="media-body">
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 22px;">CONTACT US</font>
+                                </h3>
+                                <h1>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">+8030-738-839</font>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-1 mt8 mb8">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                    <h6>
+                                        <i class="bg-icon fa fa-2x fa-envelope-o" data-original-title="" title=""
+                                           aria-describedby="tooltip308353" style="color: rgb(255, 255, 255);"/>
+                                        <font style="color: rgb(255, 255, 255); font-size: 20px;">NEWSLETTER</font>
+                                    </h6>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                                    <div class="input-group js_subscribe hidden" data-list-id="1" data-subscribe="off">
+                                        <input type="email" name="email"
+                                               class="js_subscribe_email form-control rounded-0"
+                                               placeholder="your email..."/>
+                                        <span class="input-group-btn">
+                                            <a href="#"
+                                               class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                                Subscribe
+                                            </a>
+                                            <a href="#"
+                                               class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                               disabled="disabled">Thanks
+                                            </a>
+                                        </span>
+                                        <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                            Thanks for your subscription!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Footer Start-->
+        <template id="groceries_footer" name="Groceries Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                <div class="pt64" id="footer_16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 separator mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-map-marker mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Address :
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-phone mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Phone :
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-envelope mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Email:
+                                        <span t-field="res_company.email"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(0, 0, 0);">MY ACCOUNT</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>Personal Info</li>
+                                    <li>Orders</li>
+                                    <li>Credit slips</li>
+                                    <li>Address</li>
+                                    <li>My wish-lists</li>
+                                    <li>Returns &amp;amp; Exchange</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(0, 0, 0);">PRODUCTS</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>About Us</li>
+                                    <li>Prices Drop</li>
+                                    <li>New Products</li>
+                                    <li>Best Sales</li>
+                                    <li>Contact Us</li>
+                                    <li>Collections</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(0, 0, 0);">OUR COMPANY</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>Delivery</li>
+                                    <li>Legal Notice</li>
+                                    <li>Secure Payment</li>
+                                    <li>Sitemap</li>
+                                    <li>Blog</li>
+                                    <li>Privacy Policy</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="color: rgb(0, 0, 0);">Business Hours</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">Monday - Saturday
+                                        <br/>
+                                        8 AM - 5 PM EST
+                                    </li>
+                                </ul>
+                                <h5 class="pt8 pb16 o_default_snippet_text">
+                                    <font style="color: rgb(0, 0, 0);">Social Media</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2 text-beta"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter px-2 text-beta"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin px-2 text-beta"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-pinterest px-2 text-beta"/>
+                                    </a>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <a href="#">
+                                        <i class="fa fa-behance px-2 text-beta"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-dribbble px-2 text-beta"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus px-2 text-beta"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2 text-beta"/>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Groceries Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_banner"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_image_block_one"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_product_carousel"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_image_block_two"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_promo_image"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_left_content"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_mini_product_carousel"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_blog"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_brand_logo"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_newsletter"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_groceries_ecommerce_ultimate_01.groceries_footer"
+                           t-thumbnail="/theme_groceries_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

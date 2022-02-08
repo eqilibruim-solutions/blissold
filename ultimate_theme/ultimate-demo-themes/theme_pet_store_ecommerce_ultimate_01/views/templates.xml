@@ -1,0 +1,717 @@
+<odoo>
+    <data>
+
+        <!--Snippet Mid Header Start-->
+        <template id="pet_store_mid_header" name="Pet Store Mid Header">
+            <section class="bg-dark bg-200 oe_custom_bg" id="mid-header-top-16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 oe_structure col-lg-4 col-md-5 col-sm-12 align-self-center text-center text-lg-left text-md-left"
+                             id="mid-header-top-left">
+                            <li class="list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <a href="#" class="text-white o_default_snippet_text" title="welcome">
+                                        <font class="text-delta" style="">Language</font>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="px-2 list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <a href="#" class="text-white o_default_snippet_text" title="Help">
+                                        <font class="text-delta" style="">Pricelist</font>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="col-12 oe_structure col-lg-8 col-md-7 col-sm-12 align-self-center  text-center text-lg-right text-md-right"
+                             id="mid-header-top-right">
+                            <li class="list-inline-item account_custom pt8 pb8 px-2">
+                                <div class="dropdown">
+                                    <a class="btn-link dropdown-toggle" type="button" id="dropdownMenu1"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="d-inline fa fa-user-circle icon_style mx-1 text-delta" style=""/>
+                                        <span class="hide_content o_default_snippet_text text-delta" style="">My
+                                            Account
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1"
+                                         x-placement="bottom-start"
+                                         style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 18px, 0px);">
+                                        <a class="text-xs-center dropdown-item o_default_snippet_text" href="/web/login"
+                                           id="ultimate_sign_in">
+                                            Sign in
+                                        </a>
+                                        <a href="/web/signup" class="text-xs-center dropdown-item"
+                                           id="ultimate_register">
+                                            <span class="o_default_snippet_text">Register</span>
+                                        </a>
+                                        <a href="/my/home" role="menuitem" class="dropdown-item o_default_snippet_text"
+                                           id="ultimate_my_account">My
+                                            Account
+                                        </a>
+                                        <a class="dropdown-item o_default_snippet_text" role="menuitem"
+                                           id="ultimate_logout" href="/web/session/logout?redirect=/">
+                                            Logout
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="my_wish" class="list-inline-item pt8 pb8 px-2">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <span class="nav-item">
+                                            <a href="/shop/wishlist" class="text-white" title="wishlist">
+                                                <i class="fa fa-heart mx-1 text-delta" title="wishlist" style=""/>
+                                                <span class="hide_content o_default_snippet_text text-delta" style="">
+                                                    Wishlist
+                                                </span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt1 pb-1 bg-alpha oe_custom_bg border-bottom border-epsilon" id="mid-header-bottom-16"
+                     style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-2 col-md-3 align-self-center text-center text-md-center text-lg-left oe_structure"
+                             id="mid-header-bottom-left">
+                            <div class="oe_structure oe_empty">
+                                <a href="/" >
+                                    <img class="img-fluid" src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-10 col-md-9 align-self-center oe_structure text-lg-right text-md-center text-center"
+                             id="mid-header-bottom-right">
+                            <li class="list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <span>
+                                        <form action="/shop" method="get">
+                                            <div class="input-group">
+                                                <input type="text" name="search"
+                                                       class="search-query form-control oe_search_box search_input "
+                                                       placeholder="Enter Keyword to Search..."/>
+                                                <div class="input-group-append">
+                                                    <button type="submit" class="btn oe_search_button search_button"
+                                                            aria-label="Search" title="Search">
+                                                        <i class="fa fa-search text-white"/>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex justify-content-center justify-content-lg-end">
+                                        <i class="fa fa-2x fa-500px pe-7s-call pr-2 pt-2 text-epsilon"
+                                           data-original-title="" title="" aria-describedby="tooltip829965" style=""/>
+                                        <div class="text-left">
+                                            <span class="o_default_snippet_text">
+                                                <font class="text-beta" style="">Call us
+                                                    &amp;nbsp;
+                                                </font>
+                                                <br/>
+                                                <span class="text-epsilon" t-field="res_company.phone"/>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="my_cart" class="list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <a href="/shop/cart" class="text-beta">
+                                            <i class="fa fa-2x fa-shopping-basket px-1 text-beta d-inline icon_style"
+                                               title="add to cart"/>
+                                            <span class="hide_content text-beta o_default_snippet_text">SHOPPING CART
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+
+        <!--Snippet Banner Start-->
+        <template id="pet_store_banner" name="Pet Store Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="0" style="background-image: none; height: 80vh;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left mt24">
+                                <font class="text-alpha" style="">
+                                    <b>SAVE 10-20% OFF</b>
+                                </font>
+                            </h1>
+                            <h1 class="text-left">
+                                <font class="text-beta" style="">
+                                    <b>ON YOUR FIRST ORDER</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font style="font-size: 24px;" class="text-beta">
+                                    <b>BIG SALE ON DOG FOOD</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mt8 mb8 btn btn-primary rounded-circle" data-original-title=""
+                               title="" aria-describedby="tooltip108178">
+                                <b>
+                                    <font style="font-size: 12px;">SHOP NOW</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="pet_store_features" name="Pet Store Features">
+            <section class="pb32 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-calculator mr-3 mt-2 text-alpha"/>
+                                    <div class="media-body">
+                                        <h3>
+                                            <font style="font-size: 18px;">Free Shipping</font>
+                                        </h3>
+                                        <p>From $99.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-calculator mr-3 mt-2 text-alpha"/>
+                                    <div class="media-body">
+                                        <h3>
+                                            <font style="font-size: 18px;">Money Guarantee</font>
+                                        </h3>
+                                        <p>30 Days Back</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-calculator mr-3 mt-2 text-alpha"/>
+                                    <div class="media-body">
+                                        <h3>
+                                            <font style="font-size: 18px;">Online Support</font>
+                                        </h3>
+                                        <p>24 hours</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-calculator mr-3 mt-2 text-alpha"/>
+                                    <div class="media-body">
+                                        <h3>
+                                            <font style="font-size: 18px;">100% Safe</font>
+                                        </h3>
+                                        <p>Secure Shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Category Carousel Start-->
+        <template id="pet_store_category_carousel" name="Pet Store Category Carousel">
+            <section class="s_product_category_carousel js_get_objects headline_hidden owl_nav_style_9"
+                     data-loading="true"
+                     data-template="ecommerce_snippets_product_category.product_category_list_template_header_d5"
+                     data-object_name="product.public.category" data-objects_in_slide="5" id="new_category_item_d5"
+                     style=""/>
+        </template>
+        <!--Snippet Category Carousel End-->
+
+        <!--Snippet Tab Carousel Start-->
+        <template id="pet_store_tab_carousel" name="Pet Store Tab Carousel">
+            <section style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                <li class="nav-item">
+                                    <a class="nav-link o_default_snippet_text border-0 active show"
+                                       data-toggle="tab"
+                                       href="#nav_tabs_content_1585033326916_6" role="tab"
+                                       id="nav_tabs_link_1585033326916_6"
+                                       aria-controls="nav_tabs_content_1585033326916_6" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip954560">Tab 1
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link o_default_snippet_text border-0" data-toggle="tab"
+                                       href="#nav_tabs_content_1585033326917_7" role="tab"
+                                       id="nav_tabs_link_1585033326917_7"
+                                       aria-controls="nav_tabs_content_1585033326917_7" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip312600">Tab 2
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="nav_tabs_content_1585033326916_6"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1585033326916_6">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects product_carousel headline_hidden s_headline_style_2 owl_nav_style_6"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                data-object_name="product.template" data-objects_in_slide="5"
+                                                id="new_products_item_d8"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1585033326917_7" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1585033326917_7">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects product_carousel headline_hidden owl_nav_style_6"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                data-object_name="product.template" data-objects_in_slide="5"
+                                                id="new_products_item_d8"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1585033326917_8" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1585033326917_8">
+                                    <div class="oe_structure"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel End-->
+
+        <!--Snippet Image Block One Start-->
+        <template id="pet_store_image_block_one" name="Pet Store Image Block One">
+            <section class="pb64 pt0" id="ecommerce_block_8">
+                <div class="container">
+                    <div class="row mt-30">
+                        <div class="col-12 col-md-12 col-lg-3 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-12 col-sm-12">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="box8">
+                                            <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                                 alt="" class="img-fluid image mb16 mt16"/>
+                                            <div class="overlay">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12 col-sm-12">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="box8">
+                                            <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                                 alt="" class="img-fluid image mb16 mt16"/>
+                                            <div class="overlay">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-6 col-sm-12">
+                            <div class="oe_structure oe_empty">
+                                <div class="box8">
+                                    <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-600x412.png"
+                                         alt="" class="img-fluid image mb16 mt16"/>
+                                    <div class="overlay">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-3 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-12 col-sm-12">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="box8">
+                                            <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                                 alt="" class="img-fluid image mb16 mt16"/>
+                                            <div class="overlay">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12 col-sm-12">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="box8">
+                                            <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                                 alt="" class="img-fluid image mb16 mt16"/>
+                                            <div class="overlay">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block One End-->
+
+        <!--Snippet Product Carousel One Start-->
+        <template id="pet_store_product_carousel_one" name="Pet Store Product Carousel One">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-216x448.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-9 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="s_product_carousel oe_website_sale js_get_objects product_carousel"
+                                         data-loading="true"
+                                         data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                         data-object_name="product.template" data-objects_in_slide="4"
+                                         id="new_products_item_d8" data-objects_limit="4"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel One End-->
+
+        <!--Snippet Product Carousel Two Start-->
+        <template id="pet_store_product_carousel_two" name="Pet Store Product Carousel Two">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-9 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="s_product_carousel oe_website_sale js_get_objects product_carousel"
+                                         data-loading="true"
+                                         data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                         data-object_name="product.template" data-objects_in_slide="4"
+                                         id="new_products_item_d8" data-objects_limit="4"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-216x448.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel Two End-->
+
+        <!--Snippet Image Block Two Start-->
+        <template id="pet_store_image_block_two" name="Pet Store Image Block Two">
+            <section class="pb32 pt0" id="ecommerce_block_9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt8 pb8">
+                            <div class="oe_structure oe_empty">
+                                <div class="box_9">
+                                    <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-630x200.png"
+                                         class="img-fluid image"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt8 pb8">
+                            <div class="oe_structure oe_empty">
+                                <div class="box_9">
+                                    <img src="/theme_pet_store_ecommerce_ultimate_01/static/src/img/placeholder-630x200.png"
+                                         class="img-fluid image"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Two End-->
+
+        <!--Snippet Blog Carousel Start-->
+        <template id="pet_store_blog_carousel" name="Pet Store Blog Carousel">
+            <section class="s_blog_carousel js_get_objects blog_carousel" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog Carousel End-->
+
+        <!--Snippet Mini Product Carousel Start-->
+        <template id="pet_store_mini_product_carousel" name="Pet Store Mini Product Carousel">
+            <section class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_7"
+                     data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_mini_d1"/>
+        </template>
+        <!--Snippet Mini Product Carousel End-->
+
+        <!--Snippet Footer Start-->
+        <template id="pet_store_footer" name="Pet Store Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                    <div id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                        <div class="pt64 pb32" id="footer_17">
+                            <div class="container">
+                                <div class="row pt64">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                        <h5 class="mb24">
+                                            <font style="font-size: 18px;">
+                                                <b class="o_default_snippet_text">CONTACT US</b>
+                                            </font>
+                                        </h5>
+                                        <div class="o_default_snippet_text media">
+                                            <i class="fa fa-map-marker mr-2 mt-1 text-alpha"/>
+                                            <div class="media-body">
+                                                <p class="o_default_snippet_text">Address:
+                                                    <span t-field="res_company.street"/>
+                                                    <span t-field="res_company.city"/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="o_default_snippet_text media">
+                                            <i class="fa fa-phone mr-2 mt-1 text-alpha"/>
+                                            <div class="media-body">
+                                                <p class="o_default_snippet_text">Phone:
+                                                    <span t-field="res_company.phone"/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="o_default_snippet_text media">
+                                            <i class="fa fa-envelope mr-2 mt-1 text-alpha"/>
+                                            <div class="media-body">
+                                                <p class="o_default_snippet_text">Email:
+                                                    <span t-field="res_company.email"/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                        <h5 class="o_default_snippet_text">Information</h5>
+                                        <ul class="list-unstyled mt24">
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip102461">
+                                                    <font class="text-delta o_default_snippet_text" style="">About Us
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip719905">
+                                                    <font class="text-delta o_default_snippet_text" style="">Delivery
+                                                        Information
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">Privacy
+                                                        &amp;amp; Policy
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">Terms &amp;amp;
+                                                        Condition
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">
+                                                        Manufactures
+                                                    </font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                        <h5 class="o_default_snippet_text">My Account</h5>
+                                        <ul class="list-unstyled mt24">
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">Personal
+                                                        Info
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">Orders
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">Credit
+                                                        Slips
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">Address
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">My
+                                                        Wishlist
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" class="o_default_snippet_text">
+                                                    <font class="text-delta o_default_snippet_text" style="">Return
+                                                        &amp;amp; Exchange
+                                                    </font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                        <h5 class="mb16 o_default_snippet_text">Newslettes</h5>
+                                        <p class="o_default_snippet_text mt24">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit.
+                                        </p>
+                                        <div class="col-md-12 p-0 input-group js_subscribe hidden d-none"
+                                             data-list-id="1" data-subscribe="off">
+                                            <input type="email" name="email"
+                                                   class="js_subscribe_email form-control rounded-0"
+                                                   placeholder="your email..."/>
+                                            <span class="input-group-btn">
+                                                <a href="#"
+                                                   class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                                    Subscribe
+                                                </a>
+                                                <a href="#"
+                                                   class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                                   disabled="disabled">Thanks
+                                                </a>
+                                            </span>
+                                            <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                                Thanks for your subscription!
+                                            </div>
+                                        </div>
+                                        <h5 class="mb16 mt24">
+                                            <font class="text-beta" style="">
+                                                <b>Follow Socials</b>
+                                            </font>
+                                        </h5>
+                                        <a t-att-href="res_company.social_facebook" class="text-decoration-none" target="_blank">
+                                            <i class="box_hover fa fa-facebook p-2" data-original-title="" title=""
+                                               aria-describedby="tooltip841149" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="fa fa-google-plus p-2 box_hover"/>
+                                        </a>
+                                        <a t-att-href="res_company.social_twitter" class="text-decoration-none" target="_blank">
+                                            <i class="fa fa-twitter p-2 box_hover"/>
+                                        </a>
+                                        <a t-att-href="res_company.social_linkedin" class="text-decoration-none" target="_blank">
+                                            <i class="fa fa-linkedin p-2 box_hover"/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="fa fa-vimeo p-2 box_hover"/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="fa fa-pinterest p-2 box_hover"/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="fa fa-flickr p-2 box_hover"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Pet Store Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_mid_header"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_banner"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_features"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_category_carousel"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_tab_carousel"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_image_block_one"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_product_carousel_one"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_product_carousel_two"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_image_block_two"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_blog_carousel"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_mini_product_carousel"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_pet_store_ecommerce_ultimate_01.pet_store_footer"
+                           t-thumbnail="/theme_pet_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

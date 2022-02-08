@@ -1,0 +1,1244 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="wedding_banner" name="Wedding Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_wedding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 62px; text-align: center;">
+                                <b>We'll Make Your Wedding Perfect</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text"
+                               style="text-align: center;">Write one or two paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-primary flat" data-original-title=""
+                               title="" aria-describedby="tooltip311653">
+                                <font style="font-size: 14px;">
+                                    <b>READ MORE</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="wedding_features" name="Wedding Features">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_wedding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="pb32 pt32 text-center">LET'S PLAN YOUR PERFECT WEDDING</h2>
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-video.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip632207"/>
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8" style="text-align: center; ">
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">BOUQUETS &amp;amp;
+                                                STYLE
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                        <p style="text-align: center; ">
+                                            <b>
+                                                <a href="#">
+                                                    <font class="text-beta o_default_snippet_text" style=""
+                                                          data-original-title="" title=""
+                                                          aria-describedby="tooltip858836">Order Now
+                                                    </font>
+                                                </a>
+                                            </b>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8" style="text-align: center; ">
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">WEDDING
+                                                PLANNING
+                                            </font>
+                                        </h3>
+                                        <p style="text-align: center; " class="o_default_snippet_text">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                        <p style="text-align: center; ">
+                                            <b>
+                                                <a href="#">
+                                                    <font class="text-beta o_default_snippet_text" style="">Shop Now
+                                                    </font>
+                                                </a>
+                                            </b>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8" style="text-align: center; ">
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">CATERING &amp;amp;
+                                                DECORATION
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                        <p style="text-align: center; ">
+                                            <b>
+                                                <a href="#">
+                                                    <font class="text-beta o_default_snippet_text" style="">Shop Now
+                                                    </font>
+                                                </a>
+                                            </b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Img Block Start-->
+        <template id="wedding_img_block" name="Wedding Img Block">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>SWEET&amp;nbsp; MEMORIES</h2>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <img class="img-fluid d-block mx-auto mt16 mb16"
+                                 src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-750.png"
+                                 data-original-title="" title="" aria-describedby="tooltip464317"/>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-750.png"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-750.png"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-750.png"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-750.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Img Block End-->
+
+        <!--Snippet Counter Start-->
+        <template id="wedding_counter" name="Wedding Counter">
+            <section class="state_section pb64 pt0 bg-alpha oe_img_bg oe_custom_bg"
+                     id="state_section_id">
+                <div class="container">
+                    <div class="row text-center justify-content-sm-center no-gutters state_text">
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="1700"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">7</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Flower Decoration</h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="1780"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">7</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">8</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Ceremonies</h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="1854"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">8</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">5</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">4</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Cake Design</h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="2184"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">2</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">8</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">4</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Happy Couples</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="wedding_testimonial" name="Wedding Testimonial">
+            <section class="pt64 pb64 bg-alpha oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_wedding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>Our Happy Couples</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1565268277894"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1565268277894" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1565268277894" data-slide-to="1"/>
+                        <li data-target="#myCarousel1565268277894" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <b><img class="img"
+                                                    src="/theme_wedding_ultimate_01/static/src/img/placeholder-user1.png"
+                                                    alt="" data-original-title="" title=""
+                                                    aria-describedby="tooltip484303"/>&amp;nbsp;Kelly
+                                                &amp;amp;&amp;nbsp; Brandon Walsh
+                                            </b>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <b><img class="img"
+                                                    src="/theme_wedding_ultimate_01/static/src/img/placeholder-user1.png"
+                                                    alt=""/>&amp;nbsp;Alison &amp;amp; Mark Priston
+                                            </b>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one of your customers. Quotes are a
+                                            great way to build confidence in your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <b><img class="img"
+                                                    src="/theme_wedding_ultimate_01/static/src/img/placeholder-user1.png"
+                                                    alt=""/>&amp;nbsp;Melissa &amp;amp; Rhyn Smith
+                                            </b>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1565268277894"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1565268277894"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet News Start-->
+        <template id="wedding_news" name="Wedding News">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 pb48">
+                            <h2 style="text-align: center; ">News &amp;amp; Tips</h2>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                 alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">An occasion that joins two hearts in a
+                                    symphony&amp;nbsp;
+                                </font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.
+                            </p>
+                            <b>
+                                <a href="#" class="pb8 pt8">
+                                    <font class="text-beta" style="" data-original-title="" title=""
+                                          aria-describedby="tooltip684107">Read More&amp;nbsp;
+
+                                    </font>
+                                    <i class="fa fa-chevron-right ml-2 text-beta" style=""/>
+                                </a>
+                            </b>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-3 mb16">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                 alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Wedding dress for your special day
+
+
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+
+
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip928997">
+                                <font class="text-beta" style="">
+                                    <b data-original-title="" title="" aria-describedby="tooltip819360">
+                                        Read More&amp;nbsp;
+
+
+                                    </b>
+                                </font>
+                                <i class="fa fa-chevron-right ml-2 text-beta" data-original-title=""
+                                   title="" aria-describedby="tooltip933015" style=""/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                 alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <span style="font-size: 18px;">The role of bouquette in wedding
+                                    compositions
+                                </span>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8">
+                                <font class="text-beta" style="">
+                                    <b data-original-title="" title="" aria-describedby="tooltip995309">
+                                        Read More&amp;nbsp;
+                                    </b>
+                                </font>
+                                <i class="fa fa-chevron-right ml-2 text-beta" style=""/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                 alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">10 reasons why you should hire a wedding
+                                    planner
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <b>
+                                <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip300109">
+                                    <font class="text-beta" style="" data-original-title="" title=""
+                                          aria-describedby="tooltip583586">Read More&amp;nbsp;
+                                    </font>
+                                    <i class="fa fa-chevron-right ml-2 text-beta" data-original-title=""
+                                       title="" aria-describedby="tooltip202502" style=""/>
+                                </a>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Center Content One Start-->
+        <template id="wedding_center_content_one" name="Wedding Center Content One">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_wedding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pt24 pb24">
+                                <span style="font-weight: normal;">
+                                    <i>
+                                        <font style="font-size: 36px;" class="text-alpha">Let Us Make
+                                            Your Wedding Flawless
+                                        </font>
+                                    </i>
+                                </span>
+                            </h2>
+                            <a href="#" class="btn btn-primary rounded-0 mt16 mb16"
+                               data-original-title="" title="" aria-describedby="tooltip430823">
+                                <b>SEND REQUEST</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Center Content One End-->
+
+        <!--Snippet Team Start-->
+        <template id="wedding_team" name="Wedding Team">
+            <section class="sni-block bg-alpha pt64 pb64" id="team_7">
+                <div class="container">
+                    <div class="row text-center mb48">
+                        <div class="col-12">
+                            <h2 class="text-white o_default_snippet_text">
+                                <font class="text-gamma" style="">Our Team</font>
+                            </h2>
+                        </div>
+                    </div>
+                    <ul class="row">
+                        <li class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_wedding_ultimate_01/static/src/img/placeholder-user1.png"
+                                     data-original-title="" title="" aria-describedby="tooltip206936"/>
+                                <h3>
+                                    <a href="#" data-original-title="" title=""
+                                       aria-describedby="tooltip72842">Jassica Smith
+                                    </a>
+                                </h3>
+                                <p>
+                                    <font style="font-size: 18px;" class="text-beta">Wedding Planner
+                                    </font>
+                                </p>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_wedding_ultimate_01/static/src/img/placeholder-user1.png"/>
+                                <h3><a href="#" data-original-title="" title=""
+                                       aria-describedby="tooltip584301">W</a>alter stratton
+                                </h3>
+                                <p>
+                                    <font style="font-size: 18px;" class="text-beta">Assistant</font>
+                                </p>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_wedding_ultimate_01/static/src/img/placeholder-user1.png"/>
+                                <h3>ben jonas</h3>
+                                <p>
+                                    <font style="font-size: 18px;" class="text-beta">Assistant</font>
+                                </p>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="wedding_brand_logo" name="Wedding Brand Logo">
+            <section class="pt64 pb64 bg-epsilon oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_wedding_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Products Start-->
+        <template id="wedding_products" name="Wedding Products">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <h2 style="text-align: center; " class="pb48">Our Shop</h2>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">Wedding Shoes</font>
+                                    </h3>
+                                    <p>
+                                        <b>$280.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">White Veil</font>
+                                    </h3>
+                                    <p>
+                                        <b>$80.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">Photo Frame</font>
+                                    </h3>
+                                    <p>
+                                        <b>$50.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <span style="font-size: 18px;">Wedding Dress</span>
+                                    </h3>
+                                    <p>
+                                        <b>$500.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">Ring</font>
+                                    </h3>
+                                    <p>
+                                        <b>$150.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">Earings</font>
+                                    </h3>
+                                    <p>
+                                        <b>$100.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">Flower Hair Band</font>
+                                    </h3>
+                                    <p>
+                                        <b>$90.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-255x347.png"
+                                     alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <font style="font-size: 18px;">Blue Flats</font>
+                                    </h3>
+                                    <p>
+                                        <b>$90.00</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Products End-->
+
+        <!--Snippet Pricing Table Start-->
+        <template id="wedding_pricing_table" name="Wedding Pricing Table">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                            <h2>Our Events Plans</h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="border">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="img2"
+                                     class="img-fluid"/>
+                                <div class="px-4 pt32 pb32">
+                                    <h3 style="text-align: center; ">
+                                        <small>Bouquets</small>
+                                    </h3>
+                                    <h2 class="pb16 pt16" style="text-align: center; ">$390.00</h2>
+                                    <p class="o_default_snippet_text" style="text-align: center; ">Lorem
+                                        ipsum dolor sit amet, con sectetur adipiscing elit.
+                                    </p>
+                                    <a href="#" class="rounded-0 btn btn-beta btn-block"
+                                       data-original-title="" title="" aria-describedby="tooltip376418">
+                                        <b>ORDER NOW</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="border">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="img2"
+                                     class="img-fluid"/>
+                                <div class="px-4 pt32 pb32">
+                                    <h3 style="text-align: center; ">
+                                        <small>Ceremony + Bouquets</small>
+                                    </h3>
+                                    <h2 class="pb16 pt16" style="text-align: center; ">$790.00</h2>
+                                    <p class="o_default_snippet_text" style="text-align: center; ">Lorem
+                                        ipsum dolor sit amet, con sectetur adipiscing elit.
+                                    </p>
+                                    <a href="#" class="rounded-0 btn btn-beta btn-block"
+                                       data-original-title="" title="" aria-describedby="tooltip787416">
+                                        <b>ORDER NOW</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="border">
+                                <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="img2"
+                                     class="img-fluid"/>
+                                <div class="px-4 pt32 pb32">
+                                    <h3 style="text-align: center; ">
+                                        <small>Full Package</small>
+                                    </h3>
+                                    <h2 class="pb16 pt16" style="text-align: center; ">$990.00</h2>
+                                    <p class="o_default_snippet_text" style="text-align: center; ">Lorem
+                                        ipsum dolor sit amet, con sectetur adipiscing elit.
+                                    </p>
+                                    <a href="#" class="rounded-0 btn btn-beta btn-block"
+                                       data-original-title="" title="" aria-describedby="tooltip686056">
+                                        <b>ORDER NOW</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Pricing Table End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="wedding_contact_us" name="Wedding Contact Us">
+            <section class="s_banner parallax s_parallax_is_fixed pt64 pb64 bg-white-25"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-position: 50% 0px; background-image: url(&quot;/theme_wedding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="jumbotron pt32 pb32 col-lg-6 col-md-6 rounded bg-alpha" data-name="Box">
+                            <div class="row">
+                                <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                                    <p class="s_title_thin">
+                                        <span style="font-size: 36px;" class="text-gamma">GET IN TOUCH</span>
+                                        <span style="font-size: 48px;" class="text-gamma">&amp;nbsp;</span>
+                                        <br/>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                                    <div class="contact-page-side-content">
+                                        <div class="single-contact-block mb32">
+                                            <h4>
+                                                <i class="fa fa-fax" style="font-size: 18px;" data-original-title=""
+                                                   title="" aria-describedby="tooltip370367"/>
+                                                <font style="font-size: 18px;">&amp;nbsp;
+                                                    <b>ADDRESS</b>
+                                                </font>
+                                            </h4>
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </div>
+                                        <div class="single-contact-block mb32">
+                                            <h4><i class="fa fa-phone" data-original-title="" title=""
+                                                   aria-describedby="tooltip482869"/>&amp;nbsp;
+                                                <font style="font-size: 18px;">
+                                                    <b>PHONE</b>
+                                                </font>
+                                            </h4>
+                                            <p t-field="res_company.phone"/>
+                                        </div>
+                                        <div class="single-contact-block mb32">
+                                            <h4>
+                                                <i class="fa fa-envelope-o" data-original-title="" title=""
+                                                   aria-describedby="tooltip759673"/>
+                                                <font style="font-size: 18px;">
+                                                    <b>EMAIL ADDRESS</b>
+                                                </font>
+                                            </h4>
+                                            <p t-field="res_company.email"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_text pt16 pb16 bg-alpha" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="contact_name" placeholder="Your Name" required="" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field col-md-12">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input" name="phone"
+                                                   placeholder="Phone Number" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="email_from" required="" placeholder="Email" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <div class="col-12">
+                                            <textarea class="form-control o_website_form_input" name="description"
+                                                      required="" placeholder="Your Question"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="col-12">
+                                            <div class="s_btn text-center" data-name="Buttons">
+                                                <a href="#" role="button"
+                                                   class="o_website_form_send btn btn-beta btn-lg"
+                                                   data-original-title="" title="" aria-describedby="tooltip761283">
+                                                    <b>
+                                                        <font style="font-size: 14px;" class="o_default_snippet_text">
+                                                            SEND
+                                                        </font>
+                                                    </b>
+                                                </a>
+                                                <span id="o_website_form_result"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Footer Start-->
+        <template id="wedding_footer" name="Wedding Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb32" id="footer_19">
+                    <div class="container">
+                        <div class="row pt64">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="pt16 o_default_snippet_text">
+                                    <font class="text-gamma" style="">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Nam eu sem tempor, varius quam at,luctus dui. Mauris magna
+                                        metus.
+                                        &amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="media mb8">
+                                    <i class="fa fa-phone-square mr-2 mt-1 text-delta" data-original-title="" title=""
+                                       aria-describedby="tooltip430067" style=""/>
+                                    <div class="media-body text-gamma">
+                                        <span>Call Us:</span>
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <div class="media mb8">
+                                    <i class="fa fa-envelope-open mr-2 mt-1 text-delta"
+                                       data-original-title="" title=""
+                                       aria-describedby="tooltip147463" style=""/>
+                                    <div class="media-body text-gamma">
+                                        <span>E-mail On</span>
+                                        <span t-field="res_company.email"/>
+                                    </div>
+                                </div>
+                                <div class="media mb8">
+                                    <i class="fa fa-map-marker mr-2 mt-1 text-delta" data-original-title="" title=""
+                                       aria-describedby="tooltip454806" style=""/>
+                                    <div class="media-body text-gamma">
+                                        <span>Visit Us:</span>
+                                        <span t-field="res_company.street"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h4 class="border-bottom font-weight-bold pb16">RECENT POSTS</h4>
+                                <div class="pt16">
+                                    <h6>The role of bouquette in wedding compositions</h6>
+                                    <h6 class="o_default_snippet_text">
+                                        <i class="fa fa-clock-o text-delta" data-original-title="" title=""
+                                           aria-describedby="tooltip547574" style=""/>
+                                        January 22, 2016
+                                    </h6>
+                                </div>
+                                <div class="pt16">
+                                    <h6>The wedding dress</h6>
+                                    <h6 class="o_default_snippet_text">
+                                        <i class="fa fa-clock-o text-delta" data-original-title="" title=""
+                                           aria-describedby="tooltip290352" style=""/>
+                                        January 22, 2016
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h4 class="border-bottom font-weight-bold pb16">NAVIGATION</h4>
+                                <div class="row pt16">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-6">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">About US</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Contact</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none" target="_blank">
+                                                    <font class="text-gamma" style="">Typography</font>
+                                                    <font class="text-gamma" style="" data-original-title="" title=""
+                                                          aria-describedby="tooltip501084">&amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Shop</font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-6">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="" data-original-title="" title=""
+                                                          aria-describedby="tooltip20054">News
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Testimonials</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font class="text-gamma" style="">Services</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none" target="_blank">
+                                                    <font class="text-gamma" style="" data-original-title="" title=""
+                                                          aria-describedby="tooltip715264">Our Team
+                                                    </font>
+                                                    <font class="text-delta" style="" data-original-title="" title=""
+                                                          aria-describedby="tooltip715264">
+                                                    </font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                <h4 class="border-bottom font-weight-bold pb16">GALLERY</h4>
+                                <div class="row pt16 pb16 px-3">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                             aria-describedby="tooltip140343"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                             aria-describedby="tooltip414937"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wedding_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                </div>
+                                <h6>
+                                    <a href="#" class="text-decoration-none text-warning o_default_snippet_text"
+                                       target="_blank" data-original-title="" title="" aria-describedby="tooltip391185">
+                                        <i class="fa fa-arrow-circle-right text-delta" style=""/>
+                                        <font class="text-delta" style="">View More Photos
+                                            &amp;nbsp;
+                                        </font>
+                                    </a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Wedding Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_banner"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_features"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_img_block"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_counter"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_testimonial"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_news"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_center_content_one"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_team"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_brand_logo"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_products"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_pricing_table"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_contact_us"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_01.wedding_footer"
+                           t-thumbnail="/theme_wedding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

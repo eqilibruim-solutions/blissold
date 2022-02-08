@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_1</field>
+            <field name="name">theme_gym_ultimate_01.image_content_1</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/Feature-img-1-min.jpg</field>
+        </record>
+
+
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_2</field>
+            <field name="name">theme_gym_ultimate_01.image_content_2</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/product_04.png</field>
+        </record>
+
+
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_3</field>
+            <field name="name">theme_gym_ultimate_01.image_content_3</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/01.png</field>
+        </record>
+
+
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_4</field>
+            <field name="name">theme_gym_ultimate_01.image_content_4</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/main-banner-img-min.jpg</field>
+        </record>
+
+
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_5</field>
+            <field name="name">theme_gym_ultimate_01.image_content_5</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/product_01.png</field>
+        </record>
+
+
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_6</field>
+            <field name="name">theme_gym_ultimate_01.image_content_6</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/h1-team-img-3.jpg</field>
+        </record>
+
+
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_7</field>
+            <field name="name">theme_gym_ultimate_01.image_content_7</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/04.png</field>
+        </record>
+
+
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_8</field>
+            <field name="name">theme_gym_ultimate_01.image_content_8</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/trainers-bg-img-min.jpg</field>
+        </record>
+
+
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_9</field>
+            <field name="name">theme_gym_ultimate_01.image_content_9</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/team-img-4.jpg</field>
+        </record>
+
+
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_10</field>
+            <field name="name">theme_gym_ultimate_01.image_content_10</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/h1-team-img-1.jpg</field>
+        </record>
+
+
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_11</field>
+            <field name="name">theme_gym_ultimate_01.image_content_11</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/slider1-min.jpg</field>
+        </record>
+
+
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_12</field>
+            <field name="name">theme_gym_ultimate_01.image_content_12</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/g-6.jpg</field>
+        </record>
+
+
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_13</field>
+            <field name="name">theme_gym_ultimate_01.image_content_13</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/g-5.jpg</field>
+        </record>
+
+
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_14</field>
+            <field name="name">theme_gym_ultimate_01.image_content_14</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/about-us-img.png</field>
+        </record>
+
+
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_15</field>
+            <field name="name">theme_gym_ultimate_01.image_content_15</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/product_02.png</field>
+        </record>
+
+
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_16</field>
+            <field name="name">theme_gym_ultimate_01.image_content_16</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/02.png</field>
+        </record>
+
+
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_17</field>
+            <field name="name">theme_gym_ultimate_01.image_content_17</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/h1-team-img-2.jpg</field>
+        </record>
+
+
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_18</field>
+            <field name="name">theme_gym_ultimate_01.image_content_18</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/video_bg.jpg</field>
+        </record>
+
+
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_19</field>
+            <field name="name">theme_gym_ultimate_01.image_content_19</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/03.png</field>
+        </record>
+
+
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_20</field>
+            <field name="name">theme_gym_ultimate_01.image_content_20</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/Feature-img-2-min.jpg</field>
+        </record>
+
+
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_21</field>
+            <field name="name">theme_gym_ultimate_01.image_content_21</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/g-1.jpg</field>
+        </record>
+
+
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_22</field>
+            <field name="name">theme_gym_ultimate_01.image_content_22</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/g-4.jpg</field>
+        </record>
+
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_23</field>
+            <field name="name">theme_gym_ultimate_01.image_content_23</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/product_03.png</field>
+        </record>
+
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_24</field>
+            <field name="name">theme_gym_ultimate_01.image_content_24</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/g-3.jpg</field>
+        </record>
+
+        <record id="image_content_25" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_25</field>
+            <field name="name">theme_gym_ultimate_01.image_content_25</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/g-2.jpg</field>
+        </record>
+
+
+        <record id="image_content_26" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_26</field>
+            <field name="name">theme_gym_ultimate_01.image_content_26</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/Feature-img-4-min.jpg</field>
+        </record>
+
+        <record id="image_content_27" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_27</field>
+            <field name="name">theme_gym_ultimate_01.image_content_27</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/client_img1.jpg</field>
+        </record>
+
+        <record id="image_content_28" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_28</field>
+            <field name="name">theme_gym_ultimate_01.image_content_28</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/client_img2.jpg</field>
+        </record>
+
+        <record id="image_content_29" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_29</field>
+            <field name="name">theme_gym_ultimate_01.image_content_29</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/client_img3.jpg</field>
+        </record>
+
+        <record id="image_content_30" model="theme.ir.attachment">
+            <field name="key">theme_gym_ultimate_01.image_content_30</field>
+            <field name="name">theme_gym_ultimate_01.image_content_30</field>
+            <field name="url">/theme_gym_ultimate_01/static/src/img/library/gym_ultimate_01_logo.png</field>
+        </record>
+
+    </data>
+</odoo>

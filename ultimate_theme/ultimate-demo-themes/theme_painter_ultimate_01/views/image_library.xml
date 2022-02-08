@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_1</field>
+            <field name="name">theme_painter_ultimate_01.image_content_1</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/wooden_solutions.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_2</field>
+            <field name="name">theme_painter_ultimate_01.image_content_2</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/news_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_3</field>
+            <field name="name">theme_painter_ultimate_01.image_content_3</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/contact_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_4</field>
+            <field name="name">theme_painter_ultimate_01.image_content_4</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/paint-roller.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_5</field>
+            <field name="name">theme_painter_ultimate_01.image_content_5</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/news_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_6</field>
+            <field name="name">theme_painter_ultimate_01.image_content_6</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/paint.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_7</field>
+            <field name="name">theme_painter_ultimate_01.image_content_7</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/master_bedroom.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_8</field>
+            <field name="name">theme_painter_ultimate_01.image_content_8</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/tiles.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_9</field>
+            <field name="name">theme_painter_ultimate_01.image_content_9</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/spray-gun.png</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_10</field>
+            <field name="name">theme_painter_ultimate_01.image_content_10</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/brushes.png</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_11</field>
+            <field name="name">theme_painter_ultimate_01.image_content_11</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/familly_room.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_12</field>
+            <field name="name">theme_painter_ultimate_01.image_content_12</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/recidential_exterior.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_13</field>
+            <field name="name">theme_painter_ultimate_01.image_content_13</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/common_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_14</field>
+            <field name="name">theme_painter_ultimate_01.image_content_14</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/paint-brush.png</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_15</field>
+            <field name="name">theme_painter_ultimate_01.image_content_15</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/testi_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_16</field>
+            <field name="name">theme_painter_ultimate_01.image_content_16</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/painter_ultimate_01_logo.png</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_17</field>
+            <field name="name">theme_painter_ultimate_01.image_content_17</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_18</field>
+            <field name="name">theme_painter_ultimate_01.image_content_18</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/testi_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_19</field>
+            <field name="name">theme_painter_ultimate_01.image_content_19</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/kittchen.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_20</field>
+            <field name="name">theme_painter_ultimate_01.image_content_20</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/news_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_21</field>
+            <field name="name">theme_painter_ultimate_01.image_content_21</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/bedroom_painting.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_22</field>
+            <field name="name">theme_painter_ultimate_01.image_content_22</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/about.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_painter_ultimate_01.image_content_23</field>
+            <field name="name">theme_painter_ultimate_01.image_content_23</field>
+            <field name="url">/theme_painter_ultimate_01/static/src/img/library/bathroom_painting.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="side_nav_customize_inherit" inherit_id="website.theme_customize">
+        <xpath expr="//content[@id='theme_customize_content_fonts']" position="after">
+            <content id="customize_content_side_navbar" string="Side Navbar" title="Choose Your Side Navbar">
+                <more data-depends="">
+                    <list string="Navbar">
+                        <!--Option 1-->
+                        <opt id="op_side_nav_1" string="Side Navbar 1"
+                             data-xmlid="nav_side_menu_business.option_side_nav_1,nav_side_menu_business.option_side_nav_js_1"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-1.png"/>
+
+                        <!--Option 2-->
+                        <opt id="op_side_nav_2" string="Side Navbar 2"
+                             data-xmlid="nav_side_menu_business.option_side_nav_2,nav_side_menu_business.option_side_nav_js_2"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-2.png"/>
+
+                        <!--Option 3-->
+                        <opt id="op_side_nav_3" string="Side Navbar 3"
+                             data-xmlid="nav_side_menu_business.option_side_nav_3,nav_side_menu_business.option_side_nav_js_3"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-3.png"/>
+
+                        <!--Option 4-->
+                        <opt id="op_side_nav_4" string="Side Navbar 4"
+                             data-xmlid="nav_side_menu_business.option_side_nav_4,nav_side_menu_business.option_side_nav_js_4"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-4.png"/>
+
+                        <!--Option 5-->
+                        <opt id="op_side_nav_5" string="Side Navbar 5"
+                             data-xmlid="nav_side_menu_business.option_side_nav_5,nav_side_menu_business.option_side_nav_js_5"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-5.png"/>
+                        <!--Option 6-->
+                        <opt id="op_side_nav_6" string="Side Navbar 6"
+                             data-xmlid="nav_side_menu_business.option_side_nav_6,nav_side_menu_business.option_side_nav_js_6"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-6.png"/>
+
+                        <!--Option 1 Reverse-->
+                        <opt id="op_side_nav_1_reverse" string="Side Navbar 1 Reverse"
+                             data-xmlid="nav_side_menu_business.option_side_nav_1_reverse,nav_side_menu_business.option_side_nav_js_1"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-1-reverse.png"/>
+
+                        <!--Option 2 Reverse-->
+                        <opt id="op_side_nav_2_reverse" string="Side Navbar 2 Reverse"
+                             data-xmlid="nav_side_menu_business.option_side_nav_2_reverse,nav_side_menu_business.option_side_nav_js_2"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-2-reverse.png"/>
+
+                        <!--Option 3 Reverse-->
+                        <opt id="op_side_nav_3_reverse" string="Side Navbar 3 Reverse"
+                             data-xmlid="nav_side_menu_business.option_side_nav_3_reverse,nav_side_menu_business.option_side_nav_js_3"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-3-reverse.png"/>
+
+                        <!--Option 4 Reverse-->
+                        <opt id="op_side_nav_4_reverse" string="Side Navbar 4 Reverse"
+                             data-xmlid="nav_side_menu_business.option_side_nav_4_reverse,nav_side_menu_business.option_side_nav_js_4"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-4-reverse.png"/>
+
+                        <!--Option 5 Reverse-->
+                        <opt id="op_side_nav_5_reverse" string="Side Navbar 5 Reverse"
+                             data-xmlid="nav_side_menu_business.option_side_nav_5_reverse,nav_side_menu_business.option_side_nav_js_5"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-5-reverse.png"/>
+
+                        <!--Option 6 Reverse-->
+                        <opt id="op_side_nav_6_reverse" string="Side Navbar 6 Reverse"
+                             data-xmlid="nav_side_menu_business.option_side_nav_6_reverse,nav_side_menu_business.option_side_nav_js_6"
+                             data-reload="true"
+                             data-icon="/nav_side_menu_business/static/src/imgs/sidebar-icons/side-navbar-6-reverse.png"/>
+
+                    </list>
+                </more>
+            </content>
+        </xpath>
+    </template>
+</odoo>

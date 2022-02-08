@@ -1,0 +1,14 @@
+$brand-primary:$o-enterprise-primary-color;
+#wrapwrap {
+   input,textarea{
+    border-bottom: 1px solid #ced4da !important;
+    border: none;
+    border-radius: 0;
+
+        &:focus{
+            box-shadow: none;
+            border-bottom-color:$brand-primary !important;
+
+        }
+   }
+}

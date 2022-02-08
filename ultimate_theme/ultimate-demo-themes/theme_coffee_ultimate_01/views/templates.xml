@@ -1,0 +1,707 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="coffee_banner" name="Coffee Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1"
+                    style="background-image: none;height: 100vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_coffee_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-right text-white"
+                                style="text-align: center; font-size: 62px;">
+                                <b>Served With Love &amp;amp; Smile</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16 text-white" data-name="Text">
+                            <p class="lead text-right o_default_snippet_text"
+                               style="text-align: center;"/>
+                            <div style="text-align: right;">
+                                <span style="font-size: 1.09375rem; text-align: center;">Write one or
+                                    two paragraphs describing your product, services or a specific
+                                    feature.&amp;nbsp;
+                                </span>
+                            </div>
+                            <div style="text-align: right;">
+                                <span style="font-size: 1.09375rem; text-align: center;">To be
+                                    successful your content needs to be useful to your readers.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 text-right pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="mt8 mb8 flat btn btn-delta flat"
+                               data-original-title="" title="">
+                                <b>
+                                    <font style="font-size: 14px;">Shop Here</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Services Start-->
+        <template id="coffee_services" name="Coffee Services">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="font-size: 48px;">OUR DELICIOUS OFFER</font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit,<br/>sed do eiusmod tempor incididunt ut labore et
+                                    dolore.
+                                </font>
+                            </p>
+                            <div class="row text-center pt48">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                                    <i class="fa fa-3x fa-calculator"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 20px;">COFFEE &amp;amp; PASTRY</font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                                    <i class="fa fa-3x fa-life-ring"/>
+                                    <h3 class="pt8 pb8">
+                                        <font style="font-size: 20px;">BEAN VARIETIES</font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                                    <i class="fa fa-3x fa-user-o"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 20px;">COFFEE TO GO</font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                                    <i class="fa fa-3x fa-file-text-o"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="font-size: 20px;">MORNING COFFEE</font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Grid Start-->
+        <template id="coffee_grid" name="Coffee Grid">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <font style="font-size: 48px;">COFFEE BUILD YOUR BASE</font>
+                            </h2>
+                            <p>
+                                <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit,
+                                </span>
+                                <br style="font-size: 18px;"/>
+                                <span style="font-size: 18px;">sed do eiusmod tempor incididunt ut
+                                    labore et dolore.
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 20px;">BEAUTIFUL PLACE</font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 20px;">FEEL THE COFFEE</font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 20px;">FULL TEST</font>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pt8 pb8 o_default_snippet_text">read more
+                                <i class="fa fa-chevron-right ml-2"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Grid End-->
+
+        <!--Snippet Img Parallax Start-->
+        <template id="coffee_img_parallax" name="Coffee Img Parallax">
+            <section class="oe_custom_bg oe_img_bg parallax s_parallax_is_fixed pb160 pt160"
+                     style="background-image: none;" data-scroll-background-ratio="1">
+                <span class="s_parallax_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_coffee_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);"/>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Img Parallax End-->
+
+        <!--Snippet Counter Start-->
+        <template id="coffee_counter" name="Coffee Counter">
+            <section class="state_section pt64 pb64" id="state_section_id">
+                <div class="container">
+                    <div class="row text-center justify-content-sm-center no-gutters state_text">
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="380"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">3</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">8</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 20px;">ONLINE STORES</font>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="19"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">9</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 20px;">PRODUCT TYPES</font>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="12"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">2</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 20px;">YEARS OF EXPERIENCE</font>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="7000"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">7</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 20px;">HAPPY BUYERS</font>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Price Menu Start-->
+        <template id="coffee_price_menu" name="Coffee Price Menu">
+            <section class="pt64 pb40" id="price_menu_9">
+                <div class="container">
+                    <h2 class="text-center">
+                        <font style="font-size: 48px;" class="text-delta">EXPLORE OUR MENU</font>
+                    </h2>
+                    <p class="text-center mb48">
+                        <span style="font-size: 18px;" class="text-delta">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit,
+                        </span>
+                        <br style="font-size: 18px;"/>
+                        <span style="font-size: 18px;" class="text-delta">sed do eiusmod tempor incididunt ut labore et
+                            dolore.
+                        </span>
+                        <br/>
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div>
+                                <img src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip714018"/>
+                                <div class="pt24 pb24">
+                                    <h3 style="text-align: center; ">
+                                        <font style="font-size: 20px;" class="text-delta">CAPPUCCINO</font>
+                                    </h3>
+                                    <p style="text-align: center;" class="text-delta">$15.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div>
+                                <img src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip714018"/>
+                                <div class="pt24 pb24">
+                                    <h3 style="text-align: center;">
+                                        <font style="font-size: 20px;" class="text-delta">VANILLA LATTE</font>
+                                    </h3>
+                                    <p style="text-align: center;" class="text-delta">$18.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div>
+                                <img src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="pt24 pb24">
+                                    <h3 style="text-align: center; ">
+                                        <font style="font-size: 20px;" class="text-delta">CAFE AMERICANO</font>
+                                    </h3>
+                                    <p style="text-align: center;" class="text-delta">$21.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div>
+                                <img src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="pt24 pb24">
+                                    <h3 style="text-align: center; ">
+                                        <font style="font-size: 20px;" class="text-delta">ESPRESSO MACCHIATO</font>
+                                    </h3>
+                                    <p style="text-align: center;" class="text-delta">$25.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Price Menu End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="coffee_gallery" name="Coffee Gallery">
+            <section class="sni-block pt64 pb64">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <font style="font-size: 48px;">OUR GALLERY</font>
+                            </h2>
+                            <p>
+                                <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit,
+                                </span>
+                                <br style="font-size: 18px;"/>
+                                <span style="font-size: 18px;">sed do eiusmod tempor incididunt ut
+                                    labore et dolore.
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip647580"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">TRADITIONAL COFFEE
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip647580"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">INTERIOR IDEAS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip647580"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">MORNING HABITS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip647580"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">COFFEE DECORATION</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip647580"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">YOUR FAVORITE PLACE
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip647580"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">PERFECT CUP</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">BEST AROMAS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_coffee_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">ENJOYMENT</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="coffee_brand_logo" name="Coffee Brand Logo">
+            <section class="pt32 pb32">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_coffee_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet CTA Start-->
+        <template id="coffee_CTA" name="Coffee CTA">
+            <section class="s_call_to_action sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6 col-sm-12 col-lg-6 s_title text-center">
+                            <h2>STAY IN TOUCH</h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                            <p>
+                                <a href="/contactus" class="btn btn-primary flat" data-original-title=""
+                                   title="" aria-describedby="tooltip539604">
+                                    <font style="font-size: 14px;">Contact Us</font>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Footer Start-->
+        <template id="coffee_footer" name="Coffee Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt88 pb88" id="footer_4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid mb16"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate veolores eos
+                                    qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                                <h3>
+                                    <font class="text-delta" style="font-size: 20px;">STORES</font>
+                                </h3>
+                                <p class="mb0">2606 Saints Alley
+                                    Tampa, FL 33602
+                                </p>
+                                <p>3497 Watson Street
+                                    Camden, NJ 08102
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-3 offset-md-3">
+                                <div class="input-group js_subscribe hidden" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control br-left" style="height:47px;"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="br-right px-3 py-3 js_subscribe_btn btn btn-primary flat">
+                                            <b>Subscribe</b>
+                                        </a>
+                                        <a href="#"
+                                           class="btn br-right px-3 py-3 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                           disabled="disabled">
+                                            <b>Thanks</b>
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks
+                                        for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Coffee Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_banner"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_services"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_grid"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_img_parallax"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_counter"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_price_menu"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_gallery"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_brand_logo"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_CTA"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coffee_ultimate_01.coffee_footer"
+                           t-thumbnail="/theme_coffee_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_1</field>
+            <field name="name">theme_construction_ultimate_02.image_content_1</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/Product_06-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_2</field>
+            <field name="name">theme_construction_ultimate_02.image_content_2</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/ELECTRICITY-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_3</field>
+            <field name="name">theme_construction_ultimate_02.image_content_3</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/Product_01-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_4</field>
+            <field name="name">theme_construction_ultimate_02.image_content_4</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/banner-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_5</field>
+            <field name="name">theme_construction_ultimate_02.image_content_5</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/CONSTUCTIION-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_6</field>
+            <field name="name">theme_construction_ultimate_02.image_content_6</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/architecture_design-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_7</field>
+            <field name="name">theme_construction_ultimate_02.image_content_7</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/company-2-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_8</field>
+            <field name="name">theme_construction_ultimate_02.image_content_8</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/Product_04-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_9</field>
+            <field name="name">theme_construction_ultimate_02.image_content_9</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/company-3-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_10</field>
+            <field name="name">theme_construction_ultimate_02.image_content_10</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/footer_01-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_11</field>
+            <field name="name">theme_construction_ultimate_02.image_content_11</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/floring-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_12</field>
+            <field name="name">theme_construction_ultimate_02.image_content_12</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/interior_design-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_13</field>
+            <field name="name">theme_construction_ultimate_02.image_content_13</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/company-1-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_14</field>
+            <field name="name">theme_construction_ultimate_02.image_content_14</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/Product_05-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_15</field>
+            <field name="name">theme_construction_ultimate_02.image_content_15</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/cta_bg-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_16</field>
+            <field name="name">theme_construction_ultimate_02.image_content_16</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/company-6-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_17</field>
+            <field name="name">theme_construction_ultimate_02.image_content_17</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/footer_02-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_18</field>
+            <field name="name">theme_construction_ultimate_02.image_content_18</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/Product_03-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_19</field>
+            <field name="name">theme_construction_ultimate_02.image_content_19</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/Product_02-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_construction_ultimate_02.image_content_20</field>
+            <field name="name">theme_construction_ultimate_02.image_content_20</field>
+            <field name="url">/theme_construction_ultimate_02/static/src/img/library/RENOVATION-min.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

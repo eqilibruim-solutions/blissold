@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="shop_page_style" inherit_id="website.theme_customize">
+        <xpath expr="//content[last()]"
+               position="after">
+            <content id="customize_shop_style"
+                     string="Shop"
+                     title="Choose Your Shop Style">
+                <more data-depends="">
+                    <list String="Shop Style">
+                        <opt id="option_shop_style_default"
+                             string="Shop Style Default"
+                             data-xmlid=""
+                             data-reload="true"
+                             data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-12.png"/>
+
+                        <opt id="option_shop_style_1" string="Shop Style 1"
+                             data-xmlid="customize_theme_ecommerce.option_shop_style_1"
+                             data-reload="true"
+                             data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-12.png"/>
+
+                        <opt id="option_shop_style_2" string="Shop Style 2"
+                             data-xmlid="customize_theme_ecommerce.option_shop_style_2"
+                             data-reload="true"
+                             data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-12.png"/>
+
+                        <opt id="option_shop_style_3" string="Shop Style 3"
+                             data-xmlid="customize_theme_ecommerce.option_shop_style_3"
+                             data-reload="true"
+                             data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-12.png"/>
+                    </list>
+                </more>
+
+            </content>
+        </xpath>
+    </template>
+    <template id="customize_inherit_ecommerce"
+              inherit_id="customize_theme_business.customize_inherit">
+        <xpath expr="//opt[@id='option_mid_header_5']" position="after">
+            <opt id="option_mid_header_6" string="Bottom Mid Header 1"
+                 data-xmlid="customize_theme_ecommerce.option_mid_header_2"
+                 data-reload="true"
+                 data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-12.png"/>
+            <opt id="option_mid_header_7" string="Bottom Mid Header 2"
+                 data-xmlid="customize_theme_ecommerce.option_mid_header_4"
+                 data-reload="true"
+                 data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-13.png"/>
+            <opt id="option_mid_header_8"
+                 string="Top &amp; Bottom Mid Header 1"
+                 data-xmlid="customize_theme_ecommerce.option_mid_header_3"
+                 data-reload="true"
+                 data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-14.png"/>
+            <opt id="option_mid_header_9"
+                 string="Top &amp; Bottom Mid Header 2"
+                 data-xmlid="customize_theme_ecommerce.option_mid_header_5"
+                 data-reload="true"
+                 data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-15.png"/>
+            <opt id="option_mid_header_10"
+                 string="Top &amp; Bottom Mid Header 3"
+                 data-xmlid="customize_theme_ecommerce.option_mid_header_10"
+                 data-reload="true"
+                 data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-16.png"/>
+            <opt id="option_mid_header_11"
+                 string="Top &amp; Bottom Mid Header 4"
+                 data-xmlid="customize_theme_ecommerce.option_mid_header_11"
+                 data-reload="true"
+                 data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-17.png"/>
+            <opt id="option_mid_header_12"
+                 string="Top &amp; Bottom Mid Header 5"
+                 data-xmlid="customize_theme_ecommerce.option_mid_header_12"
+                 data-reload="true"
+                 data-icon="/customize_theme_ecommerce/static/src/imgs/header-icon/header-icon-18.png"/>
+        </xpath>
+    </template>
+
+</odoo>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <!-- Snippets -->
+    <template id="vertical_category_menu_assets" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_feature']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="snippet_vertical_mega_menu_73lines.vertical_category_menu"
+               t-thumbnail="/snippet_vertical_mega_menu_73lines/static/src/img/vertical_menu.png" />
+            <t t-snippet="snippet_vertical_mega_menu_73lines.vertical_category_menu_image"
+               t-thumbnail="/snippet_vertical_mega_menu_73lines/static/src/img/vertical_menu_image.png" />
+            <t t-snippet="snippet_vertical_mega_menu_73lines.vertical_sub_category_menu_img_bottom"
+               t-thumbnail="/snippet_vertical_mega_menu_73lines/static/src/img/vertical_sub_menu_image_bottom.png" />
+            <t t-snippet="snippet_vertical_mega_menu_73lines.vertical_sub_category_menu_img_right"
+               t-thumbnail="/snippet_vertical_mega_menu_73lines/static/src/img/vertical_sub_menu_image_right.png" />
+        </xpath>
+    </template>
+
+    <!-- scss & Css & JS Assets -->
+    <template id="assets_frontend_js" name="73lines Snippet Vertical Mega Menu Frontend Assets"
+              inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/snippet_vertical_mega_menu_73lines/static/src/scss/vertical_menu.scss"
+                  rel="stylesheet" type="text/scss" />
+        </xpath>
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/snippet_vertical_mega_menu_73lines/static/src/js/vertical_menu.js"/>
+        </xpath>
+    </template>
+
+</odoo>

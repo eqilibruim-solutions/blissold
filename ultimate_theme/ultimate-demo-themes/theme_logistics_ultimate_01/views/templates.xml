@@ -1,0 +1,984 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="logistics_banner" name="Logistics Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height pt48 pb200"
+                    data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_logistics_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <b>
+                                    <font style="font-size: 45px;">EXPERIENCE A HASSLE</font>
+                                    <br/>
+                                    <font style="font-size: 45px;">FREE HAPPINESS</font>
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white" style="text-align: center;">
+                                <font style="font-size: 18px;">Write one or
+                                    two paragraphs describing your product, services or
+                                    a specific feature.
+                                </font>
+                                <br/>
+                                <font style="font-size: 18px;">To be successful your content needs to be
+                                    useful to
+                                    your readers.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="mb8 mt8 btn btn-delta flat btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip500058">
+                                <b data-original-title="" title="" aria-describedby="tooltip999183">
+                                    About us
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="logistics_features" name="Logistics Features">
+            <section class="pb64 oe_custom_bg s_overlay_section pt32" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="shadow px-4 pt48 pb48 bg-white">
+                                <img class="img-fluid o_we_custom_image mb16"
+                                     src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 22px;">Expert Staff</font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <font style="font-size: 17px;">Lorem Ipsum is simply dummy text of
+                                        the printing...
+                                    </font>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text"
+                                   data-original-title="" title="" aria-describedby="tooltip938087">
+                                    <font class="text-beta" style="">read more
+                                        &amp;nbsp;
+                                    </font>
+                                    <i class="fa fa-chevron-right ml-2 text-beta" style=""/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="shadow px-4 pt48 pb48 bg-white">
+                                <img class="img-fluid o_we_custom_image mb16"
+                                     src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 22px;">Logistics Services</font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <span style="font-size: 17px;">Lorem Ipsum is simply dummy text of
+                                        the printing...
+                                    </span>
+                                    <br/>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text">
+                                    <font class="text-beta" style="">read more</font>
+                                    <i class="fa fa-chevron-right ml-2 text-beta" data-original-title=""
+                                       title="" aria-describedby="tooltip470345" style=""/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <div class="shadow px-4 pt48 pb48 bg-white">
+                                <img class="img-fluid o_we_custom_image mb16"
+                                     src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 22px;">Ground Shipping</font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <span style="font-size: 17px;">Lorem Ipsum is simply dummy text of
+                                        the printing...
+                                    </span>
+                                    <br/>
+                                </p>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text"
+                                   data-original-title="" title="" aria-describedby="tooltip108493">
+                                    <font class="text-beta" style="">read more
+                                        &amp;nbsp;
+                                    </font>
+                                    <i class="fa fa-chevron-right ml-2 text-beta" style=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Services Start-->
+        <template id="logistics_services" name="Logistics Services">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <p>
+                                <font style="font-size: 17px;">OUR SERVICES</font>
+                            </p>
+                            <h2 style="text-align: left;">
+                                <font style="font-size: 36px;">
+                                    <b>Services We Provide<br/>for Our Customer
+                                    </b>
+                                </font>
+                            </h2>
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb24  media">
+                                    <img class="img-fluid o_we_custom_image mr-3"
+                                         src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <b>
+                                                <font style="font-size: 22px;">Air Freight</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 17px;">Lorem ipsum dolor sit
+                                                amet...
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb24 media">
+                                    <img class="img-fluid o_we_custom_image mr-3"
+                                         src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <b>
+                                                <font style="font-size: 22px;">Sea Freight</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 17px;">Lorem ipsum dolor sit
+                                                amet...
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb24 media">
+                                    <img class="img-fluid o_we_custom_image mr-3"
+                                         src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <b>
+                                                <font style="font-size: 22px;">Road Freight</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 17px;">Lorem ipsum dolor sit
+                                                amet...
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb24 media">
+                                    <img class="img-fluid o_we_custom_image mr-3"
+                                         src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <b>
+                                                <font style="font-size: 22px;">Packaging</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 17px;">Lorem ipsum dolor sit
+                                                amet...
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb24 media">
+                                    <img class="img-fluid o_we_custom_image mr-3"
+                                         src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <b>
+                                                <font style="font-size: 22px;">Warehousing</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 17px;">Lorem ipsum dolor sit
+                                                amet...
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb24  media">
+                                    <img class="img-fluid o_we_custom_image mr-3"
+                                         src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <div class="media-body">
+                                        <h3 class="mb0">
+                                            <b>
+                                                <font style="font-size: 22px;">Supply Chain</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 17px;">Lorem ipsum dolor sit
+                                                amet...
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Counter Start-->
+        <template id="logistics_counter" name="Logistics Counter">
+            <section class="pt88 pb88" id="counter_10" style="background-color:#f1f5f8;">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <span style="border-color:#ff6b6b transparent transparent transparent;"/>
+                                <h2>
+                                    <font style="font-size: 36px;" class="text-alpha">
+                                        <b>250+</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Delivered Packages</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <span style="border-color:#dc90ff transparent transparent transparent;"/>
+                                <h2>
+                                    <font style="font-size: 36px;" class="text-alpha">
+                                        <b>15+</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Years of Experience</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <span style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <h2>
+                                    <font style="font-size: 36px;" class="text-alpha">
+                                        <b>10+</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Countries Covered</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div>
+                                <span style="border-color:#f7db88 transparent transparent transparent;"/>
+                                <h2>
+                                    <font style="font-size: 36px;" class="text-alpha">
+                                        <b>100%</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Satisfied Customers</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet News Start-->
+        <template id="logistics_news" name="Logistics News">
+            <section class="pt64 pb64" id="news_one">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <p style="text-align: left; ">
+                                <span style="font-size: 17px;">LATEST NEWS</span>
+                                <br/>
+                            </p>
+                            <h2 style="text-align: left; ">
+                                <font style="font-size: 36px;">
+                                    <b>See the Latest News<br/>of Our Company
+                                    </b>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div>
+                                <div>
+                                    <img src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip392843"/>
+                                </div>
+                                <div class="pt16 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2">
+                                            <i class="fa pe-7s-date fa-500px" data-original-title=""
+                                               title="" aria-describedby="tooltip927236" style=""/>
+                                            <a href="#">
+                                                <font class="text-gamma" style="" data-original-title=""
+                                                      title="" aria-describedby="tooltip267455">june
+                                                    21,2019
+                                                </font>
+                                            </a>
+                                        </span>
+                                        <span><i class="fa pe-7s-user fa-500px" style=""
+                                                 data-original-title="" title=""
+                                                 aria-describedby="tooltip759742"/>&amp;nbsp;J
+                                            <font class="text-gamma" style="" data-original-title=""
+                                                  title="" aria-describedby="tooltip944591">ain Dow
+                                            </font>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold pb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font style="font-size: 24px;" class="text-beta">Businesses
+                                                that focus on quality and timeliness with
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p>
+                                        <font style="font-size: 17px;">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit...
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div>
+                                <div>
+                                    <img src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="pt16 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2">
+                                            <i class="fa pe-7s-date fa-500px" data-original-title=""
+                                               title="" aria-describedby="tooltip771766" style=""/>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip167062">
+                                                <font class="text-gamma" style="">June 21,2019</font>
+                                            </a>
+                                        </span>
+                                        <span>
+                                            <i class="fa pe-7s-user fa-500px" data-original-title=""
+                                               title="" aria-describedby="tooltip291029" style=""/>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip771633">
+                                                <font class="text-gamma" style="" data-original-title=""
+                                                      title="" aria-describedby="tooltip776511">Jain Dow
+                                                </font>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold pb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font style="font-size: 24px;" class="text-beta">Meeting the
+                                                global needs of business through advanced
+
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p>
+                                        <span style="font-size: 17px;">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit...
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div>
+                                <div>
+                                    <img src="/theme_logistics_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="pt16 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2">
+                                            <i class="fa pe-7s-date fa-500px" data-original-title=""
+                                               title="" aria-describedby="tooltip858912" style=""/>
+                                            <a href="#" class="o_default_snippet_text"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip762725">
+                                                <font class="text-gamma" style="">June 21,2019</font>
+                                            </a>
+                                        </span>
+                                        <i class="fa pe-7s-user fa-500px" data-original-title=""
+                                           title="" aria-describedby="tooltip563305" style=""/>
+                                        <a href="#">
+                                            <font class="text-gamma" style="" data-original-title=""
+                                                  title="" aria-describedby="tooltip888648">Jain Dow
+                                            </font>
+                                        </a>
+                                    </div>
+                                    <h5 class="font-weight-bold pb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font style="font-size: 24px;" class="text-beta">Economy as
+                                                supply chain networks are created among
+
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p>
+                                        <span style="font-size: 17px;">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit...
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="logistics_testimonial" name="Logistics Testimonial">
+            <section class="oe_custom_bg oe_img_bg parallax pt0 pb0" id="testimonials_d2"
+                     style="background-image: none;">
+                <span class="s_parallax_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_logistics_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);"/>
+                <div id="myCarousel1571403295406"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1571403295406" data-slide-to="0"/>
+                        <li data-target="#myCarousel1571403295406" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1571403295406" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pb88 pt16" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="mt32 mb32 text-center o_default_snippet_text">
+                                            <font class="text-delta" style="font-size: 22px;">
+                                                <b>Write a quote here from
+                                                    one of your customers. Quotes are a great way to
+                                                    build
+                                                    confidence in your products or services. &amp;nbsp;
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_logistics_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                <font class="text-delta" style="">Jane DOE, CEO of &amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font class="text-delta" style="">MyCompany &amp;nbsp;</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pb88 pt16 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="mt32 mb32 text-center o_default_snippet_text">
+                                            <font class="text-delta" style="font-size: 22px;">
+                                                <b>Write a quote here from
+                                                    one of your customers. Quotes are a great way to
+                                                    build
+                                                    confidence in your products or services. &amp;nbsp;
+                                                </b>
+                                            </font>
+                                            <font class="text-delta" style="">
+                                                <b>
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_logistics_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                <font class="text-delta" style="">Jane DOE, CEO of &amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font class="text-delta" style="">MyCompany &amp;nbsp;</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt16 pb88" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="mt32 mb32 text-center">
+                                            <font class="text-delta" style="font-size: 22px;">
+                                                <b>Write a quote here from
+                                                    one of your customers. Quotes are a great way to
+                                                    build
+                                                    confidence in your products or services. &amp;nbsp;
+                                                </b>
+                                            </font>
+                                            <font class="text-delta" style="">
+                                                <b>
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_logistics_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                <font class="text-delta" style="">Jane DOE, CEO of &amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font class="text-delta" style="">MyCompany &amp;nbsp;</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1571403295406"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1571403295406"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="logistics_brand_logo" name="Logistics Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                            <img src="/theme_logistics_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                            <img src="/theme_logistics_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                            <img src="/theme_logistics_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                            <img src="/theme_logistics_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Team Start-->
+        <template id="logistics_team" name="Logistics Team">
+            <section id="team_5" class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <p style="text-align: left; ">
+                                <font style="font-size: 17px;">OUR TEAM</font>
+                            </p>
+                            <h2 style="text-align: left; ">
+                                <b>
+                                    <font style="font-size: 36px;">Meet the Expert Team<br/>of Our
+                                        Company
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_logistics_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">
+                                        <b>
+                                            <font class="text-beta" style="font-size: 22px;">John
+                                                Peter
+                                            </font>
+                                        </b>
+                                    </h5>
+                                    <div class="card-text text-black-50">
+                                        <font style="font-size: 15px;">Owner</font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_logistics_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">
+                                        <span style="font-weight: bolder;">
+                                            <font class="text-beta" style="font-size: 22px;">Anna
+                                                Briggs
+                                            </font>
+                                        </span>
+                                    </h5>
+                                    <div class="card-text text-black-50">
+                                        <span style="font-size: 15px;">Vise President</span>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_logistics_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">
+                                        <span style="font-weight: bolder;">
+                                            <font class="text-beta" style="font-size: 22px;">Alashka
+                                                Karlson
+                                            </font>
+                                        </span>
+                                    </h5>
+                                    <div class="card-text text-black-50">
+                                        <span style="font-size: 15px;">Accounting</span>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_logistics_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">
+                                        <span style="font-weight: bolder;">
+                                            <font class="text-beta" style="font-size: 22px;">Steve
+                                                Mcdonald
+                                            </font>
+                                        </span>
+                                    </h5>
+                                    <div class="card-text text-black-50">
+                                        <span style="font-size: 15px;">Executive Director</span>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="logistics_contact_us" name="Logistics Contact Us">
+            <section class="bg-400 py-5 contact_us_3 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_logistics_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-6">
+
+                        </div>
+                        <div class="col-lg-6 s_text pb16 pt40" data-name="Text">
+                            <p>
+                                <font style="font-size: 17px;">CONTACT US</font>
+                            </p>
+                            <h1 class="pb16" style="text-align: left; ">
+                                <b>Still No Luck ?<br/>Request a Quote !
+                                </b>
+                            </h1>
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you"
+                                  class="s_website_form container-fluid" enctype="multipart/form-data"
+                                  data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="contact_name" placeholder="Your Name" required=""
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-md-6">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="phone" placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="email_from" required="" placeholder="Email"
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="partner_name" required=""
+                                               placeholder="Your Company" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12 o_has_error">
+                                        <textarea class="form-control o_website_form_input"
+                                                  name="description" required=""
+                                                  placeholder="Your Message" rows="5"/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-left" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-primary flat btn-lg w-auto o_website_form_send"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip257230">SEND MESSAGE
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Footer Start-->
+        <template id="logistics_footer" name="Logistics Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid mb16"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                <div class="media">
+                                    <i class="fa fa-2x fa-map-marker mr-2 text-alpha" data-original-title=""
+                                       title="" aria-describedby="tooltip840640" style=""/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font style="font-size: 16px;">Address :</font>
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">
+                                                <span t-field="res_company.street"/>
+                                                <span t-field="res_company.city"/>
+                                                <span t-field="res_company.state_id.name"/>
+                                                <span t-field="res_company.zip"/>
+                                                <span t-field="res_company.country_id.name"/>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <i class="fa fa-2x fa-phone mr-2 text-alpha" data-original-title="" title=""
+                                       aria-describedby="tooltip893045" style=""/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font style="font-size: 16px;">Call us &amp;amp; Hire us :</font>
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">+61 (0)791803458</font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip879688" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip170572" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip408648" style=""/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip18117" style=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <h5>
+                                    <font style="font-size: 24px;">
+                                        <b>Useful Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip732298">
+                                            <font style="font-size: 16px;" data-original-title="" title=""
+                                                  aria-describedby="tooltip463980" class="text-gamma">Shipping
+                                                Rates &amp;amp; Delivery Times
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip732298">
+                                            <font style="font-size: 16px;" data-original-title="" title=""
+                                                  aria-describedby="tooltip463980" class="text-gamma">
+                                                Schedule &amp;amp; Manage Pickups
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip200640">
+                                            <font style="font-size: 16px;" class="text-gamma">Packing &amp;amp;
+                                                Shipping Supplies
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip873901">
+                                            <font style="font-size: 16px;" class="text-gamma">
+                                                International Shipping
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip236446">
+                                            <font style="font-size: 16px;" class="text-gamma">Advanced Shipment
+                                                Tracking
+
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip902882">
+                                            <font style="font-size: 16px;" class="text-gamma">Join Our Company's
+                                                Drivers Team
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <h5 class="mb24">
+                                    <font style="font-size: 24px;">
+                                        <b>Our Services</b>
+                                    </font>
+                                </h5>
+                                <p class="mb8">
+                                    <font style="font-size: 16px;">Warehousing</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 16px;">Air Freight</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 16px;">Ocean Freight</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 16px;">Road Freight</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 16px;">Supply Chain</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 16px;">Packaging</font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Logistics Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_banner"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_features"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_services"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_counter"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_news"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_testimonial"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_brand_logo"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_team"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_contact_us"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_logistics_ultimate_01.logistics_footer"
+                           t-thumbnail="/theme_logistics_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

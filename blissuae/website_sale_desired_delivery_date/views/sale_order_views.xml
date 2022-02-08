@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_order_form_inherit_sale_stock_inherit_sale_order_dates" model="ir.ui.view">
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale_stock.view_order_form_inherit_sale_stock"/>
+        <field name="arch" type="xml">
+            <group name="sale_shipping" position="inside">
+                <field name="pref_date" widget="date"/>
+                <field name="time_slot" />
+                <field name="delivery_note" />
+                <field name="gift_message" />
+            </group>
+        </field>
+    </record>
+    <record id="view_order_tree_date" model="ir.ui.view">
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="arch" type="xml">
+            <field name="expected_date" position="after">
+                <field name="pref_date" widget="date"/>
+                <field name="time_slot" />
+            </field>
+        </field>
+    </record>
+    <record id="view_quotation_tree_date" model="ir.ui.view">
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree"/>
+        <field name="arch" type="xml">
+            <field name="partner_id" position="before">
+                <field name="pref_date" widget="date"/>
+                <field name="time_slot" />
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_time_slot_form">
+        <field name="name">delivery.time.slot.form</field>
+        <field name="model">delivery.time.slot</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="hour" />  
+                        <field name="days" widget="many2many_tags"  options="{'no_create': True}"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_order_kanban_inherit">
+        <field name="name">sale.order.kanban.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_sale_order_kanban" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="pref_date" />
+                <field name="time_slot" />
+            </xpath>
+            <xpath expr="//div[hasclass('oe_kanban_bottom_left')]" position="replace">
+                <div class="oe_kanban_bottom_left text-muted">
+                    <span><t t-esc="record.name.value"/>  <t t-esc="record.pref_date.value"/> <t t-esc="record.time_slot.value"/></span>
+                    <field name="activity_ids" widget="kanban_activity"/>
+                </div>
+            </xpath>
+
+        </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_delivery_time_slot">
+        <field name="name">Delivery time slots</field>
+        <field name="res_model">delivery.time.slot</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_delivery_time_slot"
+        name="Time Slots"
+        parent="sale.menu_sales_config"
+        action="action_delivery_time_slot" />
+
+</odoo>

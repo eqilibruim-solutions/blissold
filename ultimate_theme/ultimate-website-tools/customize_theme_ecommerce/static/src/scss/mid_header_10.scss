@@ -1,0 +1,119 @@
+#mid_header_top,#mid_header_bottom{
+    display:block;
+}
+
+#company-profiles{
+    display:none;
+}
+.fa_company_contact_links:hover, .fa_company_contact_links:focus {
+    text-decoration: none;
+}
+.fa_company_contact_info {
+    font-size: 20px;
+    padding: 5px 5px;
+}
+.navbar-sign-in{
+    display:none !important;
+}
+
+#top_menu{
+    #my_wish,#my_cart{
+        display:none;
+    }
+}
+#company-email, #company-contact{
+    margin-top: 8px;
+}
+.divider{
+    display:none !important;
+}
+.user-details{
+    display:none;
+}
+#mid-header-top-right-welcome-msg{
+ display:none;
+}
+#mid-header-top-left{
+    #company-profiles{
+        display: none;
+    }
+}
+.center_logo{
+    display:none;
+}
+.left_logo{
+    display:none !important;
+}
+#top_menu{
+    #my_wish,#my_cart{
+        display:none;
+    }
+}
+
+.search_left{
+    display:none;
+}
+.logo_mid_center{
+    display:none;
+}
+
+/*------- mid_header_10 scss start here-----*/
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    padding: 0.3rem 0rem;
+    font-size: 0.875rem;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    text-decoration: none;
+}
+#mid-header-bottom-left .text-center {
+    text-align: left !important;
+    padding-left:0px;
+
+}
+.text-right {
+    text-align: right !important;
+    display: flex;
+    justify-content: flex-end;
+}
+#company-profiles{
+    display:none !important;
+}
+.input-group-append .btn {
+    padding: 5px 10px 5px 10px;
+}
+#company-email, #company-contact {
+    margin-top: 0px;
+}
+.fa_company_contact_info {
+    padding: 8px 5px;
+}
+@media only screen and (max-width: 440px) {
+    .dropdown-menu {
+        min-width: 6.5rem;
+    }
+    #company-email, #company-contact {
+       text-align: center;
+    }
+    #mid-header-bottom-left .text-center {
+        text-align: center !important;
+    }
+    #mid-header-top-right .text-right {
+        text-align: center !important;
+        justify-content: center;
+    }
+    .text-right {
+        justify-content: center;
+    }
+}
+@media only screen and  (min-width: 768px) {
+     .dropdown-menu {
+        min-width: 8rem;
+    }
+    #mid-header-top-center .text-center {
+        text-align: left !important;
+    }
+}
+ /*------- mid_header_10 scss end here-----*/

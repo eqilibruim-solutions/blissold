@@ -1,0 +1,868 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="fitness_banner" name="Fitness Banner">
+            <section class="s_cover parallax align-content-center align-items-center" data-scroll-background-ratio="0"
+                     style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_fitness_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 75%;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed full-height">
+                        <div class="align-content-center align-self-center col-lg-7 content-align-center"
+                             data-name="Title">
+                            <h1 class="s_title_thin text-left text-white" style="font-size: 62px;">
+                                <font class="text-alpha" style="">HEALTH IS WEALTH</font>
+                            </h1>
+                            <div class="s_text pt16 pb16 text-white" data-name="Text">
+                                <p class="lead text-left o_default_snippet_text" style="text-align: left;">
+                                    <font style="color: rgb(66, 66, 66);">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea commodo consequat.&amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="pb16 pt16 s_btn text-left" data-name="Buttons">
+                                <a href="#" class="btn btn-alpha flat" data-original-title="" title=""
+                                   aria-describedby="tooltip154950">
+                                    <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                        <b class="o_default_snippet_text">READ MORE</b>
+                                    </font>
+                                </a>&amp;nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Facility Start-->
+        <template id="fitness_facility" name="Fitness Facility">
+            <section class="pb64 pt0" id="img_block_with_text_button" style="">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8 pad0">
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip756402"/>
+                            <div class="img-content col-12 text-center">
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">GROUP FITNESS</font>
+                                </h3>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary o_default_snippet_text">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8 pad0">
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip680748"/>
+                            <div class="img-content col-12 text-center">
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">PERSONAL TRAINER</font>
+                                </h3>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary o_default_snippet_text">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8 pad0">
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip85817"/>
+                            <div class="img-content col-12 text-center">
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">CARDIO PROGRAM</font>
+                                </h3>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary o_default_snippet_text">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facility End-->
+
+        <!--Snippet Image Block Start-->
+        <template id="fitness_image_block" name="Fitness Image Block">
+            <section class="pb64 pt0 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_fitness_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center pt-5">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb16">
+                            <img alt="image" class="img-fluid"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-600x679.png"
+                                 data-original-title="" title="" aria-describedby="tooltip218080"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <h2>
+                                <font style="font-size: 48px;">ENJOY THE FITNESS</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever Lorem
+                                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever
+                            </p>
+                            <p>
+                                <a href="#" data-original-title="" title="" aria-describedby="tooltip630602">Read More
+                                    <i class="fa fa-angle-right"/>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center pt-5">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb16 order-md-5">
+                            <img alt="image" class="img-fluid"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-600x679.png"
+                                 data-original-title="" title="" aria-describedby="tooltip752584"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <h2>
+                                <font style="font-size: 48px;">GET A TRAINING PLAN</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever Lorem
+                                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever
+                            </p>
+                            <p>
+                                <a href="#" data-original-title="" title="" aria-describedby="tooltip724671">Read More
+                                    <i class="fa fa-angle-right"/>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="fitness_testimonial" name="Fitness Testimonial">
+            <section class="pb64 bg-alpha oe_img_bg pt0 oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_fitness_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 0% 0%;">
+                <div id="myCarousel1567501273106" class="s_quotes_carousel carousel s_carousel_default slide"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567501273106" data-slide-to="0"/>
+                        <li data-target="#myCarousel1567501273106" data-slide-to="1" class="active"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 ">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255); font-size: 24px;"
+                                                  class="o_default_snippet_text">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                                  class="o_default_snippet_text">&amp;nbsp;HENRY WALKER, YOGA TRAINER
+                                            </font>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 oe_custom_bg active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 ">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255); font-size: 24px;"
+                                                  class="o_default_snippet_text">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                                  class="o_default_snippet_text">&amp;nbsp;Jane DOE, NUTRIATIONIST
+                                            </font>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1567501273106" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1567501273106" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Service Start-->
+        <template id="fitness_service" name="Fitness Service">
+            <section class="oe_custom_bg pt88" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 pt0 col-lg-12">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="font-size: 48px;">WHAT IS FUNCTIONAL FITNESS ALL ABOUT</font>
+                                </h3>
+                                <h3 class="text-center">
+                                    <font style="font-size: 48px;"/>
+                                </h3>
+                                <p style="color: rgb(255, 255, 255); text-align: center;">
+                                    <span style="color: rgb(156, 156, 156);" class="o_default_snippet_text">Lorem Ipsum
+                                        is simply dummy text of the printing and typesetting industry been the
+                                        industry's standard dummy text
+                                    </span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64 oe_custom_bg" id="counter_11" style="">
+                <div class="container-fluid">
+                    <div class="row  text-center no-gutters">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 counter_img_effect">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-314x314.png" alt=""
+                                 class="img-fluid image"
+                                 data-original-title="" title="" aria-describedby="tooltip654809"/>
+                            <div class="overlay"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 p-4 bg-beta">
+                            <h4 class="s_line_height_2" style="color: rgb(33, 37, 41);">
+                                <font face="Ubuntu, sans-serif">
+                                    <span class="text-alpha s_line_height_3 o_default_snippet_text"
+                                          style="font-size: 14px;">BODY BUILDING
+                                    </span>
+                                </font>
+                                <br/>
+                            </h4>
+                            <h4 style="color: rgb(255, 255, 255);" class="o_default_snippet_text">BODY COMFORT</h4>
+                            <h4 style="color: rgb(255, 255, 255);">
+                                <span style="font-family: Ubuntu, sans-serif; font-size: 14px; text-align: left;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum est in
+                                    tortor congue suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </span>
+                            </h4>
+                            <h4 style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-family: Teko, sans-serif; font-weight: 500; line-height: 1.2; color: rgb(33, 37, 41); font-size: 1.3125rem; text-align: center;">
+                                <font face="Ubuntu, sans-serif" style="box-sizing: border-box;">
+                                    <span style="box-sizing: border-box; color: rgb(255, 255, 255); font-size: 14px;"
+                                          class="o_default_snippet_text">READ MORE
+                                    </span>
+                                </font>
+                            </h4>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 counter_img_effect">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-314x314.png" alt=""
+                                 class="img-fluid image"
+                                 data-original-title="" title="" aria-describedby="tooltip538142"/>
+                            <div class="overlay"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 p-4 bg-alpha">
+                            <h4 class="s_line_height_2" style="color: rgb(33, 37, 41);">
+                                <font face="Ubuntu, sans-serif">
+                                    <span style="color: rgb(255, 255, 255); font-size: 14px;"
+                                          class="o_default_snippet_text">BODY FITNESS
+                                    </span>
+                                </font>
+                            </h4>
+                            <h4 style="color: rgb(255, 255, 255);" class="o_default_snippet_text">AEROBIC CLASSES</h4>
+                            <h4 style="color: rgb(255, 255, 255);"><span
+                                    style="font-family: Ubuntu, sans-serif; font-size: 14px; text-align: left;"
+                                    class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Pellentesque fermentum est in tortor congue suscipit. Suspendisse potenti.Aliquam
+                                finibus pharetra tellus at egestas.</span>&amp;nbsp;
+                                <br/>
+                            </h4>
+                            <h4 style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-family: Teko, sans-serif; font-weight: 500; line-height: 1.2; color: rgb(33, 37, 41); font-size: 1.3125rem; text-align: center;">
+                                <font face="Ubuntu, sans-serif" style="box-sizing: border-box;">
+                                    <span style="box-sizing: border-box; color: rgb(255, 255, 255); font-size: 14px;"
+                                          class="o_default_snippet_text">READ MORE
+                                    </span>
+                                </font>
+                            </h4>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 p-4 bg-alpha">
+                            <h4 class="s_line_height_2" style="color: rgb(255, 255, 255);">
+                                <font face="Ubuntu, sans-serif">
+                                    <span style="font-size: 14px;" class="o_default_snippet_text">WEIGHT LIFTING</span>
+                                </font>
+                                <br/>
+                            </h4>
+                            <h4 style="color: rgb(255, 255, 255);">GYM CLASSES</h4>
+                            <h4 style="color: rgb(255, 255, 255);">
+                                <span style="font-family: Ubuntu, sans-serif; font-size: 14px; text-align: left;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum est in
+                                    tortor congue suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </span>
+                            </h4>
+                            <h4 style="color: rgb(33, 37, 41);">
+                                <font face="Ubuntu, sans-serif">
+                                    <span style="color: rgb(255, 255, 255); font-size: 14px;"
+                                          class="o_default_snippet_text">READ MORE
+                                    </span>
+                                </font>
+                            </h4>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 counter_img_effect">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-314x314.png" alt=""
+                                 class="img-fluid image"/>
+                            <div class="overlay"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 p-4 bg-beta">
+                            <h4 class="s_line_height_2" style="color: rgb(255, 255, 255);">
+                                <font face="Ubuntu, sans-serif">
+                                    <span class="text-alpha o_default_snippet_text" style="font-size: 14px;">
+                                        MEDITATION
+                                    </span>
+                                </font>
+                            </h4>
+                            <h4 style="color: rgb(255, 255, 255);" class="o_default_snippet_text">YOGA CLASSES</h4>
+                            <h4 style="color: rgb(255, 255, 255);">
+                                <span style="font-family: Ubuntu, sans-serif; font-size: 14px; text-align: left;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum est in
+                                    tortor congue suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </span>
+                            </h4>
+                            <h4 style="color: rgb(33, 37, 41);">
+                                <font face="Ubuntu, sans-serif">
+                                    <span style="color: rgb(255, 255, 255); font-size: 14px;"
+                                          class="o_default_snippet_text">READ MORE
+                                    </span>
+                                </font>
+                            </h4>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 counter_img_effect">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-314x314.png" alt="molile"
+                                 class="img-fluid image"
+                                 data-original-title="" title="" aria-describedby="tooltip445941"/>
+                            <div class="overlay"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Feature Start-->
+        <template id="fitness_feature" name="Fitness Feature">
+            <section class="bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 offset-lg-2 col-lg-8 pt64">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <span style="font-size: 48px;">SET HIGH FITNESS GOALS</span>
+                                </h3>
+                                <h3 class="text-center">
+                                    <font style="font-size: 48px;"/>
+                                </h3>
+                                <p style="color: rgb(255, 255, 255); text-align: center;">
+                                    <font style="color: rgb(0, 0, 0);"><span
+                                            style="color: rgb(156, 156, 156); font-size: 0.875rem;"
+                                            class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                        dummy.</span>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 data-original-title=""
+                                 title=""
+                                 aria-describedby="tooltip439247"/>
+                            <h3 style="color: rgb(33, 37, 41); text-align: center;" class="o_default_snippet_text">YOGA
+                                TRAINING
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip509530"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 data-original-title="" title="" aria-describedby="tooltip695895"/>
+                            <h3 style="text-align: center; " class="o_default_snippet_text">DIEAT PLAN</h3>
+                            <p style="text-align: center; " class="o_default_snippet_text">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip509530"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 data-original-title="" title="" aria-describedby="tooltip796420"/>
+                            <h3 style="text-align: center; " class="o_default_snippet_text">HEALTH TIPS</h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip509530"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto"
+                                 src="/theme_fitness_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 data-original-title="" title="" aria-describedby="tooltip284088"/>
+                            <h3 style="text-align: center; " class="o_default_snippet_text">ENDLESS SUPPORT</h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip509530"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Team Start-->
+        <template id="fitness_team" name="Fitness Team">
+            <section class="pt64 pb64 bg-200 oe_img_bg oe_custom_bg" id="team_3"
+                     style="background-image: url(&quot;/theme_fitness_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt0">
+                            <h2 class="mb48 text-center">
+                                <font style="font-size: 48px;" class="o_default_snippet_text">EXPERT TRAINERS</font>
+                            </h2>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                             class="img-fluid"
+                                             data-original-title="" title="" aria-describedby="tooltip733329"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    GLORIA PALKAR
+                                                </font>
+                                            </h3>
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    GOIS
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">YOGA TRAINER</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                             class="img-fluid"
+                                             data-original-title="" title="" aria-describedby="tooltip733329"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    JHON SMITH
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">WEIGHT LIFTING TRAINER</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                             class="img-fluid"
+                                             data-original-title="" title="" aria-describedby="tooltip733329"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    JESSICA
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">AEROBIC TRAINER</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg" alt=""
+                                             class="img-fluid"
+                                             data-original-title="" title="" aria-describedby="tooltip733329"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    THOM MULLAR
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">GYM INSTRUCTOR</p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt32 text-center">
+                                <a href="#" class="btn btn-primary flat btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip545873">
+                                    <font style="color: rgb(255, 255, 255); font-size: 14px;" data-original-title=""
+                                          title="" aria-describedby="tooltip423299">
+                                        <b data-original-title="" title="" aria-describedby="tooltip303589"
+                                           class="o_default_snippet_text">READ MORE
+                                        </b>
+                                    </font>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="fitness_brandlogo" name="Fitness Brand Logo">
+            <section class="pt64 pb64 bg-alpha oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_fitness_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Footer Start-->
+        <template id="fitness_footer" name="Fitness Footer">
+            <section class="oe_structure oe_custom_bg" id="footer" style="">
+                <div class="pt64 pb32 oe_custom_bg" id="footer_3" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany"
+                                     title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy. &amp;nbsp;
+                                </p>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-2x fa-map-marker mr-2 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip193836" style=""/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            Address :
+                                        </p>
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                        <span t-field="res_company.state_id.name"/>
+                                        <span t-field="res_company.zip"/>
+                                        <span t-field="res_company.country_id.name"/>
+                                    </div>
+                                </div>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-2x fa-phone mr-2 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip655240" style=""/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            Call us &amp;amp; Hire us :
+                                            &amp;nbsp;
+                                        </p>
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip900563"
+                                           style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip10602"
+                                           style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip160787"
+                                           style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip862567"
+                                           style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class="mb24">
+                                    <font color="#ffffff">
+                                        <span style="font-size: 24px;">Services</span>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled text-uppercase mt24">
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                YOGA TRAINIG
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                DIEAT PLANS
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                NUTRITIATION PLAN
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                ENDLESS SUPPORT
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                MEDITATION CLASSES
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                AEROBIC CLASSES
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                SPINNING CLASSES
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                WEIGHT LIFTING
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">Our Post</font>
+                                </h5>
+                                <p class="mb8 o_default_snippet_text">
+                                    Lorem Ipsum has been the industry's standard
+                                    dummy.
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    26 January,2018
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">
+                                    Lorem Ipsum has been the industry's standard
+                                    dummy.
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    26 January,2018
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">
+                                    Lorem Ipsum has been the industry's standard
+                                    dummy.
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    26 January,2018
+                                </p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">
+                                    Lorem Ipsum has been the industry's standard
+                                    dummy.
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    26 January,2018
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;"
+                                          class="o_default_snippet_text">Our Newsletter
+                                    </font>
+                                </h5>
+                                <p class="o_default_snippet_text">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy. &amp;nbsp;
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100"
+                                           data-original-title="" title="" aria-describedby="tooltip420724">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Fitness Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_banner"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_facility"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_image_block"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_testimonial"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_service"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_feature"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_team"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_brandlogo"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_fitness_ultimate_01.fitness_footer"
+                           t-thumbnail="/theme_fitness_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

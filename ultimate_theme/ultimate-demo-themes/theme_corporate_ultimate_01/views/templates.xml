@@ -1,0 +1,1012 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="corporate_banner" name="Corporate Banner">
+            <section class="s_cover parallax align-content-center align-items-center s_parallax_is_fixed"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url('/theme_corporate_ultimate_01/static/src/img/placeholder-image-1170.jpg'); background-position: 50% 75%;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed full-height" style="height: 80vh;">
+                        <div class="align-content-center align-self-center col-lg-6 content-align-center"
+                             data-name="Title">
+                            <h1 class="text-left text-white" style="font-size: 62px;">
+                                <font style="color: rgb(0, 0, 0);">
+                                    <b>Building</b>
+                                </font>
+                                <font class="text-beta" style="">
+                                    <b>Software</b>
+                                </font>
+                                <font style="color: rgb(0, 0, 0);">
+                                    <b>For</b>
+                                </font>
+                                <font style="color: rgb(0, 0, 0);">
+                                    <b>Optimal Work</b>
+                                </font>
+                            </h1>
+                            <div class="s_text pt16 pb16 text-white" data-name="Text">
+                                <p class="lead text-left o_default_snippet_text" style="text-align: left;">
+                                    <b>
+                                        <font class="text-gamma" style="">Write one or two paragraphs describing your
+                                            product, services or a specific feature. &amp;nbsp;
+                                        </font>
+                                        <font class="text-gamma" style="">To be successful your content needs to be
+                                            useful to your readers. &amp;nbsp;
+                                        </font>
+                                    </b>
+                                </p>
+                            </div>
+                            <div class="text-left pt16 pb16" data-name="Buttons">
+                                <a href="/aboutus" class="mt8 mb8 btn btn-beta" data-original-title="" title=""
+                                   aria-describedby="tooltip272200">
+                                    <b>Check All Demos</b>
+                                </a>
+                                <a href="/contactus" class="btn mt8 mb8 btn-primary" data-original-title="" title=""
+                                   aria-describedby="tooltip260302">
+                                    <b data-original-title="" title="" aria-describedby="tooltip146064">Browse&amp;nbsp;
+                                        Our Features
+                                    </b>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 align-self-center" data-name="Image">
+                            <img class="img img-fluid"
+                                 src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="corporate_features" name="Corporate Features">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-12 text-center">
+                            <h2>
+                                <b><font style="font-size: 48px;">Our Main&amp;nbsp;</font>&amp;nbsp;
+                                    <font class="text-beta" style="font-size: 48px;">Features</font>
+                                    <font style="font-size: 48px;" class="text-beta">&amp;nbsp;</font>
+                                    <font style="font-size: 48px;" class="text-gamma">...</font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 py-4 mb16">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="mb16"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     data-original-title="" title="" aria-describedby="tooltip187131"/>
+                                <h3>
+                                    <b>Business Analytic Policy</b>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                <p>
+                                    <b>
+                                        <a href="#">
+                                            <font class="text-beta" style="">Read More</font>
+                                        </a>
+                                    </b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 py-4 mb16">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="mb16"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                <h3>
+                                    <b>Aim Of Our Business</b>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                <p>
+                                    <b>
+                                        <a href="#">
+                                            <font class="text-beta" style="">Read More</font>
+                                        </a>
+                                    </b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 py-4 mb16">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="mb16"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                <h3>
+                                    <b>Global Consumer Insights</b>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                <p>
+                                    <b>
+                                        <a href="#">
+                                            <font class="text-beta" style="">Read More</font>
+                                        </a>
+                                    </b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Why-Us Start-->
+        <template id="corporate_why_us" name="Corporate Why-Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image" class="img-fluid pt8 pb16 mx-auto d-block"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <h2 class="mb32">
+                                <font style="font-size: 48px;">
+                                    <b>Why Choose</b>
+                                </font>
+                                <font style="font-size: 48px;" class="text-beta">
+                                    <b>Us</b>
+                                </font>
+                                <font style="font-size: 48px;" class="text-gamma">
+                                    <b>...</b>
+                                </font>
+                            </h2>
+                            <ul class="px-3">
+                                <li class="pt8 pb8">
+                                    <span style="color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </span>
+                                    <br/>
+                                </li>
+                                <li class="pt8 pb8">
+                                    <span style="color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </span>
+                                    <br/>
+                                </li>
+                                <li class="pt8 pb8">
+                                    <span style="color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </span>
+                                    <br/>
+                                </li>
+                                <li class="pb8 pt8">
+                                    <span style="color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </span>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-alpha mt32">
+                                <b>
+                                    <font style="font-size: 18px;" data-original-title="" title=""
+                                          aria-describedby="tooltip41676">Action
+                                    </font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Why-Us End-->
+
+        <!--Snippet Counter Start-->
+        <template id="corporate_counter" name="Corporate Counter">
+            <section class="pt64 pb64 bg-200 oe_custom_bg" id="counter_10" style="">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                <h2 class="mt32">
+                                    <font style="font-size: 48px;" class="text-alpha">
+                                        <b>1230</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font class="text-gamma" style="font-size: 18px;">Projects</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip425360"/>
+                                <h2 class="mt32">
+                                    <font style="font-size: 48px;" class="text-beta">
+                                        <b>961</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font class="text-gamma" style="font-size: 18px;">Happy Clients
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     data-original-title="" title="" aria-describedby="tooltip200305"/>
+                                <h2 class="mt32">
+                                    <font class="text-alpha" style="font-size: 48px;">
+                                        <b>1322</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="font-size: 18px;" class="text-gamma">Business Plan
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                <h2 class="mt32">
+                                    <font class="text-beta" style="font-size: 48px;">
+                                        <b>9650</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="font-size: 18px;" class="text-gamma">Cup Of Tea</font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="corporate_testimonial" name="Corporate Testimonial">
+            <section class="pb56 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100 bg-100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64 pb64" id="progressbar_two">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                                                <h2 class="pb16">
+                                                    <font style="font-size: 36px;">
+                                                        <b class="o_default_snippet_text">Our Work</b>
+                                                    </font>
+                                                    <font style="font-size: 36px;" class="text-beta">
+                                                        <b class="o_default_snippet_text">Experience</b>
+                                                    </font>
+                                                </h2>
+                                                <p class="text-justify"><span style="color: rgb(0, 0, 0);"
+                                                                              class="o_default_snippet_text">Lorem ipsum
+                                                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam.</span>&amp;nbsp;
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                                <div class="progress mt24 mb24">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated o_default_snippet_text"
+                                                         style="width: 20%">20%
+                                                    </div>
+                                                </div>
+                                                <div class="progress mt24 mb24">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated o_default_snippet_text"
+                                                         style="width: 30%">30%
+                                                    </div>
+                                                </div>
+                                                <div class="progress mt24 mb24">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated o_default_snippet_text"
+                                                         style="width: 40%">40%
+                                                    </div>
+                                                </div>
+                                                <div class="progress mt24 mb24">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated o_default_snippet_text"
+                                                         style="width: 60%">60%
+                                                    </div>
+                                                </div>
+                                                <div class="progress mt24 mb24">
+                                                    <div class="progress-bar progress-bar-striped progress-bar-animated o_default_snippet_text"
+                                                         style="width: 70%">70%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100 bg-100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64 pb0 bg-100 oe_custom_bg" id="testimonials_d2" style="">
+                                    <div class="container">
+                                        <div class="row content justify-content-md-center">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <h2 class="pb16" style="text-align: left; ">
+                                                    <font style="font-size: 36px;">
+                                                        <b class="o_default_snippet_text">What People</b>
+                                                    </font>
+                                                    <font style="font-size: 36px;" class="text-beta">
+                                                        <b class="o_default_snippet_text">Said</b>
+                                                    </font>
+                                                </h2>
+                                                <p style="text-align: left; ">
+                                                    <span style="color: rgb(0, 0, 0); text-align: justify;"
+                                                          class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                        labore et dolore magna aliqua.
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="myCarousel1570426065879"
+                                         class="s_quotes_carousel carousel slide s_carousel_default"
+                                         data-interval="10000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel1570426065879" data-slide-to="0"
+                                                class="active"/>
+                                            <li data-target="#myCarousel1570426065879" data-slide-to="1"/>
+                                            <li data-target="#myCarousel1570426065879" data-slide-to="2"/>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item pt16 bg-beta oe_custom_bg active"
+                                                 data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 bg-beta">
+                                                            <p class="mb32 text-center o_default_snippet_text">
+                                                                <font style="font-size: 18px;"
+                                                                      class="o_default_snippet_text">&amp;nbsp;Write a
+                                                                    quote here from one of your customers. Quotes are a
+                                                                    great way to build confidence in your products or
+                                                                    services.&amp;nbsp;
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center">
+                                                                <img class="img"
+                                                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                     alt=""
+                                                                     data-original-title="" title=""
+                                                                     aria-describedby="tooltip744469"/>
+                                                                <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                                    <b class="o_default_snippet_text">MyCompany</b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt16 bg-beta oe_custom_bg" data-name="Slide"
+                                                 style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 bg-beta">
+                                                            <p class="mb32 text-center o_default_snippet_text">
+                                                                <font style="font-size: 18px;"
+                                                                      class="o_default_snippet_text">&amp;nbsp;Write a
+                                                                    quote here from one of your customers. Quotes are a
+                                                                    great way to build confidence in your products or
+                                                                    services.&amp;nbsp;
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center">
+                                                                <img class="img"
+                                                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                     alt=""
+                                                                     data-original-title="" title=""
+                                                                     aria-describedby="tooltip744469"/>
+                                                                <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                                    <b class="o_default_snippet_text">MyCompany</b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt16 bg-beta oe_custom_bg" data-name="Slide"
+                                                 style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 bg-beta">
+                                                            <p class="mb32 text-center o_default_snippet_text">
+                                                                <font style="font-size: 18px;"
+                                                                      class="o_default_snippet_text">&amp;nbsp;Write a
+                                                                    quote here from one of your customers. Quotes are a
+                                                                    great way to build confidence in your products or
+                                                                    services.&amp;nbsp;
+                                                                </font>
+                                                            </p>
+                                                            <div class="text-center">
+                                                                <img class="img"
+                                                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-user1.png"
+                                                                     alt=""
+                                                                     data-original-title="" title=""
+                                                                     aria-describedby="tooltip744469"/>
+                                                                <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                                    <b class="o_default_snippet_text">MyCompany</b>
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Our-Work Start-->
+        <template id="corporate_our_work" name="Corporate Our-Work">
+            <section class="pt64 pb64" id="img_hover_effect_5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <font style="font-size: 48px;">
+                                    <b>Our</b>
+                                </font>
+                                <font style="font-size: 48px;" class="text-beta">
+                                    <b>Work</b>
+                                </font>
+                                <font style="font-size: 48px;" class="text-gamma">
+                                    <b>...</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <h2>
+                                        <font style="color: rgb(255, 255, 255);">Extra benefit through
+                                            invest
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <a class="text-center o_default_snippet_text" href="#">View
+                                            More
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <h2>
+                                        <font style="color: rgb(255, 255, 255);">factory planning
+                                            project
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <a class="text-center o_default_snippet_text" href="#">View
+                                            More
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <h2>
+                                        <font style="color: rgb(255, 255, 255);">design for bistro
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <a class="text-center o_default_snippet_text" href="#">View
+                                            More
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Our-Work End-->
+
+        <!--Snippet Team Start-->
+        <template id="corporate_team" name="Corporate Team">
+            <section class="s_three_columns pt64 pb64" id="team_6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <font style="font-size: 48px;">
+                                    <b>Our</b>
+                                </font>
+                                <font style="font-size: 48px;" class="text-beta">
+                                    <b>Team</b>
+                                </font>
+                                <font style="font-size: 48px;" class="text-gamma">...</font>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     alt="Odoo - Sample 1 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font style="">
+                                            <b>Mariana Mark</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center; ">
+                                        <font class="text-beta" style="">
+                                            <b>Law Analyser</b>
+                                        </font>
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     alt="Odoo - Sample 2 for three columns" data-original-title=""
+                                     title="" aria-describedby="tooltip888441"/>
+                                <div class="card-body">
+                                    <h3 class="card-title"
+                                        style="color: rgb(33, 37, 41); text-align: center;">
+                                        <font>
+                                            <b>John Martin</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center; ">
+                                        <b>
+                                            <font class="text-beta" style="">Business consultant</font>
+                                        </b>
+                                        <br/>
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_corporate_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     alt="Odoo - Sample 3 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title"
+                                        style="color: rgb(33, 37, 41); text-align: center;">
+                                        <font>
+                                            <b>Adam Smith</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text" style="text-align: center; ">
+                                        <font class="text-beta" style="">
+                                            <b>Team Leader</b>
+                                        </font>
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Services Start-->
+        <template id="corporate_services" name="Corporate Services">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h2 class="pt8 pb8" style="color: rgb(51, 51, 51);">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 48px;">About Our&amp;nbsp;</font>
+                                </span>
+                                <font style="font-size: 48px;" class="text-beta">
+                                    <b>Services</b>
+                                </font>
+                            </h2>
+                            <p class="pt8 pb8 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Pellentesque fermentum est in tortor congue
+                                suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                egestas.
+                            </p>
+                            <div class="row pb24 pt24">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb24">
+                                    <i class="fa fa-2x text-beta pe-7s-edit fa-500px"
+                                       data-original-title="" title="" aria-describedby="tooltip685559"
+                                       style=""/>
+                                    <h3 class="mb8 mt8">
+                                        <font style="font-size: 18px;">
+                                            <b>Audit &amp;amp; Assurance</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb24">
+                                    <i class="fa fa-2x text-alpha pe-7s-cash fa-500px"
+                                       data-original-title="" title="" aria-describedby="tooltip685559"
+                                       style=""/>
+                                    <h3 class="mb8 mt8">
+                                        <font style="font-size: 18px;">
+                                            <b>Investment Planning&amp;nbsp;</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb24">
+                                    <i class="fa fa-2x text-alpha pe-7s-display2 fa-500px"
+                                       data-original-title="" title="" aria-describedby="tooltip685559"
+                                       style=""/>
+                                    <h3 class="mb8 mt8">
+                                        <font style="font-size: 18px;">
+                                            <b>Marketing Analysis</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb24">
+                                    <i class="fa fa-2x fa-krw text-beta pe-7s-global fa-500px"
+                                       data-original-title="" title="" aria-describedby="tooltip265023"
+                                       style=""/>
+                                    <h3 class="mt8 mb8">
+                                        <font style="font-size: 18px;">
+                                            <b>Financial Consulting</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image" class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Brand-Logo Start-->
+        <template id="corporate_brand_logo" name="Corporate Brand-Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_corporate_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand-Logo End-->
+
+        <!--Snippet CTA Start-->
+        <template id="corporate_cta" name="Corporate CTA">
+            <section class="s_call_to_action sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 col-lg-8 s_title">
+                            <h2>
+                                <b>Looking for an excelent <font class="text-beta" style="">business
+                                    solution&amp;nbsp;</font>?
+                                </b>
+                            </h2>
+                            <p class="s_title_boxed o_default_snippet_text">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry.galley of type and
+                                scrambled it to make a type specimen book. It has survived electronic
+                                typesetting, remaining essentially Lorem Ipsum.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-md-right">
+                            <p>
+                                <a href="/contactus" class="btn btn-primary o_default_snippet_text">
+                                    <b>Contact Us</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Footer Start-->
+        <template id="corporate_footer" name="Corporate Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="oe_structure oe_empty">
+                    <div class="pt64 pb32" id="footer_3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                    <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                         alt="Logo of YourCompany" title="YourCompany"/>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.
+                                    </p>
+                                    <div class="media mt16 mb16">
+                                        <i class="fa fa-map-marker mr-2 fa-2x"/>
+                                        <div class="media-body">
+                                            <p class="font-weight-bold mb8 o_default_snippet_text">Address :</p>
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </div>
+                                    </div>
+                                    <div class="media mt16 mb16">
+                                        <i class="fa fa-phone mr-2 fa-2x"/>
+                                        <div class="media-body">
+                                            <p class="font-weight-bold mb8 o_default_snippet_text">Call us &amp;amp;
+                                                Hire us :
+                                            </p>
+                                            <span t-field="res_company.phone"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb32">
+                                    <h5 class="mb24" style="color: rgb(255, 255, 255);">
+                                        <font style="font-size: 18px;">
+                                            <b>Social Media</b>
+                                        </font>
+                                    </h5>
+                                    <ul class="list-unstyled">
+                                        <a t-att-href="res_company.social_facebook">
+                                            <i class="fa fa-facebook px-2 text-white" data-original-title="" title=""
+                                               aria-describedby="tooltip191317"/>
+                                        </a>
+                                        <a t-att-href="res_company.social_twitter">
+                                            <i class="fa fa-twitter px-2 text-white" data-original-title="" title=""
+                                               aria-describedby="tooltip820396"/>
+                                        </a>
+                                        <a t-att-href="res_company.social_linkedin">
+                                            <i class="fa fa-linkedin px-2 text-white" data-original-title="" title=""
+                                               aria-describedby="tooltip804236"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-pinterest px-2 text-white" data-original-title="" title=""
+                                               aria-describedby="tooltip729687"/>
+                                        </a>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <a href="#">
+                                            <i class="fa fa-behance px-2 text-white" data-original-title="" title=""
+                                               aria-describedby="tooltip389106"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble px-2 text-white"/>
+                                        </a>
+                                        <a  href="#">
+                                            <i class="fa fa-google-plus px-2 text-white"/>
+                                        </a>
+                                        <a t-att-href="res_company.social_facebook">
+                                            <i class="fa fa-facebook px-2 text-white"/>
+                                        </a>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                    <h5>
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                            <b class="o_default_snippet_text">Usefull Links</b>
+                                        </font>
+                                    </h5>
+                                    <ul class="list-unstyled mt24">
+                                        <li class="mb8">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip932996">Home
+                                            </font>
+                                        </li>
+                                        <li class="mb8">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip503473">About Us
+                                            </font>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank">
+                                                <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                                      title="" aria-describedby="tooltip335452">Services
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank">
+                                                <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                                      title="" aria-describedby="tooltip633203">Testimonial
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank">
+                                                <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                                      title="" aria-describedby="tooltip633203">Team
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank">
+                                                <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                                      title="" aria-describedby="tooltip25642">Blog
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">Contact Us</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                    <h5 class="mb24 o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                            <b class="o_default_snippet_text">Our Newsletter</b>
+                                        </font>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.
+                                    </p>
+                                    <div class="input-group js_subscribe hidden d-block" data-list-id="1"
+                                         data-subscribe="off">
+                                        <input type="email" name="email"
+                                               class="js_subscribe_email form-control w-100 mb8"
+                                               placeholder="your email..."/>
+                                        <div class="input-group-btn">
+                                            <a href="#"
+                                               class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                                Subscribe
+                                            </a>
+                                            <a href="#"
+                                               class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                               disabled="disabled">Thanks
+                                            </a>
+                                        </div>
+                                        <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks
+                                            for your subscription!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Corporate Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_banner"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_features"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_why_us"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_counter"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_testimonial"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_our_work"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_team"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_services"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_brand_logo"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_cta"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_corporate_ultimate_01.corporate_footer"
+                           t-thumbnail="/theme_corporate_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

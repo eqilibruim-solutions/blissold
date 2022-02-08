@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_1</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_1</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/demo-10-section-img-1.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_2</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_2</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/home-icon-backpack.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_3</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_3</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/home-compass.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_4</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_4</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/home-section-decor-bottom2-1.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_5</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_5</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/hoe-icon-mountains.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_6</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_6</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/caronbeach-1.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_7</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_7</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/home-icon-airplane.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_8</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_8</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/text-bg-decor.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_9</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_9</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/slider.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_adventure_ultimate_01.image_content_10</field>
+            <field name="name">theme_adventure_ultimate_01.image_content_10</field>
+            <field name="url">/theme_adventure_ultimate_01/static/src/img/library/demo-10-logo-1.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

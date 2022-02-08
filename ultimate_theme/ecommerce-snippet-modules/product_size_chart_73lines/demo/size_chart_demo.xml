@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="size_chart_men_shirt_demo" model="size.chart">
+            <field name="name">Size of men's shirt</field>
+            <field name="image" type="base64"
+                   file="product_size_chart_73lines/static/img/shirt.jpg"/>
+            <field name="categories" eval="[(6,0,[ref('website_sale.public_category_desks')])]"/>
+            <field name="chart"><![CDATA[<html>
+                <p><br></p>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td><b><font style="font-size: 14px;">Sizes</font></b></td>
+                            <td><b><font style="font-size: 14px;">Chest</font></b></td>
+                            <td><b><font style="font-size: 14px;">Neck</font></b></td>
+                            <td><b><font style="font-size: 14px;">Shoulder</font></b></td>
+                            <td><b><font style="font-size: 14px;">Sleeve</font></b></td>
+                            <td><b><font style="font-size: 14px;">Length</font></b></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">XS</font></td>
+                            <td><font style="font-size: 12px;">36</font></td>
+                            <td><font style="font-size: 12px;">7.25</font></td>
+                            <td><font style="font-size: 12px;">17</font></td>
+                            <td><font style="font-size: 12px;">24</font></td>
+                            <td><font style="font-size: 12px;">23</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">S</font></td>
+                            <td><font style="font-size: 12px;">38</font></td>
+                            <td><font style="font-size: 12px;">7.5</font></td>
+                            <td><font style="font-size: 12px;">17.75</font></td>
+                            <td><font style="font-size: 12px;">24.5</font></td>
+                            <td><font style="font-size: 12px;">25</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">M</font></td>
+                            <td><font style="font-size: 12px;">40</font></td>
+                            <td><font style="font-size: 12px;">7.75</font></td>
+                            <td><font style="font-size: 12px;">18.5</font></td>
+                            <td><font style="font-size: 12px;">25</font></td>
+                            <td><font style="font-size: 12px;">26</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">L</font></td>
+                            <td><font style="font-size: 12px;">42</font></td>
+                            <td><font style="font-size: 12px;">8</font></td>
+                            <td><font style="font-size: 12px;">19.25</font></td>
+                            <td><font style="font-size: 12px;">25.5</font></td>
+                            <td><font style="font-size: 12px;">28</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">XL</font></td>
+                            <td><font style="font-size: 12px;">44</font></td>
+                            <td><font style="font-size: 12px;">8.25</font></td>
+                            <td><font style="font-size: 12px;">20</font></td>
+                            <td><font style="font-size: 12px;">26</font></td>
+                            <td><font style="font-size: 12px;">29</font></td>
+                        </tr>
+                    </tbody>
+                </table>
+                  </html>]]>
+            </field>
+            <field name="size_details"><![CDATA[
+                <br/><b>Sleeve:</b> Measure from the shoulder seam through the outer arm to the cuff/hem.
+                <br/><b>Neck:</b> Measured horizontally across the neck.
+                <br/><b>Shoulder:</b> Measure the shoulder at the back, from edge to edge with arms relaxed on both sides.
+                <br/><b>Lenght:</b> Measure from the highest point of the shoulder seam to the bottom hem of the garment's.
+                <br/><b>Chest:</b> Measure around the body under the arms at the fullest part of the chestwith your arms relaxed at both sides.]]>
+            </field>
+        </record>
+
+        <record id="size_chart_men_pant_demo" model="size.chart">
+            <field name="name">Size of men's pant</field>
+            <field name="image" type="base64"
+                   file="product_size_chart_73lines/static/img/pant.jpg"/>
+            <field name="categories" eval="[(6,0,[ref('website_sale.public_category_cabinets')])]"/>
+            <field name="chart"><![CDATA[
+                  <html>
+                        <p><br></p>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td><b><font style="font-size: 14px;">Sizes</font></b></td>
+                                    <td><b><font style="font-size: 14px;">Size</font></b></td>
+                                    <td><b><font style="font-size: 14px;">Waist(Inches)</font></b></td>
+                                    <td><b><font style="font-size: 14px;">Euro Size</font></b></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">24</font></td>
+                                    <td><font style="font-size: 12px;">XS</font></td>
+                                    <td><font style="font-size: 12px;">24</font></td>
+                                    <td><font style="font-size: 12px;">38</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">26</font></td>
+                                    <td><font style="font-size: 12px;">S</font></td>
+                                    <td><font style="font-size: 12px;">26</font></td>
+                                    <td><font style="font-size: 12px;">40</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">28</font></td>
+                                    <td><font style="font-size: 12px;">M</font></td>
+                                    <td><font style="font-size: 12px;">28</font></td>
+                                    <td><font style="font-size: 12px;">42</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">30</font></td>
+                                    <td><font style="font-size: 12px;">L</font></td>
+                                    <td><font style="font-size: 12px;">30</font></td>
+                                    <td><font style="font-size: 12px;">44</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">32</font></td>
+                                    <td><font style="font-size: 12px;">XL</font></td>
+                                    <td><font style="font-size: 12px;">32</font></td>
+                                    <td><font style="font-size: 12px;">46</font></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </html>]]>
+            </field>
+            <field name="size_details"><![CDATA[
+                <br/><b>Waist:</b> Measure at the slimmest part of natural waist above the naval.
+                <br/><b>Rise:</b> Measure from crotch to the waistband.
+                <br/><b>Inseam:</b> Measure from to the inside bottom of leg.
+                <br/><b>Hip:</b> Measure at the widest part below the waist.
+                    ]]>
+            </field>
+        </record>
+
+        <record id="size_chart_women_shirt_demo" model="size.chart">
+            <field name="name">Size of women's t-shirt</field>
+            <field name="image" type="base64"
+                   file="product_size_chart_73lines/static/img/ladies_t-shirts.jpg"/>
+            <field name="categories" eval="[(6,0,[ref('website_sale.public_category_chairs')])]"/>
+            <field name="chart"><![CDATA[
+            <html>
+                <p><br></p>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td><b><font style="font-size: 14px;">Size</font></b></td>
+                            <td><b><font style="font-size: 14px;">Bust(in)</font></b></td>
+                            <td><b><font style="font-size: 14px;">Front Length(in)</font></b></td>
+                            <td><b><font style="font-size: 14px;">Across Shoulder(in)</font></b></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">XS</font></td>
+                            <td><font style="font-size: 12px;">33.5</font></td>
+                            <td><font style="font-size: 12px;">22.8</font></td>
+                            <td><font style="font-size: 12px;">17.5</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">S</font></td>
+                            <td><font style="font-size: 12px;">35.0</font></td>
+                            <td><font style="font-size: 12px;">23.6</font></td>
+                            <td><font style="font-size: 12px;">18.0</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">M</font></td>
+                            <td><font style="font-size: 12px;">36.6</font></td>
+                            <td><font style="font-size: 12px;">24.0</font></td>
+                            <td><font style="font-size: 12px;">18.5</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">L</font></td>
+                            <td><font style="font-size: 12px;">38.6</font></td>
+                            <td><font style="font-size: 12px;">24.4</font></td>
+                            <td><font style="font-size: 12px;">19.0</font></td>
+                        </tr>
+                        <tr>
+                            <td><font style="font-size: 12px;">XL</font></td>
+                            <td><font style="font-size: 12px;">40.6</font></td>
+                            <td><font style="font-size: 12px;">24.8</font></td>
+                            <td><font style="font-size: 12px;">19.5</font></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </html>]]>
+            </field>
+        </record>
+
+        <record id="size_chart_women_pant_demo" model="size.chart">
+            <field name="name">Size of women's pant</field>
+            <field name="image" type="base64"
+                   file="product_size_chart_73lines/static/img/womens_pant.jpg"/>
+            <field name="categories" eval="[(6,0,[ref('website_sale.public_category_lamps')])]"/>
+            <field name="chart"><![CDATA[
+                  <html>
+                        <p><br></p>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td><b><font style="font-size: 14px;">Size</font></b></td>
+                                    <td><b><font style="font-size: 14px;">Brand Size</font></b></td>
+                                    <td><b><font style="font-size: 14px;">To fit Waist(in)</font></b></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">24</font></td>
+                                    <td><font style="font-size: 12px;">24/1</font></td>
+                                    <td><font style="font-size: 12px;">24.0</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">25</font></td>
+                                    <td><font style="font-size: 12px;">25/2</font></td>
+                                    <td><font style="font-size: 12px;">25.0</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">26</font></td>
+                                    <td><font style="font-size: 12px;">26/3</font></td>
+                                    <td><font style="font-size: 12px;">26.0</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">27</font></td>
+                                    <td><font style="font-size: 12px;">27/4</font></td>
+                                    <td><font style="font-size: 12px;">27.0</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">28</font></td>
+                                    <td><font style="font-size: 12px;">28/5</font></td>
+                                    <td><font style="font-size: 12px;">28.0</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">29</font></td>
+                                    <td><font style="font-size: 12px;">29/6</font></td>
+                                    <td><font style="font-size: 12px;">29.0</font></td>
+                                </tr>
+                                <tr>
+                                    <td><font style="font-size: 12px;">30</font></td>
+                                    <td><font style="font-size: 12px;">30/7</font></td>
+                                    <td><font style="font-size: 12px;">30.0</font></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </html>]]>
+            </field>
+        </record>
+    </data>
+</odoo>

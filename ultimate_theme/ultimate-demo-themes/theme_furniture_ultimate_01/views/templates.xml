@@ -1,0 +1,462 @@
+<odoo>
+    <data>
+        <!--Snippet Banner start-->
+        <template id="furniture_banner" name="Furniture Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none; height: 100vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_furniture_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left o_default_snippet_text" style="font-size: 62px;">
+                                <b>Design Furniture</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left o_default_snippet_text" style="text-align: center;">
+                                Write one or two
+                                paragraphs describing your product, services or a
+                                specific feature.
+
+                                <br/>
+                                To be successful your content needs to be useful to
+                                your readers.
+
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="#" class="mb8 mt8 btn btn-alpha flat btn-lg o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip130950">View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Right Content start-->
+        <template id="furniture_right_content" name="Furniture Right Content">
+            <section class="s_text_image pb64 bg-100 oe_custom_bg pt64 bg-gamma" style="">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="pb16 pad0 col-lg-7 col-md-7" style="text-align: center; ">
+                            <img src="/theme_furniture_ultimate_01/static/src/img/placeholder-750x571.png"
+                                 class="img img-fluid float-left"
+                                 alt="Odoo • Image and Text" data-original-title="" title=""
+                                 aria-describedby="tooltip191833" style=""/>
+                        </div>
+                        <div class="pt16 pb16 col-lg-5 col-md-5">
+                            <h2 style="text-align: center;">
+                                <font style="font-size: 14px;" class="text-alpha">
+                                    <b>WE PROVIDE</b>
+                                </font>
+                            </h2>
+                            <h2 style="text-align: center;">
+                                <font style="font-size: 36px;">
+                                    <b class="o_default_snippet_text">Best</b>
+                                </font>
+                            </h2>
+                            <h2 style="text-align: center;">
+                                <font style="font-size: 36px;">
+                                    <b class="o_default_snippet_text">Wooden Material</b>
+                                </font>
+                            </h2>
+                            <p/>
+                            <div style="text-align: center;" class="p-3">
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                </p>
+                            </div>
+                            <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                <a href="#" class="btn btn-primary flat o_default_snippet_text" data-original-title=""
+                                   title="">View More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Feature start-->
+        <template id="furniture_feature" name="Furniture Feature">
+            <section class="sni-block pt64 bg-100 oe_custom_bg pb64 bg-gamma" style="">
+                <div class="container">
+                    <div class="row text-left mt-5">
+                        <div class="col-12 col-sm-6 col-lg-4 pb0 pt0 border-left">
+                            <div class="row">
+                                <div class="col-3 col-lg-6 pb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip599372"/>
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        <span class="o_default_snippet_text">
+                                            <b>New Equipment</b>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 pt-sm-0 pb0 pt0 col-lg-4 border-left">
+                            <div class="row">
+                                <div class="col-3 col-lg-4 pb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip685971"/>
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        <span class="o_default_snippet_text">
+                                            <b>Original Projects</b>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 pt-lg-0 pb0 pt0 col-lg-4 border-left">
+                            <div class="row">
+                                <div class="col-3 col-lg-4 pb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip151238"/>
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        <b class="o_default_snippet_text">Quality Products</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-left pt-3 pt-lg-5">
+                        <div class="col-12 col-sm-6 pt-lg-0 offset-lg-2 border-left pb0 pt0 col-lg-4">
+                            <div class="row">
+                                <div class="col-3 col-lg-5 pb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip962041"/>
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        <b class="o_default_snippet_text">Talented Craftmen</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 pt-lg-0 border-left pb0 pt0 col-lg-5">
+                            <div class="row">
+                                <div class="col-3 col-lg-4 pb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip185043"/>
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        <strong class="o_default_snippet_text">Creative Design</strong>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Product start-->
+        <template id="furniture_product" name="Furniture Product">
+            <section class="sni-block pt64 bg-gamma oe_img_bg oe_custom_bg pb80"
+                     style="background-image: url(&quot;/theme_furniture_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-xl-6 col-sm-12 col-lg-4 pb0">
+                            <div class="co-xl-12 col-12 col-lg-12 col-sm-12">
+                                <h3>
+                                    <span style="font-weight: bolder;" class="o_default_snippet_text">Our Featured
+                                    </span>
+                                    <br/>
+                                </h3>
+                                <h3>
+                                    <b class="o_default_snippet_text">Products</b>
+                                </h3>
+                                <div style="text-align:left;" class="mb32 mt32">
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                    </p>
+                                </div>
+                                <b>
+                                    <font style="font-size: 24px;">
+                                        <a href="#" class="btn btn-alpha flat o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip668122">View MORE
+                                            Products
+                                        </a>
+                                        <br/>
+                                    </font>
+                                </b>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 co-xl-6 col-sm-12 col-lg-8">
+                            <div class="row">
+                                <div class="col-12 co-xl-6 col-sm-6 pt0 col-lg-6">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-350x449.png"
+                                         data-original-title="" title="" aria-describedby="tooltip828232" style=""/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-350x449.png"
+                                         data-original-title="" title="" aria-describedby="tooltip931776"/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-350x449.png"
+                                         data-original-title="" title="" aria-describedby="tooltip329801"/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_furniture_ultimate_01/static/src/img/placeholder-350x449.png"
+                                         data-original-title="" title="" aria-describedby="tooltip437337"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product End-->
+
+        <!--Snippet Video start-->
+        <template id="furniture_video" name="Furniture Video">
+            <section class="s_cover parallax align-content-center align-items-center s_parallax_is_fixed pb256 pt256"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_furniture_ultimate_01/static/src/img/placeholder-video.jpg&quot;); background-position: 50% 75%;"/>
+            </section>
+        </template>
+        <!--Snippet Video End-->
+
+        <!--Snippet Contact start-->
+        <template id="furniture_contact" name="Furniture Contact Us">
+            <section class="s_text_image pt0 bg-delta oe_custom_bg" style="">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 pl-0 pr-0 pb0">
+                            <img src="/theme_furniture_ultimate_01/static/src/img/placeholder-628x406.png"
+                                 class="img img-fluid d-block mx-auto" alt="Odoo • Image and Text"
+                                 data-original-title="" title="" aria-describedby="tooltip50498"/>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-xl-12">
+                                    <h1>
+                                        <span style="font-size: 24px;">
+                                            <b class="o_default_snippet_text">We Design and Manufacture</b>
+                                        </span>
+                                    </h1>
+                                    <h1>
+                                        <span style="font-size: 24px;">
+                                            <b class="o_default_snippet_text">High Quality WoodArt Products</b>
+                                        </span>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="row mt16 mb16">
+                                <div class="col-6">
+                                    <h4>
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_furniture_ultimate_01/static/src/img/placeholder-70x70.png" data-original-title=""
+                                             title="" aria-describedby="tooltip221383"/>
+                                        <strong>&amp;nbsp;</strong>
+                                    </h4>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <h4>
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_furniture_ultimate_01/static/src/img/placeholder-70x70.png" data-original-title=""
+                                             title="" aria-describedby="tooltip524639"/>
+                                        <strong>&amp;nbsp;</strong>
+                                    </h4>
+                                    <p>+34 444 546 565
+
+                                        <br/>
+                                        <br/>mail@ultimate.com
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Footer start-->
+        <template id="furniture_footer" name="Furniture Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div id="footer_custom_d1" class="oe_custom_bg pb64 pt64" style="">
+                    <div class="container f_content">
+                        <div class="row mt32">
+                            <div class="col-md-4 mt8 mb8 offset-lg-1 col-lg-4">
+                                <div>
+                                    <a href="/" class=" logo mt8 mb8 col-xs-12">
+                                        <img style="margin:0 auto;" class="img img-responsive" src="/logo.png"
+                                             alt="Logo of YourCompany" title="" data-original-title="YourCompany"
+                                             aria-describedby="tooltip311521"/>
+                                    </a>
+                                </div>
+                                <div class="footer-static-content">
+                                    <div class="block-subscribe">
+                                        <p class="p-content mt16 mb8 o_default_snippet_text">Lorem Ipsum is simply
+                                            dummy text of the printing
+                                            and typesetting industry. Lorem
+                                            Ipsum has been the industry's standard.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 mt8 mb8 footer-div column-3 pb0 col-lg-3">
+                                <ul class="footer-links list-unstyled">
+                                    <li class="mt8 mb8">
+                                        <a href="/" data-original-title="" title="">&amp;nbsp;Home&amp;nbsp;</a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" data-original-title="" title=""
+                                           aria-describedby="tooltip766884">&amp;nbsp;About Us&amp;nbsp;
+                                        </a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" data-original-title="" title="" aria-describedby="tooltip55310">
+                                            &amp;nbsp;Services&amp;nbsp;
+                                        </a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" data-original-title="" title=""
+                                           aria-describedby="tooltip915045">
+                                            <g class="ContextualSpelling gr-alert gr_ gr_64 gr_inline_cards gr_run_anim gr_spell ins-del multiReplace"
+                                               id="64" data-gr-id="64" data-original-title="" title=""
+                                               aria-describedby="tooltip796836">&amp;nbsp;Gallery
+                                            </g>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 mt8 mb8 footer-div column-4 col-lg-2">
+                                <ul class="footer-links list-unstyled">
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text" data-original-title="" title=""
+                                           aria-describedby="tooltip932309">Personal Info
+                                        </a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text" data-original-title="" title=""
+                                           aria-describedby="tooltip27643">Orders
+                                        </a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">Credit Slips</a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">Addresses</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 mt8 mb8 footer-div column-4 col-lg-2">
+                                <ul class="footer-links list-unstyled">
+                                    <li class="mb8 mt8">
+                                        <a href="/" data-original-title="" title=""
+                                           aria-describedby="tooltip345629">Delivery Information
+                                        </a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" data-original-title="" title="">Returns&amp;nbsp;</a>
+                                        <br/>
+                                        <br/>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/">Terms &amp;amp; Condition</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Furniture Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_furniture_ultimate_01.furniture_banner"
+                           t-thumbnail="/theme_furniture_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ultimate_01.furniture_right_content"
+                           t-thumbnail="/theme_furniture_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ultimate_01.furniture_feature"
+                           t-thumbnail="/theme_furniture_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ultimate_01.furniture_product"
+                           t-thumbnail="/theme_furniture_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ultimate_01.furniture_video"
+                           t-thumbnail="/theme_furniture_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ultimate_01.furniture_contact"
+                           t-thumbnail="/theme_furniture_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ultimate_01.furniture_footer"
+                           t-thumbnail="/theme_furniture_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

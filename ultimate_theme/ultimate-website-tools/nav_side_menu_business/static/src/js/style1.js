@@ -1,0 +1,20 @@
+odoo.define('nav_side_menu_business.style', function (require) {
+    'use strict';
+    require('web.dom_ready');
+
+    $("nav.navbar.navbar-default").insertBefore($("div#wrap"));
+
+    $('#sidebar').mCustomScrollbar({
+        theme: "minimal"
+    });
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+    $('#wrap').after($('footer.o_footer'));
+    if($('.oe_website_login_container').length) {
+        $('footer').hide();
+        $('nav.navbar.navbar-default').hide();
+    };
+});

@@ -1,0 +1,53 @@
+#testimonials_d2{
+    .s_quotes_carousel blockquote{
+        padding: 70px;
+    }
+}
+@media (min-width:992px){
+#testimonials_d3{
+    .s_quotes_carousel .sni-s-slide{
+        max-width: 30%;
+        padding: 30px;
+        margin-bottom: 0;
+    }
+}
+}
+
+@media (min-width:768px){
+#testimonials_d3{
+    .s_quotes_carousel .sni-s-slide{
+        max-width: 30%;
+        padding: 30px;
+        margin-bottom: 0;
+    }
+}
+}
+
+
+#testimonials_d4{
+    .s_quotes_carousel{
+        .testi-icon:before{
+            content: "";
+            border-bottom: 16px solid #ff4242;
+            border-left: 18px solid transparent;
+            position: absolute;
+            top: -16px;
+            left:-48px;
+        }
+
+        .testi-footer{
+
+            margin:18px 0;
+            img{
+                max-width: 40px;
+                margin-right: 5px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .bg-red{
+        background-color:#ff4242;
+        color:#ffffff;
+    }
+}

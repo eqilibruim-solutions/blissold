@@ -1,0 +1,603 @@
+<odoo>
+    <data>
+        <!--Snippet Mid Header Start-->
+        <template id="sports_store_mid_header" name="Sports Store Mid Header">
+            <section class="oe_structure">
+                <section class="border-beta bg-dark bg-epsilon oe_custom_bg" id="mid-header-top-16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 oe_structure col-lg-4 col-md-4 col-sm-12 align-self-center text-center text-lg-left text-md-left"
+                                 id="mid-header-top-left">
+                                <li class="list-inline-item pt8 pb8">
+                                    <div class="oe_structure oe_empty">
+                                        <a href="#" class="text-white o_default_snippet_text" title="welcome">
+                                            <font class="text-gamma" style="">Language</font>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="px-2 list-inline-item pt8 pb8">
+                                    <div class="oe_structure oe_empty">
+                                        <a href="#" class="text-white o_default_snippet_text" title="Help">
+                                            <font class="text-gamma" style="">Pricelist</font>
+                                        </a>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col-12 oe_structure col-lg-8 col-md-8 col-sm-12 align-self-center  text-center text-lg-right text-md-right"
+                                 id="mid-header-top-right">
+                                <li class="list-inline-item account_custom pt8 pb8 px-2">
+                                    <div class="dropdown">
+                                        <a class="btn-link dropdown-toggle" type="button" id="dropdownMenu1"
+                                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-user-circle icon_style d-inline text-gamma mx-1"/>
+                                            <span class="hide_content o_default_snippet_text text-gamma" style="">My
+                                                Account
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1"
+                                             x-placement="bottom-start"
+                                             style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 20px, 0px);">
+                                            <a class="text-xs-center dropdown-item o_default_snippet_text"
+                                               href="/web/login" id="ultimate_sign_in">Sign in
+                                            </a>
+                                            <a href="/web/signup" class="text-xs-center dropdown-item"
+                                               id="ultimate_register">
+                                                <span class="o_default_snippet_text text-gamma">Register</span>
+                                            </a>
+                                            <a href="/my/home" role="menuitem"
+                                               class="dropdown-item o_default_snippet_text text-gamma"
+                                               id="ultimate_my_account">My Account
+                                            </a>
+                                            <a class="dropdown-item o_default_snippet_text text-gamma" role="menuitem"
+                                               id="ultimate_logout" href="/web/session/logout?redirect=/">Logout
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="my_wish" class="list-inline-item pt8 pb8 px-2">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="d-flex">
+                                            <span class="nav-item">
+                                                <a href="/shop/wishlist" class="text-white" title="wishlist">
+                                                    <i class="fa fa-heart mx-1 text-gamma" title="wishlist" style=""/>
+                                                    <span class="hide_content o_default_snippet_text text-gamma"
+                                                          style="">Wishlist
+                                                    </span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt1 pb-1" id="mid-header-bottom-16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-lg-2 col-md-3 align-self-center text-center text-md-center text-lg-left oe_structure"
+                                 id="mid-header-bottom-left">
+                                <div class="oe_structure oe_empty">
+                                    <a href="/">
+                                        <img src="/logo.png" alt="Logo of YourCompany" title="YourCompany" class="img-fluid"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-10 col-md-9 align-self-center oe_structure text-lg-right text-md-center text-center"
+                                 id="mid-header-bottom-right">
+                                <li class="list-inline-item pt8 pb8">
+                                    <div class="oe_structure oe_empty">
+                                        <span>
+                                            <form action="/shop" method="get">
+                                                <div class="input-group">
+                                                    <input type="text" name="search"
+                                                           class="search-query form-control oe_search_box search_input "
+                                                           placeholder="Enter Keyword to Search..."/>
+                                                    <div class="input-group-append">
+                                                        <button type="submit" class="btn oe_search_button search_button"
+                                                                aria-label="Search" title="Search">
+                                                            <i class="fa fa-search text-white"/>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item pt8 pb8">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="d-flex justify-content-center justify-content-lg-end">
+                                            <i class="fa fa-2x pr-2 pt-2 pe-7s-call fa-500px" data-original-title=""
+                                               title="" aria-describedby="tooltip829965" style=""/>
+                                            <div class="text-left">
+                                                <span class="o_default_snippet_text">Call us
+                                                    <br/>
+                                                    <span class="o_default_snippet_text">+1 555 123 8069</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="my_cart" class="list-inline-item pt8 pb8">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="d-flex">
+                                            <a href="/shop/cart" class="text-beta">
+                                                <i class="fa fa-2x fa-shopping-basket px-1 text-beta d-inline icon_style"
+                                                   title="add to cart"/>
+                                                <span class="hide_content text-beta o_default_snippet_text">SHOPPING
+                                                    CART
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+        <!--Snippet Banner Start-->
+        <template id="sports_store_banner" name="Sports Store Banner">
+            <section class="col-lg-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="bg-light pt16 col-lg-3 s_product_category_carousel s_product_category_snippet_dynamic js_get_objects d-none d-lg-block mt32 mb16 oe_structure oe_empty"
+                             data-loading="true"
+                             data-template="snippet_product_category_dynamic_73lines.product_category_list_template_header"
+                             data-object_name="product.public.category" data-objects_in_slide="5"/>
+                        <div class="col-lg-9 oe_structure oe_empty">
+                            <section class="pt32 pb32" id="image_grid_12">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-12 col-lg-12 col-sm-12 px-2 pb16">
+                                            <div class="oe_structure oe_empty">
+                                                <div>
+                                                    <img src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-803x420.png" alt=""
+                                                         class="img-fluid image"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 px-2 pb16">
+                                            <div class="oe_structure oe_empty">
+                                                <div class="grid12">
+                                                    <img src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-400x300.png" alt=""
+                                                         class="img-fluid image"/>
+                                                    <div class="overlay">
+                                                        <div class="grid_content">
+                                                            <h3>
+                                                                <font class="text-epsilon" style="">
+                                                                    <b>FOR MEN</b>
+                                                                </font>
+                                                            </h3>
+                                                            <span>New Collection</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 px-2 pb16">
+                                            <div class="oe_structure oe_empty">
+                                                <div class="grid12">
+                                                    <img src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-400x300.png" alt=""
+                                                         class="img-fluid image"/>
+                                                    <div class="overlay">
+                                                        <div class="grid_content">
+                                                            <h3>
+                                                                <font class="text-epsilon" style="">
+                                                                    <b>BIG SALE</b>
+                                                                </font>
+                                                            </h3>
+                                                            <span>New Arrivals&amp;nbsp;</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 px-2 pb16">
+                                            <div class="oe_structure oe_empty">
+                                                <div class="grid12">
+                                                    <img src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-400x300.png" alt=""
+                                                         class="img-fluid image"/>
+                                                    <div class="overlay">
+                                                        <div class="grid_content">
+                                                            <h3>
+                                                                <font class="text-epsilon" style="">
+                                                                    <b>FOR WOMEN</b>
+                                                                </font>
+                                                            </h3>
+                                                            <span>Best Trends</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Ecommerce Block Start-->
+        <template id="sports_store_ecommerce_block" name="Sports Store Ecommerce Block">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects product_carousel wishlist_hidden add_to_cart_hidden s_headline_style_5 owl_nav_style_3"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d5"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d5" data-objects_in_row="3" style=""/>
+                                <section class="pt24 pb32" id="ecommerce_block_1">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto"
+                                                             src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-432x800.png"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section
+                                        class="mt8 s_product_carousel_mini oe_website_sale js_get_objects product_carousel s_headline_style_5 owl_nav_style_3 add_to_cart_hidden wishlist_hidden"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d5"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d5" data-objects_in_row="3" style=""/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects product_carousel s_headline_style_5 owl_nav_style_3"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                        data-object_name="product.template" data-objects_in_slide="4"
+                                        id="new_products_item_d10"/>
+                                <section class="pb32" id="ecommerce_block_1">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-6">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto mb8"
+                                                             src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-386x108.png"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-6">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto mb8"
+                                                             src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-386x108.png"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects product_carousel owl_nav_style_3 s_headline_style_5"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d10"
+                                        data-object_name="product.template" data-objects_in_slide="4"
+                                        id="new_products_item_d10" style=""/>
+                                <section>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                                                <div class="oe_structure oe_empty">
+                                                    <section
+                                                            class="s_product_carousel_mini oe_website_sale js_get_objects product_carousel s_carousel_mini_1 owl_nav_style_3 s_headline_style_5"
+                                                            data-loading="true"
+                                                            data-template="ecommerce_snippets_blocks.product_list_template_mini_d2"
+                                                            data-object_name="product.template"
+                                                            data-objects_in_slide="1" style="" data-objects_in_row="2"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                                                <div class="oe_structure oe_empty">
+                                                    <section
+                                                            class="s_product_carousel_mini oe_website_sale js_get_objects product_carousel s_carousel_mini_1 owl_nav_style_3 s_headline_style_5"
+                                                            data-loading="true"
+                                                            data-template="ecommerce_snippets_blocks.product_list_template_mini_d2"
+                                                            data-object_name="product.template"
+                                                            data-objects_in_slide="1" style="" data-objects_in_row="2"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                                                <div class="oe_structure oe_empty">
+                                                    <section
+                                                            class="s_product_carousel_mini oe_website_sale js_get_objects product_carousel s_carousel_mini_1 owl_nav_style_3 s_headline_style_5"
+                                                            data-loading="true"
+                                                            data-template="ecommerce_snippets_blocks.product_list_template_mini_d2"
+                                                            data-object_name="product.template"
+                                                            data-objects_in_slide="1" style="" data-objects_in_row="2"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Ecommerce Block End-->
+
+        <!--Snippet Image Block Start-->
+        <template id="sports_store_image_block" name="Sports Store Image Block">
+            <section class="pb32" id="ecommerce_block_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-12 col-lg-12 col-sm-12 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto" src="theme_sports_store_ecommerce_ultimate_01/static/src/img/placeholder-1170x187.png"
+                                         data-original-title="" title="" aria-describedby="tooltip417519"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block End-->
+
+        <!--Snippet Product Carousel Start-->
+        <template id="sports_store_product_carousel" name="Sports Store Product Carousel">
+            <section
+                    class="s_product_carousel oe_website_sale js_get_objects product_carousel s_headline_style_5 owl_nav_style_3 user_rating_hidden"
+                    data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d23"
+                    data-object_name="product.template" data-objects_in_slide="5" id="new_products_item_d23"/>
+        </template>
+        <!--Snippet Product Carousel End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="sports_store_brand_carousel" name="Sports Store Brand Carousel">
+            <section class="s_brand_carousel js_get_objects s_headline_style_5 owl_nav_style_3" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d2"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d2"/>
+        </template>
+        <!--Snippet Brand Carousel End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="sports_store_newsletter" name="Sports Store Newsletter">
+            <section class="pt16 pb16 bg-delta oe_custom_bg" id="footer_17">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-7 text-center text-md-left text-lg-left mt8 mb8">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                    <h3 class="mb0">
+                                        <font style="font-size: 18px;" class="text-epsilon">
+                                            <b>NEWSLETTER</b>
+                                        </font>
+                                    </h3>
+                                    <span class="o_default_snippet_text">
+                                        <font class="text-epsilon" style="font-size: 12px;">Subscribe On Our
+                                            Newsletter
+                                        </font>
+                                    </span>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                                    <div class="input-group js_subscribe hidden" data-list-id="1" data-subscribe="off">
+                                        <input type="email" name="email"
+                                               class="js_subscribe_email form-control rounded-0"
+                                               placeholder="your email..."/>
+                                        <span class="input-group-btn">
+                                            <a href="#"
+                                               class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                                Subscribe
+                                            </a>
+                                            <a href="#"
+                                               class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                               disabled="disabled">
+                                                Thanks
+                                            </a>
+                                        </span>
+                                        <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                            Thanks for your
+                                            subscription!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-5 mt8 mb8">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-lg-right text-md-right text-center">
+                                    <a href="#" class="text-decoration-none" target="_blank">
+                                        <i class="fa fa-facebook py-2 px-3  box_hover" style="font-size: 20px;"
+                                           data-original-title="" title="" aria-describedby="tooltip938566"/>
+                                    </a>
+                                    <a href="#" class="text-decoration-none" target="_blank">
+                                        <i class="fa fa-rss py-2 px-3 box_hover" style="font-size: 20px;"/>
+                                    </a>
+                                    <a href="#" class="text-decoration-none" target="_blank">
+                                        <i class="fa fa-twitter py-2 px-3 box_hover" style="font-size: 20px;"/>
+                                    </a>
+                                    <a href="#" class="text-decoration-none" target="_blank">
+                                        <i class="fa fa-skype py-2 px-3 box_hover" style="font-size: 20px;"/>
+                                    </a>
+                                    <a href="#" class="text-decoration-none" target="_blank">
+                                        <i class="fa fa-dribbble py-2 px-3 box_hover" style="font-size: 20px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Footer Start-->
+        <template id="sports_store_footer" name="Sports Store Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_15" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 13px;">Lorem ipsum dolor sit amet, consectetur adipi
+                                        scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco labo ris
+                                        nisi ut aliquipe ex ea commodo consequat...
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-2">
+                                <h5 class="pb16">
+                                    <b>
+                                        <font style="font-size: 14px;">INFORMATION</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 13px;">About Us</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 13px;">Manufactures</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 13px;">Suppliers</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 13px;">Privacy &amp;amp; Policy</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="font-size: 13px;">Delivery</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-2">
+                                <h5 class="pb16">
+                                    <font style="font-size: 14px;">
+                                        <b>MY ACCOUNT</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <font style="font-size: 13px;">Personal Info</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Order History</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Wishlist</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Returns</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-2">
+                                <h5 class="pb16">
+                                    <b>
+                                        <font style="font-size: 14px;">CATEGORIES</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <font style="font-size: 13px;">Footwear</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Bag</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">T-shirt</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Accessories</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Hand Gloves</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-2">
+                                <h5 class="pb16">
+                                    <font style="font-size: 14px;">
+                                        <b>SERVICES</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <font style="font-size: 13px;">Shipping &amp;amp; Returns</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Secure Shopping</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Affiliates</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">Careers</font>
+                                    </li>
+                                    <li>
+                                        <font style="font-size: 13px;">FAQ</font>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Sports Store Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_mid_header"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_banner"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_ecommerce_block"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_image_block"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_product_carousel"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_brand_carousel"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_newsletter"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_sports_store_ecommerce_ultimate_01.sports_store_footer"
+                           t-thumbnail="/theme_sports_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

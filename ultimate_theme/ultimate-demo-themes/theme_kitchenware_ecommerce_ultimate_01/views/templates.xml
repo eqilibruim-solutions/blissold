@@ -1,0 +1,554 @@
+<odoo>
+    <data>
+        <!--Snippet Banner start-->
+        <template id="kitchenware_banner" name="Kitchenware Banner">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-9 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt16" id="ecommerce_block_1">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 col-lg-12 col-sm-12 mt8 mb8">
+                                                <div>
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto"
+                                                             src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-870x428.png"
+                                                             data-original-title=""
+                                                             title="" aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt16 pb16">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <a href="#">
+                                                    <img src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-270x271.png"
+                                                         alt="Image"
+                                                         title="Image" class="img-fluid mb8 mt8"/>
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <a href="#">
+                                                    <img src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-270x142.png"
+                                                         alt="Image"
+                                                         title="Image" class="img-fluid mb8 mt8"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Banner End-->
+
+        <!--Snippet Sale Image start-->
+        <template id="kitchenware_sale_image" name="Kitchenware Sale Image">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_2"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template_mini"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        data-objects_limit="15" data-objects_in_row="1"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt0 pb0" id="ecommerce_block_1">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto"
+                                                             src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto"
+                                                             src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Sale Image End-->
+
+        <!--Snippet Product Carousel 1 start-->
+        <template id="kitchenware_product_carousel_1" name="Kitchenware Product Carousel 1">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel"
+                                         data-loading="true"
+                                         data-template="ecommerce_snippets_blocks.product_list_template_d22"
+                                         data-object_name="product.template" data-objects_in_slide="1"
+                                         id="new_products_item_d22" style=""/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_2"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d29"
+                                        data-object_name="product.template" data-objects_in_slide="4"
+                                        id="new_products_item_d29" style="" data-objects_in_row="2"
+                                        data-objects_limit="15"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel 1 End-->
+
+        <!--Snippet Promo Image start-->
+        <template id="kitchenware_promo_image" name="Kitchenware Promo Image">
+            <section class="pt0" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-12 col-sm-12">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template_mini"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="2" data-objects_limit="15"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt0 pb8" id="ecommerce_block_1">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-7 col-lg-7 col-sm-12 mt8 mb8">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto"
+                                                             src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-495x207.png"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-5 col-lg-5 col-sm-12 mt8 mb8">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto"
+                                                             src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-345x207.png"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-12 col-lg-12 col-sm-12 mt8 mb8">
+                                                <div class="hover_effect">
+                                                    <a href="#">
+                                                        <img class="img-fluid d-block mx-auto"
+                                                             src="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/placeholder-870x229.png"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Promo Image End-->
+
+        <!--Snippet Product Carousel 2 start-->
+        <template id="kitchenware_product_carousel_2" name="Kitchenware Product Carousel 2">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_2 s_carousel_mini_3"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template_mini"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="3" data-objects_limit="15"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel text-left owl_nav_style_2 s_carousel_mini_3"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template_mini"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="3" data-objects_limit="15"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_2 s_carousel_mini_3"
+                                        data-loading="true"
+                                        data-template="snippet_product_carousel_73lines.product_list_template_mini"
+                                        data-object_name="product.template" data-objects_in_slide="1" style=""
+                                        data-objects_in_row="3" data-objects_limit="15"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel 2 End-->
+
+        <!--Snippet Product Carousel 3 start-->
+        <template id="kitchenware_product_carousel_3" name="Kitchenware Product Carousel 3">
+            <section
+                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_carousel_3 owl_nav_style_2"
+                    data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d27"
+                    data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d27" style=""/>
+        </template>
+        <!--Snippet Product Carousel 3 End-->
+
+        <!--Snippet Blog start-->
+        <template id="kitchenware_blog" name="Kitchenware Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Brand Logo start-->
+        <template id="kitchenware_brand_logo" name="Kitchenware Brand Logo">
+            <section class="s_brand_carousel mb8 js_get_objects" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d4"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d4"/>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Feature start-->
+        <template id="kitchenware_feature" name="Kitchenware Feature">
+            <section class="bg-alpha oe_custom_bg pt24 pb24" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="row ">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x mr-3 mt-2 pe-7s-car fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip317718" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                <b>FREE SHIPPING</b>
+                                            </font>
+                                        </h3>
+                                        <p>On order over $200.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-life-ring mr-3 mt-2 pe-7s-call fa-500px"
+                                       data-original-title="" title="" aria-describedby="tooltip600241" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                <b>SUPPORT 24/7</b>
+                                            </font>
+                                        </h3>
+                                        <p>Call : 0123 456 789</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x mr-3 mt-2 pe-7s-cash fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip25212" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                <b>60 DAYS RETURN</b>
+                                            </font>
+                                        </h3>
+                                        <p>You have 60 days to return it.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x mr-3 mt-2 pe-7s-lock fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip441700" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                <b>SECURE PAYMENT</b>
+                                            </font>
+                                        </h3>
+                                        <p>We ensure secure payment</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Footer start-->
+        <template id="kitchenware_footer" name="Kitchenware Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 separator mb32">
+                                <h5 class="mb24">
+                                    <font class="text-delta" style="">
+                                        <b>ABOUT US</b>
+                                    </font>
+                                </h5>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    dummy.Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-map-marker mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Address :
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-phone mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Phone :
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media mb16">
+                                    <i class="fa fa-envelope mr-2 mt-1"/>
+                                    <div class="media-body">
+                                        Email :
+                                        <span t-field="res_company.email"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 mb32 col-lg-3">
+                                <h5>
+                                    <b>
+                                        <font class="text-delta" style="">INFORMATION</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip735719">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip372503">New Products
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip372701">Best Seller
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip739127">Price Drop
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip77841">Privacy Policy
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip534944">Contact
+                                            </font>
+                                            <font class="text-delta" style="">
+                                                <br/>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="">Sitemap</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5>
+                                    <b>
+                                        <font class="text-delta" style="">QUICK LINKS</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip735719">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip372503">My Personal Info
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip372701">My Orders
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip739127">My Credit Slips
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip77841">My Cart
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="">My Wishlist</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="">Login</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font class="text-delta" style="">
+                                        <b>NEWSLETTER</b>
+                                    </font>
+                                </h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.&amp;nbsp;
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                                <h6 class="mb-4 mt-4 o_default_snippet_text px-1">
+                                    <font style="color: rgb(255, 255, 255);">We Accept:</font>
+                                </h6>
+                                <i class="fa fa-2x fa-cc-visa px-1" data-original-title="" title=""
+                                   aria-describedby="tooltip470827"/>
+                                <i class="fa fa-cc-mastercard px-1 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip251702"/>
+                                <i class="fa fa-cc-paypal px-1 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip86877"/>
+                                <i class="fa fa-cc-amex px-1 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip971335"/>
+                                <i class="fa fa-cc-discover px-1 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip15762"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Kitchenware Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_banner"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_sale_image"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_product_carousel_1"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_promo_image"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_product_carousel_2"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_product_carousel_3"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_blog"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_brand_logo"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_feature"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kitchenware_ecommerce_ultimate_01.kitchenware_footer"
+                           t-thumbnail="/theme_kitchenware_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

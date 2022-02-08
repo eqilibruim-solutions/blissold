@@ -1,0 +1,977 @@
+<odoo>
+    <data>
+
+        <!--Mid Header Snippets start-->
+        <template id="tailor_mid_header" name="Tailor Mid Header">
+            <section class="mid_header_top bg-alpha oe_custom_bg" style="">
+                <div class="container" id="mid_header_top_4">
+                    <div class="row py-1">
+                        <div class="col-12 oe_structure col-lg-8 col-md-12 col-sm-12 text-center text-lg-left py-1"
+                             id="mid_header_top_right">
+                            <span class="py-1">
+                                <i class="fa fa-comment-o mr-2"/>
+                                <p class="m-0 d-inline o_default_snippet_text">24X7 Live Support</p>
+                            </span>
+                            <span class="ml8 mr8 d-block d-lg-inline d-md-inline py-1" id="company-email">
+                                <i class="fa fa-envelope mr-2"/>
+                                <span t-field="res_company.email"/>
+                            </span>
+                            <span class="my-2">
+                                <i class="fa fa-comment mr-2"/>
+                                <p class="m-0 d-inline o_default_snippet_text">Live Chat</p>
+                            </span>
+                        </div>
+                        <div class="col-12 oe_structure col-lg-4 col-md-12 col-sm-12 text-center text-lg-right py-1"
+                             id="mid_header_top_right">
+                            <span id="company-profile" class="d-block d-lg-inline d-md-inline">
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-x mx-2 text-white fa-facebook share_facebook fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-x mx-2 text-white fa-twitter share_twitter fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_linkedin">
+                                    <i class="fa fa-x mx-2 text-white fa-linkedin share_linkedin fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_youtube">
+                                    <i class="fa fa-x mx-2 text-white fa-youtube-play share_youtube fa_company_contact_info"/>
+                                </a>
+                                <a rel="publisher" class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_instagram">
+                                    <i class="fa fa-x mx-2 text-white fa-instagram share_instagram fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_github">
+                                    <i class="fa  fa-x mx-2 text-white fa-github share_github fa_company_contact_info"/>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Mid Header Snippets End-->
+
+        <!--Banner Snippets start-->
+        <template id="tailor_banner" name="Tailor Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_tailor_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left text-white" style="font-size: 62px;">STYLES AND TRENDS</h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left o_default_snippet_text  text-white" style="text-align: center;">
+                                Write one or
+                                two paragraphs describing your product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="mt8 mb8 btn btn-alpha btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip842681">BUY NOW
+                            </a>
+                            <a href="/contactus" class="mb8 mt8 btn btn-primary btn-lg" data-original-title="" title="">
+                                VIEW MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Banner Snippets End-->
+
+        <!--About Us Snippets start-->
+        <template id="tailor_about_us" name="Tailor About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2>
+                                <font style="font-size: 36px;">Discover True Quality</font>
+                            </h2>
+                            <p class="pt16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                                fermentum est in tortor congue suscipit. Suspendisse potenti.Aliquam finibus pharetra
+                                tellus at egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <p class="pb16">Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.
+                                <span style="font-size: 0.875rem;">consectetur adipiscing elit. Pellentesque fermentum
+                                    est in tortor congue suscipit.
+                                </span>
+                                <br/>
+                            </p>
+                            <a href="#" class="rounded btn btn-primary btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip590964">START CUSTOMIZING
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip183245"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--About Us Snippets End-->
+
+        <!--Counter Snippets start-->
+        <template id="tailor_counter" name="Tailor Counter">
+            <section class="state_section pt64 pb64" id="state_section_id">
+                <div class="container">
+                    <div class="row text-center justify-content-sm-center no-gutters state_text">
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_tailor_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-auto-theme" data-number="1200" data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">2</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <span style="font-size: 18px;">
+                                    <b>Custom&amp;nbsp;Measurments</b>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_tailor_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-auto-theme" data-number="1000" data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <span style="font-size: 18px;">
+                                    <b>Suits Sketched</b>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_tailor_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-auto-theme" data-number="560" data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">5</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">6</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Suit Resizing</b>
+                                </font>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_tailor_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-auto-theme" data-number="50" data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">5</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Location Pinned</b>
+                                </font>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Counter Snippets End-->
+
+        <!--Featured Product Snippets start-->
+        <template id="tailor_featured_product" name="Tailor Featured Product">
+            <section class="sni-block pt64 pb64 bg-white-75 oe_custom_bg" id="team_7" style="">
+                <div class="container">
+                    <div class="row text-center mb48">
+                        <div class="col-12">
+                            <h2>
+                                <font style="font-size: 36px;">Featured Products</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                    </div>
+                    <ul class="row">
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title=""
+                                     title="" aria-describedby="tooltip979269"/>
+                                <h3>
+                                    <a href="#" data-original-title="" title="" aria-describedby="tooltip805778">&amp;nbsp;Fabric
+                                        Sales
+                                    </a>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing</p>
+                                <p>
+                                    <span style="font-size: 24px;">$ 230</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title=""
+                                     title="" aria-describedby="tooltip422508"/>
+                                <h3>
+                                    <a href="#" data-original-title="" title="">Pure Wool</a>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                                <p>
+                                    <font style="font-size: 24px;">$ 330</font>
+                                    <br/>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title=""
+                                     title="" aria-describedby="tooltip73026"/>
+                                <h3>
+                                    <a href="#" data-original-title="" title="" aria-describedby="tooltip295164">Women's
+                                        Shirts
+                                    </a>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                                <p>
+                                    <span style="font-size: 24px;">$ 430</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="content-block">
+                                <img class="img-fluid"
+                                     src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title=""
+                                     title="" aria-describedby="tooltip184080"/>
+                                <h3>Starter Suit $50
+                                    <br/>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                                <p>
+                                    <span style="font-size: 24px;">$ 50</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </template>
+        <!--Featured Product Snippets End-->
+
+        <!-- Left content Snippets start-->
+        <template id="tailor_left_content" name="Tailor Left Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2>
+                                <font style="font-size: 36px;">Why Custom Tailoring?</font>
+                            </h2>
+                            <p class="pt16 pb16 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.Suspendisse potenti.Aliquam finibus
+                                pharetra tellus at egestas.
+                            </p>
+                            <a href="#" class="btn btn-lg btn-primary rounded" data-original-title="" title=""
+                               aria-describedby="tooltip425356">Video Tutorials
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Left Content Snippets End-->
+
+        <!-- Gallery Snippets start-->
+        <template id="tailor_gallery" name="Tailor Gallery">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <span style="font-size: 36px;">Our Gallery</span>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <img class="img-fluid d-block mx-auto mt16 mb16"
+                                 src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mb16"
+                                         src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mb16"
+                                         src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Gallery Snippets End-->
+
+        <!-- Right Content Snippets start-->
+        <template id="tailor_right_content" name="Tailor Right Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip788677"/>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                            <h2>
+                                <span style="font-size: 36px;">Embrace Your Style
+
+                                </span>
+                            </h2>
+                            <p class="o_default_snippet_text pb16 pt16">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.Suspendisse potenti.Aliquam finibus
+                                pharetra tellus at egestas.
+                            </p>
+                            <a href="#" class="btn btn-lg btn-primary rounded" data-original-title="" title=""
+                               aria-describedby="tooltip232729">View Screen
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Right Content Snippets End-->
+
+        <!-- Team Content Snippets start-->
+        <template id="tailor_team_content" name="Tailor Team Content">
+            <section id="team_5" class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2 class="o_default_snippet_text">
+                                <font style="font-size: 36px;">Our Team</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_tailor_ultimate_01/static/src/img/team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">Peter Mason
+                                    </h5>
+                                    <div class="card-text text-black-50">Master Tailor
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_tailor_ultimate_01/static/src/img/team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">Polly Wire
+                                    </h5>
+                                    <div class="card-text text-black-50">Tailor
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_tailor_ultimate_01/static/src/img/team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">Rebecca Ogle
+                                        <br/>
+                                    </h5>
+                                    <div class="card-text text-black-50 o_default_snippet_text">Tailor
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_tailor_ultimate_01/static/src/img/team-image.jpg"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">Josheph Mickal</h5>
+                                    <div class="card-text text-black-50">
+                                        Expert Tailor
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Team Content Snippets End-->
+
+        <!-- CTA Content Snippets start-->
+        <template id="tailor_cta" name="Tailor CTA Content">
+            <section class="s_call_to_action sni-block pt64 pb64"
+                     style="background-image: url(&quot;/theme_tailor_ultimate_01/static/src/img/placeholder-1170.jpg&quot;)">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-7">
+                            <h2>
+                                <span style="font-size: 36px; color: rgb(255, 255, 255);">Your Design , We Deliver
+                                </span>
+                            </h2>
+                            <p class="s_title_boxed o_default_snippet_text text-white">Lorem Ipsum is simply dummy text
+                                of the
+                                printing and typesetting industry.galley of type and scrambled it to make a type
+                                specimen book. It has survived electronic typesetting, remaining essentially Lorem
+                                Ipsum.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right offset-lg-1 col-lg-3">
+                            <p>
+                                <a href="/contactus" class="btn btn-lg btn-primary" data-original-title="" title=""
+                                   aria-describedby="tooltip583644">View Collection
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--CTA Content Snippets End-->
+
+
+        <!-- News Content Snippets start-->
+        <template id="tailor_news" name="Tailor News">
+            <section class="pt64 pb64" id="news_five">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 offset-lg-2 mb64">
+                            <h2>
+                                <font style="font-size: 36px;">The Latest News</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ad assumenda culpa cumque dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                soluta voluptas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="content">
+                                    <img src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid"/>
+                                    <div class="content_overlay"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div>
+                                        <h5 class="font-weight-bold pb-2">
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip265350">Set a Fashion Trend!
+                                            </a>
+                                        </h5>
+                                        <p class="border-bottom pb-3 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta
+                                            voluptas eius iusto modi reprehenderit sint soluta voluptas.
+                                        </p>
+                                    </div>
+                                    <div class="news_meta">
+                                        <span class="mr-2">
+                                            <a href="#"></a>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-user"/>
+                                                Admin
+                                            </a>
+                                        </span>
+                                        <span class="mr-2">
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-comments-o"/>
+                                                24 Comments
+                                            </a>
+                                        </span>
+                                        <span class="mr-2">
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-heart-o"/>
+                                                370 Likes
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="content">
+                                    <img src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid"/>
+                                    <div class="content_overlay"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div>
+                                        <h5 class="font-weight-bold pb-2">
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip816051">What’s Better Than One Dress?
+                                            </a>
+                                        </h5>
+                                        <p class="border-bottom pb-3 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta
+                                            voluptas eius iusto modi reprehenderit sint soluta voluptas.
+                                        </p>
+                                    </div>
+                                    <div class="news_meta">
+                                        <span class="mr-2">
+                                            <a href="#"></a>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-user"/>
+                                                Admin
+                                            </a>
+                                        </span>
+                                        <span class="mr-2">
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-comments-o"/>
+                                                24 Comments
+                                            </a>
+                                        </span>
+                                        <span class="mr-2">
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip13831">
+                                                <i class="fa fa-heart-o"/>
+                                                370 Likes
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="content">
+                                    <img src="/theme_tailor_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid"/>
+                                    <div class="content_overlay"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div>
+                                        <h5 class="font-weight-bold pb-2">
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip916608">False breakage
+                                            </a>
+                                        </h5>
+                                        <p class="border-bottom pb-3 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta
+                                            voluptas eius iusto modi reprehenderit sint soluta voluptas.
+                                        </p>
+                                    </div>
+                                    <div class="news_meta">
+                                        <span class="mr-2">
+                                            <a href="#"></a>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-user"/>
+                                                Admin
+                                            </a>
+                                        </span>
+                                        <span class="mr-2">
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-comments-o"/>
+                                                24 Comments
+                                            </a>
+                                        </span>
+                                        <span class="mr-2">
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-heart-o"/>
+                                                370 Likes
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--News Content Snippets End-->
+
+        <!-- Footer Snippets start-->
+        <template id="tailor_footer" name="Tailor Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/theme_tailor_ultimate_01/static/src/img/logo.png" alt="Logo of YourCompany"
+                                     title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="media">
+                                    <i class="fa fa-map-marker mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Address :</p>
+                                        <p class="o_default_snippet_text">
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <i class="fa fa-phone mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Call us &amp;amp; Hire us
+                                            :
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <span t-field="res_company.phone"/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1 text-epsilon"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1 text-epsilon"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1 text-epsilon"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1 text-epsilon"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class="o_default_snippet_text">
+                                    <b class="o_default_snippet_text">Usefull Links</b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title="">
+                                            <font class="text-epsilon o_default_snippet_text" style="">Good Tailor
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip731151">
+                                            <font class="text-epsilon o_default_snippet_text" style="">Services</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8"/>
+                                    <li class="mb8">
+                                        <font color="#57c778" class="o_default_snippet_text text-epsilon" style="">
+                                            Blog
+                                        </font>
+                                    </li>
+                                    <li/>
+                                    <li class="mb8"/>
+                                    <li class="mb8">
+                                        <font color="#57c778" class="o_default_snippet_text text-epsilon" style="">About
+                                            Us
+                                        </font>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip803078">
+                                            <div data-original-title="" title="" aria-describedby="tooltip225362"
+                                                 class="o_default_snippet_text">
+                                                <font class="text-epsilon o_default_snippet_text" style="">Shop&amp;nbsp;</font>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="mb8"/>
+                                    <li class="mb8">
+                                        <font color="#57c778" class="o_default_snippet_text text-epsilon" style="">
+                                            Contacts
+                                        </font>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip533556">
+                                            <font class="text-epsilon o_default_snippet_text" style="">Theme
+                                                Customization&amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip695325">
+                                            <font class="text-epsilon o_default_snippet_text" style="">Site Templates
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24 o_default_snippet_text">
+                                    <b>Latest Post</b>
+                                </h5>
+                                <p class="mb8 o_default_snippet_text">Mohn is a Multi-Purpose Theme</p>
+                                <p class="o_default_snippet_text">26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">Mohn is a Multi-Purpose Theme</p>
+                                <p class="o_default_snippet_text">26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">Mohn is a Multi-Purpose Theme</p>
+                                <p class="o_default_snippet_text">26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">Mohn is a Multi-Purpose Theme</p>
+                                <p class="o_default_snippet_text">26 January,2019</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24 o_default_snippet_text">
+                                    <b>Our Newsletter</b>
+                                </h5>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Tailor Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_mid_header"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_banner"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_about_us"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_counter"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_featured_product"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_left_content"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_gallery"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_right_content"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_team_content"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_cta"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_news"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tailor_ultimate_01.tailor_footer"
+                           t-thumbnail="/theme_tailor_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+
+    </data>
+</odoo>

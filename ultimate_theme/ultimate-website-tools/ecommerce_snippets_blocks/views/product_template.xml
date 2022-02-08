@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="product_assets_frontend"
+              inherit_id="website_sale.product" name="Multi Image Vertical"
+              active="False" customize_show="True">
+        <xpath expr="//div" position="after">
+            <link href="/ecommerce_snippets_blocks/static/src/scss/product_multi_image.css"
+                  type="text/css" rel="stylesheet"/>
+            <script src="/ecommerce_snippets_blocks/static/src/js/jquery.mCustomScrollbar.min.js"
+                    type="text/javascript"/>
+            <script>
+                $(document).ready(function() {
+                $("#o-carousel-product").mCustomScrollbar({
+                axis: "y",
+                theme: "minimal-dark",
+                });
+                });
+            </script>
+        </xpath>
+    </template>
+
+
+    <template id="product_searchbox_hide"
+              inherit_id="website_sale.products" customize_show="True"
+              active="False" name="Remove Serachbox From Shop">
+        <xpath expr="//t[@t-call='website_sale.search']" position="replace">
+        </xpath>
+    </template>
+
+    <!--Single Product Page Start -->
+
+    <!-- Remove Searchbox From Pager Start -->
+    <template id="product_inherit_searchbox"
+              inherit_id="website_sale.product">
+        <xpath expr="//t[@t-call='website_sale.search']" position="replace">
+        </xpath>
+    </template>
+    <!-- Remove Searchbox From Pager End -->
+
+    <!-- Resize Breadcrumb Size Start -->
+    <template id="breadcrumb_inherit" inherit_id="website_sale.product">
+        <xpath expr="//section[@id='product_detail']/div/div[@class='col-md-4']"
+               position="attributes">
+            <attribute name="class">col-sm-8</attribute>
+        </xpath>
+    </template>
+    <!-- Resize Breadcrumb Size Start -->
+
+    <template id="website_product_page_layout_73lines.product_comment_new"
+              inherit_id="website_product_page_layout_73lines.product_description_new_style"
+              active="False" customize_show="True"
+              name="Discussion and Rating">
+        <xpath expr="//li[@id='li-full-desc']" position="after">
+            <li id="li-comment">
+                <a class="nav-link" href="#full-comment" data-toggle="tab">
+                    <strong>Discussion and Rating</strong>
+                </a>
+            </li>
+        </xpath>
+        <xpath expr="//div[@id='full-desc']" position="after">
+            <div class="tab-pane fade" id="full-comment">
+                <div class="section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1 pt32 pb32">
+                                <div class="text-muted">
+                                    <h5>
+                                        <i class="fa fa-comment-o"/>
+                                        <a id="comments">
+                                            <t t-if="len(product.website_message_ids) &lt;= 1">
+                                                <t t-esc="len(product.website_message_ids)"/>
+                                                comment
+                                            </t>
+                                            <t t-if="len(product.website_message_ids) > 1">
+                                                <t t-esc="len(product.website_message_ids)"/>
+                                                comments
+                                            </t>
+                                        </a>
+                                    </h5>
+                                </div>
+                                <t t-call="portal.message_thread">
+                                    <t t-set="object" t-value="product"/>
+                                    <t t-set="display_rating" t-value="True"/>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Remove Default Price List Button -->
+    <template id="remove_pricelist_show_product"
+              inherit_id="website_sale.product">
+        <xpath expr="//t[@t-call='website_sale.pricelist_list']"
+               position="replace">
+        </xpath>
+    </template>
+
+    <!-- Alternative Product Design Start-->
+    <template id="website_sale.recommended_products"
+              inherit_id="website_sale.product" customize_show="True"
+              name="Alternative Products">
+        <xpath expr="//div[@id='product_full_description']" position="after">
+            <div class="container mt32" t-if="product.alternative_product_ids">
+                <h3>Alternative Products:</h3>
+
+                <div class="container">
+                    <div class="row mb16 mt16" style="">
+                        <div class="col-lg-12">
+                            <div class="row owl-carousel owl-theme">
+                                <t t-foreach="product.alternative_product_ids"
+                                   t-as="alt_product">
+                                    <div class="col-md-12"
+                                         id="ultimate_alt_product">
+                                        <div class="item">
+                                            <div class="oe_product oe-height-4"
+                                                 style="">
+                                                <div class="mt16 text-center"
+                                                     style="height: 100%;">
+                                                    <t t-set="combination_info"
+                                                       t-value="alt_product._get_combination_info()"/>
+                                                    <t t-set="product_variant"
+                                                       t-value="alt_product.env['product.product'].browse(combination_info['product_id'])"/>
+                                                    <div t-if="product_variant"
+                                                         t-field="product_variant.image"
+                                                         t-options="{'widget': 'image', 'class': 'o_alternative_product' }"/>
+                                                    <div t-else=""
+                                                         t-field="alt_product.image"
+                                                         t-options="{'widget': 'image', 'class': 'o_alternative_product' }"/>
+                                                    <h6>
+                                                        <a t-attf-href="/shop/product/#{ slug(alt_product) }"
+                                                           style="display: block">
+                                                            <span t-att-title="alt_product.name"
+                                                                  t-field="alt_product.name"
+                                                                  class="o_text_overflow"
+                                                                  style="display: block;"/>
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="row mt16" style="">
+         <div class="col-md-12">
+                        <div class="owl-carousel owl-theme">
+                        <div class="col-lg-4 col-md-4 oe_product oe-height-4" style="">
+                            <div class="mt16 text-center" style="height: 100%;">
+                                <t t-set="combination_info" t-value="alt_product._get_combination_info()"/>
+                                <t t-set="product_variant" t-value="alt_product.env['product.product'].browse(combination_info['product_id'])"/>
+                                <div t-if="product_variant" t-field="product_variant.image" t-options="{'widget': 'image', 'class': 'o_alternative_product' }" />
+                                <div t-else="" t-field="alt_product.image" t-options="{'widget': 'image', 'class': 'o_alternative_product' }" />
+                                <h6>
+                                    <a t-attf-href="/shop/product/#{ slug(alt_product) }" style="display: block">
+                                        <span t-att-title="alt_product.name" t-field="alt_product.name" class="o_text_overflow" style="display: block;" />
+                                    </a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </xpath>
+
+
+    </template>
+    <!-- Alternative Product Design End-->
+    <!--Single Product Page  End-->
+
+</odoo>

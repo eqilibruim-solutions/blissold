@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template name="Tab 5" id="tab_5">
+
+        <section class="pt64 pb64" id="tab_5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb48 text-center">
+                        <h2>Headline</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <nav>
+                            <div class="nav nav-tabs flex-lg-column">
+                                <a class="nav-item nav-link active px-2 py-4 flex-fill justify-content-lg-start"
+                                   data-toggle="tab" href="#a">
+                                    <h3>who?</h3>
+                                </a>
+                                <a class="nav-item nav-link px-2 py-4 flex-fill justify-content-lg-start"
+                                   data-toggle="tab" href="#b">
+                                    <h3>what?</h3>
+                                </a>
+
+                                <a class="nav-item nav-link px-2 py-4 flex-fill justify-content-lg-start"
+                                   data-toggle="tab" href="#c">
+                                    <h3>where?</h3>
+                                </a>
+
+                                <a class="nav-item nav-link px-2 py-4 flex-fill justify-content-lg-start"
+                                   data-toggle="tab" href="#d">
+                                    <h3>why?</h3>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                        <div class="tab-content p-3">
+                            <div class="tab-pane  fade show active" id="a">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                    ab reprehenderit officia neque doloremque obcaecati quam, cum a
+                                    vitae numquam nam recusandae est necessitatibus, autem
+                                    praesentium, eum quia veritatis quae?
+                                </p>
+                            </div>
+                            <div class="tab-pane  fade" id="b">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                    reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                    numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                    veritatis quae?
+                                </p>
+                            </div>
+                            <div class="tab-pane  fade" id="c">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                    reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                    numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                    veritatis quae?
+                                </p>
+                            </div>
+                            <div class="tab-pane  fade" id="d">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                    reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                    numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                    veritatis quae?
+                                </p>
+                            </div>
+                            <div class="tab-pane  fade" id="e">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+                                    reprehenderit officia neque doloremque obcaecati quam, cum a vitae
+                                    numquam nam recusandae est necessitatibus, autem praesentium, eum quia
+                                    veritatis quae?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

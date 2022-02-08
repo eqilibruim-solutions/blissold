@@ -1,0 +1,641 @@
+<odoo>
+    <data>
+        <!--Banner Snippets start-->
+        <template id="lab_banner" name="Lab Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_lab_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 48px; text-align: center;">MEDICAL LABORATORY &amp;amp;
+                                RESEARCH&amp;nbsp;
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text"
+                               style="text-align: center;">Write one or two paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Banner Snippets End-->
+
+        <!--Feature Snippets start-->
+        <template id="lab_feature" name="Lab Feature">
+            <section class="pb64 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_lab_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;">&amp;nbsp;LABORATORY
+                                                    SERVICES
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_lab_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <b>
+                                                <font style="font-size: 18px;">ANALITICAL TECHNIQUES
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_lab_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <div class="media-body">
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;">LEBORATORY
+                                                    ACCREDITATION
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Feature Snippets End-->
+        <!--Right Content Snippets start-->
+        <template id="lab_right_content" name="Lab Right Content">
+            <section class="pt64 pb40">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb32">
+                            <img src="/theme_lab_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 class="img-fluid pt8 pb8  mx-auto d-block" data-original-title=""
+                                 title="" aria-describedby="tooltip553925"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h2>
+                                <b>DISCOVERIES TO CHANGE LIVES</b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h4 class="mb8 mt8">
+                                        <b>
+                                            <font style="font-size: 18px;">CHEMICAL RESEARCH</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h4 class="mt8 mb8">
+                                        <b>
+                                            <font style="font-size: 18px;">PATHOLOGY TESTING</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h4 class="mt8 mb8">
+                                        <b>
+                                            <font style="font-size: 18px;">ANATOMICAL PATHOLOGY</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h4 class="mb8 mt8">
+                                        <b>
+                                            <font style="font-size: 18px;">ENVIRONMENTAL TESTING</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Right Content Snippets End-->
+
+        <!--Counter Snippets start-->
+        <template id="lab_counter" name="Lab Counter">
+            <section class="bg-alpha oe_custom_bg pt24 pb16" id="counter_10" style="">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 pt16">
+                            <div>
+                                <h2>
+                                    <font style="color: rgb(255, 255, 255); font-size: 62px;">
+                                        <b>10</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="color: rgb(255, 255, 255);">AWARD SHOWS</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 pb0 pt16">
+                            <div>
+                                <h2 class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 62px;">
+                                        <b>900</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="color: rgb(255, 255, 255);">PERMENENT STAFF</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 pt16">
+                            <div>
+                                <h2>
+                                    <font style="color: rgb(255, 255, 255); font-size: 62px;">
+                                        <b>400</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font color="#ffffff">YEARS OF EXPERIENCE</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16 pt16">
+                            <div>
+                                <h2 class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 62px;">
+                                        <b>700</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="color: rgb(255, 255, 255);">SUPPLIERS</font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Counter Snippets End-->
+
+        <!--Team Snippets start-->
+        <template id="lab_team" name="Lab Team">
+            <section id="team_5" class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="m-auto mb48 text-alpha col-12">
+                            <b>LAD BY PASSIONATE EXPERTS</b>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_lab_ultimate_01/static/src/img/placeholder-190x318.png"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">ELSA MINOR</h5>
+                                    <div class="card-text text-black-50">DESIGNER</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_lab_ultimate_01/static/src/img/placeholder-190x318.png"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">MILTON GLESOR</h5>
+                                    <div class="card-text text-black-50">MANAGER</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_lab_ultimate_01/static/src/img/placeholder-190x318.png"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">ALENA JONSON</h5>
+                                    <div class="card-text text-black-50 o_default_snippet_text">
+                                        Programmer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_lab_ultimate_01/static/src/img/placeholder-190x318.png"
+                                     class="card-img-top" alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">SAMIRA REDDY</h5>
+                                    <div class="card-text text-black-50">CEO</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Team Snippets End-->
+
+        <!--Left Content Snippets start-->
+        <template id="lab_left_content" name="Lab Left Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_lab_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row justify-content-left">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 right bg-light text-center pt64 pb64">
+                            <h2 style="text-align: center;">
+                                <b>EXPLORE OUR MAIN SERVICES</b>
+                            </h2>
+                            <p class="pt32 pb32 px-5 o_default_snippet_text"
+                               style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <a href="#" class="text-decoration-none mt64 mb64" data-original-title=""
+                               title="" aria-describedby="tooltip397754">Lern More
+                                <i class="fa fa-chevron-right"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Left Content Snippets End-->
+
+        <!--About Us Snippets start-->
+        <template id="lab_about_us" name="Lab About Us">
+            <section class="oe_custom_bg pt120 pb104" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h2>
+                                <b>GET INTO THE FACTORIES</b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h4 class="mt8 mb8">
+                                        <b>
+                                            <font style="font-size: 16px;">STANDARED DIGITAL NEWS</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h4 class="mb8 mt8">
+                                        <b>
+                                            <font style="font-size: 16px;">WARM &amp;amp; HUMID, A
+                                                STICKY DAY
+                                            </font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb16">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-md-12 col-sm-12 mb16">
+                                    <img alt="image" class="img-fluid d-block mx-auto"
+                                         src="/theme_lab_ultimate_01/static/src/img/placeholder-190x318.png"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip887455"/>
+                                </div>
+                                <div class="col-12 col-lg-7 col-md-12 col-sm-12">
+                                    <p>
+                                        <br/>
+                                    </p>
+                                    <h3>
+                                        <br/>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text
+                                        of the printing and typesetting industryLorem Ipsum is
+                                    </p>
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;">LETEST NEWS &amp;amp;
+                                                EVENTS
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p>Loprem Ipsum
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--About Us Snippets End-->
+
+        <!--Letest News Snippets start-->
+        <template id="lab_news" name="Lab Letest News">
+            <section class="pt64 pb64 bg-alpha oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_lab_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Image" title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>
+                                        <font style="" class="text-alpha">
+                                            <b>BY ASSISTANT</b>
+                                        </font>
+                                    </p>
+                                    <p>
+                                        <font color="#041c4e">
+                                            <span style="color: rgb(4, 28, 78); font-size: 18px;">
+                                                <b>Equipping Researcher in the Developing World</b>
+                                            </span>
+                                        </font>
+                                    </p>
+                                    <p class="o_default_snippet_text">
+                                        <font class="text-gamma" style="">Lorem Ipsum is simply dummy
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy. &amp;nbsp;
+                                        </font>
+                                    </p>
+                                    <a href="#" target="_blank" data-original-title="" title=""
+                                       aria-describedby="tooltip652606">READ MORE&amp;nbsp;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_lab_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Image" title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>
+                                        <font style="" class="text-alpha">
+                                            <b>BY ADMIN
+                                                <a href="#" target="_blank"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip652606"
+                                                   style="background-color: rgb(255, 255, 255); font-size: 14px;">
+                                                    &amp;nbsp;
+                                                </a>
+                                            </b>
+                                        </font>
+                                    </p>
+                                    <p>
+                                        <font style="color: rgb(4, 28, 78); font-size: 18px;">
+                                            <b>Should We Trust Computer Aided Weapons Modeling?</b>
+                                        </font>
+                                    </p>
+                                    <p class="o_default_snippet_text">
+                                        <font class="text-gamma" style="">Lorem Ipsum is simply dummy
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy. &amp;nbsp;
+                                        </font>
+                                    </p>
+                                    <a href="#" target="_blank" data-original-title="" title=""
+                                       aria-describedby="tooltip443425">READ MORE</a>&amp;nbsp;&amp;nbsp;E
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_lab_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Image" title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>
+                                        <font style="" class="text-alpha">
+                                            <b>BY USER
+                                                <a href="#" target="_blank"
+                                                   data-original-title="" title=""
+                                                   aria-describedby="tooltip652606"
+                                                   style="background-color: rgb(255, 255, 255); font-size: 14px;">
+                                                    &amp;nbsp;
+                                                </a>
+                                            </b>
+                                        </font>
+                                    </p>
+                                    <p>
+                                        <font style="color: rgb(4, 28, 78); font-size: 18px;">
+                                            <b>Books Review : Clienical Research Complience Manual</b>
+                                        </font>
+                                    </p>
+                                    <p class="o_default_snippet_text">
+                                        <font class="text-gamma" style="">Lorem Ipsum is simply dummy
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy.
+                                        </font>
+                                    </p>
+                                    <a href="#" target="_blank"
+                                       data-original-title="" title="" aria-describedby="tooltip443425"
+                                       style="background-color: rgb(255, 255, 255);">READ MORE</a>E
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Letest News Snippets End-->
+
+        <!--Footer Snippets start-->
+        <template id="lab_footer" name="Lab Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 oe_custom_bg pb0" id="footer_3" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy.
+                                </p>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1 text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip605045" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip932373" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1 text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip124226" style=""/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1 text-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip123500" style=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 class="o_default_snippet_text">Usefull Links</h5>
+                                <ul class="list-unstyled text-uppercase mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip207032"/>
+                                    </li>
+                                    <li class="mb8"><a href="#" target="_blank" data-original-title=""
+                                                       title="">s</a>ample preparation
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip893735">healthcare labs
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title=""
+                                           title="" aria-describedby="tooltip844817">a
+                                        </a>
+                                        dvanced microscopy
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip249153">chemical research
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip180981">pathology testing
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip918258">
+                                            <br/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 pb16">
+                                <h5 class="mb16 o_default_snippet_text">Need Help</h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">Contact
+                                            Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">Our
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li>Products</li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip70143">Services&amp;nbsp;
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">FAQs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24 o_default_snippet_text">Letest Post</h5>
+                                <p class="mb8">Lab is a Multi-Purpose Theme</p>
+                                <p>26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8">Lab is a Multi-Purpose Theme</p>
+                                <p>26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8">Lab is a Multi-Purpose Theme</p>
+                                <p>26 January,2019</p>&amp;nbsp;
+                                <hr class="m-0"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Lab Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_lab_ultimate_01.lab_banner"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_feature"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_right_content"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_counter"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_team"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_left_content"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_about_us"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_news"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_lab_ultimate_01.lab_footer"
+                           t-thumbnail="/theme_lab_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+    </data>
+</odoo>

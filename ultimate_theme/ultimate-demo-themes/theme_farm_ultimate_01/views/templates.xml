@@ -1,0 +1,1042 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="farm_banner" name="Farm Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_farm_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_text" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font class="text-alpha" style="font-size: 20px;">
+                                    <b>Grow Naturally , Live Natural</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_title pb16" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font color="#ffffff">Organic &amp;amp; Natural
+                                    <br/>
+                                    <b>Farming Foods</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mt8 mb8 btn btn-primary rounded-circle"
+                               data-original-title="" title="" aria-describedby="tooltip454177">
+                                <b>Read More</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="farm_features" name="Farm Features">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <div class="shadow pt48 pb48 px-3">
+                                        <i class="fa fa-3x fa-calculator"/>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 30px;">Healthy Food</font>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Ut at semper metus.
+                                                Vestibulum gravida velit urna, ut mattis leo ullamcorper
+                                                sed.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <div class="shadow pt48 pb48 px-3">
+                                        <i class="fa fa-3x fa-life-ring"/>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 30px;">Hard Workers</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Ut at semper metus.
+                                                Vestibulum gravida velit urna, ut mattis leo ullamcorper
+                                                sed.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <div class="shadow pt48 pb48 px-3">
+                                        <i class="fa fa-3x fa-user-o"/>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 30px;">Best Equipment</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Ut at semper metus.
+                                                Vestibulum gravida velit urna, ut mattis leo ullamcorper
+                                                sed.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Right Content Start-->
+        <template id="farm_right_content" name="Farm Right Content">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="mobile" class="img-fluid pt8 pb8 mx-auto d-block"
+                                 data-original-title="" title="" aria-describedby="tooltip730567"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <h2>
+                                <font style="font-size: 40px;">
+                                    <b>Eco-Friendly Products Can Be Made From Scratch</b>
+                                </font>
+                            </h2>
+                            <h6>
+                                <font style="font-size: 20px;">
+                                    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore.
+                                    </b>
+                                </font>
+                            </h6>
+                            <p class="pt16">
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Pellentesque fermentum est in tortor congue
+                                    suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </font>
+                            </p>
+                            <p class="pb16">
+                                <font style="font-size: 15px;">Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                    architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi
+                                    nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                                    amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                                    tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                    voluptatem.
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Left Content Start-->
+        <template id="farm_left_content" name="Farm Left Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 40px;">We Provide High-Quality Organic
+                                        Products
+                                    </font>
+                                </b>
+                            </h2>
+                            <h6>
+                                <span style="background-color: rgb(248, 249, 250); font-size: 20px; font-weight: bolder;"
+                                      class="text-alpha">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore.
+                                </span>
+                                <br/>
+                            </h6>
+                            <p class="pt16">
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Pellentesque fermentum est in tortor congue
+                                    suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </font>
+                            </p>
+                            <p class="pb16">
+                                <font style="font-size: 15px;">Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                    architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi
+                                    nesciunt. Neque porro quisquam est.
+                                </font>
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg rounded-0" data-original-title=""
+                               title="" aria-describedby="tooltip349138">
+                                <b>Contact Us</b>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="mobile" class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Services Start-->
+        <template id="farm_services" name="Farm Services">
+            <section class="sni-block pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <font style="font-size: 40px;" class="text-alpha">
+                                    <b class="o_default_snippet_text">Our Main Services</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb16">
+                            <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip730567"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">s
+                                    <div class="shadow bg-white pt48 pb48">
+                                        <img alt="image" class="sni-block-icon mb16 d-block mx-auto"
+                                             src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip647877"/>
+                                        <h3 style="text-align: center; ">
+                                            <font style="font-size: 22px;" class="o_default_snippet_text">Crop
+                                                Protection
+                                            </font>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">
+                                    <div class="shadow bg-white pt48 pb48">
+                                        <img alt="image" class="sni-block-icon mb16 d-block mx-auto"
+                                             src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip37661"/>
+                                        <h3 style="text-align: center; ">
+                                            <font style="font-size: 22px;" class="o_default_snippet_text">Lawn &amp;
+                                                Garden Care
+                                            </font>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">
+                                    <div class="shadow bg-white pt48 pb48">
+                                        <img alt="image" class="sni-block-icon mb16 d-block mx-auto"
+                                             src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip719102"/>
+                                        <h3 style="text-align: center; ">
+                                            <font style="font-size: 22px;" class="o_default_snippet_text">Irrigation
+                                                &amp; Drainage
+                                            </font>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">
+                                    <div class="shadow bg-white pt48 pb48">
+                                        <img alt="image" class="sni-block-icon mb16 d-block mx-auto"
+                                             src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip464431"/>
+                                        <h3 style="text-align: center; ">
+                                            <font style="font-size: 22px;" class="o_default_snippet_text">Forest &amp;
+                                                Tree Planting
+                                            </font>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Counter Start-->
+        <template id="farm_counter" name="Farm Counter">
+            <section class="pt64 pb64" id="counter_15"
+                     style="/* background-image: url(&quot;/business_snippet_blocks_core/static/src/img/common-images/counter-img1.jpg &quot;); */background-repeat: no-repeat;background-size: cover;/* background-attachment: fixed; */position:relative;">
+                <div class="ec-common-overlay"
+                     style="/* background-color: rgba(0,0,0,0.44); */z-index:0;"/>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 40px;" class="text-alpha">Some Interesting
+                                        Facts
+                                    </font>
+                                </b>
+                            </h2>
+                            <p>
+                                <span style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="open_book"
+                                     class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="color: rgb(255, 0, 0); font-size: 42px;">
+                                        <b>250+</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <b>
+                                        <font style="font-size: 18px;">Organic Orchards</font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="android"
+                                     class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="color: rgb(239, 198, 49); font-size: 40px;">
+                                        <b>15+</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <b>
+                                        <font style="font-size: 18px;">Plant Nurseries</font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="icon-1"
+                                     class="img-fluid image" data-original-title="" title=""
+                                     aria-describedby="tooltip393268"/>
+                                <h2 class="pt16 pt6">
+                                    <b>
+                                        <font style="color: rgb(255, 156, 0); font-size: 40px;">100+
+                                        </font>
+                                    </b>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Environmentalists</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="text-white pt24 pb24">
+                                <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                     alt="unicorn"
+                                     class="img-fluid image"/>
+                                <h2 class="pt16 pt6">
+                                    <font style="color: rgb(57, 132, 198); font-size: 40px;">
+                                        <b>15+</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Years Of Farming</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="farm_testimonial" name="Farm Testimonial">
+            <section class="pt64 pb64 bg-200" id="testimonials_d1">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font class="text-alpha" style="font-size: 40px;">
+                                    <b>Client's World</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1571901139022"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1571901139022" data-slide-to="0"/>
+                        <li data-target="#myCarousel1571901139022" data-slide-to="1" class="active"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_farm_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_farm_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_farm_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_farm_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1571901139022"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1571901139022"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Shop Start-->
+        <template id="farm_shop" name="Farm Shop">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <b>
+                                    <font class="text-alpha" style="font-size: 40px;">Our Grown Up
+                                        Plants
+                                    </font>
+                                </b>
+                            </h2>
+                            <p>
+                                <span style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image" title="Image" class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <font style="font-size: 26px;">Healthy Tomatoes</font>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="font-size: 18px;" class="text-alpha">
+                                    <b>$99</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image" title="Image" class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <font style="font-size: 26px;">Sweet Paprica</font>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="font-size: 18px;" class="text-alpha">
+                                    <b>$99</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image" title="Image" class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <font style="font-size: 26px;">Tasty Potatoes</font>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="font-size: 18px;" class="text-alpha">
+                                    <b>$99</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image" title="Image" class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">
+                                <font style="font-size: 26px;">Yummy Peaches</font>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="font-size: 18px;" class="text-alpha">
+                                    <b>$99</b>
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Shop End-->
+
+        <!--Snippet News Start-->
+        <template id="farm_news" name="Farm News">
+            <section class="pt64 pb64" id="news_two">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb64">
+                            <h2>
+                                <b>
+                                    <font class="text-alpha" style="font-size: 40px;">Check Our Recent
+                                        Posts
+                                    </font>
+                                </b>
+                            </h2>
+                            <p>
+                                <span style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 24px;">Tips for
+                                                Ripening your Fruit
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Ad assumenda culpa cumque dicta
+                                        sint soluta voluptas eius iusto modi reprehenderit sint soluta
+                                        voluptas.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2016
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn" data-original-title="" title=""
+                                            aria-describedby="tooltip897498">Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 24px;">Health
+                                                Benefits of a Raw Food
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Ad assumenda culpa cumque dicta
+                                        sint soluta voluptas eius iusto modi reprehenderit sint soluta
+                                        voluptas.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2 o_default_snippet_text">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2016
+                                        </li>
+                                        <li>
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip445887"/>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn o_default_snippet_text">Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_farm_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip435658">
+                                            <font class="text-beta" style="font-size: 24px;">Superfoods
+                                                you should be eating
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Ad assumenda culpa cumque dicta
+                                        sint soluta voluptas eius iusto modi reprehenderit sint soluta
+                                        voluptas.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2016
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn o_default_snippet_text">Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Team Start-->
+        <template id="farm_team" name="Farm Team">
+            <section class="pt64 pb64" id="img_hover_effect_3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-12 col-sm-12 pb48 text-center">
+                            <h2 style="text-align: left; ">
+                                <font class="text-alpha" style="font-size: 40px;">
+                                    <b>Meet Our Great Teem</b>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text" style="text-align: left; ">
+                                <font style="font-size: 15px;">Lorem Ipsum is simply dummy text of the
+                                    printing. &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-3 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_farm_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text">Lara Christine</h2>
+                                    <p>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-3 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_farm_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text">Dan Western</h2>
+                                    <p>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-3 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_farm_ultimate_01/static/src/img/placeholder-image-350x350.png"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text">Mark Steven</h2>
+                                    <p>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="farm_brand_logo" name="Farm Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_farm_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_farm_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_farm_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_farm_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_farm_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_farm_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="farm_newsletter" name="Farm Newsletter">
+            <section class="pt64 pb64" id="footer_7">
+                <div class="container">
+                    <div class="align-items-center row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <h6>
+                                <b>
+                                    <font style="font-size: 40px;">Subscribe Us To Get More Info</font>
+                                </b>
+                            </h6>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-1">
+                            <div class="input-group js_subscribe hidden" data-list-id="1"
+                                 data-subscribe="off">
+                                <input type="email" name="email" style="height:55px;"
+                                       class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..."/>
+                                <span class="input-group-btn">
+                                    <a href="#"
+                                       class="btn br-right px-4 py-3 btn-primary js_subscribe_btn"
+                                       data-original-title="" title="" aria-describedby="tooltip894584">
+                                        <b>Subscribe Now</b>
+                                    </a>
+                                    <a href="#"
+                                       class="btn br-right px-4 py-3 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                    Thanks for your subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Footer Start-->
+        <template id="farm_footer" name="Farm Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="font-weight-bold mb16 o_default_snippet_text">
+                                    <font class="text-delta" style="font-size: 22px;">About Us</font>
+                                </h5>
+                                <p>
+                                    <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat.
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="font-weight-bold mb16">
+                                    <font class="text-delta" style="font-size: 22px;">Latest News</font>
+                                </h5>
+                                <div class="media mb8">
+                                    <img alt="image" class="img-fluid mr-2"
+                                         src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                         data-original-title=""
+                                         title="" aria-describedby="tooltip704454" theme_farm_ultimate_01="" static=""
+                                         img=""/>
+                                    <div class="media-body mt8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="font-size: 15px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip649091">Prepare for the storm season.
+                                            </font>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mr-2"
+                                         src="/theme_farm_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                                    <div class="media-body mt8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-delta" style="font-size: 15px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip823028">Rural infrastructure for
+                                                Agriculture.
+                                            </font>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font class="text-delta" style="font-size: 22px;">
+                                        <b>Services</b>
+                                    </font>
+                                </h5>
+                                <p class="mb8">
+                                    <font style="font-size: 15px;">Farm Supplies</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 15px;">Crop Protection</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 15px;">Lawn and Garden Care</font>
+                                </p>
+                                <p class="mb8">
+                                    <font style="font-size: 15px;">Forest and Tree Planting</font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="font-weight-bold mb16 o_default_snippet_text">
+                                    <font class="text-delta" style="font-size: 22px;">Contact Info</font>
+                                </h5>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-home mr-3 mt-1" style="font-size: 15px;"/>
+                                    <div class="media-body">
+                                        <font style="font-size: 15px;">
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-envelope-o mr-3 mt-1" style="font-size: 15px;"/>
+                                    <div class="media-body">
+                                        <font style="font-size: 15px;">
+                                            <span t-field="res_company.email"/>
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-phone mr-3 mt-1" style="font-size: 15px;"/>
+                                    <div class="media-body">
+                                        <font style="font-size: 15px;">
+                                            <span t-field="res_company.phone"/>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Farm Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_farm_ultimate_01.farm_banner"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_features"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_right_content"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_left_content"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_services"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_counter"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_testimonial"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_shop"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_news"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_team"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_brand_logo"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_newsletter"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_farm_ultimate_01.farm_footer"
+                           t-thumbnail="/theme_farm_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

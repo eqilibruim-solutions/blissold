@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_1</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_1</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-5-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_2</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_2</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-8-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_3</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_3</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/latest-post-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_4</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_4</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/team-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_5</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_5</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-4-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_6</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_6</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/videos-bg-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_7</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_7</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-6-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_8</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_8</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/banner-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_9</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_9</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/features-img-bg-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_10</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_10</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_11</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_11</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/blog-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_12</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_12</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/team-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_13</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_13</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/editor-choice-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_14</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_14</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_15</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_15</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-7-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_16</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_16</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/blog-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_17</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_17</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/gallery-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_18</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_18</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/team-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_19</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_19</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/editor-choice-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_20</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_20</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/editor-choice-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_21</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_21</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/latest-post-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_22</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_22</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/latest-post-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_recipes_ultimate_01.image_content_23</field>
+            <field name="name">theme_recipes_ultimate_01.image_content_23</field>
+            <field name="url">/theme_recipes_ultimate_01/static/src/img/library/blog-2-min.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

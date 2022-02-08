@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="paperformat_barcode" model="report.paperformat">
+            <field name="name">Barcode</field>
+            <field name="default" eval="True" />
+            <field name="format">custom</field>
+            <field name="page_height">28</field>
+            <field name="page_width">89</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">2</field>
+            <field name="margin_bottom">2</field>
+            <field name="margin_left">2</field>
+            <field name="margin_right">2</field>
+            <field name="header_line" eval="False" />
+            <field name="header_spacing">0</field>
+            <field name="dpi">100</field>
+        </record>
+
+        <template id="report_product_template" name="Product Barcode">
+            <t name="Product Barcode" t-name="report_product_template">
+                <t t-foreach="docs" t-as="line">
+                <t t-call="web.basic_layout">
+                    <div class="page">
+                            <!-- <t t-foreach="range(line.qty_done)" t-as="l"> -->
+                                <div class="row pull-right">
+                                <t t-if="line.barcode">
+                                    <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', line.barcode, 600, 120)" style="max-height:25pt;max-width:100%;" align="center"/>
+                                </t>
+                                <t t-if="not line.barcode">
+                                    <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', line.default_code, 600, 90)" style="max-height:25pt;max-width:100%;" align="center"/>
+                                </t>
+                                </div>
+                                <div class="row" style="font-size:15px">
+                                    <span t-if="line.barcode" t-field="line.barcode"/>
+                                    <span t-if="not line.barcode" t-field="line.default_code"/>
+                                </div>
+                                <div class="row" style="font-size:20px"><center><span t-esc="line.name[0:35]"/></center></div>
+                    
+                                <strong>
+                                <div style="font-size:20px">
+                                    <span class="pull-right" t-field="line.uom_id"/>
+                                    <span class="pull-right"> / </span>
+                                    <span class="pull-right" t-field="line.list_price" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: res_company.currency_id}"/> 
+                                </div>
+                                </strong>
+                    </div>
+                </t>
+            </t>
+        </t>
+        </template>
+
+        <template id="report_product_product" name="Product Barcode">
+                <t t-foreach="docs" t-as="line">
+                <t t-call="web.basic_layout">
+                    <div class="page">
+                            <!-- <t t-foreach="range(line.qty_done)" t-as="l"> -->
+                                  <div>  
+                                    <center><b t-esc="user.company_id.name"/></center>
+                                  </div>
+                              <small>
+                                    <table style="width: 100%">
+                                    <tr>
+                                    <t t-foreach="line.attribute_value_ids" t-as="attribute">
+                                      <td style="text-align:left">
+                                        <small>
+                                        <b t-field="attribute.attribute_id"/>:<span t-field="attribute.name"/>
+                                        </small>
+                                      </td>
+                                    </t>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:left">
+                                        <small>
+                                        <span t-if="line.barcode" t-field="line.barcode"/>
+                                        <span t-if="not line.barcode" t-field="line.default_code"/>
+                                        </small>
+                                      </td>
+                                      <td style="text-align:left">
+
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:left">
+                                        <t t-if="line.barcode">
+                                            <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', line.barcode, 600, 130)" style="max-height:30pt;max-width:100%;" align="center"/>
+                                        </t>
+                                        <t t-if="not line.barcode">
+                                            <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', line.default_code, 600, 100)" style="max-height:30pt;max-width:100%;" align="center"/>
+                                        </t>
+                                      </td>
+                                      <td>
+                                          <b t-field="line.list_price" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: res_company.currency_id}"/> 
+                                      </td>
+                                    </tr>
+                                    </table>
+                                    <div class="row">
+                                      <div >
+                                      <small>
+                                        <span t-esc="line.name[0:35]"/>
+                                      </small>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      
+                                      <div>
+                                        <small>
+                                          <b t-field="line.product_brand_id"/>
+                                        </small>
+                                      </div>
+                                    </div>
+                      </small>
+                    </div>
+                                    
+                </t>
+            </t>
+        </template>
+
+        <report
+            id="action_report_product_template"
+            model="product.template"
+            report_type="qweb-pdf"
+            string="Product Barcode"
+            paperformat="solibre_useability.paperformat_barcode"
+            name="solibre_useability.report_product_template"
+            file="solibre_useability.report_product_template" />        
+
+        <report
+            id="action_report_product_product"
+            model="product.product"
+            report_type="qweb-pdf"
+            string="Product Barcode"
+            paperformat="solibre_useability.paperformat_barcode"
+            name="solibre_useability.report_product_product"
+            file="solibre_useability.report_product_product" /> 
+
+    </data>
+</odoo>

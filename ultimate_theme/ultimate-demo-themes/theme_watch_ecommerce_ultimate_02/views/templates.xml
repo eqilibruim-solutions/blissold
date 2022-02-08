@@ -1,0 +1,591 @@
+<odoo>
+    <data>
+        <!--Snippet Banner start-->
+        <template id="watch2_banner" name="Watch 2 Banner">
+            <section class="pt64 pb64" id="image_grid_10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8 col-lg-8 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-12 px-2 pb16">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid10">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content">
+                                                <h3 class="pb16 title">
+                                                    <font class="text-epsilon" style="">men choice</font>
+                                                </h3>
+                                                <div class="social">
+                                                    <a class="flat btn btn-epsilon flat" href="#" style=""
+                                                       data-original-title="" title="" aria-describedby="tooltip742320">
+                                                        READ MORE
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-12 px-2 pb16">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid10">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content">
+                                                <h3 class="pb16 title">
+                                                    <font class="text-epsilon" style="">women choice</font>
+                                                </h3>
+                                                <div class="social">
+                                                    <a class="flat btn btn-epsilon flat" href="#" style=""
+                                                       data-original-title="" title="" aria-describedby="tooltip742320">
+                                                        READ MORE
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-12 px-2 pb16">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid10">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content">
+                                                <h3 class="title pb16">
+                                                    <font class="text-epsilon" style="">new arrival</font>
+                                                </h3>
+                                                <div class="social">
+                                                    <a class="flat btn btn-epsilon flat" href="#" style=""
+                                                       data-original-title="" title="" aria-describedby="tooltip742320">
+                                                        READ MORE
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-12 px-2 pb16">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid10">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content">
+                                                <h3 class="title pb16">
+                                                    <font class="text-epsilon" style="">latest</font>
+                                                </h3>
+                                                <div class="social">
+                                                    <a class="flat btn btn-epsilon flat" href="#" style=""
+                                                       data-original-title="" title="" aria-describedby="tooltip742320">
+                                                        READ MORE
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12 px-2 pb16">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid10">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x655.png"
+                                         alt=""
+                                         class="img-fluid image"/>
+                                    <div class="grid_content">
+                                        <h3 class="title pb16">
+                                            <font class="text-epsilon" style="">kid choice</font>
+                                        </h3>
+                                        <div class="social">
+                                            <a class="flat btn btn-epsilon flat" href="#" style=""
+                                               data-original-title="" title="" aria-describedby="tooltip742320">READ
+                                                MORE
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Product Carousel Start-->
+        <template id="watch2_product_carousel" name="Watch 2 Product Carousel">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_headline_style_4"
+                     data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d9"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d9"/>
+        </template>
+        <!--Snippet Product carousel End-->
+
+        <!--Snippet Category Block Start-->
+        <template id="watch2_category_block" name="Watch 2 Category Block">
+            <section class="pt64 pb64" id="image_grid_18">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48 text-center">
+                            <h2 class="o_default_snippet_text">Shop By Categories</h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid18">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content" style="background: white !important;">
+                                                <h2>Digital</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid18">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content" style="background: white !important;">
+                                                <h2>Luxury</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid18">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content" style="background: white !important;">
+                                                <h2>Dive</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="grid18">
+                                            <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                                 alt="" class="img-fluid image"/>
+                                            <div class="grid_content" style="background: white !important;">
+                                                <h2>Quartz</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid18">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-320x320.png"
+                                         alt=""
+                                         class="img-fluid image"/>
+                                    <div class="grid_content" style="background: white !important;">
+                                        <h2>Chronograph</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Category Block End-->
+
+        <!--Snippet Product Carousel Two Start-->
+        <template id="watch2_product_carousel_two" name="Watch 2 Product Carousel Two">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_headline_style_4"
+                     data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d9"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d9"
+                     data-objects_limit="15" data-objects_in_row="2"/>
+        </template>
+        <!--Snippet Product Carousel Two End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="watch2_newsletter" name="Watch 2 Newsletter">
+            <section style="background-color:#f3f3f3;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12  media">
+                                                <i class="fa fa-3x fa-envelope-o mr-3 mt-2 text-beta" style=""
+                                                   data-original-title="" title="" aria-describedby="tooltip500943"/>
+                                                <div class="media-body">
+                                                    <h3 class="pb8">
+                                                        <font class="text-beta" style="">Sign up to enjoy free shipping
+                                                            and returns
+                                                        </font>
+                                                        <br/>
+                                                        <font class="text-beta" style="">on your first order.</font>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64 pb32" id="footer_7">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-11 offset-lg-1 mb48">
+                                                <div class="input-group js_subscribe hidden" data-list-id="1"
+                                                     data-subscribe="off">
+                                                    <input type="email" name="email"
+                                                           class="js_subscribe_email form-control br-left"
+                                                           placeholder="your email..."
+                                                           style="height: 55px !important;"/>
+                                                    <span class="input-group-btn">
+                                                        <a href="#"
+                                                           class="br-right px-3 py-3 js_subscribe_btn btn btn-beta"
+                                                           style="border-radius: 0 !important;" data-original-title=""
+                                                           title="" aria-describedby="tooltip4742">
+                                                            <font class="text-epsilon" style="">Subscribe</font>
+                                                        </a>
+                                                        <a href="#"
+                                                           class="btn br-right px-3 py-3 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                                           disabled="disabled" style="border-radius: 0 !important;">
+                                                            Thanks
+                                                        </a>
+                                                    </span>
+                                                    <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                                        Thanks for your subscription!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Image Block Start-->
+        <template id="watch2_image_block" name="Watch 2 Image Block">
+            <section class="pt64 pb32" id="image_grid_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid1">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-400x400.png"
+                                         alt="" class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip419373"/>
+                                    <div class="overlay">
+                                        <div class="grid_content">
+                                            <div class="eg-washington-element-0-a">
+                                                <a href="#" class="text-white" style="font-size: 16px">
+                                                    <b>SHOP NOW</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid1">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-400x400.png"
+                                         alt="" class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip419373"/>
+                                    <div class="overlay">
+                                        <div class="grid_content">
+                                            <div class="eg-washington-element-0-a">
+                                                <a href="#" class="text-white" style="font-size: 16px">
+                                                    <b>SHOP NOW</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid1">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-400x400.png"
+                                         alt="" class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip419373"/>
+                                    <div class="overlay">
+                                        <div class="grid_content">
+                                            <div class="eg-washington-element-0-a">
+                                                <a href="#" class="text-white" style="font-size: 16px">
+                                                    <b>SHOP NOW</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid1">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-400x400.png"
+                                         alt="" class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip419373"/>
+                                    <div class="overlay">
+                                        <div class="grid_content">
+                                            <div class="eg-washington-element-0-a">
+                                                <a href="#" class="text-white" style="font-size: 16px">
+                                                    <b>SHOP NOW</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid1">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-400x400.png"
+                                         alt="" class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip419373"/>
+                                    <div class="overlay">
+                                        <div class="grid_content">
+                                            <div class="eg-washington-element-0-a">
+                                                <a href="#" class="text-white" style="font-size: 16px">
+                                                    <b>SHOP NOW</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                            <div class="oe_structure oe_empty">
+                                <div class="grid1">
+                                    <img src="/theme_watch_ecommerce_ultimate_02/static/src/img/placeholder-400x400.png"
+                                         alt="" class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip419373"/>
+                                    <div class="overlay">
+                                        <div class="grid_content">
+                                            <div class="eg-washington-element-0-a">
+                                                <a href="#" class="text-white" style="font-size: 16px">
+                                                    <b>SHOP NOW</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block End-->
+
+        <!--Snippet Footer start-->
+        <template id="watch2_footer" name="Watch 2 Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div id="footer_9">
+                    <div class="container">
+                        <div class="row pt64">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 pb16">
+                                <h5 class="mb16">
+                                    <b>CONTACT</b>
+                                </h5>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-map-marker mr-2 mt-1 text-gamma" data-original-title="" title=""
+                                       aria-describedby="tooltip302643" style="font-size: 18px;"/>
+                                    <div class="media-body">
+                                        <p class="o_default_snippet_text">
+                                            <span class="text-gamma" style="font-size: 16px;"
+                                                  t-field="res_company.street"></span>
+                                            <span class="text-gamma" style="font-size: 16px;"
+                                                  t-field="res_company.city"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-phone mr-2 mt-1 text-gamma" style="font-size: 18px;"/>
+                                    <div class="media-body">
+                                        <p class="o_default_snippet_text">
+                                            <span class="text-gamma" style="font-size: 16px;"
+                                                  t-field="res_company.phone"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-envelope mr-2 mt-1 text-gamma" style="font-size: 18px;"/>
+                                    <div class="media-body">
+                                        <p class="o_default_snippet_text">
+                                            <span class="text-gamma" style="font-size: 16px;"
+                                                  t-field="res_company.email"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 pb16">
+                                <h5 class="mb16">
+                                    <font class="text-beta" style="">
+                                        <b>CATEGORIES</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip467458" style="">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip503225">Men
+                                                Shop
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip530308">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip56675">Women
+                                                Shop
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip116329">Kids
+                                                Shop
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip608168">Best
+                                                Seller
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;">
+                                                <span data-original-title="" title="" aria-describedby="tooltip647889"
+                                                      style="">Trending
+                                                </span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 pb16">
+                                <h5 class="mb16">
+                                    <b>ABOUT US</b>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip799572" style="">
+                                            <font class="text-gamma s_line_height_2" style="font-size: 16px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip458064">About
+                                                Us
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text" style="">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip565039">Our
+                                                History
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text" style="">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;"
+                                                  data-original-title="" title="" aria-describedby="tooltip422510">Our
+                                                Products
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="s_line_height_2 text-gamma" style="font-size: 16px;">
+                                                <span data-original-title="" title="" aria-describedby="tooltip34532">
+                                                    Contact
+                                                </span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 pb16">
+                                <h5 class="mb16">
+                                    <b>NEWSLETTER</b>
+                                </h5>
+                                <p>
+                                    <font class="text-gamma" style="font-size: 16px;">Get updated by subscribe our
+                                        newsletter&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="col-md-12 p-0 input-group js_subscribe hidden" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control rounded-0"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        Thanks for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Watch Ecommerce Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_watch_ecommerce_ultimate_02.watch2_banner"
+                           t-thumbnail="/theme_watch_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_watch_ecommerce_ultimate_02.watch2_product_carousel"
+                           t-thumbnail="/theme_watch_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_watch_ecommerce_ultimate_02.watch2_category_block"
+                           t-thumbnail="/theme_watch_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_watch_ecommerce_ultimate_02.watch2_product_carousel_two"
+                           t-thumbnail="/theme_watch_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_watch_ecommerce_ultimate_02.watch2_newsletter"
+                           t-thumbnail="/theme_watch_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_watch_ecommerce_ultimate_02.watch2_image_block"
+                           t-thumbnail="/theme_watch_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_watch_ecommerce_ultimate_02.watch2_footer"
+                           t-thumbnail="/theme_watch_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

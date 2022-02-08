@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- Snippet & Thumbnail -->
+    <template id="s_client_carousel_place_in_tab" inherit_id="website.snippets">
+        <xpath
+                expr="//div[@id='snippet_feature']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="snippet_client_carousel_73lines.s_client_carousel_header"
+               t-thumbnail="/snippet_client_carousel_73lines/static/src/img/s-client-carousel.png" />
+        </xpath>
+    </template>
+
+</odoo>

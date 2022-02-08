@@ -1,0 +1,289 @@
+<odoo>
+    <data>
+        <!--Left content Yoga Block Snippets start-->
+        <template id="left_content_block" name="Yoga Left Content Block">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" id="ecommerce_block_1" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2>
+                                        <font style="color: rgb(255, 255, 255); font-size: 24px;">&amp;nbsp;FIND YOUR
+                                            SHOUL MART
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <span style="color: rgb(255, 255, 255); text-align: center;">Lorem Ipsum is
+                                            simply dummy text
+                                        </span>
+                                        <br/>
+                                    </p>
+                                    <p>
+                                        <span style="color: rgb(51, 51, 51); text-align: center;">
+                                            <a href="/" class="btn btn-alpha flat" data-original-title="" title="">
+                                                <b>Shop Now</b>
+                                            </a>
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2>
+                                        <font style="color: rgb(255, 255, 255); font-size: 24px;">&amp;nbsp;ELASTICS
+                                            HEADBANDS
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <span style="color: rgb(255, 255, 255); text-align: center;">Lorem Ipsum is
+                                            simply dummy text
+                                        </span>
+                                        <br/>
+                                    </p>
+                                    <p>
+                                        <span style="color: rgb(51, 51, 51); text-align: center;">
+                                            <a href="/" class="btn btn-alpha flat" data-original-title="" title=""
+                                               aria-describedby="tooltip327826">
+                                                <b>Shop Now</b>
+                                            </a>
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Left content Yoga Block Snippets End-->
+
+        <!--Product Category Block  Snippets start-->
+        <template id="product_category_block" name="Product Category Block">
+            <section class="pt64 pb64 bg-white oe_custom_bg" id="ecommerce_block_3" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto" src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-570x532.png"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content-1 px-5">
+                                    <h2>
+                                        <font style="color: rgb(255, 255, 255);">&amp;nbsp;ONE DAY</font>
+                                    </h2>
+                                    <h2>
+                                        <font class="text-delta"
+                                              style="background-color: rgb(255, 255, 255); font-size: 36px;">40%
+                                            DISCOUNT
+                                        </font>
+                                    </h2>
+                                    <div data-name="Buttons">
+                                        <a href="#" class="mt8 mb8 flat btn btn-primary flat" data-original-title=""
+                                           title="">
+                                            <b>View More</b>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                                    <div class="hover_effect">
+                                        <img class="img-fluid d-block mx-auto"
+                                             src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-255.png" data-original-title="" title=""
+                                             aria-describedby="tooltip867057"/>
+                                        <div class="col-12 img-content-2 text-md-right text-lg-right">
+                                            <h5>
+                                                <font style="color: rgb(0, 0, 0); font-size: 24px;">&amp;nbsp;YOGA
+                                                    CLOTH
+                                                </font>
+                                            </h5>
+                                            <p>
+                                                <font style="" class="text-delta">
+                                                    <b>Only For</b>
+                                                </font>
+                                                <font style="color: rgb(255, 255, 255); font-size: 24px;"
+                                                      class="bg-delta">
+                                                    <b>$20.99</b>
+                                                </font>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                                    <div class="hover_effect">
+                                        <img class="img-fluid d-block mx-auto"
+                                             src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-255.png" data-original-title="" title=""
+                                             aria-describedby="tooltip867057"/>
+                                        <div class="col-12 img-content-3">
+                                            <p>
+                                                <font style="" class="text-alpha">
+                                                    <b>SALE</b>
+                                                </font>
+                                                <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                                      class="bg-delta">
+                                                    <b>25%&amp;nbsp;</b>
+                                                </font>
+                                            </p>
+                                            <h2>
+                                                <font style="font-size: 24px;">&amp;nbsp;TODAY</font>
+                                            </h2>
+                                            <div data-name="Buttons">
+                                                <a href="#" class="mt8 mb8 flat btn btn-primary flat btn-sm"
+                                                   data-original-title="" title="" aria-describedby="tooltip813575">
+                                                    <b>View More</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-lg-12 col-sm-12 mt8 mb8">
+                                    <div class="hover_effect">
+                                        <img class="img-fluid d-block mx-auto"
+                                             src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-540x229.png" data-original-title="" title=""
+                                             aria-describedby="tooltip867057"/>
+                                        <div class="col-12 img-content-4">
+                                            <h5>
+                                                <font style="color: rgb(255, 255, 255);">SALE&amp;nbsp;&amp;nbsp;</font>
+                                                <font class="bg-beta text-alpha" style="font-size: 24px;">
+                                                    <b>30% OFF</b>
+                                                </font>
+                                            </h5>
+                                            <h5>
+                                                <font style="color: rgb(255, 255, 255);">YOGA MAT</font>
+                                            </h5>
+                                            <div data-name="Buttons">
+                                                <a href="#" class="mt8 mb8 btn btn-primary flat">
+                                                    <b>View More</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Product Category Block Snippets End-->
+
+        <!--CTA Block Snippets start-->
+        <template id="cta_block" name="Product CTA Block ">
+            <section class="pt64 pb64" id="ecommerce_block_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-12 col-lg-12 col-sm-12 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-1170x400.png"
+                                     data-original-title="" title="" aria-describedby="tooltip914899"/>
+                                <div class="img-content-1 col-12 text-center">
+                                    <h3>
+                                        FIND YOUR CHILL
+                                    </h3>
+                                    <div class="text-center" data-name="Buttons">
+                                        <a href="#" class="mt8 mb8 btn btn-outline-alpha" data-original-title=""
+                                           title="" aria-describedby="tooltip445395">
+                                            <b>View More</b>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--CTA Block Snippets End-->
+
+        <!--Product Brand Snippets start-->
+        <template id="product_brand" name="Product Brand">
+            <section class="pt64 pb64" id="ecommerce_blocks_10">
+                <div class="container">
+                    <h3 class="font-weight-bold pb32 pt32 text-center">SHOP BY&amp;nbsp; BRAND</h3>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb32">
+                            <div class="brand_img brand_img1 rounded-circle m-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip484646"/>
+                            </div>
+                            <div class="brand_logo d-block mx-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/brand_logo.png"
+                                     class="img-fluid d-block mx-auto"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb32">
+                            <div class="brand_img brand_img1 rounded-circle m-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip396983"/>
+                            </div>
+                            <div class="brand_logo d-block mx-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/brand_logo.png"
+                                     class="img-fluid d-block mx-auto"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb32">
+                            <div class="brand_img brand_img1 rounded-circle m-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                            </div>
+                            <div class="brand_logo d-block mx-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/brand_logo.png"
+                                     class="img-fluid d-block mx-auto"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb32">
+                            <div class="brand_img brand_img1 rounded-circle m-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                            </div>
+                            <div class="brand_logo d-block mx-auto">
+                                <img src="/theme_yoga_ecommerce_ultimate_01/static/src/img/brand_logo.png"
+                                     class="img-fluid d-block mx-auto"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Product Brand Snippets End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Yoga Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_yoga_ecommerce_ultimate_01.left_content_block"
+                           t-thumbnail="/theme_yoga_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ecommerce_ultimate_01.product_category_block"
+                           t-thumbnail="/theme_yoga_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ecommerce_ultimate_01.cta_block"
+                           t-thumbnail="/theme_yoga_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_yoga_ecommerce_ultimate_01.product_brand"
+                           t-thumbnail="/theme_yoga_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+
+    </data>
+</odoo>

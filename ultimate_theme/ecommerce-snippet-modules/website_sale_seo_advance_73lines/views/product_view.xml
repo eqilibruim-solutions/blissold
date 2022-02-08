@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_template_seo_form_view" model="ir.ui.view">
+        <field name="name">product.template.seo.form.inherit</field>
+        <field name="model">product.template</field>
+        <field name="priority">5</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/notebook" position="inside">
+                <page string="SEO">
+                    <group name="meta">
+                        <group>
+                            <field name="website_meta_title"/>
+                            <field name="website_meta_keywords"/>
+                        </group>
+                        <group>
+                            <field name="website_meta_description"/>
+                            <field name="website_url"/>
+                        </group>
+                        <field name="website_description"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="product_public_category_seo_form_view" model="ir.ui.view">
+        <field name="name">product.public.category.seo.form.inherit</field>
+        <field name="model">product.public.category</field>
+        <field name="priority">5</field>
+        <field name="inherit_id" ref="website_sale.product_public_category_form_view"/>
+        <field name="arch" type="xml">
+            <field name="sequence" position="after">
+                <group>
+                    <field name="website_meta_title"/>
+                    <field name="website_meta_keywords"/>
+                    <field name="website_meta_description"/>
+                </group>
+            </field>
+        </field>
+    </record>
+</odoo>

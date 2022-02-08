@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<odoo>
+
+	<template id="assets_layout" name="Website Tech Layout"
+		inherit_id="website.layout">
+		<xpath expr="//meta[@name='description']" position="replace">
+
+			<meta name="description" itemprop="description"
+				t-att-content="main_object and 'website_meta_description' in main_object
+                and main_object.website_meta_description or website_meta_description" />
+		</xpath>
+		<xpath expr="//meta[@name='keywords']" position="replace">
+			<meta name="keywords" itemprop="keywords"
+				t-att-content="main_object and 'website_meta_keywords' in main_object
+                and main_object.website_meta_keywords or website_meta_keywords" />
+		</xpath>
+		
+<!--
+		<xpath expr="//meta[@property='og:title']" position="replace">
+		</xpath>
+-->
+
+<!--
+		<xpath expr="//meta[@property='og:site_name']" position="replace">
+		</xpath>
+-->
+
+<!-- 		<xpath expr="//t[@t-if='main_object and 'plain_content' in main_object and main_object.plain_content']" position="replace"> -->
+<!-- 		</xpath> -->
+		
+		<xpath expr="//head/meta[last()]" position="after">
+
+			<meta property="og:locale"
+				t-att-content="main_object and 'website_og_locale' in main_object
+                and main_object.website_og_locale or ' ' " />
+
+			<meta property="og:type"
+				t-att-content="main_object and 'website_og_type' in main_object
+                and main_object.website_og_type or ' ' " />
+
+			<meta property="og:title"
+				t-att-content="main_object and 'website_og_title' in main_object
+                and main_object.website_og_title or ' ' " />
+
+			<meta property="og:description"
+				t-att-content="main_object and 'website_og_description' in main_object
+                and main_object.website_og_description or ' ' " />
+
+			<meta property="og:url"
+				t-att-content="main_object and 'website_og_url' in main_object
+                and main_object.website_og_url or ' ' " />
+
+			<meta property="og:site_name"
+				t-att-content="main_object and 'website_og_site_name' in main_object
+                and main_object.website_og_site_name or ' ' " />
+
+			<meta property="article:publisher"
+				t-att-content="main_object and 'website_og_article_publisher' in main_object
+                and main_object.website_og_article_publisher or '' " />
+
+			<meta property="og:image"
+				t-att-content="main_object and 'website_og_image' in main_object
+                and main_object.website_og_image or ' ' " />
+
+			<meta property="twitter:card"
+				t-att-content="main_object and 'website_twitter_card' in main_object
+                and main_object.website_twitter_card or ' ' " />
+
+			<meta property="twitter:description"
+				t-att-content="main_object and 'website_twitter_description' in main_object
+                and main_object.website_twitter_description or ' ' " />
+
+			<meta property="twitter:title"
+				t-att-content="main_object and 'website_twitter_title' in main_object
+                and main_object.website_twitter_title or ' ' " />
+
+			<meta property="twitter:site"
+				t-att-content="main_object and 'website_twitter_site' in main_object
+                and main_object.website_twitter_site or ' ' " />
+
+			<meta property="twitter:domain"
+				t-att-content="main_object and 'website_twitter_domain' in main_object
+                and main_object.website_twitter_domain or ' ' " />
+
+			<meta property="twitter:image:src"
+				t-att-content="main_object and 'website_twitter_image_src' in main_object
+                and main_object.website_twitter_image_src or ' ' " />
+
+			<meta property="twitter:creator"
+				t-att-content="main_object and 'website_twitter_creator' in main_object
+                and main_object.website_twitter_creator or ' ' " />
+
+			<meta itemprop="name"
+				t-att-content="main_object and 'website_gplus_title' in main_object
+                and main_object.website_gplus_title or ' ' " />
+
+			<meta itemprop="description"
+				t-att-content="main_object and 'website_gplus_description' in main_object
+                and main_object.website_gplus_description or ' ' " />
+
+			<meta itemprop="image"
+				t-att-content="main_object and 'website_gplus_image' in main_object
+                and main_object.website_gplus_image or ' ' " />
+
+			<link rel="canonical" t-att-href="website.get_canonical_url(request.httprequest)" />
+
+		</xpath>
+
+	</template>
+
+	<record id="view_view_form_inherited" model="ir.ui.view">
+		<field name="model">ir.ui.view</field>
+		<field name="inherit_id" ref="base.view_view_form" />
+		<field name="arch" type="xml">
+			<notebook position="inside">
+				<page string="Metadata and Social">
+					<separator string="Metadata" />
+					<group>
+						<field name="website_meta_title"/>
+						<field name="website_meta_description"/>
+						<field name="website_meta_keywords" />
+						<field name="website_image_url" />
+					</group>
+					<group string="Facebook" colspan="4">
+                        <group>
+						<field name="website_og_title" />
+						<field name="website_og_description" />
+						<field name="website_og_locale" />
+						<field name="website_og_type" />
+						<field name="website_og_url" />
+						<field name="website_og_site_name" />
+						<field name="website_og_image" />
+						<field name="website_og_article_publisher" />
+                        </group>
+					</group>
+					<group string="Twitter" colspan="4">
+						<field name="website_twitter_card" />
+						<field name="website_twitter_description" />
+						<field name="website_twitter_title" />
+						<field name="website_twitter_site" />
+						<field name="website_twitter_domain" />
+						<field name="website_twitter_image_src" />
+						<field name="website_twitter_creator" />
+					</group>
+					<group string="Google+" colspan="4">
+                        <group>
+						<field name="website_gplus_title" />
+						<field name="website_gplus_description" />
+						<field name="website_gplus_image" />
+                        </group>
+					</group>
+				</page>
+			</notebook>
+		</field>
+	</record>
+</odoo>

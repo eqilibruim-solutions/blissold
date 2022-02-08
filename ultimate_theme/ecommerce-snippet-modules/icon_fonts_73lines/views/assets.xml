@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <template id="demo_frontend_style" name="Theme Shop style"
+              inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/icon_fonts_73lines/static/src/scss/icon_fonts.scss"
+                  rel="stylesheet" type="text/scss"/>
+            <link href="/icon_fonts_73lines/static/fonts/stroke/pe-icon-7-stroke.css"
+                  rel="stylesheet" type="text/css"/>
+            <link href="/icon_fonts_73lines/static/fonts/fontelico/fontello.css"
+                  rel="stylesheet" type="text/css"/>
+        </xpath>
+    </template>
+
+    <template id="assets_editor_inherit" inherit_id="web_editor.assets_wysiwyg">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript"
+                    src="/icon_fonts_73lines/static/src/js/widgets.js"/>
+            <script type="text/javascript"
+                    src="/icon_fonts_73lines/static/src/js/rte.summernote.js"/>
+        </xpath>
+    </template>
+
+</odoo>

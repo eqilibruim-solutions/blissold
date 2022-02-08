@@ -1,0 +1,727 @@
+<odoo>
+    <data>
+        <!--banner Snippets start-->
+        <template id="hotel_banner" name="Hotel Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_hotel_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">MODERN &amp;amp;
+                                SPACIOUS ROOMS&amp;nbsp;
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two
+                                paragraphs describing your product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--banner Snippets End-->
+
+        <!-- About us Snippets start-->
+        <template id="hotel_about_us" name="Hotel About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                            </h2>
+                            <h2 class="font-weight-bold pb24 pt8" style="text-align: center;">WELCOME</h2>
+                            <p class="text-center">Staying in here doesn't have to cost a fortune. Book your stay with
+                                us and
+                                receive one of the lowest rates of any hostel in the city!
+                            </p>
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title=""
+                                         title="" aria-describedby="tooltip74099"/>
+                                    <div class="media-body px-2">
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;">SPA &amp;amp; HOTEL</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title=""
+                                         title="" aria-describedby="tooltip822621"/>
+                                    <div class="media-body px-2">
+                                        <h3 class="pb8 pt8">
+                                            <font style="font-size: 18px;">&amp;nbsp;</font>
+                                            <b>
+                                                <font style="font-size: 18px;">ROOMS</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip902249"/>
+                                    <div class="media-body px-2">
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;">AMINITIES</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip165298"/>
+                                    <div class="media-body px-2">
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 18px;">ACTIVITIES</font>
+                                            </b>
+                                        </h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at semper
+                                            metus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--About us Snippets End-->
+
+        <!-- Gallery Snippets start-->
+        <template id="hotel_gallery" name="Hotel Gallery">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2 class="font-weight-bold pb24 pt8">GALLERY</h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <img class="img-fluid d-block mx-auto mt16 mb16"
+                                 src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mb16"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto  mb16"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Gallery Snippets End-->
+
+        <!-- Left Content Snippets start-->
+        <template id="hotel_left_content" name="Hotel Left Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2 class="font-weight-bold pb24 pt8" style="text-align: left;">Redesigns the luxury
+                                hospitality
+                                experience
+                            </h2>
+                            <p class="pt16 pb16 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse potenti.Aliquam
+                                finibus
+                                pharetra tellus at egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                egestas.
+                            </p>
+                            <a href="#" class="rounded-0 btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip810434">
+                                <b data-original-title="" title="" aria-describedby="tooltip179599">VIEW ALL</b>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block"
+                                 data-original-title="" title="" aria-describedby="tooltip970542"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Left Content Snippets End-->
+
+        <!--Our Tour Snippets start-->
+        <template id="hotel_our_tour" name="Hotel Our Tour">
+            <section class="pt64 pb64">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2 class="font-weight-bold pb24 pt8">OUR TOUR</h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt=""
+                                     class="img-fluid"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Your Wedding at Hotel</h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt=""
+                                     class="img-fluid"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Noble Adventure Package</h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center pb24">
+                            <div class="border bg-white">
+                                <img src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt=""
+                                     class="img-fluid"/>
+                                <div class="px-3">
+                                    <h3 class="pt16">Get Lost Package</h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Our Tour Snippets End-->
+
+        <!--Testimonial Snippets start-->
+        <template id="hotel_testimonial" name="Hotel Testimonial">
+            <section class="pt64 pb64 bg-alpha" id="testimonials_d2">
+                <div id="myCarousel1571138697209" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1571138697209" data-slide-to="0"/>
+                        <li data-target="#myCarousel1571138697209" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1571138697209" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one
+                                            of your customers. Quotes are a great way to build confidence in your
+                                            products or
+                                            services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_hotel_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one
+                                            of your customers. Quotes are a great way to build confidence in your
+                                            products or
+                                            services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_hotel_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one
+                                            of your customers. Quotes are a great way to build confidence in your
+                                            products or
+                                            services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_hotel_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1571138697209" data-slide="prev"
+                         role="img"
+                         aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1571138697209" data-slide="next"
+                         role="img"
+                         aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Testimonial Snippets End-->
+
+        <!--Center content Snippets start-->
+        <template id="hotel_center_content" name="Hotel Center content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pb24 pt8">&amp;nbsp;SIMPLICITY IS THE ULTIMATE SOPHISTICATION
+                            </h2>
+                            <a href="#" data-original-title="" title="" aria-describedby="tooltip95607">
+                                <b>
+                                    <font style="font-size: 18px;">VIEW ALL&amp;nbsp;</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Center content Snippets End-->
+
+        <!--Services Snippets start-->
+        <template id="hotel_services" name="Hotel Services">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>SERVICES</b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                            <div class="row text-center pt48">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip467562"/>
+                                    <h3 class="pt8 pb8">
+                                        <span style="font-size: 18px;">
+                                            <b>WIFI</b>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pb8 pt8">
+                                        <span style="font-size: 18px;">
+                                            <b>SWIMMING-POOL</b>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pb8 pt8">
+                                        <span style="font-size: 18px;">
+                                            <b>BUS</b>
+                                        </span>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip843103"/>
+                                    <h3 class="pt8 pb8">
+                                        <span style="font-size: 18px;">
+                                            <b>RECEPTION-BELL</b>
+                                        </span>
+                                        <br/>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <span style="font-weight: bolder;">
+                                            <font style="font-size: 18px;">CCTV CEMERA</font>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;">PRIVATE BATHROOM</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <span style="font-size: 18px;">
+                                            <b>&amp;nbsp;LAUNDRY</b>
+                                        </span>
+                                        <br/>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_hotel_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <span style="font-size: 18px;">
+                                            <span style="font-weight: bolder;">&amp;nbsp; AIR CONDITIONER</span>
+                                        </span>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Services Snippets End-->
+
+        <!--Contact us Snippets start-->
+        <template id="hotel_contact_us" name="Hotel Contact us">
+            <section class="bg-400 py-5 contact_us_3">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title mb-5" data-name="Title">
+                            <h1 class="s_title_thin text-center">
+                                <b>
+                                    <font style="">Interested? Let's get in touch!</font>
+                                </b>
+                                <br/>
+                            </h1>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of
+                                the printing.
+                            </p>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="contact-page-side-content">
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-fax"/>
+                                        Address
+                                    </h4>
+                                    <span t-field="res_company.street"/>
+                                    <span t-field="res_company.city"/>
+                                    <span t-field="res_company.state_id.name"/>
+                                    <span t-field="res_company.zip"/>
+                                    <span t-field="res_company.country_id.name"/>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-phone"/>
+                                        Phone
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <span t-field="res_company.phone"/>
+                                    </p>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-envelope-o"/>
+                                        Email Address
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <span t-field="res_company.email"/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 s_text pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-md-6">
+                                        <input type="text" class="form-control o_website_form_input" name="phone"
+                                               placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6">
+                                        <input type="text" class="form-control o_website_form_input" name="partner_name"
+                                               required="" placeholder="Your Company" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-md-12">
+                                        <input type="text" class="form-control o_website_form_input" name="name"
+                                               required=""
+                                               placeholder="Subject" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <textarea class="form-control o_website_form_input" name="description"
+                                                  required=""
+                                                  placeholder="Your Question" rows="5"></textarea>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-left" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
+                                                Send
+                                            </a>
+                                            <span id="o_website_form_result"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Contact us Snippets End-->
+
+        <!--Our News Snippets start-->
+        <template id="hotel_our_news" name="Hotel Our News">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <b>OUR NEWS</b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip819927"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">SINGLE ROOM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">DOUBLE BED ROOM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_hotel_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">DELUX ROOM</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Our News Snippets End-->
+
+        <!--Footer Snippets start-->
+        <template id="hotel_footer" name="Hotel Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64" id="footer_13">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link o_default_snippet_text" href="#" data-original-title=""
+                                           title="" aria-describedby="tooltip153839">
+                                            <font class=" text-alpha" style="">
+                                                <b>Home</b>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link o_default_snippet_text" href="#">
+                                            <font class=" text-alpha" style="">About</font>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link o_default_snippet_text" href="#">
+                                            <font class=" text-alpha" style="">License</font>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled o_default_snippet_text" href="#">
+                                            <font class=" text-alpha" style="">Privacy Policy</font>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled o_default_snippet_text" href="#">
+                                            <font class=" text-alpha" style="">Copyright</font>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled o_default_snippet_text" href="#">
+                                            <font class=" text-alpha" style="">FAQ</font>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled o_default_snippet_text" href="#">
+                                            <font class=" text-alpha" style="">Help</font>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled o_default_snippet_text" href="#">
+                                            <font class=" text-alpha" style="">Contact</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Hotel Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_banner"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_about_us"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_gallery"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_left_content"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_our_tour"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_testimonial"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_center_content"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_services"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_contact_us"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_our_news"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hotel_ultimate_01.hotel_footer"
+                           t-thumbnail="/theme_hotel_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+
+    </data>
+</odoo>

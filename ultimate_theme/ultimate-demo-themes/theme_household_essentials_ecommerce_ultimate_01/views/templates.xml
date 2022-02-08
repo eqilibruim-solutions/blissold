@@ -1,0 +1,825 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="household_essentials_banner" name="Household Essentials Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 75%;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed full-height">
+                        <div class="align-content-center align-self-center col-lg-7 content-align-center"
+                             data-name="Title">
+                            <div class="s_text pt16 pb16 text-white" data-name="Text">
+                                <p class="lead text-left o_default_snippet_text" style="text-align: left;">
+                                    <font style="font-size: 40px;">Buy grocery and household essentials online from
+                                        stores and supermarts.
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 align-self-center" data-name="Image">
+                            <img class="img img-fluid d-block mx-auto"
+                                 src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-540x540.png"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Block One Start-->
+        <template id="household_essentials_image_block_one" name="Household Essentials Image Block One">
+            <section class="pt16 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                            <a href="#">
+                                <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-263x194.png"
+                                     alt="Image" title="Image"
+                                     class="img-fluid d-block mx-auto mb8 mt8"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                            <a href="#">
+                                <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-263x194.png"
+                                     alt="Image" title="Image"
+                                     class="img-fluid d-block mx-auto mb8 mt8"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                            <a href="#">
+                                <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-263x194.png"
+                                     alt="Image" title="Image"
+                                     class="img-fluid d-block mx-auto mb8 mt8"/>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                            <a href="#">
+                                <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-263x194.png"
+                                     alt="Image" title="Image"
+                                     class="img-fluid d-block mx-auto mb8 mt8"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block One End-->
+
+        <!--Snippet Product Carousel One Start-->
+        <template id="household_essentials_product_carousel_one" name="Household Essentials Product Carousel One">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_1"
+                     data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d29"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d29"/>
+        </template>
+        <!--Snippet Product Carousel One End-->
+
+        <!--Snippet Image Block Two Start-->
+        <template id="household_essentials_image_block_two" name="Household Essentials Image Block Two">
+            <section class="pb64 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 ">
+                            <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-360x235.png"
+                                 alt="Image" title="Image"
+                                 class="img-fluid  mb8 mt8"/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-360x235.png"
+                                 alt="Image" title="Image"
+                                 class="img-fluid  mb8 mt8"/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-360x235.png"
+                                 alt="Image" title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Two End-->
+
+        <!--Snippet Product Carousel Two Start-->
+        <template id="household_essentials_product_carousel_two" name="Household Essentials Product Carousel Two">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_1"
+                     data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d29"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d29"/>
+        </template>
+        <!--Snippet Product Carousel Two End-->
+
+        <!--Snippet Image Block Three Start-->
+        <template id="household_essentials_image_block_three" name="Household Essentials Image Block Three">
+            <section class="pt0 pb64" id="ecommerce_block_9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt8 pb8">
+                            <div class="oe_structure oe_empty">
+                                <div class="box_9">
+                                    <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-555x350.png"
+                                         class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip860358"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt8 pb8">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 pb8">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="box_9">
+                                            <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-555x167.png"
+                                                 class="img-fluid image"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt8 pb8">
+                                    <div class="oe_structure oe_empty">
+                                        <div class="box_9">
+                                            <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-555x167.png"
+                                                 class="img-fluid image"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Three End-->
+
+        <!--Snippet Counter Start-->
+        <template id="household_essentials_counter" name="Household Essentials Counter">
+            <section class="state_section pt64 pb64 bg-alpha oe_custom_bg" id="state_section_id">
+                <div class="container">
+                    <div class="row text-center justify-content-sm-center no-gutters state_text">
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="bg-black-25 p-4">
+                                <i class="fa fa-3x fa-500px pe-7s-display1 text-delta" data-original-title="" title=""
+                                   aria-describedby="tooltip397113" style=""/>
+                                <div class="count_to animate_onoffset">
+                                    <div class="text-white odometer odometer-theme-minimal" data-number="1200"
+                                         data-duration="2000">
+                                        <div class="odometer-inside">
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">1</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-formatting-mark">,</span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">2</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">0</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">0</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="o_default_snippet_text">
+                                    <font class="text-delta" style="">Happy clients&amp;nbsp;</font>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="bg-black-25 p-4">
+                                <i class="fa fa-3x fa-500px pe-7s-drop text-delta" data-original-title="" title=""
+                                   aria-describedby="tooltip279739" style=""/>
+                                <div class="count_to animate_onoffset">
+                                    <div class="text-white odometer odometer-theme-minimal" data-number="1000"
+                                         data-duration="2000">
+                                        <div class="odometer-inside">
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">1</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-formatting-mark">,</span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">0</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">0</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">0</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="o_default_snippet_text">
+                                    <font class="text-delta" style="">Projects finished&amp;nbsp;</font>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="bg-black-25 p-4">
+                                <i class="fa fa-3x fa-500px pe-7s-bicycle text-delta" data-original-title="" title=""
+                                   aria-describedby="tooltip72660" style=""/>
+                                <div class="count_to animate_onoffset">
+                                    <div class="text-white odometer odometer-theme-minimal" data-number="560"
+                                         data-duration="2000">
+                                        <div class="odometer-inside">
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">5</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">6</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">0</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="o_default_snippet_text">
+                                    <font class="text-delta" style="">Support Tickets</font>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <div class="bg-black-25 p-4">
+                                <i class="fa fa-3x fa-500px pe-7s-ball text-delta" data-original-title="" title=""
+                                   aria-describedby="tooltip19587" style=""/>
+                                <div class="count_to animate_onoffset">
+                                    <div class="text-white odometer odometer-theme-minimal" data-number="50"
+                                         data-duration="2000">
+                                        <div class="odometer-inside">
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">5</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <span class="odometer-digit">
+                                                <span class="odometer-digit-spacer">8</span>
+                                                <span class="odometer-digit-inner">
+                                                    <span class="odometer-ribbon">
+                                                        <span class="odometer-ribbon-inner">
+                                                            <span class="odometer-value">0</span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="o_default_snippet_text">
+                                    <font class="text-delta" style="">&amp;nbsp;Members&amp;nbsp;</font>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Product Carousel Three Start-->
+        <template id="household_essentials_product_carousel_three" name="Household Essentials Product Carousel Three">
+            <section
+                    class="pt40s_product_carousel oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_1 pt40"
+                    data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d29"
+                    data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d29" style=""/>
+        </template>
+        <!--Snippet Product Carousel Three End-->
+
+        <!--Snippet Image Block Four Start-->
+        <template id="household_essentials_image_block_four" name="Household Essentials Image Block Four">
+            <section class="pt0 pb0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-1170x208.png"
+                                 alt="Image" title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block Four End-->
+
+        <!--Snippet News Start-->
+        <template id="household_essentials_news" name="Household Essentials News">
+            <section class="pt64 pb64" id="news_two">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb64">
+                            <h2 class="o_default_snippet_text">
+                                <font style="font-size: 36px;">Recent News</font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut<br/>labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam.
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font style="font-size: 20px; font-weight: normal;">Online Grocery
+                                                Shopping
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetuer
+                                            adipiscing elit,...
+                                        </font>
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2 o_default_snippet_text">
+                                            <i class="fa fa-calendar text-gamma" style=""/>
+                                            <font class="text-gamma" style="">&amp;nbsp;June 7, 2016&amp;nbsp;</font>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-folder text-gamma" data-original-title="" title=""
+                                               aria-describedby="tooltip843187" style=""/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <font class="text-gamma" style="">YourCompany, Administrator</font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn" data-original-title="" title=""
+                                            aria-describedby="tooltip59248">Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                           aria-describedby="tooltip243818" style="font-weight: normal;">
+                                            <font style="font-size: 20px;">Time To Go Green</font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetuer
+                                            adipiscing elit,...
+                                        </font>
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2 o_default_snippet_text">
+                                            <i class="fa fa-calendar text-gamma" style=""/>
+                                            <font class="text-gamma" style="">&amp;nbsp;June 7, 2016&amp;nbsp;</font>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-folder text-gamma" style=""/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <font class="text-gamma" style="">YourCompany, Administrator</font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn o_default_snippet_text">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                           aria-describedby="tooltip488085" style="font-weight: normal;">
+                                            <font style="font-size: 20px;">Life Style Products</font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetuer
+                                            adipiscing elit,...
+                                        </font>
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2 o_default_snippet_text">
+                                            <i class="fa fa-calendar text-gamma" style=""/>
+                                            <font class="text-gamma" style="">&amp;nbsp;June 7, 2016</font>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-folder text-gamma" style=""/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip730891">
+                                                <font class="text-gamma" style="">YourCompany, Administrator</font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn o_default_snippet_text">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="household_essentials_testimonial" name="Household Essentials Testimonial">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-color: rgb(246, 246, 246) !important; background-image: url(&quot;/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="o_default_snippet_text">
+                                <font style="font-size: 36px;" class="text-delta">Testimonials</font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="color:#DFE2E8;font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed eiusmod tempor incididunt<br/>ut labore et dolore magna aliqua.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1580731266642" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1580731266642" data-slide-to="0"/>
+                        <li data-target="#myCarousel1580731266642" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1580731266642" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt0 pb64" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 p-0">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="font-size: 17px;" class="text-delta">
+                                                <b>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit, sed do eiusmod tempor incididunt ut labore et
+                                                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                                                    nostrud exercitation ullamco laboris nisi ut aliquip
+                                                    ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. .
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">
+                                                <font style="font-size: 15px;" class="text-delta">Jane DOE, CEO of &amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font style="" class="text-delta"></font>
+                                                    <font style="font-size: 15px;" class="text-delta">MyCompany</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt0 pb64 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 p-0">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="font-size: 17px;" class="text-delta">
+                                                <b>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit, sed do eiusmod tempor incididunt ut labore et
+                                                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                                                    nostrud exercitation ullamco laboris nisi ut aliquip
+                                                    ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. .
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">
+                                                <font style="font-size: 15px;" class="text-delta">Jane DOE, CEO of &amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font style="font-size: 15px;" class="text-delta">MyCompany</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt0 pb64" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 p-0">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="font-size: 17px;" class="text-delta">
+                                                <b>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit, sed do eiusmod tempor incididunt ut labore et
+                                                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                                                    nostrud exercitation ullamco laboris nisi ut aliquip
+                                                    ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore
+                                                    eu fugiat nulla pariatur. .
+                                                </b>
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">
+                                                <font style="font-size: 15px;" class="text-delta">Jane DOE, CEO of &amp;nbsp;</font>
+                                                <b class="o_default_snippet_text">
+                                                    <font style="font-size: 15px;" class="text-delta">MyCompany</font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1580731266642" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1580731266642" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="household_essentials_brand_carousel" name="Household Essentials Brand Carousel">
+            <section class="pt40 s_brand_carousel mb8 js_get_objects" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d4"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d4"/>
+        </template>
+        <!--Snippet Brand Carousel End-->
+
+        <!--Snippet Footer Start-->
+        <template id="household_essentials_footer" name="Household Essentials Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <h5 class="font-weight-bold o_default_snippet_text mb24">
+                                    <font class="text-delta" style="font-size: 20px;">About</font>
+                                </h5>
+                                <img style="margin:0 auto;" class="img img-responsive mb8 img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam.
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 separator mb32">
+                                <h5 class="font-weight-bold o_default_snippet_text mb24">
+                                    <font class="text-delta" style="font-size: 20px;">Latest Posts</font>
+                                </h5>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip876269"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="font-size: 18px;" class="text-delta">12+ different blog
+                                                styles
+                                            </font>
+                                        </a>
+                                        <p>
+                                            <font style="font-size: 16px;">June 5 , 2019</font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-70x70.png"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip219685">
+                                            <font style="font-size: 18px;" class="text-delta">Unlimited
+                                                Possibilities
+                                            </font>
+                                        </a>
+                                        <p>
+                                            <font style="font-size: 16px;">December 15 , 2019</font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/placeholder-image-70x70.png"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip278476">
+                                            <font style="font-size: 18px;" class="text-delta">More Unique Design
+                                            </font>
+                                        </a>
+                                        <p>
+                                            <font style="font-size: 16px;">January 17 , 2020</font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <h5 class="o_default_snippet_text mb24">
+                                    <font class="text-delta" style="font-size: 20px;">
+                                        <b>Contact Us</b>
+                                    </font>
+                                </h5>
+                                <div class="media">
+                                    <i class="fa fa-map-marker mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font style="font-size: 16px;">Address :</font>
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">
+                                                <span t-field="res_company.street"/>
+                                                <span t-field="res_company.city"/>
+                                                <span t-field="res_company.state_id.name"/>
+                                                <br/>
+                                                <span t-field="res_company.zip"/>
+                                                <span t-field="res_company.country_id.name"/>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <i class="fa fa-phone mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font style="font-size: 16px;">Call us :</font>
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 16px;">
+                                                <span t-field="res_company.phone"/>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="icon_bg mt8">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip781129" style="color: rgb(0, 0, 255);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip330931" style="color: rgb(57, 132, 198);"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip907705" style="color: rgb(231, 99, 99);"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip933373" style="color: rgb(255, 0, 0);"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Household Essentials Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_banner"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_image_block_one"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_product_carousel_one"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_image_block_two"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_product_carousel_two"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_image_block_three"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_counter"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_product_carousel_three"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_image_block_four"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_news"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_testimonial"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_brand_carousel"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_household_essentials_ecommerce_ultimate_01.household_essentials_footer"
+                           t-thumbnail="/theme_household_essentials_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

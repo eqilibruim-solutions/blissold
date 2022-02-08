@@ -1,0 +1,1074 @@
+<odoo>
+    <data>
+
+        <!--Mid Header Snippets start-->
+        <template id="vet_mid_header" name="Vet Mid Header">
+            <section class="mid_header_top bg-white pt-1 pb-1 border-bottom" style="">
+                <div class="container" id="mid_header_top_2">
+                    <div class="row">
+                        <div class="col-12 oe_structure mt-1 mb-1 col-lg-8 col-md-8 col-sm-12 text-center text-lg-left text-md-left"
+                             id="mid_header_top_left">
+                            <span id="company-contact" class="ml8 mr8">
+                                <i class="fa fa-phone mr-2"/>
+                                <span t-field="res_company.phone"/>
+                            </span>
+                            <span class="ml8 mr8 d-block d-lg-inline d-md-inline" id="company-email">
+                                <i class="fa fa-envelope mr-2"/>
+                                <span t-field="res_company.email"/>
+                            </span>
+                        </div>
+                        <div class="col-12 oe_structure col-lg-4 col-md-4 col-sm-12 my-1 text-center text-lg-right text-md-right"
+                             id="mid_header_top_right">
+                            <div id="company-profile">
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-x mx-2 text-dark fa-facebook share_facebook fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-x mx-2 text-dark fa-twitter share_twitter fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_linkedin">
+                                    <i class="fa fa-x mx-2 text-dark fa-linkedin share_linkedin fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_youtube">
+                                    <i class="fa fa-x mx-2 text-dark fa-youtube-play share_youtube fa_company_contact_info"/>
+                                </a>
+                                <a rel="publisher" class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_instagram">
+                                    <i class="fa fa-x mx-2 text-dark fa-instagram share_instagram fa_company_contact_info"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_github">
+                                    <i class="fa fa-x mx-2 text-dark fa-github share_github fa_company_contact_info"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Mid Header Snippets End-->
+
+        <!--banner Snippets start-->
+        <template id="vet_banner" name="Vet Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_vet_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="text-align: center;">
+                                <span style="font-size: 48px;">
+                                    <b>Keeping Your Pet On&amp;nbsp;</b>
+                                </span>
+                            </h1>
+                            <h1 class="text-white" style="text-align: center;">
+                                <span style="font-size: 48px;">
+                                    <b>The Path To Wellness</b>
+                                </span>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two
+                                paragraphs describing your product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="mb8 mt8 btn btn-delta flat btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip140578">
+                                <b>Read More</b>
+                            </a>
+                            <a href="/contactus" class="mb8 mt8 btn btn-primary flat btn-lg" data-original-title=""
+                               title=""
+                               aria-describedby="tooltip100168">
+                                <b>Get It Now</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--banner Snippets End-->
+
+
+        <!--Our_services Snippets start-->
+        <template id="vet_services" name="Vet Services">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b class="o_default_snippet_text">Our Services</b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                            <div class="row text-center pt48">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Wellness
+                                                Care
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Pain
+                                                Management
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Dental Care
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Vaccination
+                                                Care
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Our_services Snippets End-->
+
+
+        <!--Our_Department Snippets start-->
+        <template id="vet_department" name="Vet Department">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 s_title pb48">
+                            <h2 class="s_title_default" style="text-align: center; ">
+                                <b class="o_default_snippet_text">Our Departments</b>
+                            </h2>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the
+                                printing.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row text-left">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb16">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-md-12 col-sm-12 mb16">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 col-lg-7 col-md-12 col-sm-12">
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Surgical
+                                                Operations
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum is
+                                    </p>
+                                    <p>
+                                        <i>
+                                            <font class="text-alpha o_default_snippet_text" style="">Read More</font>
+                                        </i>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb16">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-md-12 col-sm-12 mb16">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 col-lg-7 col-md-12 col-sm-12">
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Pet Barber
+                                                Service
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum is
+                                    </p>
+                                    <p>
+                                        <i>
+                                            <font class="text-alpha o_default_snippet_text" style="">Read More</font>
+                                        </i>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb16">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-md-12 col-sm-12 mb16">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 col-lg-7 col-md-12 col-sm-12">
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Patient
+                                                Department
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum is
+                                    </p>
+                                    <p>
+                                        <i>
+                                            <font class="text-alpha o_default_snippet_text" style="">Read More</font>
+                                        </i>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 pb16">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-md-12 col-sm-12 mb16">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                </div>
+                                <div class="col-12 col-lg-7 col-md-12 col-sm-12">
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Laboratory
+                                                Services
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem
+                                        Ipsum is
+                                    </p>
+                                    <p>
+                                        <i>
+                                            <font class="text-alpha o_default_snippet_text" style="">Read More</font>
+                                        </i>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Our_Department Snippets End-->
+
+        <!--Our Team Snippets start-->
+        <template id="vet_team" name="Vet Team">
+            <section class="pt64 pb64 bg-delta oe_custom_bg">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <b>
+                                    <font class="text-gamma" style="">Our Team</font>
+                                </b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-center pb24">
+                            <div class="img-container">
+                                <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt=""
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <h3 class="pt16">
+                                        <b>
+                                            <font style="font-size: 18px;" class=" text-gamma">Ken Morgan</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                    <a href="#" data-original-title="" title="" aria-describedby="tooltip152440">
+                                        <i>Read More</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-center pb24">
+                            <div class="img-container">
+                                <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt=""
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <h3 class="pt16">
+                                        <font style="font-size: 18px;" class=" text-gamma">
+                                            <b>Andrew Bert</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                    <a href="http://localhost:8088/#" data-original-title="" title=""
+                                       aria-describedby="tooltip152440" style="background-color: rgb(59, 61, 66);">
+                                        <i>Read More</i>
+                                    </a>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-center pb24">
+                            <div class="img-container">
+                                <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt=""
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <h3 class="pt16">
+                                        <b>
+                                            <font style="font-size: 18px;" class=" text-gamma">Aimee Devlin</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                    <a href="http://localhost:8088/#" data-original-title="" title=""
+                                       aria-describedby="tooltip152440" style="background-color: rgb(59, 61, 66);">
+                                        <i>Read More</i>
+                                    </a>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-center pb24">
+                            <div class="img-container">
+                                <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt=""
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <h3 class="pt16 o_default_snippet_text">
+                                        <b>
+                                            <font style="font-size: 18px;" class=" text-gamma">Jorge Carnival</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                    <a href="http://localhost:8088/#" data-original-title="" title=""
+                                       aria-describedby="tooltip152440" style="background-color: rgb(59, 61, 66);">
+                                        <i>Read More</i>
+                                    </a>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Our Team Snippets End-->
+
+        <!--Gallery Snippets start-->
+        <template id="vet_gallery" name="Vet Gallery">
+            <section class="pt64 pb64" id="portfolio_8">
+                <div class="container">
+                    <div class="text-center">
+                        <h2>
+                            <b>Our Gallery</b>
+                        </h2>
+                        <p class="pb48 o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            industry.
+                        </p>
+                        <div class="justify-content-center pb32">
+                            <a class="btn text-primary  filter-button mt8 mb8 o_default_snippet_text" data-filter="all"
+                               data-original-title="" title="" aria-describedby="tooltip831564">
+                                <b>All</b>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="one" data-original-title=""
+                               title=""
+                               aria-describedby="tooltip158690">
+                                <b>NUTRITIONAL</b>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="two" data-original-title=""
+                               title=""
+                               aria-describedby="tooltip511567">
+                                <b>AESTHETIC</b>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="three"
+                               data-original-title="" title=""
+                               aria-describedby="tooltip745975">
+                                <b>VACCINATION</b>
+                            </a>
+                            <a class="btn filter-button mb8 mt8 text-primary" data-filter="four" data-original-title=""
+                               title=""
+                               aria-describedby="tooltip850796">
+                                <b>CONSULTATION</b>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter one pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter two pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter one pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter three pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter three pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter one pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter three pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 filter two pb24" style="display: block;">
+                                <div class="single_portfolio">
+                                    <img src="/theme_vet_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <a href="#" class="icon o_default_snippet_text">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script class="o_default_snippet_text">
+                    $(document).ready(function(){
+
+                    $(".filter-button").click(function(){
+                    var value = $(this).attr('data-filter');
+
+                    if(value == "all")
+                    {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                    }
+                    else
+                    {
+                    // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    // $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+
+                    }
+                    });
+
+                    if ($(".filter-button").removeClass("active")) {
+                    $(this).removeClass("active");
+                    }
+                    $(this).addClass("active");
+
+                    });
+                </script>
+            </section>
+        </template>
+        <!--Gallery Snippets End-->
+
+        <!--Vet Pricing Snippets start-->
+        <template id="vet_pricing" name="Vet Pricing">
+            <section id="bs_price_table_6" class="pt64 pb64">
+                <div class="container table-padding">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 col-md-12 text-center pb48">
+                            <div class="table-title">
+                                <h2>
+                                    <b>Our Pricing</b>
+                                </h2>
+                                <p class="mt32 mb32 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Aliquid in ullam labore optio
+                                    temporibus ex recusandae minima et ipsa
+                                    aliquam!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="single-table-pricing bg-white">
+                                <h3 class="o_default_snippet_text">Starter</h3>
+                                <div class="pricing-icon">
+                                    <i class="fa fa-bullhorn"/>
+                                </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>Pet Coiffeur</li>
+                                        <li>Pet Vaccine</li>
+                                        <li class="off o_default_snippet_text">Managed CMS</li>
+                                        <li>Hotel Service</li>
+                                        <li>Endless Support</li>
+                                    </ul>
+                                </div>
+                                <h3 class="pricing-count">$30/Serving</h3>
+                                <a href="/" class="btn btn-alpha flat" data-original-title="" title=""
+                                   aria-describedby="tooltip988706">
+                                    <b>Order Now</b>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="single-table-pricing bg-white">
+                                <h3 class="o_default_snippet_text">Personal</h3>
+                                <div class="pricing-icon">
+                                    <i class="fa fa-user-secret" data-original-title="" title=""
+                                       aria-describedby="tooltip776752"/>
+                                </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>Pet Coiffeur</li>
+                                        <li class="o_default_snippet_text">Pet Vaccine</li>
+                                        <li class="o_default_snippet_text">Managed CMS</li>
+                                        <li class="o_default_snippet_text">Hotel Service</li>
+                                        <li>Endless Support</li>
+                                    </ul>
+                                </div>
+                                <h3 class="pricing-count">$50/Serving</h3>
+                                <a href="/" class="btn btn-alpha flat" data-original-title="" title=""
+                                   aria-describedby="tooltip561765">
+                                    <b>Order Now</b>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="single-table-pricing bg-white">
+                                <h3 class="o_default_snippet_text">Premium</h3>
+                                <div class="pricing-icon">
+                                    <i class="fa fa-star" data-original-title="" title=""
+                                       aria-describedby="tooltip720785"/>
+                                </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>Pet Coiffeur</li>
+                                        <li class="o_default_snippet_text">Pet Vaccine</li>
+                                        <li class="o_default_snippet_text">Hotel Service</li>
+                                        <li>Endless Support</li>
+                                        <li>Pet Coiffeur</li>
+                                    </ul>
+                                </div>
+                                <h3 class="pricing-count">$65/Serving</h3>
+                                <a href="/" class="btn btn-alpha flat" data-original-title="" title=""
+                                   aria-describedby="tooltip616216">
+                                    <b>Order Now</b>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="single-table-pricing bg-white">
+                                <h3 class="o_default_snippet_text">Business</h3>
+                                <div class="pricing-icon">
+                                    <i class="fa fa-rocket"/>
+                                </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>Pet Coiffeur</li>
+                                        <li class="o_default_snippet_text">Pet Vaccine</li>
+                                        <li class="o_default_snippet_text">Hotel Service</li>
+                                        <li>Endless Support</li>
+                                        <li>Pet Coiffeur</li>
+                                    </ul>
+                                </div>
+                                <h3 class="pricing-count">$75/Serving</h3>
+                                <a href="/" class="btn btn-alpha flat" data-original-title="" title=""
+                                   aria-describedby="tooltip757160">
+                                    <b>Order Now</b>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Vet Pricing Snippets End-->
+
+
+        <!--Testimonial Snippets start-->
+        <template id="vet_testimonial" name="Vet Testimonial">
+            <section class="pt64 pb64 bg-gamma oe_custom_bg" id="testimonials_d3">
+                <div class="container">
+                    <div class="row content justify-content-md-center pb48">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>Our Client Says</b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1571222763603" class="s_quotes_carousel s_carousel_default carousel slide"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1571222763603" data-slide-to="0" class="active"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item  oe_custom_bg active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                Write a quote here from one
+                                                of your customers. Quotes are a
+                                                great
+                                                way to build confidence in your
+                                                products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <img class="img"
+                                                     src="/theme_vet_ultimate_01/static/src/img/placeholder-user1.png"
+                                                     alt=""/>
+                                                <div class="mt8 mb8 o_default_snippet_text">
+                                                    —
+                                                    Jane DOE, CEO of
+                                                    <b class="o_default_snippet_text">
+                                                        MyCompany
+                                                    </b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                Write a quote here from one
+                                                of your customers. Quotes are a
+                                                great
+                                                way to build confidence in your
+                                                products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <img class="img"
+                                                     src="/theme_vet_ultimate_01/static/src/img/placeholder-user1.png"
+                                                     alt=""/>
+                                                <div class="mt8 mb8 o_default_snippet_text">
+                                                    —
+                                                    Jane DOE, CEO of
+                                                    <b class="o_default_snippet_text">
+                                                        MyCompany
+                                                    </b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content col-12 col-sm-12 col-md-4 col-lg-4 bg-white ml-auto mr-auto mt-4 mt-md-0 sni-s-slide">
+                                        <div class="col-lg-12">
+                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                Write a quote here from one
+                                                of your customers. Quotes are a
+                                                great
+                                                way to build confidence in your
+                                                products or services.
+                                            </p>
+                                            <div class="text-center">
+                                                <img class="img"
+                                                     src="/theme_vet_ultimate_01/static/src/img/placeholder-user1.png"
+                                                     alt=""/>
+                                                <div class="mt8 mb8 o_default_snippet_text">
+                                                    —
+                                                    Jane DOE, CEO of
+                                                    <b class="o_default_snippet_text">
+                                                        MyCompany
+                                                    </b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1571222763603" data-slide="prev"
+                         role="img"
+                         aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous
+                        </span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1571222763603" data-slide="next"
+                         role="img"
+                         aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Testimonial Snippets End-->
+
+        <!--Blog Snippets start-->
+        <template id="vet_blog" name="Vet Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel headline_hidden" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"
+                     style=""/>
+        </template>
+        <!--Blog Snippets End-->
+
+        <!--CTA Snippets start-->
+        <template id="vet_cta" name="Vet CTA">
+            <section class="s_call_to_action sni-block pt64 pb64 bg-alpha oe_custom_bg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 col-lg-8 s_title">
+                            <h2>
+                                <b>
+                                    <font class=" text-gamma" style="">Join The Dating Pet Club Today</font>
+                                </b>
+                            </h2>
+                            <p class="s_title_boxed o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and
+                                typesetting industry.galley of type and scrambled it to make a type specimen book. It
+                                has survived
+                                electronic typesetting, remaining essentially Lorem Ipsum.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-3">
+                            <p>
+                                <a href="/contactus" class="btn btn-beta flat btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip966764">
+                                    <b data-original-title="" title="" aria-describedby="tooltip252271">Appointment
+                                        Now
+                                    </b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--CTA Snippets End-->
+
+
+        <!--Footer Snippets start-->
+        <template id="vet_footer" name="Vet Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="media">
+                                    <i class="fa fa-map-marker mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Address :</p>
+                                        <p class="o_default_snippet_text">
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <i class="fa fa-phone mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Call us &amp;amp; Hire us
+                                            :
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <span t-field="res_company.phone"/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1 text-beta" data-original-title="" title=""
+                                           aria-describedby="tooltip209271" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1 text-beta" data-original-title="" title=""
+                                           aria-describedby="tooltip816586" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1 text-beta" data-original-title="" title=""
+                                           aria-describedby="tooltip572479" style=""/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1 text-beta" data-original-title="" title=""
+                                           aria-describedby="tooltip540710" style=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <h5 class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>Usefull Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">Our Services</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip567996">Our Blog
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">Contacts</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Site Templates</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <font style="" data-original-title="" title="" aria-describedby="tooltip866486"
+                                              class=" text-gamma">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip303277">
+                                                <font class=" text-gamma" style="">S</font>
+                                            </a>
+                                            ervices
+                                        </font>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip766519">Theme Customization
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Site Templates</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb32">
+                                <h5 class="mb24 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>Latest Post</b>
+                                    </font>
+                                </h5>
+                                <p class="mb8">Mohn is a Multi-Purpose Theme</p>
+                                <p>26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">Vet is a Multi-Purpose Theme</p>
+                                <p>26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">Vet is a Multi-Purpose Theme</p>
+                                <p>26 January,2019</p>
+                                <hr class="m-0"/>
+                                <p class="mb8 o_default_snippet_text">Vet is a Multi-Purpose Theme</p>
+                                <p>26 January,2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Footer Snippets End-->
+
+
+        <!--Snippets Assets start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Vet Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_vet_ultimate_01.vet_mid_header"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_banner"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_services"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_department"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_team"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_gallery"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_pricing"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_testimonial"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_blog"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_cta"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_vet_ultimate_01.vet_footer"
+                           t-thumbnail="/theme_vet_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets end-->
+
+    </data>
+</odoo>

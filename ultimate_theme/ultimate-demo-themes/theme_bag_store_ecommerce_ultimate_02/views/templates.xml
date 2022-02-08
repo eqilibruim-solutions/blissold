@@ -1,0 +1,615 @@
+<odoo>
+    <data>
+
+        <!--Snippet Mid Header Start-->
+        <template id="bag_store2_mid_header" name="Bag Store 2 Mid Header">
+            <section class="bg-100 oe_custom_bg" id="mid-header-top-7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 oe_structure col-lg-4 col-md-6 col-sm-12 pt8 pb8 align-self-center text-center text-lg-left text-md-left"
+                             id="mid-header-top-left">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <span class="o_default_snippet_text text-beta" style="">Free delivery and free
+                                        returns within the US
+                                    </span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="col-12 oe_structure col-lg-8 col-md-6 col-sm-12 pt8 pb8 align-self-center text-center text-lg-right text-md-right"
+                             id="mid-header-top-right">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex o_default_snippet_text">
+                                        <font class="text-beta" style="">
+                                            Call Us :
+                                            &amp;nbsp;
+                                        </font>
+                                        <span class="text-beta" t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item account_custom">
+                                <div class="dropdown">
+                                    <a class="btn btn-link dropdown-toggle o_default_snippet_text" type="button"
+                                       id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false" data-original-title="" title=""
+                                       aria-describedby="tooltip873460">
+                                        <font class="text-beta" style="">
+                                            My Account
+                                            &amp;nbsp;
+                                        </font>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1"
+                                         x-placement="bottom-start"
+                                         style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 35px, 0px);">
+                                        <a class="text-xs-center dropdown-item o_default_snippet_text" href="/web/login"
+                                           id="ultimate_sign_in">
+                                            Sign in
+                                        </a>
+                                        <a href="/web/signup" class="text-xs-center dropdown-item"
+                                           id="ultimate_register">
+                                            <span class="o_default_snippet_text">Register</span>
+                                        </a>
+                                        <a href="/my/home" role="menuitem" class="dropdown-item o_default_snippet_text"
+                                           id="ultimate_my_account">My
+                                            Account
+                                        </a>
+                                        <a class="dropdown-item o_default_snippet_text" role="menuitem"
+                                           id="ultimate_logout" href="/web/session/logout?redirect=/">
+                                            Logout
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg" id="mid-header-bottom-7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 mt-2 pt8 pb8 oe_structure pt8 pb8"
+                             id="mid-header-bottom-left">
+                            <div class="oe_structure oe_empty">
+                                <section id="searchbox_with_dropdown">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                                                <div>
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                       style="padding:10px;" aria-expanded="false">
+                                                        <span class="fa fa-search text-dark fa-2x"
+                                                              data-original-title="" title=""
+                                                              aria-describedby="tooltip323175"/>
+                                                    </a>
+                                                    <ul class="dropdown-menu py-0 px-3 border-0 bg-transparent"
+                                                        role="menu" x-placement="bottom-start"
+                                                        style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(15px, 38px, 0px);">
+                                                        <div>
+                                                            <li class="navbar-form form-group m-0">
+                                                                <form action="/shop" method="get">
+                                                                    <div class="input-group">
+                                                                        <input type="text" name="search"
+                                                                               class="bg-200 text-white border border-right-0 form-control oe_search_box rounded-0 search-query"
+                                                                               placeholder="Enter Keyword to Search..."/>
+                                                                        <div class="input-group-append">
+                                                                            <button type="submit"
+                                                                                    class="bg-200 border border-bottom border-left-0 border-right border-top btn oe_search_button rounded-0"
+                                                                                    aria-label="Search" title="Search">
+                                                                                <i class="fa fa-search text-beta"/>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </li>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-4 col-lg-4 col-md-4 pt8 pb8 text-center text-md-center text-lg-center oe_structure"
+                             id="mid-header-bottom-center">
+                            <div class="oe_structure oe_empty">
+                                <a href="/">
+                                    <img class="img-fluid" src="/logo.png" alt="Logo of YourCompany"
+                                         title="YourCompany"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-4 col-lg-4 col-md-4 pt8 pb8 align-self-center text-center text-md-right text-lg-right oe_structure"
+                             id="mid-header-bottom-right">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty"/>
+                            </li>
+                            <li id="my_wish" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <a href="/shop/wishlist" class="pr-2">
+                                            <i class="fa fa-heart text-danger text-dark" title="wishlist"
+                                               style="font-size:18px;"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="my_cart" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <a href="/shop/cart" class="pr-2">
+                                            <i class="fa fa-shopping-cart text-danger  text-dark" title="add to cart"
+                                               style="font-size:18px;"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+        <!--Snippet Banner Start-->
+        <template id="bag_store2_banner" name="Bag Store 2 Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="0" style="background-image: none;height: 80vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">New Backpacks</h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font class="text-beta" style="font-size: 24px;">25% off on new collection of
+                                    backpacks
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mt8 mb8 btn btn-outline-beta btn-lg" data-original-title=""
+                               title="" aria-describedby="tooltip780319">
+                                <font style="font-size: 14px;">
+                                    <b>SHOP NOW</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features Start-->
+        <template id="bag_store2_features" name="Bag Store 2 Features">
+            <section class="pt64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                            <div style="border: 1px solid #8a8a8a; padding: 48px 0;">
+                                <h3 class="mb0 o_default_snippet_text">
+                                    <b>
+                                        <font style="font-size: 30px;">+3(800) 2345-6789</font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                            <div style="border: 1px solid #8a8a8a; padding: 37px 0;">
+                                <h3 class="mb0">
+                                    <b>
+                                        <font style="font-size: 30px;">Free</font>
+                                    </b>
+                                    <font style="font-size: 30px;">Delivery</font>
+                                </h3>
+                                <p class="mb0">On All Order</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                            <div style="border: 1px solid #8a8a8a; padding: 48px 0;">
+                                <h3 class="mb0">
+                                    <b>
+                                        <font style="font-size: 30px;">Secure</font>
+                                    </b>
+                                    <font style="font-size: 30px;">Payments</font>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Image Block Start-->
+        <template id="bag_store2_image_block" name="Bag Store 2 Image Block">
+            <section class="pt64 pb64" id="ecommerce_block_13">
+                <div class="container page-builder-ltr">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-595x422.png"
+                                                 class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip913321"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-595x422.png"
+                                                 class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip913321"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-595x422.png"
+                                                 class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip913321"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb32">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img editor_enable">
+                                        <a href="#">
+                                            <img src="/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-595x422.png"
+                                                 class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip845194"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block One End-->
+
+        <!--Snippet Product Carousel One Start-->
+        <template id="bag_store2_product_carousel_one" name="Bag Store 2 Product Carousel One">
+            <h3 style="text-align: center; ">
+                <font style="font-size: 48px;">
+                    <b>Bestsellers</b>
+                </font>
+            </h3>
+            <section
+                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_4"
+                    data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d20"
+                    data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d20"/>
+        </template>
+        <!--Snippet Product Carousel One End-->
+
+        <!--Snippet Product Carousel Two Start-->
+        <template id="bag_store2_product_carousel_two" name="Bag Store 2 Product Carousel Two">
+            <section style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-5 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section>
+                                    <div class="container">
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt8 pb8">
+                                                <h2>
+                                                    <font style="font-size: 60px;">Fluid &amp;amp;<br/>Intuitive
+                                                    </font>
+                                                </h2>
+                                                <p class="pb24 pt24">
+                                                    <font style="font-size: 22px;">Lorem ipsum dolor sit amet,
+                                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                        labore et
+                                                    </font>
+                                                </p>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   data-original-title="" title="" aria-describedby="tooltip231670">
+                                                    <b>
+                                                        <font class="text-beta" style="font-size: 18px;">Explore</font>
+                                                        <i class="ml-2 fa fa-chevron-right text-beta"
+                                                           data-original-title="" title=""
+                                                           aria-describedby="tooltip270139" style=""/>
+                                                    </b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-7 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_4"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_d30"
+                                        data-object_name="product.template" data-objects_in_slide="2"
+                                        id="new_products_item_d30" style=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel Two End-->
+
+        <!--Snippet Image Grid Start-->
+        <template id="bag_store2_image_grid" name="Bag Store 2 Image Grid">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-482x543.png"
+                                 alt="image" title="image"
+                                 class="img-fluid mb24"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 34px;">Lather Bags</font>
+                                </b>
+                            </h3>
+                            <p>
+                                <font style="font-size: 22px;">All popular brands on sale</font>
+                            </p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <h3>
+                                <font style="font-size: 34px;">
+                                    <b>New Arrivals</b>
+                                </font>
+                            </h3>
+                            <p class="mb0">
+                                <font style="font-size: 22px;">Your All time travel partner</font>
+                            </p>
+                            <img src="/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-482x543.png"
+                                 alt="image" title="image"
+                                 class="img-fluid mb8 mt24"/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_bag_store_ecommerce_ultimate_02/static/src/img/placeholder-482x543.png"
+                                 alt="image" title="image"
+                                 class="img-fluid mb24"/>
+                            <h3>
+                                <font style="font-size: 34px;">
+                                    <b>Travel Backpacks</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font style="font-size: 22px;">For new adventures</font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Grid End-->
+
+        <!--Snippet Footer Start-->
+        <template id="bag_store2_footer" name="Bag Store 2 Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64" id="footer_16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 pb16">
+                                <h5 class="pb16">Information</h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">About Us</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Contact</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Delivery Information</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Privacy Policy</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Terms &amp;amp; Condition
+                                        </font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Manufactures</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Suppliers</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Blog</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">FAQ</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 pb16">
+                                <h5 class="pb16">Services</h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Shipping &amp;amp; Returns
+                                        </font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">International Shipping</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Secure Shopping</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Affiliates</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Careers</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 pb16">
+                                <h5 class="pb16">My Account</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <font class="text-beta s_line_height_2" style="">Personal Info</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Order History</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Address</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Credit Slips</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">My Wishlist</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Term of Use</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font class="text-beta s_line_height_2" style="">Returns &amp;amp; Exchange
+                                        </font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-6 col-lg-3 pb16">
+                                <h5 class="pb16 o_default_snippet_text">Contact Us</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <address>
+                                            <span class="o_default_snippet_text">
+                                                <font class="text-beta" style="">Address</font>
+                                            </span>
+                                            <br/>
+                                            <font class="text-beta s_line_height_2" style="">
+                                                <span t-field="res_company.street"/>
+                                                <span t-field="res_company.city"/>
+                                                <span t-field="res_company.state_id.name"/>
+                                                <span t-field="res_company.zip"/>
+                                                <span t-field="res_company.country_id.name"/>
+                                            </font>
+                                        </address>
+                                    </li>
+                                    <li class="pb16 o_default_snippet_text">
+                                        <span class="o_default_snippet_text">
+                                            <font class="text-beta" style="">Email</font>
+                                        </span>
+                                        <br/>
+                                        <font class="text-beta s_line_height_2" style="">
+                                            <span t-field="res_company.email"/>
+                                        </font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <span class="o_default_snippet_text">
+                                            <font class="text-beta" style="">Phone</font>
+                                        </span>
+                                        <br/>
+                                        <font class="text-beta s_line_height_2" style="">
+                                            <span t-field="res_company.phone"/>
+                                        </font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                <h5 class="mb16">Newsletter</h5>
+                                <p class="o_default_snippet_text">
+                                    <font class="text-beta s_line_height_2" style="">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                    </font>
+                                </p>
+                                <div class="col-md-12 p-0 input-group js_subscribe hidden" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="bg-alpha border-beta border-right-0 form-control js_subscribe_email rounded-0 text-beta"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#" class="js_subscribe_btn rounded-0 btn btn-outline-beta"
+                                           data-original-title="" title="" aria-describedby="tooltip226836">Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        Thanks for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer Start-->
+
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Bag Store Ecommerce Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_mid_header"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_banner"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_features"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_image_block"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_product_carousel_one"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_product_carousel_two"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_image_grid"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_02.bag_store2_footer"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

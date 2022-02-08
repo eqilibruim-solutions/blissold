@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_1</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_1</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/loader.png</field>
+        </record>
+
+
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_2</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_2</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/block_03.jpg</field>
+        </record>
+
+
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_3</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_3</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/left_crousal_img_01.jpg
+            </field>
+        </record>
+
+
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_4</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_4</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/left_crousal_img_02.jpg
+            </field>
+        </record>
+
+
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_5</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_5</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/block_04.jpg</field>
+        </record>
+
+
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_6</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_6</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/barcode.png</field>
+        </record>
+
+
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_7</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_7</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/payment-method.png</field>
+        </record>
+
+
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_8</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_8</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/promo_banner.jpg</field>
+        </record>
+
+
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_9</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_9</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/shipping.png</field>
+        </record>
+
+
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_10</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_10</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/blog_03.jpg</field>
+        </record>
+
+
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_11</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_11</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/blog_01.jpg</field>
+        </record>
+
+
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_12</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_12</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/testi_02.png</field>
+        </record>
+
+
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_13</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_13</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/cta_02.jpg</field>
+        </record>
+
+
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_14</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_14</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/customer-care.png</field>
+        </record>
+
+
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_15</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_15</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/cta_01.jpg</field>
+        </record>
+
+
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_16</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_16</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/shopping.png</field>
+        </record>
+
+
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_17</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_17</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/block_01.jpg</field>
+        </record>
+
+
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_18</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_18</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/present.png</field>
+        </record>
+
+
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_19</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_19</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+
+
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_20</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_20</field>
+            <field name="url">
+                /theme_electronics_ecommerce_ultimate_01/static/src/img/library/electronics_ecommerce_ultimate_01_logo.png
+            </field>
+        </record>
+
+
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_21</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_21</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/blog_02.jpg</field>
+        </record>
+
+
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_22</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_22</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/block_02.jpg</field>
+        </record>
+
+
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_23</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_23</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/notification.png</field>
+        </record>
+
+
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_24</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_24</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/team01.jpg</field>
+        </record>
+
+        <record id="image_content_25" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_25</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_25</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/logo1.png</field>
+        </record>
+
+        <record id="image_content_26" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_26</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_26</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/logo2.png</field>
+        </record>
+
+        <record id="image_content_27" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_27</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_27</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/logo3.png</field>
+        </record>
+
+        <record id="image_content_28" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_28</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_28</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/logo4.png</field>
+        </record>
+
+        <record id="image_content_29" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_29</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_29</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/logo5.png</field>
+        </record>
+
+        <record id="image_content_30" model="theme.ir.attachment">
+            <field name="key">theme_electronics_ecommerce_ultimate_01.image_content_30</field>
+            <field name="name">theme_electronics_ecommerce_ultimate_01.image_content_30</field>
+            <field name="url">/theme_electronics_ecommerce_ultimate_01/static/src/img/library/logo6.png</field>
+        </record>
+
+
+    </data>
+</odoo>

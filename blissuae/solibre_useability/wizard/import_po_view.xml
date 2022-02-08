@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_purchase_order_import_form">
+        <field name="name">purchase.order.import.form</field>
+        <field name="model">purchase.order.import</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="data_file"/>
+                    </group>
+                </sheet>
+                <footer>
+                    <button type="object" name="load_po" string="Load" class="btn btn-primary"/>
+                    <button type="object" name="load_supplier_invoices" string="Load from Gsuite" class="btn btn-primary"/>
+
+                    <button class="oe_link" special="cancel" string="Cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_purchase_order_import">
+        <field name="name">Import Purchase Orders</field>
+        <field name="res_model">purchase.order.import</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="view_id" ref="view_purchase_order_import_form" />
+    </record>
+
+    <menuitem
+        id="menu_purchase_order_import"
+        name="Import Vendor Bills"
+        parent="purchase.menu_procurement_management"
+        action="action_purchase_order_import" />
+
+</odoo>

@@ -1,0 +1,930 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="restaurant_banner" name="Restaurant Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;height: 80vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white o_default_snippet_text"
+                                style="font-size: 100px; text-align: center; font-family:handlee;">
+                                Dining<br/>Delight
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Overlay Start-->
+        <template id="restaurant_overlay" name="Restaurant Overlay">
+            <section class="bg-epsilon oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">&amp;nbsp;</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb64 pt0 s_overlay_section">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-343x229.png" alt="img2"
+                                                     class="img-fluid pt16 pb8" data-original-title="" title=""
+                                                     aria-describedby="tooltip94951"/>
+                                                <h3 class="font-weight-bold pt24">Welcome</h3>
+                                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                                    congue suscipit. Suspendisse potenti. Aliquam finibus pharetra
+                                                    tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra
+                                                    tellus at egestas.Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">&amp;nbsp;</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-epsilon oe_custom_bg s_overlay_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb64 pt0 s_overlay_section">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-343x229.png" alt="img2"
+                                                     class="img-fluid pt16 pb8" data-original-title="" title=""
+                                                     aria-describedby="tooltip850843"/>
+                                                <h3 class="font-weight-bold pt24" style="text-align: left; ">Food</h3>
+                                                <p class="o_default_snippet_text" style="text-align: left; ">Lorem ipsum
+                                                    dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum
+                                                    est in tortor congue suscipit. Suspendisse potenti. Aliquam finibus
+                                                    pharetra tellus at egestas.Suspendisse potenti. Aliquam finibus
+                                                    pharetra tellus at egestas.Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt0 pb0">
+                                    <div class="container ">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pt0">
+                                                <div>
+                                                    <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-350x527.png" alt="img2"
+                                                         class="img-fluid pt16 pb8" data-original-title="" title=""
+                                                         aria-describedby="tooltip715865"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb64 pt0 s_overlay_section">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-343x229.png" alt="img2"
+                                                     class="img-fluid pt16 pb8" data-original-title="" title=""
+                                                     aria-describedby="tooltip907036"/>
+                                                <h3 class="font-weight-bold pt24" style="text-align: left; ">Tools</h3>
+                                                <p class="o_default_snippet_text" style="text-align: left; ">Lorem ipsum
+                                                    dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum
+                                                    est in tortor congue suscipit. Suspendisse potenti. Aliquam finibus
+                                                    pharetra tellus at egestas.Suspendisse potenti. Aliquam finibus
+                                                    pharetra tellus at egestas.Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Overlay End-->
+
+        <!--Snippet Menu 1 Start-->
+        <template id="restaurant_menu_1" name="Restaurant Menu 1">
+            <section class="oe_img_bg oe_custom_bg shadow"
+                     style="background-image: url(&quot;/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 mh100 col-lg-5 offset-lg-1 bg-white">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="pt64 pb64 px-3" id="price_menu_3">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                                                <h2>
+                                                    <font style="font-size: 36px;">Special Menu</font>
+                                                </h2>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb16">
+                                                <div class="tab-wrapper">
+                                                    <h5 class="o_default_snippet_text">Figer Chicken</h5>
+                                                    <span class="price o_default_snippet_text">$14.95</span>
+                                                    <div class="dotted-bg"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb16">
+                                                <div class="tab-wrapper">
+                                                    <h5 class="o_default_snippet_text">Osemary salt potatoes</h5>
+                                                    <span class="price o_default_snippet_text">$14.95</span>
+                                                    <div class="dotted-bg"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb16">
+                                                <div class="tab-wrapper">
+                                                    <h5 class="o_default_snippet_text">Pan-Seared Strip Steak</h5>
+                                                    <span class="price o_default_snippet_text">$14.95</span>
+                                                    <div class="dotted-bg"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 mh100 bg-white col-lg-5">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="pb64 pt64 px-3" style="">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <h2 class="font-weight-bold pb24">
+                                                    <span style="font-weight: normal;">
+                                                        <font style="font-size: 36px;">Time To Relax</font>
+                                                    </span>
+                                                </h2>
+                                                <p class="o_default_snippet_text pb16">Lorem ipsum dolor sit amet,
+                                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                                    congue suscipit. Suspendisse potenti. Aliquam finibus pharetra
+                                                    tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra
+                                                    tellus at egestas. &amp;nbsp;
+                                                </p>
+                                                <h4 class="o_default_snippet_text">+1 555 123 8069</h4>
+                                                <h6 class="o_default_snippet_text">30 Minutes Guarentee</h6>
+                                                <a href="#"
+                                                   class="btn btn-lg btn-outline-primary mb16 mt16 mx-3 px-4 rounded-0 rounded-circle"
+                                                   data-original-title="" title="" aria-describedby="tooltip572796">
+                                                    Action
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Menu 1 End-->
+
+        <!--Snippet Menu 2 Start-->
+        <template id="restaurant_menu_2" name="Restaurant Menu 2">
+            <section class="pt64 pb64" id="price_menu_4" style="">
+                <div class="container container-full">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2 class="s_letter_spacing_3">
+                                <font style="font-size: 48px;">Today Specials</font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb16">
+                            <div class="single_menu_list">
+                                <img class="img-fluid mb32"
+                                     src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-100.png"
+                                     alt=""/>
+                                <div class="menu_content">
+                                    <h5 class="o_default_snippet_text border-0 pb0">
+                                        <div style="text-align: center;">
+                                            <span style="font-size: 24px;" class="o_default_snippet_text">Coffee &amp;amp;
+                                                Tea
+                                            </span>
+                                        </div>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Aperiam tempore sit,perferendis numquam
+                                        repudiandae porro voluptate dicta saepe facilis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb16">
+                            <div class="single_menu_list">
+                                <img class="img-fluid mb32"
+                                     src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-100.png"
+                                     alt=""/>
+                                <div class="menu_content">
+                                    <h5 class="o_default_snippet_text border-0 pb0">
+                                        <div style="text-align: center;">
+                                            <span style="font-size: 24px;" class="o_default_snippet_text">Hamburger
+                                            </span>
+                                        </div>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Aperiam tempore sit,perferendis numquam
+                                        repudiandae porro voluptate dicta saepe facilis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb16">
+                            <div class="single_menu_list">
+                                <img class="img-fluid mb32"
+                                     src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-100.png"
+                                     alt=""/>
+                                <div class="menu_content">
+                                    <h5 class="o_default_snippet_text border-0 pb0">
+                                        <div style="text-align: center;">
+                                            <span style="font-size: 24px;">Cupcakes</span>
+                                        </div>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Aperiam tempore sit,perferendis numquam
+                                        repudiandae porro voluptate dicta saepe facilis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb16">
+                            <div class="single_menu_list">
+                                <img class="img-fluid mb32"
+                                     src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-100.png"
+                                     alt=""/>
+                                <div class="menu_content">
+                                    <h5 class="border-0 pb0">
+                                        <div style="text-align: center;">
+                                            <span style="font-size: 24px;">Wraps</span>
+                                        </div>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Aperiam tempore sit,perferendis numquam
+                                        repudiandae porro voluptate dicta saepe facilis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Menu 2 End-->
+
+        <!--Snippet Sale Image Start-->
+        <template id="restaurant_sale_image" name="Restaurant Sale Image">
+            <section class="oe_img_bg oe_custom_bg pt96 pb96"
+                     style="background-image: url(&quot;/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pb24 pt8">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;" class="bg-black-50 p-2">Delicious Deserts
+                                </font>
+                                <br/>
+                            </h2>
+                            <h4>
+                                <font style="color: rgb(0, 0, 0); font-size: 36px;" class="text-alpha">
+                                    <b>Get 20% Off</b>
+                                </font>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Image End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="restaurant_gallery" name="Restaurant Gallery">
+            <section class="pt64 pb64" id="portfolio_6">
+                <div class="container container-full">
+                    <div class="text-center">
+                        <h2 class="s_letter_spacing_3">
+                            <font style="font-size: 48px;">Food Gallery</font>
+                        </h2>
+                        <p class="pb48 o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </p>
+                        <div class="justify-content-center pb32">
+                            <a class="btn text-primary filter-button mt8 mb8 o_default_snippet_text" data-filter="all"
+                               data-original-title="" title="" aria-describedby="tooltip32335">
+                                All
+                            </a>
+                            <a class="btn filter-button mb8 mt8 text-primary" data-filter="one" data-original-title=""
+                               title="" aria-describedby="tooltip818301">Coffee-shop
+                            </a>
+                            <a class="btn text-primary filter-button mt8 mb8" data-filter="two" data-original-title=""
+                               title="" aria-describedby="tooltip204282">
+                                Fries
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="three"
+                               data-original-title="" title="" aria-describedby="tooltip971737">Drinks
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter one  single_portfolio"
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image" data-original-title="" title=""
+                                     aria-describedby="tooltip431254"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">Banana Cream</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter two  single_portfolio"
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip504388"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">Onion Rings</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter one single_portfolio"
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">MozzaSticks</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter three single_portfolio "
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">Chicken Strips</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter three single_portfolio"
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">Roast Chicken</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter one single_portfolio "
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">Lemonade</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter three single_portfolio "
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">Coffee</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-12 filter two single_portfolio "
+                                 style="display: block;">
+                                <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid"/>
+                                <div class="overlay">
+                                    <div class="single_portfolio_text">
+                                        <h6 class="o_default_snippet_text text-white">Tuscan Grilled Chicken</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script class="o_default_snippet_text">
+                    $(document).ready(function(){
+
+                    $(".filter-button").click(function(){
+                    var value = $(this).attr('data-filter');
+
+                    if(value == "all")
+                    {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                    }
+                    else
+                    {
+                    // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    // $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+
+                    }
+                    });
+
+                    if ($(".filter-button").removeClass("active")) {
+                    $(this).removeClass("active");
+                    }
+                    $(this).addClass("active");
+
+                    });
+                </script>
+            </section>
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Menu 3 Start-->
+        <template id="restaurant_menu_3" name="Restaurant Menu 3">
+            <section class="pt64 pb64" id="price_menu_3">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2 class="s_letter_spacing_3">
+                                <font style="font-size: 48px;">Our Menu</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5>Khari Cheese
+                                </h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Harabhara Kabab</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5>cheese margarita pizza</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5>Khari Jeera
+                                </h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Paneer Tikka</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Cambria Soup</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Egg Plates
+                                </h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Pizza Paratha</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5>Chicken Mushroom &amp;nbsp;Soup</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Aloo Tikki</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5>Hot Dog</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Hariyali Chicken Kebab</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Toast Jeera
+                                </h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Bolognese Sauce</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Punjabi Samosa</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Tuscan Grilled Chicken</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Pizza topped with chilli</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16">
+                            <div class="tab-wrapper">
+                                <h5 class="o_default_snippet_text">Spicy Mexican Salsa</h5>
+                                <span class="price o_default_snippet_text">$14.95</span>
+                                <div class="dotted-bg"/>
+                            </div>
+                            <p class="o_default_snippet_text">pellentesque enim. Aliquam tempor</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Menu 3 End-->
+
+        <!--Snippet News Start-->
+        <template id="restaurant_news" name="Restaurant News">
+            <section class="pt64 pb64" id="news_five">
+                <div class="container container-full">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 offset-lg-2 mb64">
+                            <h2 class="o_default_snippet_text">
+                                <font style="font-size: 48px;">Recent News</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ad assumenda culpa cumque dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                soluta voluptas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="content">
+                                    <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid" data-original-title="" title=""
+                                         aria-describedby="tooltip966552"/>
+                                    <div class="content_overlay"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div>
+                                        <h5 class="font-weight-bold pb-2">
+                                            <a href="#" class="o_default_snippet_text">Veggie Pizza Recipe</a>
+                                        </h5>
+                                        <p class="border-bottom pb-3 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta
+                                            voluptas eius iusto modi reprehenderit sint soluta voluptas.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <a href="#"/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-user" data-original-title="" title=""
+                                                   aria-describedby="tooltip599081"/>
+                                                Admin
+                                            </a>
+                                        </span>
+                                        <span class="float-right">
+                                            <a href="#" data-original-title="" title="" aria-describedby="tooltip56742">
+                                                <i class="fa fa-calendar-plus-o" data-original-title="" title=""
+                                                   aria-describedby="tooltip790482" style=""/>&amp;nbsp;15 September
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="content">
+                                    <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid" data-original-title="" title=""
+                                         aria-describedby="tooltip966552"/>
+                                    <div class="content_overlay"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div>
+                                        <h5 class="font-weight-bold pb-2">
+                                            <a href="#" class="o_default_snippet_text">Bread in our daily diet</a>
+                                        </h5>
+                                        <p class="border-bottom pb-3 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta
+                                            voluptas eius iusto modi reprehenderit sint soluta voluptas.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <a href="#"/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-user"/>
+                                                Admin
+                                            </a>
+                                        </span>
+                                        <span class="float-right">
+                                            <a href="#" data-original-title="" title="" aria-describedby="tooltip84811">
+                                                <i class="fa fa-calendar-plus-o" data-original-title="" title=""
+                                                   aria-describedby="tooltip82741" style=""/>
+                                                20 March
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="content">
+                                    <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid"/>
+                                    <div class="content_overlay"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div>
+                                        <h5 class="font-weight-bold pb-2">
+                                            <a href="#" class="o_default_snippet_text">Best recipes Of The Week</a>
+                                        </h5>
+                                        <p class="border-bottom pb-3 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta
+                                            voluptas eius iusto modi reprehenderit sint soluta voluptas.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <a href="#"/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-user"/>
+                                                Admin
+                                            </a>
+                                        </span>
+                                        <span class="float-right">
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip176874"><i class="fa fa-calendar-plus-o"
+                                                                                   data-original-title="" title=""
+                                                                                   aria-describedby="tooltip740525"
+                                                                                   style=""/>&amp;nbsp;30 April
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="content">
+                                    <img src="/theme_restaurant_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid"/>
+                                    <div class="content_overlay"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div>
+                                        <h5 class="font-weight-bold pb-2">
+                                            <a href="#" class="o_default_snippet_text">Veggie Burgers with Avocado</a>
+                                        </h5>
+                                        <p class="border-bottom pb-3 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Ad assumenda culpa cumque dicta sint soluta
+                                            voluptas eius iusto modi reprehenderit sint soluta voluptas.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <a href="#"/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <i class="fa fa-user"/>
+                                                Admin
+                                            </a>
+                                        </span>
+                                        <span class="float-right">
+                                            <a href="#" data-original-title="" title=""
+                                               aria-describedby="tooltip260521"><i class="fa fa-calendar-plus-o"
+                                                                                   data-original-title="" title=""
+                                                                                   aria-describedby="tooltip52089"
+                                                                                   style=""/>&amp;nbsp;12 January
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Footer Start-->
+        <template id="restaurant_footer" name="Restaurant Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 oe_custom_bg" id="footer_4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid mb16"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                            </div>
+                            <div class="col-12 col-lg-4 col-md-3 col-sm-12 mb32 text-center">
+                                <h5 class="mb24">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">About Us</font>
+                                </h5>
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor incididunt ut.
+                                </p>
+                                <a class="text-uppercase rounded-circle btn btn-outline-alpha rounded-circle"
+                                   data-original-title="" title="" href="#">read more
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-4 col-md-5 col-sm-12 mb32 text-center">
+                                <h5 class="mb24">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">Our Newsletter</font>
+                                </h5>
+                                <div class="input-group js_subscribe hidden" data-list-id="1" data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control br-left"
+                                           placeholder="your email..." style="&#10;    height: 40px;&#10;"/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn br-right px-3 py-2 btn-primary js_subscribe_btn o_default_snippet_text">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden d-none">Thanks for your subscription!
+                                    </div>
+                                </div>
+                                <div class="mt24">
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter px-1 fa-2x text-epsilon" data-original-title="" title=""
+                                           aria-describedby="tooltip689818"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin-square px-1 fa-2x text-epsilon" data-original-title=""
+                                           title=""
+                                           aria-describedby="tooltip545576"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook-official px-1 fa-2x text-epsilon"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus px-1 fa-2x text-epsilon"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 col-md-4 col-sm-12 mb32 text-center">
+                                <h5 class="mb24">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">Contact</font>
+                                </h5>
+                                <p class="o_default_snippet_text">
+                                    <i class="fa fa-home mr-3"/>
+                                    <span t-field="res_company.street"/>
+                                    <span t-field="res_company.city"/>
+                                    <span t-field="res_company.state_id.name"/>
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    <i class="fa fa-envelope-o mr-3"/>
+                                    <span t-field="res_company.email"/>
+                                </p>
+                                <p class="o_default_snippet_text">
+                                    <i class="fa fa-phone mr-3"/>
+                                    <span t-field="res_company.phone"/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Restaurant Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_banner"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_overlay"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_menu_1"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_menu_2"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_sale_image"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_gallery"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_menu_3"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_news"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_restaurant_ecommerce_ultimate_01.restaurant_footer"
+                           t-thumbnail="/theme_restaurant_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

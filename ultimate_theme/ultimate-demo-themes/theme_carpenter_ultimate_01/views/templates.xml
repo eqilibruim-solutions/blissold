@@ -1,0 +1,878 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="carpenter_banner" name="Carpenter Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height bg-black-50 s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_carpenter_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white" style="font-size: 62px; text-align: center;">
+                                <b>
+                                    <font style="font-size: 48px;">
+                                        WE ARE AVAILABLE
+                                        &amp;nbsp;
+                                    </font>
+                                </b>
+                            </h1>
+                            <h1 class="s_title_thin text-white" style="font-size: 62px; text-align: center;">
+                                <font style="font-size: 48px;" class="text-alpha">
+                                    <b>FOR YOUR WOODEN WORK</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white" style="text-align: center;">
+                                <font style="font-size: 18px;">Write one or two paragraphs describing your product,
+                                    services or a specific feature.&amp;nbsp;
+                                </font>
+                                <font style="font-size: 18px;">&amp;nbsp;To be successful your content needs to be
+                                    useful to your readers.&amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="#" class="btn btn-alpha flat mb8" data-original-title="" title=""
+                               aria-describedby="tooltip991713">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                    <b data-original-title="" title="" aria-describedby="tooltip385594">REQUEST A
+                                        QUOTE
+                                    </b>
+                                </font>
+                            </a>&amp;nbsp;
+                            <a href="#" class="btn btn-alpha flat mb8" data-original-title="" title=""
+                               aria-describedby="tooltip168881">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                    <b data-original-title="" title="" aria-describedby="tooltip244222">VIEW SERVICES
+                                    </b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Facility Start-->
+        <template id="carpenter_facility" name="Carpenter Facility">
+            <section class="pt64 pb64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <i class="d-block fa fa-4x fa-500px mb16 mx-auto pe-7s-tools text-alpha"
+                               data-original-title="" title="" aria-describedby="tooltip452983" style=""/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">CREATIVE TOOLS</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <i class="d-block fa fa-4x fa-500px mb16 mx-auto pe-7s-check text-alpha"
+                               data-original-title="" title="" aria-describedby="tooltip452983" style=""/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">SHORTEST TERMS</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16">
+                            <i class="d-block fa fa-4x mb16 mx-auto text-alpha pe-7s-users fa-500px"
+                               data-original-title="" title="" aria-describedby="tooltip452983" style=""/>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 18px;">CERTIFIED EXPERTS</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum is simply dummy
+                                text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="Image" title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facility End-->
+
+        <!--Snippet About Us Start-->
+        <template id="carpenter_about" name="Carpenter About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-2 col-lg-8">
+                            <h2 class="font-weight-bold pb24"><font style="font-size: 36px;">WELCOME TO</font>&amp;nbsp;
+                                <font style="font-size: 36px;" class="text-alpha">WOOD WORKSHOP</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse potenti. Aliquam
+                                finibus pharetra tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra tellus
+                                at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 bg-white oe_custom_bg pt0" id="counter_10" style="">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#ff6b6b transparent transparent transparent;"/>
+                                <h2 class="o_default_snippet_text">
+                                    <font class="text-alpha" style="">
+                                        <b>120</b>
+                                    </font>
+                                </h2>
+                                <h4 class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">
+                                        <b>Items Sold</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#dc90ff transparent transparent transparent;"/>
+                                <h2 class="o_default_snippet_text">
+                                    <font class="text-alpha" style="">
+                                        <b>91</b>
+                                    </font>
+                                </h2>
+                                <h4 class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">
+                                        <b>Happy Clients</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <h2 class="o_default_snippet_text">
+                                    <font class="text-alpha" style="">
+                                        <b>250</b>
+                                    </font>
+                                </h2>
+                                <h4 class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">
+                                        <b>Carpenters</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#f7db88 transparent transparent transparent;"/>
+                                <h2 class="o_default_snippet_text">
+                                    <font class="text-alpha" style="">
+                                        <b>100%</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Quality</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Service Start-->
+        <template id="carpenter_service" name="Carpenter Service">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_carpenter_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 36px;">WHAT WE DO</font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <b>
+                                            <font style="font-size: 18px;">WOODEN FURNITURE</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <b>
+                                            <font style="font-size: 18px;">WOODEN WALL DESIGN</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <b>
+                                            <font style="font-size: 18px;">KITCHEN FURNITURE</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <b>
+                                            <font style="font-size: 18px;">BEDROOM FURNITURE</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <b>
+                                            <font style="font-size: 18px;">CUSTOM WORK</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <b>
+                                            <font style="font-size: 18px;">FURNITURE RENOVATION</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Project Start-->
+        <template id="carpenter_project" name="Carpenter Project">
+            <section class="oe_custom_bg pb48 pt88">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="mb32">
+                                <b>
+                                    <font style="font-size: 36px;">OUR LATEST</font>
+                                    <font style="font-size: 36px;" class="text-alpha">PROJECTS</font>
+                                </b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid  mt8"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid  mt8"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid  mt8" style=""/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid  mt8"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8"/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8" style=""/>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 plr-0">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-200">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100 bg-white pb56">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-alpha flat o_default_snippet_text" data-original-title=""
+                                       title="" aria-describedby="tooltip306792">
+                                        <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                            <b>VIEW ALL WORK&amp;nbsp;</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Project End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="carpenter_testimonial" name="Carpenter Testimonial">
+            <section class="pb64 bg-alpha oe_img_bg pt88 oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_carpenter_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b>CUSTOMER'S</b>
+                                </font>
+                                <font style="font-size: 36px;" class="text-alpha">
+                                    <b>REVIEW</b>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567485352599" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567485352599" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1567485352599" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item  pb72 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                                  class="o_default_snippet_text">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_carpenter_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip370854"/>
+                                            <span>
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    &amp;nbsp;Alexa Smith, Carpenter of&amp;nbsp;
+                                                </font>
+                                                <b>
+                                                    <font style="color: rgb(255, 255, 255);"
+                                                          class="o_default_snippet_text">&amp;nbsp;Company&amp;nbsp;
+                                                    </font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item  pb72" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                                  class="o_default_snippet_text">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_carpenter_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span>
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    &amp;nbsp;Jane DOE, CEO of&amp;nbsp;
+                                                </font>
+                                                <b>
+                                                    <font style="color: rgb(255, 255, 255);"
+                                                          class="o_default_snippet_text">Company&amp;nbsp;
+                                                    </font>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet CTA Start-->
+        <template id="carpenter_cta" name="Carpenter CTA">
+            <section class="s_call_to_action sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-7 offset-lg-1">
+                            <h2>
+                                <font style="font-size: 24px;">
+                                    <b class="o_default_snippet_text">Provide You Highest Quality Work</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-3">
+                            <p>
+                                <a href="#" class="btn btn-alpha flat btn-lg o_default_snippet_text"
+                                   data-original-title="" title="" aria-describedby="tooltip832724">
+                                    <font style="color: rgb(255, 255, 255); font-size: 14px;">
+                                        <b>Contact Us&amp;nbsp;</b>
+                                    </font>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet News Start-->
+        <template id="carpenter_news" name="Carpenter News">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 36px;">NEWS &amp;amp; ARTICLES</font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <font style="font-size: 18px;">
+                                            <b>WOOD WORKER TURNED INTO FURNITURE EXHIBITION</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                    </p>
+                                    <p>
+                                        <font class="text-alpha o_default_snippet_text" style="">17 April</font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="text-align: center; color: rgb(33, 37, 41);">
+                                        <font style="font-size: 18px;">
+                                            <b>HOME FURNITURE REPAIR AND MAINTANANCE SAFE</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                    </p>
+                                    <p>
+                                        <span style="color: rgb(244, 161, 68);" class="o_default_snippet_text">28
+                                            August
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                     title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3 style="color: rgb(33, 37, 41);">
+                                        <b>
+                                            <font style="font-size: 18px;">GOOD FURNITURE IS NOW FOR SALE IN DECEMBER
+                                            </font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industryLorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                    </p>
+                                    <p>
+                                        <span style="color: rgb(244, 161, 68);" class="o_default_snippet_text">12
+                                            November
+                                        </span>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="carpenter_brandlogo" name="Carpenter Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_carpenter_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Footer Start-->
+        <template id="carpenter_footer" name="Carpenter Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.&amp;nbsp;
+                                        &amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="bg-alpha fa fa-facebook mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip429592" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="bg-alpha fa fa-twitter mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip214796" style=""/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="bg-alpha fa fa-instagram mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip554384" style=""/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bg-alpha fa fa-google-plus mx-1" data-original-title="" title=""
+                                           aria-describedby="tooltip215762" style=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                        <b>Useful Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip924768">
+                                            <font style="color: rgb(255, 255, 255);">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip765176">
+                                            <font style="color: rgb(255, 255, 255);">
+                                                Shop Furniture
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">
+                                                Gallery
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">
+                                                Testimonials
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip955105">
+                                            <font style="color: rgb(255, 255, 255);">News</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip190149">
+                                            <font style="color: rgb(255, 255, 255);">
+                                                Contact Us
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip968980"/>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5>
+                                    <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                        <span style="font-weight: bolder;">Contact</span>
+                                    </font>
+                                </h5>
+                                <div class="mt24 media">
+                                    <i class="fa fa-home mr-3 mt-1 text-white"></i>
+                                    <div class="media-body">
+                                        <span t-field="res_company.street" class="text-white"/>
+                                        <span t-field="res_company.city" class="text-white"/>
+                                        <span t-field="res_company.state_id.name" class="text-white"/>
+                                        <span t-field="res_company.zip" class="text-white"/>
+                                        <span t-field="res_company.country_id.name" class="text-white"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-envelope-o mr-3 mt-1 text-white"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.email" class="text-white"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-phone mr-3 mt-1 text-white"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.phone" class="text-white"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24 o_default_snippet_text">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Our Newsletter
+                                        </font>
+                                    </b>
+                                </h5>
+                                <p class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.&amp;nbsp;
+                                        &amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="2"
+                                     data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Carpenter Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_banner"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_facility"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_about"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_service"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_project"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_testimonial"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_cta"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_news"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_brandlogo"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_carpenter_ultimate_01.carpenter_footer"
+                           t-thumbnail="/theme_carpenter_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

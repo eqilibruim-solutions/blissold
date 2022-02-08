@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- Stock Notify Template in Product Page -->
+    <template id="website_sock_notify_product" inherit_id="website_sale.product" name="Stock Notify Product">
+        <xpath expr="//div[hasclass('o_not_editable')]" position="after">
+            <div id="out_of_stock_product" class="mt8 alert alert-warning hidden">
+                <span class="fa fa-warning mb8" />
+                <span class="mb8"><strong>Out of Stock</strong></span>
+                <div id="mail_notify" class="bg-info" style="padding: 15px;">
+                    <div id="enter_email">
+                        <form id="notify-form" action="/shop/notify" method="POST">
+                            <p>Notify Me When a Product is Available.</p>
+                            <div class="input-group">
+                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                <input type="hidden" id="out_stock_product_id" name="out_stock_product_id" value="" />
+                                <input type="email" name="notify_email"  id="notify_email" class="form-control"
+                                       required="True" placeholder="Enter your Email" />
+                                <span class="input-group-btn">
+                                    <input type="submit" id="notify_submit" value="Notify" class="btn btn-primary" />
+                                </span>
+                            </div>
+                            <div class="alert alert-warning alert_custom" style="display:none;" id="invalid_display">
+                                <strong>Warning!</strong> Invalid Email Address.
+                            </div>
+                            <div class="alert alert-warning alert_custom" style="display:none;" id="empty_display">
+                                <strong>Warning!</strong> Enter Email Address.
+                            </div>
+                        </form>
+                    </div>
+                    <div id="message" class="hidden">
+                        Thank you, For your interest !<br/>
+                        You will be notified by mail when the product will be available.
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Stock Notify Template in Product Variants Page -->
+    <template id="website_sock_notify_product_variants" inherit_id="website_sale.product_variants" name="Stock Notify Product Variants">
+        <xpath expr="//input[hasclass('js_product_change')]"
+               position="attributes">
+            <attribute name="t-att-qty_available">variant_id.qty_available</attribute>
+        </xpath>
+    </template>
+
+    <!-- Stock Notify Template in Cart Page -->
+    <template id="website_cart_line_stock_notify" inherit_id="website_sale.cart_lines">
+        <xpath expr="//input[hasclass('js_quantity')]" position="attributes">
+            <attribute name="t-att-available_qty">int(line.product_id.qty_available)</attribute>
+        </xpath>
+        <xpath expr="//td[hasclass('td-qty')]" position="inside">
+            <div class="out_of_stock hidden bg-danger" t-att-data-product-id="line.product_id.id">
+                <span class="out_of_stock_msg">
+                    Sorry, This much amount of Quantity(ies) not available !
+                </span>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

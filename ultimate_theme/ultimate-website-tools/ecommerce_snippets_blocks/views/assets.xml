@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- ==================================== Assets ================================= -->
+    <template id="demo_frontend_style" name="Demo Frontend Style"
+              inherit_id="website.assets_frontend" active="True">
+        <xpath expr="." position="inside">
+            <link href="/ecommerce_snippets_blocks/static/src/scss/product_carousel_mini_1.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+<!--            <link href="/ecommerce_snippets_blocks/static/src/scss/product_page.scss"-->
+<!--                  type="text/scss" rel="stylesheet"/>-->
+
+<!--            <link href="/ecommerce_snippets_blocks/static/src/scss/collapse_categories.scss"-->
+<!--                  type="text/scss" rel="stylesheet"/>-->
+
+<!--            <link href="/ecommerce_snippets_blocks/static/src/scss/attributes_filters.scss"-->
+<!--                  type="text/scss" rel="stylesheet"/>-->
+
+           <link href="/ecommerce_snippets_blocks/static/src/scss/sinlge_product_page.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <link href="/ecommerce_snippets_blocks/static/src/scss/carousel.scss"
+                  type="text/scss" rel="stylesheet"/>
+            <link href="/ecommerce_snippets_blocks/static/src/scss/ecommerce_block.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <link href="/ecommerce_snippets_blocks/static/src/scss/image_grid.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <link href="/ecommerce_snippets_blocks/static/src/scss/carousel_design.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <link href="/ecommerce_snippets_blocks/static/src/scss/mini_carousel.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <link href="/ecommerce_snippets_blocks/static/src/scss/mid_header.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <link href="/ecommerce_snippets_blocks/static/src/scss/mid_header_utilities.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <script type="text/javascript"
+                    src="/ecommerce_snippets_blocks/static/src/js/shop_page.js"/>
+
+        </xpath>
+    </template>
+
+    <template id="snippet_id_ecommerce" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_ecommerce_block" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Ecommerce Block
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_3"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-3.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_4"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-4.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_5"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-5.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_6"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-6.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_7"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-7.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_8"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-8.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_9"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-9.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_10"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-10.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_11"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-11.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_12"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-12.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_13"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-13.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_14"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-14.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_15"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-15.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_16"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-16.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_block_17"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/ecommerce_block/ecommerce-block-17.png"/>
+                </div>
+
+            </div>
+        </xpath>
+    </template>
+
+    <template id="snippet_id_image_grid" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_image_grid" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Image Grid
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_3"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-3.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_4"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-4.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_5"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-5.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_6"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-6.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_7"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-7.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_8"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-8.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_9"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-9.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_10"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-10.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_11"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-11.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_12"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-12.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_13"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-13.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_14"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-14.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_15"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-15.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_16"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-16.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_17"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-17.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_18"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-18.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_19"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-19.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.image_grid_20"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/image_grid/image-grid-20.png"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="snippet_id_product_carousel" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_product_carousel" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Product Carousel
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d3"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d3.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d4"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d4.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d5"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d5.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d6"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d6.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d7"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d7.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d8"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d8.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d9"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d9.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d10"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d10.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d11"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d11.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d12"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d12.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d13"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d13.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d14"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d14.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d15"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d15.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d16"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d16.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d17"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d17.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d18"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d18.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d19"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d19.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d20"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d20.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d21"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d21.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d22"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d22.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d23"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d23.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d24"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d24.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d25"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d25.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d26"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d26.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d27"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d27.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d28"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d28.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d29"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d29.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_d30"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_carousel/product-carousel-d30.png"/>
+                </div>
+
+            </div>
+        </xpath>
+    </template>
+
+    <template id="snippet_id_product_mini_carousel" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_product_mini_carousel" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Product Mini Carousel
+                </div>
+                <div class="o_panel_body">
+                   <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_mini_d1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_mini_carousel/product-mini-carousel-d1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_mini_d2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_mini_carousel/product-mini-carousel-d2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_mini_d3"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_mini_carousel/product-mini-carousel-d3.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_mini_d4"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_mini_carousel/product-mini-carousel-d4.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.s_product_carousel_mini_d5"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/product_mini_carousel/product-mini-carousel-d5.png"/>
+                </div>
+
+            </div>
+        </xpath>
+    </template>
+
+
+    <template id="snippet_id_mid_header" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_mid_header']" position="after">
+            <div id="snippet_ecommerce_mid_header" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Ecommerce Mid Header
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_3"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-3.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_4"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-4.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_5"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-5.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_6"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-6.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_7"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-7.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_8"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-8.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_9"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-9.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_10"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-10.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_11"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-11.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_12"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-12.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_13"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-13.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_14"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-14.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_15"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-15.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_16"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-16.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_17"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-17.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_18"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-18.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_19"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-19.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_20"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-20.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_21"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-21.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_22"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-22.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_23"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-23.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_24"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-24.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_25"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-25.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.ecommerce_mid_header_26"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header/mid-header-26.png"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+        <template id="snippet_id_mid_header_utilities" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_ecommerce_mid_header']" position="after">
+            <div id="snippet_mid_header_utilities" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Mid Header Utilities
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="ecommerce_snippets_blocks.language_button_1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/language-button-1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.language_button_2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/language-button-2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.pricelist_button_1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/pricelist-button-1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.pricelist_button_2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/pricelist-button-2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.searchbox_1"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/searchbox-1.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.searchbox_2"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/searchbox-2.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.searchbox_3"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/searchbox-3.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.searchbox_4"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/searchbox-4.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.searchbox_5"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/searchbox-5.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.searchbox_6"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/searchbox-6.png"/>
+                    <t t-snippet="ecommerce_snippets_blocks.searchbox_with_dropdown"
+                       t-thumbnail="/ecommerce_snippets_blocks/static/src/img/snippet-icons/mid_header_utilities/searchbox-with-dropdown.png"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="s_object_carousel_style_option"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='carousel']" position="after">
+            <div data-js='js_get_objects_style'
+                 data-selector=".s_product_carousel_mini">
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-fw fa-columns"/>
+                        Alignment
+                    </we-toggler>
+                    <we-collapse>
+                        <we-button data-toggle-class="text-left">
+                            Left
+                        </we-button>
+                        <we-button data-toggle-class="text-center">
+                            Center
+                        </we-button>
+                        <we-button data-toggle-class="text-right">
+                            Right
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-fw fa-columns"/>
+                        Box Shadow
+                    </we-toggler>
+                    <we-collapse>
+                        <we-button data-toggle-class="">
+                            None
+                        </we-button>
+                        <we-button data-toggle-class="box_shadow_mini">
+                            Box Shadow
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+            </div>
+        </xpath>
+    </template>
+
+    <!--Hide Sign In/Register Button From Ecommerce Mid Header Snippets-->
+    <template id="ecommerce_mid_header_hide_sign_in_ultimate" inherit_id="portal.frontend_layout" customize_show="True"
+              name="Hide Sign In From Dropdown" active="False">
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_sign_in_hide_ultimate_ecommerce'}" separator=" "/>
+        </xpath>
+    </template>
+    <template id="ecommerce_mid_header_hide_register_ultimate" inherit_id="portal.frontend_layout" customize_show="True"
+              name="Hide Register From Dropdown" active="False">
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_register_hide_ultimate_ecommerce'}" separator=" "/>
+        </xpath>
+    </template>
+    <template id="ecommerce_mid_header_hide_logout_ultimate" inherit_id="portal.frontend_layout" customize_show="True"
+              name="Hide Logout From Navbar Dropdown" active="False">
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_logut_hide_ultimate_ecommerce'}" separator=" "/>
+        </xpath>
+    </template>
+
+    <!--Add Option For Hide Default Cart And Wishlist Button From Navbar-->
+    <template id="ecommerce_mid_header_hide_add_cart_ultimate" inherit_id="portal.frontend_layout" customize_show="True"
+              name="Hide Cart Button From Navbar" active="False">
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_add_cart_hide_ultimate_ecommerce'}" separator=" "/>
+        </xpath>
+    </template>
+    <template id="ecommerce_mid_header_hide_wishlist_ultimate" inherit_id="portal.frontend_layout" customize_show="True"
+              name="Hide Wishlist Button From Navbar" active="False">
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_wishlist_hide_ultimate_ecommerce'}" separator=" "/>
+        </xpath>
+    </template>
+
+</odoo>

@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+
+    <template id="_assets_primary_variables"
+              inherit_id="website._assets_primary_variables" priority="1">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/primary_variables.scss"/>
+        </xpath>
+    </template>
+
+
+    <!-- Extend customize modal to suggest more colors, more fonts -->
+    <template id="theme_customize_ctb" inherit_id="website.theme_customize">
+        <!-- Add color suggestions -->
+        <xpath expr="//content[@id='theme_customize_content_colors']/*"
+               position="before">
+            <list data-depends="theme_color_suggestions">
+                <opt data-xmlid=""/>
+                <!-- Only allow 9 (but most themes have 6) -->
+                <t t-set="_nb_colors" t-value="6"/>
+                <t t-foreach="_nb_colors - 1" t-as="i">
+                    <t t-set="number" t-value="i + 2"/>
+                    <opt t-attf-data-xmlid="customize_theme_business.option_colors_0#{number}_variables"/>
+                </t>
+            </list>
+        </xpath>
+
+    </template>
+
+    <template id="customize_inherit" inherit_id="website.theme_customize">
+
+        <xpath expr="//content[@id='theme_customize_content_navbar']//list[2]"
+               position="after">
+            <more data-depends="">
+                <list string="Navbar">
+                    <opt id="option_header_1" string="Navbar 1"
+                         data-xmlid="customize_theme_business.option_header_1"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-1.png"/>
+                    <opt id="option_header_2" string="Navbar 2"
+                         data-xmlid="customize_theme_business.option_header_2"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-2.png"/>
+                    <opt id="option_header_3" string="Navbar 3"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_3"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-3.png"/>
+                    <opt id="option_header_4" string="Navbar 4"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_4"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-4.png"/>
+                    <opt id="option_header_5" string="Navbar 5"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_5"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-5.png"/>
+                    <opt id="option_header_6" string="Navbar 6"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_6"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-6.png"/>
+                    <opt id="option_header_7" string="Navbar Box Design"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_7"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/navbar-box-design.png"/>
+                    <opt id="option_header_8" string="Navbar Modern Design"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_8"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/navbar-modern-design.png"/>
+                    <opt id="option_header_9" string="Navbar Simple Design"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_9"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/navbar-simple-design.png"/>
+                    <opt id="option_header_10"
+                         string="Navbar Semi Transparent"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_10_scss,customize_theme_business.option_header_10_js"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/navbar-semi-transparent.png"/>
+                </list>
+
+                <list string="Mid Header">
+                    <opt id="option_mid_header_default"
+                         string="Top Mid Header None"
+                         data-xmlid=""
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/default.png"/>
+                    <opt id="option_mid_header_1" string="Top Mid Header 1"
+                         data-xmlid="customize_theme_business.option_mid_header_1"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-7.png"/>
+                    <opt id="option_mid_header_2" string="Top Mid Header 2"
+                         data-xmlid="customize_theme_business.option_mid_header_6"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-7.png"/>
+                    <opt id="option_mid_header_3" string="Top Mid Header 3"
+                         data-xmlid="customize_theme_business.option_mid_header_7"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-9.png"/>
+                    <opt id="option_mid_header_4" string="Top Mid Header 4"
+                         data-xmlid="customize_theme_business.option_mid_header_8"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-10.png"/>
+                    <opt id="option_mid_header_5" string="Top Mid Header 5"
+                         data-xmlid="customize_theme_business.option_mid_header_9"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-11.png"/>
+                </list>
+                <list string="Navbar Bottom">
+                    <opt id="option_header_11"
+                         string="Navbar Fix Bottom Default"
+                         data-reload="true"
+                         data-xmlid=""
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/default.png"/>
+                    <opt id="option_header_12"
+                         string="Navbar Fix Bottom"
+                         data-reload="true"
+                         data-xmlid="customize_theme_business.option_header_12_js"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/navbar-fix-bottom.png"/>
+                </list>
+            </more>
+
+        </xpath>
+
+
+        <xpath expr="//content[@id='theme_customize_content_fonts']"
+               position="after">
+
+            <content id="customize_content_button" string="Input Fields"
+                     title="Choose your Input Style">
+                <more data-depends="">
+                    <list string="Input Fields">
+                        <opt id="option_input_1" data-xmlid=""
+                             string="Input Default"
+                             data-reload="true"
+                             data-icon="/customize_theme_business/static/src/imgs/input-icon/input-icon-1.png"/>
+                        <opt id="option_input_2"
+                             string="Input 2"
+                             data-xmlid="customize_theme_business.option_input_1"
+                             data-reload="true"
+                             data-icon="/customize_theme_business/static/src/imgs/input-icon/input-icon-2.png"/>
+                        <opt id="option_input_3"
+                             string="Input 3"
+                             data-xmlid="customize_theme_business.option_input_2"
+                             data-reload="true"
+                             data-icon="/customize_theme_business/static/src/imgs/input-icon/input-icon-3.png"/>
+                        <opt id="option_input_4"
+                             string="Input 4"
+                             data-xmlid="customize_theme_business.option_input_3"
+                             data-reload="true"
+                             data-icon="/customize_theme_business/static/src/imgs/input-icon/input-icon-4.png"/>
+                    </list>
+                </more>
+            </content>
+            <content id="customize_navbar_navigation" string="Navigations"
+                     title="Choose Your Navbar Navigation">
+                <list string="Navbar Navigation">
+                    <opt id="option_nav_default" string="Default"
+                         data-xmlid=""
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/default.png"/>
+                    <opt id="option_nav_pills" string="Pills"
+                         data-xmlid="customize_theme_business.option_nav_pills"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/navigation-icons/pills.png"/>
+                    <opt id="option_nav_pils_square" string="Pills + Square"
+                         data-xmlid="customize_theme_business.option_nav_pils_square"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/navigation-icons/pills-square.png"/>
+                    <opt id="option_nav_pils_round" string="Pills + Round"
+                         data-xmlid="customize_theme_business.option_nav_pils_round"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/navigation-icons/pills-round.png"/>
+                    <opt id="option_nav_color_primary"
+                         string="Color Primary On Active "
+                         data-xmlid="customize_theme_business.option_nav_color_primary"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/navigation-icons/color-primary-on-active.png"/>
+                    <opt id="option_nav_strips" string="Strips"
+                         data-xmlid="customize_theme_business.option_nav_strips"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/navigation-icons/strips.png"/>
+                    <opt id="option_nav_hover_top_border"
+                         string="Hover Top Border"
+                         data-xmlid="customize_theme_business.option_nav_hover_top_border"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/navigation-icons/hover-top-border.png"/>
+                    <opt id="option_nav_hover_bottom_border"
+                         string="Hover Bottom Border"
+                         data-xmlid="customize_theme_business.option_nav_hover_bottom_border"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/navigation-icons/hover-bottom-border.png"/>
+                </list>
+
+                <list string="Transparent Navbar">
+                    <opt id="option_nav_transparent_font_default"
+                         string="Nav Transparent + Font Default"
+                         data-xmlid="customize_theme_business.option_nav_transparent_font_default"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-1.png"/>
+                    <opt id="option_nav_transparent_font_white"
+                         string="Nav Transparent + Font White"
+                         data-xmlid="customize_theme_business.option_nav_transparent_font_white"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-1.png"/>
+                    <opt id="option_nav_transparent_font_black"
+                         string="Nav Transparent + Font Black"
+                         data-xmlid="customize_theme_business.option_nav_transparent_font_black"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-1.png"/>
+                    <opt id="option_nav_transparent_font_primary"
+                         string="Nav Transparent + Font Primary"
+                         data-xmlid="customize_theme_business.option_nav_transparent_font_primary"
+                         data-reload="true"
+                         data-icon="/customize_theme_business/static/src/imgs/header-icon/header-icon-1.png"/>
+                </list>
+            </content>
+        </xpath>
+
+        <xpath expr="//opt[@id='option_layout_boxed']" position="after">
+            <opt id="option_layout_padded" string="Padded"
+                 data-xmlid="customize_theme_business.option_layout_padded_variables"
+                 data-icon="/customize_theme_business/static/src/imgs/layouts-icon/padded.png"/>
+            <opt id="option_layout_fluid" string="Fluid"
+                 data-xmlid="customize_theme_business.option_layout_fluid_variables"
+                 data-icon="/customize_theme_business/static/src/imgs/layouts-icon/fluid.png"/>
+        </xpath>
+        <!--Add Default Container Size After Apply Container Fluid-->
+        <xpath expr="//list[1]/opt[1]" position="replace">
+            <opt string=" Full"
+                 id="option_layout_full_variables"
+                 data-xmlid="customize_theme_business.option_layout_default_container_variables"
+                 data-icon="/customize_theme_business/static/src/imgs/layouts-icon/full.png"/>
+        </xpath>
+    </template>
+
+
+    <!-- Those are independant from the user palette and act as default for it -->
+    <template id="option_colors_02_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_02_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_colors_03_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_03_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_colors_04_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_04_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_colors_05_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_05_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_colors_06_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_06_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_colors_07_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_07_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_colors_08_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_08_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_colors_09_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/colors/option_colors_09_variables.scss"/>
+        </xpath>
+    </template>
+
+    <!-- Font options -->
+    <template id="option_font_title_07_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_07_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_08_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_08_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_09_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_09_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_10_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_10_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_11_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_11_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_12_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_12_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_13_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_13_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_14_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_14_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_15_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_15_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_16_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_16_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_17_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_17_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_18_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_18_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_title_19_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_title_19_variables.scss"/>
+        </xpath>
+    </template>
+
+    <template id="option_font_body_07_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_07_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_08_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_08_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_09_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_09_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_10_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_10_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_11_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_11_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_12_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_12_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_13_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_13_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_14_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_14_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_15_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_15_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_16_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_16_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_17_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_17_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_18_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_18_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_body_19_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_body_19_variables.scss"/>
+        </xpath>
+    </template>
+
+    <template id="option_font_button_07_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_07_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_08_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_08_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_09_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_09_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_10_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_10_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_11_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_11_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_12_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_12_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_13_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_13_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_14_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_14_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_15_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_15_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_16_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_16_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_17_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_17_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_18_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_18_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_button_19_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_button_19_variables.scss"/>
+        </xpath>
+    </template>
+
+    <template id="option_font_navbar_07_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_07_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_08_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_08_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_09_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_09_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_10_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_10_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_11_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_11_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_12_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_12_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_13_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_13_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_14_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_14_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_15_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_15_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_16_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_16_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_17_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_17_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_18_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_18_variables.scss"/>
+        </xpath>
+    </template>
+    <template id="option_font_navbar_19_variables"
+              inherit_id="customize_theme_business._assets_primary_variables"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/options/fonts/option_font_navbar_19_variables.scss"/>
+        </xpath>
+    </template>
+
+</odoo>

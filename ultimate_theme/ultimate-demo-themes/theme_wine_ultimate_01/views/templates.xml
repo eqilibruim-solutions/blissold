@@ -1,0 +1,793 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="wine_banner" name="Wine Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_wine_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 48px; text-align: center;">winery signature tour
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text"
+                               style="text-align: center;">
+                                Write one or
+                                two paragraphs describing your product, services or
+                                a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to
+                                your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-alpha flat" data-original-title=""
+                               title="" aria-describedby="tooltip448131">
+                                <font style="font-size: 14px;">
+                                    <b>&amp;nbsp;VIEW FEATURES&amp;nbsp;</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet History Start-->
+        <template id="wine_history" name="Wine History">
+            <section class="pt112 pb120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center o_default_snippet_text">
+                                <font style="font-size: 36px;">Our History</font>
+                            </h2>
+                            <p style="text-align: center; ">
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+                                </font>
+                            </p>
+                            <div class="row pt64 align-items-center">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-right">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 ">
+                                        <h3 class="pb8 pt8">
+                                            <font style="font-size: 18px;">Purchase Farm</font>
+                                        </h3>
+                                        <h3 class="pb8 pt8">
+                                            <b>
+                                                <font style="font-size: 36px;">1995</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 py-5">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">First Production</font>
+                                        </h3>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 36px;">
+                                                <b>2004</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">Small Enterprise</font>
+                                        </h3>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 36px;">
+                                                <b>2014</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-350x649.png"
+                                         alt="molile" class="img-fluid pt8 pb8" data-original-title="" title=""
+                                         aria-describedby="tooltip307667"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-left">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">First Wineyard</font>
+                                        </h3>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 36px;">
+                                                <b>1999</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 py-5">
+                                        <h3 class="pb8 pt8">
+                                            <font style="font-size: 18px;">First Customer</font>
+                                        </h3>
+                                        <h3 class="pb8 pt8">
+                                            <font style="font-size: 36px;">
+                                                <b>2009</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">Organic Company</font>
+                                        </h3>
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 36px;">
+                                                <b>2018</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                            gravida velit urna, ut mattis leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet History End-->
+
+        <!--Snippet About Us Start-->
+        <template id="wine_about_us" name="Wine About Us">
+            <section class="pt112 oe_img_bg oe_custom_bg pb240"
+                     style="background-image: url(&quot;/theme_wine_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-3 col-lg-6">
+                            <h2 class="pt24 pb24" style="text-align: center;">
+                                <font style="font-size: 36px;">About Us</font>
+                            </h2>
+                            <p style="text-align: justify; ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                                Aliquam finibus pharetra tellus at egestas.Suspendisse potenti. Aliquam
+                                finibus pharetra tellus at egestas.
+                                <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                    congue suscipit. Suspendisse potenti. Aliquam finibus pharetra
+                                    tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra
+                                    tellus at egestas. Aliquam finibus pharetra tellus at
+                                    egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </span>
+                                <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                    congue suscipit. Suspendisse potenti. Aliquam finibus pharetra
+                                    tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra
+                                    tellus at egestas. Aliquam finibus pharetra tellus at
+                                    egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Counter Start-->
+        <template id="wine_counter" name="Wine Counter">
+            <section class="state_section pt64 pb64" id="state_section_id">
+                <div class="container">
+                    <div class="row text-center justify-content-sm-center no-gutters state_text">
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <i class="fa fa-3x fa-500px pe-7s-sun text-alpha" data-original-title=""
+                               title="" aria-describedby="tooltip476459" style=""/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="2560"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">2</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">5</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">6</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">Hours</font>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <i class="fa fa-3x fa-500px pe-7s-star text-alpha" data-original-title=""
+                               title="" aria-describedby="tooltip887500" style=""/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="34"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">3</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">4</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">Awards</font>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <i class="fa fa-3x fa-500px pe-7s-like text-alpha" data-original-title=""
+                               title="" aria-describedby="tooltip421376" style=""/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="150"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">5</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">0</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">Wine Types</font>
+                            </h3>
+                        </div>
+                        <div class="state-col-inner col-12 col-sm-12 col-lg-3 col-md-6">
+                            <i class="fa fa-3x fa-500px pe-7s-leaf text-alpha" data-original-title=""
+                               title="" aria-describedby="tooltip937880" style=""/>
+                            <div class="count_to animate_onoffset">
+                                <div class="odometer odometer-theme-minimal" data-number="2176"
+                                     data-duration="2000">
+                                    <div class="odometer-inside">
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">2</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-formatting-mark">,</span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">1</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">7</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                        <span class="odometer-digit">
+                                            <span class="odometer-digit-spacer">8</span>
+                                            <span class="odometer-digit-inner">
+                                                <span class="odometer-ribbon">
+                                                    <span class="odometer-ribbon-inner">
+                                                        <span class="odometer-value">6</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">&amp;nbsp;Happy Clients</font>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Right Content Start-->
+        <template id="wine_right_content" name="Wine Right Content">
+            <section class="pt32 pb32">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-350x649.png" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-8">
+                            <p class="o_default_snippet_text">Tagline</p>
+                            <h2>Red Wines</h2>
+                            <p class="pt16 pb16">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.&amp;nbsp;
+                                <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                    congue suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus
+                                    at egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </span>
+                            </p>
+                            <a href="#" class="rounded-0 btn btn-primary btn-lg" data-original-title=""
+                               title="" aria-describedby="tooltip818741">
+                                <font style="font-size: 14px;">
+                                    <b>&amp;nbsp;SEE MORE&amp;nbsp;</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Left Content Start-->
+        <template id="wine_left_content" name="Wine Left Content">
+            <section class="pt32 pb32">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-8">
+                            <p class="o_default_snippet_text">Tagline</p>
+                            <h2>White Wines</h2>
+                            <p class="pt16 pb16">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Pellentesque fermentum est in tortor congue suscipit. Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.Suspendisse
+                                potenti.Aliquam finibus pharetra tellus at egestas.&amp;nbsp;
+                                <span style="font-size: 0.875rem;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Pellentesque fermentum est in tortor
+                                    congue suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus
+                                    at egestas.Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.
+                                </span>
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg rounded-0" data-original-title=""
+                               title="" aria-describedby="tooltip56768">
+                                <b>
+                                    <font style="font-size: 14px;">SEE MORE</font>
+                                </b>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-350x649.png" alt="mobile"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title=""
+                                 title="" aria-describedby="tooltip460374"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Team Start-->
+        <template id="wine_team" name="Wine Team">
+            <section id="team_5" class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="m-auto text-alpha o_default_snippet_text">
+                            <font style="font-size: 36px;">Our Team</font>
+                        </h2>
+                    </div>
+                    <p class="pb48" style="text-align: center; ">
+                        <font style="font-size: 18px;">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</font>
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="card-img-top"
+                                     alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">Xaxirs&amp;nbsp;</h5>
+                                    <div class="card-text text-black-50">Wine Maker</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="card-img-top"
+                                     alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">John</h5>
+                                    <div class="card-text text-black-50">Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="card-img-top"
+                                     alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">Alex</h5>
+                                    <div class="card-text text-black-50">Assistant Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     class="card-img-top"
+                                     alt="..."/>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-0 text-alpha">Jennifer</h5>
+                                    <div class="card-text text-black-50">
+                                        Owner
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Footer Start-->
+        <template id="wine_footer" name="Wine Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pb32 pt0" id="footer_19">
+                    <div class="container">
+                        <div class="row pt64">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany"
+                                     title="YourCompany"/>
+                                <p class="pt16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Nam eu sem tempor, varius quam at,luctus dui. Mauris magna
+                                        metus.
+                                        &amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="media mb8">
+                                    <i class="fa fa-phone-square mr-2 text-beta" data-original-title="" title=""
+                                       aria-describedby="tooltip430067" style=""/>
+                                    <div class="media-body">
+                                        <h6 class="text-white">
+                                            <span>Call Us:</span>
+                                            <span t-field="res_company.phone"/>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="media mb8">
+                                    <i class="fa fa-envelope-open mr-2 text-beta"
+                                       data-original-title="" title=""
+                                       aria-describedby="tooltip147463" style=""/>
+                                    <div class="media-body">
+                                        <h6 class="text-white">
+                                            <span>E-mail On:</span>
+                                            <span t-field="res_company.email"/>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="media mb8">
+                                    <i class="fa fa-map-marker mr-2 text-beta" data-original-title="" title=""
+                                       aria-describedby="tooltip454806" style=""/>
+                                    <div class="media-body">
+                                        <h6 class="text-white">
+                                            <span>Visit Us:</span>
+                                            <span t-field="res_company.street"/>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h4 class="pb16 font-weight-bold border-bottom o_default_snippet_text">
+                                    <span style="font-weight: normal;">
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Recent News
+                                            &amp;nbsp;
+                                        </font>
+                                    </span>
+                                </h4>
+                                <div class="pt16">
+                                    <h6>
+                                        <font style="color: rgb(255, 255, 255);">New bar is open</font>
+                                    </h6>
+                                    <h6 class="o_default_snippet_text">
+                                        <i class="fa fa-clock-o text-beta" data-original-title="" title=""
+                                           aria-describedby="tooltip686098" style=""/>
+                                        <font style="color: rgb(255, 255, 255);">
+                                            January 22, 2016
+                                            &amp;nbsp;
+                                        </font>
+                                    </h6>
+                                </div>
+                                <div class="pt16">
+                                    <h6>
+                                        <font style="color: rgb(255, 255, 255);">Test of Napa</font>
+                                    </h6>
+                                    <h6 class="o_default_snippet_text">
+                                        <i class="fa fa-clock-o text-beta" data-original-title="" title=""
+                                           aria-describedby="tooltip752841" style=""/>
+                                        <font style="color: rgb(255, 255, 255);">
+                                            January 22, 2016
+                                        </font>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb32">
+                                <h4 class="pb16 font-weight-bold border-bottom o_default_snippet_text">
+                                    <span style="font-weight: normal;">
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Navigation
+                                            &amp;nbsp;
+                                        </font>
+                                    </span>
+                                </h4>
+                                <div class="row pt16">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-6">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">About US
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Contact
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Typography
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Carres
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Shop
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-6">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">News
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Testimonials
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Services
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Our Team
+                                                        &amp;nbsp;
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">Our Approach</font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                <h4 class="pb16 font-weight-bold border-bottom o_default_snippet_text">
+                                    <span style="font-weight: normal;">
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Gallery</font>
+                                    </span>
+                                </h4>
+                                <div class="row pt16 pb16 px-3">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                             aria-describedby="tooltip714467"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 p-1">
+                                        <img src="/theme_wine_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                             class="img-fluid d-block mx-auto"/>
+                                    </div>
+                                </div>
+                                <h6>
+                                    <a href="#" class="text-decoration-none o_default_snippet_text" target="_blank"
+                                       data-original-title="" title="" aria-describedby="tooltip55339"><i
+                                            class="fa fa-arrow-circle-right"/>View More Photos
+                                    </a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Wine Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_wine_ultimate_01.wine_banner"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wine_ultimate_01.wine_history"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wine_ultimate_01.wine_about_us"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wine_ultimate_01.wine_counter"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wine_ultimate_01.wine_right_content"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wine_ultimate_01.wine_left_content"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wine_ultimate_01.wine_team"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wine_ultimate_01.wine_footer"
+                           t-thumbnail="/theme_wine_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

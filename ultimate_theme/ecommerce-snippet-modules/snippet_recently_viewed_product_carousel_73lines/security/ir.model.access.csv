@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_template_recent_view_public,product_template_recent_view_public,model_product_template_recent_view,base.group_public,1,1,1,0
+access_product_template_recent_view_user,product_template_recent_view_user,model_product_template_recent_view,base.group_user,1,1,1,0
+access_product_template_recent_view_portal,product_template_recent_view_portal,model_product_template_recent_view,base.group_portal,1,1,1,0

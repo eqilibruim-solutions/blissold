@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem
+        id="purchase_requisition.menu_purchase_requisition_pro_mgt"
+        sequence="0"
+        name="Resource Request"
+        parent="purchase.menu_purchase_root"
+        action="purchase_requisition.action_purchase_requisition"/>
+
+    <record model="ir.actions.act_window" id="purchase_requisition.action_purchase_requisition">
+        <field name="name">Resources Request</field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="purchase_requisition.action_purchase_requisition_to_so">
+        <field name="name">Request for Quotation</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">purchase.order</field>
+        <field name="view_mode">form,tree</field>
+        <field name="domain">[('requisition_id','=',active_id)]</field>
+        <field name="context">{
+            "default_requisition_id":active_id,
+            }
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_requisition_form_inherit">
+        <field name="name">purchase.requisition.form.inherit</field>
+        <field name="model">purchase.requisition</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="purchase_requisition.view_purchase_requisition_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='%(purchase_requisition.action_purchase_requisition_to_so)d'][2]" position="replace"/>
+            <xpath expr="//field[@name='user_id']" position="attributes">
+                <attribute name="string">Requestor</attribute>
+            </xpath>
+            <xpath expr="//field[@name='type_id']" position="before">
+                <field name="procurement_pref" />
+                <field name="pref_supplier_id" />
+                <field name="categ_id" />
+            </xpath>
+            <xpath expr="//field[@name='type_id']" position="attributes">
+                <attribute name="string">Usage</attribute>
+                <attribute name="domain">['|',('company_id','=',company_id),('company_id','=',False)]</attribute>
+            </xpath>
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="manager_user_id" readonly="1"/>
+            </xpath>
+            <xpath expr="//field[@name='vendor_id']" position="attributes">
+                <attribute name="groups">solibre_useability.group_supplier_on_requisition</attribute>
+            </xpath>
+
+            <xpath expr="//button[@name='%(purchase_requisition.action_purchase_requisition_to_so)d']" position="after">
+                <button type="action" name="%(solibre_useability.action_payment_request)d"
+                        string="Payment request" 
+                        groups="purchase.group_purchase_manager"
+                        attrs="{'invisible': ['|',('state', '!=', 'open'),('payment_id','!=',False)]}"/>
+                <button name="consume_move" 
+                        type="object" 
+                        string="Submit to warehouse"
+                        class="btn-primary" 
+                        attrs="{'invisible': ['|',('picking_id', '!=', False),('state', '!=', 'open')]}"/>
+                <button type="object" name="reload_unit_price" string="Check Prices" />
+                <button type="object" name="load_products" string="Load products" states="draft"/>
+            </xpath>
+            <xpath expr="//button[@name='action_open']" position="attributes">
+                <attribute name="string">Approve</attribute>
+            </xpath>
+            <xpath expr="//button[@name='action_cancel']" position="attributes">
+                <attribute name="string">Reject/Cancel</attribute>
+            </xpath>
+            <xpath expr="//button[@name='%(purchase_requisition.action_purchase_requisition_list)d']"
+                   position="attributes">
+                <attribute name="attrs">{'invisible': [('state', '!=', 'open'),]}
+                </attribute>
+            </xpath>
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='product_id']" position="after">
+                <field name="name" widget="section_and_note_text"/>
+            </xpath>
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='product_id']" position="attributes">
+                <attribute name="options">{'no_create': True, 'no_create_edit': True}</attribute> 
+                <attribute name="domain"
+                    eval="['|',('categ_id', '=', ref('product.product_category_all')),('categ_id', '=', parent.categ_id),'|', ('company_id', '=', False), ('company_id', '=', parent.company_id)]"/> 
+            </xpath>
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='qty_ordered']" position="after">
+                <field name="available_qty"/>
+                <field name="forecast_qty"/>
+            </xpath>
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='price_unit']" position="after">
+                <field name="price_subtotal" sum="Total"/>
+                <button type="object" name="create_po" icon="fa-credit-card" title="New RFQ" />
+            </xpath>
+
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='price_unit']" position="before">
+                <field name="estimated_cost" sum="Total Estimate"/>
+            </xpath>
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='schedule_date']" position="attributes">
+                <attribute name="invisbile">1</attribute> 
+            </xpath>
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='schedule_date']" position="before">
+                <field name="employee_id" />
+            </xpath>
+            <xpath expr="//field[@name='line_ids']/tree/field[@name='account_analytic_id']" position="replace"/>
+            <xpath expr="//field[@name='currency_id']" position="after">
+                <field name="transfer_type_id" invisible="1"/>
+                <field name="account_analytic_id" options="{'no_create': True}" attrs="{'invisible': [('transfer_type_id', '=', False)],'required':[('transfer_type_id', '!=', False)]}"/>
+                <field name="picking_id" attrs="{'invisible': [('picking_id', '=', False)]}" readonly="1"/>
+                <field name="payment_id" attrs="{'invisible': [('payment_id', '=', False)]}" groups="account.group_account_user" readonly="1"/>
+            </xpath>
+            <xpath expr="//field[@name='currency_id']" position="after">
+                <field name="total_amount" groups="purchase.group_purchase_manager"/>
+            </xpath>
+            <xpath expr="//field[@name='message_follower_ids']" position="after">
+                <field name="activity_ids" widget="mail_activity"/>
+            </xpath>
+<!--             <notebook position="inside">
+                <page name="child_ids" string="Origin" attrs="{'invisible':[('child_ids','=',[])]}">
+                    <field name="child_ids" nolabel="1" readonly="1">
+                        <tree>
+                            <field name="name"/>
+                            <field name="origin"/>
+                            <field name="state"/>
+                        </tree>
+                    </field>
+                </page>
+            </notebook> -->
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_requisition_tree_inherit">
+        <field name="name">purchase.requisition.tree.inherit</field>
+        <field name="model">purchase.requisition</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="purchase_requisition.view_purchase_requisition_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='state']" position="before">
+                <field name="procurement_pref" />
+                <field name="purchase_ids"/>
+                <field name="order_state" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_requisition_search">
+        <field name="name">purchase.requisition.search.inherit</field>
+        <field name="model">purchase.requisition</field>
+        <field name="inherit_id" ref="purchase_requisition.view_purchase_requisition_filter" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='product_id']" position="after">
+                <field name="procurement_pref" />
+            </xpath>
+            <xpath expr="//filter[@name='representative']" position="after">
+                <filter string="Analytic Account" name="analytic" domain="[]" context="{'group_by': 'account_analytic_id'}"/>
+                <filter string="Company" name="company" domain="[]" context="{'group_by': 'company_id'}"/>
+            </xpath>
+                
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_purchase_requisition_type_form_inherit">
+        <field name="name">purchase.requisition.type.form.inherit</field>
+        <field name="model">purchase.requisition.type</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="purchase_requisition.view_purchase_requisition_type_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='quantity_copy']" position="after">
+                <field name="company_id" />
+            </xpath>
+            <xpath expr="//field[@name='exclusive']" position="after">
+                <field name="picking_type_id" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_sale_order_stock_form_inherit">
+        <field name="name">sale.order.stock.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="sale_stock.view_order_form_inherit_sale_stock" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='warehouse_id']" position="replace"/>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_order_form_inherit">
+        <field name="name">sale.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='analytic_account_id']" position="replace"/>
+            <xpath expr="//field[@name='client_order_ref']" position="replace"/>
+            <xpath expr="//field[@name='origin']" position="replace"/>
+            <xpath expr="//field[@name='partner_shipping_id']" position="after">
+                <field name="partner_id_beneficiary" context="{'default_parent_id':partner_id,'default_type':'delivery'}"/>
+                <field name="beneficiary_delivery_date" />
+                <label for="analytic_account_id"/>
+                <div class="o_row" name="analytic_account">
+                    <field name="analytic_account_id" class="oe_inline"/>   
+                    <button type="object" 
+                            class="oe_link oe_inline"
+                            name="create_project" 
+                            string="Create Project" 
+                            attrs="{'invisible': [('analytic_account_id', '!=', False)]}"/>
+                </div> 
+                <field name="client_order_ref" string="PO Ref."/>      
+                <field name="origin" string="Project name"/>          
+            </xpath>   
+
+            <xpath expr="//field[@name='payment_term_id']" position="after">
+                <field name="payment_mode" />
+                <field name="sale_url" widget="CopyClipboardChar" attrs="{'invisible': [('sale_url', '=', False)]}"/>
+                <label for='credit_limit' string='Credit Limit'/>
+                <div>
+                    <field name='available_credit' nolabel='1' class="oe_inline"/>
+                    <span class="oe_inline"> / </span> 
+                    <field name='credit_limit' nolabel='1' class="oe_inline"/> 
+
+                </div>
+                <field name="earliest_due_date"/>
+            </xpath>
+            <xpath expr="//field[@name='payment_term_id']" position="before">
+                <field name="delivery_instruction" />
+                <field name="warehouse_id" />
+                <field name="weight" />
+            </xpath>
+            <xpath expr="//field[@name='order_line']/tree/field[@name='sequence']" position="after">
+                <button type="object" 
+                        name="action_open_section_requisition" 
+                        icon="fa-credit-card" 
+                        context="{'default_order_line_id':active_id}"
+                        attrs="{'invisible': [('display_type', '!=', 'line_section')]}"/>
+<!--
+sudo nano ../../petrodive-server/addons/account/static/src/js/section_and_note_fields_backend.js
+line 27 if (isSection || isNote) {
+            if(node.tag === "button"){
+                this.hasButton = true;
+                return $cell;
+            }
+
+-->
+
+            </xpath>
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_open_requisition" class="oe_stat_button" icon="fa-credit-card" type="object">
+                    <field name="requisition_count" widget="statinfo" string="Requests"/>
+                </button>
+            </xpath>
+            <xpath expr="//div[@name='button_box']" position="inside">
+                    <button type="object"  name="action_view_subscription"
+                        class="oe_stat_button"
+                        icon="fa-repeat" attrs="{'invisible':[('state', 'in', ('draft'))]}">
+                        <field name="subscription_count" widget="statinfo" string="Subscriptions"/>
+                    </button> 
+                    <field name="transaction_ids" invisible="1"/>
+                    <button type="object" name="action_payment_transaction" class="oe_stat_button" icon="fa-credit-card" attrs="{'invisible': [('transaction_ids', '=', False)]}" groups="base.group_user">
+                        <span>Payments</span>
+                    </button>
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Budget">
+                    <group>
+                        <group>
+                            <field name="budget_id" />
+                            <button type="object" 
+                                    name="create_budget" 
+                                    string="Create Budget" 
+                                    attrs="{'invisible': [('budget_id', '!=', False)]}"/>
+                        </group>
+                        <group>
+                            <button type="object" name="create_requisition" string="Create RR" />
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sol_requisition_form">
+        <field name="name">sol.requisition.form</field>
+        <field name="model">sol.requisition</field>
+        <field name="type">form</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <field name="order_id" invisible="True"/>
+                    <field name="order_line_id" invisible="True"/>
+
+                    <field name="line_ids">
+                        <tree editable="bottom" create="0" edit="1">
+                            <field name="product_id"/>
+                            <field name="qty" />
+                            <field name="partner_ids" widget="many2many_tags"/>
+                        </tree>
+                    </field>
+                </sheet>
+                <footer>
+                    <button class="oe_highlight" type="object" name="create_requests" string="Continue" />
+                    or
+                    <button class="oe_link" special="cancel" string="Cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sol_requisition">
+        <field name="name">Create Request</field>
+        <field name="res_model">sol.requisition</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="view_id" ref="view_sol_requisition_form" />
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_order_tree_inherit">
+        <field name="name">sale.order.tree.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="client_order_ref" />
+            </xpath>
+        </field>
+    </record>
+
+    <template id="portal_my_sale_orders" name="Portal My Sale Orders" inherit_id="sale.portal_my_orders">
+        <xpath expr="//t[@t-call='portal.portal_table']/thead/tr/th[1]" position="after">
+            <th>Ref</th>
+        </xpath>
+        <xpath expr="//t[@t-foreach='orders']/tr/td[1]" position="after">
+            <td>
+                <span t-field="order.origin"/> <span t-field="order.client_order_ref"/> 
+            </td>
+        </xpath>
+    </template>
+
+    <record model="ir.actions.act_window" id="sale.action_order_report_all">
+        <field name="name">Sales Analysis</field>
+        <field name="res_model">sale.report</field>
+        <field name="view_mode">pivot,graph</field>
+        <field name="view_id"></field>  <!-- force empty -->
+        <field name="search_view_id" ref="sale.view_order_product_search"/>
+        <field name="context">{'search_default_Sales':1, 'group_by_no_leaf':1,'group_by':[]}</field>
+        <field name="help">This report performs analysis on your quotations and sales orders. Analysis check your sales revenues and sort it by different group criteria (salesman, partner, product, etc.) Use this report to perform analysis on sales not having invoiced yet. If you want to analyse your turnover, you should use the Invoice Analysis report in the Accounting application.</field>
+    </record>
+
+    <record id="ir_actions_server_invoice_before_delivery" model="ir.actions.server">
+        <field name="name">Invoice before delivery</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">list</field>
+        <field name="state">code</field>
+        <field name="code">action = records.invoice_before_delivery()</field>
+    </record>
+
+</odoo>

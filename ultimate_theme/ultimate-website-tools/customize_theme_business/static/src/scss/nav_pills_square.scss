@@ -1,0 +1,38 @@
+#top_menu{
+    > li{
+        > a{
+            //color: theme-color('alpha');
+            padding: 10px 16px 10px 16px;
+        }
+
+        &.active,&:hover{
+             > a{
+                background-color:theme-color('alpha');
+                color:lighten(theme-color('alpha'),70%);
+             }
+
+        }
+
+        a[aria-expanded="true"]{
+             background-color:theme-color('alpha');
+            color:lighten(theme-color('alpha'),70%);
+        }
+
+
+        .dropdown-menu{
+            background-color: #fff;
+            border-top: 3px solid theme-color('beta');
+        }
+
+        &.divider{
+           height: 2.4125rem;
+        }
+    }
+
+    > li.show{
+        background-color:theme-color('alpha');
+        color:lighten(theme-color('alpha'),70%);
+    }
+}
+
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="action_delivery_zone">
+        <field name="name">Delivery Zones</field>
+        <field name="res_model">delivery.zone</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_zone_search">
+        <field name="name">delivery.zone.search</field>
+        <field name="model">delivery.zone</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" filter_domain="[('name', 'ilike', self)]" string="Name" />
+                <field name="partner_id" />
+                <field name="country_id" />
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_zone_tree">
+        <field name="name">delivery.zone.tree</field>
+        <field name="model">delivery.zone</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="partner_id" />
+                <field name="user_ids" />
+                <field name="city_id" />
+                <field name="country_id" />
+                <field name="company_id" />
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_zone_schedule_form">
+        <field name="name">delivery.zone.schedule.form</field>
+        <field name="model">delivery.zone.schedule</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <h1>
+                        <field name="name" placeholder="Zone"/>  
+                    </h1>
+                    <field name="schedule_line_ids">
+                        <tree editable="bottom">
+                            <field name="name" />
+                            <field name="time_slot_ids" widget="many2many_tags"/>
+                        </tree>
+                    </field>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_delivery_zone_schedule">
+        <field name="name">Zone Schedule</field>
+        <field name="res_model">delivery.zone.schedule</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_zone_schedule_search">
+        <field name="name">delivery.zone.schedule.search</field>
+        <field name="model">delivery.zone.schedule</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" filter_domain="[('name', 'ilike', self)]" string="Name" />
+            </search>
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_delivery_zone_form">
+        <field name="name">delivery.zone.form</field>
+        <field name="model">delivery.zone</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" 
+                                type="action" 
+                                context="{'search_default_name': active_id,'default_name':active_id}"
+                                name="%(action_delivery_zone_schedule)d" 
+                                icon="fa-clock-o"
+                                >
+                            <span>Zone Schedule</span> 
+                        </button>
+                    </div>
+                    <group>
+                        <field name="name" />
+                        <field name="partner_id" />
+                        <field name="company_id" />
+                        <field name="user_ids" widget="many2many_tags"/>
+                    </group>
+                    <group>
+                        <field name="country_id" />
+                        <field name="area_ids" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem
+        id="menu_delivery_zone"
+        name="Delivery Zones"
+        parent="contacts.menu_localisation"
+        action="action_delivery_zone" />
+
+    <record model="ir.ui.view" id="view_delivery_area_search">
+        <field name="name">delivery.area.search</field>
+        <field name="model">delivery.area</field>
+        <field name="type">search</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <search>
+                <!-- Example of searching for a field -->
+                <field name="name" filter_domain="[('name', 'ilike', self)]" string="Name" />
+                <field name="zone_id" />
+                <field name="state_id" />
+
+                <!-- Example of a filter -->
+
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_area_tree">
+        <field name="name">delivery.area.tree</field>
+        <field name="model">delivery.area</field>
+        <field name="type">tree</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="zone_id" />  
+                <field name="state_id" />
+                <field name="center_longitude" />
+                <field name="center_latitude" />
+                <field name="sorting" /> 
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_delivery_area">
+        <field name="name">Delivery Area</field>
+        <field name="res_model">delivery.area</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+
+    <menuitem
+        id="menu_delivery_area"
+        name="Delivery Area"
+        parent="contacts.menu_localisation"
+        action="action_delivery_area" />
+
+</odoo>

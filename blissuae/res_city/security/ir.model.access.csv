@@ -1,0 +1,11 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_res_city,City,model_res_city,,1,1,0,0
+access_delivery_zone,Zones,model_delivery_zone,,1,1,0,0
+access_delivery_area,Areas,model_delivery_area,,1,1,0,0
+access_res_city_man,City Manager,model_res_city,sales_team.group_sale_manager,1,1,1,1
+access_delivery_zone_man,Zones Manager,model_delivery_zone,sales_team.group_sale_manager,1,1,1,1
+access_delivery_area_man,Areas Manager,model_delivery_area,sales_team.group_sale_manager,1,1,1,1
+access_delivery_zone_schedule_man,Schedule Manager,model_delivery_zone_schedule,sales_team.group_sale_manager,1,1,1,1
+access_delivery_zone_schedule_user,Schedule User,model_delivery_zone_schedule,,1,0,0,0
+access_delivery_zone_schedule_line_man,Schedule Manager,model_delivery_zone_schedule_line,sales_team.group_sale_manager,1,1,1,1
+access_delivery_zone_schedule_line_user,Schedule User,model_delivery_zone_schedule_line,,1,0,0,0

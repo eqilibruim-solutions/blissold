@@ -1,0 +1,916 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner start-->
+        <template id="tea_banner" name="Tea Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_tea_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;">
+                                    <b>TEST OF REAL TEA</b>
+                                </font>
+                            </h1>
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b>FOR HEALTHY LIFE</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font style="color: rgb(255, 255, 255); font-size: 18px;">Lorem ipsum dolor sit amet
+                                </font>
+                                <font style="font-size: 18px;">&amp;nbsp;</font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mb8 mt8 flat flat btn btn-primary flat btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip47329">
+                                <font style="font-size: 14px;">
+                                    <b>ORDER NOW</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Product start-->
+        <template id="tea_product" name="Tea Product">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_tea_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 text-center mb48 offset-lg-2 col-lg-8">
+                            <h2>
+                                <br/>
+                            </h2>
+                            <h2>
+                                <b>
+                                    <font style="font-size: 48px;">Tea as a lifestyle</font>
+                                </b>
+                            </h2>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h4 style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Black Tea</b>
+                                        </font>
+                                    </h4>
+                                    <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor &amp;nbsp;
+                                    </p>
+                                    <p style="text-align: center;">
+                                        <a href="#" class="btn btn-alpha flat" data-original-title="" title=""
+                                           aria-describedby="tooltip653316">
+                                            <b>READ MORE</b>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h4 style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Green Tea</b>
+                                        </font>
+                                    </h4>
+                                    <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor &amp;nbsp;
+                                    </p>
+                                    <p style="text-align: center;">
+                                        <a href="#" class="btn btn-alpha flat" data-original-title="" title=""
+                                           aria-describedby="tooltip679020">
+                                            <b>READ MORE</b>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h4 style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Organic Tea</b>
+                                        </font>
+                                    </h4>
+                                    <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor &amp;nbsp;
+                                    </p>
+                                    <p style="text-align: center;">
+                                        <a href="#" class="btn btn-alpha flat" data-original-title="" title=""
+                                           aria-describedby="tooltip866864">
+                                            <b>READ MORE</b>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <div class="card">
+                                <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <h4 style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Herbal Tea</b>
+                                        </font>
+                                    </h4>
+                                    <p style="text-align: center; ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor &amp;nbsp;
+                                    </p>
+                                    <p style="text-align: center;">
+                                        <a href="#" class="btn btn-alpha flat" data-original-title="" title=""
+                                           aria-describedby="tooltip697265">
+                                            <b>READ MORE</b>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product End-->
+
+        <!--Snippet About Us start-->
+        <template id="tea_about_us" name="Tea About Us">
+            <section class="pb0 pt0" style="">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 plr-0 pt-lg-0 pt-md-5">
+                            <img src="/theme_tea_ultimate_01/static/src/img/placeholder-643x524.png" alt="Image"
+                                 class="img-fluid  mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip313222"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-5">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 48px;">Who We Are</font>
+                                </b>
+                            </h2>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque fermentum est in tortor congue suscipit. Suspendisse potenti.&amp;nbsp;
+                                </font>
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <h4 class="mt8 mb8">
+                                        <b>
+                                            <font style="font-size: 24px;">Highest Quality</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Pellentesque fermentum. consectetur adipiscing
+                                            elit. adipiscing elit.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <h4 class="mt8 mb8">
+                                        <b>
+                                            <font style="font-size: 24px;">Always Fresh</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Pellentesque fermentum. consectetur adipiscing
+                                            elit. adipiscing elit.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <h4 class="mb8 mt8">
+                                        <b>
+                                            <font style="font-size: 24px;">Pure Test</font>
+                                        </b>
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">Pellentesque fermentum. consectetur adipiscing
+                                            elit. adipiscing elit.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Gallery start-->
+        <template id="tea_gallery" name="Tea Gallery">
+            <section class="pt64 pb64 bg-beta oe_custom_bg" id="portfolio_9" style="">
+                <div class="container">
+                    <div class="text-center">
+                        <h2>
+                            <b>
+                                <font style="font-size: 48px;">Our Product Categories</font>
+                            </b>
+                        </h2>
+                        <p class="pb48">
+                            <font style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry.
+                            </font>
+                        </p>
+                        <div class="justify-content-center pb32">
+                            <a class="btn text-primary  filter-button mt8 mb8 o_default_snippet_text" data-filter="all"
+                               data-original-title="" title="" aria-describedby="tooltip524704">
+                                <font style="font-size: 24px;" data-original-title="" title=""
+                                      aria-describedby="tooltip579490">All
+                                </font>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="one" data-original-title=""
+                               title="" aria-describedby="tooltip94508">
+                                <font style="font-size: 24px;">Green Tea</font>
+                            </a>
+                            <a class="btn filter-button mb8 mt8 text-primary" data-filter="two" data-original-title=""
+                               title="" aria-describedby="tooltip759346">
+                                <font style="font-size: 24px;">Black Tea</font>
+                            </a>
+                            <a class="btn text-primary  filter-button mt8 mb8" data-filter="three"
+                               data-original-title="" title="" aria-describedby="tooltip520907">
+                                <font style="font-size: 24px;">Herbal Tea</font>
+                            </a>
+                            <a class="btn filter-button mb8 mt8 text-primary" data-filter="four" data-original-title=""
+                               title="" aria-describedby="tooltip478262">
+                                <font style="font-size: 24px;">Organic Tea</font>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter one pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$12.00</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter two pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$12.24</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter one pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$24.00</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$11.78</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter three pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$45.89</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$32.00</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter three pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$15.67</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$12.57</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter four pb24" style="display: block;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$31.45</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter one pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$28.90</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter three pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$35.00</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 filter two pb24" style="display: none;">
+                                <div class="hovereffect">
+                                    <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid image"/>
+                                    <div class="overlay">
+                                        <div class="single_portfolio_text">
+                                            <h5 class="font-weight-bold o_default_snippet_text text-white">$25.78</h5>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script class="o_default_snippet_text">
+                    $(document).ready(function(){
+
+                    $(".filter-button").click(function(){
+                    var value = $(this).attr('data-filter');
+
+                    if(value == "all")
+                    {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                    }
+                    else
+                    {
+                    // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    // $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+
+                    }
+                    });
+
+                    if ($(".filter-button").removeClass("active")) {
+                    $(this).removeClass("active");
+                    }
+                    $(this).addClass("active");
+
+                    });
+                </script>
+            </section>
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet CTA start-->
+        <template id="tea_cta" name="Tea CTA">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_tea_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2 class="mb48">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;">
+                                    <b>Offer On Special Products</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="form-group mb32">
+                                <input type="text" class="form-control p-4 rounded-0 border-0 w-50 float-left bg-light"
+                                       placeholder="Email"/>
+                                <a href="#" class="btn btn-primary btn-lg rounded-0 o_default_snippet_text">Send</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Left Content start-->
+        <template id="tea_left_content" name="Tea Left Content">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 48px;">Drinking Tea may Improve Your Health</font>
+                                </b>
+                            </h2>
+                            <p class="pt8 pb8">
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip&amp;nbsp;
+                                </font>
+                            </p>
+                            <div class="row">
+                                <ul class="list-unstyled px-1">
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2" style="font-size: 18px;"/>
+                                        <font style="font-size: 18px;">&amp;nbsp;Lorem ipsum dolor sit amet</font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2" style="font-size: 18px;"/>
+                                        <font style="font-size: 18px;">&amp;nbsp;Lorem ipsum dolor sit amet</font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2" style="font-size: 18px;"/>
+                                        <font style="font-size: 18px;">&amp;nbsp;Lorem ipsum dolor sit amet</font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2" style="font-size: 18px;"/>
+                                        <font style="font-size: 18px;">&amp;nbsp;Lorem ipsum dolor sit amet</font>
+                                    </li>
+                                    <p class="pt8 pb8">
+                                        <font style="font-size: 18px;">
+                                            <a href="#">Read More</a>
+                                            <br/>
+                                        </font>
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 text-center">
+                            <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet News start-->
+        <template id="tea_news" name="Tea News">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_tea_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 text-center mb48 offset-lg-2 col-lg-8">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 48px;">Latest News</font>
+                                </b>
+                            </h2>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb16 pt16">
+                            <img src="/theme_tea_ultimate_01/static/src/img/placeholder-540x240.png" alt=""
+                                 class="img-fluid"
+                                 data-original-title="" title=""
+                                 aria-describedby="tooltip79469"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 py-md-2 py-lg-5">
+                            <div class="pl32 pr32">
+                                <h3>
+                                    <b>Happiness is cup of tea</b>
+                                </h3>
+                                <h6>
+                                    <b>
+                                        <font style="">APRIL 20, 2018</font>
+                                    </b>
+                                    <br/>
+                                </h6>
+                                <p>
+                                    <font style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing&amp;nbsp;</font>
+                                    <font style="font-size: 18px;">and typesetting industry. Lorem Ipsum has been the
+                                        industry's standard dummy&amp;nbsp;text ever since the 1500s,
+                                    </font>
+                                </p>
+                                <p>
+                                    <font style="font-size: 18px;">
+                                        <a href="#">Read More</a>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 py-md-2 py-lg-5">
+                            <div class="pl32 pr32">
+                                <h3>
+                                    <b>Making your morning perfect with tea</b>
+                                </h3>
+                                <h6>
+                                    <b>
+                                        <font style="">MAY 23, 2018</font>
+                                    </b>
+                                    <br/>
+                                </h6>
+                                <p>
+                                    <font style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing&amp;nbsp;</font>
+                                    <font style="font-size: 18px;">and typesetting industry. Lorem Ipsum has been the
+                                        industry's standard dummytext ever since the 1500s,&amp;nbsp;
+                                    </font>
+                                </p>
+                                <p>
+                                    <font style="font-size: 18px;">
+                                        <a href="#">Read More</a>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb16 pt16">
+                            <img src="/theme_tea_ultimate_01/static/src/img/placeholder-540x240.png" alt=""
+                                 class="img-fluid"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip915640"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb16 pt16">
+                            <img src="/theme_tea_ultimate_01/static/src/img/placeholder-540x240.png" alt=""
+                                 class="img-fluid"
+                                 data-original-title="" title=""
+                                 aria-describedby="tooltip253402"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 py-md-2 py-lg-5">
+                            <div class="pl32 pr32">
+                                <h3>
+                                    <b>Benefits of Green and Black Tea</b>
+                                </h3>
+                                <h6>
+                                    <b>
+                                        <font style="">MAY 23, 2018</font>
+                                    </b>
+                                    <br/>
+                                </h6>
+                                <p class="o_default_snippet_text">
+                                    <font style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing&amp;nbsp;</font>
+                                    <font style="font-size: 18px;">and typesetting industry. Lorem Ipsum has been the
+                                        industry's standard dummy&amp;nbsp;&amp;nbsp;text ever since the 1500s,&amp;nbsp;
+                                    </font>
+                                </p>
+                                <p>
+                                    <font style="font-size: 18px;">
+                                        <a href="#">Read More</a>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Testimonial start-->
+        <template id="tea_testimonial" name="Tea Testimonial">
+            <section class="pt64 pb64 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 text-center mb48 offset-lg-2 col-lg-8">
+                            <h2>
+                                <span style="font-size: 48px;">
+                                    <b>Customer Review</b>
+                                </span>
+                            </h2>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="pb0 pt0" id="testimonials_d2" style="">
+                                    <div id="myCarousel1572865848043"
+                                         class="s_quotes_carousel carousel slide s_carousel_default"
+                                         data-interval="10000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel1572865848043" data-slide-to="0"
+                                                class="active"/>
+                                            <li data-target="#myCarousel1572865848043" data-slide-to="1"/>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item pt48 active" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 bg-white">
+                                                            <div class="text-center">
+                                                                <img class="img"
+                                                                     src="/theme_tea_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt="" data-original-title="" title=""
+                                                                     aria-describedby="tooltip676265"/>
+                                                                <span>Jane DOE</span>
+                                                            </div>
+                                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                                Write a quote here from one of your customers. Quotes
+                                                                are a great way to build confidence in your products or
+                                                                services.
+                                                            </p>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt48 pb0" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <blockquote
+                                                                class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 bg-white">
+                                                            <div class="text-center">
+                                                                <img class="img"
+                                                                     src="/theme_tea_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt="" data-original-title="" title=""
+                                                                     aria-describedby="tooltip676265"/>
+                                                                <span>Jane DOE</span>
+                                                            </div>
+                                                            <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                                                Write a quote here from one of your customers. Quotes
+                                                                are a great way to build confidence in your products or
+                                                                services.
+                                                            </p>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100 pt48">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="pt0 pb0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_tea_ultimate_01/static/src/img/placeholder-600.jpg"
+                                                     alt="Image" title="Image"
+                                                     class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Contact start-->
+        <template id="tea_contact" name="Tea Contact">
+            <section class="bg-400 py-5 contact_us_3 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_tea_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title mb-5" data-name="Title">
+                            <h1 class=" o_default_snippet_text text-center">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 48px;">Contact Us</font>
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-5 col-md-6 pb16">
+                            <div class="contact-page-side-content">
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-fax"/>
+                                        Address
+                                    </h4>
+                                    <span t-field="res_company.street"/>
+                                    <span t-field="res_company.city"/>
+                                    <span t-field="res_company.state_id.name"/>
+                                    <span t-field="res_company.zip"/>
+                                    <span t-field="res_company.country_id.name"/>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-phone"/>
+                                        Phone
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <span t-field="res_company.phone"/>
+                                    </p>
+                                </div>
+                                <div class="single-contact-block">
+                                    <h4 class="o_default_snippet_text">
+                                        <i class="fa fa-envelope-o"/>
+                                        Email Address
+                                    </h4>
+                                    <p class="o_default_snippet_text">
+                                        <span t-field="res_company.email"/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 s_text pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12">
+                                        <textarea class="form-control o_website_form_input" name="description"
+                                                  required="" placeholder="Your Question" rows="5"></textarea>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-left" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-lg btn-primary o_default_snippet_text o_website_form_send w-100">
+                                                Send
+                                            </a>
+                                            <span id="o_website_form_result"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Footer start-->
+        <template id="tea_footer" name="Tea Footer">
+            <section id="footer" class="oe_structure oe_structure_solo oe_img_bg oe_custom_bg" t-ignore="true"
+                     t-if="not no_footer"
+                     style="border-top:none;background-image: url(&quot;/theme_tea_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="pt64 pb32" id="footer_7">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb16">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                                <a t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-twitter px-1 fa-2x text-alpha"/>
+                                </a>
+                                <a t-att-href="res_company.social_linkedin">
+                                    <i class="fa fa-linkedin-square px-1 fa-2x text-alpha"/>
+                                </a>
+                                <a t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-facebook-official px-1 fa-2x text-alpha"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-skype px-1 fa-2x text-alpha"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-pinterest-square px-1 fa-2x text-alpha"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Tea Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_tea_ultimate_01.tea_banner"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_product"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_about_us"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_gallery"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_cta"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_left_content"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_news"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_testimonial"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_contact"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ultimate_01.tea_footer"
+                           t-thumbnail="/theme_tea_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

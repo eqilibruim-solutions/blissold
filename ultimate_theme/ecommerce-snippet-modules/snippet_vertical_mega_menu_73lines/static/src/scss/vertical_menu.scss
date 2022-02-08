@@ -1,0 +1,143 @@
+/*
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+*/
+
+.category-content.container {
+    max-width: none;
+}
+
+.category-content ul {
+    list-style: none;
+}
+
+.sub-categ-page {
+    position: absolute;
+    top: 0%;
+    left: 22%;
+    min-width: 200px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    padding: 12px 20px;
+    margin: 0 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+
+#category_menu > li.panel > ul.sub-categ-page.collapse.show{
+   // display:block !important;
+}
+
+.panel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+.category-title {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.sub-category-title {
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.sub-category-content ul {
+    list-style: none;
+}
+
+.sub-category-content .fa {
+    display: inline-block;
+    line-height: inherit;
+    float: left;
+    position: relative;
+    margin-left: -1em;
+    z-index: 1;
+    top: -0.15em;
+    left: -0.2em;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .vertical_category_menu_image {
+        width: 1170px !important;
+    }
+    .vertical_category_menu_no_image {
+        width: 1170px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .vertical_category_menu_image {
+        width: 970px;
+    }
+    .vertical_category_menu_no_image {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .vertical_category_menu_image {
+        width: 750px;
+    }
+    .vertical_category_menu_no_image {
+        width: 750px;
+    }
+}
+
+.vertical_category_menu_image {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.vertical_category_menu_no_image {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#category_menu > li {
+    padding: 20px 0px;
+    background: transparent;
+} 
+
+.category-title {
+    padding: 10px 16px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px !important;
+    background-color: #000000;
+    color:#FFF;
+}
+
+.category-title .fa {
+    margin-right: 20px;
+}
+
+.vertical_category_menu {
+    padding: 0px;
+    border: 1px solid;
+}
+
+#sub_category_menu > li {
+    padding: 5px 0px;
+}
+
+#category_menu a:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="report_delivery_document" inherit_id="stock.report_delivery_document">
+<!--     	<xpath expr="//div[@name='div_sched']" position="replace">
+            <div t-if="o.state" class="col-auto" name="div_sched_date">
+                <strong>Shipping Date:</strong>
+                    <p t-field="o.sale_id.pref_date" t-options="{&quot;widget&quot;: &quot;date&quot;}"/>
+                    <p t-field="o.sale_id.time_slot"/>
+               </t>
+            </div>
+    	</xpath> -->
+        <xpath expr="//table[@name='stock_move_line_table']" position="after">
+            <p class="small" t-raw="o.sale_id.gift_message"/>
+        </xpath>
+    </template>
+
+    <record model="ir.ui.view" id="view_stock_picking_form_inherit">
+        <field name="name">stock.picking.form.inherit</field>
+        <field name="model">stock.picking</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="stock.view_picking_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='note']" position="after">
+                <field name="gift_message" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

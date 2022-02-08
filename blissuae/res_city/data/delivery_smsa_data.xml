@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <function model="ir.model.fields" name="formbuilder_whitelist">
+            <value>res.partner</value>
+            <value eval="['city_id','mobile','partner_longitude','partner_latitude']"/>
+        </function>
+    </data>
+<!-- <data noupdate="1">
+
+    <record id="smsa_packaging_FLY" model="product.packaging">
+        <field name="name">smsa Flyer/Smalls</field>
+        <field name="shipper_package_code">FLY</field>
+        <field name="package_carrier_type">smsa</field>
+        <field name="max_weight">0.23</field>
+    </record>
+    <record id="smsa_packaging_COY" model="product.packaging">
+        <field name="name">smsa Parcels/Conveyables</field>
+        <field name="shipper_package_code">COY</field>
+        <field name="package_carrier_type">smsa</field>
+        <field name="max_weight">31.5</field>
+    </record>
+    <record id="smsa_packaging_NCY" model="product.packaging">
+        <field name="name">smsa Non-conveyables</field>
+        <field name="shipper_package_code">NCY</field>
+        <field name="package_carrier_type">smsa</field>
+    </record>
+    <record id="smsa_packaging_PAL" model="product.packaging">
+        <field name="name">smsa Pallets</field>
+        <field name="shipper_package_code">PAL</field>
+        <field name="height">10</field>
+        <field name="width">10</field>
+        <field name="length">10</field>
+        <field name="package_carrier_type">smsa</field>
+        <field name="max_weight">1000</field>
+    </record>
+    <record id="smsa_packaging_DBL" model="product.packaging">
+        <field name="name">smsa Double Pallets</field>
+        <field name="shipper_package_code">DBL</field>
+        <field name="package_carrier_type">smsa</field>
+        <field name="max_weight">1000</field>
+    </record>
+    <record id="smsa_packaging_BOX" model="product.packaging">
+        <field name="name">smsa Box</field>
+        <field name="shipper_package_code">BOX</field>
+        <field name="height">10</field>
+        <field name="width">10</field>
+        <field name="length">10</field>
+        <field name="package_carrier_type">smsa</field>
+        <field name="max_weight">70</field>
+    </record>
+
+    <record id="product_product_delivery_smsa_dom" model="product.product">
+      <field name="name">SMSA Domestic</field>
+      <field name="default_code">Delivery</field>
+      <field name="type">service</field>
+      <field name="categ_id" ref="product.product_category_all"/>
+      <field name="sale_ok" eval="False"/>
+      <field name="purchase_ok" eval="False"/>
+      <field name="list_price">0.0</field>
+    </record>
+
+    <record id="delivery_carrier_smsa_dom" model="delivery.carrier">
+        <field name="name">SMSA Express</field>
+        <field name="product_id" ref="delivery_smsa.product_product_delivery_smsa_dom"/>
+        <field name="delivery_type">smsa</field>
+        <field name="smsa_product_code">SMSA</field>
+        <field name="smsa_testpasskey">testpasskey</field>
+        <field name="smsa_passkey">passkey</field>
+    </record>
+
+</data> -->
+</odoo>

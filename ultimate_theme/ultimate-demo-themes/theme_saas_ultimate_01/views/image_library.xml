@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_saas_ultimate_01.image_content_1</field>
+            <field name="name">theme_saas_ultimate_01.image_content_1</field>
+            <field name="url">/theme_saas_ultimate_01/static/src/img/library/main-bg-img-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_saas_ultimate_01.image_content_2</field>
+            <field name="name">theme_saas_ultimate_01.image_content_2</field>
+            <field name="url">/theme_saas_ultimate_01/static/src/img/library/app.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_saas_ultimate_01.image_content_3</field>
+            <field name="name">theme_saas_ultimate_01.image_content_3</field>
+            <field name="url">/theme_saas_ultimate_01/static/src/img/library/admin-img-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_saas_ultimate_01.image_content_4</field>
+            <field name="name">theme_saas_ultimate_01.image_content_4</field>
+            <field name="url">/theme_saas_ultimate_01/static/src/img/library/saas-slide-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_saas_ultimate_01.image_content_5</field>
+            <field name="name">theme_saas_ultimate_01.image_content_5</field>
+            <field name="url">/theme_saas_ultimate_01/static/src/img/library/idea.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_saas_ultimate_01.image_content_6</field>
+            <field name="name">theme_saas_ultimate_01.image_content_6</field>
+            <field name="url">/theme_saas_ultimate_01/static/src/img/library/analysis.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_saas_ultimate_01.image_content_7</field>
+            <field name="name">theme_saas_ultimate_01.image_content_7</field>
+            <field name="url">/theme_saas_ultimate_01/static/src/img/library/money.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

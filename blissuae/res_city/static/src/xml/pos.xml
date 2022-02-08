@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2016-2018 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
+    Copyright 2016-2017 Stanislav Krotov <https://it-projects.info/team/ufaks>
+    Copyright 2018 Gabbasov Dinar <https://it-projects.info/team/GabbasovDinar>
+    Copyright 2018 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
+    License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html). -->
+
+<templates id="template" xml:space="preserve">
+    <t t-extend="ClientDetails">
+        <t t-jquery=".client-details-left" t-operation="append">
+            <t t-if="partner.mobile">
+                <div class="client-detail mobile">
+                    <span class='label'>Mobile</span>
+                    <span t-attf-class="detail">
+                        <t t-esc='partner.mobile'/>
+                    </span>
+                </div>
+            </t>
+        </t>
+    </t>
+
+    <t t-extend="ClientDetailsEdit">
+        <t t-jquery=".client-address-city" t-operation="replace">
+            <select class='detail client-address-city needsclick' name='city_id'>
+                <option value=''>None</option>
+                <t t-foreach='widget.pos.city_ids' t-as='city_id'>
+                    <option t-att-value='city_id.id' t-att-selected="partner.city_id ? ((city_id.id === partner.city_id[0]) ? true : undefined) : undefined">
+                        <t t-esc='city_id.name'/>
+                    </option>
+                </t>
+            </select>
+        </t>
+        <t t-jquery=".client-details-right" t-operation="prepend">
+            <div class='client-detail'>
+                <span class='label'>Mobile</span>
+					<input class='detail client-mobile'  name='mobile'    type='tel'      t-att-value='partner.mobile || ""'></input>
+            </div>
+        </t>        
+    </t>
+
+    <t t-extend="ClientListScreenWidget">
+        <t t-jquery="table.client-list tr" t-operation="append">
+            <th>Mobile</th>
+        </t>
+    </t>
+
+    <t t-extend="ClientLine">
+        <t t-jquery="tr.client-line" t-operation="append">
+            <td class="mobile_td">
+                <t t-if="partner.mobile">
+                    <t t-esc='partner.mobile'/>
+                </t>
+            </td>
+        </t>
+    </t>
+
+</templates>

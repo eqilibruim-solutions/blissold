@@ -1,0 +1,1291 @@
+<odoo>
+    <data>
+
+        <!--Snippet Mid Header start-->
+        <template id="biker_mid_header" name="Biker Mid Header">
+            <section id="mid_header_top_custom" class="mid_header_top_custom pt16 pb16 bg-white oe_custom_bg">
+                <div class="container" id="mid_header_top_custom_d1">
+                    <div class="row">
+                        <div class="col-12 col-sm-5 mb-2 mt-2 oe_structure col-lg-7" id="mid-header-top-left">&amp;nbsp;
+                            <img class="img-fluid o_we_custom_image" src="/logo.png"/>
+                            <span id="company-contact" class="ml8 mr8 text-primary"/>
+                        </div>
+                        <div class="col-12 oe_structure mt-1 mb-2 col-sm-7 pt8 col-lg-4 offset-lg-1"
+                             id="mid-header-top-right">
+                            <div id="company-profiles">
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_facebook">
+                                    <i class="mb-1 bg-alpha fa fa-facebook-square fa_company_contact_info share_facebook text-white rounded"
+                                       data-original-title="" title="" aria-describedby="tooltip938667" style=""/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_twitter">
+                                    <i class="mb-1 bg-alpha fa fa-twitter fa_company_contact_info share_twitter text-white rounded"
+                                       style="" data-original-title="" title="" aria-describedby="tooltip515633"/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_linkedin" data-original-title="" title=""
+                                   aria-describedby="tooltip892997">
+                                    <i class="mb-1 bg-alpha fa fa-linkedin fa_company_contact_info share_linkedin text-white rounded"
+                                       data-original-title="" title="" aria-describedby="tooltip774207" style=""/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_youtube">
+                                    <i class="mb-1 bg-alpha fa fa-youtube-play fa_company_contact_info share_youtube text-white rounded"
+                                       data-original-title="" title="" aria-describedby="tooltip934478" style=""/>
+                                </a>
+                                <a rel="publisher" class="fa_company_contact_links" target="_blank"
+                                   href="#">
+                                    <i class="mb-1 bg-alpha fa fa-google-plus-square fa_company_contact_info share_googleplus text-white rounded"
+                                       data-original-title="" title="" aria-describedby="tooltip207812" style=""/>
+                                </a>
+                                <a class="fa_company_contact_links" target="_blank"
+                                   t-att-href="res_company.social_github">
+                                    <i class="mb-1 bg-alpha fa fa-github fa_company_contact_info rounded share_github text-white"
+                                       data-original-title="" title="" aria-describedby="tooltip645875" style=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mid Header End-->
+
+        <!--Snippet Banner start-->
+        <template id="biker_banner" name="Biker Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none; height: 100vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_biker_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;">
+                                    <b>WE RIDE TOGETHER</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/aboutus" class="mb8 mt8 btn btn-beta flat btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip363896">VIEW MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Hover start-->
+        <template id="biker_img_hover" name="Biker Image Hover">
+            <section class="pt0 bg-delta oe_custom_bg pb0" style="">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title bg-delta pt40 pb40" style="text-align: center;">
+                            <h6 class="s_title_default">
+                                <span style="font-size: 48px;" class="text-alpha">
+                                    <b>We Are The Biker Club</b>
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sni-block bg-gamma oe_custom_bg pt96 pb96">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-xl-4 col-lg-4 col-sm-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid" src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip411946"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <font style="font-size: 24px;">
+                                            <b>BIKING EVENTS</b>
+                                        </font>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-xl-4 col-lg-4 col-sm-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid" src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip974614"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <span style="font-size: 24px;">
+                                            <b>KEEP ON ROLLING</b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-xl-4 col-lg-4 col-sm-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid" src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip710933"/>
+                                <div class="overlay">
+                                    <div class="img-text">
+                                        <span style="font-size: 24px;">
+                                            <b>BIKING COMPETITION&amp;nbsp;</b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Hover End-->
+
+        <!--Snippet About Us start-->
+        <template id="biker_about_us" name="Biker About Us">
+            <section class="bg-white oe_custom_bg pb64 pt64" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 pt-3 col-lg-5">
+                            <p class="lead text-left">
+                                <font style="font-size: 18px;">
+                                    <b>WELCOME HERE</b>
+                                </font>
+                            </p>
+                            <p class="lead text-left">
+                                <b>
+                                    <font style="font-size: 62px;"/>
+                                </b>
+                            </p>
+                            <h3>
+                                <font style="font-size: 48px;">
+                                    <b>choose your best event package</b>
+                                </font>
+                            </h3>
+                            <p class="lead text-left">
+                                <b class="o_default_snippet_text">Write one or two paragraphs describing your product or
+                                    services. To be successful your content
+                                </b>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">Write one or two
+                                    paragraphs describing your product or services.
+                                </span>
+                                <span style="font-weight: bolder;">&amp;nbsp;</span>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">To be successful your
+                                    content
+                                </span>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">Write one or two
+                                    paragraphs describing your product or services.
+                                </span>
+                                <span style="font-weight: bolder;">&amp;nbsp;</span>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">To be successful your
+                                    content
+                                </span>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">Write one or two
+                                    paragraphs describing your product or services.
+                                </span>
+                                <span style="font-weight: bolder;">&amp;nbsp;</span>
+                                <span style="font-weight: bolder;" class="o_default_snippet_text">To be successful your
+                                    content
+                                </span>
+                            </p>
+                        </div>
+                        <div class="bg-gamma col-6 pb32 pt32 col-lg-3 col-sm-6 col-12">
+                            <br/>
+                            <div style="text-align: center;">
+                                <span style="font-size: 62px;" class="text-delta">
+                                    <b>$45</b>
+                                </span>
+                                <span style="font-size: 62px;" class="text-epsilon">
+                                    <b>&amp;nbsp;</b>
+                                </span>
+                            </div>
+                            <span style="font-size: 0.875rem;">
+                                <div style="text-align: center;">
+                                    <span style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">FULL PACK</b>
+                                        <b>
+                                            <br/>
+                                        </b>
+                                        <b class="o_default_snippet_text">REGISTRATION
+                                            <br/>
+                                        </b>
+                                        <b>
+                                            <br/>
+                                        </b>
+                                        <b class="o_default_snippet_text">-------------</b>
+                                        <b>
+                                            <br/>
+                                        </b>
+                                        <div class="o_default_snippet_text" style="font-weight: bold;">Storage camera
+                                            <br/>
+                                        </div>
+                                        <div class="o_default_snippet_text" style="font-weight: bold;">Changing room
+                                            <br/>
+                                        </div>
+                                        <div class="o_default_snippet_text" style="font-weight: bold;">Medal
+                                            <br/>
+                                        </div>
+                                        <div style="font-weight: bold;">Event t-shirt
+                                            <br/>
+                                        </div>
+                                        <div style="">
+                                            <b>Insurance</b>
+                                            <br/>
+                                            <br/>
+                                            <a href="/" class="btn btn-beta flat btn-lg" data-original-title="" title=""
+                                               aria-describedby="tooltip903238" style="">
+                                                <span data-original-title="" title="" aria-describedby="tooltip456905"
+                                                      style="">
+                                                    <b>book Now</b>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="bg-gamma col-6 pb32 pt32 col-lg-3 col-sm-6 col-12 offset-lg-1 ">
+                            <br/>
+                            <div style="text-align: center;">
+                                <span style="font-size: 62px;" class="text-delta">
+                                    <b>$85</b>
+                                </span>
+                                <span style="font-size: 62px;" class="text-epsilon">
+                                    <b>&amp;nbsp;</b>
+                                </span>
+                            </div>
+                            <span style="font-size: 0.875rem;">
+                                <div style="text-align: center;">
+                                    <span style="font-size: 18px;">
+                                        <b class="o_default_snippet_text">FULL PACK</b>
+                                        <b>
+                                            <br/>
+                                        </b>
+                                        <b class="o_default_snippet_text">REGISTRATION
+                                            <br/>
+                                        </b>
+                                        <b>
+                                            <br/>
+                                        </b>
+                                        <b class="o_default_snippet_text">-------------</b>
+                                        <b>
+                                            <br/>
+                                        </b>
+                                        <b>
+                                            <div class="o_default_snippet_text">Storage camera
+                                                <br/>
+                                            </div>
+                                            <div class="o_default_snippet_text">Changing room
+                                                <br/>
+                                            </div>
+                                            <div class="o_default_snippet_text">Medal
+                                                <br/>
+                                            </div>
+                                            <div class="o_default_snippet_text">Event t-shirt
+                                                <br/>
+                                            </div>
+                                            <div>Insurance
+                                                <br/>
+                                                <br/>
+                                                <a href="/" class="btn btn-beta flat btn-lg" data-original-title=""
+                                                   title="" aria-describedby="tooltip903238">
+                                                    <b data-original-title="" title="" aria-describedby="tooltip728200">
+                                                        book Now
+                                                    </b>
+                                                </a>
+                                            </div>
+                                        </b>
+                                    </span>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Left Content start-->
+        <template id="biker_left_content" name="Biker Left Content">
+            <section class="s_call_to_action sni-block oe_img_bg oe_custom_bg pt64 pb64"
+                     style="background-image: url(&quot;/theme_biker_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container justify-content-left align-items-center d-flex pt64 pb64">
+                    <div class="row justify-content-left text-left">
+                        <div class="col-12 col-md-12 s_title col-lg-12">
+                            <h1 class="text-white">
+                                <font style="color: rgb(255, 255, 255); font-size: 62px;">
+                                    <b>RIDE THE MOST SCENIC</b>
+                                </font>
+                            </h1>
+                            <h1 class="text-white">
+                                <font style="color: rgb(255, 255, 255); font-size: 62px;">
+                                    <b>TRIALS</b>
+                                </font>
+                            </h1>
+                            <div class="s_btn pt16 pb16 text-left" data-name="Buttons">
+                                <a href="#" class="btn btn-beta flat btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip123297">
+                                    <b>View More</b>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Testimonial start-->
+        <template id="biker_testimonial" name="Biker Testimonial">
+            <section class="sni-block  bg-delta oe_custom_bg">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-5">
+                            <p class="pt32">
+                                <b class="o_default_snippet_text">
+                                    <font class="text-alpha" style="">TESTIMONIALS</font>
+                                </b>
+                            </p>
+                            <h2 style="font-size: 48px;">
+                                <b>what our participant's says !</b>
+                            </h2>
+                            <font class="text-epsilon" style="font-size: 24px;">
+                                <b>
+                                    <br/>
+                                </b>
+                            </font>
+                        </div>
+                        <div class="pt16 pb16 text-center col-lg-7 col-md-7">
+                            <div id="myCarousel1570169111444"
+                                 class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel1570169111444" data-slide-to="0"/>
+                                    <li data-target="#myCarousel1570169111444" data-slide-to="1" class="active"/>
+                                    <li data-target="#myCarousel1570169111444" data-slide-to="2"/>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide" style="">
+                                        <div class="container">
+                                            <div class="row content">
+                                                <blockquote class="carousel-content col-lg-6 bg-white offset-lg-3">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-secondary s_quotes_carousel_icon"/>
+                                                    <p class="o_default_snippet_text">Write a quote here from one of
+                                                        your customers. Quotes are a great way to build confidence in
+                                                        your products or services.
+                                                    </p>
+                                                    <footer>
+                                                        <img class="img"
+                                                             src="/theme_biker_ultimate_02/static/src/img/placeholder-user.png"
+                                                             alt=""/>
+                                                        <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                            <b class="o_default_snippet_text">MyCompany</b>
+                                                        </span>
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item pt80 pb80 oe_custom_bg active" data-name="Slide" style="">
+                                        <div class="container">
+                                            <div class="row content">
+                                                <blockquote class="carousel-content col-lg-6 bg-white offset-lg-3">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-secondary s_quotes_carousel_icon"/>
+                                                    <p class="o_default_snippet_text">Write a quote here from one of
+                                                        your customers. Quotes are a great way to build confidence in
+                                                        your products or services.
+                                                    </p>
+                                                    <footer>
+                                                        <img class="img"
+                                                             src="/theme_biker_ultimate_02/static/src/img/placeholder-user.png"
+                                                             alt=""/>
+                                                        <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                            <b class="o_default_snippet_text">MyCompany</b>
+                                                        </span>
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide" style="">
+                                        <div class="container">
+                                            <div class="row content">
+                                                <blockquote class="carousel-content col-lg-6 bg-white offset-lg-3">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-secondary s_quotes_carousel_icon"/>
+                                                    <p class="o_default_snippet_text">Write a quote here from one of
+                                                        your customers. Quotes are a great way to build confidence in
+                                                        your products or services.
+                                                    </p>
+                                                    <footer>
+                                                        <img class="img"
+                                                             src="/theme_biker_ultimate_02/static/src/img/placeholder-user.png"
+                                                             alt=""/>
+                                                        <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                            <b class="o_default_snippet_text">MyCompany</b>
+                                                        </span>
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-control-prev" data-target="#myCarousel1570169111444"
+                                     data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                                    <span class="sr-only o_default_snippet_text">Previous</span>
+                                </div>
+                                <div class="carousel-control-next" data-target="#myCarousel1570169111444"
+                                     data-slide="next" role="img" aria-label="Next" title="Next">
+                                    <span class="sr-only o_default_snippet_text">Next</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Gallery start-->
+        <template id="biker_gallery" name="Biker Gallery">
+            <section class="pb32 pt64">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                            <p class="s_title_default" style="text-align: left; ">
+                                <span style="">
+                                    <b class="o_default_snippet_text">PHOTOGALLERY</b>
+                                </span>
+                                <br/>
+                            </p>
+                            <h2 class="s_title_default" style="text-align: left; ">
+                                <font>
+                                    <span style="font-size: 48px;">
+                                        <b>our gallery</b>
+                                    </span>
+                                </font>
+                                <br/>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sni-block pb0 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-xl-6 col-sm-12 col-lg-5">
+                            <img class="img-fluid mt8 mb8 d-block mx-auto"
+                                 src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip297242"/>
+                        </div>
+                        <div class="col-12 co-xl-6 col-sm-12 col-lg-7 pt16">
+                            <div class="row">
+                                <div class="col-12 co-xl-6 col-sm-6 col-lg-4">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip697324"/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-sm-6 col-lg-4">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip416525"/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-sm-6 col-lg-4">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip416525"/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-sm-6 col-lg-4">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip141058"/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-sm-6 col-lg-4">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip269107"/>
+                                </div>
+                                <div class="col-12 co-xl-6 col-sm-6 col-lg-4">
+                                    <img class="img-fluid mt8 mb8"
+                                         src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip269107"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_call_to_action pt0 pb0 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 s_btn text-left pb16 pt16">
+                            <a href="/" class="btn btn-beta btn-lg flat" data-original-title="" title=""
+                               aria-describedby="tooltip194326">
+                                <b data-original-title="" title="" aria-describedby="tooltip594107"
+                                   class="o_default_snippet_text">View Gallery
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Image Block start-->
+        <template id="biker_img_block" name="Biker Image Block">
+            <section class="pt32 pb32 bg-delta oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_biker_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);background-position: 97.67% 69.91%;">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                            <h1 class="s_title_default" style="text-align: left; ">
+                                <br/>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block End-->
+
+        <!--Snippet FAQ's start-->
+        <template id="biker_faqs" name="Biker FAQ's">
+            <section class="s_faq_collapse pb32 pt64 bg-delta oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16">
+                            <h1>
+                                <font style="font-size: 48px;" class="text-beta">
+                                    <b>frequently asked questions</b>
+                                </font>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row s_col_no_bgcolor">
+                        <div class="pt16 pb16 col-lg-6">
+                            <div id="myCollapse" class="accordion" role="tablist">
+                                <div class="bg-epsilon card">
+                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false"
+                                       class="card-header collapsed" data-parent="#myCollapse"
+                                       data-target="#myCollapseTab1555399917015" data-original-title="" title=""
+                                       aria-describedby="tooltip200199">
+                                        <font style="font-size: 18px;" data-original-title="" title=""
+                                              aria-describedby="tooltip872693" class="text-gamma">Who can become biker
+                                            member
+                                        </font>
+                                        <font style="" data-original-title="" title="" aria-describedby="tooltip872693"
+                                              class="text-gamma o_default_snippet_text">?
+                                        </font>
+                                    </a>
+                                    <div class="collapse" role="tabpanel" id="myCollapseTab1555399917015" style="">
+                                        <div class="card-body">
+                                            <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore eu fugiat nulla pariatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-epsilon">
+                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false"
+                                       class="card-header collapsed" data-parent="#myCollapse"
+                                       data-target="#myCollapseTab1555399917016" data-original-title="" title=""
+                                       aria-describedby="tooltip584534">
+                                        <font class="text-gamma" style="font-size: 18px;" data-original-title=""
+                                              title="" aria-describedby="tooltip518900">How long is the race, are there
+                                            any stops?
+                                        </font>
+                                    </a>
+                                    <div class="collapse" role="tabpanel" id="myCollapseTab1555399917016" style="">
+                                        <div class="card-body">
+                                            <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore eu fugiat nulla pariatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-epsilon">
+                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="true"
+                                       class="card-header" data-parent="#myCollapse"
+                                       data-target="#myCollapseTab1555399917017" data-original-title="" title=""
+                                       aria-describedby="tooltip3111">
+                                        <font class="text-gamma" style="font-size: 18px;" data-original-title=""
+                                              title="" aria-describedby="tooltip697439">Which process to follow for
+                                            registration in bike race?
+                                        </font>
+                                    </a>
+                                    <div class="collapse show" role="tabpanel" id="myCollapseTab1555399917017" style="">
+                                        <div class="card-body">
+                                            <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore eu fugiat nulla pariatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt16 pb16 col-lg-6">
+                            <div id="myCollapse" class="accordion" role="tablist">
+                                <div class="card bg-epsilon">
+                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false"
+                                       class="card-header collapsed" data-parent="#myCollapse" data-original-title=""
+                                       title="" aria-describedby="tooltip200199"
+                                       data-target="#myCollapseTab1555400275900">&amp;nbsp;
+                                        <font style="font-size: 18px;" data-original-title="" title=""
+                                              aria-describedby="tooltip872693" class="text-gamma">Do you provide
+                                            proffesional photographer?
+                                        </font>
+                                    </a>
+                                    <div class="collapse" role="tabpanel" style="" id="myCollapseTab1555400275900">
+                                        <div class="card-body">
+                                            <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore eu fugiat nulla pariatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-epsilon">
+                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false"
+                                       class="card-header collapsed" data-parent="#myCollapse" data-original-title=""
+                                       title="" aria-describedby="tooltip584534"
+                                       data-target="#myCollapseTab1555400275970">
+                                        <font class="text-gamma" style="font-size: 18px;" data-original-title=""
+                                              title="" aria-describedby="tooltip403178">Which bikes allow for bike rids?
+                                        </font>
+                                    </a>
+                                    <div class="collapse" role="tabpanel" style="" id="myCollapseTab1555400275970">
+                                        <div class="card-body">
+                                            <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore eu fugiat nulla pariatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-epsilon">
+                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false"
+                                       class="card-header collapsed" data-parent="#myCollapse" data-original-title=""
+                                       title="" aria-describedby="tooltip3111"
+                                       data-target="#myCollapseTab1555400276078">
+                                        <font color="#eeeee5">
+                                            <span style="font-size: 18px;" data-original-title="" title=""
+                                                  aria-describedby="tooltip909184">Upcoming events related&amp;nbsp;
+                                                FAQ'S
+                                            </span>
+                                        </font>
+                                    </a>
+                                    <div class="collapse" role="tabpanel" style="" id="myCollapseTab1555400276078">
+                                        <div class="card-body">
+                                            <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore eu fugiat nulla pariatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_call_to_action pt32 bg-delta oe_custom_bg pb64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 s_btn text-left pb16 pt16">
+                            <a href="/" class="btn btn-beta btn-lg flat" data-original-title="" title=""
+                               aria-describedby="tooltip194326">
+                                <b data-original-title="" title="" aria-describedby="tooltip594107">View more</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet FAQ's End-->
+
+        <!--Snippet Team start-->
+        <template id="biker_team" name="Biker Team">
+            <section class="pt64 pb32">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                            <p class="s_title_default" style="text-align: left; ">
+                                <span style="color: rgb(128, 118, 102); font-family: Coda, sans-serif; font-weight: bolder;"
+                                      class="o_default_snippet_text">Team Member
+                                </span>
+                                <br/>
+                            </p>
+                            <h1 class="s_title_default" style="text-align: left; ">
+                                <b>
+                                    <font style="font-size: 48px;">our special team</font>
+                                </b>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_three_columns pt32 pb64 oe_custom_bg" id="team_6" style="">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-lg-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip33658"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font class="text-alpha" style="font-size: 14px;">
+                                            <b>ALEXA SMITH</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Adapt these
+                                        three columns to fit you design need.
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 2 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip888441"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="color: rgb(33, 37, 41); text-align: center;">
+                                        <font class="text-alpha" style="font-size: 14px;">
+                                            <b>JHON DOE</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Adapt these
+                                        three columns to fit you design need.
+                                        <br/>
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 3 for three columns" data-original-title="" title=""
+                                     aria-describedby="tooltip239182"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center;">
+                                        <font color="#807666" style="font-size: 14px;">
+                                            <b>THOMAS CAUTHAN</b>
+                                        </font>
+                                    </h3>
+                                    <p class="card-text o_default_snippet_text" style="text-align: center; ">Adapt these
+                                        three columns to fit you design need.
+                                        <br/>
+                                    </p>
+                                    <p class="text-center mt8 mb8 ">
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-facebook fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-twitter fa-2x"/>
+                                        </a>
+                                        <a href="" class="m-2">
+                                            <i class="fa fa-linkedin fa-2x"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Contact start-->
+        <template id="biker_contact" name="Biker Contact">
+            <section class="bg-400 p-5 contact_us_3 oe_img_bg oe_custom_bg pt64 pb64"
+                     style="background-image: url(&quot;/theme_biker_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title mb-5" data-name="Title">
+                            <h1 style="text-align: left;">
+                                <span style="font-size: 62px;" class="text-alpha">
+                                    <b>GET IN TOUCH</b>
+                                </span>
+                            </h1>
+                        </div>
+                        <div class="s_text pt16 pb16 col-lg-7" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-4 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="contact_name" placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-md-4">
+                                        <input type="text" class="form-control o_website_form_input" name="phone"
+                                               placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-4 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="email_from" required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="partner_name" required="" placeholder="Your Company" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-md-6 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="name" required="" placeholder="Subject" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-12 o_has_error">
+                                        <textarea class="form-control o_website_form_input"
+                                                  name="description" required="" placeholder="Your Question" rows="5"/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-left" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="o_website_form_send btn btn-primary flat"
+                                               data-original-title="" title="" aria-describedby="tooltip154729">
+                                                <font style="font-size: 14px;">
+                                                    <b>SEND</b>
+                                                </font>
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Brand Logo start-->
+        <template id="biker_brand_logo" name="Biker Brand Logo">
+            <section class="sni-block pt64 pb64 bg-delta oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-xl-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid mt8 mb8" src="/theme_biker_ultimate_02/static/src/img/brand-logo.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip317317"/>
+                        </div>
+                        <div class="col-12 co-xl-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid mt8 mb8" src="/theme_biker_ultimate_02/static/src/img/brand-logo.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip135228"/>
+                        </div>
+                        <div class="col-12 co-xl-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid mt8 mb8" src="/theme_biker_ultimate_02/static/src/img/brand-logo.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip708394"/>
+                        </div>
+                        <div class="col-12 co-xl-3 col-lg-3 col-sm-6">
+                            <img class="img-fluid mt8 mb8" src="/theme_biker_ultimate_02/static/src/img/brand-logo.png"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip46979"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet News start-->
+        <template id="biker_news" name="Biker News">
+            <section class="pb0 pt64">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                            <p class="s_title_default" style="text-align: left; ">
+                                <font>
+                                    <span style="font-size: 18px;">
+                                        <b>OUR LATEST BLOG</b>
+                                    </span>
+                                </font>
+                            </p>
+                            <h1 class="s_title_default" style="text-align: left; ">
+                                <font>
+                                    <span style="font-size: 62px;" class="text-beta">
+                                        <b>recent news</b>
+                                    </span>
+                                </font>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb56" id="news_one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text">Williamson</a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text">2 Comments</a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip914193">
+                                            Take a membership of bike racing
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100" data-original-title=""
+                                         title="" aria-describedby="tooltip478212"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text">Williamson</a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text">2 Comments</a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <font class="text-alpha" style="">Go for a mountain biking</font>
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip894695"/>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_biker_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user"/>
+                                            <a href="#" class="o_default_snippet_text">Williamson</a>
+                                        </span>
+                                        <span>
+                                            <i class="fa fa-comments"/>
+                                            <a href="#" class="o_default_snippet_text">2 Comments</a>
+                                        </span>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip251170">
+                                            Participate in bike racing
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Footer start-->
+        <template id="biker_footer" name="Biker Footer">
+            <section id="footer" class="oe_structure oe_structure_solo oe_img_bg oe_custom_bg" t-ignore="true"
+                     t-if="not no_footer"
+                     style="border-top:none; background-image: url(&quot;/theme_biker_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);">
+                <div id="footer" class="oe_structure oe_structure_solo">
+                    <div class="oe_structure oe_empty">
+                        <div class="pt64 pb32 oe_img_bg oe_custom_bg" id="footer_3" style="">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                        <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                             src="/logo.png"
+                                             alt="Logo of YourCompany" title="YourCompany"/>
+                                        <div class="icon_bg mt64">
+                                            <a t-att-href="res_company.social_facebook">
+                                                <i class="bg-beta fa fa-facebook mx-1 rounded" data-original-title=""
+                                                   title="" aria-describedby="tooltip495973" style=""/>
+                                            </a>
+                                            <a t-att-href="res_company.social_twitter">
+                                                <i class="bg-beta fa fa-twitter mx-1 rounded" data-original-title=""
+                                                   title="" aria-describedby="tooltip163440" style=""/>
+                                            </a>
+                                            <a t-att-href="res_company.social_instagram">
+                                                <i class="bg-beta fa fa-instagram mx-1 rounded" data-original-title=""
+                                                   title="" aria-describedby="tooltip777745" style=""/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="bg-beta fa fa-google-plus mx-1 rounded" data-original-title=""
+                                                   title="" aria-describedby="tooltip566644" style=""/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                        <h5>
+                                            <b class="o_default_snippet_text">QUICK LINKS</b>
+                                        </h5>
+                                        <ul class="list-unstyled mt24">
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip809680">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Home</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip390693">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">About Us</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip390110">
+                                                    <b data-original-title="" title=""
+                                                       aria-describedby="tooltip75371"
+                                                       class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">&amp;nbsp;Course Maps&amp;nbsp;</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip390110">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Results</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">FAQs</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Registration</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                        <h5>
+                                            <b class="o_default_snippet_text">SOCIAL MEDIA</b>
+                                        </h5>
+                                        <ul class="list-unstyled mt24">
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip809680">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Facebook</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip390693">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Linkedin</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip390110">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Twitter</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip390110">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Youtube</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li class="mb8">
+                                                <a href="#" target="_blank" data-original-title="" title=""
+                                                   aria-describedby="tooltip241339">
+                                                    <b class="o_default_snippet_text">
+                                                        <font style="color: rgb(0, 0, 0);">Pinterest</font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                        <h5>
+                                            <b class="o_default_snippet_text">OPENING HOURS</b>
+                                        </h5>
+                                        <ul class="list-unstyled mt24">
+                                            <li class="mt8 mb8">
+                                                <b>
+                                                    <span class="o_default_snippet_text" style="">
+                                                        <font style="color: rgb(0, 0, 0);">From Monday To Friday
+                                                        </font>
+                                                    </span>
+                                                    <font style="color: rgb(0, 0, 0);">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</font>
+                                                </b>
+                                            </li>
+                                            <li/>
+                                            <li class="mt8 mb8">
+                                                <span style="font-weight: bolder;" class="o_default_snippet_text">
+                                                    <font style="color: rgb(0, 0, 0);">8 a.m To 8 p.m</font>
+                                                </span>
+                                            </li>
+                                            <li class="mt8 mb8">
+                                                <span style="font-weight: bolder;" class="o_default_snippet_text">
+                                                    <font style="color: rgb(0, 0, 0);">From Saturday To Sunday
+                                                    </font>
+                                                </span>
+                                            </li>
+                                            <li class="mt8 mb8">
+                                                <span style="font-weight: bolder;" class="o_default_snippet_text">
+                                                    <font style="color: rgb(0, 0, 0);">10 a.m To 5 p.m</font>
+                                                </span>
+                                                <a href="#" target="_blank">
+                                                    <b data-original-title="" title=""
+                                                       aria-describedby="tooltip172189">
+                                                        <font style="color: rgb(0, 0, 0);">&amp;nbsp;&amp;nbsp;
+                                                        </font>
+                                                    </b>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Biker Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_biker_ultimate_02.biker_mid_header"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_banner"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_img_hover"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_about_us"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_left_content"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_testimonial"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_gallery"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_img_block"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_faqs"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_team"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_contact"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_brand_logo"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_news"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_biker_ultimate_02.biker_footer"
+                           t-thumbnail="/theme_biker_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

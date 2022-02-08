@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="paperformat_A6" model="report.paperformat">
+            <field name="name">A5/2</field>
+            <field name="default" eval="True" />
+            <field name="format">custom</field>
+            <field name="page_height">100</field>
+            <field name="page_width">100</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">2</field>
+            <field name="margin_bottom">2</field>
+            <field name="margin_left">2</field>
+            <field name="margin_right">2</field>
+            <field name="header_line" eval="False" />
+            <field name="header_spacing">0</field>
+            <field name="dpi">100</field>
+        </record>
+    </data>
+
+    <template id="report_sale_giftcard" name="Giftcard">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page">
+                        <div class="row">
+                        <br/>
+                        <br/>
+                            <center>
+                              <div class="col-12">
+                                <img t-if="o.company_id.logo" style="max-width:50%" t-att-src="image_data_uri(o.company_id.logo)" alt="Logo"/>
+                              </div>
+                          </center>
+                        </div>
+                            <br/>
+                            <br/>
+                        <br/>
+                        <br/>
+                        <div class="row">
+                            <div class="col-12">
+                                <p t-field="o.gift_message" t-att-class="'font-italic text-right' if o.is_arabic() else 'font-italic text-justify'"/>
+
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <report
+        id="action_report_sale_giftcard"
+        model="sale.order"
+        report_type="qweb-pdf"
+        string="Gift Card"
+        name="website_sale_desired_delivery_date.report_sale_giftcard"
+        file="website_sale_desired_delivery_date.report_sale_giftcard" 
+        paperformat="paperformat_A6"
+        />
+
+    <template id="report_picking_giftcard" name="Giftcard">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page">
+                        <br/>
+                        <br/>
+                        <div class="row">
+                          <div class="col-12">
+                            <center>
+                                <img t-if="o.company_id.logo" style="max-width:50%" t-att-src="image_data_uri(o.company_id.logo)" alt="Logo"/>
+                            </center>
+                          </div>
+                        </div>
+                            <br/>
+                            <br/>
+                        <br/>
+                        <br/>
+                        <div class="row">
+                            <div class="col-12">
+                                <p t-field="o.gift_message" t-att-class="'font-italic text-right' if o.is_arabic() else 'font-italic text-justify'"/>
+
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <report
+        id="action_report_picking_giftcard"
+        model="stock.picking"
+        report_type="qweb-pdf"
+        string="Gift Card"
+        name="website_sale_desired_delivery_date.report_picking_giftcard"
+        file="website_sale_desired_delivery_date.report_picking_giftcard" 
+        paperformat="paperformat_A6"
+        />
+
+</odoo>

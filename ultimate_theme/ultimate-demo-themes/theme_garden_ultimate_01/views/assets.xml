@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="_assets_primary_variables_theme_garden_ultimate_01" inherit_id="website._assets_primary_variables" priority="1">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/theme_garden_ultimate_01/static/src/scss/primary_variables.scss"/>
+        </xpath>
+    </template>
+</odoo>

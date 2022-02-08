@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+<template id="demo_frontend_style" name="Theme Shop style"
+              inherit_id="website.assets_frontend" active="True">
+        <xpath expr="." position="inside">
+            <link href="/business_snippet_blocks_crm/static/src/scss/crm.scss"
+                  type="text/scss" rel="stylesheet"/>
+            <link href="/business_snippet_blocks_crm/static/src/scss/contact_us_3.scss"
+                  type="text/scss" rel="stylesheet"/>
+            <link href="/business_snippet_blocks_crm/static/src/scss/contact_us_4.scss"
+                  type="text/scss" rel="stylesheet"/>
+            <link href="/business_snippet_blocks_crm/static/src/scss/contact_us_14.scss"
+                  type="text/scss" rel="stylesheet"/>
+            <script type="text/javascript"
+                    src="/business_snippet_blocks_crm/static/src/js/crm.js"/>
+        </xpath>
+</template>
+    <template id="snippet_id" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="inside">
+            <div class="o_panel_body">
+                <!--Contact Us Snippets-->
+                <t t-snippet="business_snippet_blocks_crm.contact_us_1"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-1.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_2"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-2.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_3"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-3.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_4"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-4.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_5"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-5.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_6"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-6.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_7"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-7.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_8"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-8.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_9"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-9.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_10"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-10.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_11"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-11.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_12"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-12.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_13"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-13.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_14"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-14.png"/>
+                <t t-snippet="business_snippet_blocks_crm.contact_us_15"
+                   t-thumbnail="/business_snippet_blocks_crm/static/src/images/contact-us-15.png"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

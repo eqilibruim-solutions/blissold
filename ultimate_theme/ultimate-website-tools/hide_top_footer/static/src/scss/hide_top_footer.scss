@@ -1,0 +1,48 @@
+// #wrapwrap.o_header_hide{
+//     .o_affix_enabled,.o_header_affix{
+//             display:none !important;
+//     }
+//
+//     > body:not(.o_connected_user){
+//         > header{
+//            // display:none !important;
+//         }
+//     }
+//
+// }
+//
+// body.o_connected_user{
+//     #wrapwrap.o_header_hide{
+//        > header{
+//             display:block !important;
+//        }
+//    }
+// }
+
+#wrapwrap.o_header_hide{
+    .o_affix_enabled,.o_header_affix{
+            display:none !important;
+    }
+
+    > body:not(.o_connected_user){
+        > header{
+           // display:none !important;
+        }
+    }
+
+}
+
+#wrapwrap.o_footer_hide{
+    .o_footer{
+            display:none !important;
+    }
+
+}
+
+// body.o_connected_user{
+//     #wrapwrap.o_header_hide{
+//        > header{
+//             //display:block !important;
+//        }
+//    }
+// }

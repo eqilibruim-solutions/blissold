@@ -1,0 +1,1395 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="horse_riding_banner" name="Horse Riding Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <b>Be a Skilled Horse Rider</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white" style="text-align: center;">
+                                <font style="font-size: 16px;">Write one or two paragraphs describing
+                                    your product, services or a specific feature.
+                                </font>
+                                <br/>
+                                <font style="font-size: 16px;">To be successful your content needs to be
+                                    useful to your readers.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-lg btn-primary flat mb8 mt8"
+                               data-original-title="" title="" aria-describedby="tooltip459998">
+                                <font style="font-size: 14px;">
+                                    <b>Buy Now!</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us Start-->
+        <template id="horse_riding_about_us" name="Horse Riding About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" style=" height: 583px; "
+                                 data-original-title="" title="" aria-describedby="tooltip780790"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <p>
+                                <font style="font-size: 15px;" class="text-alpha">
+                                    <b class="o_default_snippet_text">ABOUT US</b>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b class="o_default_snippet_text">We are fully approved as a professional riding
+                                        school
+                                    </b>
+                                </font>
+                            </h2>
+                            <p class="pt8 pb8 o_default_snippet_text">
+                                <font style="font-size: 15px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua.
+                                </font>
+                            </p>
+                            <div class="row">
+                                <ul class="list-unstyled px-1">
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip764066" style=""/>
+                                        <font class="text-beta" style="font-size: 15px;">
+                                            <b>24hr resident veterinary care</b>
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2 text-alpha" style="" data-original-title=""
+                                           title="" aria-describedby="tooltip280580"/>
+                                        <font class="text-beta" style="font-size: 15px;">
+                                            <b>Full time and stud season boarders</b>
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip987307" style=""/>
+                                        <font class="text-beta" style="font-size: 15px;">
+                                            <b>Complete fostering service</b>
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip987307" style=""/>
+                                        <font class="text-beta" style="font-size: 15px;">
+                                            <b>Quarantine and isolation facilities</b>
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip987307" style=""/>
+                                        <font class="text-beta" style="font-size: 15px;">
+                                            <b>Year round night staff</b>
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip987307" style=""/>
+                                        <font class="text-beta" style="font-size: 15px;">
+                                            <b>World-class farriery team</b>
+                                        </font>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <i class="fa fa-check-circle-o px-2 text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip987307" style=""/>
+                                        <font class="text-beta" style="font-size: 15px;">
+                                            <b>Own fleet of equine transport</b>
+                                        </font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="s_btn pt16 pb16" data-name="Buttons">
+                                <a href="#" class="btn btn-primary flat" data-original-title="" title=""
+                                   aria-describedby="tooltip508051">
+                                    <font style="font-size: 14px;">
+                                        <b class="o_default_snippet_text">Read more</b>
+                                    </font>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Courses Start-->
+        <template id="horse_riding_courses" name="Horse Riding Courses">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48 bg-100">
+                            <p>
+                                <font style="font-size: 15px;" class="text-alpha">
+                                    <b>OUR COURSES</b>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <span style="font-weight: bolder;">Our Best Programs</span>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;">tempor incididunt ut labore et dolore
+                                    magna aliqua.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body bg-white">
+                                    <h3>
+                                        <font style="font-size: 23px;" class="text-beta">
+                                            <b>Children Lessons</b>
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        <font style="font-size: 15px;">Lorem Ipsum is simply dummy text
+                                            of the printing and typesetting industry. Lorem Ipsum has
+                                            been the industry
+                                        </font>
+                                    </p>
+                                    <a href="#" target="_blank">
+                                        <font class="text-beta" style="">
+                                            <b data-original-title="" title=""
+                                               aria-describedby="tooltip859001">EXPLORE
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body bg-white">
+                                    <h3>
+                                        <font class="text-beta" style="font-size: 23px;">
+                                            <b>Advanced Riding Lessons</b>
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        <span style="font-size: 15px;">Lorem Ipsum is simply dummy text
+                                            of the printing and typesetting industry. Lorem Ipsum has
+                                            been the industry
+                                        </span>
+                                        <br/>
+                                    </p>
+                                    <a href="#" target="_blank">
+                                        <font class="text-beta" style="">
+                                            <b>EXPLORE</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body bg-white">
+                                    <h3>
+                                        <font class="text-beta" style="font-size: 23px;">
+                                            <b>Vaulting Lessons</b>
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        <span style="font-size: 15px;">Lorem Ipsum is simply dummy text
+                                            of the printing and typesetting industry. Lorem Ipsum has
+                                            been the industry
+                                        </span>
+                                        <br/>
+                                    </p>
+                                    <a href="#" target="_blank" data-original-title="" title=""
+                                       aria-describedby="tooltip256108">
+                                        <font class="text-beta" style="">
+                                            <b data-original-title="" title=""
+                                               aria-describedby="tooltip898939">EXPLORE
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Courses End-->
+
+        <!--Snippet Process Start-->
+        <template id="horse_riding_process" name="Horse Riding Process">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg" id="process_six"
+                     style="background-image: url(&quot;/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <p>
+                                <font style="font-size: 15px;" class="text-alpha">
+                                    <b>OUR PROCESS</b>
+                                </font>
+                            </p>
+                            <h2>
+                                <font class="text-delta" style="font-size: 36px;">
+                                    <b>How To Join Our<br/>Riding School
+                                    </b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;" class="text-delta">Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipiscing elit, sed do eiusmod
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;" class="text-delta">tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua.
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <p class="text-300 number_trasperant display-1 o_default_snippet_text">
+                                <font class="text-alpha" style="">1</font>
+                            </p>
+                            <h3 class="content">
+                                <font class="text-delta" style="font-size: 22px;">
+                                    <b>Select Your Course</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">
+                                <font class="text-delta" style="">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting industry been
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center   mb16">
+                            <p class="text-300 number_trasperant display-1 o_default_snippet_text">
+                                <font class="text-alpha" style="">2</font>
+                            </p>
+                            <h3 class="content">
+                                <font class="text-delta" style="font-size: 22px;">
+                                    <b>Contact Our Trainers</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">
+                                <font class="text-delta" style="">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting industry been&amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center   mb16">
+                            <p class="text-300 number_trasperant display-1 o_default_snippet_text">
+                                <font class="text-alpha" style="">3</font>
+                            </p>
+                            <h3 class="content">
+                                <font class="text-delta" style="font-size: 22px;">
+                                    <b>Choose Your Time</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font class="text-delta" style="">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting industry been
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Process End-->
+
+        <!--Snippet Team Start-->
+        <template id="horse_riding_team" name="Horse Riding Team">
+            <section class="pt64 pb64 bg-100" id="team_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <p>
+                                <font style="font-size: 15px;" class="text-alpha">
+                                    <b>OUR TEAM</b>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b>Meet Our Trainers</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;">tempor incididunt ut labore et dolore
+                                    magna aliqua.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24 text-center">
+                            <div class="img-container">
+                                <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     alt="" class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip832548"/>
+                                <div class="overlay bg-black-50 text-center px-3 pt24 pb24">
+                                    <div class="img-content">
+                                        <h3 class="o_default_snippet_text">
+                                            <font class="text-delta" style="font-size: 22px;">
+                                                <b>Maria Anderson
+
+                                                </b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font class="text-alpha" style="">
+                                                <b>TRAINER</b>
+                                            </font>
+                                        </p>
+                                        <a href="#">
+                                            <i class="fa fa-2x fa-facebook pr-2 text-delta" style=""
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip107884"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram pr-2 text-delta fa-2x"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip256963" style=""/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-twitter pr-2 text-delta fa-2x"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip750095" style=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="img-container">
+                                <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     alt="" class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip718714"/>
+                                <div class="overlay bg-black-50 text-center px-3 pt24 pb24">
+                                    <div class="img-content">
+                                        <h3 class="o_default_snippet_text">
+                                            <font class="text-delta" style="font-size: 22px;">
+                                                <b>Jacobe Martin</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font class="text-alpha" style="">
+                                                <b>TRAINER</b>
+                                            </font>
+                                        </p>
+                                        <a href="#">
+                                            <i class="fa fa-facebook pr-2 text-delta fa-2x"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip120015" style=""/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram pr-2 text-delta fa-2x"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip501680" style=""/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-twitter pr-2 text-delta fa-2x"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip47597" style=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="img-container">
+                                <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-team-image.jpg"
+                                     alt="" class="img-fluid" data-original-title="" title=""
+                                     aria-describedby="tooltip694714"/>
+                                <div class="overlay bg-black-50 text-center px-3 pt24 pb24">
+                                    <div class="img-content">
+                                        <h3 class="o_default_snippet_text">
+                                            <font class="text-delta" style="font-size: 22px;">
+                                                <b>Alica Smith</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font class="text-alpha" style="">
+                                                <b>TRAINER</b>
+                                            </font>
+                                        </p>
+                                        <a href="#">
+                                            <i class="fa fa-2x fa-facebook pr-2 text-delta"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip766672" style=""/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-2x fa-instagram pr-2 text-delta"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip61956" style=""/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-2x fa-twitter pr-2 text-delta"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip216933" style=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Event Start-->
+        <template id="horse_riding_event" name="Horse Riding Event">
+            <section class="pt64 pb64" id="news_two">
+                <div class="container container-full">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb64">
+                            <p>
+                                <font color="#e49320">
+                                    <span style="font-size: 15px;">
+                                        <b>EVENT CALENDAR</b>
+                                    </span>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b>Upcoming Events</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;">tempor incididunt ut labore et dolore
+                                    magna aliqua.
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip971971"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" data-original-title="" title=""
+                                           aria-describedby="tooltip493202">
+                                            <font class="text-beta" style="font-size: 22px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip709951">Horse Blanketing
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                        assumenda culpa cumque dicta sint soluta
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2 o_default_snippet_text">
+                                            <b>
+                                                <i class="fa fa-calendar text-alpha" style=""/>
+                                                <font class="text-alpha" style="">
+                                                    June 7, 2016
+                                                </font>
+                                            </b>
+                                        </li>
+                                        <li>
+                                            <i class="text-alpha fa fa-map-marker"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip132464" style=""/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <b>Bullingerhof, Zürich</b>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" target="_blank">
+                                        <font class="text-beta" style="">
+                                            <b data-original-title="" title=""
+                                               aria-describedby="tooltip859001">READ MORE
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip971971"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#">
+                                            <font class="text-beta" style="font-size: 22px;"
+                                                  data-original-title="" title=""
+                                                  aria-describedby="tooltip260395">Equine Challenge
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Ad assumenda culpa cumque dicta
+                                        sint soluta&amp;nbsp;
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip220943" style=""/>
+                                            <font class="text-alpha" style="">
+                                                <b>
+                                                    June 7, 2016
+                                                </b>
+                                            </font>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-map-marker text-alpha"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip272953" style=""/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <b>Bullingerhof, Zürich</b>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" target="_blank">
+                                        <font class="text-beta" style="">
+                                            <b data-original-title="" title=""
+                                               aria-describedby="tooltip859001">READ MORE
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font style="font-size: 22px;" class="text-beta">Simple
+                                                Dressage
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Ad assumenda culpa cumque dicta
+                                        sint soluta&amp;nbsp;
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar text-alpha" data-original-title=""
+                                               title="" aria-describedby="tooltip546730" style=""/>
+                                            <font class="text-alpha" style="">
+                                                <b>
+                                                    June 7, 2016
+                                                </b>
+                                                &amp;nbsp;
+                                            </font>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-map-marker text-alpha"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip133112" style=""/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <b>Bullingerhof, Zürich</b>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" target="_blank">
+                                        <font class="text-beta" style="">
+                                            <b data-original-title="" title=""
+                                               aria-describedby="tooltip859001">READ MORE
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 22px;">Ascot
+                                                Racecourse
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Ad assumenda culpa cumque dicta
+                                        sint soluta&amp;nbsp;
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2 o_default_snippet_text">
+                                            <b>
+                                                <i class="fa fa-calendar text-alpha" style=""/>
+                                                <font class="text-alpha" style="">
+                                                    June 7, 2016
+                                                    &amp;nbsp;
+                                                </font>
+                                            </b>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-map-marker text-alpha"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip22400" style=""/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <b>Bullingerhof, Zürich</b>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" target="_blank">
+                                        <font class="text-beta" style="">
+                                            <b data-original-title="" title=""
+                                               aria-describedby="tooltip859001">READ MORE
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Event End-->
+
+        <!--Snippet Pricing Start-->
+        <template id="horse_riding_pricing" name="Horse Riding Pricing">
+            <section id="pricing" class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 col-md-12 text-center pb48">
+                            <div class="price-heading clearfix">
+                                <p>
+                                    <font color="#e49320">
+                                        <span style="font-size: 15px;">
+                                            <b>RIDING LESSONS</b>
+                                        </span>
+                                    </font>
+                                </p>
+                                <h2>
+                                    <b>
+                                        <font style="font-size: 36px;">Choose Your Package</font>
+                                    </b>
+                                </h2>
+                                <p>
+                                    <font style="font-size: 15px;">Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipiscing elit, sed do eiusmod
+                                    </font>
+                                    <br/>
+                                    <font style="font-size: 15px;">tempor incididunt ut labore et dolore
+                                        magna aliqua.
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-left align-items-center">
+                        <div class="col-12 col-md-6 col-lg-3 mb8">
+                            <div class="price_card pb16 bg-white">
+                                <div class="header">
+                                    <span class="price">
+                                        <font class="text-beta" style="font-size: 48px;">$40</font>
+                                    </span>
+                                    <span class="name">
+                                        <font class="text-beta" style="font-size: 18px;">BEGINNERS
+                                        </font>
+                                    </span>
+                                </div>
+                                <hr/>
+                                <ul class="features mb16">
+                                    <li>
+                                        <font class="text-gamma" style="">Theme natoque penatibus</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma" style="">Etiam sit amet orci eget
+                                        </font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma" style="">Nulla consequat massa ut
+                                        </font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma" style="">Lorem ipsum dolor sit
+
+                                        </font>
+                                    </li>
+                                </ul>
+                                <a href="#" class="d-table mx-auto btn btn-alpha flat"
+                                   data-original-title="" title="" aria-describedby="tooltip413035">
+                                    <font style="font-size: 14px;">
+                                        <b>&amp;nbsp;VIEW DETAILS&amp;nbsp;</b>
+                                    </font>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb8">
+                            <div class="price_card pb16">
+                                <div class="header">
+                                    <span class="price">
+                                        <font class="text-beta" style="font-size: 48px;">$50</font>
+                                    </span>
+                                    <span class="name">
+                                        <font class="text-beta" style="font-size: 18px;">ADVANCED</font>
+                                    </span>
+                                </div>
+                                <hr/>
+                                <ul class="features mb16">
+                                    <li>
+                                        <font class="text-gamma">Theme natoque penatibus</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Etiam sit amet orci eget</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Nulla consequat massa ut</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Lorem ipsum dolor sit</font>
+                                    </li>
+                                </ul>
+                                <a href="#" class="d-table mx-auto btn btn-alpha flat"
+                                   data-original-title="" title="" aria-describedby="tooltip413035">
+                                    <font style="font-size: 12px;">
+                                        <b data-original-title="" title=""
+                                           aria-describedby="tooltip91607">&amp;nbsp;
+                                        </b>
+                                    </font>
+                                    <font style="font-size: 14px;">
+                                        <b data-original-title="" title=""
+                                           aria-describedby="tooltip91607">VIEW DETAILS
+                                        </b>
+                                    </font>
+                                    <font style="font-size: 12px;">
+                                        <b data-original-title="" title=""
+                                           aria-describedby="tooltip91607">&amp;nbsp;
+                                        </b>
+                                    </font>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb8">
+                            <div class="price_card pb16">
+                                <div class="header">
+                                    <span class="price">
+                                        <font class="text-beta" style="font-size: 48px;">$70</font>
+                                    </span>
+                                    <span class="name">
+                                        <font color="#212529">
+                                            <span style="font-size: 18px;">GROUP</span>
+                                        </font>
+                                    </span>
+                                </div>
+                                <hr/>
+                                <ul class="features mb16">
+                                    <li>
+                                        <font class="text-gamma">Theme natoque penatibus</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Etiam sit amet orci eget</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Nulla consequat massa ut</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Lorem ipsum dolor sit</font>
+                                    </li>
+                                </ul>
+                                <a href="#" class="d-table mx-auto btn btn-alpha flat"
+                                   data-original-title="" title="" aria-describedby="tooltip413035">
+                                    <font style="font-size: 14px;">
+                                        <b>&amp;nbsp;VIEW DETAILS&amp;nbsp;</b>
+                                    </font>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb8">
+                            <div class="price_card pb16">
+                                <div class="header">
+                                    <span class="price">
+                                        <font class="text-beta" style="font-size: 48px;">$85</font>
+                                    </span>
+                                    <span class="name">
+                                        <font color="#212529">
+                                            <span style="font-size: 18px;">PERSONAL</span>
+                                        </font>
+                                    </span>
+                                </div>
+                                <hr/>
+                                <ul class="features mb16">
+                                    <li>
+                                        <font class="text-gamma">Theme natoque penatibus</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Etiam sit amet orci eget</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Nulla consequat massa ut</font>
+                                    </li>
+                                    <li>
+                                        <font class="text-gamma">Lorem ipsum dolor sit</font>
+                                    </li>
+                                </ul>
+                                <a href="#" class="d-table mx-auto btn btn-alpha flat"
+                                   data-original-title="" title="" aria-describedby="tooltip413035">
+                                    <font style="font-size: 14px;">
+                                        <b>&amp;nbsp;VIEW DETAILS&amp;nbsp;</b>
+                                    </font>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Pricing End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="horse_riding_gallery" name="Horse Riding Gallery">
+            <section class="sni-block pt64 pb64" style="">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <p>
+                                <font color="#e49320">
+                                    <span style="font-size: 15px;">
+                                        <b>OUR GALLERY</b>
+                                    </span>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b>From The Gallery</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;">tempor incididunt ut labore et dolore
+                                    magna aliqua.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12 pad0">
+                            <img class="img-fluid d-block mx-auto"
+                                 src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-750x750.png"
+                                 data-original-title="" title="" aria-describedby="tooltip644056"
+                                 style=""/>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6 pad0">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-750x750.png"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip701074"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6 pad0">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-750x750.png"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip204514"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6 pad0">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-750x750.png"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip254691"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6 pad0">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-750x750.png"
+                                         data-original-title="" title=""
+                                         aria-describedby="tooltip656294"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet News Start-->
+        <template id="horse_riding_news" name="Horse Riding News">
+            <section class="pt64 pb64" id="news_one">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <p>
+                                <font color="#e49320">
+                                    <span style="font-size: 15px;">
+                                        <b class="o_default_snippet_text">OUR BLOG</b>
+                                    </span>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b class="o_default_snippet_text">Recent News &amp;amp; Posts</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipiscing elit, sed do eiusmod
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;" class="o_default_snippet_text">tempor incididunt ut
+                                    labore et dolore
+                                    magna aliqua.
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user text-alpha" data-original-title="" title=""
+                                               aria-describedby="tooltip649084" style=""/>
+                                            <a href="#" class="o_default_snippet_text">
+                                                <b class="o_default_snippet_text">Williamson</b>
+                                            </a>
+                                        </span>
+                                        <i class="fa fa-comments text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip205611" style=""/>
+                                        <b>
+                                            <a href="#" data-original-title="" title="" aria-describedby="tooltip279927"
+                                               class="o_default_snippet_text">2 Comments
+                                            </a>
+                                        </b>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip574627">
+                                            <font style="font-size: 22px;" class="text-beta o_default_snippet_text"
+                                                  data-original-title="" title="" aria-describedby="tooltip864624">
+                                                Riding school begins
+                                                our riding classes and training
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                        assumenda culpa cumque
+                                        dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                        soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user text-alpha" data-original-title="" title=""
+                                               aria-describedby="tooltip316686" style=""/>
+                                            <b>
+                                                <a href="#" class="o_default_snippet_text">Williamson
+                                                </a>
+                                            </b>
+                                        </span>
+                                        <i class="fa fa-comments text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip58256" style=""/>
+                                        <a href="#" class="o_default_snippet_text">
+                                            <b class="o_default_snippet_text">2 Comments</b>
+                                        </a>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-beta o_default_snippet_text" style="font-size: 22px;">How
+                                                Can I
+                                                Keep My Horse Happy and Fit?
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                        assumenda culpa cumque
+                                        dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                        soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16">
+                                        <span class="mr-2 d-md-block d-lg-inline">
+                                            <i class="fa fa-user text-alpha" data-original-title="" title=""
+                                               aria-describedby="tooltip388584" style=""/>
+                                            <a href="#" class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip200474">
+                                                <b class="o_default_snippet_text">Williamson</b>
+                                            </a>
+                                        </span>
+                                        <i class="fa fa-comments text-alpha" data-original-title="" title=""
+                                           aria-describedby="tooltip568392" style=""/>
+                                        <b>
+                                            <a href="#" class="o_default_snippet_text">2 Comments
+                                            </a>
+                                        </b>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" class="o_default_snippet_text">
+                                            <font class="text-beta o_default_snippet_text" style="font-size: 22px;">
+                                                Basic
+                                                Equestrian Trail Riding Etiquette
+                                            </font>
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                        assumenda culpa cumque
+                                        dicta sint soluta voluptas eius iusto modi reprehenderit sint
+                                        soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="horse_riding_testimonial" name="Horse Riding Testimonial">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <p>
+                                <font color="#e49320">
+                                    <span style="font-size: 15px;">
+                                        <b>TESTIMONIAL</b>
+                                    </span>
+                                </font>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b>What Our Members Say</b>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod
+                                </font>
+                                <br/>
+                                <font style="font-size: 15px;">tempor incididunt ut labore et dolore
+                                    magna aliqua.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img class="img-fluid mb16 rounded-circle o_we_custom_image"
+                                 src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                            </p>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Catherine Grace</b>
+                                </font>
+                            </h3>
+                            <p>SELLER</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img class="img-fluid mb16 rounded-circle o_we_custom_image"
+                                 src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                            </p>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Patrick James</b>
+                                </font>
+                            </h3>
+                            <p>MANAGER</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img class="img-fluid mb16 rounded-circle o_we_custom_image"
+                                 src="/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                            </p>
+                            <h3>
+                                <font style="font-size: 18px;">
+                                    <b>Anastasia Stone</b>
+                                </font>
+                            </h3>
+                            <p>PROGRAMMER</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="horse_riding_newsletter" name="Horse Riding Newsletter">
+            <section class="pt64 pb32 oe_img_bg oe_custom_bg" id="footer_7"
+                     style="background-image: url(&quot;/theme_horse_riding_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2 style="text-align: center; ">
+                                <font style="font-size: 36px;">
+                                    <b>Subscribe To Our Newsletter</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-3 offset-md-3 mb48">
+                            <div class="input-group js_subscribe hidden" data-list-id="1"
+                                 data-subscribe="off">
+                                <input type="email" name="email"
+                                       class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..."
+                                       style="text-align: center; height: 55px;"/>
+                                <span class="input-group-btn">
+                                    <a href="#" class="br-right btn btn-beta js_subscribe_btn px-3 py-3"
+                                       data-original-title="" title="" aria-describedby="tooltip551300">
+                                        <b>SUBSCRIBE</b>
+                                    </a>
+                                    <a href="#"
+                                       class="btn br-right px-3 py-3 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                    Thanks for your subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Footer Start-->
+        <template id="horse_riding_footer" name="Horse Riding Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid mb16"
+                                     src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5>
+                                    <font class="text-beta" style="font-size: 22px;">Useful Links</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Engaging, purposeful, and
+                                                creative
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip275668">Extraordinary life events.
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Design your perfect event.</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank">
+                                            <font class="text-gamma" style="" data-original-title="" title=""
+                                                  aria-describedby="tooltip941132">Leading organisations
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="font-weight-bold mb24 o_default_snippet_text">
+                                    <span style="font-weight: normal;">
+                                        <font style="font-size: 22px;">Contact Info</font>
+                                    </span>
+                                </h5>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-home mr-3 mt-1"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                        <span t-field="res_company.state_id.name"/>
+                                    </div>
+                                </div>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-envelope-o mr-3 mt-1"/>
+                                    <div class="mdia-body">
+                                        <span t-field="res_company.email"/>
+                                    </div>
+
+                                </div>
+                                <div class="media mb16 o_default_snippet_text">
+                                    <i class="fa fa-phone mr-3 mt-1"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="font-size: 22px;">Working Hours</font>
+                                </h5>
+                                <p class="mb8">
+                                    <b>Monday</b>
+                                    : 8AM - 6PM
+                                </p>
+                                <p class="mb8">
+                                    <b>Tuesday</b>
+                                    : 8AM - 6PM
+                                </p>
+                                <p class="mb8">
+                                    <b>Wednesday</b>
+                                    : 8AM - 6PM
+                                </p>
+                                <p class="mb8"><b>Thursday -&amp;nbsp;Saturday</b>&amp;nbsp;: 8AM - 8PM
+                                </p>
+                                <p class="mb8">
+                                    <b>Sunday</b>
+                                    : Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Horse Riding Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_banner"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_about_us"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_courses"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_process"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_team"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_event"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_pricing"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_gallery"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_news"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_testimonial"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_newsletter"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_horse_riding_ultimate_01.horse_riding_footer"
+                           t-thumbnail="/theme_horse_riding_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

@@ -1,0 +1,808 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="coaching_banner" name="Coaching Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_coaching_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white" style="font-size: 62px; text-align: center;">
+                                <font style="">Everything Is Possible With Us</font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb88" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-primary rounded-circle" data-original-title="" title=""
+                               aria-describedby="tooltip896058">&amp;nbsp;
+                                <font style="font-size: 12px;">
+                                    <b class="o_default_snippet_text">GET FREE COACHING</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Features One Start-->
+        <template id="coaching_features_one" name="Coaching Features One">
+            <section class="pb64 oe_custom_bg s_overlay_section pt72" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-100 shadow pb56 pt0">
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center border-right">
+                                    <i class="fa fa-3x fa-500px pe-7s-world text-alpha" data-original-title="" title=""
+                                       aria-describedby="tooltip796119" style=""/>
+                                    <h3 class="pt8 pb8 o_default_snippet_text">
+                                        <b>Online Coaching</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center border-right">
+                                    <i class="fa fa-3x fa-500px fa-life-ring pe-7s-next-2 text-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip15508" style=""/>
+                                    <h3 class="pt8 pb8 o_default_snippet_text">
+                                        <b>Coach Events</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                        gravida velit urna, ut mattis leo ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-3x fa-500px pe-7s-note2 text-alpha" data-original-title="" title=""
+                                       aria-describedby="tooltip329631" style=""/>
+                                    <h3 class="pt8 pb8 o_default_snippet_text">
+                                        <b>Certification</b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at
+                                        semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                        ullamcorper sed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features One End-->
+
+        <!--Snippet Left Content Start-->
+        <template id="coaching_left_content" name="Coaching Left Content">
+            <section class="pt64 pb0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2>
+                                <font style="font-size: 48px;" class="o_default_snippet_text">Hi, i'm Anthony</font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                    Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                            <div class="row align-items-center">
+                                <div class="ml-3">
+                                    <a href="#" class="mb8 mt8 px-4 rounded-0 btn btn-primary rounded-circle btn-lg"
+                                       data-original-title="" title="" aria-describedby="tooltip8243">
+                                        <font style="font-size: 12px;">
+                                            <b class="o_default_snippet_text">VIEW PROFILE</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-350x447.png"
+                                 alt="Image" class="img-fluid pt8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip754420"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Counter Start-->
+        <template id="coaching_counter" name="Coaching Counter">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg" id="counter_14"
+                     style="background-image: url(&quot;/theme_coaching_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; position: relative;">
+                <div class="ec-common-overlay" style="background-color: rgba(0,0,0,0.44); z-index:0;"/>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item d-flex text-white pt24 pb24">
+                                <div class=" px-3">
+                                    <i class="fa fa-3x font-weight-bold pe-7s-global fa-500px" style=""/>
+                                </div>
+                                <div>
+                                    <h2 class="border_content font-weight-bold px-3">
+                                        <font style="" class="text-alpha o_default_snippet_text">165</font>
+                                    </h2>
+                                    <p class="px-3 text-uppercase">
+                                        <b>
+                                            <font style="font-size: 18px;">WORLDWIDE CENTERS
+
+                                            </font>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item d-flex text-white pt24 pb24">
+                                <div class=" px-3">
+                                    <i class="fa fa-3x font-weight-bold text-white pe-7s-notebook fa-500px" style=""/>
+                                </div>
+                                <div>
+                                    <h2 class="border_content font-weight-bold px-3">
+                                        <font class="text-alpha o_default_snippet_text" style="">501</font>
+                                    </h2>
+                                    <p class="px-3 text-uppercase">
+                                        <b>
+                                            <font style="font-size: 18px;">COURSES INVOLVED</font>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item d-flex text-white pt24 pb24">
+                                <div class=" px-3">
+                                    <i class="fa fa-3x font-weight-bold pe-7s-diamond fa-500px" style=""/>
+                                </div>
+                                <div>
+                                    <h2 class="border_content font-weight-bold px-3">
+                                        <font class="text-alpha o_default_snippet_text" style="">13</font>
+                                    </h2>
+                                    <p class="px-3 text-uppercase">
+                                        <b>
+                                            <font style="font-size: 18px;">YEARS OF EXPERIENCE</font>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="ec-counter-item d-flex text-white pt24 pb24">
+                                <div class=" px-3">
+                                    <i class="fa fa-3x fa-picture-o font-weight-bold pe-7s-study fa-500px" style=""/>
+                                </div>
+                                <div>
+                                    <h2 class="border_content font-weight-bold px-3">
+                                        <font class="text-alpha o_default_snippet_text" style="">12584</font>
+                                    </h2>
+                                    <p class="px-3 text-uppercase">
+                                        <b>
+                                            <font style="font-size: 18px;">NO. OF GRADUATES</font>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Features Two Start-->
+        <template id="coaching_features_two" name="Coaching Features Two">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <font style="font-size: 36px;" class="o_default_snippet_text">Why US ?</font>
+                            </h2>
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-6 col-md-12 col-lg-6 mt-3 mb16">
+                                    <img src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         alt="half-mobile" class="img-fluid d-block mx-auto" data-original-title=""
+                                         title="" aria-describedby="tooltip490938"/>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-12 col-lg-6 pt40">
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9  media pb16">
+                                        <i class="fa fa-2x fa-500px mr-3 mt-2 pe-7s-helm text-alpha"
+                                           data-original-title="" title="" aria-describedby="tooltip634453" style=""/>
+                                        <div class="media-body">
+                                            <h3 class="pb8 pt8 o_default_snippet_text">
+                                                <b>Experienced Staff</b>
+                                            </h3>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9  media pb16">
+                                        <i class="fa fa-2x fa-500px fa-life-ring mr-3 mt-2 pe-7s-menu text-alpha"
+                                           data-original-title="" title="" aria-describedby="tooltip989013" style=""/>
+                                        <div class="media-body">
+                                            <h3 class="pb8 pt8 o_default_snippet_text">
+                                                <b>So Many Courses</b>
+                                            </h3>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-9 col-lg-9  media">
+                                        <i class="fa fa-2x fa-500px mr-3 mt-2 pe-7s-shuffle text-alpha"
+                                           data-original-title="" title="" aria-describedby="tooltip304781" style=""/>
+                                        <div class="media-body">
+                                            <h3 class="pb8 pt8 o_default_snippet_text">
+                                                <b>Flexible Timing</b>
+                                            </h3>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Features Two End-->
+
+        <!--Snippet Price Table Start-->
+        <template id="coaching_price_table" name="Coaching Price Table">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                            <h2>
+                                <font style="font-size: 36px;">Online Courses</font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="border">
+                                <img src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="img2" class="img-fluid d-block mx-auto" data-original-title="" title=""
+                                     aria-describedby="tooltip357135"/>
+                                <div class="px-4 pt32 pb32">
+                                    <h3>
+                                        <small class="o_default_snippet_text">
+                                            <b>
+                                                <font style="font-size: 18px;">IT Fundamentals</font>
+                                            </b>
+                                        </small>
+                                    </h3>
+                                    <h2 class="pt16 pb16 o_default_snippet_text">$59
+                                        <small class="o_default_snippet_text">/ Month</small>
+                                    </h2>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, con
+                                        sectetur adipiscing elit.
+                                    </p>
+                                    <a href="#" class="btn btn-primary rounded-0 btn-block o_default_snippet_text">
+                                        Action
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="border">
+                                <img src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="img2" class="img-fluid d-block mx-auto"/>
+                                <div class="px-4 pt32 pb32">
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <b>Complete</b>
+                                        </span>
+                                        <span style="font-size: 19.6px;">
+                                            <b></b>
+                                        </span>
+                                        <span style="font-size: 18px;">
+                                            <b>E</b>
+                                        </span>
+                                        <span style="font-size: 18px;">
+                                            <b>-</b>
+                                        </span>
+                                        <span style="font-size: 18px;">
+                                            <b>theorem</b>
+                                        </span>
+                                        <span style="font-size: 19.6px;">
+                                            <b></b>
+                                        </span>
+                                        <span style="font-size: 18px;">
+                                            <b>Course</b>
+                                        </span>
+                                    </h3>
+                                    <h2 class="pt16 pb16 o_default_snippet_text">$59
+                                        <small class="o_default_snippet_text">/ Month</small>
+                                    </h2>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, con
+                                        sectetur adipiscing elit.
+                                    </p>
+                                    <a href="#" class="btn btn-primary rounded-0 btn-block o_default_snippet_text">
+                                        Action
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="border">
+                                <img src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     alt="img2" class="img-fluid d-block mx-auto"/>
+                                <div class="px-4 pt32 pb32">
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <b>Master Courses</b>
+                                        </span>
+                                    </h3>
+                                    <h2 class="pt16 pb16 o_default_snippet_text">$59
+                                        <small class="o_default_snippet_text">/ Month</small>
+                                    </h2>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, con
+                                        sectetur adipiscing elit.
+                                    </p>
+                                    <a href="#" class="btn btn-primary rounded-0 btn-block o_default_snippet_text">
+                                        Action
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Price Table End-->
+
+        <!--Snippet Blog Start-->
+        <template id="coaching_blog" name="Coaching Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center"
+                     data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="coaching_gallery" name="Coaching Gallery">
+            <section class="sni-block pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_coaching_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                      class="o_default_snippet_text">Gallery
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <img class="img-fluid d-block mx-auto mt16 mb16"
+                                 src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip21915"
+                                 style="&#10;    height: 370px;&#10;"/>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip492011"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip201787"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip235581"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_coaching_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip261186"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="coaching_testimonial" name="Coaching Testimonial">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" id="testimonials_d4" style="">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="font-size: 36px;" class="o_default_snippet_text">What People Says</font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567422103107" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567422103107" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1567422103107" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pb80 bg-100 oe_custom_bg pt32 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row d-flex align-items-stretch">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">Write a quote here
+                                                    from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_coaching_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt="" data-original-title="" title=""
+                                                 aria-describedby="tooltip79742"/>
+                                            <span>
+                                                <b>— Jane DOE</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">Write a quote here
+                                                    from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_coaching_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                <b>— Jane DOE</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">Write a quote here
+                                                    from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_coaching_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                <b>— Jane DOE</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-100 oe_custom_bg pt32 pb72" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row d-flex align-items-stretch">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">Write a quote here
+                                                    from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_coaching_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt="" data-original-title="" title=""
+                                                 aria-describedby="tooltip288118"/>
+                                            <span>
+                                                <b>— Jane DOE</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">Write a quote here
+                                                    from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_coaching_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                <b>— Jane DOE</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                                        <blockquote class="carousel-content bg-white">
+                                            <div class="col-lg-12">
+                                                <div class="testi-icon">
+                                                    <i class="fa fa-1x fa-quote-left rounded-0 bg-red s_quotes_carousel_icon"/>
+                                                </div>
+                                                <p class="o_default_snippet_text">Write a quote here
+                                                    from one of your customers. Quotes are a great way
+                                                    to build confidence in your products or services.
+                                                </p>
+                                            </div>
+                                        </blockquote>
+                                        <div class="testi-footer">
+                                            <img class="img"
+                                                 src="/theme_coaching_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span>
+                                                <b>— Jane DOE</b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1567422103107" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1567422103107" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="coaching_newsletter" name="Coaching Newsletter">
+            <section class="pt64 pb32" id="footer_7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb16">
+                            <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                 alt="Logo of YourCompany" title="YourCompany"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-3 offset-md-3 mb48">
+                            <div class="input-group js_subscribe hidden" data-list-id="1" data-subscribe="off">
+                                <input type="email" name="email" class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..."/>
+                                <span class="input-group-btn">
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-primary js_subscribe_btn o_default_snippet_text">
+                                        Subscribe
+                                    </a>
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                    Thanks for your subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Footer Start-->
+        <template id="coaching_footer" name="Coaching Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt0" id="footer_9">
+                    <div class="container">
+                        <div class="row pt64">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-5 pb16">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany"
+                                     title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit.lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.
+                                </p>
+                                <div>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter px-2"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google plus px-2"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin px-2"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 pb16">
+                                <h5 class="mb16">
+                                    <font style="color: rgb(255, 255, 255);">Featured Courses</font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>Just Added</li>
+                                    <li>Most viewed</li>
+                                    <li>Coming Soon</li>
+                                    <li>Paid courses</li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip117130">
+                                            <font style="color: rgb(255, 255, 255);">free courses</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 pb16">
+                                <h5 class="mb16">
+                                    <font style="color: rgb(255, 255, 255);">Categories</font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip309136">
+                                            <font style="color: rgb(255, 255, 255);">Business</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip796233">
+                                            <font style="color: rgb(255, 255, 255);">A</font>
+                                        </a>
+                                        <font style="color: rgb(255, 255, 255);">rts</font>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">Science</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip849781">
+                                            <font style="color: rgb(255, 255, 255);">Accounting</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 pb16">
+                                <h5 class="mb16">
+                                    <font style="color: rgb(255, 255, 255);">Useful Links</font>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Contact Us</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Our Blog</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Metrics Help
+                                                Desk
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Metrics System
+                                                Status
+                                                &amp;nbsp;
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">FAQs</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Coaching Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_banner"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_features_one"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_left_content"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_counter"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_features_two"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_price_table"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_blog"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_gallery"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_testimonial"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_newsletter"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_coaching_ultimate_01.coaching_footer"
+                           t-thumbnail="/theme_coaching_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

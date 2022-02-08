@@ -1,0 +1,125 @@
+<odoo noupdate='1'>
+
+    <!-- Copyright (C) 2019 Open Source Integrators
+         Copyright (C) 2019 Serpent Consulting Services Pvt. Ltd.
+         License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+    <record id='delivery_schedule_sequence' model='ir.sequence'>
+        <field name="name">Delivery Schedule Sequence</field>
+        <field name="code">delivery.schedule</field>
+        <field name="prefix">DS</field>
+        <field name="padding">5</field>
+        <field name="company_id" eval="False"/>
+    </record>
+
+    <record id="sms_template_delivery" model="sms.template">
+        <field name="name">Sale Order: Delivery Location Requests</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="body">Your parcel ${object.name} is ready for delivery. Please send us your location. ${object.get_delivery_address_url()} </field>
+    </record>
+
+    <record model="sale.order.tracking.activity" id="sale_order_tracking_activity_address_update">
+        <field name="name">Address update</field>
+    </record>
+
+    <record model="sale.order.tracking.activity" id="sale_order_tracking_activity_accepted">
+        <field name="name">Accepted</field>
+    </record>
+
+    <record model="sale.order.tracking.activity" id="sale_order_tracking_activity_prepared">
+        <field name="name">Prepared</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_address_update_makani">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_address_update"/>
+        <field name="name">Confirmed by makani number</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_address_update_customer">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_address_update"/>
+        <field name="name">Confirmed by customer</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_address_update_agent">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_address_update"/>
+        <field name="name">Confirmed by Agent (No localisation)</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_address_update_no_mobile">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_address_update"/>
+        <field name="name">Mobile Switched off</field>
+    </record>
+
+    <record model="sale.order.tracking.activity" id="sale_order_tracking_activity_exception">
+        <field name="name">Exception</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_delivery_failure">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_exception"/>
+        <field name="name">Not Available</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_delivery_refused">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_exception"/>
+        <field name="name">Refused delivery</field>
+    </record>
+
+    <record model="sale.order.tracking.activity" id="sale_order_tracking_activity_pickup">
+        <field name="name">Pickup</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_pickup_success">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_pickup"/>
+        <field name="name">Completed Successfully</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_pickup_failure">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_exception"/>
+        <field name="name">Not Available</field>
+    </record>
+
+    <record model="sale.order.tracking.activity" id="sale_order_tracking_activity_delivery">
+        <field name="name">Delivery</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_delivery_scheduled">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_delivery"/>
+        <field name="name">Scheduled</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_delivery_dispatched">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_delivery"/>
+        <field name="name">Dispatched</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_delivery_success">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_delivery"/>
+        <field name="name">Completed Successfully</field>
+    </record>
+
+
+    <record model="sale.order.tracking.activity" id="sale_order_tracking_activity_dispatched">
+        <field name="name">Out for delivery</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_dispatched_success">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_dispatched"/>
+        <field name="name">Completed Successfully</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_prepared_success">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_prepared"/>
+        <field name="name">Completed Successfully</field>
+    </record>
+
+    <record model="sale.order.tracking.activity.state" id="tracking_activity_state_accepted_success">
+        <field name="activity_id" ref="solibre_sale_cod.sale_order_tracking_activity_accepted"/>
+        <field name="name">Completed Successfully</field>
+    </record>
+
+    <record model="ir.config_parameter" id="franchise_url">
+        <field name="key">franchise_url</field>
+        <field name="value"></field>
+    </record>
+
+</odoo>

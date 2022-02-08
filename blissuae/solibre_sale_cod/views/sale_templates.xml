@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="paperformat_label" model="report.paperformat">
+            <field name="name">A5/2</field>
+            <field name="default" eval="True" />
+            <field name="format">custom</field>
+            <field name="page_height">100</field>
+            <field name="page_width">100</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">2</field>
+            <field name="margin_bottom">2</field>
+            <field name="margin_left">2</field>
+            <field name="margin_right">2</field>
+            <field name="header_line" eval="False" />
+            <field name="header_spacing">0</field>
+            <field name="dpi">100</field>
+        </record>
+
+    </data>
+
+    <template id="shipping_label_content" name="Shipping Label Content">
+        <div class="row">
+            <div class="col-4">
+                <t t-set="qr_url" t-value="'/picking/validate/%s'%o.name.replace('/','-')"/>
+                <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR', qr_url, 400, 400)" style="width:100px;height:100px" class="pull-right" id="qrcode"/>
+            </div>
+            <div class="col-8">
+                <img t-att-src="'/report/barcode/?type=%s&amp;value=%s' % ('Code128', o.name)"/>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <span t-field="o.name" class="pull-right"/>
+                <br/>
+                <span t-field="o.origin" class="pull-right"/>                                
+                <strong>Shipment From:</strong>
+                <div t-field="o.partner_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;, &quot;phone&quot;], &quot;no_marker&quot;: True, &quot;phone_icons&quot;: True}"/>
+                <p/>
+                <table>
+                    <tr>
+                        <td>
+                            <span t-field='line.product_uom_qty'/> <span t-field="line.product_uom"/>
+                        </td>
+                        <td>
+                            <span t-field="line.name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span t-field='line.product_id.default_code'/>
+                        </td>
+                        <td>
+                            <span t-field="line.product_id.barcode"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-6">
+                <span t-if="o.cod_amount"><strong>Cash on delivery:</strong> <span t-field="o.cod_amount"/></span>
+                <br/>
+                <strong>Shipment to:</strong>
+                <div t-field="o.partner_shipping_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;, &quot;phone&quot;, &quot;mobile&quot;], &quot;no_marker&quot;: True, &quot;phone_icons&quot;: True}"/>
+
+                <t t-if="o.partner_id_beneficiary">
+                    <br/>
+                    <strong>Beneficiary:</strong>
+                    <div t-field="o.partner_id_beneficiary" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;, &quot;phone&quot;, &quot;mobile&quot;], &quot;no_marker&quot;: True, &quot;phone_icons&quot;: True}"/>
+                    <span t-field="o.beneficiary_delivery_date"/>
+                </t>
+
+            </div>
+        </div>
+    </template>
+
+    <template id="report_sale_shipping_label" name="Shipping Label">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page"  t-foreach="o.order_line.filtered(lambda l:l.product_id.type=='product')" t-as="line">
+                        <t t-call="solibre_sale_cod.shipping_label_content"/>
+                        <p style="page-break-after:always;"/>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <report
+        id="action_report_sale_shipping_label"
+        model="sale.order"
+        report_type="qweb-pdf"
+        string="Shipping Label"
+        name="solibre_sale_cod.report_sale_shipping_label"
+        file="solibre_sale_cod.report_sale_shipping_label" 
+        paperformat="paperformat_label"
+        />
+
+    <record id="address_thanks" model="website.page">
+        <field name="name">Thanks (Address Confirmation)</field>
+        <field name="type">qweb</field>
+        <field name="url">/address-thank-you</field>
+        <field name="website_indexed" eval="False"/>
+        <field name="is_published">True</field>
+        <field name="key">website_form.address_thanks</field>
+        <field name="arch" type="xml">
+            <t name="Thanks (Address confirmation)" t-name="website_form.address_thanks">
+                <t t-call="website.layout">
+                  <div id="wrap">
+                    <div class="oe_structure" id="oe_structure_website_form_contact_us_thanks_1"/>
+                    <div class="container pt-3">
+                        <h1>Thanks!</h1>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="alert alert-success" role="status">
+                                    We have received your address confirmation.
+                                    <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                                </div>
+                                <p>
+                                    We will reach out to you shortly.
+                                </p>
+                            </div>
+                            <div class="col-lg-4">
+                                <t t-call="website.company_description"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oe_structure" id="oe_structure_website_form_address_thanks_2"/>
+                  </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <template id="portal_my_details">
+        <t t-call="portal.portal_layout">
+            <t t-set="additional_title">Contact Details</t>
+            <form t-att-action="'/deladd/%s?access_token='%(order.id)" method="post">
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                <input type="hidden" name="access_token" t-att-value="access_token"/>
+                <input type="hidden" name="dest_partner_latitude" />
+                <input type="hidden" name="dest_partner_longitude" />
+
+                <div class="row o_portal_details">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-12">
+                              <div t-if="error_message" class="alert alert-danger" role="alert">
+                                  <t t-foreach="error_message" t-as="err"><t t-esc="err"/><br /></t>
+                              </div>
+                            </div>
+                            <div t-attf-class="form-group #{error.get('dest_partner_name') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="dest_partner_name">Name</label>
+                                <input type="text" name="dest_partner_name" t-attf-class="form-control #{error.get('dest_partner_name') and 'is-invalid' or ''}" t-att-value="dest_partner_name or order.dest_partner_name" />
+                            </div>
+<!--                             <div t-attf-class="form-group #{error.get('email') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="email">Email</label>
+                                <input type="email" name="email" t-attf-class="form-control #{error.get('email') and 'is-invalid' or ''}" t-att-value="email or partner.email" />
+                            </div> -->
+
+                            <div t-attf-class="form-group #{error.get('mobile') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="mobile">Mobile</label>
+                                <input type="tel" name="mobile" t-attf-class="form-control #{error.get('mobile') and 'is-invalid' or ''}" t-att-value="mobile or order.mobile" />
+                            </div>
+
+                            <div class="clearfix" />
+                            <div t-attf-class="form-group #{error.get('dest_makani_number') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="dest_makani_number">Makani</label>
+                                <input type="text" name="dest_makani_number" t-attf-class="form-control #{error.get('dest_makani_number') and 'is-invalid' or ''}" t-att-value="dest_makani_number or order.dest_makani_number" />
+                            </div>
+<!--                             <div t-attf-class="form-group #{error.get('email') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="email">Email</label>
+                                <input type="email" name="email" t-attf-class="form-control #{error.get('email') and 'is-invalid' or ''}" t-att-value="email or partner.email" />
+                            </div> -->
+
+
+                            <div class="clearfix" />
+                            <div t-attf-class="form-group #{error.get('dest_street') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="dest_street">Street</label>
+                                <input type="text" name="dest_street" t-attf-class="form-control #{error.get('dest_street') and 'is-invalid' or ''}" t-att-value="dest_street or order.dest_street"/>
+                            </div>
+<!--                             <div t-attf-class="form-group #{error.get('city') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="city">City</label>
+                                <input type="text" name="city" t-attf-class="form-control #{error.get('city') and 'is-invalid' or ''}" t-att-value="city or partner.city" />
+                            </div> -->
+                            <div t-attf-class="form-group #{error.get('country_id') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label" for="country_id">Country</label>
+                                <select name="country_id" t-attf-class="form-control #{error.get('country_id') and 'is-invalid' or ''}">
+                                    <option value="">Country...</option>
+                                    <t t-foreach="countries or []" t-as="country">
+                                        <option t-att-value="country.id" t-att-selected="country.id == int(country_id) if country_id else country.id == order.dest_country_id.id">
+                                            <t t-esc="country.name" />
+                                        </option>
+                                    </t>
+                                </select>
+                            </div>
+                            <div t-attf-class="form-group #{error.get('state_id') and 'o_has_error' or ''} col-xl-6">
+                                <label class="col-form-label label-optional" for="state_id">State / Province</label>
+                                <select name="state_id" t-attf-class="form-control #{error.get('state_id') and 'is-invalid' or ''}">
+                                    <option value="">select...</option>
+                                    <t t-foreach="states or []" t-as="state">
+                                        <option t-att-value="state.id" style="display:none;" t-att-data-country_id="state.country_id.id" t-att-selected="state.id == order.dest_state_id.id">
+                                            <t t-esc="state.name" />
+                                        </option>
+                                    </t>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- <div id="address_cont">
+                            <div id="address_map" style="width: 100%; height: 100%;"></div>
+                        </div> -->
+                        <div class="clearfix">
+                            <button type="submit" class="btn btn-primary float-right mb32 ">
+                                Confirm
+                                <span class="fa fa-long-arrow-right" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </t>
+    </template>
+
+</odoo>

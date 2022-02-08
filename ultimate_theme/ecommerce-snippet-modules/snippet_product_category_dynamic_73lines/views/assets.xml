@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <template id="assets_frontend_category_dynamic_snippet" name="Category Dynamic Assets"
+              inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/snippet_product_category_dynamic_73lines/static/src/scss/category_menu.scss"
+                  rel="stylesheet" type="text/scss"/>
+        </xpath>
+    </template>
+
+    <!-- Snippets & Thumbnails -->
+    <template id="s_product_categories_dynamic" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_feature']/div[hasclass('o_panel_body')]"
+               position="inside">
+            <t t-snippet="snippet_product_category_dynamic_73lines.s_product_category_snippet"
+               t-thumbnail="/snippet_product_category_dynamic_73lines/static/src/img/s-icon.png"/>
+        </xpath>
+    </template>
+</odoo>

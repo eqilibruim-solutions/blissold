@@ -1,0 +1,67 @@
+#wrapwrap > header.bg-black-75.o_affix_enabled,#wrapwrap > header.bg-black-50.o_affix_enabled{
+   #top_menu > li > a{
+    color:#ffffff;
+    }
+}
+#wrapwrap.o_header_overlay > header:not(.o_header_affix) > .navbar .nav-item.show > .nav-link, #wrapwrap.o_header_overlay > header:not(.o_header_affix) > .navbar .nav-item.active > .nav-link{
+    background-color:transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    //color:unset !important;
+}
+
+a,a:focus,.btn:focus,button{
+    outline:0 !important;
+}
+
+header{
+    .navbar{
+        box-shadow: 1px 1px 3px #cccccc;
+    }
+}
+
+#wrapwrap > header.o_nav_shadow > nav{
+    box-shadow: none !important;
+}
+
+#wrapwrap > header.o_nav_border_off > nav{
+    border: none !important;
+}
+
+//---- Overwrite From Bootstrap Scss For Black Color ----//
+
+
+.navbar-light .navbar-nav .nav-link{
+    //color: rgba(0,0,0,1);
+}
+
+
+
+//---- Overwrite For Image Size ----//
+
+
+@media (min-width: 768px) {
+  header .navbar-brand.logo img{
+       // height:auto;
+    }
+}
+
+//---- Mid Headers Line Height Set ----//
+#mid-header-top-left,#mid-header-top-center,#mid-header-top-center,#mid-header-top-center{
+    line-height: 2.2;
+}
+
+//---- Menu Text Left In Responsive Screen ----//
+@media (max-width: 767px){
+    #top_menu {
+        text-align: left !important;
+    }
+}
+
+//---------------------Hide Options Start ------------//
+.o_logo_hide{
+    .navbar-brand{
+        display:none;
+    }
+}
+//---------------------Hide Options End ------------//

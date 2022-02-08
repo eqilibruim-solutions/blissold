@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_fleet_vehicle_form_inherit">
+        <field name="name">fleet.vehicle.form.inherit</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='driver_id']" position="before">
+                <field name="user_id" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

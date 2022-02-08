@@ -1,0 +1,896 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="loan_banner" name="Loan Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none; height: 70vh;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_loan_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-center" style="">
+                                <font color="#ffffff">
+                                    <span style="font-size: 48px;">
+                                        <b>Lowest Interest Rate on<br/>Home Loan
+                                        </b>
+                                    </span>
+                                </font>
+                                <b style="font-size: 62px;">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">!&amp;nbsp;</font>
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-center" style="text-align: center;">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;">Write one or two paragraphs
+                                    describing your
+                                    product, services or a specific feature.<br/>To be successful your content needs to
+                                    be useful to your readers.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="#" class="btn btn-primary flat btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip161313">
+                                <b class="o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip505540">
+                                    <font style="font-size: 14px;">CALL NOW</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Counter Start-->
+        <template id="loan_counter" name="Loan Counter">
+            <section class="pt64 pb48" id="counter_9" style="">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_loan_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip367943"/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>6.68%</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted o_default_snippet_text">
+                                    <font style="font-size: 18px;">Personal Loan</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_loan_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip372202"/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>8.56%</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted">
+                                    <font style="font-size: 18px;">Car Loan</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_loan_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip727932"/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>7.56%</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted o_default_snippet_text">
+                                    <font style="font-size: 18px;">Business Loan</font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <img class="img-fluid o_we_custom_image"
+                                     src="/theme_loan_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip408687"/>
+                                <h2 class="mt32 o_default_snippet_text">
+                                    <font style="font-size: 36px;">
+                                        <b>10.50%</b>
+                                    </font>
+                                </h2>
+                                <h4 class="text-muted o_default_snippet_text">
+                                    <font style="font-size: 18px;">Property Loan</font>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Service Start-->
+        <template id="loan_service" name="Loan Service">
+            <section class="bg-beta oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 pt64 offset-lg-2 col-lg-8">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="font-size: 36px;" class="o_default_snippet_text">Our Services</font>
+                                </h3>
+                                <p class="text-center o_default_snippet_text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <h3 class="text-center">
+                                    <br/>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64 bg-beta oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">Personal Loans</h3>
+                            <p style="text-align: center; " class="o_default_snippet_text">Lorem Ipsum is simply dummy
+                                text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="o_default_snippet_text pb8 pt8"/>
+                                <a href="#" class="pb8 pt8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip278170">Read
+                                    More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; ">Education Loans</h3>
+                            <p style="text-align: center; " class="o_default_snippet_text">Lorem Ipsum is simply dummy
+                                text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text"/>
+                                <a href="#" class="pb8 pt8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip278170" style="font-size: 0.875rem;">Read
+                                    More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3 style="text-align: center; " class="o_default_snippet_text">Property Loans</h3>
+                            <p class="o_default_snippet_text" style="text-align: center; ">Lorem Ipsum
+                                is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text"/>
+                                <a href="#" class="pb8 pt8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip278170" style="font-size: 0.875rem;">Read
+                                    More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Process Start-->
+        <template id="loan_process" name="Loan Process">
+            <section class="pt64 bg-white oe_custom_bg pb32" id="process_step_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32 pb40">
+                            <h2>
+                                <font style="font-size: 36px;" class="o_default_snippet_text">Simple Loan Process</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb32">
+                            <h3 class="process_no o_default_snippet_text"
+                                style=" background-color: #e3f0fe; border: 1px solid #15549a;">1
+                            </h3>
+                            <div class="box">
+                                <h3 class="o_default_snippet_text">Choose Amount</h3>
+                                <p class="o_default_snippet_text">Proin iaculis purus consequat sem cure digni ssim
+                                    donec porttitora entum suscipit aenean rhoncus posuere odio in.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb32">
+                            <h3 class="process_no o_default_snippet_text"
+                                style=" background-color: #e3f0fe; border: 1px solid #15549a;">2
+                            </h3>
+                            <div class="box">
+                                <h3 class="o_default_snippet_text">Provide Documents</h3>
+                                <p class="o_default_snippet_text">Proin iaculis purus consequat sem cure digni ssim
+                                    donec porttitora entum suscipit aenean rhoncus posuere odio in.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb32">
+                            <h3 class="process_no o_default_snippet_text"
+                                style=" background-color: #e3f0fe; border: 1px solid #15549a;">3
+                            </h3>
+                            <div class="box">
+                                <h3 class="o_default_snippet_text">Approved Loan</h3>
+                                <p class="o_default_snippet_text">Proin iaculis purus consequat sem cure digni ssim
+                                    donec porttitora entum suscipit aenean rhoncus posuere odio in.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg pb80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip908861">
+                                        View Our Loans
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Process End-->
+
+        <!--Snippet Feature Start-->
+        <template id="loan_feature" name="Loan Feature">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_loan_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <font color="#ffffff">
+                                    <span style="font-size: 36px;">
+                                        <span class="o_default_snippet_text">Things To Know About Our Cost</span>
+                                        <b>
+                                            <br/>
+                                        </b>
+                                    </span>
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text" style="text-align: center; ">
+                                <font style="color: rgb(255, 255, 255);">Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting
+                                    industry.
+                                </font>
+                            </p>
+                            <div class="row pt64">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-500px pe-7s-cash fa-4x" data-original-title="" title=""
+                                       aria-describedby="tooltip419456" style="color: rgb(255, 255, 255);"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">No Early
+                                            Payment Fees
+                                            For Your Loan
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit
+                                            amet, consectetur adipiscing elit. Ut at semper metus.
+                                            Vestibulum gravida velit urna, ut mattis leo ullamcorper
+                                            sed.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-4x pe-7s-note2 fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip419456" style="color: rgb(255, 255, 255);"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Fast
+                                            Online Instant
+                                            Approvals
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit
+                                            amet, consectetur adipiscing elit. Ut at semper metus.
+                                            Vestibulum gravida velit urna, ut mattis leo ullamcorper
+                                            sed.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <i class="fa fa-4x pe-7s-like2 fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip419456" style="color: rgb(255, 255, 255);"/>
+                                    <h3 class="pb8 pt8">
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Flexible
+                                            With Your
+                                            Payments
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Lorem
+                                            ipsum dolor sit
+                                            amet, consectetur adipiscing elit. Ut at semper metus.
+                                            Vestibulum gravida velit urna, ut mattis leo ullamcorper
+                                            sed.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="loan_brandlogo" name="Loan Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet News Start-->
+        <template id="loan_news" name="Loan News">
+            <section class="bg-white oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 pt40 offset-lg-2 col-lg-8">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <span style="font-size: 36px;">
+                                        <span class="o_default_snippet_text">Latest Articles</span>
+                                    </span>
+                                </h3>
+                                <p class="text-center o_default_snippet_text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <h3 class="text-center">
+                                    <br/>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <p class="o_default_snippet_text">September 12</p>
+                                    <h3 style="text-align: left;">
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">How can you
+                                                compare personal
+                                                loan and car loan
+                                            </font>
+                                        </b>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <p class="o_default_snippet_text">September 24</p>
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">What Should i do to get education loan
+                                                very fast?
+                                            </b>
+                                        </span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16">
+                            <div class="card">
+                                <img src="/theme_loan_ultimate_01/static/src/img/placeholder-600.jpg" alt="Flower"
+                                     title="Flower"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <p class="o_default_snippet_text">September 30</p>
+                                    <h3>
+                                        <span style="font-size: 18px;">
+                                            <span style="font-weight: bolder;" class="o_default_snippet_text">How to get
+                                                property loan
+                                                with less interest?
+                                            </span>
+                                        </span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="loan_testimonial" name="Loan Testimonial">
+            <section class="pt64 pb64 bg-white oe_custom_bg" id="testimonials_d1" style="">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="font-size: 36px;" class="o_default_snippet_text">What Our Client Say</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567429567034" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567429567034" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1567429567034" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_loan_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Donny Grafin,&amp;nbsp;
+                                                <b class="o_default_snippet_text">Student Loan</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_loan_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Mary Randle&amp;nbsp;
+                                                <b class="o_default_snippet_text">Personal Loan</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_loan_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip556076"/>
+                                            <span class="o_default_snippet_text">— Donny Grafin,&amp;nbsp;
+                                                <b class="o_default_snippet_text">Student Loan</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">Write a quote here from one of
+                                            your customers. Quotes are a great way to build confidence
+                                            in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_loan_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip107812"/>
+                                            <span class="o_default_snippet_text">— Mary Randle&amp;nbsp;
+                                                <b class="o_default_snippet_text">Personal Loan</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Contact Start-->
+        <template id="loan_contact" name="Loan Contact">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-12 text-center">
+                            <h2>
+                                <font style="font-size: 36px;" class="o_default_snippet_text">Need More Help?</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_loan_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip986152" style=""/>
+                                <h3 class="o_default_snippet_text">Live Help</h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary o_default_snippet_text" data-original-title=""
+                                       title="" aria-describedby="tooltip781202">Read
+                                        more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_loan_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip986152"/>
+                                <h3 class="o_default_snippet_text">Call Us</h3>
+                                <p class="o_default_snippet_text">Any time call during business hours&amp;nbsp;</p>
+                                <h1 class="text-big"
+                                    style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; line-height: 44px; color: rgb(245, 31, 138); font-size: 20px; transition: all 0.3s ease-in-out 0s; letter-spacing: -1px;">
+                                    <font style="font-size: 18px;" class="o_default_snippet_text">800-123-456 / 789
+                                    </font>
+                                </h1>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary o_default_snippet_text">Read
+                                        more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_loan_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip986152"/>
+                                <h3 class="o_default_snippet_text">FAQ'S</h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary o_default_snippet_text">Read
+                                        more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Footer Start-->
+        <template id="loan_footer" name="Loan Footer">
+            <section class="oe_structure mb32" id="footer">
+                <div class="pt64 pb32" id="footer_7">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb16">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                     src="/logo.png" alt="Logo of YourCompany"
+                                     title="YourCompany"/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-3 offset-md-3 mb48">
+                                <div class="input-group js_subscribe hidden" data-list-id="2" data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control br-left"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn br-right px-3 py-2 btn-primary js_subscribe_btn o_default_snippet_text">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt64" id="footer_16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-3 pb16">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">About Us</font>
+                                </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla.
+                                </p>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-2 col-lg-2 pb16">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">
+                                        Menu
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip558347">Home
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip871119">About us
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip9899">Services
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">Features</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip786625">Testimonials
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>&amp;nbsp;
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip588667">Contact
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-2 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">Get A Loan</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>Car Loan</li>
+                                    <li>Home Loan</li>
+                                    <li>Personal Loan</li>
+                                    <li>Property Loan</li>
+                                    <li>Business Loan</li>
+                                    <li>Student Loan</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 pb16">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">
+                                        Contact Us
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <address class="o_default_snippet_text">
+                                            <b class="o_default_snippet_text">Address</b>
+                                            <br/>
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </address>
+                                    </li>
+                                    <li class="pb16">
+                                        <b>Email</b>
+                                        <br/>
+                                        <p t-field="res_company.email"/>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <b class="o_default_snippet_text">Phone</b>
+                                        <br/>
+                                        <p t-field="res_company.phone"/>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">
+                                        Business Hours
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">Monday - Saturday
+                                        <br/>
+                                        8 AM - 5 PM EST
+                                    </li>
+                                </ul>
+                                <h5 class="pt16 pb16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">
+                                        Social Media
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2 text-white"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter px-2 text-white"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin px-2 text-white"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-pinterest px-2 text-white"/>
+                                    </a>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <a href="#">
+                                        <i class="fa fa-behance px-2 text-white"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-dribbble px-2 text-white"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus px-2 text-white"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2 text-white"/>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Loan Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_loan_ultimate_01.loan_banner"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_counter"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_service"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_process"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_feature"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_brandlogo"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_news"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_testimonial"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_contact"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_loan_ultimate_01.loan_footer"
+                           t-thumbnail="/theme_loan_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

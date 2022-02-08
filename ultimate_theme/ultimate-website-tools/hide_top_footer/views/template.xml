@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="layout_inherit" inherit_id="website.layout" name="Main layout">
+        <!-- Page options -->
+        <xpath expr="//div[@id='wrapwrap']" position="before">
+            <t groups="website.group_website_publisher">
+                <t t-foreach="['header_hide','footer_hide']" t-as="optionName">
+                    <input t-if="optionName in main_object" type="hidden"
+                           class="o_page_option_data"
+                           t-att-name="optionName"
+                           t-att-value="main_object[optionName]"/>
+                </t>
+            </t>
+        </xpath>
+
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class"
+                       add="#{'o_header_hide' if 'header_hide' in main_object and main_object.header_hide else ''}"
+                       separator=" "/>
+             <attribute name="t-attf-class"
+                       add="#{'o_footer_hide' if 'footer_hide' in main_object and main_object.footer_hide else ''}"
+                       separator=" "/>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_warehouse,stock.stock_warehouse,stock.model_stock_warehouse,,1,0,0,0
+access_stock_location,stock.stock_location,stock.model_stock_location,,1,0,0,0
+access_stock_move,stock.stock_move,stock.model_stock_move,,1,0,0,0
+access_stock_quant,stock.stock_quant,stock.model_stock_quant,,1,0,0,0
+access_product_uom,product.product_uom,product.model_product_uom,,1,0,0,0
+access_stock_notify,access_stock_notify,model_stock_notify,,1,0,0,0

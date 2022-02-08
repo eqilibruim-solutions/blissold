@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="noon_acquirer_button">
+				<input type="hidden" name="data_set" t-att-data-action-url="payment_url" data-remove-me=""/>
+				<input type="hidden" name="secret_key" t-att-value="secret_key" />
+				<input type="hidden" name="amount" t-att-value="amount" />
+				<input type="hidden" name="currency" t-att-value="currency" />
+				<input type="hidden" name="other_charges" t-att-value="other_charges" />
+				<input type="hidden" name="reference_no" t-att-value="reference_no" />
+				<!-- URLs <input t-if="paytab_site" type='hidden' name='site_url' t-att-value="paytab_site" 
+					/> -->
+				<input t-if="return_url" type='hidden' name='return_url'
+					t-att-value="return_url" />
+		</template>
+	</data>
+</odoo>

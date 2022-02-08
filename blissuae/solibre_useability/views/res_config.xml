@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.sale.order.auto.invoice</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="sale.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+			<xpath expr="//div[@id='confirmation_email_setting']" position="after">
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_left_pane">
+                        <field name="sale_auto_invoice"/>
+                    </div>
+                     <div class="o_setting_right_pane">
+                        <label for="sale_auto_invoice"/>
+                        <span class="fa fa-lg fa-check"/>
+                        <div class="text-muted">
+                            Automatically create and validate invoice on SO confirmation
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_left_pane">
+                        <field name="sale_auto_pay"/>
+                    </div>
+                     <div class="o_setting_right_pane">
+                        <label for="sale_auto_pay"/>
+                        <span class="fa fa-lg fa-check"/>
+                        <div class="text-muted">
+                            Automatically prompt for payment
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_left_pane">
+                    </div>
+                     <div class="o_setting_right_pane">
+                        <div class="row mt16">
+                            <label for="sale_approver_id" class="col-lg-4 o_light_label"/>
+                            <field name="sale_approver_id"/>
+                        </div>
+                        <div class="row mt16">
+                            <label for="sale_approval_amount" class="col-lg-4 o_light_label"/>
+                            <field name="sale_approval_amount"/>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="res_config_settings_view_form_purchase" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.purchase</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="purchase.res_config_settings_view_form_purchase"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='purchase_setting_container']/div[hasclass('o_setting_box')]/div[hasclass('o_setting_right_pane')]/div[hasclass('content-group')]" position="inside">
+                <div class="row mt16">
+                    <label for="purchase_approver_id" class="col-lg-4 o_light_label"/>
+                    <field name="purchase_approver_id"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+    
+    
+    <record id="res_config_settings_view_form_company" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.company</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>    
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='companies']" position="inside">
+                <div class="row mt16 o_settings_container">
+                    <div class="col-12 col-lg-6 o_setting_box" id="companies_setting_inherit">
+                        <div class="o_setting_right_pane">
+                            <label for="company_shortname" class="col-lg-4 o_light_label"/>
+                            <field name="company_shortname"/>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>

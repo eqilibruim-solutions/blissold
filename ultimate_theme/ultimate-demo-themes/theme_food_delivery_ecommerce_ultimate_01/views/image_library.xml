@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_1</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_1</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/icon_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_2</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_2</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/craft_burger.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_3</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_3</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/icon_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_4</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_4</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/icon_03.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_5</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_5</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_6</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_6</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/news_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_7</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_7</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/news_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_8</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_8</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/food_delivery_ecommerce_ultimate_01_logo.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_9</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_9</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/icon_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_10</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_10</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/block_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_11</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_11</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/online_order.png</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_12</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_12</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/block_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_13</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_13</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/news_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_food_delivery_ecommerce_ultimate_01.image_content_14</field>
+            <field name="name">theme_food_delivery_ecommerce_ultimate_01.image_content_14</field>
+            <field name="url">/theme_food_delivery_ecommerce_ultimate_01/static/src/img/library/bg-newsletter.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

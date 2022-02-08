@@ -1,0 +1,890 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="kindergarten_banner" name="Kindergarten Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_kindergarten_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Welcome To
+                                    Kiddie!
+                                </font>
+                            </h1>
+                            <h1 class="s_title_thin text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Play, Learn and
+                                    Graw Together
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="s_text pt16 pb16 col-lg-8" data-name="Text">
+                            <p class="lead text-left o_default_snippet_text" style="text-align: center;">
+                                <font class="o_default_snippet_text" style="color: rgb(255, 255, 255);">Write one or two
+                                    paragraphs describing
+                                    your product, services or a specific feature. &amp;nbsp;
+                                </font>
+                                <font class="o_default_snippet_text" style="color: rgb(255, 255, 255);">To be successful
+                                    your content needs to
+                                    be useful to your readers. &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Buttons">
+                            <a href="#" class="btn btn-alpha flat btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip35116">LET's GO
+                            </a>
+                            <a href="#" class="btn btn-alpha flat btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip447574">Contact us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us Start-->
+        <template id="kindergarten_aboutus" name="Kindergarten About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <b>
+                                    <font style="color: #333333;font-size: 36px;">THE CENTRE FOR EARLY CHILDHOOD</font>
+                                </b>
+                                <font style="color: rgb(66, 66, 66); font-size: 36px;">
+                                    <b/>
+                                    <b>EDUCATION</b>
+                                </font>
+                            </h2>
+                            <p class="text-center o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                ullamcorper sed.&amp;nbsp;
+                            </p>
+                            <div class="row pt64 align-items-center">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-right">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px pe-7s-video" data-original-title="" title=""
+                                           aria-describedby="tooltip213531" style="color: rgb(255, 156, 0);"/>
+                                        <h3 class="pt8 pb8">
+                                            <b class="o_default_snippet_text">Music Class</b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.&amp;nbsp;
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px pe-7s-settings" data-original-title="" title=""
+                                           aria-describedby="tooltip525958" style="color: rgb(107, 165, 74);"/>
+                                        <h3 class="pb8 pt8">
+                                            <b class="o_default_snippet_text">Swimming</b>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut
+                                            mattis leo ullamcorper sed.&amp;nbsp;
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         alt="molile" class="img-fluid pt8 pb8"
+                                         data-original-title="" title="" aria-describedby="tooltip360979"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-left">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px pe-7s-map" data-original-title="" title=""
+                                           aria-describedby="tooltip587353" style="color: rgb(57, 132, 198);"/>
+                                        <h3 class="pt8 pb8">
+                                            <b class="o_default_snippet_text">Art Class</b>
+                                        </h3>
+                                        <p>
+                                            <span style="text-align: right;" class="o_default_snippet_text">Lorem ipsum
+                                                dolor sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                                Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                            </span>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px fa-address-card-o pe-7s-news-paper"
+                                           data-original-title="" title="" aria-describedby="tooltip499516"
+                                           style="color: rgb(231, 99, 99);"/>
+                                        <h3 class="pt8 pb8">
+                                            <b class="o_default_snippet_text">Excellent Learning</b>
+                                        </h3>
+                                        <p>
+                                            <span style="text-align: right;" class="o_default_snippet_text">Lorem ipsum
+                                                dolor sit amet, consectetur adipiscing elit. Ut at semper metus.
+                                                Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                            </span>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet CTA 1 Start-->
+        <template id="kindergarten_cta1" name="Kindergarten CTA 1">
+            <section class="s_call_to_action sni-block pt64 pb64 bg-gamma oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-7 offset-lg-1">
+                            <h2 class="s_line_height_2">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="s_line_height_1">Apply Now For Your Kids
+                                    </font>
+                                </b>
+                            </h2>
+                            <p class="o_default_snippet_text s_title_boxed">
+                                <font style="color: rgb(255, 255, 255);">Lorem Ipsum is simply dummy
+                                    text of the printing and typesetting industry.galley of type and
+                                    scrambled it to make a type specimen book. It has survived
+                                    electronic typesetting, remaining essentially Lorem Ipsum.&amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-3">
+                            <p>
+                                <a href="#" class="btn btn-primary flat btn-lg" data-original-title=""
+                                   title="" aria-describedby="tooltip340136">JOIN NOW
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA 1 End-->
+
+        <!--Snippet Service Start-->
+        <template id="kindergarten_service" name="Kindergarten Service">
+            <section class="pt40 bg-white oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 offset-lg-2 col-lg-8">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;">OUR POPULAR COURSES</font>
+                                    </b>
+                                </h3>
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at
+                                    semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                    ullamcorper sed.&amp;nbsp;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Flower"
+                                     title="Flower"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;">DANCE CLASS</font>
+                                        </b>
+                                    </h3>
+                                    <h3/>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus. Vestibulum gravida velit
+                                        urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                    </p>
+                                    <a href="#" target="_blank" class="btn btn-alpha btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip367120">
+                                        <font style="font-size: 14px;">
+                                            APPLY NOW
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;">PHYSICAL ACTIVITIES</font>
+                                        </b>
+                                    </h3>
+                                    <h3/>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus. Vestibulum gravida velit
+                                        urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                    </p>
+                                    <a href="#" target="_blank" class="btn btn-alpha btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip367120">
+                                        <font style="font-size: 14px;">
+                                            APPLY NOW
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     alt="Image"
+                                     title="Image"
+                                     class="img-fluid"/>
+                                <div class="card-body">
+                                    <h3>
+                                        <b>
+                                            <font style="font-size: 18px;">ART CLASS</font>
+                                        </b>
+                                    </h3>
+                                    <h3/>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut at semper metus. Vestibulum gravida velit
+                                        urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                    </p>
+                                    <a href="#" target="_blank" class="btn btn-alpha btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip367120">
+                                        <font style="font-size: 14px;">
+                                            APPLY NOW
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Facility Start-->
+        <template id="kindergarten_facility" name="Kindergarten Facility">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_kindergarten_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <font style="font-size: 36px;">
+                                    <b>WHAT WE OFFER</b>
+                                </font>
+                            </h2>
+                            <p class="text-center o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                ullamcorper sed.&amp;nbsp;
+                            </p>
+                            <h2 class="text-center">
+                                <font style="font-size: 36px;"/>
+                            </h2>
+                            <div class="row text-center pt64">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-4x fa-500px pe-7s-like" data-original-title="" title=""
+                                       aria-describedby="tooltip125660" style="color: rgb(255, 156, 0);"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;">LOVE AND CARE</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.&amp;nbsp;
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-4x fa-500px fa-life-ring pe-7s-car" data-original-title="" title=""
+                                       aria-describedby="tooltip690095" style="color: rgb(57, 132, 198);"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;">TRANSPORTATION</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.&amp;nbsp;
+                                        <br/>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-4x fa-500px pe-7s-study" data-original-title="" title=""
+                                       aria-describedby="tooltip313746" style="color: rgb(107, 165, 74);"/>
+                                    <h3 class="pb8 pt8">
+                                        <b>
+                                            <font style="font-size: 18px;">EXPERIENCE TEACHERS</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.&amp;nbsp;
+                                        <br/>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-4x fa-500px pe-7s-plugin" data-original-title="" title=""
+                                       aria-describedby="tooltip853351" style="color: rgb(231, 99, 99);"/>
+                                    <h3 class="pt8 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;">HEALTHY MEALS</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus.&amp;nbsp;
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facility End-->
+
+        <!--Snippet Team Start-->
+        <template id="kindergarten_team" name="Kindergarten Team">
+            <section class="sni-block pt64 pb64 bg-white oe_custom_bg" id="team_7">
+                <div class="container">
+                    <div class="row text-center mb48">
+                        <div class="col-12">
+                            <h2 class="text-white">
+                                <font style="color: rgb(0, 0, 0); font-size: 36px;">
+                                    <b>QUALIFIED TEACHERS</b>
+                                </font>
+                            </h2>
+                            <p class="text-center o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                ullamcorper sed.&amp;nbsp;
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="row">
+                        <li class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="content-block">
+                                <img class="img-fluid rounded-circle"
+                                     src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-user1.png"
+                                     data-original-title="" title="" aria-describedby="tooltip344680"/>
+                                <h3>
+                                    <b class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">ALBERT COLE</font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">
+                                    <font class="o_default_snippet_text text-beta" style="font-size: 14px;">Lorem Ipsum
+                                        is simply dummy text of the printing&amp;nbsp;
+                                    </font>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="content-block">
+                                <img class="img-fluid rounded-circle"
+                                     src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-user1.png"
+                                     data-original-title="" title="" aria-describedby="tooltip34970"/>
+                                <h3>
+                                    <a href="#" data-original-title="" title="" aria-describedby="tooltip564981">
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text" data-original-title="" title=""
+                                               aria-describedby="tooltip824413">DAVID WARNER
+                                            </b>
+                                        </font>
+                                    </a>
+                                </h3>
+                                <p class="o_default_snippet_text">
+                                    <font class="o_default_snippet_text text-beta" style="font-size: 14px;">Lorem Ipsum
+                                        is simply dummy text of the printing&amp;nbsp;
+                                    </font>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="content-block">
+                                <img class="img-fluid rounded-circle"
+                                     src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-user1.png"
+                                     data-original-title="" title="" aria-describedby="tooltip659790"/>
+                                <h3>
+                                    <b class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">ROSEY RILE</font>
+                                    </b>
+                                </h3>
+                                <p class="o_default_snippet_text">
+                                    <font class="o_default_snippet_text text-beta" style="font-size: 14px;">Lorem Ipsum
+                                        is simply dummy text of the printing&amp;nbsp;
+                                    </font>
+                                </p>
+                                <ul class="follow-us clearfix">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="kindergarten_testimonial" name="Kindergarten Testimonial">
+            <section class="pt64 pb64 bg-gamma oe_img_bg oe_custom_bg" id="testimonials_d2">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">WHAT PARENTS SAYS
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1564654489022"
+                     class="s_quotes_carousel carousel slide s_carousel_default" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1564654489022" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1564654489022" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 oe_custom_bg active" data-name="Slide"
+                             style="min-height: 456px;">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 ">
+                                        <p class="lead mt32 mb32 text-center">
+                                            <font style="color: rgb(255, 255, 255);">Write a quote here
+                                                from one of your customers. Quotes are a great way to
+                                                build confidence in your products or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <font style="color: rgb(255, 255, 255);">&amp;nbsp;Albert
+                                                Smith
+                                            </font>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide"
+                             style="min-height: 456px;">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote
+                                            class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Write a quote here
+                                                from one of your customers. Quotes are a great way to
+                                                build confidence in your products or services.&amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt="" data-original-title="" title=""
+                                                 aria-describedby="tooltip781946"/>
+                                            <span>
+                                                <font style="color: rgb(255, 255, 255);">Jane</font>
+                                                <font style="color: rgb(255, 255, 255);">DOE</font>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1564654489022"
+                         data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1564654489022"
+                         data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet News Start-->
+        <template id="kindergarten_news" name="Kindergarten News">
+            <section class="bg-white oe_custom_bg pt64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 offset-lg-2 col-lg-8">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <b>
+                                        <font style="font-size: 36px;">RECENT NEWS</font>
+                                    </b>
+                                </h3>
+                                <p class="text-center o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                    ullamcorper sed.&amp;nbsp;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;">WONDERLAND'S CAMP</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <p class="o_default_snippet_text">16 Jun
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;">ALPHABET GAMING</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;&amp;nbsp;
+                                <br/>
+                            </p>
+                            <p class="o_default_snippet_text">16 Sep
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_kindergarten_ultimate_01/static/src/img/placeholder-600.jpg" alt="image"
+                                 title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <b>
+                                    <font style="font-size: 18px;">ART CELEBRATION</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo ullamcorper sed.&amp;nbsp;&amp;nbsp;
+                                <br/>
+                            </p>
+                            <p class="o_default_snippet_text">12 Dec
+                                <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet CTA 2 Start-->
+        <template id="kindergarten_cta2" name="Kindergarten CTA 2">
+            <section class="s_call_to_action sni-block pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_kindergarten_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-7 offset-lg-1">
+                            <h2>
+                                <font style="color: rgb(0, 0, 0); font-size: 36px;">
+                                    <b>Enroll Your Child To a Class</b>
+                                </font>
+                            </h2>
+                            <p class="s_title_boxed o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.galley of type and scrambled it to make a type
+                                specimen book. It has survived electronic typesetting, remaining essentially Lorem
+                                Ipsum.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-3">
+                            <p>
+                                <a href="#" class="btn btn-alpha btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip828126">
+                                    <font style="color: rgb(255, 255, 255);">ENROLL NOW</font> &amp;nbsp;
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet CTA 2 End-->
+
+        <!--Snippet Footer Start-->
+        <template id="kindergarten_footer" name="Kindergarten Footer">
+            <section id="footer" class="oe_structure oe_structure_solo oe_custom_bg" t-ignore="true"
+                     t-if="not no_footer"
+                     style="border-top:none; background-image: url(&quot;/theme_kindergarten_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="oe_structure oe_img_bg" id="footer">
+                    <div class="pt64 pb32 oe_img_bg" id="footer_3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                    <img style="margin:0 auto;" class="img img-responsive img-fluid"
+                                         src="/logo.png"
+                                         alt="Logo of YourCompany" title="YourCompany"/>
+                                    <p class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                    <div>
+                                        <a t-att-href="res_company.social_facebook">
+                                            <i class="fa fa-facebook mx-1 rounded-circle text-alpha"
+                                               data-original-title="" title="" aria-describedby="tooltip366790"
+                                               style=""/>
+                                        </a>
+                                        <a t-att-href="res_company.social_twitter">
+                                            <i class="fa fa-twitter mx-1 rounded-circle text-alpha"
+                                               data-original-title="" title="" aria-describedby="tooltip4818" style=""/>
+                                        </a>
+                                        <a t-att-href="res_company.social_instagram">
+                                            <i class="fa fa-instagram mx-1 rounded-circle text-alpha"
+                                               data-original-title="" title="" aria-describedby="tooltip543969"
+                                               style=""/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus mx-1 rounded-circle text-alpha"
+                                               data-original-title="" title="" aria-describedby="tooltip151638"
+                                               style=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32 pb0">
+                                    <h5>
+                                        <b>
+                                            <font style="color: rgb(255, 255, 255); font-size: 24px;"
+                                                  class="o_default_snippet_text">Usefull Links
+                                            </font>
+                                        </b>
+                                    </h5>
+                                    <ul class="list-unstyled text-uppercase mt24">
+                                        <li class="mb8">
+                                            <a href="#">
+                                                <font style="color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text">HOME
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#">
+                                                <font style="color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text">CLASSES
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#">
+                                                <font style="color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text">OUR TEACHER
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#">
+                                                <font style="color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text">NEWS
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#">
+                                                <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                                      title="" aria-describedby="tooltip556403"
+                                                      class="o_default_snippet_text">CONTACT
+                                                </font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                    <h5>
+                                        <span style="color: rgb(255, 255, 255); font-size: 24px;">
+                                            <b class="o_default_snippet_text">Categories</b>
+                                        </span>
+                                    </h5>
+                                    <ul class="list-unstyled text-uppercase mt24">
+                                        <li class="mb8">
+                                            <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                PAINTING
+                                            </font>
+                                        </li>
+                                        <li class="mb8">
+                                            <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                ARTs
+                                            </font>
+                                        </li>
+                                        <li class="mb8">
+                                            <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                MUSIC
+                                            </font>
+                                        </li>
+                                        <li class="mb8">
+                                            <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                SPORTS
+                                            </font>
+                                        </li>
+                                        <li class="mb8">
+                                            <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                LIFE SCIENCE
+                                            </font>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                    <h5 class="mb24 o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255); font-size: 24px;">
+                                            <b class="o_default_snippet_text">Our Newsletter</b>
+                                        </font>
+                                    </h5>
+                                    <p class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Lorem Ipsum is simply dummy text of
+                                            the printing and typesetting industry. Lorem Ipsum has been the
+                                            industry's standard dummy.&amp;nbsp;
+                                        </font>
+                                    </p>
+                                    <div class="input-group js_subscribe hidden d-block" data-list-id="2"
+                                         data-subscribe="off">
+                                        <input type="email" name="email"
+                                               class="js_subscribe_email form-control w-100 mb8"
+                                               placeholder="your email..."/>
+                                        <div class="input-group-btn">
+                                            <a href="#" class="btn btn-primary js_subscribe_btn w-100"
+                                               data-original-title="" title="" aria-describedby="tooltip812387">
+                                                <font style="color: rgb(255, 255, 255);" data-original-title=""
+                                                      title="" aria-describedby="tooltip874542">&amp;nbsp;Subscribe&amp;nbsp;
+                                                </font>
+                                            </a>
+                                            <a href="#"
+                                               class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                               disabled="disabled">Thanks
+                                            </a>
+                                        </div>
+                                        <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks
+                                            for your subscription!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Kindergarten Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_banner"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_aboutus"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_cta1"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_service"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_facility"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_team"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_testimonial"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_news"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_cta2"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_kindergarten_ultimate_01.kindergarten_footer"
+                           t-thumbnail="/theme_kindergarten_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

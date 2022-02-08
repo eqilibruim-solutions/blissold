@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_sms_composer_form_inherit">
+        <field name="name">sms.composer.form.inherit</field>
+        <field name="model">sms.composer</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="sms.sms_composer_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_send_sms']" position="after">
+                <button string="Send WhatsApp" type="object" class="oe_highlight" name="action_send_whatsapp"
+                        attrs="{'invisible': [('composition_mode', 'not in', ('comment', 'numbers'))]}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

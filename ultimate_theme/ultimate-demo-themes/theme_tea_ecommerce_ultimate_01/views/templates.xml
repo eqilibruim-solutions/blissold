@@ -1,0 +1,260 @@
+<odoo>
+    <data>
+
+        <!--Snippet Sale start-->
+        <template id="tea_sale" name="Tea Sale">
+            <section class="pt64 pb64" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2 style="text-align: right; ">
+                                        <font style="color: rgb(0, 0, 0); font-size: 36px;" class="bg-beta">
+                                            50%
+                                        </font>
+                                        <font style="color: rgb(255, 255, 255); font-size: 36px;">
+
+                                        </font>
+                                        <font style="color: rgb(255, 255, 255); font-size: 36px;" class="bg-gamma">
+                                            DISCOUNTS
+                                        </font>
+                                    </h2>
+                                    <p style="text-align: right; ">
+                                        <font style="color: rgb(0, 0, 0); font-size: 24px;">WINTER SALE</font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2>
+                                        <font style="color: rgb(99, 99, 99); font-size: 24px;">
+                                            <b>GET PERSONAL</b>
+                                        </font>
+                                    </h2>
+                                    <h2>
+                                        <font style="background-color: rgb(156, 156, 148); color: rgb(255, 255, 255); font-size: 36px;">
+                                            DISCOUNT
+                                        </font>
+                                    </h2>
+                                    <p>
+                                        <a href="#" class="flat btn btn-alpha flat" data-original-title="" title=""
+                                           aria-describedby="tooltip986253">
+                                            <b>Shop Now</b>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale End-->
+
+        <!--Snippet Newsletter start-->
+        <template id="tea_newsletter" name="Tea Newsletter">
+            <section class="pt64 pb32 oe_img_bg oe_custom_bg" id="footer_17"
+                     style="background-image: url(&quot;/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 pb32">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-md-12 col-sm-12 mb16">
+                                    <h6 style="text-align: center; ">
+                                        <font style="font-size: 36px;">
+                                            <b>OUR NEWSLETTER</b>
+                                        </font>
+                                    </h6>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6">
+                                    <div class="input-group js_subscribe hidden" data-list-id="2" data-subscribe="off">
+                                        <input type="email" name="email"
+                                               class="js_subscribe_email form-control rounded-0"
+                                               placeholder="your email..." style="height: 40px;"/>
+                                        <span class="input-group-btn">
+                                            <a href="#"
+                                               class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0 py-2">
+                                                Subscribe
+                                            </a>
+                                            <a href="#"
+                                               class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none py-2"
+                                               disabled="disabled">Thanks
+                                            </a>
+                                        </span>
+                                        <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                            Thanks for your subscription!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet News start-->
+        <template id="tea_news" name="Tea News">
+            <section class="pt64 pb64" id="news_two">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb64">
+                            <h2 class="o_default_snippet_text">
+                                <b>
+                                    <font style="font-size: 36px;">RECENT NEWS</font>
+                                </b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip38303"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#">Happiness is cup of tea</a>
+                                        <br/>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2016
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn o_default_snippet_text">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip523602"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#">Making your morning perfect with tea</a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2016
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn o_default_snippet_text">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div class="hover_effect">
+                                    <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <h5 class="font-weight-bold pb-2">
+                                        <a href="#">Benefits of Green and Black Tea</a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-2">
+                                            <i class="fa fa-calendar"/>
+                                            June 7, 2016
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn o_default_snippet_text">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Brand Logo start-->
+        <template id="tea_brand_logo" name="Tea Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_tea_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Tea Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_tea_ecommerce_ultimate_01.tea_sale"
+                           t-thumbnail="/theme_tea_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ecommerce_ultimate_01.tea_newsletter"
+                           t-thumbnail="/theme_tea_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ecommerce_ultimate_01.tea_news"
+                           t-thumbnail="/theme_tea_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tea_ecommerce_ultimate_01.tea_brand_logo"
+                           t-thumbnail="/theme_tea_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

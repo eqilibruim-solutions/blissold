@@ -1,0 +1,680 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="bike_banner" name="Bike Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">Best Offer</font>
+                            </h1>
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <b>
+                                    <font style="color: rgb(255, 255, 255);">10% - 20% Off</font>
+                                </b>
+                            </h1>
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;">Try Before You Buy</font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font style="color: rgb(255, 255, 255);">&amp;nbsp;Write one or two paragraphs
+                                    describing your product, services or a specific feature.
+                                    &amp;nbsp;
+                                </font>
+                                <br/>
+                                <font style="color: rgb(255, 255, 255);">&amp;nbsp;To be successful your content needs
+                                    to be useful to your readers.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-lg btn-outline-primary mb8 mt8 rounded-circle"
+                               data-original-title="" title="" aria-describedby="tooltip379729">Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Sale Image Start-->
+        <template id="bike_sale_image" name="Bike Sale Image">
+            <section class="pt64 pb64" id="ecommerce_block_1" style="">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Image End-->
+
+        <!--Snippet Product Carousel 1 Start-->
+        <template id="bike_product_carousel_1" name="Bike Product Carousel 1">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-8 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="mt32 mb32">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12" style="">
+                                                <ul class="nav nav-tabs border-0" role="tablist" id="proTab">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active show border-0" data-toggle="tab"
+                                                           href="#nav_tabs_content_1582606010589_20" role="tab"
+                                                           id="nav_tabs_link_1582606010589_20"
+                                                           aria-controls="nav_tabs_content_1582606010589_20"
+                                                           aria-selected="true" data-original-title="" title=""
+                                                           aria-describedby="tooltip187410">Bmx Bikes
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link border-0" data-toggle="tab"
+                                                           href="#nav_tabs_content_1582606010590_21" role="tab"
+                                                           id="nav_tabs_link_1582606010590_21"
+                                                           aria-controls="nav_tabs_content_1582606010590_21"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip226341">Road Bikes
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade active show"
+                                                         id="nav_tabs_content_1582606010589_20" role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1582606010589_20">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d11"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="3" id="new_products_item_d11"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in" id="nav_tabs_content_1582606010590_21"
+                                                         role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1582606010590_21">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d11"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="3" id="new_products_item_d11"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="pt64 pb64">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-12 col-md-12 col-sm-12 text-center pt56">
+                                                <img src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-270x370.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel 1 End-->
+
+        <!--Snippet Product Carousel 2 Start-->
+        <template id="bike_product_carousel_2" name="Bike Product Carousel 2">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-7 col-lg-9 mh100">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="mt32 mb32">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12" style="">
+                                                <ul class="nav nav-tabs border-0" role="tablist" id="proTab">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active show border-0" data-toggle="tab"
+                                                           href="#nav_tabs_content_1582607535333_9" role="tab"
+                                                           id="nav_tabs_link_1582607535333_9"
+                                                           aria-controls="nav_tabs_content_1582607535333_9"
+                                                           aria-selected="true" data-original-title="" title=""
+                                                           aria-describedby="tooltip68519">Bikes
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link border-0" data-toggle="tab"
+                                                           href="#nav_tabs_content_1582607535333_10" role="tab"
+                                                           id="nav_tabs_link_1582607535333_10"
+                                                           aria-controls="nav_tabs_content_1582607535333_10"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip150255">Wheels
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link o_default_snippet_text border-0"
+                                                           data-toggle="tab"
+                                                           href="#nav_tabs_content_1582607535333_11" role="tab"
+                                                           id="nav_tabs_link_1582607535333_11"
+                                                           aria-controls="nav_tabs_content_1582607535333_11"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip440320">Accessories
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade active show"
+                                                         id="nav_tabs_content_1582607535333_9" role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1582607535333_9">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d11"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="3" id="new_products_item_d11"
+                                                                    data-objects_in_row="2"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in" id="nav_tabs_content_1582607535333_10"
+                                                         role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1582607535333_10">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d11"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="3" id="new_products_item_d11"
+                                                                    data-objects_in_row="2"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in" id="nav_tabs_content_1582607535333_11"
+                                                         role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1582607535333_11">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d11"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="3" id="new_products_item_d11"
+                                                                    data-objects_in_row="2"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-3 mh100">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="pt64 pb64">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pt56">
+                                                <img src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-280x850.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel 2 End-->
+
+        <!--Snippet Mini Product Carousel Start-->
+        <template id="bike_mini_product_carousel" name="Bike Mini Product Carousel">
+            <section style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="pb64 pt0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-370x430.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-8 mh100">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="2"
+                                        id="new_products_item_mini_d1" style="" data-objects_in_row="3"
+                                        data-objects_limit="6"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mini Product Carousel End-->
+
+        <!--Snippet News Start-->
+        <template id="bike_news" name="Bike News">
+            <section class="pt64 pb64" id="news_one">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2 style="text-align: left; ">
+                                <font style="font-size: 36px;">
+                                    <b>RECENT NEWS</b>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16" style="text-align: left;">
+                                        <p class="mr-2 d-md-block d-lg-inline">JULY 23, 2019</p>
+                                        <p class="d-inline float-lg-right float-md-none">2 Comments</p>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip27949">
+                                            Downhill Mountain Biking
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100" data-original-title="" title=""
+                                         aria-describedby="tooltip880009"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16" style="text-align: left;">
+                                        <p class="mr-2 d-md-block d-lg-inline">JULY 23, 2019</p>
+                                        <p class="d-inline float-lg-right float-md-none">2 Comments</p>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip528257">
+                                            Active Biking Holidays
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+                            <div class="news_text">
+                                <div>
+                                    <img src="/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                         class="img-fluid w-100"/>
+                                </div>
+                                <div class="p-4 news_post">
+                                    <div class="pb16" style="text-align: left;">
+                                        <p class="mr-2 d-md-block d-lg-inline">JULY 23, 2019</p>
+                                        <p class="d-inline float-lg-right float-md-none">2 Comments</p>
+                                    </div>
+                                    <h5 class="font-weight-bold">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip470111">Top
+                                            Class Bike Performance
+                                        </a>
+                                    </h5>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ad assumenda culpa cumque dicta sint soluta voluptas eius
+                                        iusto modi reprehenderit sint soluta voluptas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="bike_newsletter" name="Bike Newsletter">
+            <section class="pt64 pb32 oe_img_bg oe_custom_bg" id="footer_7"
+                     style="background-image: url(&quot;/theme_bike_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-lg-left text-md-center mb16">
+                            <h3>
+                                <b>
+                                    <font style="font-size: 36px;">Subscribe Our Newsletter</font>
+                                </b>
+                            </h3>
+                            <p>
+                                <span style="color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">
+                                    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-6 offset-md-2 offset-lg-0 mb48 pt16">
+                            <div class="input-group js_subscribe hidden" data-list-id="1" data-subscribe="off">
+                                <input type="email" name="email" class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..."/>
+                                <span class="input-group-btn">
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-primary js_subscribe_btn o_default_snippet_text">
+                                        Subscribe
+                                    </a>
+                                    <a href="#"
+                                       class="btn br-right px-3 py-2 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for your
+                                    subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Footer Start-->
+        <template id="bike_footer" name="Bike Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32 oe_custom_bg" id="footer_17">
+                    <div class="container">
+                        <div class="row border p-4">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="media sepretor">
+                                    <i class="fa fa-3x text_style pe-7s-car fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip236327" style=""/>
+                                    <div class="icon_border"/>
+                                    <div class="media-body px-3">
+                                        <p class="mb0">
+                                            <font style="font-size: 24px;">Free Shipping</font>
+                                        </p>
+                                        <p>Free Shipping Over $250</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="media sepretor">
+                                    <i class="fa fa-3x text_style pe-7s-headphones fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip177457" style=""/>
+                                    <div class="icon_border"/>
+                                    <div class="media-body px-3">
+                                        <p class="mb0">
+                                            <font style="font-size: 24px;">Online Support</font>
+                                        </p>
+                                        <p class="o_default_snippet_text">002 01065370701</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="media">
+                                    <i class="fa fa-3x text_style pe-7s-cash fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip176314" style=""/>
+                                    <div class="icon_border"/>
+                                    <div class="media-body px-3">
+                                        <p class="mb0">
+                                            <font style="font-size: 24px;">Money Guarantee</font>
+                                        </p>
+                                        <p>As Per Return Policy</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt64">
+                            <div class="col-12 col-sm-12 col-md-6 mb32 col-lg-3">
+                                <p class="o_default_snippet_text">
+                                    <font class="text-gamma" style="">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy.&amp;nbsp;
+                                    </font>
+                                </p>
+                                <div class="media">
+                                    <i class="fa fa-map-marker mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font class="text-gamma" style="">Address :</font>
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                <span t-field="res_company.street"/>
+                                                <span t-field="res_company.city"/>
+                                                <span t-field="res_company.state_id.name"/>
+                                                <span t-field="res_company.zip"/>
+                                                <span t-field="res_company.country_id.name"/>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <i class="fa fa-phone mr-2 fa-2x"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">
+                                            <font class="text-gamma" style="">Call us &amp;amp; Hire us :</font>
+                                        </p>
+                                        <p class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">
+                                                <span t-field="res_company.phone"/>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 offset-lg-1 mb32">
+                                <h5 style="&#10;    color: #ffe6dc;&#10;">
+                                    <font style="font-size: 24px;">
+                                        <b>Quick Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Product Details</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Product Category</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Product Delivery</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Online Payment</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="o_default_snippet_text" style="&#10;    color: #ffe6dc;&#10;">
+                                    <font style="font-size: 24px;">
+                                        <b>Usefull Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Order Slips</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Shipping Details</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Privacy Poicy</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Return Policy</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Contact Us</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5 style="&#10;    color: #ffe6dc;&#10;">
+                                    <b>
+                                        <font style="font-size: 24px;">Account</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Sign In</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">View Cart</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">My Wishlist</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Track Orders</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Help</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Bike Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_banner"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_sale_image"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_product_carousel_1"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_product_carousel_2"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_mini_product_carousel"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_news"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_newsletter"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bike_ecommerce_ultimate_01.bike_footer"
+                           t-thumbnail="/theme_bike_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

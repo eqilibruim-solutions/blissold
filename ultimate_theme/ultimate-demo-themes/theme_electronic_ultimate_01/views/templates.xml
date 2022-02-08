@@ -1,0 +1,453 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner start-->
+        <template id="electronic_banner" name="Electronic Banner">
+            <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pb96 pt160"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_electronic_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="s_text col-lg-6 col-md-6 pt0 pb32" data-name="Text">
+                            <p class="lead" style="text-align: center;"/>
+                            <div style="text-align: left;">
+                                <h2 style="font-size: 62px;" class="text-alpha">One Solution For All Kind Of Electronic
+                                    Device
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="s_text bg-black pb0 pt0 offset-lg-1 col-lg-4 col-md-6" data-name="Text">
+                            <p class="lead" style="text-align: center;"/>
+                            <div style="text-align: left;">
+                                <br/>
+                                <b>
+                                    <span style="color: rgb(255, 255, 255); font-size: 18px;">See More</span>
+                                </b>
+                                <br/>
+                                <b>
+                                    <span style="color: rgb(255, 255, 255); font-size: 18px;">Offer</span>
+                                </b>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <font class="text-alpha o_default_snippet_text" style="">
+                                    _________________________________
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Overlay start-->
+        <template id="electronic_overlay" name="Electronic Overlay">
+            <section class="sni-block pt40 s_overlay_section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <img src="/theme_electronic_ultimate_01/static/src/img/placeholder-690x708.png"
+                                 class="img img-fluid mx-auto" alt="Odoo • Text and Image" data-original-title=""
+                                 title="" aria-describedby="tooltip809516"/>
+                        </div>
+                        <div class="col-lg-6 text-left mt-lg-auto mt-md-5">
+                            <h1 class="mb16">We Can Fix It Almost</h1>
+                            <h1 class="mb16">As Fast As You Can</h1>
+                            <h1 class="mb16">Break It.</h1>
+                            <p>
+                                <br/>
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-4 col-xl-6 mt8 mb8">
+                                    <img alt="image" class="sni-block-icon"
+                                         src="/theme_electronic_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <p>
+                                        <font style="font-size: 18px;">Low Cost</font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-4 col-xl-6 mt8 mb8">
+                                    <img alt="image" class="sni-block-icon"
+                                         src="/theme_electronic_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                    <p>
+                                        <font style="font-size: 18px;">Online Support</font>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xl-12 mt8 mb8">
+                                    <p>
+                                        <font style="font-size: 18px;">
+                                            <a href="#" class="btn btn-beta">Read More</a>
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Overlay End-->
+
+        <!--Snippet Service start-->
+        <template id="electronic_service" name="Electronic Service">
+            <section class="s_call_to_action sni-block bg-white oe_custom_bg pt64 pb0" style="">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8 text-center">
+                            <p class="lead">
+                                <font style="font-size: 18px;" class="text-alpha">Electronic Services</font>
+                                <br/>
+                            </p>
+                            <h2 class="lead">
+                                <font style="">
+                                    <span style="font-size: 36px;">
+                                        <b>What We Provide</b>
+                                    </span>
+                                    <br/>
+                                </font>
+                            </h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <p class="mt32 mb32">
+                                <font style="font-size: 18px;">
+                                    <a href="#" class="btn btn-alpha btn-lg" data-original-title="" title=""
+                                       aria-describedby="tooltip628689">
+                                        <font style="color: rgb(255, 255, 255);">View More</font>
+                                    </a>
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_features z_index_100 pt0 pb64">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="pt32 text-center pb56 offset-lg-1 col-lg-2 col-sm-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip440931"/>
+                            <h3 class="mt-3">Audio HIFI Repair</h3>
+                        </div>
+                        <div class="pt32 pb32 text-center col-lg-2 col-sm-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip114557"/>
+                            <h3 class="m-3">Cleaning Device Repair</h3>
+                        </div>
+                        <div class="pt32 pb32 text-center col-lg-2 col-sm-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip149321"/>
+                            <h3 class="mt-3">Camera Repair</h3>
+                        </div>
+                        <div class="pt32 pb32 text-center col-lg-2 col-sm-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip459876"/>
+                            <h3 class="mt-3">Washing Machine Repair</h3>
+                        </div>
+                        <div class="pt32 pb32 text-center col-lg-2 col-sm-6">
+                            <img class="img-fluid o_we_custom_image"
+                                 src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip257812"/>
+                            <h3 class="mt-3">Coffee Machine Repair</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Team start-->
+        <template id="electronic_team" name="Electronic Team">
+            <section class="sni-block content pt64 pb64 oe_img_bg oe_custom_bg" id="team_3"
+                     style="background-image: url(&quot;/theme_electronic_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb40 text-center">
+                                <h1>
+                                    <font style="color: rgb(255, 255, 255);">Meet Our Experts</font>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="team-block">
+                                    <div class="team-img">
+                                        <img class="img-fluid"
+                                             src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt=""
+                                             data-original-title="" title="" aria-describedby="tooltip880443"/>
+                                        <div class="team-content">
+                                            <h4 class="text-white mb0">Jhon Doe</h4>
+                                            <p class="team-meta text-alpha">CEO&amp;nbsp;</p>
+                                        </div>
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="mb0 text-white o_default_snippet_text">Member 1</h4>
+                                                <p class="mb30 team-meta o_default_snippet_text">- Web Designer</p>
+                                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                                    the printing and typesetting industry. Lorem Ipsum has been the
+                                                    industry's standard dummy text ever since the 1500s, when an unknown
+                                                    printer took a galley of type and scrambled it to make a type
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="team-block">
+                                    <div class="team-img">
+                                        <img class="img-fluid"
+                                             src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt=""
+                                             data-original-title="" title="" aria-describedby="tooltip330205"/>
+                                        <div class="team-content">
+                                            <h4 class="text-white mb0">Alexa Smith</h4>
+                                            <p class="team-meta text-alpha">Manager</p>
+                                        </div>
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="mb0 text-white o_default_snippet_text">Member 2</h4>
+                                                <p class="mb30 team-meta o_default_snippet_text">- Designer</p>
+                                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                                    the printing and typesetting industry. Lorem Ipsum has been the
+                                                    industry's standard dummy text ever since the 1500s, when an unknown
+                                                    printer took a galley of type and scrambled it to make a type
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="team-block">
+                                    <div class="team-img">
+                                        <img class="img-fluid"
+                                             src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt=""
+                                             data-original-title="" title="" aria-describedby="tooltip420919"/>
+                                        <div class="team-content">
+                                            <h4 class="mb0 text-white">&amp;nbsp;Will Crown</h4>
+                                            <p class="team-meta text-alpha">&amp;nbsp;Tester</p>
+                                        </div>
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="mb0 text-white o_default_snippet_text">Member 3</h4>
+                                                <p class="mb30 team-meta o_default_snippet_text">- Project Manager</p>
+                                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                                    the printing and typesetting industry. Lorem Ipsum has been the
+                                                    industry's standard dummy text ever since the 1500s, when an unknown
+                                                    printer took a galley of type and scrambled it to make a type
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Offer start-->
+        <template id="electronic_offer" name="Electronic Offer">
+            <section class="sni-block bg-white oe_custom_bg pb64 pt64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-lg-3">
+                            <img alt="image" class="img-fluid"
+                                 src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip502810"/>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <img alt="image" class="img-fluid"
+                                 src="/theme_electronic_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip377435"/>
+                        </div>
+                        <div class="col-12 col-lg-6 pt-3">
+                            <p class="lead text-left">
+                                <font class="text-alpha" style="font-size: 18px;">Our Values</font>
+                            </p>
+                            <h2 class="lead text-left">
+                                <font class="text-beta" style="font-size: 36px;">Why Choose Us?</font>
+                            </h2>
+                            <div class="s_btn pt16 pb16 text-left" data-name="Buttons">
+                                <a href="#" class="btn btn-primary btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip161664">
+                                    <font style="color: rgb(255, 255, 255);">Get Service Now</font>
+                                </a>
+                            </div>
+                            <p class="lead text-left o_default_snippet_text">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">There are many variations
+                                    of passages of Lorem Ipsum available, but the majority have suffered believable.
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Offer End-->
+
+        <!--Snippet Footer start-->
+        <template id="electronic_footer" name="Electronic Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                    <div id="footer_custom_d1" class="pt0 oe_custom_bg">
+                        <div class="container f_content container border-top pt32">
+                            <div class="row">
+                                <div class="col-md-4 mt8 mb8 footer-div column-3 col-lg-4">
+                                    <h4 class="mb32">
+                                        <font class="text-beta o_default_snippet_text" style="">Our Company</font>
+                                    </h4>
+                                    <ul class="footer-links list-unstyled">
+                                        <li class="mt8 mb8">
+                                            <a href="/">&amp;nbsp;</a>
+                                            <font color="#006358">
+                                                <span style="font-size: 18px;">Home</span>
+                                            </font>
+                                        </li>
+                                        <li class="mt8 mb8">
+                                            <a href="/">
+                                                <font style="font-size: 18px;" class="text-beta"
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip591315">About Us&amp;nbsp;&amp;nbsp;
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mt8 mb8">
+                                            <a href="/">
+                                                <font style="font-size: 18px;" class="text-beta">Services</font>
+                                            </a>
+                                        </li>
+                                        <li class="mt8 mb8">
+                                            <a href="/">
+                                                <font style="font-size: 18px;" class="text-beta">Contact</font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-lg-4 mt8 mb8 footer-div column-4">
+                                    <h4 class="mb32">
+                                        <font class="text-beta" style="">Service</font>
+                                    </h4>
+                                    <ul class="footer-links list-unstyled">
+                                        <li class="mt8 mb8">
+                                            <a href="/">
+                                                <font style="font-size: 18px;" class="text-beta"
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip480590">Laptop Repair
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mt8 mb8">
+                                            <a href="/">
+                                                <font style="font-size: 18px;" class="text-beta">Smartphone Repair
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mt8 mb8">
+                                            <a href="/">
+                                                <font style="font-size: 18px;" class="text-beta"
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip337991">Camera Repair
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mt8 mb8">
+                                            <a href="/">
+                                                <font style="font-size: 18px;" class="text-beta"
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip984744">Mixer Repair
+                                                </font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mt8 mb8 footer-div column-5 col-lg-4">
+                                    <div>
+                                        <div class="mt8 mb8">
+                                            <span class="o_default_snippet_text">
+                                                <div>
+                                                    <span t-field="res_company.street" style="font-size: 18px;"
+                                                          class="text-beta o_default_snippet_text"/>
+                                                    <span t-field="res_company.country_id.name" style="font-size: 18px;"
+                                                          class="text-beta o_default_snippet_text"/>
+                                                </div>
+                                            </span>
+                                        </div>
+                                        <div class="mt8 mb8">
+                                            <span class="o_default_snippet_text">
+                                                <div>
+                                                    <span t-field="res_company.phone" style="font-size: 18px;"
+                                                          class="text-beta o_default_snippet_text">
+                                                    </span>
+                                                </div>
+                                            </span>
+                                        </div>
+                                        <div class="mt8 mb8">
+                                            <span>
+                                                <div>
+                                                    <span t-field="res_company.email" style="font-size: 18px;"
+                                                          class="text-beta o_default_snippet_text">
+                                                    </span>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Electronic Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_electronic_ultimate_01.electronic_banner"
+                           t-thumbnail="/theme_electronic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronic_ultimate_01.electronic_overlay"
+                           t-thumbnail="/theme_electronic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronic_ultimate_01.electronic_service"
+                           t-thumbnail="/theme_electronic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronic_ultimate_01.electronic_team"
+                           t-thumbnail="/theme_electronic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronic_ultimate_01.electronic_offer"
+                           t-thumbnail="/theme_electronic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronic_ultimate_01.electronic_footer"
+                           t-thumbnail="/theme_electronic_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

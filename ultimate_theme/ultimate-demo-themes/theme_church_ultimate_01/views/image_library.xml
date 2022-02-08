@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_1</field>
+            <field name="name">theme_church_ultimate_01.image_content_1</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/img-hover2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_2</field>
+            <field name="name">theme_church_ultimate_01.image_content_2</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/blog3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_3</field>
+            <field name="name">theme_church_ultimate_01.image_content_3</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/footer-bg-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_4</field>
+            <field name="name">theme_church_ultimate_01.image_content_4</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/main-banner-img-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_5</field>
+            <field name="name">theme_church_ultimate_01.image_content_5</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/blog2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_6</field>
+            <field name="name">theme_church_ultimate_01.image_content_6</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/product-1.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_7</field>
+            <field name="name">theme_church_ultimate_01.image_content_7</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/product-2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_8</field>
+            <field name="name">theme_church_ultimate_01.image_content_8</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/img-hover4-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_9</field>
+            <field name="name">theme_church_ultimate_01.image_content_9</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/img-hover5-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_10</field>
+            <field name="name">theme_church_ultimate_01.image_content_10</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/blog1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_11</field>
+            <field name="name">theme_church_ultimate_01.image_content_11</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/product-3.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_12</field>
+            <field name="name">theme_church_ultimate_01.image_content_12</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/upcoming-events-bg-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_13</field>
+            <field name="name">theme_church_ultimate_01.image_content_13</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/img-hover6-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_14</field>
+            <field name="name">theme_church_ultimate_01.image_content_14</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/img-hover1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_15</field>
+            <field name="name">theme_church_ultimate_01.image_content_15</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/upcoming-events-bg-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_church_ultimate_01.image_content_16</field>
+            <field name="name">theme_church_ultimate_01.image_content_16</field>
+            <field name="url">/theme_church_ultimate_01/static/src/img/library/img-hover3-min.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <template id="website_mid_header_inherit" inherit_id="website_header_business_73lines.website_user_access_mid_header">
+        <xpath expr="//div[@id='user_pricelist']" position="inside">
+            <t t-call="website_header_layout_73lines.website_pricelist_list_mid_header"/>
+        </xpath>
+        <xpath expr="//div[@id='user_add_to_cart_login']" position="inside">
+            <t t-call="website_header_layout_73lines.website_mid_header_add_to_cart"/>
+        </xpath>
+        <xpath expr="//div[@id='user_wishlist']" position="inside">
+            <t t-call="website_header_layout_73lines.wishlist_mid_header"/>
+        </xpath>
+    </template>
+
+    <template id="wishlist_mid_header" name="Mid Header My Wishlist">
+        <t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
+            <t t-set='wishcount' t-value="len(request.env['product.wishlist'].current())"/>
+            <li id="my_wish" class="nav-item" t-att-style="not wishcount and 'display:none;'">
+                <a href="/shop/wishlist" class="nav-link">
+                    <i class="fa fa-heart fa_user_menu"/>
+                    <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary">
+                        <t t-esc='wishcount'/>
+                    </sup>
+                </a>
+            </li>
+        </t>
+
+    </template>
+
+    <!-- Header Layout Add to Cart Option -->
+    <template id="website_mid_header_add_to_cart" name="Mid Header My Cart">
+        <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+        <div t-att-class="'' if website_sale_order and website_sale_order.cart_quantity else ''">
+            <a href="/shop/cart" class="mid_header_shopping_cart nav-link" data-toggle="tooltip" title="My Cart">
+                <i class="fa fa-shopping-cart fa_user_menu"/>
+                <sup t-attf-class="my_cart_quantity badge badge-primary"
+                     t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/>
+            </a>
+        </div>
+    </template>
+
+    <!-- Header Layout Pricelist List Option -->
+    <template id="website_pricelist_list_mid_header" name="Show Pricelist" active="True" customize_show="True">
+        <div class="pricelist_lst text-center">
+            <t t-call="website_sale.pricelist_list"/>
+        </div>
+    </template>
+</odoo>

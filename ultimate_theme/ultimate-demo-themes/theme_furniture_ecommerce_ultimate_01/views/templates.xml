@@ -1,0 +1,312 @@
+<odoo>
+    <data>
+
+        <!--Snippet Promo Image start-->
+        <template id="furniture_promo_image" name="Furniture Promo Image">
+            <section class="pt64 pb64" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2 style="text-align: right; ">Amazing Armchairs</h2>
+                                    <p style="text-align: right; ">
+                                        <a href="#" class="btn btn-alpha flat">DISCOVER NOW</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2>Coffee Tables</h2>
+                                    <p>
+                                        <font style="font-size: 24px;">from $19.99</font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Promo Image End-->
+
+        <!--Snippet Newsletter start-->
+        <template id="furniture_newsletter" name="Furniture Newsletter">
+            <section class="pt64 pb32 oe_img_bg oe_custom_bg" id="footer_17"
+                     style="background-image: url(&quot;/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 pb32">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-md-12 col-sm-12 mb32">
+                                    <h6 style="text-align: left;">
+                                        <font style="font-size: 24px;">OUR NEWSLETTER</font>
+                                    </h6>
+                                    <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed.
+                                        <br/>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="input-group js_subscribe hidden" data-list-id="2" data-subscribe="off">
+                                        <input type="email" name="email"
+                                               class="js_subscribe_email form-control rounded-0"
+                                               placeholder="your email..." style="height: 40px;"/>
+                                        <span class="input-group-btn">
+                                            <a href="#"
+                                               class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0 py-2">
+                                                Subscribe
+                                            </a>
+                                            <a href="#"
+                                               class="py-2 btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                               disabled="disabled">Thanks
+                                            </a>
+                                        </span>
+                                        <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                            Thanks for your subscription!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Newsletter  End-->
+
+        <!--Snippet Product Sale start-->
+        <template id="furniture_product_sale" name="Furniture Product Sale">
+            <section class="pt64 pb64" id="ecommerce_block_5">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-lg-12 mb48">
+                            <h2>
+                                <font>TOP SELLING PRODUCTS</font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover o_default_snippet_text">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">Block Side Table/Trolley</font>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover o_default_snippet_text">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Carronade Suspension Lamp</font>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover o_default_snippet_text">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Garden Armchair</font>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover o_default_snippet_text">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Madra Log Holder</font>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover o_default_snippet_text">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Original Outdoor Beanbag</font>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover o_default_snippet_text">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">2-Seater Sofa</font>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover o_default_snippet_text">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Wingback Chair</font>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb24">
+                            <div class="product_img mb8">
+                                <img src="/theme_furniture_ecommerce_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     class="img-fluid image"/>
+                                <div class="overlay">
+                                    <a href="#" class="text_hover">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <font style="font-size: 18px;">Stool Ladder</font>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Sale  End-->
+
+        <!--Snippet Blog start-->
+        <template id="furniture_blog" name="Furniture Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center pt24" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"
+                     style="" data-objects_limit="4" data-objects_in_slide="2"/>
+        </template>
+        <!--Snippet Blog  End-->
+
+        <!--Snippet Feature start-->
+        <template id="furniture_feature" name="Furniture Feature">
+            <section class="pb64 pt40 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row pt48">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-500px mr-3 mt-2 pe-7s-car" data-original-title="" title=""
+                                       aria-describedby="tooltip304484" style="color: rgb(255, 156, 0);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">FREE SHIPPING</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-500px fa-life-ring mr-3 mt-2 pe-7s-call"
+                                       data-original-title="" title="" aria-describedby="tooltip599980"
+                                       style="color: rgb(255, 156, 0);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">ONLINE SUPPORT</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-500px mr-3 mt-2 pe-7s-cash" data-original-title="" title=""
+                                       aria-describedby="tooltip50188" style="color: rgb(255, 156, 0);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">100% MONEY BACK GUARANTEE</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3  media">
+                                    <i class="fa fa-3x fa-500px mr-3 mt-2 pe-7s-safe" data-original-title="" title=""
+                                       aria-describedby="tooltip221276" style="color: rgb(255, 156, 0);"/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 pb8">
+                                            <font style="font-size: 18px;">FREE EXCHANGE</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Ut at semper metus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Furniture Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_furniture_ecommerce_ultimate_01.furniture_promo_image"
+                           t-thumbnail="/theme_furniture_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ecommerce_ultimate_01.furniture_newsletter"
+                           t-thumbnail="/theme_furniture_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ecommerce_ultimate_01.furniture_product_sale"
+                           t-thumbnail="/theme_furniture_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ecommerce_ultimate_01.furniture_blog"
+                           t-thumbnail="/theme_furniture_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_furniture_ecommerce_ultimate_01.furniture_feature"
+                           t-thumbnail="/theme_furniture_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

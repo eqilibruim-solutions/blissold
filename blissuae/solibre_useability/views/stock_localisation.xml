@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="view_stock_localisation_tree">
+            <field name="name">stock.localisation.tree</field>
+            <field name="model">stock.localisation</field>
+            <field name="type">tree</field>
+            <field name="priority">0</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="name" />
+                    <field name="storage_location_id" />
+                    <field name="location_id" />
+                    <field name="qty_available" />
+                    <field name="virtual_available" />
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_stock_localisation_form">
+            <field name="name">stock.localisation.form</field>
+            <field name="model">stock.localisation</field>
+            <field name="type">form</field>
+            <field name="priority">0</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group col="2">
+                            <field name="name"/>
+                            <field name="location_id" />
+                            <field name="storage_location_id" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_storage_location_tree">
+            <field name="name">storage.location.tree</field>
+            <field name="model">storage.location</field>
+            <field name="type">tree</field>
+            <field name="priority">0</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="name" placeholder="Alley-Rack-Shelf"/>
+                    <field name="loc_x" />
+                    <field name="loc_y" />
+                    <field name="loc_z" />
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.actions.act_window" id="action_product_localisation">
+            <field name="name">Stock localisation</field>
+            <field name="res_model">stock.localisation</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_storage_location">
+            <field name="name">Storage Locations</field>
+            <field name="res_model">storage.location</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+            id="menu_product_localisation"
+            name="Product Localisation"
+            sequence="100"
+            parent="stock.menu_stock_inventory_control"
+            groups="stock.group_stock_user"
+            action="action_product_localisation" />
+
+        <menuitem
+            id="menu_storage_location"
+            name="Storage Locations"
+            sequence="102"
+            parent="stock.menu_stock_inventory_control"
+            groups="stock.group_stock_user"
+            action="action_storage_location" />
+
+    </data>
+</odoo>

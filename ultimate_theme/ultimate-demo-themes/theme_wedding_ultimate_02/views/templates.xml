@@ -1,0 +1,703 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="wedding_banner" name="Wedding Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none; height: 100vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_wedding_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h3 class="text-white" style="font-size: 62px; text-align: center;">
+                                <b>We Are Getting Married</b>
+                            </h3>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mb8 mt8 btn btn-primary btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip655803">View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Left Content Start-->
+        <template id="wedding_left_content" name="Wedding Left Content">
+            <section class="s_text_image pb32 oe_custom_bg pt88 s_overlay_section" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="pb16 pt112 col-lg-7 col-sm-6">
+                            <h2>
+                                <font style="font-size: 48px;" class="o_default_snippet_text">Our Story</font>
+                            </h2>
+                            <p class="mt32 s_line_height_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum
+                            </p>
+                        </div>
+                        <div class="pt16 pb16 bg-black col-lg-5 col-sm-6">
+                            <img src="/theme_wedding_ultimate_02/static/src/img/placeholder-600.jpg"
+                                 class="img img-fluid mx-auto" alt="Odoo • Text and Image" data-original-title=""
+                                 title="" aria-describedby="tooltip112258"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Feature Start-->
+        <template id="wedding_feature" name="Wedding Feature">
+            <section class="pt64 pb32">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                            <h3 class="heading-agileinfo text-center">
+                                <font style="font-size: 48px;">Our Working Plan</font>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_three_columns pt32 pb64" style="">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-lg-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-100">
+                                <div class="card-body">
+                                    <span class="fa fa-bar-chart mb-2 text-alpha d-block mx-auto padding-xl pe-7s-add-user fa-500px fa-3x"
+                                          data-original-title="" title="" aria-describedby="tooltip22418" style=""/>
+                                    <h5 class="card-title" style="text-align: center; ">
+                                        <font>FIND LOCAL VENDER</font>
+                                    </h5>
+                                    <p class="card-text o_default_snippet_text s_line_height_2"
+                                       style="text-align: center; ">Adapt these three columns to fit you design need. To
+                                        duplicate, delete or move columns, select the column and use the top icons to
+                                        perform your action.
+                                    </p>
+                                    <p class="card-text" style="text-align: center; ">
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-beta">
+                                <div class="card-body">
+                                    <span class="mb-2 text-alpha d-block mx-auto padding-xl fa pe-7s-cash fa-500px fa-3x"
+                                          data-original-title="" title="" aria-describedby="tooltip22418" style=""/>
+                                    <h5 class="card-title" style="text-align: center; ">CONTACT YOUR VENDER</h5>
+                                    <p class="card-text o_default_snippet_text s_line_height_2"
+                                       style="text-align: center; ">Adapt these three columns to fit you design need. To
+                                        duplicate, delete or move columns, select the column and use the top icons to
+                                        perform your action.
+                                    </p>
+                                    <p class="card-text" style="text-align: center; ">
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-100" style="">
+                                <div class="card-body">
+                                    <span class="fa mb-2 text-alpha d-block mx-auto padding-xl pe-7s-date fa-500px fa-3x"
+                                          data-original-title="" title="" aria-describedby="tooltip22418" style=""/>
+                                    <h5 class="card-title o_default_snippet_text" style="text-align: center; ">SAVE YOUR
+                                        DATE
+                                    </h5>
+                                    <p class="card-text o_default_snippet_text s_line_height_2"
+                                       style="text-align: center; ">Adapt these three columns to fit you design need. To
+                                        duplicate, delete or move columns, select the column and use the top icons to
+                                        perform your action.
+                                    </p>
+                                    <p class="card-text" style="text-align: center; ">
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Service Start-->
+        <template id="wedding_service" name="Wedding Service">
+            <section class="s_parallax parallax s_parallax_is_fixed pt64 pb64" data-scroll-background-ratio="1"
+                     style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_wedding_ultimate_02/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 75%;"/>
+                <div class="oe_structure">
+                    <section class="sni-block pt48 pb48">
+                        <div class="container">
+                            <div class="row">
+                                <div class="s_col_no_bgcolor col-lg-6">
+                                    <div style="&#10;    background: transparent;&#10;">
+                                        <div class="card-body">
+                                            <h3 class="card-title" style="text-align: center; ">&amp;nbsp;</h3>
+                                            <h3 class="card-title" style="text-align: left;">
+                                                <font style="color: rgb(255, 255, 255);">Contact Us and Ask Your
+                                                    Questions
+                                                </font>
+                                                <br/>
+                                            </h3>
+                                            <p class="card-text mt32 s_line_height_2" style="text-align: left;">
+                                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                                    culpa qui officia deserunt mollit anim id est laborum.
+                                                </font>
+                                            </p>
+                                            <p class="card-text" style="text-align: center; "/>
+                                            <div class="s_btn pt16 pb16 text-left" data-name="Buttons">
+                                                <a href="#" class="btn btn-lg btn-primary" data-original-title=""
+                                                   title="" aria-describedby="tooltip479393">See more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 co-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                    <div class="row">
+                                        <div class="s_col_no_bgcolor col-lg-6 col-md-6 pb0 pt40">
+                                            <div class="card bg-100">
+                                                <div class="card-body">
+                                                    <i class="fa fa-2x text-alpha pe-7s-plugin fa-500px"
+                                                       data-original-title="" title="" aria-describedby="tooltip22418"
+                                                       style=""/>
+                                                    <h3 class="card-title mb8 mt8">
+                                                        <font style="font-size: 18px;">Birthday Celebrations</font>
+                                                    </h3>
+                                                    <p class="card-text s_line_height_2" style="text-align: left;">Adapt
+                                                        these three columns to fit you design need. To duplicate, delete
+                                                        or move
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="s_col_no_bgcolor pt16 col-lg-6 col-md-6 pb0">
+                                            <div class="card bg-100">
+                                                <div class="card-body">
+                                                    <i class="text-alpha fa-2x fa pe-7s-users fa-500px"
+                                                       data-original-title="" title="" aria-describedby="tooltip22418"
+                                                       style=""/>
+                                                    <h3 class="card-title mb8 mt8">
+                                                        <font style="font-size: 18px;">Wedding celebrations</font>
+                                                    </h3>
+                                                    <p class="card-text o_default_snippet_text s_line_height_2"
+                                                       style="text-align: left;">Adapt these three columns to fit you
+                                                        design need. To duplicate, delete or move
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="s_col_no_bgcolor col-lg-6 col-md-6 pb0 pt40">
+                                            <div class="card bg-100">
+                                                <div class="card-body">
+                                                    <span class="fa text-alpha fa-2x pe-7s-date fa-500px"
+                                                          data-original-title="" title=""
+                                                          aria-describedby="tooltip22418" style=""/>
+                                                    <h3 class="card-title mt8 mb8">
+                                                        <font style="font-size: 18px;">Ring Ceremony</font>
+                                                    </h3>
+                                                    <p class="card-text o_default_snippet_text s_line_height_2"
+                                                       style="text-align: left;">Adapt these three columns to fit you
+                                                        design need. To duplicate, delete or move
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="s_col_no_bgcolor pt16 col-lg-6 col-md-6 pb0">
+                                            <div class="card bg-100">
+                                                <div class="card-body">
+                                                    <span class="fa text-alpha fa-2x pe-7s-safe fa-500px"
+                                                          data-original-title="" title=""
+                                                          aria-describedby="tooltip22418" style=""/>
+                                                    <h3 class="card-title mt8 mb8">
+                                                        <font style="font-size: 18px;">Receptions</font>
+                                                    </h3>
+                                                    <p class="card-text o_default_snippet_text s_line_height_2"
+                                                       style="text-align: left;">Adapt these three columns to fit you
+                                                        design need. To duplicate, delete or move
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Events Start-->
+        <template id="wedding_event" name="Wedding Event">
+            <section class="pt64 pb32">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                            <h1 class="s_title_default">
+                                <font style="font-size: 48px;">Our Events</font>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image pt32 pb32">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="pt16 pb16 offset-lg-1 col-lg-3">
+                            <img src="/theme_wedding_ultimate_02/static/src/img/placeholder-600.jpg"
+                                 class="img img-fluid d-block mx-auto rounded-circle" alt="Odoo • Image and Text"
+                                 data-original-title="" title="" aria-describedby="tooltip840325"/>
+                        </div>
+                        <div class="pt16 pb16 col-lg-6 offset-lg-1">
+                            <h2>
+                                <font class="text-alpha o_default_snippet_text" style="font-size: 18px;">BEST EVENT
+                                    IDEAS
+                                </font>
+                            </h2>
+                            <h2>
+                                <font class="text-alpha" style="">
+                                    <font color="#000000">
+                                        <span style="font-size: 36px;">Engagements</span>
+                                    </font>
+                                    <br/>
+                                </font>
+                            </h2>
+                            <p class="s_line_height_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image pt32 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 pb16 pt16">
+                            <h2>
+                                <font class="text-alpha" style="font-size: 18px;">BEST EVENT IDEAS</font>
+                            </h2>
+                            <h2/>
+                            <h2 style="color: rgb(33, 37, 41);">
+                                <font class="text-alpha">
+                                    <span style="color: rgb(0, 0, 0); font-size: 36px;">Wedding Ceremony</span>
+                                </font>
+                            </h2>
+                            <p class="s_line_height_2">
+                                <font style="" class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
+                                </font>
+                            </p>
+                        </div>
+                        <div class="pt16 pb16 col-lg-6">
+                            <img src="/theme_wedding_ultimate_02/static/src/img/placeholder-600.jpg"
+                                 class="img img-fluid d-block mx-auto" alt="Odoo • Image and Text"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip840325"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Events End-->
+
+        <!--Snippet News Start-->
+        <template id="wedding_news" name="Wedding News">
+            <section class="s_parallax parallax s_parallax_is_fixed pt64 pb64" data-scroll-background-ratio="1"
+                     style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_wedding_ultimate_02/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 75%;"/>
+                <div class="oe_structure">
+                    <section>
+                        <div class="container">
+                            <div class="row s_nb_column_fixed">
+                                <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                                    <h1 class="s_title_default">
+                                        <font style="color: rgb(255, 255, 255); font-size: 48px;">Recent News</font>
+                                    </h1>
+                                </div>
+                                <div class="col-lg-4 col-md-4 s_col_no_bgcolor pt16 pb16">
+                                    <div class="card bg-100">
+                                        <div class="card-body">
+                                            <h4 class="card-title" style="text-align: left;">Simple and Easy Wedding
+                                                Guest List Manager
+                                            </h4>
+                                            <p class="card-text s_line_height_2" style="text-align: left;">
+                                                <font style="" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                                    ut labore et dolore magna aliqua.
+                                                </font>
+                                            </p>
+                                            <p class="card-text" style="text-align: center; ">
+                                                <img class="img-fluid o_we_custom_image rounded-circle float-left"
+                                                     src="/theme_wedding_ultimate_02/static/src/img/placeholder-user.png"
+                                                     style="width: 25%;" data-original-title="" title=""
+                                                     aria-describedby="tooltip349468"/>
+                                                <br/>
+                                            </p>
+                                            <h3 class="card-title" style="text-align: left; color: rgb(33, 37, 41);">
+                                                <font style="font-size: 18px;">&amp;nbsp;Jhon Doe</font>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4  col-md-4 s_col_no_bgcolor pt16 pb16">
+                                    <div class="card bg-100">
+                                        <div class="card-body">
+                                            <h4 class="card-title" style="text-align: left;">Find The Perfect Wedding
+                                                Planner and Vendor
+                                            </h4>
+                                            <p class="card-text s_line_height_2" style="text-align: left;">
+                                                <font style="" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                                    ut labore et dolore magna aliqua.
+                                                </font>
+                                            </p>
+                                            <p class="card-text" style="text-align: center; ">
+                                                <img class="img-fluid o_we_custom_image rounded-circle float-left"
+                                                     src="/theme_wedding_ultimate_02/static/src/img/placeholder-user.png"
+                                                     style="width: 25%;" data-original-title="" title=""
+                                                     aria-describedby="tooltip349468"/>
+                                                <br/>
+                                            </p>
+                                            <h3 class="card-title" style="text-align: left; color: rgb(33, 37, 41);">
+                                                <font style="font-size: 18px;">&amp;nbsp;Alexa Smith</font>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 s_col_no_bgcolor pt16 pb16">
+                                    <div class="card bg-100">
+                                        <div class="card-body">
+                                            <h4 class="card-title" style="text-align: left;">Top 5 Beautiful Real
+                                                Wedding Couple
+                                            </h4>
+                                            <p class="card-text s_line_height_2" style="text-align: left;">
+                                                <font style="" class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                                    ut labore et dolore magna aliqua.
+                                                </font>
+                                            </p>
+                                            <p class="card-text" style="text-align: center; ">
+                                                <img class="img-fluid o_we_custom_image rounded-circle float-left"
+                                                     src="/theme_wedding_ultimate_02/static/src/img/placeholder-user.png"
+                                                     style="width: 25%;" data-original-title="" title=""
+                                                     aria-describedby="tooltip349468"/>
+                                                <br/>
+                                            </p>
+                                            <h3 class="card-title" style="text-align: left; color: rgb(33, 37, 41);">
+                                                <font style="font-size: 18px;">&amp;nbsp;Kevin Betas</font>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Counter Start-->
+        <template id="wedding_counter" name="Wedding Counter">
+            <section class="pt64 pb64 bg-primary bg-white oe_custom_bg" id="state_section_id" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                            <h3 class="heading-agileinfo text-center">
+                                <font style="font-size: 48px;" class="o_default_snippet_text">What We Achieve</font>
+                            </h3>
+                        </div>
+                        <div class="col-md-6 bg-white" style="">
+                            <div class="row">
+                                <div class="col-md-6 text-center state_text pad0" style="">
+                                    <section class="state-col-inner bg-white oe_custom_bg" style="">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_wedding_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                        <div class="count_to animate_onoffset">
+                                            <div class="odometer odometer-theme-minimal" data-number="9"
+                                                 data-duration="2000">
+                                                <div class="odometer-inside">
+                                                    <span class="odometer-digit">
+                                                        <span class="odometer-digit-spacer">8</span>
+                                                        <span class="odometer-digit-inner">
+                                                            <span class="odometer-ribbon">
+                                                                <span class="odometer-ribbon-inner">
+                                                                    <span class="odometer-value">9</span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="o_default_snippet_text">Birthday Parties</h3>
+                                    </section>
+                                </div>
+                                <div class="col-md-6 pad0 text-center state_text">
+                                    <section class="state-col-inner bg-white oe_custom_bg">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_wedding_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                        <div class="count_to animate_onoffset">
+                                            <div class="odometer odometer-theme-minimal" data-number="99"
+                                                 data-duration="2000">
+                                                <div class="odometer-inside">
+                                                    <span class="odometer-digit">
+                                                        <span class="odometer-digit-spacer">8</span>
+                                                        <span class="odometer-digit-inner">
+                                                            <span class="odometer-ribbon">
+                                                                <span class="odometer-ribbon-inner">
+                                                                    <span class="odometer-value">9</span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="o_default_snippet_text">Clients</h3>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 pad0 text-center state_text">
+                                    <section class="state-col-inner bg-white oe_custom_bg" style="">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_wedding_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                        <div class="count_to animate_onoffset">
+                                            <div class="odometer odometer-theme-minimal" data-number="999"
+                                                 data-duration="2000">
+                                                <div class="odometer-inside">
+                                                    <span class="odometer-digit">
+                                                        <span class="odometer-digit-spacer">8</span>
+                                                        <span class="odometer-digit-inner">
+                                                            <span class="odometer-ribbon">
+                                                                <span class="odometer-ribbon-inner">
+                                                                    <span class="odometer-value">9</span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="o_default_snippet_text">Wedding Ceremony</h3>
+                                    </section>
+                                </div>
+                                <div class="col-md-6 text-center state_text pad0">
+                                    <section class="state-col-inner bg-white oe_custom_bg">
+                                        <img class="img-fluid o_we_custom_image"
+                                             src="/theme_wedding_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                        <div class="count_to animate_onoffset">
+                                            <div class="odometer odometer-theme-minimal" data-number="9999"
+                                                 data-duration="2000">
+                                                <div class="odometer-inside">
+                                                    <span class="odometer-digit">
+                                                        <span class="odometer-digit-spacer">8</span>
+                                                        <span class="odometer-digit-inner">
+                                                            <span class="odometer-ribbon">
+                                                                <span class="odometer-ribbon-inner">
+                                                                    <span class="odometer-value">9</span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="o_default_snippet_text">Small Events</h3>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Footer Start-->
+        <template id="wedding_footer" name="Wedding Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="oe_structure oe_empty">
+                    <div id="footer" class="oe_structure oe_structure_solo" style="border-top: none;">
+                        <div class="oe_structure oe_empty">
+                            <div class=" oe_custom_bg pt64 pb32" id="footer_normal" style="">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-4 mb32">
+                                            <h3 class="mb16">
+                                                <font style="color: rgb(255, 255, 255); font-size: 24px;"
+                                                      class="o_default_snippet_text">Get In Touch
+                                                </font>
+                                            </h3>
+                                            <div>
+                                                <div class="mt8 mb8 media">
+                                                    <i class="fa fa-map-marker ml8 mr8 mt-1"
+                                                       style="color: rgb(255, 255, 255);"/>
+                                                    <div class="o_default_snippet_text media-body">
+                                                        <font style="color: rgb(156, 156, 148);"
+                                                              class="o_default_snippet_text">
+                                                            <span t-field="res_company.street"/>
+                                                            <span t-field="res_company.country_id.name"/>
+                                                        </font>
+                                                    </div>
+                                                </div>
+                                                <div class="mt8 mb8 media">
+                                                    <i class="fa fa-phone ml8 mr8 mt-1"
+                                                       style="color: rgb(255, 255, 255);"/>
+                                                    <div class="o_default_snippet_text media-body">
+                                                        <font style="color: rgb(156, 156, 148);"
+                                                              class="o_default_snippet_text">
+                                                            <span t-field="res_company.phone"/>
+                                                        </font>
+                                                    </div>
+                                                </div>
+                                                <div class="mt8 mb8 media">
+                                                    <i class="fa fa-envelope ml8 mr8 mt-1"
+                                                       style="color: rgb(255, 255, 255);"/>
+                                                    <div class="o_default_snippet_text media-body">
+                                                        <font style="color: rgb(156, 156, 148);"
+                                                              class="o_default_snippet_text">
+                                                            <span t-field="res_company.email"/>
+                                                        </font>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb32 col-lg-3">
+                                            <h3 class="mb16">
+                                                <font style="color: rgb(255, 255, 255); font-size: 24px;">About Us
+                                                </font>
+                                            </h3>
+                                            <div>
+                                                <div class="mt8 mb8">
+                                                    <font style="color: rgb(156, 156, 148);"
+                                                          class="o_default_snippet_text s_line_height_2">Lorem Ipsum is
+                                                        simply dummy text of the printing and typesetting industry.
+                                                        Lorem Ipsum has been the industry's standard dummy text ever
+                                                        since the 1500s,&amp;nbsp;
+                                                    </font>
+                                                </div>
+                                                <div class="mt8 mb8"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb32 col-lg-5 offset-lg-1">
+                                            <div>
+                                                <h3 class="mb16">
+                                                    <font style="color: rgb(255, 255, 255); font-size: 24px;">Our
+                                                        Newsletter
+                                                    </font>
+                                                </h3>
+                                                <a href="/" class=" logo mt8 mb8 col-xs-12"/>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <div class="input-group js_subscribe" data-list-id="1"
+                                                         data-subscribe="off">
+                                                        <input type="email" name="email"
+                                                               class="js_subscribe_email form-control"
+                                                               placeholder="your email..." style="height:51px;"/>
+                                                        <span class="input-group-append">
+                                                            <a role="button" href="#"
+                                                               class="btn btn-primary js_subscribe_btn o_default_snippet_text"
+                                                               style="line-height:2.5">
+                                                                <font style="color: rgb(255, 255, 255);">Subscribe&amp;nbsp;</font>
+                                                            </a>
+                                                            <a role="button" href="#"
+                                                               class="btn btn-success js_subscribed_btn o_default_snippet_text d-none"
+                                                               disabled="disabled" style="line-height:2.5">
+                                                                <font style="color: rgb(255, 255, 255);">Thanks&amp;nbsp;</font>
+                                                            </a>
+                                                        </span>
+                                                        <div class="alert alert-success d-none o_default_snippet_text"
+                                                             role="status">
+                                                            <font style="color: rgb(255, 255, 255);">Thanks for your
+                                                                subscription!&amp;nbsp;
+                                                            </font>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <ul class="list-unstyled d-inline-flex">
+                                                        <li class="mr8 ml8"/>
+                                                        <li class="mr8 ml8"/>
+                                                        <li class="mr8 ml8"/>
+                                                        <li class="mr8 ml8"/>
+                                                        <li class="mr8 ml8"/>
+                                                        <li class="mr8 ml8"/>
+                                                        <li class="mr8 ml8"/>
+                                                    </ul>
+                                                    <p/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Wedding Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_banner"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_left_content"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_feature"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_service"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_event"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_news"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_counter"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_wedding_ultimate_02.wedding_footer"
+                           t-thumbnail="/theme_wedding_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

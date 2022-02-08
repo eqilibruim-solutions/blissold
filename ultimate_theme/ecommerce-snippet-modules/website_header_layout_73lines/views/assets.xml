@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <!-- scss & Css & JS Assets -->
+    <template id="mid_header_assets_frontend" name="Mid Header Frontend Assets" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/website_header_layout_73lines/static/src/scss/header_layout.scss"
+                type="text/scss" rel="stylesheet" />
+        </xpath>
+    </template>
+</odoo>

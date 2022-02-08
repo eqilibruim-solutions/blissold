@@ -1,0 +1,370 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="tools_banner" name="Tools Banner">
+            <section class="pt64 pb64" id="ecommerce_block_5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 mb16">
+                            <div class=" mb16">
+                                <a href="#">
+                                    <img src="/theme_tools_ecommerce_ultimate_01/static/src/img/placeholder-750x600.png"
+                                         class="img-fluid image"
+                                         data-original-title="" title="" aria-describedby="tooltip669044"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="single_portfolio mb16">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip836334">
+                                            <img src="/theme_tools_ecommerce_ultimate_01/static/src/img/placeholder-360x189.png"
+                                                 class="image img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip15120"/>
+                                        </a>
+                                        <div class="overlay"/>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="single_portfolio mb16">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip836334">
+                                            <img src="/theme_tools_ecommerce_ultimate_01/static/src/img/placeholder-360x189.png"
+                                                 class="image img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip15120"/>
+                                        </a>
+                                        <div class="overlay"/>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="single_portfolio mb16">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip836334">
+                                            <img src="/theme_tools_ecommerce_ultimate_01/static/src/img/placeholder-360x189.png"
+                                                 class="image img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip15120"/>
+                                        </a>
+                                        <div class="overlay"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Tab Carousel Start-->
+        <template id="tools_tab_carousel" name="Tools Tab Carousel">
+            <section class="mt32 mb32 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="">
+                            <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                <li class="nav-item">
+                                    <a class="nav-link active show" data-toggle="tab"
+                                       href="#nav_tabs_content_1580462557655_4" role="tab"
+                                       id="nav_tabs_link_1580462557655_4"
+                                       aria-controls="nav_tabs_content_1580462557655_4" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip313737">New
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1580462557655_5"
+                                       role="tab" id="nav_tabs_link_1580462557655_5"
+                                       aria-controls="nav_tabs_content_1580462557655_5" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip312052">Best Seller
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1580462557656_6"
+                                       role="tab" id="nav_tabs_link_1580462557656_6"
+                                       aria-controls="nav_tabs_content_1580462557656_6" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip498830">On Sale
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="nav_tabs_content_1580462557655_4"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1580462557655_4">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d5"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d5" style="" data-objects_in_row="2"
+                                                data-objects_limit="15"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1580462557655_5" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1580462557655_5">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d5"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d5" style="" data-objects_in_row="2"
+                                                data-objects_limit="15"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1580462557656_6" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1580462557656_6">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d5"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d5" style="" data-objects_limit="15"
+                                                data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="tools_testimonial" name="Tools Testimonial">
+            <section class="bg-alpha oe_img_bg oe_custom_bg pt24 pb24" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_tools_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div id="myCarousel1580462936782" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1580462936782" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1580462936782" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt40 pb72 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <img class="img d-block mx-auto"
+                                             src="/theme_tools_ecommerce_ultimate_01/static/src/img/placeholder-user.png"
+                                             alt="" data-original-title="" title="" aria-describedby="tooltip938877"/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one of your customers. Quotes are a great way to build confidence in
+                                            your products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <span>Jane DOE, CEO</span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt40 pb72" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <img class="img d-block mx-auto"
+                                             src="/theme_tools_ecommerce_ultimate_01/static/src/img/placeholder-user.png"
+                                             alt="" data-original-title="" title="" aria-describedby="tooltip938877"/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one of your customers. Quotes are a great way to build confidence in
+                                            your products or services.
+                                        </p>
+                                        <div class="text-center">Alexa Smith</div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1580462936782" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1580462936782" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Category Carousel Start-->
+        <template id="tools_category_carousel" name="Tools Category Carousel">
+            <section class="s_product_category_carousel js_get_objects mb8 pt40" data-loading="true"
+                     data-template="ecommerce_snippets_product_category.product_category_list_template_header_d15"
+                     data-object_name="product.public.category" data-objects_in_slide="5" id="new_category_item_d15"/>
+        </template>
+        <!--Snippet Category Carousel End-->
+
+        <!--Snippet Product Carousel Start-->
+        <template id="tools_product_carousel" name="Tools Product Carousel">
+            <section style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100 pt24">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d1" style="" data-objects_in_row="3"
+                                        data-objects_limit="15"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100 pt24">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d1" style="" data-objects_in_row="3"
+                                        data-objects_limit="15"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100 pt24">
+                            <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d1"
+                                        data-object_name="product.template" data-objects_in_slide="1"
+                                        id="new_products_item_mini_d1" style="" data-objects_in_row="3"
+                                        data-objects_limit="15"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="tools_brand_carousel" name="Tools Brand Carousel">
+            <section class="s_brand_carousel mb8 js_get_objects s_brand_bg_light pt32" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d8"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d8"/>
+        </template>
+        <!--Snippet Brand Carousel End-->
+
+        <!--Snippet Footer Start-->
+        <template id="tools_footer" name="Tools Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                 style="border-top:none;">
+                <div class="pt64" id="footer_16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 pb16">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">About Us</font>
+                                </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. &amp;nbsp;
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font color="#ffffff">My Account</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">Personal Info</li>
+                                    <li class="o_default_snippet_text">Orders</li>
+                                    <li class="o_default_snippet_text">Wishlist</li>
+                                    <li class="o_default_snippet_text">Your Cart</li>
+                                    <li class="o_default_snippet_text">Delivery</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">Information</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">New Products</li>
+                                    <li class="o_default_snippet_text">Price Drops</li>
+                                    <li class="o_default_snippet_text">Best Sales</li>
+                                    <li class="o_default_snippet_text">Contact</li>
+                                    <li class="o_default_snippet_text">Sitemap</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">Quick Links</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">About Us</li>
+                                    <li class="o_default_snippet_text">Gift Cards</li>
+                                    <li class="o_default_snippet_text">Return Policy</li>
+                                    <li class="o_default_snippet_text">Order Status</li>
+                                    <li class="o_default_snippet_text">Help</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">Social Media</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <a t-att-href="res_company.social_facebook"><i class="fa fa-facebook px-2 text-white"/></a>
+                                    <a t-att-href="res_company.social_twitter"><i class="fa fa-twitter px-2 text-white"/></a>
+                                    <a t-att-href="res_company.social_linkedin"><i class="fa fa-linkedin px-2 text-white"/></a>
+                                    <a href="#"><i class="fa fa-pinterest px-2 text-white"/></a>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <a href="#"><i class="fa fa-behance px-2 text-white"/></a>
+                                    <a href="#"><i class="fa fa-dribbble px-2 text-white"/></a>
+                                    <a href="#"><i class="fa fa-google-plus px-2 text-white"/></a>
+                                    <a t-att-href="res_company.social_facebook"><i class="fa fa-facebook px-2 text-white"/></a>
+                                </ul>
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">We Accept</font>
+                                </h5>
+                                <i class="fa fa-cc-visa px-2 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip493334"/>
+                                <i class="fa fa-cc-mastercard px-2 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip540335"/>
+                                <i class="fa fa-cc-paypal px-2 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip739006"/>
+                                <i class="fa fa-cc-amex px-2 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip874265"/>
+                                <i class="fa fa-cc-discover px-2 fa-2x" data-original-title="" title=""
+                                   aria-describedby="tooltip715237"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Tools Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_tools_ecommerce_ultimate_01.tools_banner"
+                           t-thumbnail="/theme_tools_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tools_ecommerce_ultimate_01.tools_tab_carousel"
+                           t-thumbnail="/theme_tools_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tools_ecommerce_ultimate_01.tools_testimonial"
+                           t-thumbnail="/theme_tools_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tools_ecommerce_ultimate_01.tools_category_carousel"
+                           t-thumbnail="/theme_tools_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tools_ecommerce_ultimate_01.tools_product_carousel"
+                           t-thumbnail="/theme_tools_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tools_ecommerce_ultimate_01.tools_brand_carousel"
+                           t-thumbnail="/theme_tools_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_tools_ecommerce_ultimate_01.tools_footer"
+                           t-thumbnail="/theme_tools_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

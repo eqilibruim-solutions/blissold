@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="snippet_instagram_feed" name="Instagram Snippet">
+        <section
+                class="s_instagram_feed oe_website_sale js_get_objects mb8 snippet_instagram_feed"
+                data-loading="true"
+                data-template="solibre_useability.instagram_feed_list"
+                data-object_name="instagram.feed" data-objects_in_slide="4"
+                id="instagram_feed">
+        </section>
+    </template>
+
+    <template id="instagram_feed_list">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="headline">
+                        <h2 t-esc="title"/>
+                        <hr class="mt0 mb0"/>
+                    </div>
+                    <div class="feed-list mb8 mt8">
+                        <t t-foreach="objects" t-as="obj">
+                            <div class="item feed-single">
+                                <t t-foreach="obj" t-as="feed">
+                                    <t t-call="solibre_useability.instagram_feed"/>
+                                </t>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="instagram_feed" name="Instagram Feed item">
+            <div itemscope="itemscope" itemtype="http://schema.org/Product">
+                <div class="product_image_2">
+                    <a>
+                        <span itemprop="image" 
+                        	  t-field="feed.image"
+                              t-options='{"widget": "image", "resize": None if product_image_big else "300x300"}'/>
+                    </a>
+                </div>
+            </div>
+    </template>
+
+</odoo>

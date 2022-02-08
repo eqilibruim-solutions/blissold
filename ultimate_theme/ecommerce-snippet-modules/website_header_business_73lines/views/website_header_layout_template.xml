@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <!-- Website Header Layout Template -->
+    <template id="mid_header" name="Header Layout">
+        <div id="mid-header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="oe_structure col pt8 pb8" id="mid-header-top-left">
+                    </div>
+                    <div class="oe_structure col pt8 pb8" id="mid-header-top-center">
+                    </div>
+                    <div class="oe_structure col pt8 pb8" id="mid-header-top-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mid-header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="oe_structure col pt8 pb8" id="mid-header-bottom-left">
+                    </div>
+                    <div class="oe_structure col pt8 pb8" id="mid-header-bottom-center">
+                    </div>
+                    <div class="oe_structure col pt8 pb8" id="mid-header-bottom-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Option to Show Header Layout Menu -->
+    <template id="navbar_mid_menu" inherit_id="website.layout" name="Header Layout Menu"
+              active="True" customize_show="False">
+        <xpath expr="//div[@id='wrapwrap']/header[1]/nav" position="before">
+            <t t-call="website_header_business_73lines.mid_header"/>
+        </xpath>
+    </template>
+
+
+    <!-- Header Layout Company Contact Info -->
+    <template id="website_user_company_contact_mid_header" inherit_id="website_header_business_73lines.mid_header"
+              name="Mid Header Company Contact">
+        <xpath expr="//div[@id='mid-header-top-left']" position="inside">
+            <div id="phone-header" class="col">
+                <i class="fa fa-phone"/>
+                <span t-field="res_company.phone"/>
+            </div>
+        </xpath>
+        <xpath expr="//div[@id='mid-header-top-center']" position="inside">
+            <div class="text-center col" id="email-header">
+                <i class="fa fa-envelope"/>
+                <span t-field="res_company.email"/>
+            </div>
+        </xpath>
+        <xpath expr="//div[@id='mid-header-top-right']" position="inside">
+            <div class="text-right order-2 col" id="social-header">
+                <a t-att-href="website.social_facebook" t-if="website.social_facebook" target="_blank">
+                    <i class="fa fa-facebook-square share_facebook fa_company_contact_info"/>
+                </a>
+                <a t-att-href="website.social_twitter" t-if="website.social_twitter" target="_blank">
+                    <i class="fa fa-twitter share_twitter fa_company_contact_info"/>
+                </a>
+                <a t-att-href="website.social_linkedin" t-if="website.social_linkedin" target="_blank">
+                    <i class="fa fa-linkedin share_linkedin fa_company_contact_info"/>
+                </a>
+                <a t-att-href="website.social_youtube" t-if="website.social_youtube" target="_blank">
+                    <i class="fa fa-youtube-play share_youtube fa_company_contact_info"/>
+                </a>
+                <a t-att-href="website.social_github" t-if="website.social_github" target="_blank">
+                    <i class="fa fa-github share_github fa_company_contact_info "/>
+                </a>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="website_mid_header_add_to_cart" name="Mid Header My Cart">
+        <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+        <div t-att-class="'' if website_sale_order and website_sale_order.cart_quantity else ''">
+            <a href="/shop/cart" class="mid_header_shopping_cart" data-toggle="tooltip" title="My Cart">
+                <i class="fa fa-shopping-cart fa_user_menu"/>
+                <sup t-attf-class="my_cart_quantity label label-primary"
+                     t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/>
+            </a>
+        </div>
+    </template>
+
+    <template id="website_user_access_mid_header" inherit_id="website_header_business_73lines.mid_header">
+        <xpath expr="//div[@id='mid-header-bottom-right']" position="inside">
+            <div class="d-flex list-inline" id="user_access_shortcuts">
+                <t t-if="website.user_id != user_id">
+                    <div class="list-inline-item" id="user_pricelist">
+                    </div>
+                    <div class="list-inline-item" id="user_wishlist">
+                    </div>
+                    <div class="list-inline-item user_add_to_cart" id="user_add_to_cart_login">
+                    </div>
+                    <div class="list-inline-item" id="user_name">
+                        <b>
+                            <a t-attf-href="/my/home" role="menuitem" data-toggle="tooltip" title="My Account"
+                               class="my_acc">
+                                <span t-esc="(len(user_id.name)&gt;20) and (user_id.name[:17]+'...') or user_id.name"/>
+                            </a>
+                        </b>
+                    </div>
+                    <div class="list-inline-item" id="user_logout">
+                        <a t-attf-href="/web/session/logout?redirect=/" role="menuitem" data-toggle="tooltip"
+                           title="Sign Out">
+                            <span class="fa fa-sign-out"/>
+                        </a>
+                    </div>
+                </t>
+                <t t-if="website.user_id == user_id">
+                    <div class="list-inline-item" id="user_sign_in" groups="base.group_public">
+                        <a href="/web/login" role="menuitem">
+                            <span>Sign In</span>
+                        </a>
+                    </div>
+                    <div class="list-inline-item" id="user_register">
+                        <a href="/web/signup" role="menuitem">
+                            <span>Register</span>
+                        </a>
+                    </div>
+                </t>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Mid Header Show Logo Option -->
+    <template id="website_logo_show_mid_header" inherit_id="website_header_business_73lines.mid_header"
+              customize_show="True" active="True" name="Show Logo">
+        <xpath expr="//div[@id='mid-header-bottom-left']" position="inside">
+            <div class="mid-header-logo col">
+                <a href="/" class="navbar-brand logo">
+                    <img t-att-src="'/logo.png?company=%s' % res_company.id" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                </a>
+            </div>
+        </xpath>
+    </template>
+</odoo>

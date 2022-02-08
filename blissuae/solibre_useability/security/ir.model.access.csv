@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_localisation,stock_localisation_user,model_stock_localisation,stock.group_stock_user,1,1,1,1
+access_stock_localisation_public,stock_localisation_user,model_stock_localisation,,1,0,0,0
+access_storage_location,storage_location_user,model_storage_location,stock.group_stock_user,1,1,1,1
+access_storage_location_public,storage_location_user,model_storage_location,,1,0,0,0
+access_landing_cost,account_landing_cost_user,model_account_landing_cost,account.group_account_manager,1,1,1,1
+access_shipping_state,shipping_state_user,model_shipping_state,,1,1,1,1
+access_subscription_subscription,subscription_subscription_user,model_subscription_subscription,,1,1,1,0
+access_subscription_document,subscription_document_user,model_subscription_document,,1,1,1,0
+access_consignment_sale,consignment_sale_user,model_consignment_sale,,1,1,1,1
+access_product_customer_reference,consignment_product_customer_reference,model_product_customer_reference,,1,1,1,1
+access_purchase_tracking,purchase_tracking_user,model_purchase_tracking,,1,0,0,0
+access_purchase_tracking_manager,purchase_tracking_manager,model_purchase_tracking,stock.group_stock_user,1,1,1,1
+access_instagram_post_manager,instagram_post_manager,model_instagram_post,,1,1,1,1
+access_tax_report_sa_line_user,access_tax_report_sa_line_user,model_tax_report_sa_line,account.group_account_manager,1,1,1,1
+access_account_tax_report_sa_user,access_account_tax_report_sa_user,model_account_tax_report_sa,account.group_account_manager,1,1,1,1

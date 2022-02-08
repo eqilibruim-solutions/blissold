@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_1</field>
+            <field name="name">theme_agency_ultimate_02.image_content_1</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/05.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_2</field>
+            <field name="name">theme_agency_ultimate_02.image_content_2</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/06.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_3</field>
+            <field name="name">theme_agency_ultimate_02.image_content_3</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/newslatter_bg_img.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_4</field>
+            <field name="name">theme_agency_ultimate_02.image_content_4</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/08.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_5</field>
+            <field name="name">theme_agency_ultimate_02.image_content_5</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_6</field>
+            <field name="name">theme_agency_ultimate_02.image_content_6</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/logo.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_7</field>
+            <field name="name">theme_agency_ultimate_02.image_content_7</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/team-6.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_8</field>
+            <field name="name">theme_agency_ultimate_02.image_content_8</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/04.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_9</field>
+            <field name="name">theme_agency_ultimate_02.image_content_9</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/07.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_10</field>
+            <field name="name">theme_agency_ultimate_02.image_content_10</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/company-4.png</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_11</field>
+            <field name="name">theme_agency_ultimate_02.image_content_11</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/company-6.png</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_12</field>
+            <field name="name">theme_agency_ultimate_02.image_content_12</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/company-5.png</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_13</field>
+            <field name="name">theme_agency_ultimate_02.image_content_13</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/company-3.png</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_14</field>
+            <field name="name">theme_agency_ultimate_02.image_content_14</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/team-8.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_15</field>
+            <field name="name">theme_agency_ultimate_02.image_content_15</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/company-1.png</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_16</field>
+            <field name="name">theme_agency_ultimate_02.image_content_16</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/02.png</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_17</field>
+            <field name="name">theme_agency_ultimate_02.image_content_17</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/team-12.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_18</field>
+            <field name="name">theme_agency_ultimate_02.image_content_18</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/09.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_19</field>
+            <field name="name">theme_agency_ultimate_02.image_content_19</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/03.png</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_20</field>
+            <field name="name">theme_agency_ultimate_02.image_content_20</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/company-2.png</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_agency_ultimate_02.image_content_21</field>
+            <field name="name">theme_agency_ultimate_02.image_content_21</field>
+            <field name="url">/theme_agency_ultimate_02/static/src/img/library/team-5.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

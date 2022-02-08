@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- Portfolio Snippet's Body -->
+    <template id="s_portfolio_category_carousel" name="Portfolio Category Carousel">
+        <section class="s_portfolio_carousel">
+            <div class="container">
+                <div class="js_get_objects" data-loading="true"
+                     data-template="website_portfolio_73lines.portfolio_category_template"
+                     data-object_name="portfolio.category"/>
+            </div>
+        </section>
+    </template>
+
+    <!-- Latest portfolio's Template -->
+    <template id="portfolio_category_template">
+        <div class="headline text-center mb8 mt8">
+            <button class="btn btn-default" onclick="portFilter(this.innerHTML)" id="port_categ">All</button>
+            <t t-foreach="objects" t-as="obj">
+                <button class="btn btn-default" onclick="portFilter(this.innerHTML)" id="port_categ">
+                    <t t-esc="obj.name"/>
+                </button>
+            </t>
+        </div>
+    </template>
+
+    <!-- ======== Portfolio Carousel ======== -->
+
+    <!-- Portfolio Snippet's Body -->
+    <template id="s_portfolio_carousel_header" name="Portfolio Carousel">
+        <section class="s_portfolio_carousel">
+            <div class="container">
+                <t t-call="website_portfolio_73lines.s_portfolio_category_carousel"/>
+                <div class="js_get_objects" data-loading="true"
+                     data-template="website_portfolio_73lines.portfolio_list_template_header"
+                     data-object_name="website.portfolio"/>
+            </div>
+        </section>
+    </template>
+
+
+    <!-- Latest portfolio's Template -->
+    <template id="portfolio_list_template_header">
+        <div class="portfolio-list owl-carousel owl-theme mb8 mt8">
+            <t t-foreach="objects" t-as="obj">
+                <div t-att-category='obj.port_categ_id.name' class="item portfolio-single">
+                    <t t-foreach="obj" t-as="portfolio">
+                        <t t-call="website_portfolio_73lines.new_portfolio_item"/>
+                    </t>
+                </div>
+            </t>
+        </div>
+    </template>
+
+    <template id="new_portfolio_item" name="portfolio item">
+        <div class="post-thumb">
+            <a itemprop="url" t-attf-href="/portfolio/#{slug(portfolio.port_categ_id)}/#{slug(portfolio)}">
+                <span itemprop="image" t-field="portfolio.portfolio_image"
+                      t-field-options='{"widget": "image" }'
+                      t-att-alt="portfolio.name"/>
+            </a>
+            <h3>
+                <a style="display: block" itemprop="url"
+                   t-attf-href="/portfolio/#{slug(portfolio.port_categ_id)}/#{slug(portfolio)}">
+                    <span t-att-title='portfolio.name' t-field='portfolio.name' style="display: block;"/>
+                </a>
+            </h3>
+            <h5>
+                <span t-att-title='portfolio.subtitle' t-field='portfolio.subtitle' style="display: block;"/>
+            </h5>
+        </div>
+    </template>
+
+</odoo>

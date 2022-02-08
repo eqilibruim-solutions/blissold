@@ -1,0 +1,1405 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="hosting_banner" name="Hosting Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed bg-black-25"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="text-align: center; background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white"
+                                style="font-size: 62px; text-align: center;">
+                                <font style="font-size: 48px;">
+                                    <b>Fast And Reliable Web Hosting</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text"
+                               style="text-align: center;">Write one or two paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="#"
+                               class="rounded-circle rounded-circle btn btn-alpha rounded-circle"
+                               data-original-title="" title="" aria-describedby="tooltip228770">READ
+                                MORE
+                            </a>
+                            <a href="#"
+                               class="rounded-circle rounded-circle btn btn-primary rounded-circle"
+                               data-original-title="" title="" aria-describedby="tooltip535251">CONTACT
+                                US
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Facility Start-->
+        <template id="hosting_facility" name="Hosting Facility">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-12 text-center">
+                            <h3 class="text-center">
+                                <span style="font-size: 36px;">
+                                    <span style="font-weight: bolder;">Why Choose The Hosting</span>
+                                </span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip917177"/>
+                                <h3 class="mt-2">
+                                    <b>High Performance</b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary rounded-circle"
+                                       data-original-title="" title="" aria-describedby="tooltip967347">
+                                        <b>READ MORE</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip113619"/>
+                                <h3 class="mt-2">
+                                    <b>24/7 Technical Support</b>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary rounded-circle"
+                                       data-original-title="" title="" aria-describedby="tooltip934618">
+                                        <b>READ MORE</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb16 p-4">
+                            <div class="sni-box sni-touch shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip487668"/>
+                                <h3 class="mt-2">
+                                    <b>Secure Infrastructure</b>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary rounded-circle"
+                                       data-original-title="" title="" aria-describedby="tooltip432565">
+                                        <b>READ MORE</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facility End-->
+
+        <!--Snippet Service Start-->
+        <template id="hosting_service" name="Hosting Service">
+            <section class="sni-block pt64 pb64 bg-epsilon oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-12 text-center">
+                            <h2 class="text-center">
+                                <font style="font-size: 36px;">
+                                    <span style="font-weight: bolder;">Impressive Hosting Services
+                                    </span>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip958730" style=""/>
+                                <h3 class="pt16">
+                                    <span style="font-weight: bolder;">Shared Hosting</span>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip410114"/>
+                                <h3 class="pt16">
+                                    <span style="font-weight: bolder;">VPS Hosting</span>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip261606"/>
+                                <h3 class="pt16">
+                                    <span style="font-weight: bolder;">Dedicated Hosting</span>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                <h3 class="pt16">
+                                    <span style="font-weight: bolder;">Window Hosting</span>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"/>
+                                <h3 class="pt16">
+                                    <span style="font-weight: bolder;">Cloud Hosting</span>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb16 p-4">
+                            <div class="sni-box shadow">
+                                <img alt="image" class="sni-block-icon"
+                                     src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip842554"/>
+                                <h3 class="pt16">
+                                    <span style="font-weight: bolder;">Reseller Hosting</span>
+                                </h3>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of
+                                    the printing and typesetting
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Pricing1 Start-->
+        <template id="hosting_pricing1" name="Hosting Pricing Table 1">
+            <section class="pt64 pb64 oe_custom_bg">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb32">
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b>Offer Plans</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="border">
+                                <div class="px-4 pt32">
+                                    <h3><b>Basic</b>&amp;nbsp;
+
+                                    </h3>
+                                    <h2 class="pb16 pt16">$11&amp;nbsp;
+                                        <small class="o_default_snippet_text">/ mo</small>
+                                    </h2>
+                                    <p class="pb24">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                    <a href="#" class="rounded-0 btn btn-primary rounded-circle"
+                                       data-original-title="" title="" aria-describedby="tooltip55372">
+                                        <b>ACTION</b>
+                                    </a>
+                                    <p class="pt8 pb8">15 Days Free Trial</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="border">
+                                <div class="px-4 pt32">
+                                    <h3>
+                                        <b>Standard</b>
+                                    </h3>
+                                    <h2 class="pb16 pt16">$39
+                                        <small class="o_default_snippet_text">/ mo</small>
+                                    </h2>
+                                    <p class="pb24">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                    </p>
+                                    <a href="#" class="rounded-0 btn btn-primary rounded-circle"
+                                       data-original-title="" title="" aria-describedby="tooltip55372">
+                                        <b>ACTION</b>
+                                    </a>
+                                    <p class="pt8 pb8">15 Days Free Trial
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb24">
+                            <div class="border">
+                                <div class="px-4 pt32">
+                                    <h3>
+                                        <b>Premium</b>
+                                    </h3>
+                                    <h2 class="pb16 pt16">$60&amp;nbsp;
+                                        <small>/ mo</small>
+                                    </h2>
+                                    <p class="pb24 o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                    </p>
+                                    <a href="#" class="rounded-0 btn btn-primary rounded-circle"
+                                       data-original-title="" title="" aria-describedby="tooltip55372">
+                                        <b>ACTION</b>
+                                    </a>
+                                    <p class="pt8 pb8">15 Days Free Trial
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Pricing1 End-->
+
+        <!--Snippet Counter1 Start-->
+        <template id="hosting_counter1" name="Hosting Counter 1">
+            <section class="pt64 pb64 bg-epsilon oe_custom_bg" id="counter_10" style="">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;">Why Choose Us?
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#ff6b6b transparent transparent transparent;"/>
+                                <h2>
+                                    <b>
+                                        <font class="text-alpha" style="">200</font>
+                                    </b>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Happy Customers</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#dc90ff transparent transparent transparent;"/>
+                                <h2>
+                                    <font class="text-alpha" style="">
+                                        <b>24</b>
+                                    </font>
+                                </h2>
+                                <h4>
+                                    <b>
+                                        <font style="font-size: 18px;">Support
+                                            Services
+                                        </font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#3beec2 transparent transparent transparent;"/>
+                                <h2 class="o_default_snippet_text">
+                                    <b>
+                                        <font class="text-alpha" style="">400</font>
+                                    </b>
+                                </h2>
+                                <h4>
+                                    <font style="font-size: 18px;">
+                                        <b>Cities Coverage</b>
+                                    </font>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <span class="counter-corner"
+                                      style="border-color:#f7db88 transparent transparent transparent;"/>
+                                <h2>
+                                    <b>
+                                        <font class="text-alpha" style="">120</font>
+                                    </b>
+                                </h2>
+                                <h4>
+                                    <b>
+                                        <font style="font-size: 18px;">Award Winning
+                                        </font>
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter1 End-->
+
+        <!--Snippet Feature Start-->
+        <template id="hosting_feature" name="Hosting Feature">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <b>
+                                    <font class="text-beta" style="font-size: 36px;">What We Offer
+                                    </font>
+                                </b>
+                            </h2>
+                            <div class="row pt64 align-items-center">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-right">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px pe-7s-timer text-alpha d-block mx-auto"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip667250" style=""/>
+                                        <h3 class="pt8 pb8" style="text-align: center; ">
+                                            <b>
+                                                <font class="text-beta" style="">Best Speed</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus. Vestibulum gravida velit urna, ut mattis
+                                            leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="d-block fa fa-4x fa-life-ring mx-auto text-alpha pe-7s-tools fa-500px"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip851863" style=""/>
+                                        <h3 class="pt8 pb8" style="text-align: center; ">
+                                            <b>
+                                                <font class="text-beta" style="">Easy Setup</font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus. Vestibulum gravida velit urna, ut mattis
+                                            leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px pe-7s-lock text-alpha d-block mx-auto"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip247226" style=""/>
+                                        <h3 class="pt8 pb8" style="text-align: center; ">
+                                            <font class="text-beta" style="">
+                                                <b>Data Encryption</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus. Vestibulum gravida velit urna, ut mattis
+                                            leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-mobile.png"
+                                         alt="molile"
+                                         class="img-fluid pt8 pb8" data-original-title="" title=""
+                                         aria-describedby="tooltip451598"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-left">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px pe-7s-settings text-alpha d-block mx-auto"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip720226" style=""/>
+                                        <h3 class="pb8 pt8" style="text-align: center; ">
+                                            <font class="text-beta" style="">
+                                                <b>DNS Management</b>
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus. Vestibulum gravida velit urna, ut mattis
+                                            leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px fa-bar-chart pe-7s-global text-alpha d-block mx-auto"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip398308" style=""/>
+                                        <h3 class="pt8 pb8" style="text-align: center; ">
+                                            <b>
+                                                <font class="text-beta" style="">Free Domain
+                                                    Registration
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus. Vestibulum gravida velit urna, ut mattis
+                                            leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <i class="fa fa-4x fa-500px fa-address-card-o pe-7s-gleam text-alpha d-block mx-auto"
+                                           data-original-title="" title=""
+                                           aria-describedby="tooltip934303" style=""/>
+                                        <h3 class="pt8 pb8" style="text-align: center; ">
+                                            <b>
+                                                <font class="text-beta" style="">Domain Threft
+                                                    Protection
+                                                </font>
+                                            </b>
+                                        </h3>
+                                        <p class="o_default_snippet_text" style="text-align: center; ">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                            at semper metus. Vestibulum gravida velit urna, ut mattis
+                                            leo ullamcorper sed.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet CTA 1 Start-->
+        <template id="hosting_cta1" name="Hosting CTA 1">
+            <section class="s_call_to_action sni-block pt64 pb64 bg-beta oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 s_title col-lg-7 offset-lg-1">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">Looking For A Custom Solution?
+                                    </font>
+                                </b>
+                            </h2>
+                            <p class="s_title_boxed o_default_snippet_text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.galley of type and scrambled it to make a type
+                                specimen book. It has survived electronic typesetting, remaining essentially Lorem
+                                Ipsum.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 text-md-right col-lg-3">
+                            <p>
+                                <a href="#" class="btn btn-primary flat btn-lg o_default_snippet_text"
+                                   data-original-title="" title="" aria-describedby="tooltip728875">
+                                    <b>
+                                        <font style="font-size: 14px;">Contact Us</font>
+                                    </b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet CTA 1 End-->
+
+        <!--Snippet Pricing 2 Start-->
+        <template id="hosting_pricing2" name="Hosting Pricing Table 2">
+            <section id="pricing" class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 col-md-12 pb48">
+                            <div class="price-heading clearfix">
+                                <h2 style="text-align: center; ">
+                                    <b>
+                                        <font style="font-size: 36px;">Managed Hosting
+                                            Plan
+                                        </font>
+                                    </b>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-left align-items-center">
+                        <div class="col-12 col-md-4 col-lg-4 price_card pt1">
+                            <div class="header">
+                                <span class="price">$20</span>
+                                <span class="name">Council Plan</span>
+                            </div>
+                            <ul class="features">
+                                <li>Free DNS Management</li>
+                                <li>Weekly Backups</li>
+                                <li>6 month access&amp;nbsp;</li>
+                                <li>10 GB cloud storage</li>
+                            </ul>
+                            <button class="o_default_snippet_text d-block mx-auto mb-4">Add to cart</button>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 price_card pt2">
+                            <div class="header">
+                                <span class="price">$45</span>
+                                <span class="name">Silver Plan</span>
+                            </div>
+                            <ul class="features">
+                                <li>Free DNS Management</li>
+                                <li>Weekly Backups</li>
+                                <li>16 months access</li>
+                                <li>20 GB cloud storage</li>
+                            </ul>
+                            <button class="o_default_snippet_text d-block mx-auto mb-4">Add to cart</button>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 price_card pt3">
+                            <div class="header">
+                                <span class="price">$60</span>
+                                <span class="name">Gold Plan</span>
+                            </div>
+                            <ul class="features">
+                                <li class="o_default_snippet_text">Complete documentation</li>
+                                <li>Weekly Backups</li>
+                                <li>24 month access</li>
+                                <li>25 GB cloud storage</li>
+                            </ul>
+                            <button class="o_default_snippet_text d-block mx-auto mb-4">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Pricing 2 End-->
+
+        <!--Snippet Right Content Start-->
+        <template id="hosting_rightcontent" name="Hosting Right Content">
+            <section class="pt64 pb64 bg-alpha oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img alt="image" class="img-fluid"
+                                 src="/theme_hosting_ultimate_01/static/src/img/placeholder-video.jpg"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">Why you will get this?
+                                    </font>
+                                </b>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse potenti. Aliquam
+                                finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Counter 2 Start-->
+        <template id="hosting_counter2" name="Hosting Counter 2">
+            <section class="pt64 pb48" id="counter_9">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-global text-alpha" style=""/>
+                                <h2 class="mt32">2500</h2>
+                                <h4>
+                                    <b>Domain Registered</b>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-5x text-alpha pe-7s-clock fa-500px"
+                                   data-original-title="" title="" aria-describedby="tooltip956085"
+                                   style=""/>
+                                <h2 class="mt32">24</h2>
+                                <h4>
+                                    <span style="font-weight: bolder;">Years of Experience</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-5x fa-users text-alpha" data-original-title="" title=""
+                                   aria-describedby="tooltip988213" style=""/>
+                                <h2 class="mt32 o_default_snippet_text">400</h2>
+                                <h4>
+                                    <span style="font-weight: bolder;">Employees</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb16">
+                            <div class="counter-box">
+                                <i class="fa fa-500px fa-5x pe-7s-server text-alpha"
+                                   data-original-title="" title="" aria-describedby="tooltip819491"
+                                   style=""/>
+                                <h2 class="mt32">1700</h2>
+                                <h4>
+                                    <span style="font-weight: bolder;">Servers Sold</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter 2 End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="hosting_testimonial" name="Hosting Testimonial">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg" id="testimonials_d1"
+                     style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                          class="o_default_snippet_text">Our Best User FeedBack
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567422735226" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567422735226" data-slide-to="0"/>
+                        <li data-target="#myCarousel1567422735226" data-slide-to="1" class="active"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-8 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services. &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_hosting_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">Company</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 oe_custom_bg active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-8 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p class="o_default_snippet_text">
+                                            <font style="font-size: 18px;">Write a quote here from one of your
+                                                customers. Quotes are a great way to build confidence in your products
+                                                or services. &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_hosting_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">— Alaxo Smith, Manager of
+                                                <b class="o_default_snippet_text">Company</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1567422735226" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1567422735226" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Blog Start-->
+        <template id="hosting_blog" name="Hosting Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center"
+                     data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet CTA 2 Start-->
+        <template id="hosting_cta2" name="Hosting CTA 2">
+            <section class="pt64 pb64 bg-beta oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-1 col-lg-10">
+                            <h2 class="font-weight-bold pb24">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                      class="o_default_snippet_text">Get Started With Us
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque fermentum est in tortor congue suscipit. Suspendisse potenti. Aliquam
+                                finibus pharetra tellus at egestas.Suspendisse potenti. Aliquam finibus pharetra tellus
+                                at egestas.
+                            </p>
+                            <a href="#"
+                               class="mb24 mt24 mx-3 px-4 rounded-0 btn btn-success flat btn-lg o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip504588">
+                                <font style="font-size: 14px;">
+                                    <b>BUY IT NOW</b>
+                                </font>
+                            </a>
+                            <a href="#"
+                               class="mt24 mb24 px-4 rounded-0 btn btn-success flat btn-lg o_default_snippet_text"
+                               data-original-title="" title="" aria-describedby="tooltip328936">
+                                <font style="font-size: 14px;">
+                                    <b>ASK QUESTIONS</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA 2 End-->
+
+        <!--Snippet Browser Logo Start-->
+        <template id="hosting_browserlogo" name="Hosting Browser Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                            <h2 class="pb8">
+                                <b>
+                                    <font class="text-beta" style="font-size: 36px;">Supported Browser
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-2 col-sm-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                            <br/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-70x70.png"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Browser Logo End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="hosting_brandlogo" name="Hosting Brand Logo">
+
+            <section class="pt64 pb64 bg-epsilon oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb32">
+                            <h2 class="pb8">
+                                <b>
+                                    <font style="font-size: 36px;" class="text-beta">Hostr Apps</font>
+                                </b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet App Store Start-->
+        <template id="hosting_appstore" name="Hosting App Store">
+            <section class="pt64 bg-beta oe_custom_bg pb0"
+                     style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-sm-12 text-center col-lg-12">
+                            <h2 class="font-weight-bold pb24">
+                                <font style="color: rgb(255, 255, 255);">Get App</font>
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                                fermentum est in tortor congue sotenti. Aliquam finibus pharetra&amp;nbsp;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-beta oe_custom_bg pt16 pb40"
+                     style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 mh100 col-lg-3 offset-lg-1">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat btn-lg"
+                                       data-original-title="" title="" aria-describedby="tooltip935196">
+                                        <i class="fa fa-apple fa-2x" data-original-title="" title=""
+                                           aria-describedby="tooltip346219" style=""/>&amp;nbsp;
+                                        <font style="font-size: 18px;">DOWNLOAD</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat btn-lg"
+                                       data-original-title="" title="" aria-describedby="tooltip514182">
+                                        <i class="fa fa-android fa-2x" data-original-title="" title=""
+                                           aria-describedby="tooltip790065" style=""/>
+                                        <font style="font-size: 18px;">&amp;nbsp;DOWNLOAD&amp;nbsp;
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 mh100 col-lg-3">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat btn-lg"
+                                       data-original-title="" title=""><i class="fa fa-windows fa-2x"
+                                                                          style=""
+                                                                          data-original-title=""
+                                                                          title=""
+                                                                          aria-describedby="tooltip484298"/>&amp;nbsp;
+                                        <font style="font-size: 18px;">DOWNLOAD</font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet App Store End-->
+
+        <!--Snippet Contact Start-->
+        <template id="hosting_contact" name="Hosting Contact">
+            <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt64 pb64"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_hosting_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-center">
+                                <b>
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">Contact&amp;nbsp;
+                                        </font>
+                                    </b>
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">Us&amp;nbsp;
+                                            &amp;nbsp;
+                                        </font>
+                                    </b>
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you"
+                                  class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 p-0">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="contact_name" placeholder="Your Name"
+                                                   required="" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field col-md-6 p-0">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="phone" placeholder="Phone Number" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 p-0">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="email_from" required="" placeholder="Email"
+                                                   value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 p-0">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="partner_name" required=""
+                                                   placeholder="Your Company" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-md-6 p-0">
+                                        <div class="col-12">
+                                            <input type="text" class="form-control o_website_form_input"
+                                                   name="name" required="" placeholder="Subject"
+                                                   value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 p-0">
+                                        <div class="col-12">
+                                            <textarea class="form-control o_website_form_input"
+                                                      name="description" required=""
+                                                      placeholder="Your Question"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12 mt32">
+                                        <div class="s_btn text-center" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
+                                                Send
+                                            </a>
+                                            <span id="o_website_form_result"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Server Logo Start-->
+        <template id="hosting_serverlogo" name="Hosting Server Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_hosting_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16" alt="Brand Logo"
+                                 title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Server Logo End-->
+
+        <!--Snippet Footer Start-->
+        <template id="hosting_footer" name="Hosting Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb32 oe_custom_bg" id="footer_17">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <h6 class="o_default_snippet_text">
+                                            <b>
+                                                <font style="color: rgb(255, 255, 255);">Follow US On Social
+                                                    Networks
+                                                </font>
+                                            </b>
+                                        </h6>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <a t-att-href="res_company.social_facebook" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-facebook p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip191544" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-google-plus p-2"
+                                               data-original-title="" title="" aria-describedby="tooltip735956"
+                                               style=""/>
+                                        </a>
+                                        <a t-att-href="res_company.social_twitter" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-twitter p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip859554" style=""/>
+                                        </a>
+                                        <a t-att-href="res_company.social_linkedin" class="text-decoration-none"
+                                           target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-linkedin p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip658706" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-vimeo p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip227566" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-pinterest p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip607153" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-flickr p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip555842" style=""/>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" target="_blank">
+                                            <i class="bg-alpha box_hover fa fa-wifi p-2" data-original-title=""
+                                               title="" aria-describedby="tooltip212594" style=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb32">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <h6 class="o_default_snippet_text">
+                                            <b>
+                                                <font style="color: rgb(255, 255, 255);">Subscribe On our
+                                                    Newsletter
+                                                </font>
+                                            </b>
+                                        </h6>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <div class="input-group js_subscribe hidden" data-list-id="2"
+                                             data-subscribe="off">
+                                            <input type="email" name="email"
+                                                   class="js_subscribe_email form-control rounded-0"
+                                                   placeholder="your email..."/>
+                                            <span class="input-group-btn">
+                                                <a href="#" class="btn btn-primary js_subscribe_btn rounded-0">
+                                                    Subscribe
+                                                </a>
+                                                <a href="#"
+                                                   class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                                   disabled="disabled">Thanks
+                                                </a>
+                                            </span>
+                                            <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                                Thanks for your subscription!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt64 pb32 oe_custom_bg" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb16">
+                                <h5 class="mb16">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Our Products
+                                        </font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip299017">Home
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip146524">
+                                            <font style="color: rgb(255, 255, 255);">About</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">Dedicated Server</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">Vps Hosting</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">Reseller Hosting</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">Cloud Hosting</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb16">
+                                <h5 class="mb16">
+                                    <span style="color: rgb(255, 255, 255); font-size: 18px;">
+                                        <b>Account</b>
+                                    </span>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">My Account</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip146524">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip319226">My Service
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip338384">My Renewls
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip227539">Digital Certificate
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb16">
+                                <h5 class="mb16">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Resources</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip513298">Webmail
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip146524">
+                                            <font style="color: rgb(255, 255, 255);">Sitemap</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip86977">Compare
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">Reviews</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-12 mb32">
+                                <h5 class="mb24 o_default_snippet_text" style="color: rgb(33, 37, 41);">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255); font-size: 18px;">Usefull Links
+                                        </font>
+                                    </b>
+                                </h5>
+                                <i class="fa fa-3x fa-cc-visa px-2"/>
+                                <i class="fa fa-3x fa-cc-mastercard px-2"/>
+                                <i class="fa fa-3x fa-cc-paypal px-2"/>
+                                <i class="fa fa-3x fa-cc-amex px-2"/>
+                                <i class="fa fa-3x fa-cc-discover px-2"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Hosting Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_banner"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_facility"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_service"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_pricing1"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_counter1"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_feature"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_cta1"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_pricing2"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_rightcontent"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_counter2"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_testimonial"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_blog"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_cta2"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_browserlogo"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_brandlogo"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_appstore"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_contact"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_serverlogo"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_hosting_ultimate_01.hosting_footer"
+                           t-thumbnail="/theme_hosting_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_1</field>
+            <field name="name">theme_artist_ultimate_01.image_content_1</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/art_09.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_2</field>
+            <field name="name">theme_artist_ultimate_01.image_content_2</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/bg_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_3</field>
+            <field name="name">theme_artist_ultimate_01.image_content_3</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/art_10.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_4</field>
+            <field name="name">theme_artist_ultimate_01.image_content_4</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/product_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_5</field>
+            <field name="name">theme_artist_ultimate_01.image_content_5</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/painting.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_6</field>
+            <field name="name">theme_artist_ultimate_01.image_content_6</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/female.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_7</field>
+            <field name="name">theme_artist_ultimate_01.image_content_7</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/bg_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_8</field>
+            <field name="name">theme_artist_ultimate_01.image_content_8</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/art_08.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_9</field>
+            <field name="name">theme_artist_ultimate_01.image_content_9</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/product_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_10</field>
+            <field name="name">theme_artist_ultimate_01.image_content_10</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_06.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_11</field>
+            <field name="name">theme_artist_ultimate_01.image_content_11</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/about_us.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_12</field>
+            <field name="name">theme_artist_ultimate_01.image_content_12</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/masks.png</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_13</field>
+            <field name="name">theme_artist_ultimate_01.image_content_13</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_09.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_14</field>
+            <field name="name">theme_artist_ultimate_01.image_content_14</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/gallery_05.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_15</field>
+            <field name="name">theme_artist_ultimate_01.image_content_15</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/product_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_16</field>
+            <field name="name">theme_artist_ultimate_01.image_content_16</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/paint-palette.png</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_17</field>
+            <field name="name">theme_artist_ultimate_01.image_content_17</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/team06.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_18</field>
+            <field name="name">theme_artist_ultimate_01.image_content_18</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_05.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_19</field>
+            <field name="name">theme_artist_ultimate_01.image_content_19</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/signature.png</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_20</field>
+            <field name="name">theme_artist_ultimate_01.image_content_20</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/team07.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_21</field>
+            <field name="name">theme_artist_ultimate_01.image_content_21</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_04.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_22</field>
+            <field name="name">theme_artist_ultimate_01.image_content_22</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_07.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_23</field>
+            <field name="name">theme_artist_ultimate_01.image_content_23</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_24</field>
+            <field name="name">theme_artist_ultimate_01.image_content_24</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/testi_img_3.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_25" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_25</field>
+            <field name="name">theme_artist_ultimate_01.image_content_25</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/art_11.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_26" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_26</field>
+            <field name="name">theme_artist_ultimate_01.image_content_26</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/team05.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_27" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_27</field>
+            <field name="name">theme_artist_ultimate_01.image_content_27</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/gallery_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_28" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_28</field>
+            <field name="name">theme_artist_ultimate_01.image_content_28</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/sculpture.png</field>
+        </record>
+        
+        
+        <record id="image_content_29" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_29</field>
+            <field name="name">theme_artist_ultimate_01.image_content_29</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/gallery_04.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_30" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_30</field>
+            <field name="name">theme_artist_ultimate_01.image_content_30</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/gallery_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_31" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_31</field>
+            <field name="name">theme_artist_ultimate_01.image_content_31</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_32" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_32</field>
+            <field name="name">theme_artist_ultimate_01.image_content_32</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/left_content_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_33" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_33</field>
+            <field name="name">theme_artist_ultimate_01.image_content_33</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_34" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_34</field>
+            <field name="name">theme_artist_ultimate_01.image_content_34</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/bg_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_35" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_35</field>
+            <field name="name">theme_artist_ultimate_01.image_content_35</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/Art_feature.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_36" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_36</field>
+            <field name="name">theme_artist_ultimate_01.image_content_36</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/product_04.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_37" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_37</field>
+            <field name="name">theme_artist_ultimate_01.image_content_37</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/sketchbook.png</field>
+        </record>
+        
+        
+        <record id="image_content_38" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_38</field>
+            <field name="name">theme_artist_ultimate_01.image_content_38</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/gallery_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_39" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_39</field>
+            <field name="name">theme_artist_ultimate_01.image_content_39</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_40" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_40</field>
+            <field name="name">theme_artist_ultimate_01.image_content_40</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/art_12.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_41" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_41</field>
+            <field name="name">theme_artist_ultimate_01.image_content_41</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/art_13.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_42" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_42</field>
+            <field name="name">theme_artist_ultimate_01.image_content_42</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/counter_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_43" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_43</field>
+            <field name="name">theme_artist_ultimate_01.image_content_43</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/footer_08.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_44" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_44</field>
+            <field name="name">theme_artist_ultimate_01.image_content_44</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/testi_img_2.jpg</field>
+        </record>
+
+         <record id="image_content_45" model="theme.ir.attachment">
+            <field name="key">theme_artist_ultimate_01.image_content_45</field>
+            <field name="name">theme_artist_ultimate_01.image_content_45</field>
+            <field name="url">/theme_artist_ultimate_01/static/src/img/library/artist_ultimate_01_logo.png</field>
+        </record>
+
+    </data>
+</odoo>

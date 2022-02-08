@@ -1,0 +1,580 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="icecream_banner" name="Icecream Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;" class="s_letter_spacing_3">Big
+                                    Summer Sale
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left" style="text-align: center;">
+                                <font style="font-size: 36px;">Special Offers</font>
+                            </p>
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;">Upto 50% Off</font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus"
+                               class="mt8 mb8 rounded-circle btn btn-outline-alpha rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip603507">BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Grid Start-->
+        <template id="icecream_image_grid" name="Icecream Image Grid">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <h2 class="o_default_snippet_text">
+                                <font style="font-size: 24px;">NEW OFFERS</font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-307x307.png"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3 class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Strawberry Yoghurt</font>
+                            </h3>
+                            <p class="o_default_snippet_text">$35</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-307x307.png"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3 class="o_default_snippet_text">
+                                <font style="font-size: 18px;">Choco Slapsh</font>
+                            </h3>
+                            <p class="o_default_snippet_text">$15</p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <img src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-307x307.png"
+                                 alt="image" title="image" class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Cherry Vanilla</font>
+                            </h3>
+                            <p class="o_default_snippet_text">$23</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Grid End-->
+
+        <!--Snippet Product Carousel 1 Start-->
+        <template id="icecream_product_carousel_1" name="Icecream Product Carousel 1">
+            <section class="mt32 mb32">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="">
+                            <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1582179231813_27"
+                                       role="tab" id="nav_tabs_link_1582179231813_27"
+                                       aria-controls="nav_tabs_content_1582179231813_27" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip650160">Butter scotch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link active show" data-toggle="tab"
+                                       href="#nav_tabs_content_1582179231813_28" role="tab"
+                                       id="nav_tabs_link_1582179231813_28"
+                                       aria-controls="nav_tabs_content_1582179231813_28" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip300566">Vanila
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1582179231813_29"
+                                       role="tab" id="nav_tabs_link_1582179231813_29"
+                                       aria-controls="nav_tabs_content_1582179231813_29" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip299284">Chocolate
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade" id="nav_tabs_content_1582179231813_27" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582179231813_27">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                                                data-object_name="product.template" data-objects_in_slide="3"
+                                                id="new_products_item_d13" data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in active show" id="nav_tabs_content_1582179231813_28"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1582179231813_28">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                                                data-object_name="product.template" data-objects_in_slide="3"
+                                                id="new_products_item_d13" data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1582179231813_29" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1582179231813_29">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                                                data-object_name="product.template" data-objects_in_slide="3"
+                                                id="new_products_item_d13" data-objects_in_row="2"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Carousel 1 End-->
+
+        <!--Snippet Sale Image Start-->
+        <template id="icecream_sale_image" name="Icecream Sale Image">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="justify-content-center row">
+                        <div class="bg-white-75 col-12 col-lg-7 col-md-6 col-sm-12 pb64 pt64 right text-center">
+                            <h2 class="o_default_snippet_text">Summer would not be summer without Ice-cream</h2>
+                            <p class="mb32 mt32 s_letter_spacing_3">
+                                <font style="font-size: 18px;" class="bg-gamma p-2">Get Special Offer On New Products
+                                </font>
+                            </p>
+                            <a href="#"
+                               class="text-decoration-none rounded-circle btn btn-outline-alpha rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip250793">ORDER NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Image End-->
+
+        <!--Snippet Product Variety Start-->
+        <template id="icecream_product_variety" name="Icecream Product Variety">
+            <section class="pt64 pb64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center">
+                                <font style="font-size: 36px;">Choose Your Flavours</font>
+                            </h2>
+                            <div class="row pt48 align-items-center">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-lg-right text-md-left pt0">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-4 col-lg-12">
+                                            <img class="img-fluid o_we_custom_image"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                            <h3 class="pt8 pb8 o_default_snippet_text">
+                                                <font style="font-size: 18px;">French Vanilla</font>
+                                            </h3>
+                                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                                gravida velit urna, ut mattis leo ullamcorper sed.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-lg-12 col-md-4 col-sm-12">
+                                            <img class="img-fluid o_we_custom_image"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                            <h3 class="pt8 pb8 o_default_snippet_text">
+                                                <font style="font-size: 18px;">Cherry ice cream</font>
+                                            </h3>
+                                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                                gravida velit urna, ut mattis leo ullamcorper sed.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-4 col-lg-12">
+                                            <img class="img-fluid o_we_custom_image"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                            <h3 class="pt8 pb8 o_default_snippet_text">
+                                                <font style="font-size: 18px;">Mango ice cream</font>
+                                            </h3>
+                                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                                gravida velit urna, ut mattis leo ullamcorper sed.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-12 col-lg-4 text-center">
+                                    <img src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-329x609.png"
+                                         alt="molile"
+                                         class="img-fluid pt8 pb8" data-original-title="" title=""
+                                         aria-describedby="tooltip247672"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-12 col-lg-4 text-left">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-4 col-lg-12">
+                                            <img class="img-fluid o_we_custom_image"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-70x70.png"
+                                                 data-original-title=""
+                                                 title="" aria-describedby="tooltip698206"/>
+                                            <h3 class="pt8 pb8 o_default_snippet_text">
+                                                <font style="font-size: 18px;">Strawberry ice cream</font>
+                                            </h3>
+                                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                                gravida velit urna, ut mattis leo ullamcorper sed.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-4 col-lg-12">
+                                            <img class="img-fluid o_we_custom_image"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                            <h3 class="pb8 pt8">
+                                                <font style="font-size: 18px;">Peanut Butter ice cream</font>
+                                            </h3>
+                                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                                gravida velit urna, ut mattis leo ullamcorper sed.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-4 col-lg-12">
+                                            <img class="img-fluid o_we_custom_image"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-70x70.png"/>
+                                            <h3 class="pt8 pb8">
+                                                <font style="font-size: 18px;">Triple Chocolate ice cream</font>
+                                            </h3>
+                                            <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit. Ut at semper metus. Vestibulum
+                                                gravida velit urna, ut mattis leo ullamcorper sed.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Product Variety End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="icecream_testimonial" name="Icecream Testimonial">
+            <section class="pt64 pb64 bg-alpha oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="s_letter_spacing_3">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">What People Says</font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1582180177653" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1582180177653" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1582180177653" data-slide-to="1"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pb80 pt40 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Write a quote here from one
+                                                of your customers. Quotes are a great
+                                                way to build confidence in your
+                                                products or services.
+                                                &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span>
+                                                <font style="color: rgb(255, 255, 255);">Jane DOE</font>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pb80 pt40" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Write a quote here from one
+                                                of your customers. Quotes are a great
+                                                way to build confidence in your
+                                                products or services.
+                                                &amp;nbsp;
+                                            </font>
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>&amp;nbsp;
+
+
+                                            <font color="#ffffff">Alexa Smith</font>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1582180177653" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous
+                        </span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1582180177653" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Product Carousel 2 Start-->
+        <template id="icecream_product_carousel_2" name="Icecream Product Carousel 2">
+            <section
+                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_headline_center pt40"
+                    data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                    data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d13" style=""/>
+        </template>
+        <!--Snippet Product Carousel 2 End-->
+
+        <!--Snippet Blog Carousel Start-->
+        <template id="icecream_blog_carousel" name="Icecream Blog Carousel">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"
+                     style="" data-objects_in_row="1" data-objects_in_slide="2" data-objects_limit="2"/>
+        </template>
+        <!--Snippet Blog Carousel End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="icecream_brand_carousel" name="Icecream Brand Carousel">
+            <section class="s_brand_carousel mb8 js_get_objects" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d5"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d5"/>
+        </template>
+        <!--Snippet Brand Carousel End-->
+
+        <!--Snippet Contact Start-->
+        <template id="icecream_contact" name="Icecream Contact">
+            <section class="bg-400 py-5 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_icecream_ecommerce_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title text-center" data-name="Title">
+                            <h1 class="s_title_thin">
+                                <font style="color: rgb(255, 255, 255); font-size: 18px;">ORDER NOW</font>
+                            </h1>
+                            <h1 class="s_title_thin">
+                                <font style="color: rgb(255, 255, 255);">Lift your spirit, eat an ice cream!</font>
+                                <br/>
+                                <font style="color: rgb(255, 255, 255); font-size: 18px;">Get 25% Off</font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false" style="&#10;">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value="" style="&#10;"/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group col-12 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="s_btn text-center" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-lg btn-primary o_default_snippet_text o_website_form_send w-100"
+                                               style="border-radius: 25px;">Send
+                                            </a>
+                                            <span id="o_website_form_result"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Footer Start-->
+        <template id="icecream_footer" name="Icecream Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3" style="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 mb32 col-lg-4">
+                                <h5 class="mb24">
+                                    <font style="font-size: 24px;">About Us</font>
+                                </h5>
+                                <p class="o_default_snippet_text s_line_height_2">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci
+                                    ipsum gravida tortor, sem quis lacinia faucibus, orci ipsum gravida tortor
+                                    consectetur orci adipiscing elit.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 mb32 col-lg-2">
+                                <h5 class="mb24">
+                                    <font style="font-size: 24px;">Useful Links</font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(0, 0, 0);">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(0, 0, 0);">Services</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(0, 0, 0);">Account</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(0, 0, 0);">Your Orders</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(0, 0, 0);">Your Cart</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="font-size: 24px;">Contact</font>
+                                </h5>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-home mr-3"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                        <span t-field="res_company.state_id.name"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-envelope-o mr-3"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.email"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="o_default_snippet_text media">
+                                    <i class="fa fa-phone mr-3"/>
+                                    <div class="media-body">
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="mb24">
+                                    <font style="font-size: 24px;">Our Newsletter</font>
+                                </h5>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text">Thanks for your
+                                        subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Icecream Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_banner"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_image_grid"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_product_carousel_1"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_sale_image"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_product_variety"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_testimonial"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_product_carousel_2"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_blog_carousel"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_brand_carousel"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_contact"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_icecream_ecommerce_ultimate_01.icecream_footer"
+                           t-thumbnail="/theme_icecream_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

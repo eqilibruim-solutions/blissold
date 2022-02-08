@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <!-- Snippet's Options -->
+    <template id="s_object_carousel_option"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='carousel']" position="after">
+            <div data-js='js_get_objects' data-selector=".js_get_objects"/>
+
+            <!-- Filter Options -->
+            <div data-js='js_get_objects_selectFilter'
+                 data-selector=".js_get_objects">
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-filter"/>
+                        Filters
+                    </we-toggler>
+                    <we-collapse data-no-preview="true" class="filter_div">
+                        <we-button data-filter_by_filter_id="">
+                            No Filter
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+            </div>
+
+            <!-- Total Object Limit Options -->
+            <div data-js='js_get_objects_limit'
+                 data-selector=".js_get_objects">
+                <div class="dropdown-submenu">
+                    <we-collapse-area>
+                        <we-toggler>
+                            <i class="fa fa-fw fa-columns"/>
+                            Number of Objects
+                        </we-toggler>
+                        <we-collapse data-no-preview="true" class="object_div">
+                            <we-button data-objects_limit="">
+                                All Objects
+                            </we-button>
+                            <we-button data-objects_limit="1">
+                                1
+                            </we-button>
+                            <we-button data-objects_limit="2">
+                                2
+                            </we-button>
+                            <we-button data-objects_limit="3">
+                                3
+                            </we-button>
+                            <we-button data-objects_limit="4">
+                                4
+                            </we-button>
+                            <we-button data-objects_limit="5">
+                                5
+                            </we-button>
+                            <we-button data-objects_limit="6">
+                                6
+                            </we-button>
+                            <we-button data-objects_limit="7">
+                                7
+                            </we-button>
+                            <we-button data-objects_limit="8">
+                                8
+                            </we-button>
+                            <we-button data-objects_limit="9">
+                                9
+                            </we-button>
+                            <we-button data-objects_limit="10">
+                                10
+                            </we-button>
+                            <we-button data-objects_limit="12">
+                                12
+                            </we-button>
+                            <we-button data-objects_limit="15">
+                                15
+                            </we-button>
+                        </we-collapse>
+                    </we-collapse-area>
+                </div>
+            </div>
+
+            <!-- Total Row Displayed Options -->
+            <div data-js='js_get_objects_in_row'
+                 data-selector=".js_get_objects">
+                <div data-js='js_get_objects_in_row'
+                     data-selector=".js_get_objects">
+                    <we-collapse-area>
+                        <we-toggler>
+                            <i class="fa fa-bars"/>
+                            In Row
+                        </we-toggler>
+                        <we-collapse data-no-preview="true" class="row_div">
+                            <we-button data-objects_in_row="1">
+                                1
+                            </we-button>
+                            <we-button data-objects_in_row="2">
+                                2
+                            </we-button>
+                            <we-button data-objects_in_row="3">
+                                3
+                            </we-button>
+                        </we-collapse>
+                    </we-collapse-area>
+                </div>
+            </div>
+
+            <!-- Total Object Limit per Slide Options -->
+            <div data-js='js_get_objects_in_slide'
+                     data-selector=".js_get_objects">
+                    <we-collapse-area>
+                        <we-toggler>
+                            <i class="fa fa-file-o"/>
+                           Objects in Each Slide
+                        </we-toggler>
+                        <we-collapse data-no-preview="true" class="slides_div">
+                            <we-button data-objects_in_slide="1">
+                                1
+                            </we-button>
+                            <we-button data-objects_in_slide="2">
+                                2
+                            </we-button>
+                            <we-button data-objects_in_slide="3">
+                                3
+                            </we-button>
+                            <we-button data-objects_in_slide="4">
+                                4
+                            </we-button>
+                            <we-button data-objects_in_slide="5">
+                                5
+                            </we-button>
+                        </we-collapse>
+                    </we-collapse-area>
+                </div>
+
+            <!-- Hide Headline Option -->
+            <div data-js='js_get_objects_headline'
+                 data-selector=".js_get_objects">
+                <div class="dropdown-divider"/>
+                <we-button href="#" class="dropdown-item"
+                   data-toggle-class="headline_hidden">Hide Headline
+                </we-button>
+            </div>
+
+        </xpath>
+    </template>
+
+</odoo>

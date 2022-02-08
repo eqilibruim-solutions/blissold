@@ -1,0 +1,1006 @@
+<odoo>
+    <data>
+        <!--Snippet  Midheader Start-->
+        <template id="electronics_mid_header" name="Electronics  Midheader">
+            <section class="bg-light oe_custom_bg pb-1 pb-1" id="mid-header-top-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 oe_structure mt-1 mb-1 col-lg-8 col-md-12 col-sm-12 text-center text-lg-left text-md-center"
+                             id="mid-header-top-left">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <span id="phone-header" class="col ml8 mr8">
+                                        <i class="fa fa-phone mr-2"/>
+                                        <span class="o_default_snippet_text">+1 555 123 8069</span>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <span class="text-center col ml8 mr8" id="email-header">
+                                        <i class="fa fa-envelope mr-2"/>
+                                        <span class="o_default_snippet_text">info@yourcompany.example.com</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="col-12 oe_structure col-lg-4 col-md-12 col-sm-12 my-1 text-center text-lg-right text-md-center"
+                             id="mid-header-top-right">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <span class="mr-2">
+                                        <i class="fa fa-location-arrow"/>
+                                        <a href="#" style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Store
+                                            Location
+                                        </a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <span>
+                                        <i class="fa fa-first-order"/>
+                                        <a href="#" style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Track
+                                            Order
+                                        </a>
+                                    </span>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg pb-1 pb-1" id="mid-header-bottom-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-lg-4 col-md-4 pt8 pb8 text-center text-md-left text-lg-left oe_structure"
+                             id="mid-header-bottom-left">
+                            <div class="oe_structure oe_empty">
+                                <a href="/" class="img-fluid">
+                                    <img src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="oe_structure col col-12 col-sm-12 col-md-4 col-lg-4 pt8 pb8 align-self-center text-lg-left"
+                             id="mid-header-bottom-center">
+                            <div class="oe_structure oe_empty">
+                                <span>
+                                    <form action="/shop" method="get">
+                                        <div class="input-group">
+                                            <input type="text" name="search"
+                                                   class="search-query form-control oe_search_box search_input"
+                                                   placeholder="Enter Keyword to Search..."/>
+                                            <div class="input-group-append">
+                                                <button type="submit"
+                                                        class="btn btn-alpha btn-dark oe_search_button search_button"
+                                                        aria-label="Search" title="Search">
+                                                    <i class="fa fa-search text-white"/>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-4 col-md-4 text-center text-md-right text-lg-right align-self-center pt8 pb8  oe_structure"
+                             id="mid-header-bottom-right">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a href="#" class="text-black o_default_snippet_text">Add Language</a>
+                                </div>
+                            </li>
+                            <li id="my_wish" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a href="/shop/wishlist" class="pr-2">
+                                        <i class="fa fa-heart-o text-black" title="wishlist" style="font-size:18px;"/>
+                                    </a>
+                                </div>
+                            </li>
+                            <li id="my_cart" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a href="/shop/cart" class="pr-2">
+                                        <i class="fa fa-opencart text-black" title="add to cart"
+                                           style="font-size:18px;"/>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Midheader End-->
+
+        <!--Snippet  Banner Start-->
+        <template id="electronics_banner" name="Electronics  Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255);font-size: 36px;background: #575555;border-radius: 5px;">
+                                    Enhanced Technology
+                                </font>
+                            </h1>
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255);background: rgba(0, 0, 0, 0.5);border-radius: 5px;">
+                                    QLED 75 INCH Q7F
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 text-left pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mt8 mb8 btn btn-epsilon" data-original-title="" title="">
+                                <font style="font-size: 18px;">
+                                    <b>&amp;nbsp;SHOP NOW</b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet  Banner End-->
+
+        <!--Snippet  Sale Image Start-->
+        <template id="electronics_sale_image" name="Electronics  Sale Image">
+            <section style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt48" id="ecommerce_block_1">
+                                    <div class="container">
+                                        <div class="row justify-content-md-center">
+                                            <div class="col-12 col-md-4 col-lg-6 col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                                                        <a href="#">
+                                                            <img class="d-block img-fluid  mx-auto mb8 mt8"
+                                                                 src="/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-280x281.png"
+                                                                 data-original-title="" title=""
+                                                                 aria-describedby="tooltip867057"/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                                                        <img class="img-fluid d-block mx-auto mb8 mt8"
+                                                             src="/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-280x281.png"
+                                                             data-original-title="" title=""
+                                                             aria-describedby="tooltip867057"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 col-lg-6 col-sm-12 mb16">
+                                                <a href="#">
+                                                    <img class="img-fluid d-block mx-auto mb8 mt8"
+                                                         src="/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-283x586.png"
+                                                         data-original-title="" title=""
+                                                         aria-describedby="tooltip867057"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section
+                                        class="s_product_carousel_mini oe_website_sale js_get_objects mb8 product_carousel s_carousel_mini_1 pt72"
+                                        data-loading="true"
+                                        data-template="ecommerce_snippets_blocks.product_list_template_mini_d2"
+                                        data-object_name="product.template" data-objects_in_slide="2"
+                                        data-objects_in_row="2"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Image End-->
+
+        <!--Snippet  Sale Process Start-->
+        <template id="electronics_sale_process" name="Electronics  Sale Process">
+            <section class="pt32 pb32" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="o_default_snippet_text" style="text-align: left; ">
+                                <b>PURCHASE PROCESS</b>
+                            </h2>
+                            <div class="row pt24">
+                                <div class="bg-gamma col-12 col-lg-3 col-md-6 col-sm-12 media p-4">
+                                    <i class="fa fa-3x mr-3 mt-2 pe-7s-refresh-2 fa-500px" data-original-title=""
+                                       title="" aria-describedby="tooltip354146" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pt8">
+                                            <font class="text-epsilon" style="">
+                                                <b>STEP 1</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 18px;">
+                                                <b>Select Your Items</b>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="bg-gamma col-12 col-lg-3 col-md-6 col-sm-12 media p-4">
+                                    <i class="fa fa-3x mr-3 mt-2 pe-7s-cart fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip950816" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pt8 ">
+                                            <font class="text-epsilon" style="">
+                                                <b>STEP 2</b>
+                                            </font>
+                                        </h3>
+                                        <p>
+                                            <b>
+                                                <font style="font-size: 18px;">Add To Cart</font>
+                                            </b>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="bg-gamma col-12 col-lg-3 col-md-6 col-sm-12 media p-4">
+                                    <i class="fa fa-3x mr-3 mt-2 pe-7s-check fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip541278" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pt8">
+                                            <b>
+                                                <font class="text-epsilon" style="">STEP 3</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <b>
+                                                <font style="font-size: 18px;">Checkout Items</font>
+                                            </b>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="bg-gamma col-12 col-lg-3 col-md-6 col-sm-12 media p-4">
+                                    <i class="fa fa-3x mr-3 mt-2 pe-7s-next-2 fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip95993" style=""/>
+                                    <div class="media-body">
+                                        <h3 class="pt8">
+                                            <b>
+                                                <font class="text-epsilon" style="">STEP 4</font>
+                                            </b>
+                                        </h3>
+                                        <p>
+                                            <font style="font-size: 18px;">
+                                                <b>Taken Your Items</b>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Process End-->
+
+        <!--Snippet Product Carousel 1 Start-->
+        <template id="electronics_product_carousel_1" name="Electronics Product Carousel 1">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel" data-loading="true"
+                     data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d8"/>
+        </template>
+        <!--Snippet Product Carousel 1 End-->
+
+        <!--Snippet  Promo Image Start-->
+        <template id="electronics_promo_image" name="Electronics Promo Image">
+            <section class="pt32 pb32" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <a href="#">
+                                    <img class="img-fluid d-block mx-auto"
+                                         src="/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Promo Image End-->
+
+        <!--Snippet Product Carousel 2 Start-->
+        <template id="electronics_product_carousel_2" name="Electronics Product Carousel 2">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel" data-loading="true"
+                     data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d8"/>
+        </template>
+        <!--Snippet Product Carousel 2 End-->
+
+        <!--Snippet Tab Carousel Start-->
+        <template id="electronics_tab_carousel" name="Electronics Tab Carousel">
+            <section class="pt24" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="mt32 mb32" style="">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12" style="">
+                                                <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" data-toggle="tab"
+                                                           href="#nav_tabs_content_1580726761346_87" role="tab"
+                                                           id="nav_tabs_link_1580726761346_87"
+                                                           aria-controls="nav_tabs_content_1580726761346_87"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip149190">Smart Tv
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link" data-toggle="tab"
+                                                           href="#nav_tabs_content_1580726761347_88" role="tab"
+                                                           id="nav_tabs_link_1580726761347_88"
+                                                           aria-controls="nav_tabs_content_1580726761347_88"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip871557">Smart Phone
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link active show" data-toggle="tab"
+                                                           href="#nav_tabs_content_1580726761347_89" role="tab"
+                                                           id="nav_tabs_link_1580726761347_89"
+                                                           aria-controls="nav_tabs_content_1580726761347_89"
+                                                           aria-selected="true" data-original-title="" title=""
+                                                           aria-describedby="tooltip5405">Laptops
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade" id="nav_tabs_content_1580726761346_87"
+                                                         role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1580726761346_87">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="2" id="new_products_item_d8"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in" id="nav_tabs_content_1580726761347_88"
+                                                         role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1580726761347_88">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="2" id="new_products_item_d8"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in active show"
+                                                         id="nav_tabs_content_1580726761347_89" role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1580726761347_89">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="2" id="new_products_item_d8"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="mt32 mb32" style="">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12" style="">
+                                                <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" data-toggle="tab"
+                                                           href="#nav_tabs_content_1580726780005_93" role="tab"
+                                                           id="nav_tabs_link_1580726780005_93"
+                                                           aria-controls="nav_tabs_content_1580726780005_93"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip981044">Camera
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link" data-toggle="tab"
+                                                           href="#nav_tabs_content_1580726780005_94" role="tab"
+                                                           id="nav_tabs_link_1580726780005_94"
+                                                           aria-controls="nav_tabs_content_1580726780005_94"
+                                                           aria-selected="false" data-original-title="" title=""
+                                                           aria-describedby="tooltip182503">Speakers
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link active show" data-toggle="tab"
+                                                           href="#nav_tabs_content_1580726780005_95" role="tab"
+                                                           id="nav_tabs_link_1580726780005_95"
+                                                           aria-controls="nav_tabs_content_1580726780005_95"
+                                                           aria-selected="true" data-original-title="" title=""
+                                                           aria-describedby="tooltip952344">Smart Watch
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade" id="nav_tabs_content_1580726780005_93"
+                                                         role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1580726780005_93">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="2" id="new_products_item_d8"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in" id="nav_tabs_content_1580726780005_94"
+                                                         role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1580726780005_94">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="2" id="new_products_item_d8"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade in active show"
+                                                         id="nav_tabs_content_1580726780005_95" role="tabpanel"
+                                                         aria-labelledby="nav_tabs_link_1580726780005_95">
+                                                        <div class="oe_structure">
+                                                            <section
+                                                                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden"
+                                                                    data-loading="true"
+                                                                    data-template="ecommerce_snippets_blocks.product_list_template_d8"
+                                                                    data-object_name="product.template"
+                                                                    data-objects_in_slide="2" id="new_products_item_d8"
+                                                                    style=""/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel  End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="electronics_brand_carousel" name="Electronics Brand Carousel">
+            <section class="s_brand_carousel mb8 js_get_objects" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d3"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d3"/>
+        </template>
+        <!--Snippet Brand Carousel  End-->
+
+        <!--Snippet Blog Start-->
+        <template id="electronics_blog" name="Electronics Blog">
+            <section class="oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-7 col-lg-8 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="s_blog_carousel js_get_objects blog_carousel" data-loading="true"
+                                         data-template="snippet_blog_carousel_73lines.blog_list_template"
+                                         data-object_name="blog.post" data-objects_in_slide="2"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pb16 pt16" id="testimonials_d3">
+                                    <div id="myCarousel1579673491679"
+                                         class="s_quotes_carousel carousel slide s_carousel_default"
+                                         data-interval="10000">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  oe_custom_bg active" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                            <h2 style="text-align: left; " class="mx-3">
+                                                                <font style="font-size: 24px;">
+                                                                    <b>TESTIMONIALS</b>
+                                                                </font>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 mt-4">
+                                                            <div class="col-lg-12">
+                                                                <div class="bg-epsilon p-3 p-4 text-center">
+                                                                    <img class="img"
+                                                                         src="/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-user1.png"
+                                                                         alt="" data-original-title="" title=""
+                                                                         aria-describedby="tooltip891950"/>
+                                                                </div>
+                                                                <div class="bg-delta p-3 text-center">
+                                                                    <p class="mt16">— Jane DOE</p>
+                                                                    <p class="lead mt16  o_default_snippet_text">Write a
+                                                                        quote here from one of your customers. Quotes
+                                                                        are a great way to build confidence in your
+                                                                        products or services.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  oe_custom_bg" data-name="Slide" style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center mx-2">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                            <h2 style="text-align: left; " class="mx-3">
+                                                                <font style="font-size: 24px;">
+                                                                    <b>TESTIMONIALS</b>
+                                                                </font>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="carousel-content col-12 col-sm-12 col-md-12 col-lg-12 mt-4">
+                                                            <div class="col-lg-12">
+                                                                <div class="bg-epsilon p-3 p-4 text-center">
+                                                                    <img class="img"
+                                                                         src="/theme_electronics_ecommerce_ultimate_02/static/src/img/placeholder-user1.png"
+                                                                         alt="" data-original-title="" title=""
+                                                                         aria-describedby="tooltip891950"/>
+                                                                </div>
+                                                                <div class="bg-delta p-3 text-center">
+                                                                    <p class="mt16 o_default_snippet_text">— Alexa
+                                                                        Smith
+                                                                    </p>
+                                                                    <p class="lead mt16  o_default_snippet_text">Write a
+                                                                        quote here from one of your customers. Quotes
+                                                                        are a great way to build confidence in your
+                                                                        products or services.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-control-prev" data-target="#myCarousel1579673491679"
+                                             data-slide="prev" role="img" aria-label="Previous" title="Previous"
+                                             style="     left: 24px;     top: 20px; ">
+                                            <span class="carousel-control-prev-icon"/>
+                                            <span class="sr-only o_default_snippet_text">Previous</span>
+                                        </div>
+                                        <div class="carousel-control-next" data-target="#myCarousel1579673491679"
+                                             data-slide="next" role="img" aria-label="Next" title="Next"
+                                             style="     right: 24px;     top: 20px; ">
+                                            <span class="carousel-control-next-icon"/>
+                                            <span class="sr-only o_default_snippet_text">Next</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Features Start-->
+        <template id="electronics_features" name="Electronics Features">
+            <section class="bg-beta oe_custom_bg pb32 pt40" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb8">
+                            <i class="fa fa-3x fa-500px mb16 pe-7s-car text-delta" data-original-title="" title=""
+                               aria-describedby="tooltip675100" style=""/>
+                            <h3 class="o_default_snippet_text">
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b>FREE SHIPPING</b>
+                                </font>
+                            </h3>
+                            <p class="o_default_snippet_text">
+                                <font style="color: rgb(156, 156, 148);">ON ORDER OVER $199</font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb8">
+                            <i class="fa fa-3x fa-500px mb16 pe-7s-cash text-delta" data-original-title="" title=""
+                               aria-describedby="tooltip228391" style=""/>
+                            <h3 class="o_default_snippet_text">
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b>MONEY BACK</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font style="color: rgb(156, 156, 148);">WITHIN 30 DAYS AFTER DELIVERY</font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb8">
+                            <i class="fa fa-3x fa-500px mb16 pe-7s-like2 text-delta" data-original-title="" title=""
+                               aria-describedby="tooltip759679" style=""/>
+                            <h3>
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b>SAFE PAYMENT</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font style="color: rgb(156, 156, 148);">SECURE PAYMENT METHOD</font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb8">
+                            <i class="fa fa-3x fa-500px mb16 pe-7s-chat text-delta" data-original-title="" title=""
+                               aria-describedby="tooltip588129" style=""/>
+                            <h3>
+                                <b>
+                                    <font style="color: rgb(255, 255, 255);">24/7 HELP CENTER</font>
+                                </b>
+                            </h3>
+                            <p class="o_default_snippet_text">
+                                <font style="color: rgb(156, 156, 148);">+ 0(123) 456 789</font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Features End-->
+
+        <!--Snippet Footer Start-->
+        <template id="electronics_footer" name="Electronics Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64 pb32" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-7">
+                                <h5 class="font-weight-bold o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">POPULAR CATEGORIES</font>
+                                </h5>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt16">
+                                        <ol class="list-unstyled">
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">CAMERS</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">SMARTPHONES</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">LAPTOPS</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">SPEAKERS</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">PRINTERS</font>
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-5 mt16 mb16">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">COMPUTER ACCESSORIES
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">SMART WATCH</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">HEADPHONES</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">SPORT GADGETS</font>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star mr-2 " data-original-title="" title=""
+                                                   aria-describedby="tooltip690215"
+                                                   style="color: rgb(255, 255, 255);"></i>
+                                                <a href="#" class="text-decoration-none o_default_snippet_text"
+                                                   target="_blank">
+                                                    <font style="color: rgb(255, 255, 255);">COMPUTERS</font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 mb32 col-lg-4">
+                                <h5 class="mb24">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>
+                                            <a data-original-title="" title="">SUBSCRIBE FOR NEWSLETTER</a>
+                                        </b>
+                                    </font>
+                                </h5>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt32 mb32">
+                                <h5 class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>CUSTOMER SERVICE</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">+ 123-456-7890</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">ORDER HISTORY</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">SPECIALS</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);" data-original-title="" title=""
+                                                  aria-describedby="tooltip699685">DYNAMICUS
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">SITE MAP</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt32 mb32">
+                                <h5 class="o_default_snippet_text">
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">MY ACCOUNT</font>
+                                    </b>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">MY ACCOUNT</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">WISHLIST</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">DELIVERY INFORMATION</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">PERSONAL INFO</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">MY CART</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt32 mb32">
+                                <h5 class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>QUICK LINKS</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">HOME</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">ABOUT US</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">CUSTOMER SERVICE</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">PRIVACY POLICY</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">TERMS &amp;amp; CONDITION
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt32 mb32">
+                                <h5>
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>INFORMATION</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">ABOUT OUR SHOP</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">SECURE SHOPPING</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">SHIPPING &amp;amp; RETURNS
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">PAYMENT METHODS</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">INTERNATIONAL SHOPPING</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Electronics Ecommerce Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_mid_header"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_banner"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_sale_image"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_sale_process"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_product_carousel_1"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_promo_image"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_product_carousel_2"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_tab_carousel"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_brand_carousel"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_blog"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_features"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_electronics_ecommerce_ultimate_02.electronics_footer"
+                           t-thumbnail="/theme_electronics_ecommerce_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

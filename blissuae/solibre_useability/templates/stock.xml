@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="stock_link">
+        <t t-call="web.layout">
+            <div id="wrap">
+                <div class="container">
+                    <h1 class="mt-5">Scan Product</h1>
+                    <input type="text" id="barcode" tabindex="1" autofocus="1"/>
+                </div>
+            </div>
+        </t>
+    </template>
+
+</odoo>

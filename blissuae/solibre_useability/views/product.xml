@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+    <record model="ir.ui.view" id="view_product_category_form_inherit">
+        <field name="name">product.category.form.inherit</field>
+        <field name="model">product.category</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="product.product_category_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='parent_id']" position="after">
+                <field name="company_ids" />
+                <field name="user_id" />
+                <field name="need_contract" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_product_template_form_inherit_website">
+        <field name="name">product.template.form.inherit</field>
+        <field name="model">product.template</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="website_sale.product_template_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='public_categ_ids']" position="after">
+                <field name="partner_ids" widget="many2many_tags"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_product_template_form_inherit">
+        <field name="name">product.template.form.inherit</field>
+        <field name="model">product.template</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="stock.view_template_property_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='inventory']" position="inside">
+                <group string="Localisation">
+                    <field name="stock_localisation_ids" nolabel="1" context="{'default_name':parent.product_variant_id}" >
+                        <tree editable="bottom">
+                            <field name="location_id" options="{'no_create': True}"/>
+                            <field name="storage_location_id" />
+                            <field name="name" invisible="1"/>
+                        </tree>
+                    </field>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_product_template_only_form_inherit">
+        <field name="name">product.template.form.inherit</field>
+        <field name="model">product.template</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='barcode']" position="after">
+                <field name="color"/>
+            </xpath>
+            <xpath expr="//div[@name='options']" position="inside">
+                <div>
+                    <field name="available_in_crm"/>
+                    <label for="available_in_crm"/>
+                </div>                
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_product_add_category_form">
+        <field name="name">product.add.category.form</field>
+        <field name="model">product.add.category</field>
+        <field name="type">form</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="public_categ_ids" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+                <footer>
+                    <button type="object" name="set_product_categs" class="btn btn-primary" string="Confirm" />
+                    <button class="oe_link" special="cancel" string="Cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_product_add_category">
+        <field name="name">Add category</field>
+        <field name="res_model">product.add.category</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="view_id" ref="view_product_add_category_form" />
+    </record>
+
+    <act_window name="Set Category"
+        res_model="product.add.category"
+        binding_model="product.template"
+        binding_views="list"
+        view_mode="form"
+        target="new"
+        id="act"/>
+
+    <record model="ir.ui.view" id="view_cproduct_customer_reference_tree">
+        <field name="name">product.customer.reference.tree</field>
+        <field name="model">product.customer.reference</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="default_code" />
+                <field name="barcode" />
+            </tree>
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_product_customer_reference_search">
+        <field name="name">product.customer.reference.search</field>
+        <field name="model">product.customer.reference</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" filter_domain="[('name', 'ilike', self)]" string="Name" />
+                <field name="partner_id" />
+                <field name="default_code" />
+                <field name="barcode" />
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_product_customer_reference">
+        <field name="name">Product Ccstomer reference</field>
+        <field name="res_model">product.customer.reference</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+    <menuitem
+        id="menu_product_customer_reference"
+        name="Customer Ref"
+        parent="sale.sale_order_menu"
+        action="action_product_customer_reference" />
+
+    </data>
+</odoo>

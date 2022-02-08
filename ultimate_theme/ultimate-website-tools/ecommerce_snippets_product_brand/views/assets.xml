@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- ==================================== Scss ================================= -->
+    <template id="ecommerce_snippets_product_brand_assets"
+              name="Product Brand Assets"
+              inherit_id="website.assets_frontend" active="True">
+        <xpath expr="." position="inside">
+            <link href="/ecommerce_snippets_product_brand/static/src/scss/product_brand_carousel.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+            <link href="/ecommerce_snippets_product_brand/static/src/scss/brand_carousel_design.scss"
+                  type="text/scss" rel="stylesheet"/>
+
+        </xpath>
+    </template>
+    <template id="snippet_id_brand_carousel" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_brand_carousel" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Brand Carousel
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d1"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d1.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d2"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d2.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d3"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d3.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d4"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d4.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d5"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d5.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d6"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d6.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d7"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d7.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d8"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d8.png"/>
+                    <t t-snippet="ecommerce_snippets_product_brand.s_brand_carousel_header_d9"
+                       t-thumbnail="/ecommerce_snippets_product_brand/static/src/img/snippet-icons/brand_carousel/brand-carousel-d9.png"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

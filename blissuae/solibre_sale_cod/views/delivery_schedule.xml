@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="sale_order_tracking_action">
+        <field name="name">Tracking</field>
+        <field name="res_model">sale.order.tracking</field>
+        <field name="view_mode">tree,pivot,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_sale_order_tracking"
+        name="Tracking Status"
+        parent="operation_menu_root"
+        action="sale_order_tracking_action" />
+
+    <record model="ir.ui.view" id="view_sale_order_tracking_form_inherit">
+        <field name="name">sale.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('oe_button_box')]" position="inside">
+                <button class="oe_stat_button" 
+                        type="action" 
+                        context="{'search_default_order_id': active_id}"
+                        name="%(sale_order_tracking_action)d" 
+                        icon="fa-map-marker"
+                        >
+                    <field name="status_count" widget="statinfo" string="Tracking"/> 
+                </button>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sale_order_operation_form">
+        <field name="name">sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="priority">50</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button type="object" name="send_delivery_message" string="Delivery Location Request" />
+                    <button type="action" 
+                            name="%(action_sale_tracking_wizard)d" 
+                            context="{'default_activity_id':%(sale_order_tracking_activity_address_update)d}"
+                            string="Log Exception" />
+                    <button type="object" name="set_prepared" string="Ready" attrs="{'invisible':[('prepared_by','!=',False)]}"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,sent,sale"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        
+                        <button name="action_view_invoice" type="object" class="oe_stat_button" icon="fa-pencil-square-o" attrs="{'invisible': [('invoice_count', '=', 0)]}">
+                            <field name="invoice_count" widget="statinfo" string="Invoices"/>
+                        </button>
+                        <field name="picking_ids" invisible="1"/>
+                        <button type="object" name="action_view_delivery" class="oe_stat_button" icon="fa-truck" attrs="{'invisible': [('delivery_count', '=', 0)]}" groups="base.group_user">
+                            <field name="delivery_count" widget="statinfo" string="Delivery"/>
+                        </button>
+                        <field name="transaction_ids" invisible="1"/>
+                        <button type="object" name="action_payment_transaction" class="oe_stat_button" icon="fa-credit-card" attrs="{'invisible': [('transaction_ids', '=', False)]}" groups="base.group_user">
+                            <span>Payments</span>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only" string="Lead"/>
+                        <label for="name" class="oe_edit_only" />
+                        <h1><field name="name" placeholder="e.g. Product Pricing"/></h1>
+                    </div>
+                    <group>
+                        <group name="Destination">
+                            <field name="partner_shipping_id"
+                                widget="res_partner_many2one"
+                                string="Recipient"
+                                context="{
+                                    'show_address':1
+                                }"
+                                options='{"always_reload": True}'/>
+<!--                             <field name="dest_partner_name"/>
+                            <label for="dest_street" string="Address"/>
+                            <div class="o_address_format">
+                                <field name="dest_street" placeholder="Street..." class="o_address_street"/>
+                                <field name="dest_street2" placeholder="Street 2..." class="o_address_street"/>
+                                <field name="dest_city_id" placeholder="City" class="o_address_city"/>
+                                <field name="dest_state_id" class="o_address_state" placeholder="State" options='{"no_open": True}'/>
+                                <field name="dest_country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}'/>
+                            </div> -->
+                            <field name="dest_mobile"
+                                widget="phone" options="{'enable_sms': True}"/>
+                            <field name="dest_makani_number" />
+                            <field name="pref_date" />
+                            <field name="pickup_location_id" />
+                            <label for="dest_partner_longitude" string="Geolocalisation"/>
+                            <div >
+                                <span> Lng </span>
+                                <field name="dest_partner_longitude" class="oe_inline"/>
+                                <div class="oe_edit_only"/>
+                                <span> Lat </span>
+                                <field name="dest_partner_latitude" class="oe_inline"/>
+                            </div>
+                        </group>
+                        <group>
+                            <field name="user_id" domain="[('share', '=', False)]"
+                                context="{'default_groups_ref': ['base.group_user', 'base.group_partner_manager', 'sales_team.group_sale_salesman_all_leads'], 'team_id': team_id}"/>
+                            <field name="team_id" widget="selection"
+                                domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]"/>
+                            <field name="cod_amount" />
+                            <field name="prepared_by" />
+                            <field name="company_id" invisible="1"/>
+                            <field name="partner_id" invisible="1"/>
+                            <field name="pricelist_id" invisible="1"/>
+
+                        </group>
+                    </group>
+                    <field name="order_line">
+                        <tree>
+                            <field name="product_id" />
+                            <field name="product_uom_qty" />
+                            <field name="product_uom" />
+                        </tree>
+                    </field>
+                    <field name="sale_order_tracking_ids">
+                        <tree>
+                            <field name="create_date" />
+                            <field name="create_uid" />
+                            <field name="department_id" />
+                            <field name="activity_id" />
+                            <field name="state_id" />
+                        </tree>
+                    </field>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread" options="{'post_refresh': 'recipients'}"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_all_orders">
+        <field name="name">Sale Order</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_mode">tree,form,kanban</field>
+        <field name="context">{'search_default_outstanding':1}</field>
+        <field name="domain">[('state','not in',('draft','sent','cancel'))]</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('view_sale_order_tree')}),
+                (0, 0, {'view_mode': 'kanban', 'view_id': ref('sale.view_sale_order_kanban')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('sale_order_operation_form')})]"/>
+    </record>
+
+	<record model="ir.ui.view" id="view_delivery_schedule_form">
+	    <field name="name">delivery.schedule.form</field>
+	    <field name="model">delivery.schedule</field>
+	    <field name="priority">0</field>
+	    <field name="arch" type="xml">
+	        <form>
+                <field name="_barcode_scanned" widget="barcode_handler"/>
+	            <header>
+	                <button type="object" states="draft" name="action_confirm" string="Confirm" />
+	                <button type="object" states="open" name="action_done" string="Done" />
+	                <field name="state" widget="statusbar"/>
+	            </header>
+	            <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" 
+                                type="action" 
+                                name="%(action_all_orders)d" 
+                                icon="fa-calculator"
+                                >
+                            <field name="delivery_count" widget="statinfo" string="Total"/> 
+                        </button>
+                        <button class="oe_stat_button" 
+                                type="action" 
+                                context="{'search_default_shipping_state': 'delivered'}"
+                                name="%(action_all_orders)d" 
+                                icon="fa-check"
+                                >
+                            <field name="delivered_count" widget="statinfo" string="Success"/> 
+                        </button>
+                        <button class="oe_stat_button" 
+                                type="action" 
+                                context="{'search_default_shipping_state': 'dispatched'}"
+                                name="%(action_all_orders)d" 
+                                icon="fa-times"
+                                >
+                            <field name="not_delivered_count" widget="statinfo" string="Failed"/> 
+                        </button>
+                    </div>
+
+
+	            	<h1>
+	            		<field name="name" />
+	            	</h1>
+	                <group>
+                        <group>
+                            <field name="date" />
+                            <field name="zone_id" />
+                        </group>
+                        <group>
+                            <field name="schedule_type" />
+	                	    <field name="vehicle_id" />
+	                	    <field name="driver_id" />
+                        </group>
+	                </group>
+                    <notebook>
+                        <page string="Delivery">
+        	                <field name="order_ids" nolabel="1" widget="many2many">
+                                <tree>
+                                    <field name="name" />
+                                    <field name="partner_shipping_id" />
+                                    <field name="city_id" />
+                                    <field name="dest_area_id" />
+                                    <field name="mobile" />
+                                    <field name="cod_amount" />
+                                    <field name="last_track" />
+                                    <field name="shipping_state" />
+                                    <field name="state" invisible="1"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Pickup">
+                        </page>
+                        <page string="Recurring Pickup">
+                        </page>
+                    </notebook>
+
+	            </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+	        </form>
+	    </field>
+	</record>
+
+    <record model="ir.actions.act_window" id="action_delivery_schedule">
+        <field name="name">Delivery Schedule</field>
+        <field name="res_model">delivery.schedule</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="context">{'search_default_current':1}</field>
+        <field name="target">current</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_schedule_tree">
+        <field name="name">delivery.schedule.tree</field>
+        <field name="model">delivery.schedule</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="schedule_type" />
+            	<field name="date" />
+                <field name="name" />
+                <field name="driver_id" />
+                <field name="vehicle_id" />
+                <field name="state" />
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_schedule_search">
+        <field name="name">delivery.schedule.search</field>
+        <field name="model">delivery.schedule</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" string="Name" />
+                <field name="order_ids" string="Tracking"/>
+                <field name="vehicle_id" />
+                <field name="driver_id" />
+                <filter name="current" string="Current" domain="[('state', '!=', 'done')]" />
+                <field name="state" string="Status" />
+            </search>
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="sale_order_missing_dest_address_form">
+        <field name="name">sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="priority">50</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button type="object" name="send_delivery_message" string="Delivery Location Request" />
+                    <button type="action" 
+                            context="{'default_activity_id':%(sale_order_tracking_activity_address_update)d}"
+                            name="%(action_sale_tracking_wizard)d" 
+                            string="Log Exception" />
+                    <button type="object" name="set_delivered" string="Force delivery" />
+                    <field name="state" widget="statusbar" statusbar_visible="draft,sent,sale"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+
+                        <button class="oe_stat_button" 
+                                type="action" 
+                                context="{'search_default_order_id': active_id}"
+                                name="%(sale_order_tracking_action)d" 
+                                icon="fa-map-marker"
+                                >
+                            <field name="status_count" widget="statinfo" string="Tracking"/> 
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only" string="Lead"/>
+                        <label for="name" class="oe_edit_only" />
+                        <h1><field name="name" placeholder="e.g. Product Pricing"/></h1>
+                    </div>
+                    <group>
+                        <group name="Destination">
+                            <field name="partner_shipping_id"
+                                widget="res_partner_many2one"
+                                string="Recipient"
+                                context="{
+                                    'show_vat': True,
+                                    'show_address':1
+                                }"
+                                options='{"always_reload": True}'
+                            />
+                            <label for="delivery_zone_id" />
+                            <div>
+                                <field name="delivery_zone_id" class="oe_inline"/>
+                                <button icon="fa-refresh" type="object" name="get_delivery_zone" class="oe_link"/>
+                            </div>
+<!--                             <field name="dest_partner_name"/>
+                            <label for="dest_street" string="Address"/>
+                            <div class="o_address_format">
+                                <field name="dest_street" placeholder="Street..." class="o_address_street"/>
+                                <field name="dest_street2" placeholder="Street 2..." class="o_address_street"/>
+                                <field name="dest_city_id" placeholder="City" class="o_address_city"/>
+                                <field name="dest_state_id" class="o_address_state" placeholder="State" options='{"no_open": True}'/>
+                                <field name="dest_country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}'/>
+                            </div> -->
+                            <field name="dest_mobile"
+                                widget="phone" options="{'enable_sms': True}"/>
+                        </group>
+
+                        <group name="Pickup">
+                            <field name="dest_makani_number" />
+                            <label for="dest_partner_longitude" string="Geolocalisation"/>
+                            <div >
+                                <span> Lng </span>
+                                <field name="dest_partner_longitude" class="oe_inline"/>
+                                <div class="oe_edit_only"/>
+                                <span> Lat </span>
+                                <field name="dest_partner_latitude" class="oe_inline"/>
+                            </div>
+                            <field name="user_id" domain="[('share', '=', False)]"
+                                context="{'default_groups_ref': ['base.group_user', 'base.group_partner_manager', 'sales_team.group_sale_salesman_all_leads'], 'team_id': team_id}"/>
+                            <field name="team_id" widget="selection"
+                                domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]"/>
+                            <field name="company_id" invisible="1"/>
+                        </group>
+
+                    </group>
+                    <field name="order_line">
+                        <tree>
+                            <field name="product_id" />
+                            <field name="product_uom_qty" />
+                            <field name="product_uom" />
+                        </tree>
+                    </field>
+                    <field name="sale_order_tracking_ids">
+                        <tree>
+                            <field name="create_date" />
+                            <field name="create_uid" />
+                            <field name="department_id" />
+                            <field name="activity_id" />
+                            <field name="state_id" />
+                        </tree>
+                    </field>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread" options="{'post_refresh': 'recipients'}"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sale_order_missing_dest_address">
+        <field name="name">Sale Order</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_mode">kanban,form,tree</field>
+        <field name="domain">[('dest_partner_longitude','=',False),
+                              ('dest_partner_latitude','=',False),
+                              ('shipping_state','=','arrived_facility')]</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'kanban', 'view_id': ref('sale.view_sale_order_kanban')}),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('sale.view_quotation_tree_with_onboarding')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('sale_order_missing_dest_address_form')})]"/>
+    </record>
+
+    <menuitem
+        id="menu_delivery_schedule"
+        name="Delivery Schedules"
+        parent="website_sale.menu_orders"
+        action="action_delivery_schedule" />
+
+    <menuitem
+        id="menu_schedule_except"
+        name="Exceptions"
+        parent="operation_menu_root" />
+
+    <menuitem
+        id="menu_shipments"
+        name="Shipments"
+        sequence="1"
+        parent="operation_menu_root" />
+
+    <menuitem
+        id="menu_scheduling_root"
+        name="Schedules"
+        sequence="2"
+        parent="operation_menu_root" />
+
+    <menuitem
+        id="menu_scheduling"
+        name="Schedules"
+        sequence="2"
+        action="action_delivery_schedule"
+        parent="menu_scheduling_root" />
+
+    <menuitem
+        id="menu_missing_dest_address"
+        name="Missing delivery address"
+        parent="menu_schedule_except"
+        action="action_sale_order_missing_dest_address" />
+
+    <menuitem
+        id="menu_missing_dest_address"
+        name="Missing delivery address"
+        parent="menu_schedule_except"
+        action="action_sale_order_missing_dest_address" />
+
+
+    <record model="ir.actions.act_window" id="action_sale_ready_to_deliver">
+        <field name="name">Ready for delivery</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="domain">[('shipping_state','=','to_deliver'),
+                             ('state','in',('sale','done'))]</field>
+        <field name="context">{'search_default_my_unscheduled':1}</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('view_sale_order_tree')}),
+                (0, 0, {'view_mode': 'kanban', 'view_id': ref('sale.view_sale_order_kanban')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('sale_order_missing_dest_address_form')})]"/>
+
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sale_ready_for_pickup">
+        <field name="name">Ready for pickup</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="domain">[('shipping_state','=','to_deliver'),
+                             ('state','in',('sale','done'))]</field>
+        <field name="context">{'search_default_is_pickup':1}</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'kanban', 'view_id': ref('sale.view_sale_order_kanban')}),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('sale.view_quotation_tree_with_onboarding')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('sale_order_missing_dest_address_form')})]"/>
+
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sale_to_deliver">
+        <field name="name">Out for delivery</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_mode">kanban,tree</field>
+        <field name="domain">[('state','not in',('draft','cancel'))]</field>
+        <field name="domain">[('shipping_state','=','dispatched'),
+                             ('state','in',('sale','done'))]</field>
+        <field name="context">{'search_default_my_delivery':1}</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'kanban', 'view_id': ref('sale.view_sale_order_kanban')}),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('sale.view_quotation_tree_with_onboarding')}),]"/>
+
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_infacility_orders">
+        <field name="name">Sale Order</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_mode">kanban,form,tree</field>
+        <field name="context">{'search_default_infacility':1}</field>
+        <field name="domain">[('state','not in',('draft','cancel'))]</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'kanban', 'view_id': ref('sale.view_sale_order_kanban')}),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('sale.view_quotation_tree_with_onboarding')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('sale_order_operation_form')})]"/>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_order_search">
+        <field name="name">sale.order.search.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="type">search</field>
+        <field name="inherit_id" ref="sale.view_sales_order_filter" />
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='my_sale_orders_filter']" position="after">
+
+                <filter name="is_delivery" string="To be delivered" domain="[('pickup_location_id','=',False)]" />
+                <filter name="my_delivery" string="My deliveries" domain="[('driver_id','=',uid)]" />
+
+                <filter name="is_pickup" string="To be picked up" domain="[('pickup_location_id','!=',False)]" />
+                <filter name="my_unscheduled" string="My Orders to deliver" domain="[('schedule_id','=',False),('pickup_location_id','=',False),'|',('delivery_zone_id','=',False),('delivery_zone_id.company_id', '=', allowed_company_ids[0])]"/>
+                <filter name="my_scheduled" string="My Scheduled Orders" domain="[('schedule_id','!=',False),'|',('delivery_zone_id','=',False),('delivery_zone_id.company_id', '=', allowed_company_ids[0])]"/>
+                <filter string="In Custody" domain="[('shipping_state', 'in', ['arrived_facility',
+                                                                        'picked_up',
+                                                                        'exception',
+                                                                        'to_deliver',
+                                                                        'dispatched'])]" name="incustody"/>
+                <filter string="In Facility" domain="[('shipping_state', 'in', ['arrived_facility',
+                                                                        'exception',
+                                                                        'to_deliver'])]" name="infacility"/>
+                <filter name="today_delivery" string="Today" domain="['|',('pref_date', '=', context_today().strftime('%Y-%m-%d')),('pref_date', '=', False)]" />
+                <filter name="outstanding" string="Outstanding" domain="['&amp;',('pref_date', '&lt;=', context_today().strftime('%Y-%m-%d')),('shipping_state', '!=', 'delivered')]" />
+                <filter name="unscheduled_delivery" string="Unscheduled" domain="[('schedule_id', '=', False)]" />
+
+                <filter string="Zone" name="zone" domain="[]" context="{'group_by': 'delivery_zone_id'}"/>
+                <filter string="Area" name="area" domain="[]" context="{'group_by': 'delivery_area_id'}"/>
+                <filter string="Time Slot" name="time_slot" domain="[]" context="{'group_by': 'time_slot'}"/>
+                                        
+            </xpath>
+
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_delivery_zone_form_inherit">
+        <field name="name">delivery.zone.form.inherit</field>
+        <field name="model">delivery.zone</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="res_city.view_delivery_zone_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='company_id']" position="before">
+                <field name="team_id" />
+            </xpath>
+        </field>
+    </record>
+
+    <menuitem
+        sequence="20"
+        id="menu_scheduling_ready_to_deliver"
+        name="Ready for delivery"
+        parent="menu_shipments"
+        action="action_sale_ready_to_deliver" />
+
+    <menuitem
+        sequence="30"
+        id="menu_scheduling_ready_for_pickup"
+        name="Ready for pickup"
+        parent="menu_shipments"
+        action="action_sale_ready_for_pickup" />
+
+    <menuitem
+        sequence="40"
+        id="menu_scheduling_to_deliver"
+        name="Out for delivery"
+        parent="menu_shipments"
+        action="action_sale_to_deliver" />
+
+    <menuitem
+        sequence="50"
+        id="menu_delivery_all_orders"
+        name="Confirmed Orders"
+        parent="menu_shipments"
+        action="action_all_orders" />
+
+    <menuitem
+        action='payment.action_payment_transaction'
+        id='payment_transaction_menu'
+        parent='menu_shipments'
+        sequence='60' />
+
+<!--     <menuitem
+        id="menu_delivery_infacility_orders"
+        name="Infacility Shipments"
+        parent="menu_shipments"
+        sequence = "98"
+        action="action_infacility_orders" /> -->
+
+</odoo>

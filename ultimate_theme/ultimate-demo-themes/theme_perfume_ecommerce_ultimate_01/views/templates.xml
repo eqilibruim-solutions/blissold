@@ -1,0 +1,733 @@
+<odoo>
+    <data>
+
+        <!--Snippet Mid Header Start-->
+        <template id="perfume_mid_header" name="Perfume Mid Header">
+            <section class="mid_header_top pt-1 pb-1 bg-delta oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 oe_structure col-lg-4 col-md-12 col-sm-12 align-self-center pt8 pb8 text-center text-lg-left text-md-center">
+                            <div class="oe_structure oe_empty">
+                                <div id="company-profile">
+                                    <a class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-x mx-2 text-white fa-facebook share_facebook fa_company_contact_info"/>
+                                    </a>
+                                    <a class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-x mx-2 text-white fa-twitter share_twitter fa_company_contact_info"/>
+                                    </a>
+                                    <a class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-x mx-2 text-white fa-linkedin share_linkedin fa_company_contact_info"/>
+                                    </a>
+                                    <a class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_youtube">
+                                        <i class="fa fa-x mx-2 text-white fa-youtube-play share_youtube fa_company_contact_info"/>
+                                    </a>
+                                    <a rel="publisher" class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-x mx-2 text-white fa-instagram share_instagram fa_company_contact_info"/>
+                                    </a>
+                                    <a class="fa_company_contact_links" target="_blank"
+                                       t-att-href="res_company.social_github">
+                                        <i class="fa fa-x mx-2 text-white fa-github share_github fa_company_contact_info"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 oe_structure mt-1 mb-1 col-lg-8 col-md-12 col-sm-12 text-center text-lg-right text-md-center">
+                            <li class="list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <span class="o_default_snippet_text">Have any questions?</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <span id="company-contact" class="ml16 mr16">
+                                            <i class="fa fa-phone mr-2"/>
+                                            <span t-field="res_company.phone"/>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item pt8 pb8">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <span class="ml8 mr8 d-block d-lg-inline d-md-inline" id="company-email">
+                                            <i class="fa fa-envelope mr-2"/>
+                                            <span t-field="res_company.email"/>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mid_header_top pt-1 pb-1">
+                <div class="container" id="mid_header_top_2">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pt8 pb8 mt-2 oe_structure">
+                            <div class="oe_structure oe_empty">
+                                <span>
+                                    <form action="/shop" method="get">
+                                        <div class="input-group">
+                                            <input type="text" name="search"
+                                                   class="search-query form-control oe_search_box"
+                                                   placeholder="Search..."/>
+                                            <div class="input-group-append">
+                                                <button type="submit" class="btn btn-secondary oe_search_button"
+                                                        aria-label="Search" title="Search">
+                                                    <i class="fa fa-search"/>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-4 col-md-4 pt8 pb8  text-center text-md-center text-lg-center oe_structure">
+                            <div class="oe_structure oe_empty">
+                                <a href="/" class="img-fluid">
+                                    <img src="/logo.png" alt="Logo of YourCompany" title="YourCompany"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-4 col-md-4 pt8 pb8 align-self-center text-center text-md-right text-lg-right oe_structure">
+                            <li class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <div class="d-flex">
+                                        <span>
+                                            <a href="#" class="text-black o_default_snippet_text">Special Offer!</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="my_wish" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a href="/shop/wishlist" class="pr-2 text-black">
+                                        <i class="fa fa-heart" title="wishlist" style="font-size:18px;"/>
+                                    </a>
+                                </div>
+                            </li>
+                            <li id="my_cart" class="list-inline-item">
+                                <div class="oe_structure oe_empty">
+                                    <a href="/shop/cart" class="pr-2 text-black">
+                                        <i class="fa-2x fa fa-opencart" title="add to cart"
+                                           style="font-size:18px;"/>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Mid Header Start-->
+
+        <!--Snippet Banner Start-->
+        <template id="perfume_banner" name="Perfume Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1" style="background-image: none; height: 80vh !important;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_perfume_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <font style="font-size: 48px;">
+                                    <b>2020 Arabic Aromas</b>
+                                </font>
+                            </h1>
+                            <h1 class="text-white" style="text-align: center;">
+                                <font style="font-size: 24px;">
+                                    <b>The New Fragrance For Women</b>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two paragraphs describing your product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="mb8 mt8 btn btn-primary flat" data-original-title="" title=""
+                               aria-describedby="tooltip419466">
+                                <b>
+                                    <font style="font-size: 11px;">View collection</font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Block Start-->
+        <template id="perfume_image_block" name="Perfume Image Block">
+            <section class="pt64 pb64" id="ecommerce_block_13">
+                <div class="container page-builder-ltr">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="ttbannerblock layout2 style1">
+                                <div class="ttbanner1 ttbanner">
+                                    <div class="ttbanner-img">
+                                        <a href="#">
+                                            <img src="/theme_perfume_ecommerce_ultimate_01/static/src/img/placeholder-image-1170x236.png"
+                                                 class="img-fluid"
+                                                 data-original-title="" title="" aria-describedby="tooltip590383"/>
+                                        </a>
+                                        <span class="hover1 hover"/>
+                                        <span class="hover2 hover"/>
+                                        <span class="hover3 hover"/>
+                                        <span class="hover4 hover"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block End-->
+
+        <!--Snippet Tab Carousel Start-->
+        <template id="perfume_tab_carousel" name="Perfume Tab Carousel">
+            <section class="mt32 mb32" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="">
+                            <ul class="nav nav-tabs" role="tablist" id="proTab">
+                                <li class="nav-item">
+                                    <a class="nav-link active show" data-toggle="tab"
+                                       href="#nav_tabs_content_1580896995183_6" role="tab"
+                                       id="nav_tabs_link_1580896995183_6"
+                                       aria-controls="nav_tabs_content_1580896995183_6" aria-selected="true"
+                                       data-original-title="" title="" aria-describedby="tooltip618926">LATEST
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1580896995183_7"
+                                       role="tab" id="nav_tabs_link_1580896995183_7"
+                                       aria-controls="nav_tabs_content_1580896995183_7" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip546184">BESTSELLER
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" data-toggle="tab" href="#nav_tabs_content_1580896995184_8"
+                                       role="tab" id="nav_tabs_link_1580896995184_8"
+                                       aria-controls="nav_tabs_content_1580896995184_8" aria-selected="false"
+                                       data-original-title="" title="" aria-describedby="tooltip536949">SPECIAL
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade active show" id="nav_tabs_content_1580896995183_6"
+                                     role="tabpanel" aria-labelledby="nav_tabs_link_1580896995183_6">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel owl_nav_style_1 headline_hidden"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d13" style=""/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1580896995183_7" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1580896995183_7">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_1"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d13" style=""/>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="nav_tabs_content_1580896995184_8" role="tabpanel"
+                                     aria-labelledby="nav_tabs_link_1580896995184_8">
+                                    <div class="oe_structure">
+                                        <section
+                                                class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel headline_hidden owl_nav_style_1"
+                                                data-loading="true"
+                                                data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                                                data-object_name="product.template" data-objects_in_slide="4"
+                                                id="new_products_item_d13" style=""/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Tab Carousel End-->
+
+        <!--Snippet Service Start-->
+        <template id="perfume_service" name="Perfume Services">
+            <section class="pt0 pb0 bg-100 oe_custom_bg">
+                <div class="container container-full">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 pad0">
+                            <img src="/theme_perfume_ecommerce_ultimate_01/static/src/img/placeholder-image-950x800.png"
+                                 alt="Image"
+                                 class="img-fluid mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip584477"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6  ">
+                            <div class="row px-4 py-5">
+                                <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                                    <h2>
+                                        <font style="font-size: 36px;">Our Services</font>
+                                    </h2>
+                                </div>
+                                <div class="col- col-sm-6 col-md-6 col-lg-6 mb16">
+                                    <i class="fa fa-2x fa-braille d-block mx-auto" data-original-title="" title=""
+                                       aria-describedby="tooltip22192"/>
+                                    <h3 class="mt8 mb0" style="text-align: center; ">
+                                        <font style="font-size: 14px;" class="text-delta">
+                                            <b>Free Shipping</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text" style="text-align: center;">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb16 ">
+                                    <i class="fa fa-2x fa-krw d-block mx-auto" data-original-title="" title=""
+                                       aria-describedby="tooltip452439"/>
+                                    <h3 class="mt8 mb0" style="text-align: center; ">
+                                        <font style="font-size: 14px;" class="text-delta">
+                                            <b>24x7 Support</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text" style="text-align: center; ">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb16">
+                                    <i class="fa fa-2x fa-trophy d-block mx-auto" data-original-title="" title=""
+                                       aria-describedby="tooltip24669"/>
+                                    <h3 class="mt8 mb0" style="text-align: center; ">
+                                        <font style="font-size: 14px;" class="text-delta">
+                                            <b>15-day Money Back</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text" style="text-align: center; ">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb16 ">
+                                    <i class="fa fa-2x fa-eercast d-block mx-auto" data-original-title="" title=""
+                                       aria-describedby="tooltip970315"/>
+                                    <h3 class="mt8 mb0" style="text-align: center; ">
+                                        <font style="font-size: 14px;" class="text-delta">
+                                            <b>Online Store</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text" style="text-align: center; ">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Product Carousel Start-->
+        <template id="perfume_product_carousel" name="Perfume Product Carousel">
+            <section
+                    class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_headline_style_3 pt64"
+                    data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d13"
+                    data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d13"
+                    data-objects_limit="4"/>
+        </template>
+        <!--Snippet Product Carousel End-->
+
+        <!--Snippet Sale Offer Start-->
+        <template id="perfume_sale_offer" name="Perfume Sale Offer">
+            <section class="pt64 pb64 bg-alpha oe_custom_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4">
+                            <i class="fa fa-star fa-3x mb16 d-block mx-auto" data-original-title="" title=""
+                               aria-describedby="tooltip532805"/>
+                            <h3 style="text-align: center; ">
+                                <font class="text-epsilon" style="font-size: 14px;">
+                                    <b>FLAT SALE 35% OFF</b>
+                                </font>
+                            </h3>
+                            <p style="text-align: center; ">Get Your's Now</p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 btn btn-epsilon flat" data-original-title="" title=""
+                                   aria-describedby="tooltip703879" style="font-size: 0.875rem;">
+                                    <font style="font-size: 10px;">
+                                        <b>Shop Now</b>
+                                    </font>
+                                </a>
+                            </div>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip885539">
+                                    <br/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4">
+                            <i class="fa fa-star fa-3x mb16 d-block mx-auto" data-original-title="" title=""
+                               aria-describedby="tooltip532805"/>
+                            <h3 style="text-align: center; ">
+                                <font class="text-epsilon" style="font-size: 14px;">
+                                    <b>SPECIAL OFFER UPTO 45% OFF</b>
+                                </font>
+                            </h3>
+                            <p style="text-align: center;">No Minimum Purchase Value</p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 btn btn-epsilon flat" data-original-title="" title=""
+                                   aria-describedby="tooltip73956" style="font-size: 0.875rem;">
+                                    <font style="font-size: 10px;">
+                                        <b data-original-title="" title="" aria-describedby="tooltip235112">Shop Now</b>
+                                    </font>
+                                </a>
+                            </div>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip885539">
+                                    <br/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4">
+                            <i class="fa fa-star fa-3x mb16 d-block mx-auto" data-original-title="" title=""
+                               aria-describedby="tooltip532805"/>
+                            <h3 style="text-align: center; " class="mb0">
+                                <font class="text-epsilon" style="font-size: 14px;">
+                                    <b>STYLE IN SMELL</b>
+                                </font>
+                            </h3>
+                            <p style="text-align: center; ">What's Trending This Season</p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pt8 pb8 btn btn-epsilon flat" data-original-title="" title=""
+                                   aria-describedby="tooltip400801" style="font-size: 0.875rem;">
+                                    <font style="font-size: 10px;">
+                                        <b>Shop Now</b>
+                                    </font>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Sale Offer End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="perfume_testimonial" name="Perfume Testimonial">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_perfume_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="font-size: 28px;">Our Clients About Us</font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1580898990057" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1580898990057" data-slide-to="0"/>
+                        <li data-target="#myCarousel1580898990057" data-slide-to="1" class="active"/>
+                        <li data-target="#myCarousel1580898990057" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt0 pb0" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <img class="img d-block mx-auto"
+                                             src="/theme_perfume_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                             style="max-width: 100px !important;" alt=""/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one
+                                            of your customers. Quotes are a great
+                                            way to build confidence in your
+                                            products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt0 pb0 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <img class="img d-block mx-auto"
+                                             src="/theme_perfume_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                             style="max-width: 100px !important;" alt=""/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one
+                                            of your customers. Quotes are a great
+                                            way to build confidence in your
+                                            products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt0 pb0" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <img class="img d-block mx-auto"
+                                             src="/theme_perfume_ecommerce_ultimate_01/static/src/img/placeholder-user1.png"
+                                             style="max-width: 100px !important;" alt=""/>
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">Write a quote here
+                                            from one
+                                            of your customers. Quotes are a great
+                                            way to build confidence in your
+                                            products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <span class="o_default_snippet_text">Jane DOE, CEO of
+                                                <b class="o_default_snippet_text">MyCompany</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1580898990057" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous
+                        </span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1580898990057" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Blog Carousel Start-->
+        <template id="perfume_blog_carousel" name="Perfume Blog Carousel">
+            <section class="s_blog_carousel js_get_objects blog_carousel pt56 s_headline_style_3 owl_nav_style_1"
+                     data-loading="true" data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post" style=""/>
+        </template>
+        <!--Snippet Blog Carousel End-->
+
+        <!--Snippet Brand Carousel Start-->
+        <template id="perfume_brand_carousel" name="Perfume Brand Carousel">
+            <section class="s_brand_carousel mb8 js_get_objects s_headline_style_3" data-loading="true"
+                     data-template="ecommerce_snippets_product_brand.brand_list_template_header_d3"
+                     data-object_name="product.brand" data-objects_in_slide="5" id="new_brand_item_d3"/>
+        </template>
+        <!--Snippet Brand Carousel End-->
+
+        <!--Snippet Footer Start-->
+        <template id="perfume_footer" name="Perfume Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" style="border-top:none;">
+                <div class="pt64 pb32 oe_img_bg oe_custom_bg" id="footer_3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                    ad minim veniam.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5>
+                                    <font class="text-epsilon" style="">
+                                        <b>INFORMATION</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip685294">
+                                            <font class="text-gamma" style="">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Delivery Information</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Privacy Policy</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Terms &amp;amp; Condition</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Suppliers</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb32">
+                                <h5>
+                                    <font class="text-epsilon" style="">
+                                        <b>SERVICES</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled mt24">
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip913915">
+                                            <font class="text-gamma" style="">Shipping &amp;amp; Return</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">International Shipping</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Secure Shopping</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Affiliates</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font class="text-gamma" style="">Careers</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="text-uppercase font-weight-bold mb16 o_default_snippet_text">
+                                    <font class="text-epsilon" style="">Contact Info</font>
+                                </h5>
+                                <p class="o_default_snippet_text">
+                                    <span t-field="res_company.street"/>
+                                    <span t-field="res_company.city"/>
+                                    <span t-field="res_company.state_id.name"/>
+                                </p>
+                                <p class="o_default_snippet_text"><span t-field="res_company.email"/></p>
+                                <p class="o_default_snippet_text"><span t-field="res_company.phone"/></p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-lg-flex align-items-center pb16">
+                                <h6 class="mt8">
+                                    <b>
+                                        <font class="text-epsilon" style="font-size: 18px;">NEWSLETTER</font>
+                                        <font class="text-epsilon" style="">&amp;nbsp;:&amp;nbsp;</font>
+                                    </b>&amp;nbsp;
+                                </h6>
+                                <div class="input-group js_subscribe hidden col-sm-12 col-md-12 col-lg-8 p-0"
+                                     data-list-id="1" data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control rounded-0"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        Thanks for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-lg-flex align-items-center pb16">
+                                <h6 class="mt8">
+                                    <font class="text-epsilon" style="font-size: 18px;">
+                                        <b>WE ACCEPT :&amp;nbsp;</b>
+                                    </font>
+                                </h6>
+                                <i class="fa fa-3x fa-cc-visa px-2"/>
+                                <i class="fa fa-3x fa-cc-mastercard px-2"/>
+                                <i class="fa fa-3x fa-cc-paypal px-2"/>
+                                <i class="fa fa-3x fa-cc-amex px-2"/>
+                                <i class="fa fa-3x fa-cc-discover px-2"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Perfume Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_mid_header"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_banner"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_image_block"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_tab_carousel"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_service"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_product_carousel"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_sale_offer"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_testimonial"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_blog_carousel"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_brand_carousel"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_perfume_ecommerce_ultimate_01.perfume_footer"
+                           t-thumbnail="/theme_perfume_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

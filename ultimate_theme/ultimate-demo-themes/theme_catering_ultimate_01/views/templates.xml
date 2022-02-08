@@ -1,0 +1,947 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="catering_banner" name="Catering Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_catering_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white o_default_snippet_text"
+                                style="font-size: 48px; text-align: center;">
+                                AMBROCIA RESTAURANT
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two
+                                paragraphs describing your
+                                product, services or a specific feature.
+
+
+                                <br/>
+                                To be successful your content needs to be
+                                useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-primary flat" data-original-title="" title=""
+                               aria-describedby="tooltip710264">
+                                <b>
+                                    <font style="font-size: 14px;" class="o_default_snippet_text">ORDER
+                                        SERVICE
+                                    </font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Services1 Start-->
+        <template id="catering_services1" name="Catering Services1">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <p class="font-weight-bold pt8 s_line_height_1">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">WELCOME</font>
+                            </p>
+                            <h2 class="font-weight-bold pb24 pt8 s_line_height_1 o_default_snippet_text">
+                                Quality Is At Heart Of
+                                Everything We Do
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x447.png"
+                                     data-original-title="" title="" aria-describedby="tooltip615536"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">
+                                        Events
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x447.png"
+                                     data-original-title="" title="" aria-describedby="tooltip315206"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">
+                                        Food
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x447.png"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">
+                                        Venues
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Services1 End-->
+
+        <!--Snippet About Us Start-->
+        <template id="catering_about_us" name="Catering About Us">
+            <section class="oe_img_bg oe_custom_bg pt144 pb144"
+                     style="background-image: url(&quot;/theme_catering_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pb48 pt16">
+                            <p>
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">
+                                    <b>ABOUT
+                                        US
+                                    </b>
+                                </font>
+                            </p>
+                            <h2 class="font-weight-bold pb24 pt8">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Test
+                                    The Difference
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 oe_custom_bg s_overlay_section pt40" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 plr-0 pt0">
+                            <img src="/theme_catering_ultimate_01/static/src/img/placeholder-image-600.jpg" alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip302931" style="min-height:524px;"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 bg-100 pl-5 pr-5 col-lg-6 pt112 pb112">
+                            <h2 class="o_default_snippet_text">Made With Love</h2>
+                            <p class="o_default_snippet_text" style="text-align: left;">Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                            <div class="row align-items-center">
+                                <div class="ml-3">
+                                    <a href="#" class="btn btn-lg btn-primary mb8 mt8 px-4 rounded-0"
+                                       data-original-title="" title="" aria-describedby="tooltip642138">
+                                        <font style="font-size: 14px;">
+                                            <b class="o_default_snippet_text">READ MORE</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Menu Start-->
+        <template id="catering_menu" name="Catering Menu">
+            <section class="pt64 pb0" id="img_hover_effect_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <p class="font-weight-bold pt8">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">CATERING</font>
+                            </p>
+                            <h2>
+                                <b class="o_default_snippet_text">Main Menu</b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip153592"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text">Lunch
+                                    </h2>
+                                    <a class="info o_default_snippet_text p-2" href="#" data-original-title="" title=""
+                                       aria-describedby="tooltip180185">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip412289"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text">
+                                        Desserts
+                                    </h2>
+                                    <a class="info o_default_snippet_text p-2" href="#">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip721550"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text">Drinks
+                                    </h2>
+                                    <a class="info o_default_snippet_text p-2" href="#">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pt0">
+                            <h2 class="font-weight-bold pb24 pt24">
+                                <div style="text-align: center;">
+                                    <span style="font-size: 18px;" class="o_default_snippet_text">and much
+                                        more
+                                    </span>
+                                </div>
+                            </h2>
+                            <a href="#" class="btn btn-primary rounded-0" data-original-title="" title=""
+                               aria-describedby="tooltip318662">
+                                <b class="o_default_snippet_text">SEE MORE</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Menu End-->
+
+        <!--Snippet Services2 Start-->
+        <template id="catering_services2" name="Catering Services2">
+            <section class="pt64 pb40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <p class="font-weight-bold pt8" style="text-align: center; ">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">OUR MENU</font>
+                            </p>
+                            <h2 class="text-center">
+                                <b class="o_default_snippet_text">Chef's Special</b>
+                            </h2>
+                            <div class="row pt64 align-items-center">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-right">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pt8 pb8 o_default_snippet_text">
+                                            <font style="font-size: 18px;">Seafood 'Toban
+                                                Yaki'
+                                                &amp;nbsp;
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut
+                                            at semper metus. &amp;nbsp;
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pt8 pb8 o_default_snippet_text">
+                                            <font style="font-size: 18px;">Potato And Garlic
+                                                Soup With Prawns
+                                                &amp;nbsp;
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut
+                                            at semper metus. &amp;nbsp;
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pb8 pt8 o_default_snippet_text">
+                                            <font style="font-size: 18px;">Artician Breads
+                                                &amp;nbsp;
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut
+                                            at semper metus. &amp;nbsp;
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                         alt="molile" class="img-fluid pt8 pb8"
+                                         data-original-title="" title="" aria-describedby="tooltip809457"/>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-left">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pb8 pt8 o_default_snippet_text">
+                                            <font style="font-size: 18px;">Blackend Fish
+                                                Sandwich
+                                                &amp;nbsp;
+                                            </font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut
+                                            at semper metus. &amp;nbsp;
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pt8 pb8 o_default_snippet_text">
+                                            <font style="font-size: 18px;">Meat Antipasti</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut
+                                            at semper metus.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                        <h3 class="pb8 pt8 o_default_snippet_text">
+                                            <font style="font-size: 18px;">Zucchini Soup</font>
+                                        </h3>
+                                        <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut
+                                            at semper metus. &amp;nbsp;
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat" data-original-title="" title=""
+                                       aria-describedby="tooltip622892">
+                                        <font style="font-size: 14px;">
+                                            <b class="o_default_snippet_text">&amp;nbsp;VIEW MORE&amp;nbsp;
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <!--Snippet Services2 End-->
+
+        <!--Snippet Events Start-->
+        <template id="catering_events" name="Catering Events">
+            <section class="oe_img_bg oe_custom_bg pt168 pb184"
+                     style="background-image: url(&quot;/theme_catering_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <p>
+                                <font style="color: rgb(255, 255, 255); font-size: 18px;"
+                                      class="o_default_snippet_text">
+                                    <b>
+                                        CELEBRATE WITH US
+                                    </b>
+                                </font>
+                            </p>
+                            <h2 class="font-weight-bold pb24">
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;"
+                                      class="o_default_snippet_text">
+                                    Upcoming Events
+                                </font>
+                            </h2>
+                            <a href="#" class="btn btn-primary rounded-0" data-original-title="" title=""
+                               aria-describedby="tooltip270884">
+                                <b class="o_default_snippet_text">
+                                    VIEW
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Events End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="catering_testimonial" name="Catering Testimonial">
+            <section class="pt64 pb64 bg-beta oe_img_bg oe_custom_bg" id="testimonials_d2"
+                     style="background-image: url(&quot;/theme_catering_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <p class="font-weight-bold pt8">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">TESTIMONIAL</font>
+                            </p>
+                            <h2>
+                                <b class="o_default_snippet_text">Our Clients About Us</b>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1567424141190" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1567424141190" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1567424141190" data-slide-to="1"/>
+                        <li data-target="#myCarousel1567424141190" data-slide-to="2"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one
+                                            of your customers. Quotes are a
+                                            great
+                                            way to build confidence in your
+                                            products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_catering_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                Jane DOE, CEO of
+
+
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one
+                                            of your customers. Quotes are a
+                                            great
+                                            way to build confidence in your
+                                            products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_catering_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip179899"/>
+                                            <span class="o_default_snippet_text">
+                                                Jane DOE, CEO of
+
+
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center mx-2">
+                                    <blockquote class="carousel-content col-12 col-sm-12 col-md-12 col-lg-8 bg-white">
+                                        <p class="lead mt32 mb32 text-center o_default_snippet_text">
+                                            Write a quote here from one
+                                            of your customers. Quotes are a
+                                            great
+                                            way to build confidence in your
+                                            products or services.
+                                        </p>
+                                        <div class="text-center">
+                                            <img class="img"
+                                                 src="/theme_catering_ultimate_01/static/src/img/placeholder-user1.png"
+                                                 alt=""/>
+                                            <span class="o_default_snippet_text">
+                                                Jane DOE, CEO of
+
+
+                                                <b class="o_default_snippet_text">
+                                                    MyCompany
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1567424141190" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous
+                        </span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1567424141190" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Blog Start-->
+        <template id="catering_blog" name="Catering Blog">
+            <section
+                    class="s_blog_carousel js_get_objects blog_carousel s_headline_center"
+                    data-loading="true"
+                    data-template="snippet_blog_carousel_73lines.blog_list_template"
+                    data-object_name="blog.post"/>
+            <section class="bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16"
+                                     data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat"
+                                       data-original-title=""
+                                       title="">
+                                        <b>
+                                            <font style="font-size: 14px;">
+                                                &amp;nbsp;READ
+                                                MORE&amp;nbsp;
+                                            </font>
+                                        </b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Right Content Start-->
+        <template id="catering_right_content" name="Catering Right Content">
+            <section class="oe_img_bg oe_custom_bg pt168 pb184"
+                     style="background-image: url(&quot;/theme_catering_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pb32">
+                            <p class="font-weight-bold pt8">
+                                <font style="color: rgb(255, 255, 255); font-size: 14px;"
+                                      class="o_default_snippet_text">ABOUT US
+                                </font>
+                            </p>
+                            <h2 class="font-weight-bold pb24"><font style="color: rgb(255, 255, 255);"
+                                                                    class="o_default_snippet_text">Our
+                                Success Story</font>&amp;nbsp;
+
+
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64 s_overlay_section" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 plr-0">
+                            <img src="/theme_catering_ultimate_01/static/src/img/placeholder-image-600.jpg" alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title="" title=""
+                                 aria-describedby="tooltip670833" style="min-height:524px;"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 bg-white pl-5 pr-5 pb96 pt96">
+                            <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <div class="row align-items-center">
+                                <div class="ml-3">
+                                    <a href="#" class="btn btn-primary btn-lg rounded-0 px-4 mt8 mb8"
+                                       data-original-title="" title="" aria-describedby="tooltip750743">
+                                        <b>
+                                            <font style="font-size: 14px;" class="o_default_snippet_text">READ
+                                                MORE
+                                            </font>
+                                        </b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Team Start-->
+        <template id="catering_team" name="Catering Team">
+            <section class="pb8 pt48" id="img_hover_effect_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <p class="font-weight-bold pt8">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">STAFF</font>
+                            </p>
+                            <h2 class="o_default_snippet_text">
+                                <b>Our Team</b>
+                            </h2>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip555880"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text font-weight-bold text-dark">
+                                        Cristina
+                                    </h2>
+                                    <p>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip892183"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text font-weight-bold text-dark">Erica
+                                    </h2>
+                                    <p>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-4 col-lg-4 col-sm-4 mt8 mb8">
+                            <div class="hovereffect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_catering_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip969041"/>
+                                <div class="overlay">
+                                    <h2 class="o_default_snippet_text font-weight-bold text-dark">Steffy
+                                    </h2>
+                                    <p>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"/>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"/>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat" data-original-title="" title=""
+                                       aria-describedby="tooltip649279">
+                                        <font style="font-size: 14px;">
+                                            <b>VIEW ALL&amp;nbsp;</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="catering_gallery" name="Catering Gallery">
+            <section class="sni-block pt64 pb0">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 pb48 text-center">
+                            <p>
+                                <b>GALLERY</b>
+                            </p>
+                            <h2>
+                                <b class="o_default_snippet_text">Photos Of Our Foods</b>
+                            </h2>
+                            <h2>
+                                <b class="o_default_snippet_text">And Our Projects</b>
+                            </h2>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6 pb0">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_catering_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip973333"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_catering_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip385978"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_catering_ultimate_01/static/src/img/placeholder-image-600.jpg"/>
+                                </div>
+                                <div class="col-12 co-md-6 col-lg-6 col-sm-6">
+                                    <img class="img-fluid d-block mx-auto mt16 mb16"
+                                         src="/theme_catering_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                         data-original-title="" title="" aria-describedby="tooltip601914"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 co-md-6 col-lg-6 col-sm-12">
+                            <img class="img-fluid d-block mt16 mb16"
+                                 src="/theme_catering_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 style="&#10;"
+                                 data-original-title="" title="" aria-describedby="tooltip564016"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mh100">
+                            <div class="oe_structure oe_empty">
+                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary flat">
+                                        <font style="font-size: 14px;">
+                                            <b class="o_default_snippet_text">&amp;nbsp;SEE MORE&amp;nbsp;</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="catering_contact_us" name="Catering Contact Us">
+            <section class="bg-400 py-5 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_catering_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <p class="font-weight-bold pt8" style="text-align: center; ">
+                                <font style="font-size: 14px;" class="o_default_snippet_text">CONTACT US</font>
+                            </p>
+                            <h2 class="s_title_thin text-center">
+                                <b>
+                                    Give Your Feedback
+                                </b>
+                            </h2>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input" name="phone"
+                                               placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-12 col-lg-12 o_has_error">
+                                        <textarea class="form-control o_website_form_input" name="description"
+                                                  required="" placeholder="Your Question" rows="5"/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-center" data-name="Buttons">
+                                            <a href="#" role="button" class="o_website_form_send btn btn-primary flat">
+                                                <font style="font-size: 14px;">
+                                                    <b class="o_default_snippet_text">
+                                                        &amp;nbsp;SEND&amp;nbsp;
+                                                    </b>
+                                                </font>
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Footer Start-->
+        <template id="catering_footer" name="Catering Footer">
+            <section class="oe_structure mb32" id="footer">
+                <div class="pt64 pb64" id="footer_12">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                                <i class="fa fa-3x fa-phone-square pb24"/>
+                                <h6 class="o_default_snippet_text">Toll
+                                    Number
+                                </h6>
+                                <p t-field="res_company.phone"/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                                <i class="fa fa-3x fa-envelope-o pb24"/>
+                                <h6 class="o_default_snippet_text">Info
+                                    Services
+                                </h6>
+                                <p t-field="res_company.email"/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                                <i class="fa fa-3x fa-envelope-o pb24"/>
+                                <h6 class="o_default_snippet_text">Support
+                                    Service
+                                </h6>
+                                <p t-field="res_company.email"/>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                                <i class="fa fa-3x fa-map-marker pb24"/>
+                                <h6 class="o_default_snippet_text">Address</h6>
+                                <p t-field="res_company.street"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mt64">
+                                <a t-att-href="res_company.social_twitter">
+                                    <i class="fa fa-2x fa-twitter social_icon_size social_twitter mx-2 mb8"/>
+                                </a>
+                                <a t-att-href="res_company.social_facebook">
+                                    <i class="fa fa-2x fa-facebook social_icon_size social_facebook mx-2 mb8"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-2x fa-google-plus social_icon_size social_g_plus mx-2 mb8"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-2x fa-dribbble social_icon_size social_dribbble mx-2 mb8"/>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-2x fa-behance social_icon_size social_behance mx-2 mb8"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Catering Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_catering_ultimate_01.catering_banner"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_services1"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_about_us"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_menu"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_services2"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_events"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_testimonial"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_blog"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_right_content"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_team"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_gallery"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_contact_us"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_catering_ultimate_01.catering_footer"
+                           t-thumbnail="/theme_catering_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

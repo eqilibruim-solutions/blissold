@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_mrp_production_tree_inherit">
+        <field name="name">mrp.production.tree.inherit</field>
+        <field name="model">mrp.production</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="mrp.mrp_production_tree_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='date_planned_start']" position="after">
+                <field name="pref_date" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_mrp_production_move_tree_inherit">
+        <field name="name">mrp.production.move.tree.inherit</field>
+        <field name="model">stock.move</field>
+        <field name="inherit_id" ref="mrp.view_stock_move_raw_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='product_uom_qty']" position="before">
+                <field name="mrp_available_stock" />
+            </xpath>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id="view_mrp_production_form_inherit">
+        <field name="name">mrp.production.form.inherit</field>
+        <field name="model">mrp.production</field>
+        <field name="inherit_id" ref="mrp.mrp_production_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_cancel']" position="after">
+                <button type="object" name="get_mrp_stock_available" string="Get Stock" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,15 @@
+#wrapwrap.o_header_overlay > header:not(.o_header_affix) > .navbar .nav-item.show > .nav-link,
+ #wrapwrap.o_header_overlay > header:not(.o_header_affix) > .navbar .nav-item.active > .nav-link,
+ #wrapwrap.o_header_overlay > header:not(.o_header_affix) > .navbar .nav-item > .nav-link{
+    background:transparent;
+    color:theme-color('primary');
+}
+
+
+#top_menu > li > ul > li{
+        a{
+            color: inherit;
+            padding: 10px;
+            display:block;
+        }
+}

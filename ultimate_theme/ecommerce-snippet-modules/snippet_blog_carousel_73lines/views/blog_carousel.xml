@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- ======== Blog Carousel ======== -->
+
+    <!-- Snippet's Body -->
+    <template id="s_blog_carousel" name="Blog Carousel Slider">
+        <section class="s_blog_carousel js_get_objects blog_carousel"
+                 data-loading="true"
+                 data-template="snippet_blog_carousel_73lines.blog_list_template"
+                 data-object_name="blog.post">
+        </section>
+    </template>
+
+    <!-- Latest blogs's Template -->
+    <template id="blog_list_template">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="headline">
+                        <h2 t-esc="title"/>
+                        <hr class="mt0 mb0"/>
+                    </div>
+                    <div class="blog-list owl-carousel owl-theme mb8 mt8">
+                        <t t-foreach="objects" t-as="obj">
+                            <div class="item blog-single">
+                                <t t-foreach="obj" t-as="blog">
+                                    <t t-call="snippet_blog_carousel_73lines.new_blog_item"/>
+                                </t>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Blog Template -->
+    <template id="new_blog_item" name="Blog item">
+        <div class="post-thumb">
+            <a t-att-href="'/blog/%s/post/%s' % (blog.blog_id.id, blog.id)">
+                <t t-set="blog_post_cover_properties"
+                   t-value="get_property_value(blog)"/>
+                <div class="oe_blog_image"
+                     t-attf-style="background-image: #{blog_post_cover_properties.get('background-image', 'none')};  -webkit-background-size: cover; min-height:222px; opacity:1}"></div>
+            </a>
+            <div class="latest-blog-info">
+                <a t-att-href="'/blog/%s/post/%s' % (blog.blog_id.id, blog.id)">
+                    <h4 t-field="blog.name"/>
+                </a>
+                <div class="post-excerpt">
+                    <p t-field="blog.subtitle"/>
+                </div>
+                <div class="post-meta">
+                    <span class="entry-date">
+                        <i class="fa fa-calendar"/>
+                        <span t-field="blog.create_date"
+                              t-field-options='{"format": "MMMM d, yyyy"}'/>
+                    </span>
+                    <span class="entry-comment">
+                        <i class="fa fa-user"/>
+                        <span t-field="blog.author_id"/>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </template>
+
+</odoo>

@@ -1,0 +1,520 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner start-->
+        <template id="gym_banner" name="Gym Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_gym_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b>BUILD YOUR</b>
+                                </font>
+                            </h1>
+                            <h1 class="text-left" style="font-size: 62px;">
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b>BODY STRONG</b>
+                                </font>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Feature start-->
+        <template id="gym_feature" name="Gym Feature">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center pb48">
+                            <h2 class="text-center">
+                                <b>
+                                    <font style="font-size: 48px;">WE OFFER</font>
+                                </b>
+                            </h2>
+                            <div class="row text-center pt64 pb64">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_gym_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pb8 pt32">
+                                        <font style="font-size: 18px;">
+                                            <b>CROSS BIT</b>
+                                        </font>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                        ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_gym_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt32 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;">AEROBIC CLASSES</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                        ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_gym_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt32 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;">YOGA CLASSES</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                        ullamcorper sed.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <img class="img-fluid o_we_custom_image"
+                                         src="/theme_gym_ultimate_02/static/src/img/placeholder-70x70.png"/>
+                                    <h3 class="pt32 pb8">
+                                        <b>
+                                            <font style="font-size: 18px;">CARDIO TRAINING</font>
+                                        </b>
+                                    </h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Ut at semper metus. Vestibulum gravida velit urna, ut mattis leo
+                                        ullamcorper sed.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="px-4 btn btn-beta btn-lg" data-original-title="" title=""
+                               aria-describedby="tooltip803426">
+                                <font style="color: rgb(255, 255, 255);">VIEW MORE PROGRAM</font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet Left Content start-->
+        <template id="gym_left_content" name="Gym Left Content">
+            <section class="sni-block oe_custom_bg pt0" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 pt16 pb16 text-center">
+                            <h2 class="mb16" style="text-align: left;">
+                                <font class="text-alpha" style="font-size: 18px;">
+                                    <span style="font-weight: bolder;">BE FIT BE HEALTHY</span>
+                                </font>
+                            </h2>
+                            <h2 class="mb16" style="text-align: left;">
+                                <font color="#f0582c">
+                                    <span class="text-beta" style="font-size: 48px;"><span style="font-weight: bolder;">
+                                        WELCOME TO</span>&amp;nbsp;
+                                        <span style="font-weight: bolder;">
+                                            <br/>
+                                        </span>
+                                        <span style="font-weight: bolder;">OUR GYM</span>
+                                    </span>
+                                </font>
+                            </h2>
+                            <p style="text-align: justify;">
+                                <span style="color: rgb(36, 39, 81); font-family: Roboto, Arial, Tahoma, sans-serif; font-size: 15px; font-weight: 900; letter-spacing: 2px; text-align: start;">
+                                    &amp;nbsp;
+                                </span>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 pt16 text-center pb112 border-left border">
+                            <h2 class="mb64 mt64" style="text-align: right;">
+                                <span style="color: rgb(58, 48, 112); font-family: Roboto, sans-serif; font-size: 24px;">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    dolore magna aliqua.
+                                </span>
+                                <br/>
+                            </h2>
+                            <h2 class="mb16" style="text-align: left; ">
+                                <span style="font-size: 18px;">
+                                    <b>
+                                        <font style="" class="text-alpha"/>
+                                    </b>
+                                </span>
+                            </h2>
+                            <p style="text-align: justify;">
+                                <img class="img-fluid o_we_custom_image float-right"
+                                     src="/theme_gym_ultimate_02/static/src/img/placeholder-140x140.png"
+                                     data-original-title="" title="" aria-describedby="tooltip600546"/>
+                                <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sni-block oe_custom_bg s_overlay_section" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="pt16 pb16 text-center col-lg-5 mt-md-5" style="">
+                            <h2 class="mb16" style="text-align: left; ">
+                                <span style="font-size: 18px;">
+                                    <b>
+                                        <font style="" class="text-alpha"/>
+                                    </b>
+                                </span>
+                            </h2>
+                            <p style="text-align: justify;" class="s_letter_spacing_2 s_line_height_2">
+                                <span style="font-weight: bolder; color: rgb(58, 48, 112); letter-spacing: 2px;">Sed
+                                    ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magn. Proin risus
+                                    erat, fringilla vel purus sit amet, mattis porta enim.&amp;nbsp;
+                                </span>
+                                <br/>
+                            </p>
+                            <p style="text-align: left; " class="o_default_snippet_text s_line_height_2">Duis fermentum
+                                faucibus est, sed vehicula velit sodales vitae. Mauris mollis lobortis turpis, eget
+                                accumsan ante aliquam quis. Nam ullamcorper rhoncus sem vitae tempus. Curabitur ut
+                                tortor a orci fermentum.
+                            </p>
+                            <div class="s_btn pt16 pb16 text-left" data-name="Buttons">
+                                <a href="#" class="btn btn-beta btn-lg" data-original-title="" title=""
+                                   aria-describedby="tooltip673588">
+                                    <font style="color: rgb(255, 255, 255);">VIEW MORE</font>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="/theme_gym_ultimate_02/static/src/img/placeholder-600.jpg"
+                                 class="img img-fluid d-block mx-auto"
+                                 alt="Odoo • Text and Image" data-original-title="" title=""
+                                 aria-describedby="tooltip511992"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Left Content End-->
+
+        <!--Snippet Team start-->
+        <template id="gym_team" name="Gym Team">
+            <section class="s_three_columns pt64 pb64" id="team_6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <h2>
+                                <b>
+                                    <font style="font-size: 48px;">OUR COACHES</font>
+                                </b>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_gym_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Travor James</b>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_gym_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Leonard Smith</b>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_gym_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Mark Brook</b>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 s_col_no_bgcolor pt16 pb16">
+                            <div class="bg-white">
+                                <img class="card-img-top"
+                                     src="/theme_gym_ultimate_02/static/src/img/placeholder-600.jpg"
+                                     alt="Odoo - Sample 1 for three columns"/>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="text-align: center; ">
+                                        <font style="font-size: 18px;">
+                                            <b>Kenny Bufer</b>
+                                        </font>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Team End-->
+
+        <!--Snippet Contact start-->
+        <template id="gym_contact" name="Gym Contact">
+            <section class="s_call_to_action sni-block oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_gym_ultimate_02/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container pt64 pb64  bg-unset">
+                    <div class="row justify-content-center py-5">
+                        <div class="col-12 col-md-10 text-center col-lg-9">
+                            <div class="sni-box">
+                                <h1 style="font-weight: bold;     font-size: 48px;">
+                                    <font color="#ffffff" style="font-size: 48px;">OPTIMIZE YOUR HEALTH</font>
+                                </h1>
+                                <p class="lead">
+                                    <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">Lorem Ipsum
+                                        is simply dummy text of the printing and typesetting
+                                    </font>
+                                </p>
+                                <div class="input-group js_subscribe" data-list-id="1" data-subscribe="off">
+                                    <input type="email" name="email" class="js_subscribe_email form-control"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-append">
+                                        <a role="button" href="#"
+                                           class="js_subscribe_btn btn btn-beta o_default_snippet_text"
+                                           data-original-title="" title="" aria-describedby="tooltip732205">Subscribe
+                                        </a>
+                                        <a role="button" href="#"
+                                           class="btn btn-success js_subscribed_btn d-none o_default_snippet_text"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success d-none o_default_snippet_text" role="status">Thanks
+                                        for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Contact End-->
+
+        <!--Snippet Footer start-->
+        <template id="gym_footer" name="Gym Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <section id="footer" class="oe_structure oe_structure_solo  oe_custom_bg" style="border-top:none;">
+                    <div class="pt64 pb0" id="footer_3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                    <h5 class="o_default_snippet_text">
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Usefull Links</b>
+                                        </font>
+                                    </h5>
+                                    <ul class="list-unstyled mt24">
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip394250">
+                                                <font class="text-delta o_default_snippet_text" style=""
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip68766">Home
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip918874">
+                                                <font class="text-delta o_default_snippet_text" style=""
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip750149">About
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip325616">
+                                                <font class="text-delta o_default_snippet_text" style="">Services
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip81725">
+                                                <font class="text-delta o_default_snippet_text" style="">Contact
+                                                </font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                    <h5>
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Our Programs</b>
+                                        </font>
+                                    </h5>
+                                    <ul class="list-unstyled mt24">
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip683036">
+                                                <font class="text-delta o_default_snippet_text" style="">Aerobic
+                                                    Classes
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip872654">
+                                                <font class="text-delta o_default_snippet_text" style="">Crossfit
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank">
+                                                <font class="text-delta o_default_snippet_text" style=""
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip560029">Yoga Classes
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip204940">
+                                                <font class="text-delta o_default_snippet_text" style=""
+                                                      data-original-title="" title=""
+                                                      aria-describedby="tooltip123687">Weight Lifting
+                                                </font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                    <h5>
+                                        <b>
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Social
+                                                Media
+                                            </font>
+                                        </b>
+                                    </h5>
+                                    <ul class="list-unstyled mt24">
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip166537">
+                                                <font class="text-delta o_default_snippet_text" style="">Facebook
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank">
+                                                <font class="text-delta o_default_snippet_text" style="">Twitter
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank">
+                                                <font class="text-delta o_default_snippet_text" style="">Linkedin
+                                                </font>
+                                            </a>
+                                        </li>
+                                        <li class="mb8">
+                                            <a href="#" target="_blank" data-original-title="" title=""
+                                               aria-describedby="tooltip834538">
+                                                <font class="text-delta o_default_snippet_text" style="">Instagram
+                                                </font>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                    <h5>
+                                        <span style="font-weight: bolder;">
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">Contact
+                                                Info
+                                            </font>
+                                        </span>
+                                    </h5>
+                                    <div class="media mb16 o_default_snippet_text mt24">
+                                        <i class="fa fa-home mr-3 mt-1 text-delta" style=""/>
+                                        <div class="media-body">
+                                            <font class="text-delta" style="">
+                                                <span t-field="res_company.street"/>
+                                                <span t-field="res_company.city"/>
+                                                <span t-field="res_company.state_id.name"/>
+                                            </font>
+                                        </div>
+                                    </div>
+                                    <hr/>
+                                    <div class="media mb16 o_default_snippet_text">
+                                        <i class="fa fa-envelope-o mr-3 mt-1 text-delta" style=""/>
+                                        <div class="media-body">
+                                            <font class="text-delta" style="">
+                                                <span t-field="res_company.email"/>
+                                            </font>
+                                        </div>
+                                    </div>
+                                    <hr/>
+                                    <div class="media mb16 o_default_snippet_text">
+                                        <i class="fa fa-phone mr-3 mt-1 text-delta" style=""/>
+                                        <div class="media-body">
+                                            <font class="text-delta" style="">
+                                                <span t-field="res_company.phone"/>
+                                            </font>
+                                        </div>
+                                    </div>
+                                    <hr/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Gym Ultimate 02
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_gym_ultimate_02.gym_banner"
+                           t-thumbnail="/theme_gym_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_gym_ultimate_02.gym_feature"
+                           t-thumbnail="/theme_gym_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_gym_ultimate_02.gym_left_content"
+                           t-thumbnail="/theme_gym_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_gym_ultimate_02.gym_team"
+                           t-thumbnail="/theme_gym_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_gym_ultimate_02.gym_contact"
+                           t-thumbnail="/theme_gym_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_gym_ultimate_02.gym_footer"
+                           t-thumbnail="/theme_gym_ultimate_02/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

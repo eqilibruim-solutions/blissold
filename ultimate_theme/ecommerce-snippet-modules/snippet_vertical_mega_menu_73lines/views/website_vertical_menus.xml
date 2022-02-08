@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- ======== Vertical Menu ======== -->
+    <!-- Snippet's Body -->
+    <template id="vertical_category_menu" name="Vertical Mega Menu">
+        <section class="vertical_category_menu_no_image">
+            <div class="row">
+                <div class="col-md-3 vertical_category_menu mt16 mb16">
+                    <div class="category-title"><i class="fa fa-bars"></i>All
+                        Category
+                    </div>
+                    <div class="container category-content">
+                        <ul id="category_menu"></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ======== Vertical Menu with Image ======== -->
+    <!-- Snippet's Body -->
+    <template id="vertical_category_menu_image"
+              name="Vertical Mega Menu with Image">
+        <section class="vertical_category_menu_image">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 hidden-xs vertical_category_menu mt16 mb16">
+                    <div class="category-title"><i class="fa fa-bars"/>All
+                        Category
+                    </div>
+                    <div class="container category-content category-content-image">
+                        <ul id="category_menu">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9 oe_structure mt16 mb16">
+                    <img class="img-fluid"
+                         src="/website/static/src/img/backgrounds/type.jpg"
+                         alt="Background Image"/>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Snippet's Options -->
+    <template id="vertical_category_menu_option"
+              inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='background']" position="before">
+            <div data-js='vertical_category_menu'
+                 data-selector=".vertical_category_menu">
+
+                <we-collapse-area>
+                    <we-toggler>
+                        <i class="fa fa-filter"/>
+                        Vertical Mega Menu Options
+                    </we-toggler>
+                    <we-collapse>
+                        <we-button href="#"
+                                   data-add_category="true">
+                            <a>Add Category</a>
+                        </we-button>
+                    </we-collapse>
+                </we-collapse-area>
+
+
+            </div>
+
+            <div data-js='vertical_category_menu'
+                 data-selector="ul#category_menu > li:has(a)">
+
+                <we-button
+                        data-add_sub_page="true" href="#">
+                    <a>Add Sub Page</a>
+                </we-button>
+
+            </div>
+        </xpath>
+    </template>
+
+    <!-- ======== Vertical Sub Menu with Image @ bottom ======== -->
+    <!-- Snippet's Body -->
+    <template id="vertical_sub_category_menu_img_bottom"
+              name="Vertical Sub Menu with Image at bottom">
+        <section class="vertical_category_sub_menu">
+            <div class="row ">
+                <div class="col-md-4 col-sm-4">
+                    <div class="sub-category-title">
+                        <i
+                                class="fa fa-chevron-right"/>
+                        Sub Category
+                    </div>
+                    <div class="container sub-category-content">
+                        <ul id="sub_category_menu">
+                            <li>
+                                <a href="#">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 4</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 5</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="sub-category-title">
+                        <i
+                                class="fa fa-chevron-right"/>
+                        Sub Category
+                    </div>
+                    <div class="container sub-category-content">
+                        <ul id="sub_category_menu">
+                            <li>
+                                <a href="#">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 4</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 5</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="sub-category-title">
+                        <i
+                                class="fa fa-chevron-right"/>
+                        Sub Category
+                    </div>
+                    <div class="container sub-category-content">
+                        <ul id="sub_category_menu">
+                            <li>
+                                <a href="#">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 4</a>
+                            </li>
+                            <li>
+                                <a href="#">Link 5</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="col-md-6 col-sm-6 img-fluid mt32"
+                     src="/website/static/src/img/snippets_demo/s_image_text.jpg"
+                     alt="Demo Image"/>
+                <img class="col-md-6 col-sm-6 img-fluid mt32"
+                     src="/website/static/src/img/snippets_demo/s_image_text.jpg"
+                     alt="Demo Image"/>
+            </div>
+        </section>
+    </template>
+
+    <!-- ======== Vertical Sub Menu with Image @ right ======== -->
+    <!-- Snippet's Body -->
+    <template id="vertical_sub_category_menu_img_right"
+              name="Vertical Sub Menu with Image at right">
+        <section class="vertical_category_sub_menu">
+            <div class="row ">
+                <div class="col-md-8 col-sm-8">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="sub-category-title">
+                            <i
+                                    class="fa fa-chevron-right"/>
+                            Sub Category
+                        </div>
+                        <div class="container sub-category-content">
+                            <ul id="sub_category_menu">
+                                <li>
+                                    <a href="#">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 4</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="sub-category-title">
+                            <i
+                                    class="fa fa-chevron-right"/>
+                            Sub Category
+                        </div>
+                        <div class="container sub-category-content">
+                            <ul id="sub_category_menu">
+                                <li>
+                                    <a href="#">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 4</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="sub-category-title">
+                            <i
+                                    class="fa fa-chevron-right"/>
+                            Sub Category
+                        </div>
+                        <div class="container sub-category-content">
+                            <ul id="sub_category_menu">
+                                <li>
+                                    <a href="#">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 4</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="sub-category-title">
+                            <i
+                                    class="fa fa-chevron-right"/>
+                            Sub Category
+                        </div>
+                        <div class="container sub-category-content">
+                            <ul id="sub_category_menu">
+                                <li>
+                                    <a href="#">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 4</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="col-md-12 col-sm-12">
+                        <img class="img-fluid"
+                             src="/website/static/src/img/snippets_demo/s_text_image.jpg"
+                             alt="Demo Image"/>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <img class="img-fluid"
+                             src="/website/static/src/img/snippets_demo/s_text_image.jpg"
+                             alt="Demo Image"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>

@@ -1,0 +1,601 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="security_banner" name="Security Banner">
+            <section class="s_cover parallax align-content-center align-items-center s_parallax_is_fixed"
+                     data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_security_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);background-position: 50% 75%;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed full-height">
+                        <div class="align-content-center align-self-center col-lg-7 content-align-center"
+                             data-name="Title">
+                            <h1 class="text-left text-white" style="font-size: 62px;">
+                                <b>Make Your</b>
+                            </h1>
+                            <h1 class="text-left text-white" style="font-size: 62px;">
+                                <b>Security High</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-5 align-self-center" data-name="Image">
+                            <img class="img img-fluid"
+                                 src="/theme_security_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 data-original-title="" title="" aria-describedby="tooltip345113"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Overlay Start-->
+        <template id="security_overlay" name="Security Overlay">
+            <section class="s_overlay_section z_index_100 pt40 pb40 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt8 mb8">
+                            <div class="bg-alpha pb48 pl-4 pt48">
+                                <img alt="image" class="mb-4 rounded sni-block-icon"
+                                     src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip111474"/>
+                                <h3>
+                                    <strong>
+                                        <font style="color: rgb(255, 255, 255);">Home</font>
+                                    </strong>
+                                </h3>
+                                <h3>
+                                    <strong>
+                                        <font style="color: rgb(255, 255, 255);">Security</font>
+                                    </strong>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt8 mb8">
+                            <div class="bg-alpha pb48 pl-4 pt48">
+                                <img alt="image" class="mb-4 rounded sni-block-icon"
+                                     src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip111474"/>
+                                <h3>
+                                    <strong>
+                                        <font style="color: rgb(255, 255, 255);">Cloud</font>
+                                    </strong>
+                                </h3>
+                                <h3>
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">Security</font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt8 mb8">
+                            <div class="bg-alpha pb48 pl-4 pt48">
+                                <img alt="image" class="mb-4 rounded sni-block-icon"
+                                     src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip111474"/>
+                                <h3>
+                                    <strong>
+                                        <font style="color: rgb(255, 255, 255);">Office</font>
+                                    </strong>
+                                </h3>
+                                <h3>
+                                    <b>
+                                        <font style="color: rgb(255, 255, 255);">Security</font>
+                                    </b>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mt8 mb8">
+                            <div class="bg-alpha pb48 pl-4 pt48">
+                                <img alt="image" class="mb-4 rounded sni-block-icon"
+                                     src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                     data-original-title="" title="" aria-describedby="tooltip111474"/>
+                                <h3>
+                                    <strong>
+                                        <font style="color: rgb(255, 255, 255);">Private</font>
+                                    </strong>
+                                </h3>
+                                <h3>
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b>Security</b>
+                                    </font>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Overlay End-->
+
+        <!--Snippet Right Content Start-->
+        <template id="security_right_content" name="Security Right Content">
+            <section class="sni-block pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 plr-0">
+                            <img src="/theme_security_ultimate_01/static/src/img/placeholder-665x688.png"
+                                 class="img img-fluid d-block mx-auto" alt="Odoo • Text and Image"
+                                 data-original-title=""
+                                 title="" aria-describedby="tooltip511992"/>
+                        </div>
+                        <div class="bg-epsilon col-lg-5 pl-lg-5 pl-md-5 pt64 pb40" style="padding-bottom:71px;">
+                            <h2>
+                                <b>
+                                    <span style="font-size: 36px; text-align: center;">
+                                        <font style="color: rgb(255, 255, 255);">Our aim to provide top class security
+                                            to our clients
+                                        </font>
+                                    </span>
+                                </b>
+                                <font style="">
+                                    <br/>
+                                </font>
+                            </h2>
+                            <p>
+                                <font style="color: rgb(255, 255, 255); font-size: 18px;">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.
+                                </font>
+                            </p>
+                            <p>
+                                <font style="color: rgb(0, 0, 0);">
+                                    <span style="color: rgb(255, 255, 255); font-size: 18px;"
+                                          class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea commodo consequat.
+                                    </span>
+                                </font>
+                            </p>
+                            <p>
+                                <font style="color: rgb(0, 0, 0);">
+                                    <span style="color: rgb(255, 255, 255); font-size: 18px;">Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit, sed do
+                                    </span>
+                                </font>
+                            </p>
+                            <p>
+                                <font style="color: rgb(0, 0, 0);">
+                                    <span style="font-size: 18px;">
+                                        <a href="#" class="btn btn-gamma bg-black flat btn-lg mt8"
+                                           data-original-title=""
+                                           title="" aria-describedby="tooltip992184">READ MORE
+                                        </a>
+                                    </span>
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Counter Start-->
+        <template id="security_counter" name="Security Counter">
+            <section class="sni-block pt64 pb64 oe_custom_bg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-4 col-md-4 ml-lg-0 pt48">
+                            <div>
+                                <h2 style="color: rgb(255, 255, 255); font-size: 48px;">
+                                    <b class="o_default_snippet_text">We Care About Your Protection</b>
+                                </h2>
+                                <font style="font-size: 14px;" data-original-title="" title=""
+                                      aria-describedby="tooltip843628">
+                                    <a href="#"
+                                       class="flat flat mb16 mt16 flat btn bg-black btn-gamma flat btn-lg o_default_snippet_text"
+                                       data-original-title="" title="" aria-describedby="tooltip466116">VIEW
+                                        MORE
+                                    </a>
+                                </font>
+                            </div>
+                            <div class="col-12 col-md-8 col-lg-8 m-md-auto ml-lg-0 mr-lg-auto">
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-md-8 offset-lg-1 pt-5 pt-lg-0">
+                            <div class="row pt-4 pt-xl-5">
+                                <div class="bg-gamma col-12 col-lg-5 col-md-5 col-sm-8 m-sm-auto ml-md-0 mr-md-auto pb32 pt32 mb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip731255"/>
+                                    <h3 class="d-inline mx-4">
+                                        <strong>
+                                            <font style="color: rgb(255, 255, 255); font-size: 48px;"
+                                                  class="o_default_snippet_text">48
+                                            </font>
+                                        </strong>
+                                    </h3>
+                                    <p class=" mt32">
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Lorem Ipsum is simply dummy text</b>
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="bg-gamma col-12 col-lg-5 col-md-5 col-sm-8 m-sm-auto ml-md-0 mr-md-auto pb32 pt32 mb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip731255"/>
+                                    <h3 class="d-inline mx-4">
+                                        <strong>
+                                            <font style="color: rgb(255, 255, 255); font-size: 48px;"
+                                                  class="o_default_snippet_text">65
+                                            </font>
+                                        </strong>
+                                    </h3>
+                                    <p class=" mt32">
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Lorem Ipsum is simply dummy text</b>
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="bg-gamma col-12 col-lg-5 col-md-5 col-sm-8 m-sm-auto ml-md-0 mr-md-auto pb32 pt32 mb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip731255"/>
+                                    <h3 class="d-inline mx-4">
+                                        <strong>
+                                            <font style="color: rgb(255, 255, 255); font-size: 48px;"
+                                                  class="o_default_snippet_text">58
+                                            </font>
+                                        </strong>
+                                    </h3>
+                                    <p class=" mt32">
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Lorem Ipsum is simply dummy text</b>
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="bg-gamma col-12 col-lg-5 col-md-5 col-sm-8 m-sm-auto ml-md-0 mr-md-auto pb32 pt32 mb16">
+                                    <img alt="image" class="img-fluid"
+                                         src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip731255"/>
+                                    <h3 class="d-inline mx-4">
+                                        <strong>
+                                            <font style="color: rgb(255, 255, 255); font-size: 48px;"
+                                                  class="o_default_snippet_text">89
+                                            </font>
+                                        </strong>
+                                    </h3>
+                                    <p class=" mt32">
+                                        <font style="font-size: 18px;">
+                                            <b class="o_default_snippet_text">Lorem Ipsum is simply dummy text</b>
+                                        </font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Counter End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="security_testimonial" name="Security Testimonial">
+            <section class="pt64 pb64 bg-200" id="testimonials_d1" style="">
+                <div class="container">
+                    <div class="row content justify-content-md-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 48px;" class="text-beta">
+                                    <b>What Client Says</b>
+                                </font>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarousel1571210335259" class="s_quotes_carousel carousel slide s_carousel_default"
+                     data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1571210335259" data-slide-to="0" class="active"/>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt80 pb80 active" data-name="Slide" style="">
+                            <div class="container">
+                                <div class="row content justify-content-md-center px-3">
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                        <p>Write a quote here from one of your customers. Quotes are a great way to
+                                            build confidence in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_security_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span>— Jane DOE, CEO
+                                                <b>&amp;nbsp;</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                    <blockquote
+                                            class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                        <p>Write a quote here from one of your customers. Quotes are a great way to
+                                            build confidence in your products or services.
+                                        </p>
+                                        <div>
+                                            <img class="img"
+                                                 src="/theme_security_ultimate_01/static/src/img/placeholder-user.png"
+                                                 alt=""/>
+                                            <span>— Jane DOE, Manager
+                                                <b>&amp;nbsp;</b>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" data-target="#myCarousel1571210335259" data-slide="prev"
+                         role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myCarousel1571210335259" data-slide="next"
+                         role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet FAQ Start-->
+        <template id="security_faq" name="Security FAQ">
+            <section class="pt64 pb64 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row text-left">
+                        <div class="col-12 mt16 mb16">
+                            <h2>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;">
+                                    <b>Recently Asked Questions</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mt16 mb16">
+                            <h3>
+                                <strong>
+                                    <font style="color: rgb(255, 255, 255);">What is terms and condition to get a
+                                        guard?
+                                    </font>
+                                </strong>
+                            </h3>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mt16 mb16">
+                            <h3>
+                                <font color="#ffffff">
+                                    <b>Experience of bodyguard?</b>
+                                </font>
+                            </h3>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mt16 mb16">
+                            <h3>
+                                <strong>
+                                    <font style="color: rgb(255, 255, 255);">How do make a payment for security?</font>
+                                </strong>
+                            </h3>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt
+                                </font>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mt16 mb16">
+                            <h3>
+                                <strong>
+                                    <font style="color: rgb(255, 255, 255);">Which types of security provide for
+                                        business?
+                                    </font>
+                                </strong>
+                            </h3>
+                            <p>
+                                <font style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet FAQ End-->
+
+        <!--Snippet Footer Start-->
+        <template id="security_footer" name="Security Footer">
+            <section id="footer" class="oe_custom_bg oe_structure oe_structure_solo" style="border-top: none;">
+                <div class=" oe_custom_bg" id="footer_normal" style="">
+                    <div class="container">
+                        <div class="row mt32">
+                            <div class="bg-beta col-lg-4 col-md-12 col-md-3 p-5 pt40" style="">
+                                <div>
+                                    <a href="/" class=" logo mt8 mb8 col-xs-12">
+                                        <img style="margin:0 auto;" class="img img-responsive padding-medium"
+                                             src="/theme_security_ultimate_01/static/src/img/placeholder-70x70.png"
+                                             alt="Logo of YourCompany" title="YourCompany"/>
+                                    </a>
+                                    <a href="/" class=" logo mt8 mb8 col-xs-12">
+                                        <br/>
+                                    </a>
+                                    <a href="/" class=" logo mt8 mb8 col-xs-12">
+                                        <br/>
+                                    </a>
+                                    <font color="#cfac6a" style="color: rgb(255, 255, 255); font-size: 24px;">
+                                        <b
+                                                class="o_default_snippet_text">Feel Free To Call Us
+                                        </b>
+                                    </font>
+                                    <a href="/" class=" logo mt8 mb8 col-xs-12">
+                                        <br/>
+                                    </a>
+                                    <a href="/" class=" logo mt8 mb8 col-xs-12">
+                                        <br/>
+                                    </a>
+                                </div>
+                                <font style="font-size: 36px;">
+                                    <b class="o_default_snippet_text">+(61) 1234 567890</b>
+                                </font>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div class="col-lg-3 col-md-4 pb16 pt48">
+                                <h4 class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">
+                                        <b class="o_default_snippet_text">Address</b>
+                                    </font>
+                                </h4>
+                                <h4>
+                                    <b>
+                                        <font class="text-beta o_default_snippet_text" style="">Ultimate Security</font>
+                                    </b>
+                                </h4>
+                                <div>
+                                    <div class="mt8 mb8 media">
+                                        <i class="fa fa-map-marker ml8 mr8 mt-2"></i>
+                                        <div class="o_default_snippet_text media-body">
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">
+                                                <span t-field="res_company.street"/>
+                                                <span t-field="res_company.country_id.name"/>
+                                            </font>
+                                        </div>
+                                    </div>
+                                    <div class="mt8 mb8 media">
+                                        <i class="fa fa-phone ml8 mr8 mt-2"></i>
+                                        <div class="o_default_snippet_text media-body">
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">
+                                                <span t-field="res_company.phone"/>
+                                            </font>
+                                        </div>
+                                    </div>
+                                    <div class="mt8 mb8 media">
+                                        <i class="fa fa-envelope ml8 mr8 mt-2"></i>
+                                        <div class="o_default_snippet_text media-body">
+                                            <font style="font-size: 18px;" class="o_default_snippet_text">
+                                                <span t-field="res_company.email"/>
+                                            </font>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 pb16 pt48">
+                                <ul class="list-unstyled">
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text" style="">
+                                            <font class="text-beta" style="font-size: 18px;">
+                                                <span class="o_default_snippet_text" data-original-title="" title=""
+                                                      aria-describedby="tooltip457716" style="">Home
+                                                </span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 18px;">
+                                                <span class="o_default_snippet_text">About Us</span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 18px;">
+                                                <span class="o_default_snippet_text" data-original-title="" title=""
+                                                      aria-describedby="tooltip704033">Service
+                                                </span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 18px;">
+                                                <span data-original-title="" title="" aria-describedby="tooltip149753"
+                                                      class="o_default_snippet_text" style="">Testimonial
+                                                </span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-lg-3 col-md-4 pb16 pt48">
+                                <ul class="list-unstyled">
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text" style="">
+                                            <font style="font-size: 18px;" class="text-beta o_default_snippet_text"
+                                                  data-original-title="" title="" aria-describedby="tooltip930986">
+                                                Home Security
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 18px;">
+                                                <span class="o_default_snippet_text">Cloud Security</span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">
+                                            <font class="text-beta" style="font-size: 18px;">
+                                                <span class="o_default_snippet_text">Office Security</span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li class="mt8 mb8">
+                                        <a href="/" class="o_default_snippet_text">
+                                            <font style="font-size: 18px;" class="text-beta">
+                                                <span class="o_default_snippet_text" style="">Private Security</span>
+                                            </font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Security Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_security_ultimate_01.security_banner"
+                           t-thumbnail="/theme_security_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_security_ultimate_01.security_overlay"
+                           t-thumbnail="/theme_security_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_security_ultimate_01.security_right_content"
+                           t-thumbnail="/theme_security_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_security_ultimate_01.security_counter"
+                           t-thumbnail="/theme_security_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_security_ultimate_01.security_testimonial"
+                           t-thumbnail="/theme_security_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_security_ultimate_01.security_faq"
+                           t-thumbnail="/theme_security_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_security_ultimate_01.security_footer"
+                           t-thumbnail="/theme_security_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

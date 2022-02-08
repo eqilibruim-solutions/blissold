@@ -1,0 +1,97 @@
+//---------------------General Blog Design------------//
+.latest-blog-info{
+    h4,.post-excerpt > p{
+        //height: 50px;
+        //overflow: hidden;
+    }
+
+    h4{
+        margin:8px 0;
+    }
+
+    a{
+        &:hover{
+                text-decoration:none;
+         }
+    }
+}
+
+//----------------------Style 1-------------//
+.s_blog_transparent{
+     .latest-blog-info{
+        background: transparent;
+        padding: 3%;
+    }
+}
+
+//----------------------Style 2-------------//
+.s_blog_bg_dark{
+    .latest-blog-info{
+        background: black;
+        color: #fff;
+        padding: 3%;
+    }
+}
+
+//----------------------Style 3-------------//
+.s_blog_bg_light{
+    .latest-blog-info{
+        background: darkgrey;
+        color: #333333;
+        padding: 3%;
+
+        h4{
+            color: #333333;
+        }
+    }
+}
+
+//----------------------Style 4-------------//
+.s_blog_4{
+    .latest-blog-info{
+        .post-excerpt{
+            border-top: 1px solid #333333;
+            padding: 2%;
+        }
+
+        .post-meta{
+            border-top: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            text-align: center;
+        }
+    }
+}
+
+//----------------------Style 5-------------//
+.s_blog_5{
+      .latest-blog-info{
+        text-align:center;
+        .post-excerpt{
+            border-top: 1px solid #333333;
+            padding: 2%;
+        }
+
+        .post-meta{
+            border-top: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            text-align: center;
+        }
+    }
+
+}
+
+//----------------------Style 6-------------//
+.s_blog_6{
+      .latest-blog-info{
+        text-align:center;
+        .post-excerpt{
+           text-align: center;
+            border-top: 1px solid #333;
+        }
+
+        .post-meta{
+            text-align: center;
+        }
+    }
+
+}

@@ -1,0 +1,56 @@
+#wrapwrap > header.o_affix_enabled > nav{
+    padding-top:0;
+    padding-bottom:0;
+}
+#top_menu{
+   > li{
+       > a{
+            //color: theme-color('alpha');
+            padding:25px 16px;
+        }
+
+        &.active,&:hover{
+            > a{
+                background-color:theme-color('alpha');
+                color:lighten(theme-color('alpha'),70%);
+            }
+        }
+
+        a[aria-expanded="true"]{
+             background-color:theme-color('alpha');
+                color:lighten(theme-color('alpha'),70%);
+        }
+
+        .dropdown-menu{
+            background-color: #fff;
+            border-top: 3px solid theme-color('beta');
+
+        }
+
+        &.divider{
+            height:auto;
+        }
+
+        .dropdown-menu.show{
+           a{
+                padding: 10px 16px 10px 16px;
+            }
+        }
+    }
+
+     > li.show{
+         background-color:theme-color('alpha');
+         color:lighten(theme-color('alpha'),70%);
+    }
+
+}
+
+#wrapwrap > header.o_header_affix.affix.affixed {
+    #top_menu{
+        li{
+            a{
+                padding: 10px 16px 10px 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_res_partner_tree_inherit">
+        <field name="name">res.partner.tree.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="base.view_partner_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_id']" position="before">
+                <field name="last_sale_date"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_res_partner_form_inherit">
+        <field name="name">res.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="account.view_partner_property_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <button type="object" name="action_send_overdue_report" string="Send overdue report" />
+                </header>
+            </xpath>
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="property_warehouse_id" />
+                <field name="pickup_location" />
+            </xpath>
+            <xpath expr="//field[@name='property_payment_term_id']" position="before">
+                    <field name="warning_type" groups="solibre_useability.credit_config"/>
+                    <field name="credit_limit" groups="solibre_useability.credit_config" attrs="{'invisible': [('warning_type', '=', 'none')]}"/>
+                    <field name="credit_limit_days" groups="solibre_useability.credit_config" attrs="{'invisible': [('warning_type', '=', 'none')]}"/>
+                    <field name="payment_earliest_due_date" />
+                    <field name="no_auto_invoice" />
+            </xpath>
+            <xpath expr="//field[@name='property_payment_term_id']" position="before">
+                <field name="credit" />
+            </xpath>
+            <xpath expr="//field[@name='property_supplier_payment_term_id']" position="before">
+                <field name="debit" />
+            </xpath>
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="stat" attrs="{'invisible': [('country_id', '!=', %(base.mg)d)]}"/>
+                <field name="rcs" attrs="{'invisible': [('country_id', '!=', %(base.mg)d)]}"/>
+                <field name="makani_number" attrs="{'invisible': [('country_id', '!=', %(base.ae)d)]}"/>
+            </xpath>
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="date_birth" />
+                <field name="age" />
+                <field name="nationality_country_id" />
+            </xpath>
+<!--             <xpath expr="//field[@name='child_ids']/form/field[@name='function']" position="after">
+                <field name="date_birth" />
+                <field name="age" />
+                <field name="relation" />
+            </xpath> -->
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="%(account.action_account_invoice_report_all)d" 
+                        type="action" 
+                        class="oe_stat_button" 
+                        icon="fa-area-chart" 
+                        context="{'search_default_partner_id':active_id,'search_default_category_product':1}">
+                    <span class="o_stat_text">Stats</span>
+                </button>
+            </xpath>
+            <xpath expr="//group[@name='sale']" position="inside">
+                <field name="team_id" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

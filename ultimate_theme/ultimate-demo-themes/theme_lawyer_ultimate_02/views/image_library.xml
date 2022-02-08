@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_1</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_1</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/company-1-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_2</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_2</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/our-stats-img-bg-min.JPG</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_3</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_3</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/about-us-img-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_4</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_4</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/client_01-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_5</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_5</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/lawyer_ultimate_01_footer_logo.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_6</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_6</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/cta-background-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_7</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_7</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/company-6-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_8</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_8</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/team-2-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_9</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_9</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/team-3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_10</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_10</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/main_banner-img-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_11</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_11</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/service_img_5-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_12</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_12</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/service_img_3-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_13</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_13</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/service_img_4-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_14</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_14</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/company-4-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_15</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_15</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/company-2-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_16</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_16</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/company-3-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_17</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_17</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/testimonial_bg-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_18</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_18</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/lawyer_ultimate_01_logo.png</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_19</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_19</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/client_02-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_20</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_20</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/company-5-light-min.png</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_21</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_21</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/service_img_6-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_22</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_22</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/service_img_1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_23</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_23</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/team-1-min.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_lawyer_ultimate_02.image_content_24</field>
+            <field name="name">theme_lawyer_ultimate_02.image_content_24</field>
+            <field name="url">/theme_lawyer_ultimate_02/static/src/img/library/service_img_2-min.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

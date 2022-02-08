@@ -1,0 +1,61 @@
+<odoo>
+    <data>
+        <!--Snippet Promo Image Start-->
+        <template id="beauty_promo_image" name="Beauty Promo Image">
+            <section class="pt64 pb64" id="ecommerce_block_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_beauty_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2>
+                                        <b>Sale Upto 50% Off</b>
+                                    </h2>
+                                    <p>
+                                        <font style="font-size: 18px;">New Arrivals</font>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_beauty_ecommerce_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip867057"/>
+                                <div class="col-12 img-content px-5">
+                                    <h2>
+                                        <b>Flat 30% Off</b>
+                                    </h2>
+                                    <p>
+                                        <span style="font-size: 18px;">Skin &amp;amp; Body Care</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Promo Image End-->
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Beauty Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_beauty_ecommerce_ultimate_01.beauty_promo_image"
+                           t-thumbnail="/theme_beauty_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

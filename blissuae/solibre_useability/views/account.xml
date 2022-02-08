@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_account_asset_asset_form_inherit">
+        <field name="name">account.asset.asset.form.inherit</field>
+        <field name="model">account.asset.asset</field>
+        <field name="inherit_id" ref="om_account_asset.view_account_asset_asset_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='account_analytic_id']" position="after">
+                <field name="vehicle_id" />
+                <field name="user_id" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_res_partner_bank_form_inherit">
+        <field name="name">res.partner.bank.form.inherit</field>
+        <field name="model">res.partner.bank</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base.view_partner_bank_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='bank_id']" position="after">
+                <field name="branch" />
+            </xpath>
+            <xpath expr="//field[@name='acc_number']" position="after">
+                <field name="iban" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_account_payment_register_form_inherit">
+        <field name="name">account.payment.register.form.inherit</field>
+        <field name="model">account.payment.register</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="account.view_account_payment_form_multi" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='payment_date']" position="after">
+                <field name="communication" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_account_account_type_tree_inherit">
+        <field name="name">account.account.type.tree.inherit</field>
+        <field name="model">account.account.type</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="account.view_account_type_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="before">
+                <field name="sequence" widget='handle'/>
+            </xpath>
+        </field>
+    </record>
+
+    <template id="report_invoice_document" inherit_id="account.report_invoice_document">
+        <xpath expr="//p[@name='comment']" position="before">
+            <p t-field="o.amount_in_words">
+            </p>
+        </xpath>
+        <xpath expr="//p[@name='comment']" position="after">
+            <t t-set="journal" t-value="o.payment_mode"/>
+            <t t-if="not journal">
+              <t t-set="journal" t-value="env['account.journal'].search([('type','=','bank'),('currency_id','=',o.currency_id.id)],limit=1)"/>
+            </t>
+            <t t-if="not journal">
+              <t t-set="journal" t-value="env['account.journal'].search([('type','=','bank'),('company_id','=',o.company_id.id)],limit=1)"/>
+            </t>
+
+            <div t-if="journal" style="page-break-inside: avoid;">
+                <t t-set="account" t-value="journal.bank_account_id"/>
+                <p><strong>Bank details for payment purposes:</strong></p>
+                <div class="row border">
+                    <div class="col-auto mw-100 mb-2">
+                        <span  class="font-weight-bold">Beneficiary</span>
+                        <p t-esc="account.acc_holder_name" t-if="account.acc_holder_name"/>
+                        <p t-esc="o.company_id.name" t-else=""/>
+                    </div>
+                    <div class="col-auto mw-100 mb-2">
+                        <span  class="font-weight-bold">Bank name</span>
+                        <p t-esc="account.bank_id.name"/>
+                    </div>
+                    <div class="col-auto mw-100 mb-2">
+                        <span  class="font-weight-bold">Branch</span>
+                        <p t-esc="account.branch"/>
+                    </div>
+                    <div class="col-auto mw-100 mb-2">
+                        <span  class="font-weight-bold">A/C No.</span>
+                        <p t-esc="account.acc_number"/>
+                    </div>
+                    <div class="col-auto mw-100 mb-2">
+                        <span  class="font-weight-bold">IBAN No.</span>
+                        <p t-esc="account.iban"/>
+                    </div>
+                    <div class="col-auto mw-100 mb-2">
+                        <span  class="font-weight-bold">Swift</span>
+                        <p t-esc="account.bank_id.bic"/>
+                    </div>
+                </div>
+            </div> 
+
+        </xpath>
+        <xpath expr="//p[@name='note']" position="after">
+            <div class="row small">
+                <div class="col-xs-4 pull-left">
+                    <br/>
+                    <img t-if="o.user_id.signature_image" t-att-src="'data:image/png;base64,%s' % o.user_id.signature_image" style="max-width: 100px;"/>
+                    <br/>
+                    <div><span t-field="o.user_id"/></div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <record model="ir.ui.view" id="view_account_payment_term_form_inherit">
+        <field name="name">account.payment.term.form.inherit</field>
+        <field name="model">account.payment.term</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="account.view_payment_term_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="block_unpaid" />
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="account.action_account_moves_all">
+        <field name="name">Journal Items</field>
+        <field name="res_model">account.move.line</field>
+        <field name="view_mode">pivot,tree,graph,form,kanban</field>
+        <field name="limit">80</field>
+        <field name="context">{'search_default_year':1}</field>
+        <field name="view_id" ref="account.view_move_line_pivot" />
+    </record>
+
+    <record model="ir.ui.view" id="account.view_move_line_pivot">
+        <field name="name">account.move.line.pivot</field>
+        <field name="model">account.move.line</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <pivot>
+                <field name="user_type_id" type="row"/>
+                <field name="debit" type="measure"/>
+                <field name="credit" type="measure"/>
+                <field name="balance" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_account_move_line_search">
+        <field name="name">account.move.line.search.inherit</field>
+        <field name="model">account.move.line</field>
+        <field name="inherit_id" ref="account.view_account_move_line_filter" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="user_type_id" />            
+            </xpath>
+            <xpath expr="//filter[@name='date']" position="before">
+                <filter string="This Year" name="year" invisible="1" domain="[('date','&lt;=', time.strftime('%%Y-12-31')),('date','&gt;=',time.strftime('%%Y-01-01'))]"/>                
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_account_move_form_inherit">
+        <field name="name">account.move.form.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside">
+                    <button type="object"  name="action_view_subscription"
+                        class="oe_stat_button"
+                        icon="fa-repeat" attrs="{'invisible':[('state', 'in', ('draft'))]}">
+                        <field name="subscription_count" widget="statinfo" string="Subscriptions"/>
+                    </button> 
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Prepayments">
+                    <group>
+                        <group>
+                            <field name="prepayment_frequency" />
+                            <field name="prepayment_amount" attrs="{'required':[('prepayment_frequency','!=','no')]}"/>
+                        </group>
+                        <group>
+                            <field name="prepayment_start_date" attrs="{'required':[('prepayment_frequency','!=','no')]}"/>
+                            <field name="prepayment_account_id" attrs="{'required':[('prepayment_frequency','!=','no')]}"/>
+                            <field name="prepayment_balance" />
+                        </group>
+                    </group>
+                    <button type="object" name="scheduler_amortise_prepayment" string="Amortise" />
+                    <field name="prepayment_move_ids" readonly="1"/>
+                </page>
+            </xpath>
+            <xpath expr="//field[@name='partner_shipping_id']" position="after">
+                <field name="partner_id_beneficiary" />
+                <!-- <field name="payment_url" widget="CopyClipboardChar" attrs="{'invisible': [('payment_url', '=', False)]}"/> -->
+            </xpath>
+            <xpath expr="//field[@name='currency_id']" position="after">
+                <field name="payment_mode" />
+            </xpath>
+            <xpath expr="//field[@name='fiscal_position_id']" position="after">
+                <field name="print_company_id" />
+            </xpath>
+        </field>
+    </record>
+
+    <template id="portal_my_invoices" name="Portal My Invoices" inherit_id="account.portal_my_invoices">
+        <xpath expr="//t[@t-call='portal.portal_table']/thead/tr/th[1]" position="after">
+            <th>Ref</th>
+        </xpath>
+        <xpath expr="//t[@t-foreach='invoices']/tr/td[1]" position="after">
+            <td>
+                <span t-field="invoice.invoice_origin"/> <span t-field="invoice.ref"/> 
+            </td>
+        </xpath>
+    </template>
+
+</odoo>

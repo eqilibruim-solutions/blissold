@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_1</field>
+            <field name="name">theme_cake_ultimate_01.image_content_1</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/special_cake_bg.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_2</field>
+            <field name="name">theme_cake_ultimate_01.image_content_2</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/most_popular_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_3</field>
+            <field name="name">theme_cake_ultimate_01.image_content_3</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/special_cake_03.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_4</field>
+            <field name="name">theme_cake_ultimate_01.image_content_4</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/gallery_03.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_5</field>
+            <field name="name">theme_cake_ultimate_01.image_content_5</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/special_cake_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_6</field>
+            <field name="name">theme_cake_ultimate_01.image_content_6</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/team_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_7</field>
+            <field name="name">theme_cake_ultimate_01.image_content_7</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/contact_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_8</field>
+            <field name="name">theme_cake_ultimate_01.image_content_8</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/about.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_9</field>
+            <field name="name">theme_cake_ultimate_01.image_content_9</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/footer_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_10</field>
+            <field name="name">theme_cake_ultimate_01.image_content_10</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/gallery_01.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_11</field>
+            <field name="name">theme_cake_ultimate_01.image_content_11</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/gallery_02.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_12</field>
+            <field name="name">theme_cake_ultimate_01.image_content_12</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/choclate_cake.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_13</field>
+            <field name="name">theme_cake_ultimate_01.image_content_13</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/special_cake_04.png</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_14</field>
+            <field name="name">theme_cake_ultimate_01.image_content_14</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/special_cake_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_15</field>
+            <field name="name">theme_cake_ultimate_01.image_content_15</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/team_04.png</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_16</field>
+            <field name="name">theme_cake_ultimate_01.image_content_16</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/banner_bg.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_17</field>
+            <field name="name">theme_cake_ultimate_01.image_content_17</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/making_cake_with.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_18</field>
+            <field name="name">theme_cake_ultimate_01.image_content_18</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/team_03.png</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_19</field>
+            <field name="name">theme_cake_ultimate_01.image_content_19</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/desert_cake.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_20</field>
+            <field name="name">theme_cake_ultimate_01.image_content_20</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/team_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_cake_ultimate_01.image_content_21</field>
+            <field name="name">theme_cake_ultimate_01.image_content_21</field>
+            <field name="url">/theme_cake_ultimate_01/static/src/img/library/black_forest.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_time_slot,delivery_time_slot,model_delivery_time_slot,,1,0,0,0
+access_calendar_day,delivery_calendar_day,model_calendar_day,,1,0,0,0
+access_sale_order_limit,sale_order_limit,model_sale_order_limit,,1,1,1,1

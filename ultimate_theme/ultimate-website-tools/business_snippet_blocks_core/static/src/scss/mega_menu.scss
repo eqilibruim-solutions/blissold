@@ -1,0 +1,120 @@
+//---- Mega Menu Design 1 ----//
+#menu_design_1{
+    .mega-menu{
+        ul li{
+            a:hover,a:focus{
+                text-decoration:none !important;
+
+                span{
+                    color:theme-color('secondary')!important;
+                    text-decoration:none !important;
+                    outline:none;
+                }
+            }
+        }
+
+        .menu-heading {
+                border-bottom: 1px solid #e5e5e5;
+                color:theme-color('primary')!important;
+                padding-bottom: 10px;
+
+        }
+
+        .bullets li a span{
+            //color:theme-colors('primary');
+            color:grey;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+
+    }
+}
+
+//---- Menu Design ----//
+#menu_design_6,
+#menu_design_7,
+#menu_design_8,
+#menu_design_9,
+#menu_design_10,
+{
+    .bullets li a span{
+            color:grey;
+            font-weight: 500;
+            font-size: 16px;
+    }
+
+    .menu-heading {
+        span{
+            font-size:16px;
+        }
+    }
+
+    .bullets{
+         li a span{
+             webkit-transition: all 250ms ease 0s;
+            -moz-transition: all 250ms ease 0s;
+            -ms-transition: all 250ms ease 0s;
+            -o-transition: all 250ms ease 0s;
+            transition: all 250ms ease 0s;
+         }
+
+        li:hover{
+
+                text-decoration:none !important;
+
+                span{
+                    color:theme-color('secondary')!important;
+                    text-decoration:none !important;
+                    outline:none;
+                }
+
+        }
+    }
+
+    .mega-menu-cls {
+        border-right: 1px solid #e4e4e4;
+        padding-left: 44px;
+
+        @media (max-width:425px){
+            border-right:none;
+        }
+    }
+
+    .mega-menu-cls:last-of-type {
+        border-right: 1px solid transparent;
+    }
+
+    .mega-menu-cls:nth-child(6){
+        border-right: 1px solid transparent;
+    }
+
+    @media (max-width:768px){
+        .mega-menu-cls:nth-child(3){
+            border-right:none;
+            }
+
+        .mega-menu-cls:nth-child(9){
+            border-right:none;
+            }
+        }
+
+
+         @media (max-width:768px){
+        .mega-menu-clss:nth-child(3){
+            border-right:1px solid #e4e4e4;
+            }
+            }
+
+    .contain-set {
+        border: 1px #e5e5e5 solid;
+
+    }
+
+}
+
+/*header.o_header_affix.affix.affixed,header.o_header_affix.affix{
+    #before_nav{
+        display:none !important;
+    }
+}*/

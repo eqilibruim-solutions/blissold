@@ -1,0 +1,322 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="bag_store_banner" name="Bag Store Banner">
+            <section class="pt48">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_bag_store_ecommerce_ultimate_01/static/src/img/placeholder-image-801x505.png"
+                                                     alt="Image"
+                                                     title="Image" class="img-fluid mb8 mt8"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="sni-block">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 co-md-12 col-lg-12 col-sm-12">
+                                                <img class="img-fluid d-block mx-auto mb8 mt8"
+                                                     src="/theme_bag_store_ecommerce_ultimate_01/static/src/img/placeholder-image-395x340.png"
+                                                     data-original-title="" title="" aria-describedby="tooltip841095"/>
+                                            </div>
+                                            <div class="col-12 co-md-12 col-lg-12 col-sm-12">
+                                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                                     src="/theme_bag_store_ecommerce_ultimate_01/static/src/img/placeholder-image-395x156.png"
+                                                     data-original-title="" title="" aria-describedby="tooltip841095"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Image Block Start-->
+        <template id="bag_store_image_block" name="Bag Store Image Block">
+            <section class="pb64" id="ecommerce_block_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 co-md-3 col-lg-3 col-sm-3 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_bag_store_ecommerce_ultimate_01/static/src/img/placeholder-image-294x294.png"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip867057"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 col-sm-3 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_bag_store_ecommerce_ultimate_01/static/src/img/placeholder-image-294x294.png"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip867057"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt8 mb8">
+                            <div class="hover_effect">
+                                <img class="img-fluid d-block mx-auto"
+                                     src="/theme_bag_store_ecommerce_ultimate_01/static/src/img/placeholder-image-598x285.png"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip867057"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Image Block End-->
+
+        <!--Snippet Product Carousel One Start-->
+        <template id="bag_store_product_carousel_one" name="Bag Store Product Carousel One">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel s_headline_style_4"
+                     data-loading="true" data-template="ecommerce_snippets_blocks.product_list_template_d28"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d28"
+                     data-objects_limit="15" data-objects_in_row="2"/>
+        </template>
+        <!--Snippet Product Carousel One End-->
+
+        <!--Snippet Category Carousel Start-->
+        <template id="bag_store_category_carousel" name="Bag Store Category Carousel">
+            <section class="s_product_category_carousel js_get_objects mb8 s_headline_style_4" data-loading="true"
+                     data-template="ecommerce_snippets_product_category.product_category_list_template_header_d2"
+                     data-object_name="product.public.category" data-objects_in_slide="5" id="new_category_item_d2"/>
+        </template>
+        <!--Snippet Category Carousel End-->
+
+        <!--Snippet Product Carousel Two Start-->
+        <template id="bag_store_product_carousel_two" name="Bag Store Product Carousel Two">
+            <section class="s_product_carousel oe_website_sale js_get_objects mb8 product_carousel" data-loading="true"
+                     data-template="ecommerce_snippets_blocks.product_list_template_d28"
+                     data-object_name="product.template" data-objects_in_slide="4" id="new_products_item_d28"/>
+        </template>
+        <!--Snippet Product Carousel Two End-->
+
+        <!--Snippet Center Content Start-->
+        <template id="bag_store_center_content" name="Bag Store Center Content">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_bag_store_ecommerce_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <p>MODEL BAG</p>
+                            <h2 class="font-weight-bold">
+                                <font style="font-size: 35px;">Buy Leather Handbag For Fashion</font>
+                            </h2>
+                            <p class="pb8">
+                                <font style="font-size: 18px;">JUST FROM</font>
+                                <font style="font-size: 18px;" class="text-alpha">$99.0</font>
+                            </p>
+                            <a href="#" data-original-title="" title="" aria-describedby="tooltip669457">
+                                <u>
+                                </u>
+                                <font style="font-size: 12px;" class="text-beta">
+                                    <u>
+                                        <b>SHOP NOW</b>
+                                    </u>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Center Content End-->
+
+        <!--Snippet Blog Start-->
+        <template id="bag_store_blog" name="Bag Store Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_style_4" data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template" data-object_name="blog.post"
+                     style="" data-objects_in_slide="2"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Footer Start-->
+        <template id="bag_store_footer" name="Bag Store Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64" id="footer_9">
+                    <div class="container">
+                        <div class="row pt64">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb16">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <div>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter px-2"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google plus px-2"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin px-2"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-2 col-lg-2 pb16">
+                                <h5 class="mb16">Information</h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip184058">
+                                            <font class="text-gamma" style="">About Us</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip377397">
+                                            <font class="text-gamma" style="">Delivery Information</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip843144">
+                                            <font class="text-gamma" style="">Privacy Policy</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip829312">
+                                            <font class="text-gamma" style="">Terms &amp;amp; Condition</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip925317">
+                                            <font class="text-gamma" style="">Contact Us</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip29186">
+                                            <font class="text-gamma" style="">Returns</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-2 col-lg-2 pb16">
+                                <h5 class="mb16">My Accounts</h5>
+                                <ul class="list-unstyled text-decoration-none">
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip618377">
+                                            <font class="text-gamma" style="">My Account</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip2577">
+                                            <font class="text-gamma" style="">Order History</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip88062">
+                                            <font class="text-gamma" style="">Brands</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip241998">
+                                            <font class="text-gamma" style="">Gift Vouchers</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip241998">
+                                            <font class="text-gamma" style="">Affiliates</font>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip241998">
+                                            <font class="text-gamma" style="">Specials</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <h5 class="mb16">Newsletter</h5>
+                                <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.
+                                </p>
+                                <div class="col-md-12 p-0 input-group js_subscribe hidden" data-list-id="1"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control rounded-0"
+                                           placeholder="your email..."/>
+                                    <span class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text rounded-0">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text rounded-0 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </span>
+                                    <div class="alert alert-success hidden o_default_snippet_text rounded-0 d-none">
+                                        Thanks for your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer Start-->
+
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Bag Store Ecommerce Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_banner"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_image_block"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_product_carousel_one"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_category_carousel"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_product_carousel_two"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_center_content"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_blog"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_bag_store_ecommerce_ultimate_01.bag_store_footer"
+                           t-thumbnail="/theme_bag_store_ecommerce_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

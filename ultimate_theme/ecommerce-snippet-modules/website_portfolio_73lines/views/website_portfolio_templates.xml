@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Odoo Module Developed by 73lines See LICENSE file for full copyright 
+    and licensing details. -->
+<odoo>
+
+    <!-- Overview of all portfolios -->
+    <template id="latest_portfolios" name="Latest Portfolios">
+        <t t-call="website.layout">
+            <div id="wrap">
+                <div class="oe_structure"/>
+                <section class="container">
+                    <div class="row">
+                        <div t-if="posts" class="col-md-12 text-center">
+                            <h1>Portfolio</h1>
+                            <hr class="mt0 mb0"/>
+                        </div>
+                        <div t-if="not posts" class="col-md-12 text-center">
+                            <h1>Sorry Folks, No portfolio yet.</h1>
+                        </div>
+                    </div>
+                </section>
+                <div id="filters" t-if="posts" class="button-group text-center mt32 mb32">
+                    <button class="btn btn-primary mt8 mb8 btn-lg" data-filter="*">All</button>
+                    <t t-foreach="categ" t-as="portfolio_categ">
+                        <button class="btn btn-primary mt8 mb8 btn-lg"
+                                t-att-data-filter="'.port-'+str(portfolio_categ.id)"
+                                id="port_categ">
+                            <t t-esc="portfolio_categ.name"/>
+                        </button>
+                    </t>
+                </div>
+                <section>
+                    <div class="container no-gutter mb64">
+                        <div id="posts" class="text-center row">
+                            <t t-foreach="posts" t-as="portfolio">
+                                <div t-att-class="'col-sm-3 col-xs-12 item port-' +  str(portfolio.port_categ_id.id)">
+                                    <div class="item-wrap mt16 mb16">
+                                        <a itemprop="url"
+                                           t-attf-href="/portfolio/#{slug(portfolio.port_categ_id)}/#{slug(portfolio)}">
+                                            <span itemprop="image"
+                                                  t-field="portfolio.portfolio_image"
+                                                  t-options='{"widget": "image"}'
+                                                  t-att-alt="portfolio.name"/>
+                                        </a>
+                                        <h3>
+                                            <a style="display: block"
+                                               itemprop="url"
+                                               t-attf-href="/portfolio/#{slug(portfolio.port_categ_id)}/#{slug(portfolio)}">
+                                                <span t-att-title='portfolio.name'
+                                                      t-field='portfolio.name'
+                                                      style="display: block;"/>
+                                            </a>
+                                        </h3>
+                                        <h5>
+                                            <span t-att-title='portfolio.subtitle'
+                                                  t-field='portfolio.subtitle'
+                                                  style="display: block;"/>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </t>
+    </template>
+
+    <!-- Detail portfolio -->
+    <template id="detail_portfolio" name="Detail Portfolio">
+        <t t-call="website.layout">
+            <div id="wrap">
+                <div class="oe_structure"/>
+                <section class="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 mb16">
+                                <ol class="breadcrumb mt16 mb16">
+                                    <li>
+                                        <a href="/portfolio">Portfolio</a>
+                                    </li>
+                                    <li class="active">
+                                        <span t-att-title='portfolio.name'
+                                              t-field='portfolio.name'/>
+                                    </li>
+                                </ol>
+                                <div class="col-md-8 col-sm-8">
+                                    <span itemprop="image"
+                                          t-field="portfolio.portfolio_image"
+                                          t-field-options='{"widget": "image" }'
+                                          t-att-alt="portfolio.name"/>
+                                </div>
+                                <div class="col-md-4 mb16 mt16">
+                                    <ul class="item_feature">
+                                        <li>
+                                            <span data-toggle="tooltip"
+                                                  title="Create Date">
+                                                <i class="fa fa-calendar"/>
+                                            </span>
+                                            <span t-field='portfolio.date'/>
+                                        </li>
+                                        <li>
+                                            <span data-toggle="tooltip"
+                                                  title="Category">
+                                                <i class="fa fa-tags"/>
+                                            </span>
+                                            <span t-field='portfolio.port_categ_id'/>
+                                        </li>
+                                        <li t-if="portfolio.technology">
+                                            <span data-toggle="tooltip"
+                                                  title="Technology">
+                                                <i class="fa fa-cog"/>
+                                            </span>
+                                            <span t-field='portfolio.technology'/>
+                                        </li>
+                                        <li t-if="portfolio.external_link">
+                                            <span data-toggle="tooltip"
+                                                  title="Link">
+                                                <i class="fa fa-external-link"/>
+                                            </span>
+                                            <a itemprop="url"
+                                               t-att-href="portfolio.external_link">
+                                                <span t-field='portfolio.external_link'/>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3>
+                                        <span t-att-title='portfolio.subtitle'
+                                              t-field='portfolio.subtitle'
+                                              style="display: block;"/>
+                                    </h3>
+                                    <h5>
+                                        <span t-att-title='portfolio.portfolio_desc'
+                                              t-field='portfolio.portfolio_desc'
+                                              style="display: block;"/>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+            </div>
+        </t>
+    </template>
+</odoo>

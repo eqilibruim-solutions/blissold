@@ -1,0 +1,34 @@
+#grid_list{
+    section h6 a{
+        //color:theme-color('alpha');
+    }
+}
+
+@media (max-width: 767px){
+    #products_grid_before {
+        display: block !important;
+    }
+}
+
+//----------------------------Shop Page Breadcrumbs Design Start ----------------//
+.ultimate-breadcrumbs{
+    .breadcrumb{
+        .breadcrumb-item{
+            h1{
+                font-size:26px;
+            }
+            font-size:14px;
+            font-weight: 500;
+            margin-bottom: 0;
+
+            li > a{
+                color:#000000;
+            }
+            .breadcrumb{
+                background:transparent;
+            }
+        }
+    }
+
+}
+//----------------------------Shop Page Breadcrumbs Design End ----------------//

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_default_ultimate_01.image_content_1</field>
+            <field name="name">theme_default_ultimate_01.image_content_1</field>
+            <field name="url">/theme_default_ultimate_01/static/src/img/library/demo-1-full-slider-img.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_default_ultimate_01.image_content_2</field>
+            <field name="name">theme_default_ultimate_01.image_content_2</field>
+            <field name="url">/theme_default_ultimate_01/static/src/img/library/demo-1-full-section-img.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_default_ultimate_01.image_content_3</field>
+            <field name="name">theme_default_ultimate_01.image_content_3</field>
+            <field name="url">/theme_default_ultimate_01/static/src/img/library/demo-1-block-img-2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_default_ultimate_01.image_content_4</field>
+            <field name="name">theme_default_ultimate_01.image_content_4</field>
+            <field name="url">/theme_default_ultimate_01/static/src/img/library/demo-1-block-img-3.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_default_ultimate_01.image_content_5</field>
+            <field name="name">theme_default_ultimate_01.image_content_5</field>
+            <field name="url">/theme_default_ultimate_01/static/src/img/library/demo-1-block-img-1.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_default_ultimate_01.image_content_6</field>
+            <field name="name">theme_default_ultimate_01.image_content_6</field>
+            <field name="url">/theme_default_ultimate_01/static/src/img/library/demo-1-full-img.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

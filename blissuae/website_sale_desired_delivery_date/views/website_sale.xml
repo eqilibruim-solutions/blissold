@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <function model="ir.model.fields" name="formbuilder_whitelist">
+        <value>sale.order</value>
+        <value eval="[
+            'expected_date','gift_message','delivery_note','pref_date','time_slot'
+        ]"/>
+    </function>
+    <template id="cart" inherit_id="website_sale.extra_info">
+        <xpath expr="//form/div[1]" position="before">
+            <input type="hidden" name="field_required" t-att-value="'pref_date,time_slot'" />
+            <div class="form-group row form-field o_website_form_custom">
+                <div class="col-lg-3 col-md-4 text-md-right">
+                    <label class="col-form-label" for="pref_date">Delivery date</label>
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <input type="text" 
+                            data-date-format="DD/MM/YYYY"
+                            data-min="+0d"
+                            required=""
+                            class="form-control o_website_form_input o_website_form_date" 
+                            name="pref_date"
+                            t-att-value="website_sale_order.pref_date and datetime.datetime.strftime(website_sale_order.pref_date,'%d/%m/%Y') or ''"/>
+                        <!-- <p class="mt8 mb4 text-muted">Nearest delivery date: <span t-field="website_sale_order.expected_date" t-options='{"format": "dd/MM/Y"}'/></p> -->
+                </div>
+            </div>
+            <div class="form-group row form-field o_website_form_custom">
+                <div class="col-lg-3 col-md-4 text-md-right">
+                    <label class="col-form-label" for="time_slot">Delivery time slot</label>
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <select name="time_slot" class="form-control custom-select" required="">
+                        <option value="">select...</option>
+                        <t t-foreach="time_slots and time_slots.get('slots') or []" t-as="time_slot">
+                            <option t-att-value="time_slot[0]" t-att-selected="time_slot[0] == website_sale_order.time_slot.id">
+                                <t t-esc="time_slot[1]" />
+                            </option>
+                        </t>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row form-field o_website_form_custom">
+                <div class="col-lg-3 col-md-4 text-md-right">
+                    <label class="col-form-label" for="gift_message">Card Message</label>
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <textarea class="form-control o_website_form_input"
+                                data-autogrow="false"
+                                t-att-data-value="website_sale_order.gift_message"
+                                placeholder="Type your card message or leave blank for no messages"
+                                rows="8" 
+                                id="gift_message"
+                                name="gift_message"></textarea>
+                </div>
+            </div>
+            <div class="form-group row form-field o_website_form_custom">
+                <div class="col-lg-3 col-md-4 text-md-right">
+                    <label class="col-form-label" for="delivery_note">Special delivery instructions</label>
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <textarea class="form-control o_website_form_input"
+                                data-autogrow="false"
+                                t-att-data-value="website_sale_order.delivery_note"
+                                placeholder="Any special instructions for your delivery?"
+                                rows="8" 
+                                id="delivery_note"
+                                name="delivery_note"></textarea>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <template id="commitment_date_readonly">
+        <div class="o_wsddd_commitment_date card card-body mb-3">
+            <div>
+                <strong>Delivery date:</strong>
+                <t t-if="not order_obj.pref_date">
+                    <span t-field="order_obj.expected_date" t-options='{"format": "dd/MM/Y"}'/> <span class="text-muted">(Nearest delivery date)</span>
+                </t>
+                <t t-if="order_obj.pref_date">
+                    <span t-field="order_obj.pref_date" t-options='{"format": "dd/MM/Y"}'/>
+                    <span t-field="order_obj.time_slot" t-options='{"format": "dd/MM/Y"}'/>
+
+                </t>
+            </div>
+            <div t-if="order_obj.gift_message">
+                <strong>Gift message:</strong>
+                <span t-field="order_obj.gift_message"/>
+            </div>
+        </div>
+    </template>
+    <template id="payment" inherit_id="website_sale.payment">
+        <xpath expr="//div[@id='payment_method']" position="before">
+            <t t-call="website_sale_desired_delivery_date.commitment_date_readonly">
+                <t t-set="order_obj" t-value="website_sale_order"/>
+            </t>
+        </xpath>
+    </template>
+    <template id="confirmation" inherit_id="website_sale.confirmation">
+        <xpath expr="//div[hasclass('oe_cart')]" position="after">
+            <t t-call="website_sale_desired_delivery_date.commitment_date_readonly">
+                <t t-set="order_obj" t-value="order"/>
+            </t>
+        </xpath>
+    </template>
+</odoo>

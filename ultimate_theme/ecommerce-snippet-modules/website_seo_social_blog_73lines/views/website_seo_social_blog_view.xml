@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<record id="blog_post_view" model="ir.ui.view">
+		<field name="name">blog.post.view</field>
+		<field name="model">blog.post</field>
+		<field name="inherit_id" ref="website_blog.view_blog_post_form" />
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+			<xpath expr="//sheet" position="inside">
+				<notebook>
+					<page string="Social">
+						<group colspan="4">
+							<field name="website_meta_title" />
+							<field name="website_meta_description" />
+							<field name="website_meta_keywords" />
+							<field name="website_image_url" />
+						</group>
+						<group string="Facebook" colspan="4">
+							<field name="website_og_title" />
+							<field name="website_og_description" />
+							<field name="website_og_locale" />
+							<field name="website_og_type" />
+							<field name="website_og_url" />
+							<field name="website_og_site_name" />
+							<field name="website_og_image" />
+							<field name="website_og_article_publisher" />
+						</group>
+						<group string="Twitter" colspan="4">
+							<field name="website_twitter_card" />
+							<field name="website_twitter_description" />
+							<field name="website_twitter_title" />
+							<field name="website_twitter_site" />
+							<field name="website_twitter_domain" />
+							<field name="website_twitter_image_src" />
+							<field name="website_twitter_creator" />
+						</group>
+						<group string="Google+" colspan="4">
+							<field name="website_gplus_title" />
+							<field name="website_gplus_description" />
+							<field name="website_gplus_image" />
+						</group>
+					</page>
+				</notebook>
+			</xpath>
+		</field>
+	</record>
+</odoo>

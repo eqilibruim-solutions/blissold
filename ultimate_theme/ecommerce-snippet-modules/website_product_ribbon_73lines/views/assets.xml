@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <!-- Scss & Css & JS Assets -->
+    <template id="product_ribbon_assets_frontend" name="Product Ribbon Frontend Assets" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/website_product_ribbon_73lines/static/src/scss/product_ribbon.scss"
+                  type="text/scss" rel="stylesheet"/>
+        </xpath>
+    </template>
+</odoo>

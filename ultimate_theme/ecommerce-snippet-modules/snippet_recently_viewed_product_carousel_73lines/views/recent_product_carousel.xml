@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- ======== Recent Product Carousel With Header ======== -->
+
+    <!-- Snippet's Body -->
+    <template id="s_product_recent_view_carousel_header"
+              name="Recent Products Carousel">
+        <section class="s_product_carousel mb8 js_get_objects"
+                 data-loading="true"
+                 data-template="snippet_recently_viewed_product_carousel_73lines.product_recent_list_template_header"
+                 data-object_name="product.template.recent.view">
+        </section>
+    </template>
+
+    <!-- Latest recent products's Template -->
+    <template id="product_recent_list_template_header">
+        <div class="container">
+            <div class="product-list owl-carousel owl-theme mt8 mb8">
+                <t t-set="recent_products"
+                   t-value="website.get_recent_products() if website else None"/>
+                <t t-if="recent_products">
+                    <t t-foreach="recent_products['recent_products']"
+                       t-as="product">
+                        <div class="item product-single">
+                            <div itemscope="itemscope"
+                                 itemtype="http://schema.org/Product">
+                                <div class="oe_product_image_carousel">
+                                    <a itemprop="url"
+                                       t-att-href="'/shop/product/%s' % slug(product.product_id)">
+                                        <span itemprop="image"
+                                              t-field="product.product_id.image_1920"
+                                              t-options='{"widget": "image", "resize": None if product_image_big else "300x300"}'
+                                              t-att-alt="product.product_id.name"
+                                                class="d-flex h-100 justify-content-center align-items-center"/>
+                                    </a>
+                                </div>
+                                <section class="mt16 mb16">
+                                    <h5>
+                                        <strong>
+                                            <a itemprop="name"
+                                               t-att-href="'/shop/product/%s' % slug(product.product_id)"
+                                               t-field="product.product_id.name"/>
+                                        </strong>
+                                    </h5>
+                                </section>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </div>
+        </div>
+    </template>
+
+</odoo>

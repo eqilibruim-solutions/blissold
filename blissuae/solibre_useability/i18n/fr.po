@@ -1,0 +1,1218 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* solibre_useability
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-03 21:40+0000\n"
+"PO-Revision-Date: 2020-08-03 21:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/sms.py:0
+#, python-format
+msgid "%s invalid recipients"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,help:solibre_useability.field_product_product__type
+#: model:ir.model.fields,help:solibre_useability.field_product_template__type
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+"Un produit stockable est un produit dont on gère le stock. L'application \"Inventaire\" doit être installée. \n"
+"Un produit consommable, d'un autre côté, est un produit pour lequel le stock n'est pas géré.\n"
+"Un service est un produit immatériel que vous fournissez."
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_account_type
+#: model:ir.model.fields,field_description:solibre_useability.field_account_move_line__user_type_id
+msgid "Account Type"
+msgstr "Type de compte"
+
+#. module: solibre_useability
+#: model:ir.model.fields,help:solibre_useability.field_account_move_line__user_type_id
+msgid ""
+"Account Type is used for information purpose, to generate country-specific "
+"legal reports, and set the rules to close a fiscal year and generate opening"
+" entries."
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_product_add_category
+msgid "Add category"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__add_invoice_ids
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_landing_cost_form
+msgid "Additional Invoices"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_order_form_inherit
+msgid "Adv. payment request"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_storage_location_tree
+msgid "Alley-Rack-Shelf"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__over_credit
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__over_credit
+msgid "Allow Over Credit?"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__amount
+msgid "Amount"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order__amount_due
+msgid "Amount due"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_move__amount_in_words
+msgid "Amount in Words"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_analytic_account
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__account_analytic_id
+msgid "Analytic Account"
+msgstr "Compte analytique"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_crm_lead__analytic_account_id
+msgid "Analytic account"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_config_settings__sale_approval_amount
+msgid "Approval limit"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order__approver_id
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__manager_user_id
+msgid "Approved by"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order__approver_id
+msgid "Approver"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_payment_transaction_form_inherit
+msgid ""
+"Are you sure you want to mark transaction as done? This action can't be "
+"undone."
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_journal__driver_id
+msgid "Associated Driver"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__res_partner__warning_type__none
+msgid "Aucun"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_type__auto_approve
+msgid "Auto approve PO"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_company__sale_auto_invoice
+#: model:ir.model.fields,field_description:solibre_useability.field_res_config_settings__sale_auto_invoice
+msgid "Auto invoice"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.res_config_settings_view_form
+msgid "Automatically create and validate invoice on SO confirmation"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order__available_credit
+msgid "Available Limit"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__qty_available
+msgid "Available quantity"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_requisition_form_inherit
+msgid "Avl."
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__warning_type
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__warning_type
+msgid "Blocage Credit"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_payment_term__block_unpaid
+msgid "Block unpaid"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__res_partner__warning_type__blocked
+msgid "Bloque"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_payment_request_payment_form
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_product_add_category_form
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_order_import_form
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_sale_order_import_form
+msgid "Cancel"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__purchase_requisition__order_state__cancel
+msgid "Cancelled"
+msgstr "Annulé"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_journal__is_cod
+msgid "Cash on delivery?"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_type__categ_ids
+msgid "Categories"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.actions.act_window,help:solibre_useability.act_project_project_2_project_task_all
+msgid "Click <i>Create</i> to start a new task."
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_product__color
+#: model:ir.model.fields,field_description:solibre_useability.field_product_template__color
+msgid "Color"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_category__company_ids
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_type__company_id
+msgid "Company"
+msgstr ""
+
+#. module: solibre_useability
+#: model:res.groups,name:solibre_useability.credit_config
+msgid "Config Credit Limit On partners"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_payment_request_payment_form
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_product_add_category_form
+msgid "Confirm"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__product_template__type__consu
+msgid "Consumable"
+msgstr "Consommable"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.crm_lead_code_form_view
+msgid "Create Project"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_view_sale_advance_payment_inv
+msgid "Create invoices"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__create_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__create_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category__create_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__create_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__create_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__create_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__create_date
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__create_date
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category__create_date
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__create_date
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__create_date
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__create_date
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__credit_limit
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__credit_limit
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order__credit_limit
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_sale_order_form_inherit
+msgid "Credit Limit"
+msgstr "Limite de crédit"
+
+#. module: solibre_useability
+#: model:ir.actions.server,name:solibre_useability.ir_cron_update_cron_warning_type_ir_actions_server
+#: model:ir.cron,cron_name:solibre_useability.ir_cron_update_cron_warning_type
+#: model:ir.cron,name:solibre_useability.ir_cron_update_cron_warning_type
+msgid "Cron Update Avisos nos Clientes"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/crm.py:0
+#, python-format
+msgid "Customer not yet defined for this opportunity!"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__date
+#: model:ir.model.fields.selection,name:solibre_useability.selection__res_partner__warning_type__date
+msgid "Date"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_line__name
+msgid "Description"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__display_name
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__display_name
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category__display_name
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__display_name
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__display_name
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__display_name
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__display_name
+#: model:ir.model.fields,field_description:solibre_useability.field_whatsapp_api__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_mail_followers
+msgid "Document Followers"
+msgstr "Abonnés au document"
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__account_landing_cost__state__done
+msgid "Done"
+msgstr "Terminé"
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#: code:addons/solibre_useability/models/sale.py:0
+#, python-format
+msgid "Down Payment"
+msgstr "Acompte"
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#, python-format
+msgid "Down Payment: %s"
+msgstr "Acompte : %s"
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#: code:addons/solibre_useability/models/sale.py:0
+#, python-format
+msgid "Down payment of %s%%"
+msgstr "Acompte de %s%%"
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__account_landing_cost__state__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_mail_thread
+msgid "Email Thread"
+msgstr "Discussion par email"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_fleet_vehicle__user_id
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_line__employee_id
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_line__employee_id
+msgid "Employee"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_line__estimated_cost
+msgid "Estimate"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_line__forecast_qty
+msgid "Forecast"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__virtual_available
+msgid "Forecasted quantity"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__partner_latitude
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__partner_latitude
+msgid "Geo Latitude"
+msgstr "Latitude"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__partner_longitude
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__partner_longitude
+msgid "Geo Longitude"
+msgstr "Longitude"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_iap_account
+msgid "IAP Account"
+msgstr "Compte IAP"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__id
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__id
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category__id
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__id
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__id
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__id
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__id
+#: model:ir.model.fields,field_description:solibre_useability.field_whatsapp_api__id
+msgid "ID"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_purchase_order_import
+msgid "Import Purchase Orders"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_sale_order_import
+msgid "Import Sale Orders"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.ui.menu,name:solibre_useability.menu_purchase_order_import
+msgid "Import Vendor Bills"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.ui.menu,name:solibre_useability.menu_sale_order_import
+msgid "Import sale orders"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_line__is_downpayment
+msgid "Is a down payment"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_journal
+msgid "Journal"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_move
+msgid "Journal Entries"
+msgstr "Pièces comptables"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_move_line
+msgid "Journal Item"
+msgstr "Écriture comptable"
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_landing_cost_new
+#: model:ir.model,name:solibre_useability.model_account_landing_cost
+#: model:ir.ui.menu,name:solibre_useability.menu_landing_cost
+msgid "Landing Cost"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_move__landing_cost_add_id
+msgid "Landing Cost Additional"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_move__landing_cost_main_id
+msgid "Landing Cost Main"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost____last_update
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request____last_update
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category____last_update
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import____last_update
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import____last_update
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation____last_update
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location____last_update
+#: model:ir.model.fields,field_description:solibre_useability.field_whatsapp_api____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__write_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__write_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category__write_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__write_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__write_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__write_uid
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__write_date
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__write_date
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category__write_date
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__write_date
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__write_date
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__write_date
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_project_project__crm_lead_id
+msgid "Lead"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__data_file
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__data_file
+msgid "Lead CSV File"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__data_file_design2020
+msgid "Lead Design2020 XML File"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_crm_lead__code
+msgid "Lead Number"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Piste/opportunité"
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_hr_leave_report
+msgid "Leave Report"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__credit_limit_days
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__credit_limit_days
+msgid "Limite de jours de Crédit"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_order_import_form
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_sale_order_import_form
+msgid "Load"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_order_import_form
+msgid "Load from Gsuite"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_requisition_form_inherit
+msgid "Load products"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_move__localisation_id
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_product_template_form_inherit
+msgid "Localisation"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__location_id
+msgid "Location"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__location_url
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__location_url
+msgid "Location URL"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_product__stock_localisation_ids
+#: model:ir.model.fields,field_description:solibre_useability.field_product_template__stock_localisation_ids
+msgid "Locations"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__purchase_requisition__order_state__done
+msgid "Locked"
+msgstr "Verouillé"
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_landing_cost_form
+msgid "Main Invoices"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__makani_number
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__makani_number
+msgid "Makani"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_payment_register__communication
+msgid "Memo"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_mail_message
+msgid "Message"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_mail_notification
+msgid "Message Notifications"
+msgstr "Notifications par message"
+
+#. module: solibre_useability
+#: model:ir.model.fields,help:solibre_useability.field_mail_mail__message_type
+#: model:ir.model.fields,help:solibre_useability.field_mail_message__message_type
+msgid ""
+"Message type: email for email message, notification for system message, "
+"comment for other messages such as user replies"
+msgstr ""
+"Type de message : \"Courriel\" pour les courriers électroniques, "
+"\"Notification\" pour les messages du système, \"Commentaire\" pour les "
+"autres messages tels que les réponses des utilisateurs"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__journal_id
+msgid "Mode"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__res_partner__warning_type__value
+msgid "Montant"
+msgstr ""
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/landing_cost.py:0
+#: code:addons/solibre_useability/models/landing_cost.py:0
+#: code:addons/solibre_useability/models/landing_cost.py:0
+#: code:addons/solibre_useability/models/landing_cost.py:0
+#, python-format
+msgid "New"
+msgstr "Nouveau"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_mail_notification__notification_type
+msgid "Notification Type"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_line__available_qty
+msgid "On Hand"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,help:solibre_useability.field_purchase_requisition__transfer_type_id
+#: model:ir.model.fields,help:solibre_useability.field_purchase_requisition_type__picking_type_id
+msgid "Only for internal moves"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_sms_sms
+msgid "Outgoing SMS"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_company__purchase_approver_id
+msgid "PO Approver"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order_import__partner_id
+#: model:ir.model.fields,field_description:solibre_useability.field_sale_order_import__partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order__payment_id
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__payment_id
+msgid "Payment"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_payment_request
+msgid "Payment Payment"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_payment_request
+msgid "Payment Request"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_payment_term
+msgid "Payment Terms"
+msgstr "Conditions de paiement"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Transaction"
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_requisition_form_inherit
+msgid "Payment request"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_payment
+msgid "Payments"
+msgstr "Paiements"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__picking_id
+msgid "Picking"
+msgstr ""
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#, python-format
+msgid "Please define an accounting sales journal for the company %s (%s)."
+msgstr ""
+"Veuillez définir un journal comptable des ventes pour l'entreprise %s (%s)."
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_type__block_price
+msgid "Prevent price change"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_product_product
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__name
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__product_tmpl_id
+msgid "Product"
+msgstr "Article"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_product_add_category
+msgid "Product Add Category"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.report,name:solibre_useability.action_report_product_product
+#: model:ir.actions.report,name:solibre_useability.action_report_product_template
+msgid "Product Barcode"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_product_category
+msgid "Product Category"
+msgstr "Catégorie d'article"
+
+#. module: solibre_useability
+#: model:ir.ui.menu,name:solibre_useability.menu_product_localisation
+msgid "Product Localisation"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_stock_localisation
+msgid "Product Location"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_product_template
+msgid "Product Template"
+msgstr "Modèle d'article"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_product__type
+#: model:ir.model.fields,field_description:solibre_useability.field_product_template__type
+msgid "Product Type"
+msgstr "Type d'article"
+
+#. module: solibre_useability
+#: model:ir.model.constraint,message:solibre_useability.constraint_stock_localisation_name_company_uniq
+msgid "Product and Localisation has to be unique to Location!"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__line_ids
+msgid "Products to Purchase"
+msgstr "Produits à acheter"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_project_project
+#: model:ir.model.fields,field_description:solibre_useability.field_crm_lead__project_id
+msgid "Project"
+msgstr "Projet"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_analytic_account__code
+#: model:ir.model.fields,field_description:solibre_useability.field_project_project__code
+msgid "Project Number"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_add_category__public_categ_ids
+msgid "Public Categ"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__main_invoice_ids
+msgid "Purchase Invoices"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_purchase_order
+#: model:ir.model.fields.selection,name:solibre_useability.selection__purchase_requisition__order_state__purchase
+msgid "Purchase Order"
+msgstr "Commande fournisseur"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_purchase_order_import
+msgid "Purchase Order Import"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Ligne de commande d'achat"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_purchase_requisition
+msgid "Purchase Requisition"
+msgstr "Appel d'offres"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_purchase_requisition_line
+msgid "Purchase Requisition Line"
+msgstr "Ligne de l'appel d'offre"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_purchase_requisition_type
+msgid "Purchase Requisition Type"
+msgstr "Type de demandes d'achat"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_config_settings__purchase_approver_id
+msgid "Purchase approver"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__purchaser_user_id
+msgid "Purchaser"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__rcs
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__rcs
+msgid "RCS"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__purchase_requisition__order_state__draft
+msgid "RFQ"
+msgstr "Demande de prix"
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__purchase_requisition__order_state__sent
+msgid "RFQ Sent"
+msgstr "Demande de prix envoyê"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__name
+#: model:ir.model.fields,field_description:solibre_useability.field_payment_request__ref
+msgid "Reference"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_account_payment_register
+msgid "Register Payment"
+msgstr "Enregistrer un paiement"
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_requisition_form_inherit
+msgid "Request Type"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_order__requisition_manager_user_id
+msgid "Request approved by"
+msgstr ""
+
+#. module: solibre_useability
+#: model:mail.activity.type,name:solibre_useability.mail_act_purchase_approval_request
+#: model:mail.activity.type,name:solibre_useability.mail_act_sale_approval_request
+msgid "Request for Approval"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_requisition_form_inherit
+msgid "Requestor"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_category__requisition_type_id
+msgid "Requisition type"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_type__user_id
+msgid "Responsible"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_company__sale_approval_amount
+msgid "SO Approval amount"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_company__sale_approver_id
+msgid "SO Approver"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_payment__purchase_id
+#: model:ir.model.fields,field_description:solibre_useability.field_account_payment__sale_id
+msgid "Sale Order"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_sale_order_import
+msgid "Sale Order Import"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_config_settings__sale_approver_id
+msgid "Sale approver"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_sale_advance_payment_inv
+msgid "Sales Advance Payment Invoice"
+msgstr "Facture de paiement d'avance"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.stock_link
+msgid "Scan Product"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_sms_composer
+msgid "Send SMS Wizard"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_sms_composer_form_inherit
+msgid "Send WhatsApp"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_iap_account__sender
+msgid "Sender"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_account_type__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__product_template__type__service
+msgid "Service"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.act
+msgid "Set Category"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__stat
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__stat
+msgid "Stat"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_account_landing_cost__state
+msgid "State"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__order_state
+msgid "Order"
+msgstr "Commande"
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_stock_move
+msgid "Stock Move"
+msgstr "Stock déplacer"
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_product_localisation
+msgid "Stock localisation"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__product_template__type__product
+msgid "Storable product"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_storage_location
+#: model:ir.model.fields,field_description:solibre_useability.field_stock_localisation__storage_location_id
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__name
+msgid "Storage Location"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.action_storage_location
+#: model:ir.ui.menu,name:solibre_useability.menu_storage_location
+msgid "Storage Locations"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_requisition_form_inherit
+msgid "Submit to warehouse"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_line__price_subtotal
+msgid "Subtotal"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_crm_lead__task_count
+msgid "Task Count"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.actions.act_window,name:solibre_useability.act_project_project_2_project_task_all
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_crm_lead_form_inherit
+msgid "Tasks"
+msgstr ""
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/analytic.py:0
+#: model:ir.model.constraint,message:solibre_useability.constraint_account_analytic_account_project_task_unique_code
+#, python-format
+msgid "The code must be unique!"
+msgstr "Le code doit être unique!"
+
+#. module: solibre_useability
+#: model:ir.model.fields,help:solibre_useability.field_product_product__whatsapp_url
+#: model:ir.model.fields,help:solibre_useability.field_product_template__whatsapp_url
+msgid "The full URL to access the document through the website."
+msgstr ""
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#, python-format
+msgid ""
+"The product used to invoice a down payment should be of type 'Service'. "
+"Please use another product or update this product."
+msgstr ""
+"Le produit utilisé pour facturer une avance doit être de type 'service'. "
+"Veuillez utiliser un autre produit pour modifier ce produit."
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#, python-format
+msgid ""
+"The product used to invoice a down payment should have an invoice policy set"
+" to \"Ordered quantities\". Please update your deposit product to be able to"
+" create a deposit invoice."
+msgstr ""
+"Le produit utilisé pour facturer un acompte doit avoir une police de facture"
+" configurée sous \"Quantités commandées\". Veuillez mettre à jour votre "
+"produit de dépôt pour pouvoir créer une facture d'acompte."
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#: code:addons/solibre_useability/models/sale.py:0
+#, python-format
+msgid "The value of the down payment amount must be positive."
+msgstr "La valeur du montant de l'avance doit être positif."
+
+#. module: solibre_useability
+#: code:addons/solibre_useability/models/purchase.py:0
+#: code:addons/solibre_useability/models/purchase.py:0
+#, python-format
+msgid ""
+"There is no invoiceable line. If a product has a Delivered quantities "
+"invoicing policy, please make sure that a quantity has been delivered."
+msgstr ""
+"Il n'y a pas de ligne facturable. Si un article a pour politique de "
+"facturation \"sur base des quantités délivrées\", assurez-vous qu'une "
+"quantité ait été délivrée."
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_account_move_line_search
+msgid "This Year"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_hr_leave_report
+msgid "Time Off Summary / Report"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__purchase_requisition__order_state__to_approve
+msgid "To Approve"
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.actions.act_window,help:solibre_useability.act_project_project_2_project_task_all
+msgid ""
+"To get things done, use activities and status on tasks.<br>\n"
+"                Chat in real time or by email to collaborate efficiently."
+msgstr ""
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_landing_cost_form
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_purchase_requisition_form_inherit
+msgid "Total"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__total_amount
+msgid "Total Cost"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__total_estimate
+msgid "Total Estimated"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__res_partner__warning_type__all
+msgid "Tous"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition__transfer_type_id
+#: model:ir.model.fields,field_description:solibre_useability.field_purchase_requisition_type__picking_type_id
+msgid "Transfer type"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_mail_mail__message_type
+#: model:ir.model.fields,field_description:solibre_useability.field_mail_message__message_type
+msgid "Type"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__unreconciled_aml_ids
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__unreconciled_aml_ids
+msgid "Unreconciled Aml"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_res_users
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. module: solibre_useability
+#: model_terms:ir.ui.view,arch_db:solibre_useability.view_payment_transaction_form_inherit
+msgid "Validate"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_fleet_vehicle
+msgid "Vehicle"
+msgstr "Véhicule"
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_product__available_in_crm
+#: model:ir.model.fields,field_description:solibre_useability.field_product_template__available_in_crm
+msgid "Visible in CRM"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields.selection,name:solibre_useability.selection__mail_message__message_type__whatsapp
+#: model:ir.model.fields.selection,name:solibre_useability.selection__mail_notification__notification_type__whatsapp
+msgid "WhatsApp"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model,name:solibre_useability.model_whatsapp_api
+msgid "WhatsApp API"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_product_product__whatsapp_url
+#: model:ir.model.fields,field_description:solibre_useability.field_product_template__whatsapp_url
+msgid "WhatsApp URL"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_res_partner__payment_earliest_due_date
+#: model:ir.model.fields,field_description:solibre_useability.field_res_users__payment_earliest_due_date
+msgid "Worst Due Date"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__loc_x
+msgid "X-Axis"
+msgstr ""
+
+#. module: solibre_useability
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__loc_y
+#: model:ir.model.fields,field_description:solibre_useability.field_storage_location__loc_z
+msgid "Y-Axis"
+msgstr ""

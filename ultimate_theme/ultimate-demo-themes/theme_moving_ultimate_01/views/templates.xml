@@ -1,0 +1,787 @@
+<odoo>
+    <data>
+        <!--Snippet Banner Start-->
+        <template id="moving_banner" name="Moving Banner">
+            <section class="s_cover parallax align-content-center align-items-center d-flex full-height"
+                     data-scroll-background-ratio="0" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_moving_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <p style="text-align: center; ">
+                                <font class="text-delta s_line_height_1 s_letter_spacing_2" style="">
+                                    <u>
+                                        <b>SMART MOVING FOR YOUR FAMILY</b>
+                                    </u>
+                                </font>
+                            </p>
+                            <h1 class="text-white" style="font-size: 62px; text-align: center;">
+                                <b>Moving With Us Is Always<br/>Fun And Easy
+                                </b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 text-center pt16 pb16" data-name="Buttons">
+                            <a href="/contactus" class="btn btn-lg btn-primary flat mb8 mt8"
+                               data-original-title="" title="" aria-describedby="tooltip637467"
+                               style="">
+                                <b>
+                                    <font style="font-size: 14px;" data-original-title="" title=""
+                                          aria-describedby="tooltip809366" class="s_letter_spacing_2">
+                                        GET STARTED
+                                    </font>
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us Start-->
+        <template id="moving_about_us" name="Moving About Us">
+            <section class="pt64 pb64" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <p class="s_letter_spacing_2">
+                                <u>
+                                    <b>
+                                        <font class="text-alpha" style="">ABOUT US</font>
+                                    </b>
+                                </u>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <span style="font-weight: bolder;">We are Experienced Work Lovers
+                                    </span>
+                                </font>
+                            </h2>
+                            <p class="pt16 pb16 o_default_snippet_text s_line_height_2">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                                id est laborum.
+                            </p>
+                            <a href="#" class="btn btn-lg btn-primary rounded-0" data-original-title=""
+                               title="" aria-describedby="tooltip635059">
+                                <b>
+                                    <font style="font-size: 12px;" data-original-title="" title=""
+                                          aria-describedby="tooltip784295" class="s_letter_spacing_2">
+                                        READ MORE
+                                    </font>
+                                </b>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <img src="/theme_moving_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="mobile" class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="moving_brand_logo" name="Moving Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_moving_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_moving_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_moving_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_moving_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_moving_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_moving_ultimate_01/static/src/img/brand-logo.png"
+                                 class="img-fluid mb8 mt8" alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet Services Start-->
+        <template id="moving_services" name="Moving Services">
+            <section class="pt64 pb64 bg-200 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-12 text-center mb48">
+                            <p class="s_letter_spacing_2">
+                                <font class="text-alpha" style="">
+                                    <b>
+                                        <u class="o_default_snippet_text">OUR SERVICES</u>
+                                    </b>
+                                </font>
+                            </p>
+                            <h2>
+                                <b>
+                                    <font style="font-size: 36px;" class="o_default_snippet_text">We Provide Best
+                                        Services
+                                    </font>
+                                </b>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 col-sm-3 mb16 pb48 pt48 border-right bg-100">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                 src="/theme_moving_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                 data-original-title="" title=""
+                                 aria-describedby="tooltip266555"/>
+                            <h3 class="mb32" style="text-align: center; ">
+                                <font style="font-size: 20px;">
+                                    <b class="o_default_snippet_text">Packing</b>
+                                </font>
+                            </h3>
+                            <p class="mb32 px-3 s_line_height_2 o_default_snippet_text" style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip302098" style="font-size: 0.875rem;">
+                                    <b>
+                                        <font style="font-size: 12px;" data-original-title="" title=""
+                                              aria-describedby="tooltip622281"
+                                              class="s_letter_spacing_2 o_default_snippet_text">READ MORE
+                                        </font>
+                                    </b>
+                                </a>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip302098">
+                                    <br/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16 pt48 pb48 border-right bg-100">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                 src="/theme_moving_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                 data-original-title="" title=""
+                                 aria-describedby="tooltip67790"/>
+                            <h3 class="mb32" style="text-align: center; ">
+                                <font style="font-size: 20px;">
+                                    <b class="o_default_snippet_text">Moving Protection</b>
+                                </font>
+                            </h3>
+                            <p class="mb32 px-3 s_line_height_2 o_default_snippet_text" style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip872492" style="font-size: 0.875rem;">
+                                    <font style="font-size: 12px;" class="s_letter_spacing_2">
+                                        <b data-original-title="" title="" aria-describedby="tooltip508643"
+                                           class="o_default_snippet_text">READ MORE
+                                        </b>
+                                    </font>
+                                </a>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip872492">
+                                    <br/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16 pt48 pb48 border-right bg-100">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                 src="/theme_moving_ultimate_01/static/src/img/placeholder-image-76x76.png"
+                                 data-original-title="" title=""
+                                 aria-describedby="tooltip975930"/>
+                            <h3 class="mb32" style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 20px;" class="o_default_snippet_text">Auto Transport</font>
+                                </b>
+                            </h3>
+                            <p class="mb32 px-3 s_line_height_2 o_default_snippet_text" style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div style="text-align: center;">
+                                <b>
+                                    <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                       aria-describedby="tooltip246547" style="font-size: 0.875rem;">
+                                        <font style="font-size: 12px;" data-original-title="" title=""
+                                              aria-describedby="tooltip714723"
+                                              class="s_letter_spacing_2 o_default_snippet_text">READ MORE
+                                        </font>
+                                    </a>
+                                </b>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip246547">
+                                    <br/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16 pt48 pb48 bg-100">
+                            <img class="img-fluid o_we_custom_image d-block mx-auto mb16"
+                                 src="/theme_moving_ultimate_01/static/src/img/placeholder-image-76x76.png"/>
+                            <h3 class="mb32" style="text-align: center; ">
+                                <font style="font-size: 20px;">
+                                    <b class="o_default_snippet_text">Insurance</b>
+                                </font>
+                            </h3>
+                            <p class="mb32 px-3 s_line_height_2 o_default_snippet_text" style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip26596" style="font-size: 0.875rem;">
+                                    <b>
+                                        <font style="font-size: 12px;" data-original-title="" title=""
+                                              aria-describedby="tooltip664777"
+                                              class="s_letter_spacing_2 o_default_snippet_text">READ MORE
+                                        </font>
+                                    </b>
+                                </a>
+                                <a href="#" class="pt8 pb8 o_default_snippet_text" data-original-title="" title=""
+                                   aria-describedby="tooltip26596">
+                                    <br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Services End-->
+
+        <!--Snippet Why Us Start-->
+        <template id="moving_why_us" name="Moving Why Us">
+            <section class="pt64 pb64 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <img src="/theme_moving_ultimate_01/static/src/img/placeholder-image-600.jpg"
+                                 alt="Image" class="img-fluid pt8 pb8 mx-auto d-block"/>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                            <p>
+                                <b>
+                                    <font class="text-alpha s_letter_spacing_2" style="">WHY CHOOSE US
+                                    </font>
+                                </b>
+                            </p>
+                            <h2>
+                                <font style="font-size: 36px;">
+                                    <b>We are the Leader in Moving Houses</b>
+                                </font>
+                            </h2>
+                            <p class="pt8 pb8 o_default_snippet_text s_line_height_2">Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur.
+                            </p>
+                            <div class="row">
+                                <ul class="list-unstyled px-1">
+                                    <li class="bg-200 mb8 mt8 py-4 px-3">
+                                        <b>
+                                            <i class="fa fa-check-circle-o px-2 text-alpha"
+                                               style="font-size: 18px;" data-original-title="" title=""
+                                               aria-describedby="tooltip786090"/>
+                                            <font style="font-size: 18px;" class="text-beta">&amp;nbsp;A
+                                                full safety guarantee and vetted furniture movers&amp;nbsp;&amp;nbsp;
+                                            </font>
+                                        </b>
+                                    </li>
+                                    <li class="bg-white mb8 mt8 py-4 px-3">
+                                        <b>
+                                            <i class="fa fa-check-circle-o px-2 text-alpha"
+                                               style="font-size: 18px;" data-original-title="" title=""
+                                               aria-describedby="tooltip611415"/>
+                                            <font style="font-size: 18px;" class="text-beta">&amp;nbsp;Flexible
+                                                work schedule
+                                            </font>
+                                        </b>
+                                    </li>
+                                    <li class="mb8 mt8 bg-200 py-4 px-3">
+                                        <b>
+                                            <i class="fa fa-check-circle-o px-2 text-alpha"
+                                               style="font-size: 18px;" data-original-title="" title=""
+                                               aria-describedby="tooltip438664"/>
+                                            <font style="font-size: 18px;" class="text-beta">&amp;nbsp;All
+                                                loading and unloading into your specially chosen vehicle
+                                            </font>
+                                        </b>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Why Us End-->
+
+        <!--Snippet Video Start-->
+        <template id="moving_video" name="Moving Video">
+            <section class="pt64 pb0">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <div class="text-center">
+                                <img alt="image" class="img-fluid"
+                                     src="/theme_moving_ultimate_01/static/src/img/video-img.jpg"
+                                     data-original-title="" title="" aria-describedby="tooltip784128"
+                                     style=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Video End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="moving_contact_us" name="Moving Contact Us">
+            <section class="py-5 contact_us_3 pb0 pt0 bg-alpha oe_custom_bg">
+                <div class="container container-full">
+                    <div class="align-items-center row s_nb_column_fixed">
+                        <div class="bg-alpha pt48 pb48 col-12 col-lg-4 col-md-12 col-sm-12 text-center">
+                            <p class="s_letter_spacing_2">
+                                <b>EXPLORE MY TEAM</b>
+                            </p>
+                            <h2 class="font-weight-bold pt8">
+                                <font class="text-delta" style="font-size: 36px;">Get a Free Quote
+                                    Today
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-lg-8 s_text pb64 bg-epsilon pt64 px-lg-5" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you"
+                                  class="s_website_form container-fluid" enctype="multipart/form-data"
+                                  data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <p class="mb8">
+                                            <b>Moving Type</b>
+                                        </p>
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="contact_name" placeholder="local" required=""
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-md-6">
+                                        <p class="mb8">
+                                            <b>Date</b>
+                                        </p>
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="phone" placeholder="dd/mm/yy" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <p class="mb8">
+                                            <b>From</b>
+                                        </p>
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="email_from" required="" placeholder="city , state"
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-md-6 o_has_error">
+                                        <p class="mb8">
+                                            <b>Home Size</b>
+                                        </p>
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="partner_name" required="" placeholder="0"
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required col-md-6 o_has_error">
+                                        <p class="mb8">
+                                            <b>To</b>
+                                        </p>
+                                        <input type="text" class="form-control o_website_form_input"
+                                               name="name" required="" placeholder="city , state"
+                                               value=""/>
+                                    </div>
+                                    <div class="form-group col-6 align-self-end">
+                                        <div class="s_btn text-left" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-lg btn-primary flat"
+                                               data-original-title="" title=""
+                                               aria-describedby="tooltip380273" style="">
+                                                <b>
+                                                    <font style="font-size: 12px;"
+                                                          data-original-title="" title=""
+                                                          aria-describedby="tooltip338971"
+                                                          class="s_letter_spacing_2">SEND REQUEST
+                                                    </font>
+                                                </b>
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="moving_testimonial" name="Moving Testimonial">
+            <section class="pt64 pb64 bg-100 oe_custom_bg" style="">
+                <div class="container container-full">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mb48">
+                            <p>
+                                <b>
+                                    <font class="text-alpha s_letter_spacing_2" style="">
+                                        <u>OUR TESTIMONIAL</u>
+                                    </font>
+                                </b>
+                            </p>
+                            <h2>
+                                <font style="font-size: 48px;">
+                                    <b>Our Customers About Us</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16 pt0">
+                            <div class="shadow bg-white pt48 pb48 px-5">
+                                <p class="s_line_height_2">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <img class="img-fluid mt8 mb8 o_we_custom_image" alt="Image"
+                                     src="/theme_moving_ultimate_01/static/src/img/placeholder-user1.png"/>
+                                <h3>
+                                    <font class="text-alpha" style="font-size: 18px;">
+                                        <b>Victoria Porter</b>
+                                    </font>
+                                </h3>
+                                <p class="s_letter_spacing_2">
+                                    <font style="font-size: 12px;">
+                                        <b>CUSTOMER</b>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="shadow bg-white pt48 pb48 px-5">
+                                <p class="s_line_height_2">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                    <br/>
+                                </p>
+                                <img class="img-fluid o_we_custom_image mt8 mb8" alt="Image"
+                                     src="/theme_moving_ultimate_01/static/src/img/placeholder-user1.png"/>
+                                <h3>
+                                    <font class="text-alpha" style="font-size: 18px;">
+                                        <span style="font-weight: bolder;">John Smith</span>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <span style="font-weight: bolder; font-size: 12px; letter-spacing: 2px;">
+                                        CUSTOMER
+                                    </span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="shadow bg-white pt48 pb48 px-5">
+                                <p class="s_line_height_2">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                    <br/>
+                                </p>
+                                <img class="img-fluid o_we_custom_image mt8 mb8" alt="Image"
+                                     src="/theme_moving_ultimate_01/static/src/img/placeholder-user1.png"/>
+                                <h3>
+                                    <font class="text-alpha" style="font-size: 18px;">
+                                        <span style="font-weight: bolder;">Allien John</span>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <span style="font-size: 12px; font-weight: 700; letter-spacing: 2px;">
+                                        CUSTOMER
+                                    </span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet Newsletter Start-->
+        <template id="moving_newsletter" name="Moving Newsletter">
+            <section class="pt64 pb64" id="footer_7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb48">
+                            <p style="text-align: center; " class="s_letter_spacing_2">
+                                <b>
+                                    <font class="text-alpha" style="">
+                                        <u>SUBSCRIBE NEWSLETTER</u>
+                                    </font>
+                                </b>
+                            </p>
+                            <h3 style="text-align: center; ">
+                                <b>
+                                    <font style="font-size: 48px;">Stay Up To Date</font>
+                                </b>
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-3 offset-md-3">
+                            <div class="input-group js_subscribe hidden" data-list-id="1"
+                                 data-subscribe="off">
+                                <input type="email" name="email"
+                                       class="js_subscribe_email form-control br-left"
+                                       placeholder="your email..." style="height: 51px;"/>
+                                <span class="input-group-btn">
+                                    <a href="#"
+                                       class="flat flat js_subscribe_btn px-3 py-3 btn btn-primary flat btn-lg"
+                                       data-original-title="" title="" aria-describedby="tooltip70522">
+                                        <b>
+                                            <font style="font-size: 12px;" data-original-title=""
+                                                  title="" aria-describedby="tooltip342327"
+                                                  class="s_letter_spacing_2">SUBSCRIBE NOW
+                                            </font>
+                                        </b>
+                                    </a>
+                                    <a href="#"
+                                       class="btn px-3 py-3 btn-success js_subscribed_btn hidden o_default_snippet_text d-none"
+                                       disabled="disabled">Thanks
+                                    </a>
+                                </span>
+                                <div class="alert alert-success hidden o_default_snippet_text d-none">
+                                    Thanks for your subscription!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Newsletter End-->
+
+        <!--Snippet Blog Start-->
+        <template id="moving_blog" name="Moving Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center pt64 pb32"
+                     data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post"/>
+
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet CTA Start-->
+        <template id="moving_cta" name="Moving CTA">
+            <section class="s_call_to_action sni-block bg-alpha oe_custom_bg pt88 pb88" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-sm-12 col-lg-8 s_title">
+                            <h2>
+                                <font color="#ffffff">
+                                    <b>Ready To Next Move ?</b>
+                                </font>
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-md-right">
+                            <p>
+                                <a href="/contactus" class="btn btn-beta flat btn-lg"
+                                   data-original-title="" title="" aria-describedby="tooltip968116">
+                                    <b>
+                                        <font style="font-size: 12px;" data-original-title="" title=""
+                                              aria-describedby="tooltip516970"
+                                              class="s_letter_spacing_2">Contact NOW
+                                        </font>
+                                    </b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Footer Start-->
+        <template id="moving_footer" name="Moving Footer">
+            <section id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer"
+                     style="border-top:none;">
+                <div class="pt64" id="footer_16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-2 col-lg-3 separator">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid mb16"
+                                     src="/logo.png" alt="Logo of YourCompany"
+                                     title="YourCompany"/>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3 pb16">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b>Contact Us</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <address class="o_default_snippet_text">
+                                            <b class="o_default_snippet_text">Address</b>
+                                            <br/>
+                                            <span t-field="res_company.street"/>
+                                            <span t-field="res_company.city"/>
+                                            <span t-field="res_company.state_id.name"/>
+                                            <span t-field="res_company.zip"/>
+                                            <span t-field="res_company.country_id.name"/>
+                                        </address>
+                                    </li>
+                                    <li class="pb16 o_default_snippet_text">
+                                        <b class="o_default_snippet_text">Email</b>
+                                        <br/>
+                                        <span t-field="res_company.email"/>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <b class="o_default_snippet_text">Phone</b>
+                                        <br/>
+                                        <span t-field="res_company.phone"/>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-2 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b>Quick Links</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">Home</li>
+                                    <li class="o_default_snippet_text">About us</li>
+                                    <li>Services</li>
+                                    <li class="o_default_snippet_text">Blog</li>
+                                    <li class="o_default_snippet_text">Contact</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-2 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b>Categories</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>Express</li>
+                                    <li>Material</li>
+                                    <li>Furniture</li>
+                                    <li>Vehicle</li>
+                                    <li>Commodity</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font class="text-delta" style="font-size: 18px;">
+                                        <b>Social Media</b>
+                                    </font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2 text-delta "/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter px-2 text-delta "/>
+                                    </a>
+                                    <a t-att-href="res_company.social_linkedin">
+                                        <i class="fa fa-linkedin px-2 text-delta "/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-pinterest px-2 text-delta "/>
+                                    </a>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <a href="#">
+                                        <i class="fa fa-behance px-2 text-delta "/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-dribbble px-2 text-delta "/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus px-2 text-delta "/>
+                                    </a>
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook px-2 text-delta "/>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Moving Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_moving_ultimate_01.moving_banner"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_about_us"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_brand_logo"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_services"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_why_us"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_video"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_contact_us"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_testimonial"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_newsletter"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_blog"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_cta"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_moving_ultimate_01.moving_footer"
+                           t-thumbnail="/theme_moving_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_1</field>
+            <field name="name">theme_music_ultimate_01.image_content_1</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/home_band3_pic8.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_2</field>
+            <field name="name">theme_music_ultimate_01.image_content_2</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/altar-of-sin-872724_1920.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_3</field>
+            <field name="name">theme_music_ultimate_01.image_content_3</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/home_band3_pic9.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_4</field>
+            <field name="name">theme_music_ultimate_01.image_content_4</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_5</field>
+            <field name="name">theme_music_ultimate_01.image_content_5</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/live-music-albums.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_6</field>
+            <field name="name">theme_music_ultimate_01.image_content_6</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/live-music.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_7</field>
+            <field name="name">theme_music_ultimate_01.image_content_7</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/home_band3_pic2.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_8</field>
+            <field name="name">theme_music_ultimate_01.image_content_8</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/home_band3_pic7.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_music_ultimate_01.image_content_9</field>
+            <field name="name">theme_music_ultimate_01.image_content_9</field>
+            <field name="url">/theme_music_ultimate_01/static/src/img/library/home_band3_pic6.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

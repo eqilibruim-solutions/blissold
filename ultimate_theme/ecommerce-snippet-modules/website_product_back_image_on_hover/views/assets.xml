@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <template id="product_back_hover_image_assets_frontend" name="Image Gallery Frontend Assets" inherit_id="website.assets_frontend">
+        <xpath expr="//script[last()]" position="after">
+            <script src="/website_product_back_image_on_hover/static/src/product_back_hover_image.js" type="text/javascript"/>
+        </xpath>
+        <xpath expr="//link[last()]" position="after">
+            <link href="/website_product_back_image_on_hover/static/src/scss/product_back_hover_images.scss"
+                  rel="stylesheet" type="text/css" />
+        </xpath>
+    </template>
+
+</odoo>

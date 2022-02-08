@@ -1,0 +1,1208 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="dietitian_banner" name="Dietitian Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_dietitian_ultimate_01/static/src/img/placeholder-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-left" style="font-size: 62px;">
+                                <font class="text-alpha" style="">Eat Right</font>
+                                Be
+                                Right
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-left o_default_snippet_text"
+                               style="text-align: center;">Write one or two paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 s_btn text-left pt16 pb16" data-name="Buttons">
+                            <a href="#" class="rounded-circle btn btn-alpha rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip889284">Read
+                                More
+                            </a>
+                            <a href="#" class="rounded-circle btn btn-alpha rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip395434">Contact
+                                us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet Feature Start-->
+        <template id="dietitian_feature" name="Dietitian Feature">
+            <section class="pt64 pb64 oe_custom_bg s_overlay_section" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-3 mb16 pb16 pt24 bg-white">
+                            <i class="d-block fa fa-4x fa-500px mb16 mx-auto pe-7s-science text-alpha"
+                               data-original-title="" title="" aria-describedby="tooltip875208"
+                               style=""/>
+                            <h3 style="text-align: center; ">Nutrition Strategies</h3>
+                            <p style="text-align: center; ">
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.&amp;nbsp;
+
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip422622"/>
+                                <a href="#" class="pb8 pt8 btn btn-alpha btn-lg" data-original-title=""
+                                   title="" aria-describedby="tooltip422622"
+                                   style="font-size: 0.875rem;">View More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16 pb16 pt24 bg-white">
+                            <i class="d-block fa fa-4x fa-500px mb16 mx-auto pe-7s-refresh text-alpha"
+                               style="" data-original-title="" title=""
+                               aria-describedby="tooltip940405"/>
+                            <h3 style="text-align: center; ">Healthy Diets</h3>
+                            <p style="text-align: center; ">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip363539"/>
+                                <a href="#" class="pb8 pt8 btn btn-alpha btn-lg" data-original-title=""
+                                   title="" aria-describedby="tooltip363539"
+                                   style="font-size: 0.875rem;">View More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-4 mb16 pb16 pt24 bg-white">
+                            <i class="d-block fa fa-4x fa-500px mb16 mx-auto pe-7s-smile text-alpha"
+                               data-original-title="" title="" aria-describedby="tooltip932027"
+                               style="">
+                                <div style="text-align: center;"/>
+                            </i>
+                            <h3 style="text-align: center;">Individual Supports</h3>
+                            <p style="text-align: center; ">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <div style="text-align: center;">
+                                <a href="#" class="pb8 pt8" data-original-title="" title=""
+                                   aria-describedby="tooltip221822"/>
+                                <a href="#" class="pb8 pt8 btn btn-alpha btn-lg" data-original-title=""
+                                   title="" aria-describedby="tooltip221822"
+                                   style="font-size: 0.875rem;">View More
+                                </a>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Feature End-->
+
+        <!--Snippet About Us Start-->
+        <template id="dietitian_aboutus" name="Dietitian About Us">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 ">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title=""
+                                 title="" aria-describedby="tooltip609059"/>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 col-sm-6 ">
+                            <h2>
+                                <font style="font-size: 36px;">About Nutricrop
+                                </font>
+                            </h2>
+                            <p class="pb24 pt24">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy.
+                                <br/>
+                            </p>
+                            <a href="#" class="text-decoration-none btn btn-alpha btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip218742">More
+                                About
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Service Start-->
+        <template id="dietitian_service" name="Dietitian Service">
+            <section class="pt32 bg-white oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 offset-lg-2 col-lg-8">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="font-size: 36px;">Our Services</font>
+                                </h3>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Pellentesque fermentum est in tortor congue
+                                    suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                    egestas.&amp;nbsp;&amp;nbsp;
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16 border pt16 pb16">
+                            <i class="fa fa-500px fa-5x mb16 pe-7s-settings text-alpha"
+                               data-original-title="" title="" aria-describedby="tooltip90772"
+                               style="background-color: rgb(255, 255, 255);"/>
+                            <h3>
+                                <font style="font-size: 18px;">Exercise Daily</font>
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy.&amp;nbsp;
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip476496">Read More
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16 border pt16 pb16">
+                            <i class="fa fa-500px fa-5x mb16 pe-7s-keypad text-alpha" style=""
+                               data-original-title="" title="" aria-describedby="tooltip194897"/>
+                            <h3>
+                                <font style="font-size: 18px;">Vitamin Tab</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip775745">Read More
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16 border pt16 pb16">
+                            <i class="fa fa-500px fa-5x mb16 pe-7s-close text-alpha" style=""
+                               data-original-title="" title="" aria-describedby="tooltip592159"/>
+                            <h3>
+                                <font style="font-size: 18px;">Avoid Junk Food</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip641225">Read More
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16 border pt16 pb16">
+                            <i class="fa fa-500px fa-5x mb16 pe-7s-repeat text-alpha"
+                               data-original-title="" title="" aria-describedby="tooltip459840"
+                               style=""/>
+                            <h3>
+                                <font style="font-size: 18px;">Nutrition Plans</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip838588">Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Service End-->
+
+        <!--Snippet Facility Start-->
+        <template id="dietitian_facility" name="Dietitian Facility">
+            <section class="bg-gamma oe_custom_bg pb144" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 offset-lg-2 col-lg-8 pt48">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="color: rgb(255, 255, 255); font-size: 36px;">Why Choose
+                                        Us
+                                    </font>
+                                </h3>
+                                <h3 class="text-center">
+                                    <font style="font-size: 36px;"/>
+                                </h3>
+                                <p class="text-center" style="color: rgb(33, 37, 41);">
+                                    <span style="color: rgb(255, 255, 255); font-family: Lato, sans-serif; font-size: 14px; text-align: left;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Pellentesque fermentum est in tortor congue suscipit.
+                                        Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.&amp;nbsp;&amp;nbsp;
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64 s_overlay_section" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="image" title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Natural Foods</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title=""
+                               title="" aria-describedby="tooltip366937"
+                               style="color: rgb(98, 126, 0); background-color: rgb(255, 255, 255);"/>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip838588" style="">Read More
+                            </a>
+                            <br/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="image" title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Family Nutrition</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip366937" style="">Read More
+                            </a>
+                            <br/>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb16">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="image" title="image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Child Nutrition</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <a href="#" class="pb8 pt8" data-original-title="" title=""
+                               aria-describedby="tooltip838588" style="">Read More
+                            </a>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Facility End-->
+
+        <!--Snippet Right Content Start-->
+        <template id="dietitian_rightcontent" name="Dietitian Right Content">
+            <section class="pt64 pb64 oe_custom_bg" style="">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6"
+                             style="&#10;    max-height: 50%;&#10;">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="Image"
+                                 class="img-fluid pt8 pb8 mx-auto d-block" data-original-title=""
+                                 title="" aria-describedby="tooltip332917" style=""/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 pb0 pt24 bg-white">
+                            <h2 style="color: rgb(33, 37, 41);">
+                                <font style="font-size: 36px;">
+                                    Our Works
+                                </font>
+                            </h2>
+                            <p class="pt8 pb8 o_default_snippet_text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue
+                                suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                egestas. &amp;nbsp;
+                            </p>
+                            <div class="row pb24 pt24">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <i class="fa fa-500px pe-7s-refresh-2 text-alpha fa-3x"
+                                       data-original-title="" title="" aria-describedby="tooltip889101"
+                                       style=""/>
+                                    <h3 class="mt8 mb8" style="color: rgb(33, 37, 41);">
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;">Nutriation
+                                            Plan
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        Pellentesque fermentum.
+                                        consectetur adipiscing elit. adipiscing elit. &amp;nbsp;
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <i class="fa fa-3x fa-500px fa-krw pe-7s-science text-alpha"
+                                       data-original-title="" title="" aria-describedby="tooltip794400"
+                                       style=""/>
+                                    <h3 class="mt8 mb8" style="color: rgb(33, 37, 41);">
+                                        <font style="color: rgb(0, 0, 0); font-size: 18px;">Healthy
+                                            Tips
+                                        </font>
+                                    </h3>
+                                    <p>Pellentesque fermentum. consectetur adipiscing elit. adipiscing
+                                        elit.&amp;nbsp;&amp;nbsp;
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Right Content End-->
+
+        <!--Snippet Gallery Start-->
+        <template id="dietitian_gallery" name="Dietitian Gallery">
+            <section class="pt64 pb64" id="team_3" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-center mb48">
+                                <font style="font-size: 36px;">Gallery</font>
+                            </h2>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip918615"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                    Body Maintain
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit.
+                                            </p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip918615"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                    Healthy Food
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit.
+                                            </p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip918615"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                    Daily Diets
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit.
+                                            </p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 pb24 text-center">
+                                    <div class="img-container">
+                                        <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                             alt="" class="img-fluid"
+                                             data-original-title="" title=""
+                                             aria-describedby="tooltip918615"/>
+                                        <div class="overlay text-center px-3 pt24 pb24">
+                                            <h3>
+                                                <font style="color: rgb(255, 255, 255); font-size: 18px;">
+                                                    Nutrition Plans
+                                                </font>
+                                            </h3>
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit.
+                                            </p>
+                                            <a href="#">
+                                                <i class="fa fa-facebook pr-2"/>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram pr-2"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt32 text-center">
+                                <a href="#" class="btn btn-primary rounded-circle btn-lg" data-original-title=""
+                                   title="">View More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Gallery End-->
+
+        <!--Snippet Pricing Start-->
+        <template id="dietitian_pricing" name="Dietitian Pricing Table">
+            <section class="pricing_1 pt64 pb64 bg-delta oe_custom_bg" id="bs_price_table">
+                <div class="container">
+                    <div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 mh100 offset-lg-2 col-lg-8">
+                                <div class="oe_structure oe_empty">
+                                    <h2 style="text-align: center;">
+                                        <font style="font-size: 36px;">Choose Your Perfect Plan</font>
+                                    </h2>
+                                    <p class="text-center o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Pellentesque fermentum est in tortor congue
+                                        suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at egestas.&amp;nbsp;&amp;nbsp;
+                                        &amp;nbsp;
+                                    </p>
+                                    <p class="text-center">
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                                <div class="bs_content clearfix">
+                                    <div class="bs_head_price clearfix">
+                                        <div class="bs_head_content clearfix">
+                                            <div class="head_bg"/>
+                                            <div class="head">
+                                                <span class="o_default_snippet_text">Basic</span>
+                                            </div>
+                                        </div>
+                                        <div class="bs_price_tag clearfix">
+                                            <span class="price">
+                                                <span class="sign o_default_snippet_text">$</span>
+                                                <span class="currency o_default_snippet_text">12</span>
+                                                <span class="month o_default_snippet_text">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_feature_list">
+                                        <ul>
+                                            <li class="o_default_snippet_text">12
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Workouts
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Meal
+                                                    Plan In Mobile
+                                                </font>
+                                            </li>
+                                            <li class="o_default_snippet_text">6
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Diatition Plan
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Daily
+                                                    Exercise
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <span class="o_default_snippet_text">
+                                                    <font class="text-beta o_default_snippet_text" style="">24/7</font>
+                                                </span>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Support
+                                                </font>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="bs_price_btn clearfix">
+                                        <a href="" data-original-title="" title="" aria-describedby="tooltip536030">
+                                            ORDER Now&amp;nbsp;
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                                <div class="bs_content clearfix">
+                                    <div class="bs_head_price clearfix">
+                                        <div class="bs_head_content clearfix">
+                                            <div class="head_bg"/>
+                                            <div class="head">
+                                                <span class="o_default_snippet_text">STANDARD</span>
+                                            </div>
+                                        </div>
+                                        <div class="bs_price_tag clearfix">
+                                            <span class="price">
+                                                <span class="sign o_default_snippet_text">$</span>
+                                                <span class="currency o_default_snippet_text">16</span>
+                                                <span class="month o_default_snippet_text">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_feature_list">
+                                        <ul>
+                                            <li class="o_default_snippet_text">18&amp;nbsp;
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Workouts
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Meal
+                                                    Plan In Mobile
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <font style="" class="text-beta o_default_snippet_text">12</font>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Diatition Plan
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Daily
+                                                    Exercise
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <span class="o_default_snippet_text">
+                                                    <font class="text-beta o_default_snippet_text" style="">24/7</font>
+                                                </span>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Support
+                                                </font>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="bs_price_btn clearfix">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip756462"
+                                           class="o_default_snippet_text">ORDER NOW
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg 4 col-md-4 mb16">
+                                <div class="bs_content clearfix">
+                                    <div class="bs_head_price clearfix">
+                                        <div class="bs_head_content clearfix">
+                                            <div class="head_bg"/>
+                                            <div class="head">
+                                                <span class="o_default_snippet_text">UNLIMITED</span>
+                                            </div>
+                                        </div>
+                                        <div class="bs_price_tag clearfix">
+                                            <span class="price">
+                                                <span class="sign o_default_snippet_text">$</span>
+                                                <span class="currency o_default_snippet_text">20</span>
+                                                <span class="month o_default_snippet_text">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="bs_feature_list">
+                                        <ul>
+                                            <li class="o_default_snippet_text">24&amp;nbsp;
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Workouts
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Meal
+                                                    Plan In Mobile
+                                                </font>
+                                            </li>
+                                            <li class="o_default_snippet_text">20&amp;nbsp;
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Diatition Plan
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">Daily
+                                                    Exercise
+                                                </font>
+                                            </li>
+                                            <li>
+                                                <span class="o_default_snippet_text">
+                                                    <font class="text-beta o_default_snippet_text" style="">24/7</font>
+                                                </span>
+                                                <font style="color: rgb(0, 0, 0);" class="o_default_snippet_text">
+                                                    Support
+                                                </font>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="bs_price_btn clearfix">
+                                        <a href="#" data-original-title="" title="" aria-describedby="tooltip597352"
+                                           class="o_default_snippet_text">ORDER NOW
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Pricing End-->
+
+        <!--Snippet Testimonial Start-->
+        <template id="dietitian_testimonial" name="Dietitian Testimonial">
+            <section class="bg-alpha oe_custom_bg pb48" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 mh100">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-350x425.png"
+                                                     alt="Image" title="Image"
+                                                     class="img-fluid mb8 mt8" style="&#10;    height: 461px;&#10;"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 mh100 bg-alpha" style="">
+                            <div class="oe_structure oe_empty">
+                                <section class="pt64 pb64 bg-alpha oe_custom_bg" id="testimonials_d1" style="">
+                                    <div class="container">
+                                        <div class="row content justify-content-md-center">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                                <h2>
+                                                    <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                                          class="o_default_snippet_text">
+                                                        Client's Experience
+                                                    </font>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="myCarousel1567417462252"
+                                         class="s_quotes_carousel carousel slide s_carousel_default"
+                                         data-interval="10000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel1567417462252" data-slide-to="0"/>
+                                            <li data-target="#myCarousel1567417462252" data-slide-to="1"
+                                                class="active"/>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item pt80 pb80 oe_custom_bg" data-name="Slide"
+                                                 style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center px-3">
+                                                        <blockquote
+                                                                class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                                            <p class="o_default_snippet_text">Write a
+                                                                quote here from one of your customers.
+                                                                Quotes are a great way to build
+                                                                confidence in your products or services.
+                                                            </p>
+                                                            <div>
+                                                                <img class="img"
+                                                                     src="/theme_dietitian_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt=""/>
+                                                                <span class="o_default_snippet_text">— Jenifer Roy
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                        <blockquote
+                                                                class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                                            <p class="o_default_snippet_text">Write a
+                                                                quote here from one of your customers.
+                                                                Quotes are a great way to build
+                                                                confidence in your products or services.
+                                                            </p>
+                                                            <div>
+                                                                <img class="img"
+                                                                     src="/theme_dietitian_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt=""/>
+                                                                <span class="o_default_snippet_text">— Alexa Smith
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt80 pb80 oe_custom_bg active" data-name="Slide"
+                                                 style="">
+                                                <div class="container">
+                                                    <div class="row content justify-content-md-center px-3">
+                                                        <blockquote
+                                                                class="carousel-content col-sm-12 col-md-12 col-lg-5 mb8 mx-1 bg-white border-primary border-top rounded">
+                                                            <p class="o_default_snippet_text">Write a quote here from
+                                                                one of your
+                                                                customers. Quotes are a great way to
+                                                                build confidence in your products or
+                                                                services.
+                                                            </p>
+                                                            <div>
+                                                                <img class="img"
+                                                                     src="/theme_dietitian_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt=""/>
+                                                                <span class="o_default_snippet_text">— Jane DOE</span>
+                                                            </div>
+                                                        </blockquote>
+                                                        <blockquote
+                                                                class="carousel-content col-sm-12 col-lg-5 bg-white mb8 mx-1 border-primary border-top rounded">
+                                                            <p class="o_default_snippet_text">Write a
+                                                                quote here from one of your customers.
+                                                                Quotes are a great way to build
+                                                                confidence in your products or services.
+                                                            </p>
+                                                            <div>
+                                                                <img class="img"
+                                                                     src="/theme_dietitian_ultimate_01/static/src/img/placeholder-user.png"
+                                                                     alt=""/>
+                                                                <span class="o_default_snippet_text">— Maria Blight
+                                                                </span>
+                                                            </div>
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Testimonial End-->
+
+        <!--Snippet News Start-->
+        <template id="dietitian_news" name="Dietitian News">
+            <section class="bg-white oe_custom_bg pt40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 mh100 offset-lg-2 col-lg-8">
+                            <div class="oe_structure oe_empty">
+                                <h3 class="text-center">
+                                    <font style="font-size: 36px;">Recent News</font>
+                                </h3>
+                                <p class="text-center" style="color: rgb(33, 37, 41);">
+                                    <span style="font-family: Lato, sans-serif; font-size: 14px; text-align: left;"
+                                          class="text-beta">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Pellentesque fermentum est in tortor congue
+                                        suscipit. Suspendisse potenti.Aliquam finibus pharetra tellus at
+                                        egestas.&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="Image" title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Seminar On Healthy Food</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <p>Sep 23</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg" alt="Image"
+                                 title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Tips For Healthy Diets</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <p>Oct 30</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="Image" title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Avoidance Of Junk Food</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <p>Dec 15</p>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-6 col-lg-3 mb16">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 alt="Image" title="Image"
+                                 class="img-fluid mb8 mt8"/>
+                            <h3>
+                                <font style="font-size: 18px;">Tips For Healthy Family</font>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy.&amp;nbsp;
+                                <br/>
+                            </p>
+                            <p>Feb 21</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet News End-->
+
+        <!--Snippet Brand Logo Start-->
+        <template id="dietitian_brandlogo" name="Dietitian Brand Logo">
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid   mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 text-center">
+                            <img src="/theme_dietitian_ultimate_01/static/src/img/placeholder-600.jpg"
+                                 class="img-fluid mb16 mt16"
+                                 alt="Brand Logo" title="Brand Logo"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Brand Logo End-->
+
+        <!--Snippet CTA Start-->
+        <template id="dietitian_cta" name="Dietitian CTA">
+            <section class="pt64 pb64 oe_img_bg oe_custom_bg"
+                     style="background-image: url(&quot;/theme_dietitian_ultimate_01/static/src/img/placeholder-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 text-center offset-lg-2 col-lg-8">
+                            <h2 class="font-weight-bold pb24 pt24">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                      class="o_default_snippet_text">Loss The Fat Live The
+                                </font>
+                                <font style="color: rgb(255, 255, 255); font-size: 36px;"
+                                      class="o_default_snippet_text">Life
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                    Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                    egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                                    Aliquam finibus pharetra tellus at egestas.Suspendisse potenti. Aliquam
+                                    finibus pharetra tellus at egestas.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                            <a href="#" class="rounded-0 mt16 mb16 rounded-circle btn btn-gamma rounded-circle btn-lg"
+                               data-original-title="" title="" aria-describedby="tooltip35105">Contact Us &amp;nbsp;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet CTA End-->
+
+        <!--Snippet Footer Start-->
+        <template id="dietitian_footer" name="Dietitian Footer">
+            <section class="oe_structure" id="footer">
+                <div class="pt64 pb32  oe_custom_bg" id="footer_6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb32">
+                                <img style="margin:0 auto;" class="img img-responsive img-fluid" src="/logo.png"
+                                     alt="Logo of YourCompany" title="YourCompany"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-map-marker mr-2 fa-2x text-alpha"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Address :</p>
+                                        <span t-field="res_company.street"/>
+                                        <span t-field="res_company.city"/>
+                                        <span t-field="res_company.state_id.name"/>
+                                        <span t-field="res_company.zip"/>
+                                        <span t-field="res_company.country_id.name"/>
+                                    </div>
+                                </div>
+                                <div class="media mt16 mb16">
+                                    <i class="fa fa-phone mr-2 fa-2x text-alpha"/>
+                                    <div class="media-body">
+                                        <p class="font-weight-bold mb8 o_default_snippet_text">Call us &amp;amp;
+                                            Hire us :
+                                        </p>
+                                        <span t-field="res_company.phone"/>
+                                    </div>
+                                </div>
+                                <div class="icon_bg">
+                                    <a t-att-href="res_company.social_facebook">
+                                        <i class="fa fa-facebook mx-1 text-white"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_twitter">
+                                        <i class="fa fa-twitter mx-1 text-white"/>
+                                    </a>
+                                    <a t-att-href="res_company.social_instagram">
+                                        <i class="fa fa-instagram mx-1 text-white"/>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus mx-1 text-white"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-2  mb32">
+                                <h5 class="text-uppercase font-weight-bold o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">LINKS</font>
+                                </h5>
+                                <hr style="width: 35px; margin: 0; padding: 0;" class="mb16"/>
+                                <ul class="list-unstyled text-uppercase">
+                                    <li class="mb8">
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">&amp;nbsp;ABOUT US</font>
+                                        </a>
+                                        <font style="color: rgb(255, 255, 255);">&amp;nbsp;</font>
+                                        <a href="#" target="_blank" data-original-title="" title="">&amp;nbsp;</a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title="">
+                                            <font style="color: rgb(255, 255, 255);">OUR SERVICES&amp;nbsp;</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip80245">
+                                            <font style="color: rgb(255, 255, 255);">GALLERY</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">TESTIMONIALS</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#">
+                                            <font style="color: rgb(255, 255, 255);">OUR PLANS</font>
+                                        </a>
+                                    </li>
+                                    <li class="mb8">
+                                        <a href="#" target="_blank" data-original-title="" title=""
+                                           aria-describedby="tooltip968182"/>
+                                        <a href="#" target="_blank">
+                                            <font style="color: rgb(255, 255, 255);">NEWS</font>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3  mb32">
+                                <h5 class="text-uppercase font-weight-bold">
+                                    <font style="color: rgb(255, 255, 255);">LETEST POSTS</font>
+
+                                </h5>
+                                <hr style="width: 35px; margin: 0; padding: 0;" class="mb16"/>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_dietitian_ultimate_01/static/src/img/70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip63889"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit
+                                            </font>
+                                        </a>
+                                        <p class="o_default_snippet_text">June 5,2014</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_dietitian_ultimate_01/static/src/img/70x70.png"
+                                         data-original-title="" title="" aria-describedby="tooltip170313"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit
+                                            </font>
+                                        </a>
+                                        <p class="o_default_snippet_text">June 5,2014</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img alt="image" class="img-fluid mb8 mr-2"
+                                         src="/theme_dietitian_ultimate_01/static/src/img/70x70.png"/>
+                                    <div class="media-body">
+                                        <a href="#" target="_blank" class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit
+                                            </font>
+                                        </a>
+                                        <p class="o_default_snippet_text">June 5,2014</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb32">
+                                <h5 class="font-weight-bold text-uppercase" style="color: rgb(33, 37, 41);">
+                                    <font style="color: rgb(255, 255, 255);">OUR NEWSLETTER</font>
+                                </h5>
+                                <hr style="width: 35px; margin: 0; padding: 0;" class="mb16"/>
+                                <p class="o_default_snippet_text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </p>
+                                <div class="input-group js_subscribe hidden d-block" data-list-id="2"
+                                     data-subscribe="off">
+                                    <input type="email" name="email"
+                                           class="js_subscribe_email form-control w-100 mb8"
+                                           placeholder="your email..."/>
+                                    <div class="input-group-btn">
+                                        <a href="#"
+                                           class="btn btn-primary js_subscribe_btn o_default_snippet_text w-100">
+                                            Subscribe
+                                        </a>
+                                        <a href="#"
+                                           class="btn btn-success js_subscribed_btn hidden o_default_snippet_text w-100 d-none"
+                                           disabled="disabled">Thanks
+                                        </a>
+                                    </div>
+                                    <div class="alert alert-success hidden o_default_snippet_text d-none">Thanks for
+                                        your subscription!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+        <!--Snippets Assets-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Dietitian Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_banner"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_feature"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_aboutus"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_service"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_facility"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_rightcontent"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_gallery"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_pricing"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_testimonial"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_news"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_brandlogo"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_cta"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_dietitian_ultimate_01.dietitian_footer"
+                           t-thumbnail="/theme_dietitian_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

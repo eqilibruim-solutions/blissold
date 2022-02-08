@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by 73lines
+    See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+
+    <!-- Snippets & Thumbnails -->
+    <!--<template id="s_portfolio_carousel_place_in_tab" inherit_id="website.snippets">-->
+        <!--<xpath expr="//div[@id='snippet_feature']/div[contains(@class, 'o_panel_body')]" position="inside">-->
+            <!--<t t-snippet="website_portfolio_73lines.s_portfolio_carousel_header"-->
+               <!--t-thumbnail="/website_portfolio_73lines/static/src/img/s_brand-carousel-with-header.png"/>-->
+        <!--</xpath>-->
+    <!--</template>-->
+
+    <!-- Less & Css & JS Assets -->
+    <template id="portfolio_assets_frontend_js" name="Portfolio frontend assets" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/website_portfolio_73lines/static/src/scss/portfolio.scss" rel="stylesheet" type="text/scss"/>
+        </xpath>
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript"
+                    src="/website_portfolio_73lines/static/src/js/isotope.pkgd.js"/>
+            <script type="text/javascript"
+                    src="/website_portfolio_73lines/static/src/js/portfolio.js"/>
+        </xpath>
+    </template>
+
+</odoo>

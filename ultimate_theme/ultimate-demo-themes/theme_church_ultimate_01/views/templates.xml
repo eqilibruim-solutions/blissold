@@ -1,0 +1,527 @@
+<odoo>
+    <data>
+
+        <!--Snippet Banner Start-->
+        <template id="church_banner" name="Church Banner">
+            <section
+                    class="s_cover parallax align-content-center align-items-center d-flex full-height s_parallax_is_fixed"
+                    data-scroll-background-ratio="1" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg oe_custom_bg"
+                      style="background-image: url(&quot;/theme_church_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;); background-position: 50% 0px;"/>
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-white font-weight-bold"
+                                style="font-size: 62px; text-align: center;">
+                                <b class="o_default_snippet_text">WITH GOD YOU ARE NOT ALONE</b>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <p class="lead text-white o_default_snippet_text" style="text-align: center;">Write one or
+                                two paragraphs describing your
+                                product, services or a specific feature.
+                                <br/>
+                                To be successful your content needs to be useful to your readers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Banner End-->
+
+        <!--Snippet About Us Start-->
+        <template id="church_about_us" name="Church About Us">
+            <section class="pt64 pb0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold">
+                                <span style="font-weight: normal;" class="o_default_snippet_text">
+                                    <font style="font-size: 36px;">WHO WE ARE</font>
+                                </span>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb64 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row text-center pt64">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x pe-7s-look fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip433316" style=""/>
+                                    <h3 class="pt8 pb8 o_default_snippet_text">Learn Who We Are ?</h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x fa-life-ring pe-7s-sun fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip604102" style=""/>
+                                    <h3 class="pt8 pb8 o_default_snippet_text">Our Moto</h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x pe-7s-refresh-2 fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip636642" style=""/>
+                                    <h3 class="pt8 pb8 o_default_snippet_text">Our History</h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                    <i class="fa fa-3x pe-7s-star fa-500px" data-original-title="" title=""
+                                       aria-describedby="tooltip11168" style=""/>
+                                    <h3 class="pt8 pb8 o_default_snippet_text">What We Do ?</h3>
+                                    <p class="o_default_snippet_text">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Ut at semper metus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet About Us End-->
+
+        <!--Snippet Img Hover Start-->
+        <template id="church_img_hover" name="Church Img Hover">
+            <section class="pt64 pb0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold">
+                                <span style="font-weight: normal;" class="o_default_snippet_text">
+                                    <font style="font-size: 36px;">SERMONS TODAY</font>
+                                </span>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sni-block pt64 pb64" style="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip681138"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">Sunday In Church</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip681138"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">Have Faith</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip681138"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">Be With Your Family
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip681138"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">Saturday In Church
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip716927"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">The Gift Of God</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 img-box">
+                            <div class="img-box-container">
+                                <img class="img-fluid d-block mx-auto mt8 mb8"
+                                     src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     data-original-title="" title="" aria-describedby="tooltip191106"/>
+                                <div class="overlay">
+                                    <div class="img-text o_default_snippet_text">Giving Back</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Img Hover End-->
+
+        <!--Snippet Events Start-->
+        <template id="church_events" name="Church Events">
+            <section class="oe_img_bg pb136 pt136 oe_custom_bg"
+                     style="background-image: url(&quot;/theme_church_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold pb24 pt24">
+                                <font style="color: rgb(255, 255, 255); font-size: 36px; font-weight: normal;"
+                                      class="o_default_snippet_text">UPCOMING
+                                    EVENTS&amp;nbsp;&amp;nbsp;
+                                </font>
+                            </h2>
+                            <p class="o_default_snippet_text">
+                                <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Pellentesque fermentum est in tortor congue suscipit.
+                                    Suspendisse potenti. Aliquam finibus pharetra tellus at
+                                    egestas.Suspendisse potenti. Aliquam finibus pharetra tellus at egestas.
+                                    Aliquam finibus pharetra tellus at egestas.Suspendisse potenti. Aliquam
+                                    finibus pharetra tellus at egestas.
+                                    &amp;nbsp;
+                                </font>
+                            </p>
+                            <a href="#" class="mb16 mt16 rounded-0 btn btn-outline-primary" data-original-title=""
+                               title="" aria-describedby="tooltip390739">
+                                <font style="color: rgb(255, 255, 255);">
+                                    <b class="o_default_snippet_text" data-original-title="" title=""
+                                       aria-describedby="tooltip838128">CHECK UPCOMING EVENTS
+                                    </b>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Events End-->
+
+        <!--Snippet Blog Start-->
+        <template id="church_blog" name="Church Blog">
+            <section class="s_blog_carousel js_get_objects blog_carousel s_headline_center"
+                     data-loading="true"
+                     data-template="snippet_blog_carousel_73lines.blog_list_template"
+                     data-object_name="blog.post"/>
+        </template>
+        <!--Snippet Blog End-->
+
+        <!--Snippet Contact Us Start-->
+        <template id="church_contact_us" name="Church Contact Us">
+            <section class="bg-400 py-5 oe_img_bg pt104 pb104 oe_custom_bg"
+                     style="background-image: url(&quot;/theme_church_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title" data-name="Title">
+                            <h1 class="s_title_thin text-center">
+                                <font style="color: rgb(255, 255, 255);" class="o_default_snippet_text">JOIN OUR
+                                    FAMILY&amp;nbsp;
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                            <form action="/website_form/" method="post" data-model_name="crm.lead"
+                                  data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32"
+                                  enctype="multipart/form-data" data-editable-form="false">
+                                <div class="justify-content-center row">
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="contact_name"
+                                               placeholder="Your Name" required="" value=""/>
+                                    </div>
+                                    <div class="form-group form-field col-12 col-sm-12 col-md-4 col-lg-4">
+                                        <input type="text" class="form-control o_website_form_input" name="phone"
+                                               placeholder="Phone Number" value=""/>
+                                    </div>
+                                    <div class="form-group form-field o_website_form_required_custom col-12 col-sm-12 col-md-4 col-lg-4 o_has_error">
+                                        <input type="text" class="form-control o_website_form_input" name="email_from"
+                                               required="" placeholder="Email" value=""/>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <div class="s_btn text-center" data-name="Buttons">
+                                            <a href="#" role="button"
+                                               class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text"
+                                               data-original-title="" title="" aria-describedby="tooltip495314">Send
+                                            </a>
+                                            <span id="o_website_form_result" class="text-danger ml8">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+        <!--Snippet Contact Us End-->
+
+        <!--Snippet Grid Content Start-->
+        <template id="church_grid_content" name="Church Grid Content">
+            <section class="pt64 pb0">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="font-weight-bold">
+                                <span style="font-weight: normal;" class="o_default_snippet_text">
+                                    <font style="font-size: 36px;">BUY NOW &amp;amp; DO CONTRIBUTE
+                                        &amp;nbsp;
+                                    </font>
+                                </span>
+                            </h2>
+                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt64 pb64">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     alt="Flower" title="Flower" class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>
+                                        <font style="font-size: 18px;" class="text-alpha">
+                                            <b class="o_default_snippet_text">Black Cup</b>
+                                        </font>
+                                    </p>
+                                    <h3>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">$30.00-$35.00
+                                        </font>
+                                    </h3>
+                                    <a href="#" target="_blank" class="btn btn-alpha flat" data-original-title=""
+                                       title="" aria-describedby="tooltip544632">
+                                        <font style="color: rgb(255, 255, 255); font-size: 12px;">
+                                            <b data-original-title="" title="" aria-describedby="tooltip480974">Read
+                                                More
+                                            </b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>
+                                        <b>
+                                            <font style="font-size: 18px;" class="text-alpha o_default_snippet_text">
+                                                T-Shirt
+                                            </font>
+                                        </b>
+                                    </p>
+                                    <h3>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">$15.00</font>
+                                    </h3>
+                                    <a href="#" target="_blank" class="btn btn-alpha flat" data-original-title=""
+                                       title="" aria-describedby="tooltip157175">
+                                        <font style="color: rgb(255, 255, 255); font-size: 12px;">
+                                            <b class="o_default_snippet_text">Read More</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb16">
+                            <div class="card">
+                                <img src="/theme_church_ultimate_01/static/src/img/placeholder-image-350x350.png"
+                                     alt="Image" title="Image" class="img-fluid"/>
+                                <div class="card-body">
+                                    <p>
+                                        <font style="font-size: 18px;" class="text-alpha">
+                                            <b class="o_default_snippet_text">Blue Cap</b>
+                                        </font>
+                                    </p>
+                                    <h3>
+                                        <font style="font-size: 18px;" class="o_default_snippet_text">$9.00</font>
+                                    </h3>
+                                    <a href="#" target="_blank" class="btn btn-alpha flat" data-original-title=""
+                                       title="">
+                                        <font style="color: rgb(255, 255, 255); font-size: 12px;">
+                                            <b class="o_default_snippet_text">Read More</b>
+                                        </font>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Grid Content End-->
+
+        <!--Snippet Footer Start-->
+        <template id="church_footer" name="Church Footer">
+            <section class="oe_structure oe_custom_bg" id="footer"
+                     style="background-image: url(&quot;/theme_church_ultimate_01/static/src/img/placeholder-image-1170.jpg&quot;);">
+                <div class="pt64 oe_img_bg" id="footer_16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">About Us</font>
+                                </h5>
+                                <p class="o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-2 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">Main links</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Home</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">About us</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Services</font>
+                                    </li>
+                                    <li>
+                                        <font style="color: rgb(255, 255, 255);">i'm new here</font>
+                                    </li>
+                                    <li>
+                                        <font color="#ffffff">Events</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Blog</font>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <font style="color: rgb(255, 255, 255);">Contact</font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-3 pb16">
+                                <h5 class="pb16">
+                                    <font style="color: rgb(255, 255, 255);">Letest Sermons&amp;nbsp;</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <font style="color: rgb(255, 255, 255);">Come Study The Bible With us</font>
+                                    </li>
+                                    <li>
+                                        <font style="color: rgb(255, 255, 255);">Church Leaders meeting</font>
+                                    </li>
+                                    <li>
+                                        <font style="color: rgb(255, 255, 255);">All Things Are Possible</font>
+                                    </li>
+                                    <li>
+                                        <font style="color: rgb(255, 255, 255);">Abounding In The Work Of The Lord
+                                        </font>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 pb16">
+                                <h5 class="pb16 o_default_snippet_text">
+                                    <font style="color: rgb(255, 255, 255);">Contact Us</font>
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <address class="o_default_snippet_text">
+                                            <b class="o_default_snippet_text">
+                                                <font style="color: rgb(255, 255, 255);">
+                                                    <span>Address</span>
+                                                    <span t-field="res_company.street" class="text-white"/>
+                                                    <span t-field="res_company.city" class="text-white"/>
+                                                    <span t-field="res_company.state_id.name" class="text-white"/>
+                                                    <span t-field="res_company.zip" class="text-white"/>
+                                                    <span t-field="res_company.country_id.name" class="text-white"/>
+                                                </font>
+                                            </b>
+                                        </address>
+                                    </li>
+                                    <li class="pb16 o_default_snippet_text">
+                                        <b class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">
+                                                <span>Email</span>
+                                                <span t-field="res_company.email"/>
+                                            </font>
+                                        </b>
+                                    </li>
+                                    <li class="o_default_snippet_text">
+                                        <b class="o_default_snippet_text">
+                                            <font style="color: rgb(255, 255, 255);">
+                                                <span>Phone</span>
+                                                <span t-field="res_company.phone"/>
+                                            </font>
+                                        </b>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <!--Snippet Footer End-->
+
+
+        <!--Snippets Assets Start-->
+        <template id="demo_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_banner']" position="before">
+                <div id="snippet_demo_snippets" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-th-large"/>
+                        Church Ultimate 01
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_church_ultimate_01.church_banner"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_church_ultimate_01.church_about_us"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_church_ultimate_01.church_img_hover"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_church_ultimate_01.church_events"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_church_ultimate_01.church_blog"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_church_ultimate_01.church_contact_us"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_church_ultimate_01.church_grid_content"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                        <t t-snippet="theme_church_ultimate_01.church_footer"
+                           t-thumbnail="/theme_church_ultimate_01/static/src/img/snippet-icons/demo-snippet-icon.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <!--Snippets Assets End-->
+    </data>
+</odoo>

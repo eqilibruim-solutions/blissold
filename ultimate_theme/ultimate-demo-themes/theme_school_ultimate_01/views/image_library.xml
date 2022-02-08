@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_school_ultimate_01.image_content_1</field>
+            <field name="name">theme_school_ultimate_01.image_content_1</field>
+            <field name="url">/theme_school_ultimate_01/static/src/img/library/demo-6-section-img.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_school_ultimate_01.image_content_2</field>
+            <field name="name">theme_school_ultimate_01.image_content_2</field>
+            <field name="url">/theme_school_ultimate_01/static/src/img/library/contact_us_bg.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_school_ultimate_01.image_content_3</field>
+            <field name="name">theme_school_ultimate_01.image_content_3</field>
+            <field name="url">/theme_school_ultimate_01/static/src/img/library/our_services.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_school_ultimate_01.image_content_4</field>
+            <field name="name">theme_school_ultimate_01.image_content_4</field>
+            <field name="url">/theme_school_ultimate_01/static/src/img/library/home_school2_slider_bg.jpg</field>
+        </record>
+        
+        
+    </data>
+</odoo>

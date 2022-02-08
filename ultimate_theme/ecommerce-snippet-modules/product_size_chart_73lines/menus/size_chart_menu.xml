@@ -1,0 +1,7 @@
+<?xml  version="1.0"?>
+<odoo>
+    <data>
+        <menuitem id="size_chart_menu" action="size_chart_action" parent="website_sale.menu_product_settings"
+        web_icon="product_size_chart_73lines,static/description/icon.png"/>
+    </data>
+</odoo>

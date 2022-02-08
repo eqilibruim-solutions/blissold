@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template name="Searchbox With Dropdown" id="searchbox_with_dropdown">
+        <section id="searchbox_with_dropdown">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                        <div>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding:10px;">
+                                <span class="fa fa-search text-dark fa-2x"/>
+                            </a>
+                            <ul class="dropdown-menu py-0 px-3 border-0 bg-transparent" role="menu">
+                                <div>
+                                    <li class="navbar-form form-group m-0">
+                                        <t t-if="category">
+                                            <form class="pt-2"
+                                                  t-att-action="keep('/shop'+ ('/category/'+slug(category)) if category else '', search=0)"
+                                                  method="get"
+                                                  t-att-class="search_class">
+
+                                                <t t-if="attrib_values">
+                                                    <t t-foreach="attrib_values"
+                                                       t-as="a">
+                                                        <input type="hidden"
+                                                               name="attrib"
+                                                               t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                                    </t>
+                                                </t>
+                                                <div class="input-group">
+                                                    <input type="text" name="search"
+                                                           class="bg-200 text-white border border-right-0 form-control oe_search_box rounded-0 search-query"
+                                                           placeholder="Enter Keyword to Search..."
+                                                           t-att-value="search"/>
+                                                    <div class="input-group-append">
+                                                        <button type="submit"
+                                                                class="bg-200 border border-bottom border-left-0 border-right border-top btn oe_search_button rounded-0"
+                                                                aria-label="Search" title="Search">
+                                                            <i class="fa fa-search text-beta"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                        </t>
+                                        <t t-if="not category">
+                                            <form action="/shop" method="get"
+                                                  t-att-class="search_class">
+
+                                                <t t-if="attrib_values">
+                                                    <t t-foreach="attrib_values"
+                                                       t-as="a">
+                                                        <input type="hidden"
+                                                               name="attrib"
+                                                               t-att-value="'%s-%s' % (a[0], a[1])"/>
+                                                    </t>
+                                                </t>
+                                                <div class="input-group">
+                                                    <input type="text" name="search"
+                                                           class="bg-200 text-white border border-right-0 form-control oe_search_box rounded-0 search-query"
+                                                           placeholder="Enter Keyword to Search..."
+                                                           t-att-value="search"/>
+                                                    <div class="input-group-append">
+                                                        <button type="submit"
+                                                                class="bg-200 border border-bottom border-left-0 border-right border-top btn oe_search_button rounded-0"
+                                                                aria-label="Search" title="Search">
+                                                            <i class="fa fa-search text-beta"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </t>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

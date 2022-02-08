@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="action_res_city">
+        <field name="name">Cities</field>
+        <field name="res_model">res.city</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_res_city"
+        name="Cities"
+        parent="contacts.menu_localisation"
+        action="action_res_city" />
+
+</odoo>

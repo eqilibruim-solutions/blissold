@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="operation_menu_root"
+        name="Operations"
+        web_icon="sale_management,static/description/icon.png"
+        active="True"
+        sequence="1"/>
+
+    <record model="ir.ui.view" id="view_sale_order_tree_inherit">
+        <field name="name">sale.order.tree.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='expected_date']" position="replace">
+            </xpath>
+            <xpath expr="//field[@name='commitment_date']" position="replace">
+                
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="schedule_id" />
+                <field name="pickup_location_id" />
+            </xpath>
+<!--             <xpath expr="//field[@name='create_date']" position="replace">
+                <field name="date_order" />
+            </xpath> -->
+
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_order_tree">
+        <field name="name">sale.order.tree</field>
+        <field name="model">sale.order</field>
+        <field name="type">tree</field>
+        <field name="priority">0</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="partner_id" />
+                <field name="mobile" />
+                <field name="delivery_area_id" />
+                <field name="delivery_zone_id" />
+                <field name="pref_date" />
+                <field name="time_slot" />
+                <field name="pickup_location_id" />
+                <field name="schedule_id" />
+                <field name="driver_id" />
+                <field name="shipping_state" />
+                <field name="state" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="sale_order_action_to_deliver" model="ir.actions.act_window">
+        <field name="name">Orders To Deliver</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="domain">[('state', 'in', ('sale', 'done')),
+                              ('shipping_state', '=', 'to_deliver'),
+                              ('dest_partner_longitude', '!=', False),
+                              ('dest_partner_latitude', '!=', False),
+
+                              ]</field>
+        <field name="context">{'show_sale': True, 'search_default_order_confirmed': 1, 'create': False}</field>
+        <field name="search_view_id" ref="website_sale.view_sales_order_filter_ecommerce"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_empty_folder">
+                You don't have any order to deliver from the website
+            </p>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_order_form_inherit">
+        <field name="name">sale.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_shipping_id']" position="after">
+                <field name="dest_makani_number" />
+                <field name="pref_date" required="1"/>
+                <field name="time_slot" />
+                <label for="partner_longitude" string="Geolocalisation"/>
+                <div class="o_row">
+                    <span> Lng </span>
+                    <field name="partner_longitude" class="oe_inline"/>
+                    <br/>
+                    <span> Lat </span>
+                    <field name="partner_latitude" class="oe_inline"/>
+                </div>
+                <field name="location_url" widget="url"/>
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Tracking">
+                    <field name="sale_order_tracking_ids" options="{'no_create': True,'no_edit': True}">
+                        <tree edit="false" create="false">
+                            <field name="create_date" />
+                            <field name="create_uid" />
+                            <field name="department_id" />
+                            <field name="activity_id" />
+                            <field name="state_id" />
+                        </tree>
+                        <form edit="false" create="false">
+                            <group>
+                                <field name="create_date" readonly="1"/>
+                                <field name="activity_id" readonly="1"/>
+                                <field name="state_id" readonly="1"/>
+                            </group>
+                        </form>
+                    </field>
+                </page>
+            </xpath>
+            <xpath expr="//div[@name='button_box']" position="inside">
+                    <field name="transaction_ids" invisible="1"/>
+                    <button type="object" name="action_payment_transaction" class="oe_stat_button" icon="fa-credit-card" attrs="{'invisible': [('transaction_ids', '=', False)]}" groups="base.group_user">
+                        <span>Payments</span>
+                    </button>
+            </xpath>
+            <xpath expr="//field[@name='state']" position="before">
+                <button type="object" name="create_cod_transaction" string="Create COD" attrs="{'invisible': [('transaction_ids', '=', False)]}" />
+                <button type="action" name="%(action_sale_tracking_wizard)d" string="Log Status" />
+            </xpath>
+
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_order_kanban_inherit">
+        <field name="name">sale.order.kanban.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_sale_order_kanban" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="city_id" />
+                <field name="dest_mobile" />
+                <field name="mobile" />
+                <field name="partner_id" />
+                <field name="partner_shipping_id" />
+                <field name="location" />
+                <field name="dest_location_url" />
+                <field name="cod_amount" />
+                <field name="shipping_state" />
+                <field name="last_track" />
+                <field name="pickup_location_id" />
+                <field name="vehicle_id" />
+                <field name="schedule_id" />
+                <field name="vehicle_location" />
+                <field name="vehicle_location_url" />
+
+            </xpath>
+            <xpath expr="//div[hasclass('o_kanban_record_bottom')]" position="before">
+                <div t-esc="record.last_track.value"/>
+
+                <div class="o_kanban_record_subtitle" name="delivery_button">
+                    <div>
+                        Order by: <span t-esc="record.partner_id.value" /> <span t-esc="record.mobile.value" />
+                        <br/>
+                        Recipient: <span t-esc="record.partner_shipping_id.value" /> <span t-esc="record.dest_mobile.value" />
+                    </div>
+                    <br/>
+                    <div attrs="{'invisible': [('pickup_location_id', '=', False)]}">
+                        Pickup : <span t-esc="record.pickup_location_id.value"/>
+                    </div>
+                    <div attrs="{'invisible': [('shipping_state', '!=', 'dispatched')]}">
+                        <a type="action" 
+                            role="button" 
+                            context="{'default_activity_id':%(sale_order_tracking_activity_delivery)d,
+                                     'default_state_id':%(tracking_activity_state_delivery_success)d}"
+                            name="%(action_sale_tracking_wizard)d" class="btn btn-success">
+                            Delivered
+                        </a>  
+                        <a type="action" 
+                            role="button" 
+                            context="{'default_activity_id':%(sale_order_tracking_activity_exception)d,
+                                     'default_state_id':%(tracking_activity_state_delivery_failure)d}"
+                            name="%(action_sale_tracking_wizard)d" class="btn btn-danger">
+                            Failed
+                        </a>     
+                        <a t-att-href="record.dest_location_url.raw_value" target="new" role="button" t-if="record.dest_location_url.raw_value" class="btn btn-primary">
+                            <i class="fa fa-map-marker"/> Direction
+                        </a>     
+                    </div>   
+                    <br/>
+                    <div class="text-warning" t-if="record.cod_amount.raw_value">
+                        <i class="fa fa-warning"/>COD <field name="cod_amount" widget="monetary"/>
+                    </div>
+                    <div>
+                        <i class="fa fa-truck"/> <field name="vehicle_id"/> : <field name="vehicle_location"/> 
+                        <a t-att-href="record.vehicle_location_url.raw_value" target="new" role="button" t-if="record.vehicle_location_url.raw_value">
+                            <span>
+                                <i class="fa fa-map-marker"/>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="o_kanban_record_subtitle" attrs="{'invisible': [('shipping_state', '!=', 'to_deliver')]}">
+                    <div>
+                        <a type="action" 
+                            role="button" 
+                            context="{'default_activity_id':%(sale_order_tracking_activity_dispatched)d,
+                                     'default_state_id':%(tracking_activity_state_dispatched_success)d}"
+                            name="%(solibre_sale_cod.action_sale_tracking_wizard)d" class="btn btn-success"
+                            attrs="{'invisible': [('pickup_location_id', '!=', False)]}">
+                            Dispatched
+                        </a>  
+                        <a type="action" 
+                            role="button" 
+                            context="{'default_activity_id':%(sale_order_tracking_activity_delivery)d,
+                                     'default_state_id':%(tracking_activity_state_delivery_success)d}"
+                            name="%(action_sale_tracking_wizard)d" class="btn btn-success"
+                            attrs="{'invisible': [('pickup_location_id', '=', False)]}"
+                            >
+                            Delivered
+                        </a>      
+                    </div>   
+                    <br/>
+                    <div>
+                        <i class="fa fa-truck"/> <field name="vehicle_id" /> : <field name="vehicle_location" /> 
+                        <a t-att-href="record.vehicle_location_url.raw_value" target="new" 
+                            role="button" t-if="record.vehicle_location_url.raw_value">
+                            <span>
+                                <i class="fa fa-map-marker"/>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </xpath>
+
+            <xpath expr="//div[hasclass('oe_kanban_bottom_right')]" position="replace">
+                <div class="oe_kanban_bottom_right">
+                    <field name="shipping_state" widget="label_selection" />
+                </div>
+            </xpath>
+
+        </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_delivery_time_slot">
+        <field name="name">Delivery time slots</field>
+        <field name="res_model">delivery.time.slot</field>
+        <field name="view_mode">tree,form</field>
+        <field name="limit">80</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_delivery_time_slot"
+        name="Time Slots"
+        parent="sale.menu_sales_config"
+        action="action_delivery_time_slot" />
+
+
+</odoo>

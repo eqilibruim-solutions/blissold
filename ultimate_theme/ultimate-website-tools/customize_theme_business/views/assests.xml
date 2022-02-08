@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="customize_theme_assets_1" name="Theme Assets 1"
+              inherit_id="website.assets_frontend">
+        <xpath expr="." position="inside">
+            <!--            <script type="text/javascript"-->
+            <!--                    src="/customize_theme_business/static/src/js/theme_custom.js"/>-->
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/navbar.scss"/>
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/divider.scss"/>
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/mid_header_default.scss"/>
+
+        </xpath>
+    </template>
+
+    <template id="customize_theme_assets_2" name="Theme Assets 2"
+              inherit_id="website.assets_frontend">
+        <xpath expr="//script[last()]" position="after">
+<!--            <script type="text/javascript"-->
+<!--                    src="/customize_theme_business/static/src/js/widgets/widgets.js"/>-->
+            <script type="text/javascript"
+                    src="/customize_theme_business/static/src/js/theme_custom.js"/>
+        </xpath>
+    </template>
+
+    <template id="option_all_btn"
+              inherit_id="website._assets_primary_variables">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/all_btn_design.scss"/>
+        </xpath>
+    </template>
+
+    <template id="option_input_1"
+              inherit_id="website._assets_primary_variables" active="False  ">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/input_1.scss"/>
+        </xpath>
+    </template>
+    <template id="option_input_2"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/input_2.scss"/>
+        </xpath>
+    </template>
+    <template id="option_input_3"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/input_3.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_1"
+              inherit_id="website._assets_primary_variables"
+              active="True">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_2"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_1.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_3"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_2.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_4"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_3.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_5"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_4.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_6"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_5.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_7"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_box_design.scss"/>
+        </xpath>
+    </template>
+
+    <template id="option_header_8"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_modern.scss"/>
+        </xpath>
+    </template>
+    <template id="option_header_9" inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript"
+                    src="/customize_theme_business/static/src/js/header_simple.js"/>
+        </xpath>
+    </template>
+    <template id="option_header_10_js"
+              inherit_id="website.assets_frontend" active="False">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript"
+                    src="/customize_theme_business/static/src/js/header_transparent.js"/>
+        </xpath>
+    </template>
+    <template id="option_header_10_scss"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/header_semitransparent.scss"/>
+        </xpath>
+    </template>
+
+    <template id="option_header_12_js"
+              inherit_id="website.assets_frontend" active="False">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript"
+                    src="/customize_theme_business/static/src/js/header_fix_bottom.js"/>
+        </xpath>
+    </template>
+
+    <template id="option_mid_header_default"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+        </xpath>
+    </template>
+    <template id="option_mid_header_1"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/mid_header_1.scss"/>
+        </xpath>
+    </template>
+
+    <template id="option_mid_header_6"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/mid_header_6.scss"/>
+        </xpath>
+    </template>
+    <template id="option_mid_header_7"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/mid_header_7.scss"/>
+        </xpath>
+    </template>
+    <template id="option_mid_header_8"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/mid_header_8.scss"/>
+        </xpath>
+    </template>
+    <template id="option_mid_header_9"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/mid_header_9.scss"/>
+        </xpath>
+    </template>
+
+    <!-- Layout options -->
+    <template id="option_layout_padded_variables"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/layout_padded.scss"/>
+        </xpath>
+    </template>
+    <template id="option_layout_fluid_variables"
+              inherit_id="website._assets_primary_variables" active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/layout_fluid.scss"/>
+        </xpath>
+    </template>
+    <template id="option_layout_default_container_variables"
+              inherit_id="website._assets_primary_variables" active="True">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/layout_default_container.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_pills" inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_pills.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_strips" inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_strips.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_hover_top_border"
+              inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_hover_top_border.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_hover_bottom_border"
+              inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_hover_bottom_border.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_pils_square" inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_pills_square.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_pils_round" inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_pills_round.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_color_primary"
+              inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_color_primary.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_transparent_font_default"
+              inherit_id="website.assets_frontend"
+              active="True">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_transparent_font_default.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_transparent_font_white"
+              inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_transparent_font_white.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_transparent_font_black"
+              inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_transparent_font_black.scss"/>
+        </xpath>
+    </template>
+    <template id="option_nav_transparent_font_primary"
+              inherit_id="website.assets_frontend"
+              active="False">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss"
+                  href="/customize_theme_business/static/src/scss/nav_transparent_font_primary.scss"/>
+        </xpath>
+    </template>
+
+
+    <!--Navbar Shadow On/Off-->
+    <template id="navbar_shadow_on_off" inherit_id="portal.frontend_layout"
+              customize_show="True"
+              name="Navbar Shadow Off" active="False">
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_nav_shadow'}"
+                       separator=" "/>
+        </xpath>
+    </template>
+    <!--Navbar Border On/Off-->
+    <template id="navbar_border_on_off" inherit_id="portal.frontend_layout"
+              customize_show="True"
+              name="Navbar Border Off" active="False">
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_nav_border_off'}"
+                       separator=" "/>
+        </xpath>
+    </template>
+</odoo>

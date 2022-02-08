@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="image_content_1" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_1</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_1</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_04.png</field>
+        </record>
+        
+        
+        <record id="image_content_2" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_2</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_2</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/grilled-shish-kebab.png</field>
+        </record>
+        
+        
+        <record id="image_content_3" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_3</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_3</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/rosted_chicken.png</field>
+        </record>
+        
+        
+        <record id="image_content_4" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_4</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_4</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/grilled-meat.png</field>
+        </record>
+        
+        
+        <record id="image_content_5" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_5</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_5</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/lamemade.png</field>
+        </record>
+        
+        
+        <record id="image_content_6" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_6</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_6</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/news_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_7" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_7</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_7</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_10.png</field>
+        </record>
+        
+        
+        <record id="image_content_8" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_8</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_8</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/news_03.png</field>
+        </record>
+        
+        
+        <record id="image_content_9" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_9</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_9</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/sticks.png</field>
+        </record>
+        
+        
+        <record id="image_content_10" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_10</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_10</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/today_special_background.png</field>
+        </record>
+        
+        
+        <record id="image_content_11" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_11</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_11</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/onion_ring.png</field>
+        </record>
+        
+        
+        <record id="image_content_12" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_12</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_12</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_06.png</field>
+        </record>
+        
+        
+        <record id="image_content_13" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_13</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_13</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_03.png</field>
+        </record>
+        
+        
+        <record id="image_content_14" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_14</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_14</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_08.png</field>
+        </record>
+        
+        
+        <record id="image_content_15" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_15</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_15</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/news_04.png</field>
+        </record>
+        
+        
+        <record id="image_content_16" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_16</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_16</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/cta_banner.png</field>
+        </record>
+        
+        
+        <record id="image_content_17" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_17</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_17</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_05.png</field>
+        </record>
+        
+        
+        <record id="image_content_18" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_18</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_18</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/restaurant_ecommerce_ultimate__logo_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_19" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_19</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_19</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_11.png</field>
+        </record>
+        
+        
+        <record id="image_content_20" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_20</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_20</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_7.png</field>
+        </record>
+        
+        
+        <record id="image_content_21" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_21</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_21</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/restaurant_ecommerce_ultimate_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_22" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_22</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_22</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/banana_cream.png</field>
+        </record>
+        
+        
+        <record id="image_content_23" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_23</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_23</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/main_banner.jpg</field>
+        </record>
+        
+        
+        <record id="image_content_24" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_24</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_24</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/grilled-chicken.png</field>
+        </record>
+        
+        
+        <record id="image_content_25" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_25</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_25</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_26" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_26</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_26</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_02.png</field>
+        </record>
+        
+        
+        <record id="image_content_27" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_27</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_27</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/coffee.png</field>
+        </record>
+        
+        
+        <record id="image_content_28" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_28</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_28</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/news_01.png</field>
+        </record>
+        
+        
+        <record id="image_content_29" model="theme.ir.attachment">
+            <field name="key">theme_restaurant_ecommerce_ultimate_01.image_content_29</field>
+            <field name="name">theme_restaurant_ecommerce_ultimate_01.image_content_29</field>
+            <field name="url">/theme_restaurant_ecommerce_ultimate_01/static/src/img/library/block_09.png</field>
+        </record>
+        
+        
+    </data>
+</odoo>

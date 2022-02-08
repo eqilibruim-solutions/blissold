@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <t t-extend="website.dashboard_header">
+        <t t-jquery="div.o_dashboard_common .o_box" t-operation="append">
+            <div t-if="widget.dashboards_data.sales.summary.order_to_deliver_count" class="o_inner_box o_dashboard_action" title="Send a recovery email to visitors who haven't completed their order." name="solibre_sale_cod.sale_order_action_to_deliver">
+                <div class="o_highlight"><t t-esc="widget.dashboards_data.sales.summary.order_to_deliver_count"/></div>
+                Orders to deliver
+            </div>
+        </t>
+    </t>
+</templates>

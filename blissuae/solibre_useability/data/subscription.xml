@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<odoo>
+
+    <!--
+        <record id="subscription_document_partner0" model="subscription.document">
+            <field eval="1" name="active"/>
+            <field name="model" ref="base.model_res_partner"/>
+            <field name="name">Partner</field>
+        </record>
+        <record id="subscription_document_fields_2" model="subscription.document.fields">
+            <field name="field" ref="base.field_res_partner_name"/>
+            <field name="value">false</field>
+            <field model="subscription.document" name="document_id" search="[('name', '=', u'Partner')]"/>
+        </record>
+        <record id="subscription_document_fields_3" model="subscription.document.fields">
+            <field name="field" ref="base.field_res_partner_child_ids"/>
+            <field model="subscription.document" name="document_id" search="[('name', '=', u'Partner')]"/>
+        </record>
+    -->
+    <record model="ir.cron" id="cron_for_instagram">
+        <field name="name">Instagram post</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="model_id" ref="model_instagram_post"/>
+        <field name="code">model.get_feedimages()</field>
+        <field name="state">code</field>
+    </record>
+
+    <record model="ir.cron" id="cron_for_prepayment">
+        <field name="name">Generate prepayment entries</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="active" eval="False"/>
+        <field name="model_id" ref="model_account_move"/>
+        <field name="code">model.run_scheduler()</field>
+        <field name="state">code</field>
+    </record>    
+</odoo>
