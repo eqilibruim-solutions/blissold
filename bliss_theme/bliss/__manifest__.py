@@ -22,7 +22,7 @@
         'views/shipping.xml',
         'views/payment.xml',
         'views/confirmation.xml',
-        'views/portal_home.xml',
+        #'views/portal_home.xml',
         'views/my_orders.xml',
 
         'views/assets.xml',
