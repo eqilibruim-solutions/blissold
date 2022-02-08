@@ -15,7 +15,7 @@
 
 
 
-    <template id="website_rating.rating_widget_stars_static" name="Rating: static star widget">
+    <template id="bliss.rating_widget_stars_static" name="Rating: static star widget">
         <t t-set="rating_avg" t-value="round(rating_avg * 100) / 100 / 2"/>
         <t t-set="val_decimal" t-value="round(rating_avg % 1, 1)"/>
         <t t-set="val_integer" t-value="int(rating_avg)"/>
